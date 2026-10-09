@@ -1,0 +1,68 @@
+Aeterna Global
+Licencias y alcance de la documentación
+Revisión del 9 de octubre de 2026
+
+Esta carpeta reúne los avisos de las dependencias identificadas en la vista
+previa completa v5 y documenta la tipografía de sus menús. Los textos de
+licencia se conservan íntegros en su idioma original. Las rutas del sitio
+mencionadas en estos documentos son relativas a dist/.
+
+TEXTOS INCLUIDOS
+
+Poppins-OFL-1.1.txt
+SIL Open Font License 1.1. Copyright 2020 The Poppins Project Authors.
+Fuente oficial consultada el 9 de octubre de 2026:
+https://raw.githubusercontent.com/google/fonts/main/ofl/poppins/OFL.txt
+Proyecto: https://github.com/itfoundry/Poppins
+SHA-256: 6be04893d770899a015649c7aa3b582f871b272f8747a92b78b17c3e5c8b2573
+
+Baskervville-OFL-1.1.txt
+SIL Open Font License 1.1. Copyright 2018 The Baskervville Project Authors.
+Fuente oficial consultada el 9 de octubre de 2026:
+https://raw.githubusercontent.com/google/fonts/main/ofl/baskervville/OFL.txt
+Proyecto: https://github.com/anrt-type/ANRT-Baskervville
+SHA-256: 93e68d5aa74b1d3194a26c3ad4003b14058aa488c4861416bad8125a96dcf1d9
+
+PhotoSwipe-5.4.4-MIT.txt
+Licencia MIT de PhotoSwipe 5.4.4 y PhotoSwipe Lightbox 5.4.4.
+Versión identificada en las cabeceras de los dos archivos JavaScript
+conservados en vendor/photoswipe/. El texto coincide byte por byte con
+vendor/photoswipe/LICENSE y con la licencia de la etiqueta oficial v5.4.4:
+https://raw.githubusercontent.com/dimsemenov/PhotoSwipe/v5.4.4/LICENSE
+Proyecto: https://photoswipe.com
+SHA-256: cde09603222c99259f63c7d082fe20ecf855e86b5a4c5bd7ebff1fa93c653bc1
+Las cabeceras de distribución indican Dmytro Semenov, 2024. El archivo de
+licencia conserva la atribución original Dmitry Semenov, 2014-2022.
+La versión v5 conserva estos archivos; su visor de imágenes actual utiliza
+la navegación compartida de galerías y no inicializa el anterior overlay.
+
+scroll-world-THIRD-PARTY-NOTICES.txt
+Copia íntegra del aviso ya incluido en menus/THIRD-PARTY-NOTICES.txt.
+Licencia MIT; Copyright (c) 2026 cyw.
+Procedencia declarada del patrón de presentación adaptado:
+https://github.com/oso95/scroll-world
+https://github.com/oso95/scroll-world/blob/main/skills/scroll-world/references/scrub-engine.js
+El visor de menús adapta la presentación por escenas a imágenes existentes.
+No se distribuye el motor original de reproducción de vídeo.
+
+ALCANCE Y PENDIENTES
+
+Las licencias MIT de las dependencias y OFL de las fuentes identificadas
+no se extienden a todas las fotografías, diseños, marcas ni tipografías de
+terceros presentes en el proyecto. No convierten el sitio completo ni los
+PDF en contenido de dominio público o de reutilización irrestricta.
+
+No se incorporan a esta carpeta archivos de fuente TTF, OTF, CFF o WOFF.
+La ausencia de archivos de fuente independientes no elimina las fuentes
+ya incrustadas en los PDF existentes. Consulte FUENTES-Y-LICENCIAS.txt
+para los recursos identificados y los comprobantes pendientes.
+
+Antes de ampliar la publicación o reutilización comercial, deben verificarse
+las licencias de Austria y de las demás fuentes originales sin justificante,
+además de la procedencia y los derechos concretos de las imágenes de stock.
+El documento ../documentacion/PROCEDENCIA.md detalla el alcance de las atribuciones visuales.
+
+Austria-author-notice.txt conserva el aviso de licencia original recibido con
+la copia de Austria consultada. Se adjunta como evidencia de las condiciones
+del autor, no como comprobante de una compra comercial. No se incluye
+ningún binario de esa fuente.

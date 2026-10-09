@@ -1,0 +1,110 @@
+Aeterna Global
+Tipografía web y de los menús
+Revisión del 9 de octubre de 2026
+
+1. TIPOGRAFÍA DE LA INTERFAZ WEB
+
+La interfaz utiliza principalmente la pila de sistema Arial, Helvetica,
+sans-serif. El navegador elige una fuente instalada o su alternativa local.
+No se incluyen binarios de Arial ni Helvetica, ni se descarga una versión
+web de esas fuentes. No hay declaraciones @font-face ni archivos de fuente
+TTF, OTF, CFF, WOFF o WOFF2 en dist/.
+
+Los estilos conservados también contienen Georgia, Times New Roman, las
+familias de sistema -apple-system, BlinkMacSystemFont y Segoe UI, y valores
+inherit o genéricos serif/sans-serif. Algunas declaraciones pueden estar
+sobrescritas por el tema actual. Son referencias a fuentes de sistema, no
+fuentes redistribuidas; el resultado depende del navegador y del equipo.
+
+2. FUENTES DE LA TRADUCCIÓN DE DESAYUNOS
+
+La traducción incorpora estas sustituciones aprobadas:
+- Poppins SemiBold para títulos.
+- Poppins ExtraBold para la portada.
+- Baskervville Regular para descripciones.
+- Baskervville Italic para texto en cursiva.
+
+Las copias de Poppins utilizadas se identifican en sus metadatos como
+versión 4.004 y las de Baskervville como versión 1.100. Sus metadatos citan
+la SIL Open Font License 1.1 y coinciden con las atribuciones de las licencias
+oficiales incluidas en esta carpeta. La OFL se aplica al software de fuente;
+no impone esa misma licencia a los documentos creados con él.
+
+La caligrafía Austria se conservó. Además de los subconjuntos originales,
+el PDF de desayunos distribuido contiene un recurso Austria Regular
+incrustado completo. La nota del autor que acompaña a la fuente limita
+su uso gratuito a proyectos personales, sin ánimo de lucro y benéficos,
+y solicita adquirir licencia para el uso comercial. No se ha aportado
+un comprobante de esa licencia comercial.
+
+3. FUENTES DETECTADAS EN LOS PDF ORIGINALES SUMINISTRADOS
+
+Carta de desayunos:
+- Austria.
+- Gilroy Heavy.
+- FONTSPRING DEMO Cosmata Bold Regular.
+- Acumin Variable Concept.
+- Bell MT y Bell MT Italic.
+
+Carta de pastas:
+- Harmond SemiBold Condensed.
+- Poppins Regular y Poppins Light Italic.
+- Chapaza Regular.
+
+Estos nombres proceden de los recursos de fuente incrustados de los
+PDF originales. Los prefijos técnicos de subconjunto se han omitido para
+facilitar su lectura. La palabra DEMO forma parte del nombre de Cosmata
+detectado en el archivo; no se interpreta como una licencia comercial.
+
+4. RECURSOS QUE CONTIENEN LOS PDF DISTRIBUIDOS
+
+menus/assets/downloads/breakfast-menu-aud-demo.pdf
+- Conserva recursos originales de Austria, Gilroy Heavy, Cosmata DEMO,
+  Acumin Variable Concept, Bell MT y Bell MT Italic.
+- Añade Poppins SemiBold, Poppins ExtraBold, Baskervville Regular,
+  Baskervville Italic y Austria Regular.
+- Las cuatro fuentes de sustitución OFL y Austria Regular constan como
+  incrustadas completas; las fuentes originales constan como subconjuntos.
+
+menus/assets/downloads/pasta-menu-aud-demo.pdf
+- Contiene Harmond SemiBold Condensed, Chapaza Regular, Poppins Regular
+  y Poppins Light Italic como recursos incrustados por subconjuntos.
+- También contiene una referencia PDF a Helvetica sin incrustar.
+- Poppins Regular y Light Italic empleadas en la traducción tienen la misma
+  atribución OFL y versión 4.004 documentadas en esta carpeta.
+
+La presencia de un recurso de fuente en el PDF no demuestra que todas sus
+formas se sigan mostrando: pueden quedar recursos heredados después de
+la traducción. Tampoco acredita por sí sola derechos de uso, incrustación,
+modificación o redistribución. No se han modificado estos PDF durante la
+preparación de la documentación.
+
+5. LICENCIAS NO ACREDITADAS
+
+No se han aportado licencias o comprobantes que acrediten el alcance de
+uso comercial o redistribución de Austria, Gilroy, Cosmata DEMO, Acumin,
+Bell MT, Harmond o Chapaza en este proyecto. Esta observación documenta
+la falta de evidencia revisada; no determina que el titular carezca de
+licencias adquiridas por otra vía.
+
+La copia de Chapaza examinada identifica a Steve Gardner, copyright 2014,
+pero no incluye en sus metadatos un texto de licencia. Los indicadores
+tecnológicos de permisos de incrustación no sustituyen una licencia.
+
+Para reeditar, entregar fuentes editables o reutilizar comercialmente estos
+materiales, verificar primero las licencias concretas y sus límites. Si no
+existen permisos suficientes, sustituir las fuentes afectadas y volver a
+exportar los documentos. La aprobación de una elección visual no equivale
+a una licencia del titular de la fuente.
+
+6. IMÁGENES RASTERIZADAS
+
+Las páginas WebP de los menús y sus miniaturas contienen letras convertidas
+en píxeles. No necesitan cargar una fuente en el navegador. Esto conserva
+el aspecto de las cartas, pero no acredita los derechos de la obra o de
+las fuentes con las que se produjo.
+
+Las piezas de campaña JPG y MP4 también contienen su tipografía dentro
+de la imagen o del vídeo. No se ha identificado de forma fiable la fuente
+de cada pieza a partir de esos archivos finales. No se atribuye por
+suposición a Arial, Poppins ni a otra familia.

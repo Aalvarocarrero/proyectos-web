@@ -1,0 +1,2 @@
+/* Studio navigation and shared contact controls; approved menu composition retained. */
+.motion-control{right:auto!important;left:max(18px,env(safe-area-inset-left))!important;bottom:max(20px,env(safe-area-inset-bottom))!important}.floating-contact img{width:32px;height:32px}.floating-contact a{color:inherit}.social-arrow,.whatsapp-button-arrow{display:none!important}@media(max-width:760px){.site-header nav{gap:18px}.site-header nav a{font-size:10px}.motion-control{left:12px!important;bottom:max(16px,env(safe-area-inset-bottom))!important}}

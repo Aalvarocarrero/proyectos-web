@@ -1,0 +1,574 @@
+[
+  {
+    "number": 1,
+    "original": "01-064C6C49-editada.png",
+    "width": 2531,
+    "height": 1423,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-01-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 16626
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-01-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 46188
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-01-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 103602
+      }
+    }
+  },
+  {
+    "number": 2,
+    "original": "02-0AE5212D-editada.png",
+    "width": 1533,
+    "height": 2726,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-02-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 18460
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-02-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 56682
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-02-1920.webp",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 115312
+      }
+    }
+  },
+  {
+    "number": 3,
+    "original": "03-0C583943-editada.png",
+    "width": 2584,
+    "height": 1453,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-03-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 22112
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-03-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 75388
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-03-1920.webp",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 163042
+      }
+    }
+  },
+  {
+    "number": 4,
+    "original": "04-1A860400-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-04-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34410
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-04-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 155796
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-04-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 376988
+      }
+    }
+  },
+  {
+    "number": 5,
+    "original": "05-2ED49FCE-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-05-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 31278
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-05-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 89778
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-05-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 181746
+      }
+    }
+  },
+  {
+    "number": 6,
+    "original": "06-309D81E2-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-06-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 14616
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-06-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 41656
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-06-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 90178
+      }
+    }
+  },
+  {
+    "number": 7,
+    "original": "07-30C504A7-editada.png",
+    "width": 1536,
+    "height": 2732,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-07-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 65470
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-07-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 201148
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-07-1920.webp",
+        "width": 1079,
+        "height": 1920,
+        "bytes": 392684
+      }
+    }
+  },
+  {
+    "number": 8,
+    "original": "08-3B929117-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-08-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 57818
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-08-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 165828
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-08-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 319874
+      }
+    }
+  },
+  {
+    "number": 9,
+    "original": "09-55C5F2AE-editada.png",
+    "width": 2691,
+    "height": 1513,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-09-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 29716
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-09-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 107934
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-09-1920.webp",
+        "width": 1920,
+        "height": 1080,
+        "bytes": 212912
+      }
+    }
+  },
+  {
+    "number": 10,
+    "original": "10-79EEC5E1-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-10-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 67048
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-10-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 282996
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-10-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 637416
+      }
+    }
+  },
+  {
+    "number": 11,
+    "original": "11-87973E9C-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-11-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 16258
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-11-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 55560
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-11-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 121742
+      }
+    }
+  },
+  {
+    "number": 12,
+    "original": "12-8A921255-editada.png",
+    "width": 2627,
+    "height": 1477,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-12-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 34304
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-12-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 124418
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-12-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 254050
+      }
+    }
+  },
+  {
+    "number": 13,
+    "original": "13-903363B6-editada.png",
+    "width": 1536,
+    "height": 2732,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-13-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 21364
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-13-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 78574
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-13-1920.webp",
+        "width": 1079,
+        "height": 1920,
+        "bytes": 165688
+      }
+    }
+  },
+  {
+    "number": 14,
+    "original": "14-949EBABD-editada.png",
+    "width": 2656,
+    "height": 1493,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-14-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 51026
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-14-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 177118
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-14-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 350478
+      }
+    }
+  },
+  {
+    "number": 15,
+    "original": "15-ACFE2FE6-editada.png",
+    "width": 1536,
+    "height": 2732,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-15-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 24890
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-15-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 76506
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-15-1920.webp",
+        "width": 1079,
+        "height": 1920,
+        "bytes": 181166
+      }
+    }
+  },
+  {
+    "number": 16,
+    "original": "16-AFBD192D-editada.png",
+    "width": 1523,
+    "height": 2708,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-16-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 18510
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-16-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 71114
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-16-1920.webp",
+        "width": 1080,
+        "height": 1920,
+        "bytes": 158878
+      }
+    }
+  },
+  {
+    "number": 17,
+    "original": "17-B3D70646-editada.png",
+    "width": 2732,
+    "height": 1536,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-17-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 68956
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-17-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 223794
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-17-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 456760
+      }
+    }
+  },
+  {
+    "number": 18,
+    "original": "18-D003B45F-editada.png",
+    "width": 1536,
+    "height": 2732,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-18-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 21332
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-18-1280.webp",
+        "width": 720,
+        "height": 1280,
+        "bytes": 63610
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-18-1920.webp",
+        "width": 1079,
+        "height": 1920,
+        "bytes": 122284
+      }
+    }
+  },
+  {
+    "number": 19,
+    "original": "19-D008F1ED-editada.png",
+    "width": 2661,
+    "height": 1496,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-19-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 36006
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-19-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 107154
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-19-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 217438
+      }
+    }
+  },
+  {
+    "number": 20,
+    "original": "20-DAE6D432-editada.png",
+    "width": 2601,
+    "height": 1462,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-20-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 27536
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-20-1280.webp",
+        "width": 1280,
+        "height": 719,
+        "bytes": 87612
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-20-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 174120
+      }
+    }
+  },
+  {
+    "number": 21,
+    "original": "21-DD96F192-editada.png",
+    "width": 1376,
+    "height": 2448,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-21-640.webp",
+        "width": 360,
+        "height": 640,
+        "bytes": 27218
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-21-1280.webp",
+        "width": 719,
+        "height": 1280,
+        "bytes": 78464
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-21-1920.webp",
+        "width": 1079,
+        "height": 1920,
+        "bytes": 185140
+      }
+    }
+  },
+  {
+    "number": 22,
+    "original": "22-F8759E59-editada.png",
+    "width": 2608,
+    "height": 1466,
+    "versions": {
+      "640": {
+        "url": "/assets/maternity/gold-coast-maternity-22-640.webp",
+        "width": 640,
+        "height": 360,
+        "bytes": 20578
+      },
+      "1280": {
+        "url": "/assets/maternity/gold-coast-maternity-22-1280.webp",
+        "width": 1280,
+        "height": 720,
+        "bytes": 73720
+      },
+      "1920": {
+        "url": "/assets/maternity/gold-coast-maternity-22-1920.webp",
+        "width": 1920,
+        "height": 1079,
+        "bytes": 154682
+      }
+    }
+  }
+]

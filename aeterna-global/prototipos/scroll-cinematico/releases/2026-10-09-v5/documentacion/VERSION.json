@@ -1,0 +1,16 @@
+{
+  "project": "Aeterna Global",
+  "release": "full-preview-v5",
+  "prepared_at_utc": "2026-10-09",
+  "source_commit": "ca00cd21198fcd724b9a5e9b4234a4c10ce251e9",
+  "preview_url": "https://aeterna-cinematic-preview.aalvarocarrero.chatgpt.site",
+  "preview_published_at_utc": "2026-10-09T22:59:56.106756+00:00",
+  "distribution": "Static HTML/CSS/JavaScript, with all local assets",
+  "production_changed": false,
+  "forms_live": false,
+  "payments_live": false,
+  "analytics_enabled": false,
+  "menu_prices": "Illustrative AUD examples, not FX conversion or live restaurant prices",
+  "visual_browser_review": "Pending owner desktop/mobile review; no authenticated rendered-browser pass claimed",
+  "commercial_font_clearance": "Unverified for original menu font embeddings; see license documentation before commercial publication."
+}
