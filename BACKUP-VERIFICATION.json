@@ -5,6 +5,14 @@
   "secret_pattern_findings": [],
   "source_copies_hash_verified": true,
   "hardlinks_or_symlinks_created": false,
-  "remote_upload_performed": false,
-  "free_disk_bytes": 2050674688
+  "remote_upload_performed": true,
+  "free_disk_bytes": 2050674688,
+  "repository": "https://github.com/Aalvarocarrero/proyectos-web",
+  "visibility": "private",
+  "verified_source_commit": "5c8786608708f49cf49ba035b751ae413885d169",
+  "verified_remote_file_count": 1647,
+  "remote_tree_truncated": false,
+  "remote_missing_or_changed_files": 0,
+  "remote_extra_files": 0,
+  "verification_method": "Compared every path, Git blob SHA, byte size and file mode from an untruncated GitHub recursive tree against the prepared local source. The source commit excludes later status-document refreshes."
 }

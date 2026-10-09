@@ -6,13 +6,13 @@
   },
   {
     "path": "BACKUP-STATUS.json",
-    "bytes": 2626,
-    "sha256": "5721545b52208f83006a1f8a3ea615048b80936571c68e3be749a68a8c021414"
+    "bytes": 2941,
+    "sha256": "5e4e876588fa223d0b4ac34afbf5c0442f9e36ab6dd2088603fbb7d6e41e55fb"
   },
   {
     "path": "README.md",
-    "bytes": 1764,
-    "sha256": "70e6550c829d283f5f9d235b86283d0e19ba402b0b60b429af64bbd7871c3cab"
+    "bytes": 2062,
+    "sha256": "f4a82c7740e5da87c37b20bdd9ae15cdc5f32678a47abf4ffff89f5fcde0ce94"
   },
   {
     "path": "aeterna-global/.openai/hosting.json",

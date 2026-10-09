@@ -1,6 +1,8 @@
 # Proyectos web y referencias compartidas
 
-Copia local organizada para un repositorio privado. Los cinco proyectos y el prototipo independiente están preparados. No se ha realizado ninguna subida a GitHub.
+Respaldo completo en el repositorio privado `Aalvarocarrero/proyectos-web`, subido el 9 de octubre de 2026. Incluye los cinco proyectos, el prototipo independiente y las trece referencias de skills. Se verificaron los 1.647 archivos contra sus tamaños y hashes Git, sin archivos ausentes ni adicionales.
+
+Commit de la copia completa verificada: `5c8786608708f49cf49ba035b751ae413885d169`. Los documentos de estado se actualizaron después de esa comprobación.
 
 - venezuela-agro/: versión 72, aplicación y activos.
 - anillos-draco/: versión 13, sitio estático y catálogo.

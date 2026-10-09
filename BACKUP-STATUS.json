@@ -1,6 +1,6 @@
 {
   "prepared_on": "2026-10-09",
-  "remote_upload_performed": false,
+  "remote_upload_performed": true,
   "complete": true,
   "projects": [
     {
@@ -73,5 +73,10 @@
       "source_bytes": 53547907
     }
   ],
-  "note": "Complete local source staging only. No remote repository upload has occurred."
+  "note": "Complete private GitHub source backup. All 1647 file paths, sizes, blob hashes and modes verified against the prepared source; status documents refreshed afterward.",
+  "repository": "https://github.com/Aalvarocarrero/proyectos-web",
+  "visibility": "private",
+  "uploaded_on": "2026-10-09",
+  "verified_source_commit": "5c8786608708f49cf49ba035b751ae413885d169",
+  "verified_file_count": 1647
 }
