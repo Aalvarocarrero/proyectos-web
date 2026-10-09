@@ -1,0 +1,13 @@
+# Optional national cartographic context
+
+The optional same-origin PMTiles package contains 9,790,298 bytes (9.34 MiB), with cities and principal routes through data zoom10. It uses the reviewed Protomaps20261007 build, schema4.15.2, OSM timestamp2026-10-07T04:00Z. SHA256:6932fce5754d60a3c8674451d03a7523a8aa3324a912fa250a22f582732a487c. Attribution remains visible: OpenStreetMap/ODbL and Protomaps.
+
+Source: https://build.protomaps.com/20261007.pmtiles . Extraction coverage: https://download.geofabrik.de/south-america/venezuela.poly . Redistribution guidance: https://docs.protomaps.com/basemaps/downloads . The extraction area is not a legal boundary; original disputed metadata is preserved. Tile buffers include adjacent countries. Neither labels nor administrative polygons are claimed complete.
+
+A named explicit download stores a verified whole Blob in the current device workspace, separate from farm records and the regional pilot. PMTiles FileSource reads local ranges without HTTP Range support. The national package remains outside automatic shell/library caching. Quota checks, cancellation, independent generations, checksum verification and transactional replacement protect previous complete copies. Progress refreshes a45-second idle timeout; a15-minute ceiling bounds attempts while permitting slow connections. Removing a map leaves farm records, outlines and satellite copies intact.
+
+The renderer selects regional detail when the viewport fits the pilot, national context when it intersects national coverage, and honest missing-coverage UI elsewhere. Map/satellite switching preserves center/zoom. Vector base stays below the historical raster and labels remain above it. Regional pilot pixels are clipped to declared coverage, including zoom transitions. National context may show neighboring geography already present in its actual low-zoom tiles; it keeps country-intersection selection and bounded tile requests, without claiming worldwide coverage. Private farm geometry is an independent local overlay.
+
+This adds cartographic context, not nationwide satellite imagery. The Sentinel image still covers only its declared public pilot. More detailed regional vectors and satellite packages matching additional zones remain future catalog work; no external provider, credential, paid hosting resource or private-coordinate transfer was introduced.
+
+Validation: actual package checksum and local tile reads; synthetic owner/pack isolation, independent generations, cancellation/quota and clipped-view selection; full regression suite. Deployment serving and live browser checks are recorded after publication. Physical iPhone/Android airplane-mode lifecycle remains a separate user check.

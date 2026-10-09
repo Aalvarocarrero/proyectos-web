@@ -1,0 +1,7 @@
+Asset: whatsapp-official.svg
+Exact URL: https://static.whatsapp.net/rsrc.php/y1/r/FJbTMJqMap7.svg
+Verified on 2026-10-05 as the rel=icon SVG linked directly by https://www.whatsapp.com/ .
+Downloaded bytes unchanged. Transparent background, original #25d366 paths, viewBox 0 0 720 720.
+Saved webpage evidence: whatsapp-home.html.
+Brand guidance: https://www.meta.com/brand/resources/whatsapp/whatsapp-brand/
+Restrictions: do not redesign, recolor or imply endorsement; scaling permitted. Brand pack download requires explicit checkbox accepting applicable terms, which was not clicked. This file is the official website favicon, not a logo extracted from the downloadable brand pack. Official guidelines request using the assets from the Brand Resources website, so do not characterize this favicon as a separately approved brand-pack asset.

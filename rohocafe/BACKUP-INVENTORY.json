@@ -1,0 +1,164 @@
+{
+  "project": "rohocafe",
+  "source_commit": "5838b55b7c1fba59bb6874417e42512d4356a6d8",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 20,
+      "sha256": "30c4606b8b14e9a9b7b6b7a5d3b351603348fdce39874ef7c813e55b4318ebf2"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 106,
+      "sha256": "2f09831a7ec97eb42e0ad797c8b423ec7ae51e05acce9c3940fe546c213a6c59"
+    },
+    {
+      "path": "IMAGE_CREDITS.md",
+      "bytes": 1205,
+      "sha256": "b06d13eac89f624769b3d6b626fcf9f3f4b03cdbc535092f3cfcb150daf3f275"
+    },
+    {
+      "path": "PROJECT_CONTEXT.md",
+      "bytes": 6270,
+      "sha256": "895230619050bf160b45973f6080d2d28c213230f720f8ac60797140a372909a"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 17634,
+      "sha256": "ac9723a16478a0483bca6090ab29e682b6919967356e99e1b25a9a24d5d23ff5"
+    },
+    {
+      "path": "dist/assets/apple-touch-icon.png",
+      "bytes": 3913,
+      "sha256": "c7cfb1487f75cd03a11d7f411a1be861383f5b73aa89dabc0b83d5982b3495a3"
+    },
+    {
+      "path": "dist/assets/cosecha.webp",
+      "bytes": 54532,
+      "sha256": "7bf11c0450d2466a49d23d9d573f640f0a37faca9b348217d266f6a05ec371ad"
+    },
+    {
+      "path": "dist/assets/hero-cherries-desktop.webp",
+      "bytes": 155834,
+      "sha256": "f4758dad8a8e652d96823cbcd8bac2f447013efd314001f3aa47d9ea0931ec5e"
+    },
+    {
+      "path": "dist/assets/hero-cherries-mobile.webp",
+      "bytes": 98602,
+      "sha256": "88dc17d62d8300276f980b672b8ffb1683519d7f63946047af6111ef862a5827"
+    },
+    {
+      "path": "dist/assets/icon-192.png",
+      "bytes": 4258,
+      "sha256": "3745382b1d7f153d0c6fcc371c70d8401b88a004ec8c36fa3e8e4d88ee1a8d93"
+    },
+    {
+      "path": "dist/assets/icon-512.png",
+      "bytes": 17489,
+      "sha256": "29bcacf396e948d54cf4fd3cff304e3d808f4dd5172e90ecebcd153896f9a8bf"
+    },
+    {
+      "path": "dist/assets/kit-camino-v4-1200.webp",
+      "bytes": 237262,
+      "sha256": "a37d6586acf0f5bccc1fe4d48a3f11c27ffe15f25fc7fd592ca39d9ce102c3f3"
+    },
+    {
+      "path": "dist/assets/kit-camino-v4-600.webp",
+      "bytes": 69000,
+      "sha256": "f7c5287f4b49ffaa5bef55c572bf324609386cf94cfa584ab7b2ed4176ab030f"
+    },
+    {
+      "path": "dist/assets/kit-camino.webp",
+      "bytes": 19818,
+      "sha256": "0c2d91fa93ebb3da78b0800e1d0e2a9c073c492651b0455baca4dcc9e3efdc82"
+    },
+    {
+      "path": "dist/assets/kit-experiencia.webp",
+      "bytes": 19430,
+      "sha256": "132645d293cd498692af37c57847894812f18bf03cde2a1610305a122acc56ba"
+    },
+    {
+      "path": "dist/assets/kit-origen-v4-1200.webp",
+      "bytes": 146540,
+      "sha256": "4ac6866a2890fc39079a1c3313561ad67b4e519806b9c7ddc68c30586b756868"
+    },
+    {
+      "path": "dist/assets/kit-origen-v4-600.webp",
+      "bytes": 43520,
+      "sha256": "b9caf0db46fd8e1db4e8754b1b0ba3083095e04984ad9383c31736cd1c79ee65"
+    },
+    {
+      "path": "dist/assets/kit-pausa-v4-1200.webp",
+      "bytes": 193934,
+      "sha256": "1e4307a14c930bc465ad89899db55bde2a7d95f6e5b6715ed9850d1e7716ab19"
+    },
+    {
+      "path": "dist/assets/kit-pausa-v4-600.webp",
+      "bytes": 58096,
+      "sha256": "10f960d1329decdfafcc0a29ee7c50cd9cd7381aa330fea86cbd3ff0d6c5361a"
+    },
+    {
+      "path": "dist/assets/kit-ritual.webp",
+      "bytes": 19594,
+      "sha256": "eeb9aa14f88f5782a3cc8b2971d8ad78ba168d09261440e48a6091e38d32d678"
+    },
+    {
+      "path": "dist/assets/origen.webp",
+      "bytes": 485226,
+      "sha256": "773b38fc4c6919829378931140662ec962f181947ee6759975728b8a530a1b30"
+    },
+    {
+      "path": "dist/assets/roho-001.webp",
+      "bytes": 67240,
+      "sha256": "8e295806264c75414421c784d05e187f3cec71b9dc25bc3966bb2ed6890245d0"
+    },
+    {
+      "path": "dist/assets/roho-logo-red.png",
+      "bytes": 33408,
+      "sha256": "8f9b8d2d4f34a1142f9fc210758b04b0c9c47778251796676743826de9cd602f"
+    },
+    {
+      "path": "dist/assets/roho-logo-white.png",
+      "bytes": 34195,
+      "sha256": "0b594350fcf2a8e99e4ec5d6f7727a94fd29fb589a615e2234317393f8f7740b"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 37580,
+      "sha256": "cdfc82c0e0f8ea298e2c5405b0fa498cd0a06c7655c7f450581f027914f0f24a"
+    },
+    {
+      "path": "dist/manifest.webmanifest",
+      "bytes": 672,
+      "sha256": "06ed30d04edaea9f81145dce05f06c5abb3c015cf4cded565bba6551e3fb6d6f"
+    },
+    {
+      "path": "dist/robots.txt",
+      "bytes": 99,
+      "sha256": "18eaf9303efab48a1a6d6fd2073bf1a18ef31960c4976bce24fe19c18b95bb2b"
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "bytes": 296,
+      "sha256": "9f6802254d69e82c23995267f0484431c9fb787389b907d8056c5f3be1134cef"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 72434,
+      "sha256": "018c37f58cb550e6701a7a25fccbb0d8e6ee869191a79d9f41dfdcbb5c737cdc"
+    },
+    {
+      "path": "dist/sw.js",
+      "bytes": 1733,
+      "sha256": "6b39d95640790b5418006a1a4a0fd6f80314e01ea5fb650a1c991ce10a0bdb8e"
+    },
+    {
+      "path": "scripts/validate.mjs",
+      "bytes": 2600,
+      "sha256": "dd9a7e5ae985402424b2ffb52f3f8ea8276f7de1bbcf043494eac832f3cdfe39"
+    }
+  ],
+  "excluded": [],
+  "secret_scan_findings": [],
+  "total_bytes": 1902540
+}

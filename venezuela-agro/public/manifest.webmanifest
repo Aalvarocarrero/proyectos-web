@@ -1,0 +1,83 @@
+{
+  "name": "Venezuela Agro",
+  "short_name": "Venezuela Agro",
+  "description": "Herramientas gratuitas de gestión agropecuaria. Registros locales después de preparar el dispositivo; envío y publicación con conexión.",
+  "lang": "es-VE",
+  "id": "/app",
+  "start_url": "/app",
+  "scope": "/",
+  "display": "standalone",
+  "display_override": [
+    "window-controls-overlay",
+    "standalone"
+  ],
+  "orientation": "any",
+  "background_color": "#f3ebdd",
+  "theme_color": "#211d1a",
+  "categories": [
+    "business",
+    "productivity",
+    "shopping"
+  ],
+  "shortcuts": [
+    {
+      "name": "Mi Finca",
+      "short_name": "Mi Finca",
+      "url": "/app",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Mercado Agro",
+      "short_name": "Mercado",
+      "url": "/marketplace",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Profesionales",
+      "short_name": "Profesionales",
+      "url": "/profesionales",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    },
+    {
+      "name": "Aprende a usar Venezuela Agro",
+      "short_name": "Aprende",
+      "url": "/aprende",
+      "icons": [
+        {
+          "src": "/icon-192.png",
+          "sizes": "192x192"
+        }
+      ]
+    }
+  ],
+  "icons": [
+    {
+      "src": "/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ],
+  "prefer_related_applications": false
+}

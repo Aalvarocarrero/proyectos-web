@@ -1,0 +1,16 @@
+{
+ "status": "awaiting_booking_mode_and_notification_email",
+ "defaultTimezone": "Australia/Brisbane",
+ "steps": ["service", "preferred_date_time", "project_details", "review"],
+ "services": [
+  {"id":"photography","name":"Photography session","fields":["session_type","location","photo_quantity","objectives"]},
+  {"id":"restaurant","name":"Restaurant photography","fields":["business_name","location","shoot_scope","photo_quantity","objectives"]},
+  {"id":"brand","name":"Brand content","fields":["business_name","location","channels","photo_quantity","objectives"]},
+  {"id":"consultation","name":"Strategy consultation","fields":["business_name","meeting_mode","objectives"]}
+ ],
+ "commonFields":["full_name","email","phone_optional","preferred_date","preferred_time","timezone","notes_optional","privacy_consent"],
+ "bookingStatus":"Request, pending confirmation until live availability and rules configured",
+ "requiredBeforePublicIntake":["durable_server_storage_or_verified_delivery","protected_admin_if_used","validation","duplicate_submit_protection","spam_protection","clear_success_failure","privacy_notice"],
+ "requiredBeforeAutomaticConfirmation":["working_hours","service_durations","calendar_connection","buffers","blackouts","notice_period","cancel_reschedule_rules","atomic_conflict_check"],
+ "doNotCollect":["medical_history","payment_card","unneeded_identity_documents"]
+}

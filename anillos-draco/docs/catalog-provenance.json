@@ -1,0 +1,3985 @@
+[
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "abrazo-serpiente-coral",
+      "name": "Anillo Abrazo de la Serpiente Coral",
+      "source_ids": [
+        "01"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/abrazo-serpiente-coral.jpeg",
+      "image_dimensions": [
+        598,
+        644
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con serpiente enroscada, escamas en relieve y acabado de tono plateado.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": "La fotografía no muestra colores coral; el texto sobre tonos vibrantes no queda respaldado por la imagen.",
+      "description": "Anillo con serpiente enroscada, escamas en relieve y acabado de tono plateado.",
+      "source_docs": [
+        "Anillo Abrazo de la Serpiente Coral Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/abrazo-serpiente-coral.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/abrazo-serpiente-coral.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": [
+        "La fotografía no muestra colores coral; el texto sobre tonos vibrantes no queda respaldado por la imagen."
+      ]
+    },
+    "published_id": "abrazo-serpiente-coral",
+    "image_sha256": "ecc346d53dc1fdf8337a4b00ca3b6bd9a7ad4ad5983ccc1a77bd2b90d2d1d760"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "abrazo-pulpo",
+      "name": "Anillo Abrazo del Pulpo",
+      "source_ids": [
+        "02"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/abrazo-pulpo.jpeg",
+      "image_dimensions": [
+        463,
+        463
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con relieves circulares que evocan ventosas de tentáculos y acabado de tono plateado.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": null,
+      "description": "Anillo con relieves circulares que evocan ventosas de tentáculos y acabado de tono plateado.",
+      "source_docs": [
+        "Anillo Abrazo del Pulpo Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/abrazo-pulpo.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/abrazo-pulpo.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": []
+    },
+    "published_id": "abrazo-pulpo",
+    "image_sha256": "c0d25b5ef7cdc6d9ef37c6b417ef32126b1634890b80ee88980bcbcce07a1301"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "alas-angelicales-oscuras",
+      "name": "Anillo Alas Angelicales Oscuras",
+      "source_ids": [
+        "03"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/alas-angelicales-oscuras.jpeg",
+      "image_dimensions": [
+        383,
+        383
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo abierto de tono oscuro con dos alas enfrentadas y detalles de plumas.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": "El documento contiene un diálogo/prompt SEO reutilizable; excluirlo del contenido público.",
+      "description": "Anillo abierto de tono oscuro con dos alas enfrentadas y detalles de plumas.",
+      "source_docs": [
+        "Anillo Alas Angelicales Oscuras Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/alas-angelicales-oscuras.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/alas-angelicales-oscuras.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": "Oscuro",
+      "caveats": [
+        "El documento contiene un diálogo/prompt SEO reutilizable; excluirlo del contenido público."
+      ]
+    },
+    "published_id": "alas-angelicales-oscuras",
+    "image_sha256": "02e8a61b8d81e821493cbb47ea73fb1288de43a32735c1dc9719f594f47d89f7"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "alma-perdida",
+      "name": "Anillo Alma Perdida",
+      "source_ids": [
+        "06",
+        "04",
+        "05"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/alma-perdida.jpeg",
+      "image_dimensions": [
+        500,
+        500
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo de rostro fantástico con cuernos, detalles en relieve y acabado de tono plateado con zonas oscuras.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": "Las tres versiones usan la misma imagen; versión 2 cambia la URL a .com, original y versión 3 indican .co.",
+      "description": "Anillo de rostro fantástico con cuernos, detalles en relieve y acabado de tono plateado con zonas oscuras.",
+      "source_docs": [
+        "Anillo Alma Perdida en Zamak.pages",
+        "Anillo Alma Perdida en Zamak 2.pages",
+        "Anillo Alma Perdida en Zamak 3.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/alma-perdida.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/alma-perdida.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": [
+        "Las tres versiones usan la misma imagen; versión 2 cambia la URL a .com, original y versión 3 indican .co."
+      ]
+    },
+    "published_id": "alma-perdida",
+    "image_sha256": "cbed397665496a64ad8be77b82d69c63d8d3ff357d44ecf62da7dea95c0a992c"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "alma-calavera-marinera",
+      "name": "Anillo Alma de Calavera Marinera",
+      "source_ids": [
+        "07"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/alma-calavera-marinera.jpeg",
+      "image_dimensions": [
+        518,
+        518
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con una calavera que lleva una gorra de estilo marinero, acabado de tono plateado y zonas oscuras.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": "La fotografía permite ver gorra/calavera, pero no confirma cuerdas ni olas citadas en el texto.",
+      "description": "Anillo con una calavera que lleva una gorra de estilo marinero, acabado de tono plateado y zonas oscuras.",
+      "source_docs": [
+        "Anillo Alma de Calavera Marinera en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/alma-calavera-marinera.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/alma-calavera-marinera.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": [
+        "La fotografía permite ver gorra/calavera, pero no confirma cuerdas ni olas citadas en el texto."
+      ]
+    },
+    "published_id": "alma-calavera-marinera",
+    "image_sha256": "37be29e23d2e87a49cd9a1b62abab8e325c56ce45ec9a0903e66af9bafdac83e"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "alma-dragon",
+      "name": "Anillo Alma de Dragón",
+      "source_ids": [
+        "09",
+        "08"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/alma-dragon.jpeg",
+      "image_dimensions": [
+        472,
+        472
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con cabeza de dragón, cuerpo envolvente y detalles de escamas en tono plateado.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": null,
+      "description": "Anillo con cabeza de dragón, cuerpo envolvente y detalles de escamas en tono plateado.",
+      "source_docs": [
+        "Anillo Alma de Dragón Draco.pages",
+        "Anillo Alma de Dragón Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/alma-dragon.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/alma-dragon.jpeg"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": []
+    },
+    "published_id": "alma-dragon",
+    "image_sha256": "f98bf6221799311541073195be35e9296b16a9b6872150613eb9bf30bd46daee"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "almas-gemelas-serpiente",
+      "name": "Anillo Almas Gemelas Serpiente",
+      "source_ids": [
+        "10"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/almas-gemelas-serpiente.png",
+      "image_dimensions": [
+        493,
+        493
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con dos serpientes entrelazadas y detalles de escamas en tono plateado.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": null,
+      "description": "Anillo con dos serpientes entrelazadas y detalles de escamas en tono plateado.",
+      "source_docs": [
+        "Anillo Almas Gemelas Serpiente Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/almas-gemelas-serpiente.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/almas-gemelas-serpiente.png"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": []
+    },
+    "published_id": "almas-gemelas-serpiente",
+    "image_sha256": "0cb185d830cf8602318d123f6b5da233b96e7b1b3a5424cf4eff354ae2d22d79"
+  },
+  {
+    "batch": "draco-catalog-batch1",
+    "source": {
+      "id": "aguila-real-fiera",
+      "name": "Anillo Águila Real Fiera",
+      "source_ids": [
+        "11"
+      ],
+      "category": "Anillos",
+      "image_path": "/workspace/shared/draco-catalog-batch1/products/aguila-real-fiera.png",
+      "image_dimensions": [
+        405,
+        405
+      ],
+      "image_verified_visually": true,
+      "description_from_visual_inspection": "Anillo con cabeza de águila, plumas en relieve, ojo rojo y pico de tono dorado.",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion only; not independently verified.",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "dimensions": null,
+      "weight": null,
+      "certifications": null,
+      "publication_cautions": "La descripción también lo llama Alas del Cielo Águila y menciona alas extendidas, pero la imagen muestra una cabeza de águila. Mantener nombre del archivo/título, consultar alias si es necesario.",
+      "description": "Anillo con cabeza de águila, plumas en relieve, ojo rojo y pico de tono dorado.",
+      "source_docs": [
+        "Anillo Águila Real Fiera en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch1/products/aguila-real-fiera.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch1/products/aguila-real-fiera.png"
+      ],
+      "material_if_explicit": "Zamak",
+      "variant": null,
+      "caveats": [
+        "La descripción también lo llama Alas del Cielo Águila y menciona alas extendidas, pero la imagen muestra una cabeza de águila. Mantener nombre del archivo/título, consultar alias si es necesario."
+      ]
+    },
+    "published_id": "aguila-real-fiera",
+    "image_sha256": "da60bd502d5670b56283d9ba2fcab487c217818e89336d38fba847bd5ab0cb4d"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "anaconda-guardiana-bosque",
+      "name": "Anillo Anaconda Guardiana del Bosque",
+      "description": "Anillo de serpiente sinuosa con escamas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "01"
+      ],
+      "source_docs": [
+        "Anillo Anaconda Guardiana del Bosque Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/anaconda-guardiana-bosque.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/anaconda-guardiana-bosque.jpeg"
+      ],
+      "image_dimensions": [
+        578,
+        615
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "anaconda-guardiana-bosque",
+    "image_sha256": "a7c7498c97b66cb2016163e0a865ff8c39593c16d4aa671e1d2e3a28bd9628d6"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "angel-guardian",
+      "name": "Anillo Ángel Guardián",
+      "description": "Anillo abierto con dos alas verticales, plumas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "02"
+      ],
+      "source_docs": [
+        "Anillo Ángel Guardián Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/angel-guardian.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/angel-guardian.jpeg"
+      ],
+      "image_dimensions": [
+        445,
+        445
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "La fotografía muestra dos alas, no una figura angelical completa."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "angel-guardian",
+    "image_sha256": "ee42662505982d179e70c0a62c709f90912444c08b897acf24ed4979efab8720"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "bufalo-fiera-ojos-aguamarina",
+      "name": "Anillo Búfalo Fiera Ojos Aguamarina",
+      "description": "Anillo con cabeza de búfalo, ojos de tono aguamarina y detalles de tono dorado en cuernos y hocico.",
+      "source_ids": [
+        "03"
+      ],
+      "source_docs": [
+        "Anillo Búfalo Fiera Ojos Aguamarina en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/bufalo-fiera-ojos-aguamarina.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/bufalo-fiera-ojos-aguamarina.png"
+      ],
+      "image_dimensions": [
+        481,
+        481
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak con incrustaciones de piedra sintética",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos aguamarina",
+      "caveats": [
+        "El documento especifica piedra sintética; aguamarina describe el color, no una gema natural."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "bufalo-fiera-ojos-aguamarina",
+    "image_sha256": "faca07c81ffb7f5e58548c67135a3be7431a7c1c091f772a8a2ba9a59a1e9db3"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "bufalo-fiera",
+      "name": "Anillo Búfalo Fiera",
+      "description": "Anillo con cabeza de búfalo, ojos rojos y detalles de tono dorado en cuernos y hocico.",
+      "source_ids": [
+        "04"
+      ],
+      "source_docs": [
+        "Anillo Búfalo Fiera en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/bufalo-fiera.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/bufalo-fiera.png"
+      ],
+      "image_dimensions": [
+        518,
+        518
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos rojos",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "bufalo-fiera",
+    "image_sha256": "cb98d95778c1cf84cd5808a168232751a0ee5278d77a9c10ef40826fe9d42652"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cenizas-dragon-blanco",
+      "name": "Anillo Cenizas del Dragón Blanco",
+      "description": "Anillo de inspiración dracónica con formas aladas y acabado de tono plateado.",
+      "source_ids": [
+        "06",
+        "05"
+      ],
+      "source_docs": [
+        "Anillo Cenizas del Dragón Blanco Draco.pages",
+        "Anillo Cenizas del Dragón Blanco Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cenizas-dragon-blanco.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cenizas-dragon-blanco.jpeg"
+      ],
+      "image_dimensions": [
+        534,
+        534
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Blanco / tono plateado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cenizas-dragon-blanco",
+    "image_sha256": "aa402fd51101831999f0a1c59625f92aef89ca54e8479da34f8d51bc8b74accd"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cenizas-dragon-negro",
+      "name": "Anillo Cenizas del Dragón Negro",
+      "description": "Anillo de inspiración dracónica con formas aladas y acabado negro.",
+      "source_ids": [
+        "08",
+        "07"
+      ],
+      "source_docs": [
+        "Anillo Cenizas del Dragón Negro Draco.pages",
+        "Anillo Cenizas del Dragón Negro Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cenizas-dragon-negro.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cenizas-dragon-negro.jpeg"
+      ],
+      "image_dimensions": [
+        541,
+        541
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Negro",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cenizas-dragon-negro",
+    "image_sha256": "60763a401f7f5734bc885ba5436f854643abe2a10c94e5b2583ae33a1c1ce465"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cobra-fuego-aurora",
+      "name": "Anillo Cobra de Fuego de la Aurora",
+      "description": "Anillo de serpiente enroscada con escamas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "09"
+      ],
+      "source_docs": [
+        "Anillo Cobra de Fuego de la Aurora Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cobra-fuego-aurora.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cobra-fuego-aurora.png"
+      ],
+      "image_dimensions": [
+        541,
+        541
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El texto menciona toques incandescentes, pero la fotografía muestra un acabado plateado."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cobra-fuego-aurora",
+    "image_sha256": "70cedddb250b2d94b5728ee9fb9fbc0c20276af8b794dc193cabccd6bb7bb9b8"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cobra-media-noche",
+      "name": "Anillo Cobra de Media Noche",
+      "description": "Anillo con cabeza de cobra y capucha desplegada, acabado de tono plateado con detalles oscuros.",
+      "source_ids": [
+        "10"
+      ],
+      "source_docs": [
+        "Anillo Cobra de Media Noche Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cobra-media-noche.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cobra-media-noche.jpeg"
+      ],
+      "image_dimensions": [
+        529,
+        543
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cobra-media-noche",
+    "image_sha256": "87093038e9f7c31d6d7f0cea11c62b0d3359e961011e6ceef4c8fda972249d9e"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cola-bestia-alada-clara",
+      "name": "Anillo Cola de la Bestia Alada Clara",
+      "description": "Anillo de líneas envolventes con una forma alada estilizada y acabado de tono plateado.",
+      "source_ids": [
+        "12",
+        "11"
+      ],
+      "source_docs": [
+        "Anillo Cola de la Bestia Alada Clara en Zamak.pages",
+        "Anillo Cola de la Bestia Alada Clara en Zamak 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cola-bestia-alada-clara.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cola-bestia-alada-clara.jpeg"
+      ],
+      "image_dimensions": [
+        502,
+        502
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Clara / tono plateado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cola-bestia-alada-clara",
+    "image_sha256": "98936e022d29b7eead7c734db893864f6a384faab098f049c31ec512e77a375f"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "cola-bestia-alada-oscura",
+      "name": "Anillo Cola de la Bestia Alada Oscura",
+      "description": "Anillo de líneas envolventes con una forma alada estilizada y acabado oscuro.",
+      "source_ids": [
+        "15",
+        "13",
+        "14"
+      ],
+      "source_docs": [
+        "Anillo Cola de la Bestia Alada Oscura Draco.pages",
+        "Anillo Cola de la Bestia Alada Oscura Draco 2.pages",
+        "Anillo Cola de la Bestia Alada Oscura Draco 3.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/cola-bestia-alada-oscura.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/cola-bestia-alada-oscura.jpeg"
+      ],
+      "image_dimensions": [
+        488,
+        488
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Oscura",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "cola-bestia-alada-oscura",
+    "image_sha256": "5cbbe3b017f927722505847f895b46405e22b6a99bf9bb8cce08e9e71c124786"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "conejo-encantado-ojos-rojos",
+      "name": "Anillo Conejo Encantado Ojos Rojos",
+      "description": "Anillo con cabeza de conejo, orejas largas, ojos rojos y detalles de tono dorado.",
+      "source_ids": [
+        "17",
+        "16"
+      ],
+      "source_docs": [
+        "Anillo Conejo Encantado Ojos Rojos en Zamak Anillos Draco - Diseño Ajustable y Unisex.pages",
+        "Anillo Conejo Encantado Ojos Rojos en Zamak Anillos Draco - Diseño Ajustable y Unisex 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/conejo-encantado-ojos-rojos.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/conejo-encantado-ojos-rojos.jpeg"
+      ],
+      "image_dimensions": [
+        495,
+        495
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos rojos",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "conejo-encantado-ojos-rojos",
+    "image_sha256": "189a241ff1c13f81a99b0e2a5c4a1030ab40f337e589a762e4a8ecf7a25398ac"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "conejo-magico-ojos-azules",
+      "name": "Anillo Conejo Mágico Ojos Azules",
+      "description": "Anillo con cabeza de conejo, orejas largas, ojos azules y detalles de tono dorado.",
+      "source_ids": [
+        "19",
+        "18"
+      ],
+      "source_docs": [
+        "Anillo Conejo Mágico Ojos Azules en Zamak  Anillos Draco - Diseño Ajustable y Unisex.pages",
+        "Anillo Conejo Mágico Ojos Azules en Zamak  Anillos Draco - Diseño Ajustable y Unisex 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/conejo-magico-ojos-azules.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/conejo-magico-ojos-azules.jpeg"
+      ],
+      "image_dimensions": [
+        481,
+        481
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos azules",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "conejo-magico-ojos-azules",
+    "image_sha256": "7b36328ff96626bfa0cced3956396b622d74f569aed4cf6f17e09f0b449c3ebb"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "danza-dragon",
+      "name": "Anillo Danza del Dragón",
+      "description": "Anillo con dragón de cuerpo enroscado y detalles de escamas en tono plateado.",
+      "source_ids": [
+        "21",
+        "20"
+      ],
+      "source_docs": [
+        "Anillo Danza del Dragón Draco.pages",
+        "Anillo Danza del Dragón Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/danza-dragon.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/danza-dragon.jpeg"
+      ],
+      "image_dimensions": [
+        488,
+        488
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "danza-dragon",
+    "image_sha256": "218624423df383f4807986f56ae6daa90a645a71b22f724aeeda8c8fa1ed9c8e"
+  },
+  {
+    "batch": "draco-catalog-batch2",
+    "source": {
+      "id": "mensajero-sombras",
+      "name": "Anillo Mensajero de Sombras",
+      "description": "Anillo de forma envolvente con plumas en relieve y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "22"
+      ],
+      "source_docs": [
+        "Anillo de Alas Pluma Zamak - Mensajero de Sombras.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch2/products/mensajero-sombras.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch2/products/mensajero-sombras.png"
+      ],
+      "image_dimensions": [
+        437,
+        437
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El título SEO incluye la palabra Angulo sin explicación; se excluye del nombre de catálogo."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "mensajero-sombras",
+    "image_sha256": "447c33c5fd9b18d00173d20833fe5f4defffcd96ae5d6145b0dee6f81d113171"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "detalle-frontal",
+      "name": "Anillo Detalle Frontal",
+      "description": "Anillo de tono plateado con una figura alada central y plumas en relieve.",
+      "source_ids": [
+        "01"
+      ],
+      "source_docs": [
+        "Anillo Detalle Frontal Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/detalle-frontal.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/detalle-frontal.jpeg"
+      ],
+      "image_dimensions": [
+        479,
+        479
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "La descripción fuente lo llama minimalista; la fotografía muestra una figura alada ornamentada."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "detalle-frontal",
+    "image_sha256": "b9a2f6d8473f28e467533846c5146ba5c243131df102bcda7df93da9ba9f2273"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-bestia-fuego",
+      "name": "Anillo Dragón Bestia de Fuego",
+      "description": "Anillo con figura fantástica de cabeza alargada, formas curvas y relieves de tono plateado.",
+      "source_ids": [
+        "03",
+        "02"
+      ],
+      "source_docs": [
+        "Anillo Dragón Bestia de Fuego Draco.pages",
+        "Anillo Dragón Bestia de Fuego Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-bestia-fuego.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-bestia-fuego.jpeg"
+      ],
+      "image_dimensions": [
+        426,
+        426
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-bestia-fuego",
+    "image_sha256": "2f4d3ff03ea156d909f1bb11693ea320fc38e20f11ee62f0a676765773dd29c2"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-fuego",
+      "name": "Anillo Dragón de Fuego",
+      "description": "Anillo con cabeza de dragón y aro con textura de escamas, en tono plateado.",
+      "source_ids": [
+        "05",
+        "04"
+      ],
+      "source_docs": [
+        "Anillo Dragón de Fuego Draco.pages",
+        "Anillo Dragón de Fuego Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-fuego.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-fuego.jpeg"
+      ],
+      "image_dimensions": [
+        420,
+        420
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-fuego",
+    "image_sha256": "fb0ea46dbc4a1b6af8f56714876b9d3b7690eab06d8bff20ee25e7d20ea234e9"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-leon",
+      "name": "Anillo Dragón de León",
+      "description": "Anillo de aro liso con una cabeza de criatura de melena esculpida y acabado de tono plateado.",
+      "source_ids": [
+        "07",
+        "06"
+      ],
+      "source_docs": [
+        "Anillo Dragón de León Draco.pages",
+        "Anillo Dragón de León Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-leon.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-leon.jpeg"
+      ],
+      "image_dimensions": [
+        479,
+        479
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-leon",
+    "image_sha256": "6dcee1a661e1755c6649ef87396792da730a53c65a7ff89ca59ff29bc0d84a4c"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-luz-eterna",
+      "name": "Anillo Dragón de la Luz Eterna",
+      "description": "Anillo con cabeza de dragón frontal, relieves puntiagudos y acabado de tono plateado.",
+      "source_ids": [
+        "09",
+        "08"
+      ],
+      "source_docs": [
+        "Anillo Dragón de la Luz Eterna Draco.pages",
+        "Anillo Dragón de la Luz Eterna Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-luz-eterna.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-luz-eterna.jpeg"
+      ],
+      "image_dimensions": [
+        458,
+        458
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-luz-eterna",
+    "image_sha256": "7c41cb973798629c9ba03b8aa33cfaccd9b700597fa34942f50158cc9af63499"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-noche-ojo-azul",
+      "name": "Anillo Dragón de la Noche Ojo Azul",
+      "description": "Anillo abierto con dragón alado, cuerpo curvo y detalle azul en la cabeza, en tono plateado.",
+      "source_ids": [
+        "11",
+        "10"
+      ],
+      "source_docs": [
+        "Anillo Dragón de la Noche Ojo Azul Draco.pages",
+        "Anillo Dragón de la Noche Ojo Azul Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-noche-ojo-azul.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-noche-ojo-azul.jpeg"
+      ],
+      "image_dimensions": [
+        515,
+        515
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojo azul",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-noche-ojo-azul",
+    "image_sha256": "1389d8a5220c3a785dfb220f712fcebd4906803af552af1426e398f15c98064a"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "dragon-tiempo",
+      "name": "Anillo Dragón del Tiempo",
+      "description": "Anillo abierto de dragón con cuerpo curvo, ala en relieve y acabado oscuro.",
+      "source_ids": [
+        "13",
+        "12"
+      ],
+      "source_docs": [
+        "Anillo Dragón del Tiempo Draco.pages",
+        "Anillo Dragón del Tiempo Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/dragon-tiempo.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/dragon-tiempo.jpeg"
+      ],
+      "image_dimensions": [
+        393,
+        523
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "dragon-tiempo",
+    "image_sha256": "546ab8df1275bc4aaa98f5cf7c5c6794b51a4da8f18e732e10bcb819c8c8734a"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "elegancia-letal-serpiente",
+      "name": "Anillo Elegancia Letal Serpiente",
+      "description": "Anillo con serpiente enroscada en varios bucles y escamas en relieve, en tono plateado.",
+      "source_ids": [
+        "14"
+      ],
+      "source_docs": [
+        "Anillo Elegancia Letal Serpiente Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/elegancia-letal-serpiente.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/elegancia-letal-serpiente.png"
+      ],
+      "image_dimensions": [
+        447,
+        447
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "elegancia-letal-serpiente",
+    "image_sha256": "aac2eddaede5406898020b694bb256f8500535799db75819f43898292335700e"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "id": "mensajero-sombras",
+    "duplicate_of": "mensajero-sombras"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "plumas-luz-guardian-celestial",
+      "name": "Anillo Plumas de Luz del Guardián Celestial",
+      "description": "Anillo con dos alas verticales, plumas en relieve y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "16"
+      ],
+      "source_docs": [
+        "Anillo de Alas Zamak - Plumas de Luz del Guardián Celestial.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/plumas-luz-guardian-celestial.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/plumas-luz-guardian-celestial.jpeg"
+      ],
+      "image_dimensions": [
+        486,
+        486
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "plumas-luz-guardian-celestial",
+    "image_sha256": "7f0b22cd6d537385a1fe5bc3d938e478d908a5ecac55f6699ddc7b33c0711807"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "vuelos-eternos-dragon",
+      "name": "Anillo Vuelos Eternos del Dragón",
+      "description": "Anillo abierto con dos alas angulares estilizadas, en tono plateado con detalles oscuros.",
+      "source_ids": [
+        "17"
+      ],
+      "source_docs": [
+        "Anillo de Alas Zamak - Vuelos Eternos del Dragón.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/vuelos-eternos-dragon.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/vuelos-eternos-dragon.png"
+      ],
+      "image_dimensions": [
+        451,
+        451
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "vuelos-eternos-dragon",
+    "image_sha256": "20c28a832b9697c75aeadd9bd2bf7237581824dcc18cd08f6d7bbe8cf43ba6ff"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "llama-siniestra",
+      "name": "Anillo Llama Siniestra Calavera Demoníaca",
+      "description": "Anillo con cráneo alargado y grandes cuernos curvos, en tono plateado con detalles oscuros.",
+      "source_ids": [
+        "18"
+      ],
+      "source_docs": [
+        "Anillo de Calavera Demoníaca Zamak - Llama Siniestra.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/llama-siniestra.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/llama-siniestra.png"
+      ],
+      "image_dimensions": [
+        484,
+        484
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "La fotografía muestra un cráneo alargado con cuernos curvos; no se distinguen las llamas descritas en el texto fuente."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "llama-siniestra",
+    "image_sha256": "fc2189009093402c73182ad4ce3fdb7bbd0813a38ff16d140ee8bba347f8382c"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "poder-oscuro",
+      "name": "Anillo Poder Oscuro Calavera Demoníaca",
+      "description": "Anillo con calavera de dos cuernos, relieves en la frente y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "19"
+      ],
+      "source_docs": [
+        "Anillo de Calavera Demoníaca Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/poder-oscuro.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/poder-oscuro.png"
+      ],
+      "image_dimensions": [
+        488,
+        488
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "poder-oscuro",
+    "image_sha256": "c721693b107bf55371b954b1d0616ad7fe655e90f2f2542b239b517ffa217f9c"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "caos-supremo",
+      "name": "Anillo Caos Supremo Calavera",
+      "description": "Anillo ancho con calaveras y relieves superpuestos, acabado de tono plateado y una calavera central de tono dorado.",
+      "source_ids": [
+        "20"
+      ],
+      "source_docs": [
+        "Anillo de Calavera Zamak - Caos Supremo.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/caos-supremo.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/caos-supremo.png"
+      ],
+      "image_dimensions": [
+        493,
+        493
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El documento afirma libre de tóxicos sin certificación o evidencia aportada; no publicar como garantía."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": []
+    },
+    "published_id": "caos-supremo",
+    "image_sha256": "bac2b6c63e034660b18dfba3e8e577f2bcbb0fc3e4a24795acc3f8f1403cab5b"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "piton-susurro-mortal",
+      "name": "Anillo Pitón del Susurro Mortal",
+      "description": "Anillo abierto con dos cabezas de serpiente enfrentadas, escamas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "21"
+      ],
+      "source_docs": [
+        "Anillo de Serpiente Zamak - Pitón del Susurro Mortal Anillo (1).pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/piton-susurro-mortal.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/piton-susurro-mortal.jpeg"
+      ],
+      "image_dimensions": [
+        746,
+        528
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "Incluye dos fotografías de estilo de vida con personas y otras joyas; se conservan como auxiliares, fuera de la galería principal."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": [
+        {
+          "path": "/workspace/shared/draco-catalog-batch3/products/piton-susurro-mortal-aux-1.jpeg",
+          "source_image_path": "/workspace/shared/draco-catalog-batch3/extracted/21/Data/image3-35.jpeg",
+          "role": "lifestyle_multiple_jewelry",
+          "use_in_product_gallery": false
+        },
+        {
+          "path": "/workspace/shared/draco-catalog-batch3/products/piton-susurro-mortal-aux-3.jpeg",
+          "source_image_path": "/workspace/shared/draco-catalog-batch3/extracted/21/Data/image2-33.jpeg",
+          "role": "lifestyle_multiple_jewelry",
+          "use_in_product_gallery": false
+        }
+      ]
+    },
+    "published_id": "piton-susurro-mortal",
+    "image_sha256": "d0a1bd26e467474f2c674c758eccb0e43e4d895771fe76204f6de0a11387a968"
+  },
+  {
+    "batch": "draco-catalog-batch3",
+    "source": {
+      "id": "susurro-antigua-cascabel",
+      "name": "Anillo Susurro de la Antigua Cascabel",
+      "description": "Anillo de serpiente de cuerpo ondulado, escamas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "22"
+      ],
+      "source_docs": [
+        "Anillo de Serpiente Zamak - Susurro de la Antigua Cascabel Anillo (1).pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch3/products/susurro-antigua-cascabel.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch3/products/susurro-antigua-cascabel.jpeg"
+      ],
+      "image_dimensions": [
+        529,
+        529
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "La segunda imagen muestra seis anillos de serpiente diferentes; no es una foto exclusiva de este modelo y se excluye de la galería."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null,
+      "auxiliary_images": [
+        {
+          "path": "/workspace/shared/draco-catalog-batch3/products/susurro-antigua-cascabel-aux-2.jpeg",
+          "source_image_path": "/workspace/shared/draco-catalog-batch3/extracted/22/Data/image2-33.jpeg",
+          "role": "group_multiple_models",
+          "use_in_product_gallery": false
+        }
+      ]
+    },
+    "published_id": "susurro-antigua-cascabel",
+    "image_sha256": "2ca306601d475473b34c09a000b73e882a069a7cde09a8f40e47a0316b812c9e"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "emperador-draconico",
+      "name": "Anillo Emperador Dracónico",
+      "description": "Anillo con figura de dragón alado, detalles en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "02",
+        "01"
+      ],
+      "source_docs": [
+        "Anillo Emperador Dracónico Draco.pages",
+        "Anillo Emperador Dracónico Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/emperador-draconico.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/emperador-draconico.jpeg"
+      ],
+      "image_dimensions": [
+        474,
+        474
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "emperador-draconico",
+    "image_sha256": "7dffdab7297507d9b413a84e7622991c3f7d3de633741f9dfa7421351948d615"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "espiral-esmeralda-cobra",
+      "name": "Anillo Espiral Esmeralda Cobra",
+      "description": "Anillo con serpiente en espiral, detalles de escamas y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "03"
+      ],
+      "source_docs": [
+        "Anillo Espiral Esmeralda Cobra Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/espiral-esmeralda-cobra.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/espiral-esmeralda-cobra.jpeg"
+      ],
+      "image_dimensions": [
+        500,
+        500
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El nombre incluye una gema o cristal, pero el documento no confirma una incrustación de ese material y la fotografía no la demuestra. No afirmar esmeralda, amatista ni cristal auténticos."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "espiral-esmeralda-cobra",
+    "image_sha256": "2e20618cc6178bb9af462586f8cc4f02b3310f40d6d4325bf610b58b6993bd90"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "espiral-dragon-mistico",
+      "name": "Anillo Espiral de Dragón Místico",
+      "description": "Anillo con cabeza de dragón, formas envolventes y detalles en relieve de tono plateado.",
+      "source_ids": [
+        "05",
+        "04"
+      ],
+      "source_docs": [
+        "Anillo Espiral de Dragón Místico Draco.pages",
+        "Anillo Espiral de Dragón Místico Draco 2.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/espiral-dragon-mistico.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/espiral-dragon-mistico.jpeg"
+      ],
+      "image_dimensions": [
+        483,
+        483
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "espiral-dragon-mistico",
+    "image_sha256": "cc175da44f587d74777be10b8a8c649d9324f90a9f6c94aaba8a6446ed2d19e3"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "felina-magia-gato",
+      "name": "Anillo Felina Magia Gato",
+      "description": "Anillo de diseño felino con cabeza y cola de gato, acabado de tono plateado y detalles oscuros.",
+      "source_ids": [
+        "06"
+      ],
+      "source_docs": [
+        "Anillo Felina Magia Gato en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/felina-magia-gato.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/felina-magia-gato.png"
+      ],
+      "image_dimensions": [
+        467,
+        289
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "felina-magia-gato",
+    "image_sha256": "9c2f8aa2cdb22c2844b629a24f5b39ce8734540d2636fdc3570906bab973ba8e"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "fiera-leon",
+      "name": "Anillo Fiera León",
+      "description": "Anillo con cabeza de león, melena detallada en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "07"
+      ],
+      "source_docs": [
+        "Anillo Fiera León en Zamak  Fuerza Salvaje León.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/fiera-leon.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/fiera-leon.png"
+      ],
+      "image_dimensions": [
+        415,
+        415
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "fiera-leon",
+    "image_sha256": "d1db0e6110d41c4f5cf4dc31db18adfe2e85819b73d984a76605ab34831aa0b6"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "bestia-lunas-rojas",
+      "name": "Anillo Bestia de las Lunas Rojas",
+      "description": "Anillo con rostro de bestia fantástica, relieves puntiagudos y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "08"
+      ],
+      "source_docs": [
+        "Anillo Fiera Zamak Bestia de las Lunas Rojas.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/bestia-lunas-rojas.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/bestia-lunas-rojas.png"
+      ],
+      "image_dimensions": [
+        440,
+        440
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "bestia-lunas-rojas",
+    "image_sha256": "ad8bd00ed1877c5ef36ed75045039d0ce6078928e7a12dc2123ce95b305887c3"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "fortaleza-natural-espiga-hoja",
+      "name": "Anillo Fortaleza Natural Espiga Hoja",
+      "description": "Anillo envolvente con hojas y espigas en relieve, de acabado plateado con detalles oscuros.",
+      "source_ids": [
+        "09"
+      ],
+      "source_docs": [
+        "Anillo Fortaleza Natural Espiga Hoja en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/fortaleza-natural-espiga-hoja.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/fortaleza-natural-espiga-hoja.png"
+      ],
+      "image_dimensions": [
+        486,
+        313
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "fortaleza-natural-espiga-hoja",
+    "image_sha256": "46455b693b06dc3e0c5739a7843aa98d3e5d2a89b16e04ef767b05ddbfb2fba2"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "garra-cristal-fuego",
+      "name": "Anillo Garra de Cristal y Fuego",
+      "description": "Anillo abierto con pequeñas garras enfrentadas y acabado de tono plateado.",
+      "source_ids": [
+        "10"
+      ],
+      "source_docs": [
+        "Anillo Garra de Cristal y Fuego Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/garra-cristal-fuego.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/garra-cristal-fuego.jpeg"
+      ],
+      "image_dimensions": [
+        456,
+        456
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El nombre incluye una gema o cristal, pero el documento no confirma una incrustación de ese material y la fotografía no la demuestra. No afirmar esmeralda, amatista ni cristal auténticos."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "garra-cristal-fuego",
+    "image_sha256": "98045bc4895d3555d3ae6927f8bdd94e6b0da3317ff5fa35aaa20708ec2b16c8"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "garra-reina-bestial",
+      "name": "Anillo Garra de la Reina Bestial",
+      "description": "Anillo de forma animal envolvente, con cabeza alargada y textura de escamas en tonos plateados y oscuros.",
+      "source_ids": [
+        "11"
+      ],
+      "source_docs": [
+        "Anillo Garra de la Reina Bestial Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/garra-reina-bestial.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/garra-reina-bestial.jpeg"
+      ],
+      "image_dimensions": [
+        467,
+        467
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El nombre dice garra; la fotografía parece una cabeza animal escamosa. Se conserva el nombre documental y se describe la apariencia visible."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "garra-reina-bestial",
+    "image_sha256": "ce1bd6c42f883ec267ebfe4f6158939ee8a7b081b864a99194c19f56d77557f0"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "garra-dragon-amatista",
+      "name": "Anillo Garra del Dragón de Amatista",
+      "description": "Anillo abierto con garras alargadas, detalles de escamas y acabado de tono plateado.",
+      "source_ids": [
+        "12"
+      ],
+      "source_docs": [
+        "Anillo Garra del Dragón de Amatista Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/garra-dragon-amatista.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/garra-dragon-amatista.jpeg"
+      ],
+      "image_dimensions": [
+        527,
+        527
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "El nombre incluye una gema o cristal, pero el documento no confirma una incrustación de ese material y la fotografía no la demuestra. No afirmar esmeralda, amatista ni cristal auténticos."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "garra-dragon-amatista",
+    "image_sha256": "3b8b3482918fd0bca2a4a6cdbb8a35128f63ed590ebdbbd4b3d7f90711a7a9a3"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "garra-halcon-celestial",
+      "name": "Anillo Garra del Halcón Celestial",
+      "description": "Anillo con garras curvadas y textura en relieve, de acabado plateado con zonas oscuras.",
+      "source_ids": [
+        "13"
+      ],
+      "source_docs": [
+        "Anillo Garra del Halcón Celestial Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/garra-halcon-celestial.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/garra-halcon-celestial.jpeg"
+      ],
+      "image_dimensions": [
+        591,
+        591
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "garra-halcon-celestial",
+    "image_sha256": "2d0765eaf211814448e95a2617337bb15c883dd38e071c4957aed0e92aa39c69"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "guardian-rio-cocodrilo",
+      "name": "Anillo Guardián del Río Cocodrilo",
+      "description": "Anillo con figura de cocodrilo, cuerpo envolvente y escamas en relieve de tono plateado.",
+      "source_ids": [
+        "14"
+      ],
+      "source_docs": [
+        "Anillo Guardián del Río Cocodrilo Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/guardian-rio-cocodrilo.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/guardian-rio-cocodrilo.jpeg"
+      ],
+      "image_dimensions": [
+        413,
+        413
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "guardian-rio-cocodrilo",
+    "image_sha256": "7bfca564890fe94877b3bf1e31d1d10223545f348011401c35b750eba3e98259"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "honor-esparta",
+      "name": "Anillo Honor de Esparta",
+      "description": "Anillo de rostro guerrero estilizado, con acabado oscuro y contornos de tono plateado.",
+      "source_ids": [
+        "15"
+      ],
+      "source_docs": [
+        "Anillo Honor de Esparta Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/honor-esparta.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/honor-esparta.jpeg"
+      ],
+      "image_dimensions": [
+        449,
+        449
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "honor-esparta",
+    "image_sha256": "b540d1625688f04a6f2fc08c78b03b19f475e5fb125a16fca361f3ed71c671bb"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "latido-estelar-dos-almas-dorado",
+      "name": "Anillo Latido Estelar de Dos Almas Dorado",
+      "description": "Anillo abierto con dos manos que forman un corazón y acabado de tono dorado.",
+      "source_ids": [
+        "16"
+      ],
+      "source_docs": [
+        "Anillo Latido Estelar de Dos Almas Dorado en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/latido-estelar-dos-almas-dorado.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/latido-estelar-dos-almas-dorado.png"
+      ],
+      "image_dimensions": [
+        412,
+        166
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak con baño dorado",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Dorado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "latido-estelar-dos-almas-dorado",
+    "image_sha256": "db7b74e257ed1cf18f4c1f343ca52a1a9a5e3333c5f90f4e56899026f4f3e315"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "latido-estelar-dos-almas",
+      "name": "Anillo Latido Estelar de Dos Almas",
+      "description": "Anillo abierto con dos manos que forman un corazón y acabado de tono plateado.",
+      "source_ids": [
+        "17"
+      ],
+      "source_docs": [
+        "Anillo Latido Estelar de Dos Almas en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/latido-estelar-dos-almas.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/latido-estelar-dos-almas.png"
+      ],
+      "image_dimensions": [
+        433,
+        226
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Tono plateado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "latido-estelar-dos-almas",
+    "image_sha256": "3e216023c6a160f6b59998a39409ea3140ada08a13847818df95ba8cc2a42fb8"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "lealtad-inquebrantable-perro-guardian",
+      "name": "Anillo Lealtad Inquebrantable Perro Guardián",
+      "description": "Anillo abierto con figura de perro, orejas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "18"
+      ],
+      "source_docs": [
+        "Anillo Lealtad Inquebrantable Perro Guardián en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/lealtad-inquebrantable-perro-guardian.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/lealtad-inquebrantable-perro-guardian.png"
+      ],
+      "image_dimensions": [
+        397,
+        338
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "lealtad-inquebrantable-perro-guardian",
+    "image_sha256": "9822e0f8e18735c28b81023d32f8968c249fc6d32e4dca8e08a6054a36b0fca3"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "mamba-negra-celestial",
+      "name": "Anillo Mamba Negra Celestial",
+      "description": "Anillo con serpiente enroscada, escamas en relieve y acabado de tono plateado con zonas oscuras.",
+      "source_ids": [
+        "19"
+      ],
+      "source_docs": [
+        "Anillo Mamba Negra Celestial Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/mamba-negra-celestial.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/mamba-negra-celestial.jpeg"
+      ],
+      "image_dimensions": [
+        429,
+        506
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "Negra forma parte del nombre de la serpiente; no demuestra un acabado negro."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "mamba-negra-celestial",
+    "image_sha256": "3f25fb4e824176e25427e2664c01256e88576fa7659b1b8d29db4fd5892dd808"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "mascara-hierro-negra",
+      "name": "Anillo Máscara de Hierro Negra",
+      "description": "Anillo con máscara de pico alargado y superficie lisa de tono plateado oscuro.",
+      "source_ids": [
+        "20"
+      ],
+      "source_docs": [
+        "Anillo Máscara de Hierro Negra Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/mascara-hierro-negra.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/mascara-hierro-negra.jpeg"
+      ],
+      "image_dimensions": [
+        562,
+        562
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [
+        "Hierro y Negra forman parte del nombre. El material declarado es Zamak y la foto muestra un acabado metálico."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "mascara-hierro-negra",
+    "image_sha256": "1c9f1906019d06e03bbe283c68ab81aa40cbc65aaac37b34b7077d218e5ea1bb"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "mascara-urano",
+      "name": "Anillo Máscara de Urano",
+      "description": "Anillo con máscara de pico alargado, símbolos grabados y acabado de tono plateado.",
+      "source_ids": [
+        "21"
+      ],
+      "source_docs": [
+        "Anillo Máscara de Urano Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/mascara-urano.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/mascara-urano.jpeg"
+      ],
+      "image_dimensions": [
+        518,
+        518
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": null,
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "mascara-urano",
+    "image_sha256": "213978dd9d5052790df6b4d215f322941e0fa5ea8ba1e68478ff41e2934106e8"
+  },
+  {
+    "batch": "draco-catalog-batch5",
+    "source": {
+      "id": "mirada-eclipse-ancestral",
+      "name": "Anillo Mirada Eclipse Ancestral",
+      "description": "Anillo con ojo azul de pupila vertical, rodeado de relieves de tono plateado.",
+      "source_ids": [
+        "22"
+      ],
+      "source_docs": [
+        "Anillo Mirada Eclipse Ancestral Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch5/products/mirada-eclipse-ancestral.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch5/products/mirada-eclipse-ancestral.png"
+      ],
+      "image_dimensions": [
+        410,
+        410
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojo azul",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "mirada-eclipse-ancestral",
+    "image_sha256": "d4f2b5be7a625c9beda94d826a75fb118c5f58226358fe05ae6e818e023ad1e9"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "naipe-estelar",
+      "name": "Naipe Estelar",
+      "description": "Anillo de banda ancha con un naipe de corazón en relieve y laterales ornamentados.",
+      "source_ids": [
+        "01"
+      ],
+      "source_docs": [
+        "Anillo Naipe Estelar en Zamak - Corazón de la Constelación Perdida.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/naipe-estelar.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/naipe-estelar.png"
+      ],
+      "image_dimensions": [
+        425,
+        325
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "naipe-estelar",
+    "image_sha256": "f708f59510b10381ff7c26c3b72ffa2694d708821434498286b77f4fcfe043e9"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "ojo-espectral",
+      "name": "Ojo Espectral",
+      "description": "Ojo de iris multicolor y pupila redonda, rodeado por una montura metálica ornamentada.",
+      "source_ids": [
+        "02"
+      ],
+      "source_docs": [
+        "Anillo Ojo Espectral Zamak – Visión Inquebrantable.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/ojo-espectral.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/ojo-espectral.png"
+      ],
+      "image_dimensions": [
+        323,
+        323
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak ecológico",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Iris multicolor",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "ojo-espectral",
+    "image_sha256": "4c1985edf323b666cd96aafd3b90a5d42537590db97e7f3163a15514925d9c4f"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "ojo-estelar",
+      "name": "Ojo Estelar",
+      "description": "Ojo de iris azul y violeta con pupila vertical, en una montura de detalles curvos.",
+      "source_ids": [
+        "03"
+      ],
+      "source_docs": [
+        "Anillo Ojo Estelar en Zamak – Visión del Abismo Estelar.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/ojo-estelar.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/ojo-estelar.png"
+      ],
+      "image_dimensions": [
+        376,
+        376
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Iris azul violeta",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "ojo-estelar",
+    "image_sha256": "9cb1589a11713c858ef56a18a4f0eaacafe18f91dc7fa901d0bd677087cbdc90"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "ojo-rojo-astral",
+      "name": "Ojo Rojo Astral",
+      "description": "Ojo rojo de pupila vertical, rodeado de relieves metálicos.",
+      "source_ids": [
+        "04"
+      ],
+      "source_docs": [
+        "Anillo Ojo Rojo Astral Zamak – Visión Mística.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/ojo-rojo-astral.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/ojo-rojo-astral.png"
+      ],
+      "image_dimensions": [
+        412,
+        412
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Iris rojo",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "ojo-rojo-astral",
+    "image_sha256": "20b8669b800ca441ec08316d534ecab9ef75dffaa7604b837bc6284bee4b6e4e"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "ojo-orion-eterno",
+      "name": "Ojo de Orión Eterno",
+      "description": "Ojo amarillo con pupila vertical y vetas oscuras, enmarcado por relieves metálicos.",
+      "source_ids": [
+        "05"
+      ],
+      "source_docs": [
+        "Anillo Ojo de Orión Eterno Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/ojo-orion-eterno.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/ojo-orion-eterno.png"
+      ],
+      "image_dimensions": [
+        454,
+        454
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak ecológico",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Iris amarillo",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "ojo-orion-eterno",
+    "image_sha256": "0773a8f1d539dec13289f7d3edf28a6a6aedc8596483541a18a8cdaa9964fea0"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "patitas-guardian-nebulosa-claro",
+      "name": "Patitas Guardián de la Nebulosa Claro",
+      "description": "Banda abierta de acabado claro con dos pequeñas patitas en sus extremos.",
+      "source_ids": [
+        "06"
+      ],
+      "source_docs": [
+        "Anillo Patitas Guardián de la Nebulosa Claro en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/patitas-guardian-nebulosa-claro.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/patitas-guardian-nebulosa-claro.png"
+      ],
+      "image_dimensions": [
+        438,
+        212
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Claro",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "patitas-guardian-nebulosa-claro",
+    "image_sha256": "7b90215a2fe400c94352e098dadcf2d5e9444d7e41e16516132b98bc18e06922"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "patitas-guardian-nebulosa",
+      "name": "Patitas Guardián de la Nebulosa",
+      "description": "Banda abierta de tono metálico oscuro con dos patitas enfrentadas.",
+      "source_ids": [
+        "07"
+      ],
+      "source_docs": [
+        "Anillo Patitas Guardián de la Nebulosa en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/patitas-guardian-nebulosa.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/patitas-guardian-nebulosa.png"
+      ],
+      "image_dimensions": [
+        433,
+        260
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico oscuro visible",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "patitas-guardian-nebulosa",
+    "image_sha256": "fcb325bbbb08fb0d84a22d037f3f667abba4ceb34ae94bd6e7a46f600a5e04e0"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "puno-cometa-errante",
+      "name": "Puño del Cometa Errante",
+      "description": "Dos puños enfrentados rematan una banda abierta con detalles de alto contraste.",
+      "source_ids": [
+        "08"
+      ],
+      "source_docs": [
+        "Anillo Puño del Cometa Errante en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/puno-cometa-errante.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/puno-cometa-errante.png"
+      ],
+      "image_dimensions": [
+        367,
+        296
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "puno-cometa-errante",
+    "image_sha256": "080512da8cd18317240b1641d3abdfb4bf2a6a9717e920ae3b9ba06de195a898"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "raiz-poder-hoja-bosque",
+      "name": "Raíz y Poder Hoja del Bosque",
+      "description": "Dos hojas alargadas y curvadas se cruzan en un diseño abierto con nervaduras marcadas.",
+      "source_ids": [
+        "09"
+      ],
+      "source_docs": [
+        "Anillo Raíz y Poder Hoja del Bosque en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/raiz-poder-hoja-bosque.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/raiz-poder-hoja-bosque.png"
+      ],
+      "image_dimensions": [
+        412,
+        357
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "raiz-poder-hoja-bosque",
+    "image_sha256": "4a9bf649407c3b3afd9db8e8c6999e1471b36561041b813c36a7b3a917c67224"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "renacer-garra-demoniaca",
+      "name": "Renacer de la Garra Demoníaca",
+      "description": "Diseño envolvente de garras alargadas con textura de escamas y relieves oscuros.",
+      "source_ids": [
+        "10"
+      ],
+      "source_docs": [
+        "Anillo Renacer de la Garra Demoníaca Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/renacer-garra-demoniaca.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/renacer-garra-demoniaca.jpeg"
+      ],
+      "image_dimensions": [
+        495,
+        495
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "renacer-garra-demoniaca",
+    "image_sha256": "7cfd872911673e827ab85228ccff80e65818aecac4858943026137796bad5f9a"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "rugido-garra-salvaje",
+      "name": "Rugido de la Garra Salvaje",
+      "description": "Garras curvas y puntiagudas forman una estructura abierta de acabado metálico.",
+      "source_ids": [
+        "11"
+      ],
+      "source_docs": [
+        "Anillo Rugido de la Garra Salvaje Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/rugido-garra-salvaje.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/rugido-garra-salvaje.jpeg"
+      ],
+      "image_dimensions": [
+        493,
+        493
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "rugido-garra-salvaje",
+    "image_sha256": "b57c5935fa99d866ff8c36449924d90b7ff8e74f9af1e35959882c89761d1910"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "sabiduria-verde-hoja-sagrada",
+      "name": "Sabiduría Verde Hoja Sagrada",
+      "description": "Banda de hojas alargadas con nervaduras finas y extremos superpuestos.",
+      "source_ids": [
+        "12"
+      ],
+      "source_docs": [
+        "Anillo Sabiduría Verde Hoja Sagrada en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/sabiduria-verde-hoja-sagrada.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/sabiduria-verde-hoja-sagrada.png"
+      ],
+      "image_dimensions": [
+        409,
+        302
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [
+        "Verde forma parte del nombre; la fotografía no demuestra un acabado verde."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "sabiduria-verde-hoja-sagrada",
+    "image_sha256": "a268ea7f1901f4c69152ee89a90d88a184e56a402057a0971082fe5ccd2f169d"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "serpiente-vibora-nocturna",
+      "name": "Serpiente Víbora Nocturna",
+      "description": "Figura fantástica de relieves escamosos y salientes curvos, con detalles oscuros de alto contraste.",
+      "source_ids": [
+        "13"
+      ],
+      "source_docs": [
+        "Anillo Serpiente Víbora Nocturna Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/serpiente-vibora-nocturna.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/serpiente-vibora-nocturna.jpeg"
+      ],
+      "image_dimensions": [
+        527,
+        527
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [
+        "El documento identifica una serpiente, pero la fotografía muestra una criatura fantástica con salientes y relieves; confirmar correspondencia antes de atribuir anatomía específica."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "serpiente-vibora-nocturna",
+    "image_sha256": "0053a86248dead6ba50c53301df054eaccf906249a29c1922ae811ad478dcca7"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "sigilo-letal-serpiente-sombra",
+      "name": "Sigilo Letal Serpiente Sombra",
+      "description": "Serpiente de cuerpo ondulado y escamoso que forma una banda abierta.",
+      "source_ids": [
+        "14"
+      ],
+      "source_docs": [
+        "Anillo Sigilo Letal Serpiente Sombra Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/sigilo-letal-serpiente-sombra.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/sigilo-letal-serpiente-sombra.png"
+      ],
+      "image_dimensions": [
+        511,
+        511
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "sigilo-letal-serpiente-sombra",
+    "image_sha256": "593962a50a891027c9c4c910b72403e3eefbd93385d0234c3d0498e701a734d1"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "sombra-demoniaca",
+      "name": "Sombra Demoníaca",
+      "description": "Rostro fantástico con cuernos y relieves intrincados de alto contraste.",
+      "source_ids": [
+        "15",
+        "16"
+      ],
+      "source_docs": [
+        "Anillo Sombra Demoníaca en Zamak 2.pages",
+        "Anillo Sombra Demoníaca en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/sombra-demoniaca.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/sombra-demoniaca.jpeg"
+      ],
+      "image_dimensions": [
+        564,
+        564
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "sombra-demoniaca",
+    "image_sha256": "8a9040f5ce29570c4a86b8e10f312b2d529d73c57acdb1dd3e01846cefef733b"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "sombra-guerrero",
+      "name": "Sombra del Guerrero",
+      "description": "Casco de guerrero con perfil angular, aberturas para los ojos y protector frontal alargado.",
+      "source_ids": [
+        "17"
+      ],
+      "source_docs": [
+        "Anillo Sombra del Guerrero Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/sombra-guerrero.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/sombra-guerrero.jpeg"
+      ],
+      "image_dimensions": [
+        463,
+        463
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "sombra-guerrero",
+    "image_sha256": "948b0114bf09d8af089ceacfe90f5de171c0814de5117ce97f950b6be870899c"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "terciopelo-letal-eclipse",
+      "name": "Terciopelo Letal de Eclipse",
+      "description": "Serpiente alargada y ondulante con textura de escamas y acabado oscuro.",
+      "source_ids": [
+        "18"
+      ],
+      "source_docs": [
+        "Anillo Terciopelo Letal de Eclipse Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/terciopelo-letal-eclipse.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/terciopelo-letal-eclipse.jpeg"
+      ],
+      "image_dimensions": [
+        621,
+        671
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico oscuro",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "terciopelo-letal-eclipse",
+    "image_sha256": "b4019b54c2c517d642a206367755af02b978e3798d16d28b364abbbd8e141438"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "toro-dorado-fiera",
+      "name": "Toro Dorado Fiera",
+      "description": "Cabeza estilizada de toro con cuernos largos y erguidos; la fotografía muestra un tono metálico claro.",
+      "source_ids": [
+        "19"
+      ],
+      "source_docs": [
+        "Anillo Toro Dorado Fiera Zamak Fuerza Imperial Toro.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/toro-dorado-fiera.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/toro-dorado-fiera.png"
+      ],
+      "image_dimensions": [
+        403,
+        403
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak con baño dorado",
+      "material_as_stated_in_documents": "Zamak reciclado con baño dorado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Dorado declarado; fotografía de apariencia plateada",
+      "caveats": [
+        "El documento declara baño dorado, pero la fotografía suministrada parece plateada. Confirmar foto y acabado; no recolorear ni afirmar que la foto demuestra dorado."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "toro-dorado-fiera",
+    "image_sha256": "59bcf2b94435799c2216e6a22e28e9483cace8f0387a3323247f99ec427cf0ee"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "toro-fiera-guardian-tierra",
+      "name": "Toro Fiera Guardián de la Tierra",
+      "description": "Cabeza robusta de toro con cuernos curvos y detalles oscuros en el rostro.",
+      "source_ids": [
+        "20"
+      ],
+      "source_docs": [
+        "Anillo Toro Fiera Zamak Guardián de la Tierra Toro.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/toro-fiera-guardian-tierra.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/toro-fiera-guardian-tierra.png"
+      ],
+      "image_dimensions": [
+        437,
+        437
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "toro-fiera-guardian-tierra",
+    "image_sha256": "3fc5286dbf8adc6090532e38aed15872000e324b171eedc1f48641c5c17ab814"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "union-divina-manos-abrazando",
+      "name": "Unión Divina Manos Abrazando",
+      "description": "Dos manos rodean la banda abierta y se encuentran en un gesto de abrazo.",
+      "source_ids": [
+        "21"
+      ],
+      "source_docs": [
+        "Anillo Unión Divina Manos Abrazando en Zamak.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/union-divina-manos-abrazando.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/union-divina-manos-abrazando.png"
+      ],
+      "image_dimensions": [
+        437,
+        437
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "union-divina-manos-abrazando",
+    "image_sha256": "9f6b0d5ac61423886ffad302952252dad5627a8aea68ef4a1d18c08821c7d309"
+  },
+  {
+    "batch": "draco-catalog-batch6",
+    "source": {
+      "id": "veneno-escarlata-real",
+      "name": "Veneno Escarlata Real",
+      "description": "Serpiente de cuerpo escamoso que se enrolla en una espiral abierta con la cabeza elevada.",
+      "source_ids": [
+        "22"
+      ],
+      "source_docs": [
+        "Anillo Veneno Escarlata Real Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch6/products/veneno-escarlata-real.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch6/products/veneno-escarlata-real.png"
+      ],
+      "image_dimensions": [
+        467,
+        467
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Acento escarlata declarado; no visible en fotografía",
+      "caveats": [
+        "El documento declara un acento escarlata, pero no se aprecia color rojo en la fotografía; confirmar variante y foto."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "veneno-escarlata-real",
+    "image_sha256": "6c18ea1ed89f9a7f0b48f5e63ce86c970038924c478bb130b48183510eb13ec8"
+  },
+  {
+    "batch": "draco-catalog-batch7",
+    "source": {
+      "id": "vigilante-imperio",
+      "name": "Vigilante del Imperio",
+      "description": "Casco de guerrero con abertura horizontal para los ojos y dos protectores frontales alargados.",
+      "source_ids": [
+        "01"
+      ],
+      "source_docs": [
+        "Anillo Vigilante del Imperio Draco.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch7/products/vigilante-imperio.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch7/products/vigilante-imperio.jpeg"
+      ],
+      "image_dimensions": [
+        518,
+        518
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "vigilante-imperio",
+    "image_sha256": "69872bd3e8cf2c6490c35a8a7a1202d3edd8e71a19fc5519b01aaebbd8320c82"
+  },
+  {
+    "batch": "draco-catalog-batch7",
+    "source": {
+      "id": "vikingo-talisman-guerrero",
+      "name": "Vikingo Talismán del Guerrero Interdimensional",
+      "description": "Anillo de banda ancha con símbolo radial en el centro y textura marcada en sus laterales.",
+      "source_ids": [
+        "02"
+      ],
+      "source_docs": [
+        "Anillo Vikingo en Zamak  – Talismán del Guerrero Interdimensional.pages"
+      ],
+      "primary_image_path": "/workspace/shared/draco-catalog-batch7/products/vikingo-talisman-guerrero.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-batch7/products/vikingo-talisman-guerrero.png"
+      ],
+      "image_dimensions": [
+        494,
+        266
+      ],
+      "image_verified_visually": true,
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Anillos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "vikingo-talisman-guerrero",
+    "image_sha256": "e4c0af572c472bdb4c2bca8720236c77a8f2b0d3ce72b5acf9078c9c34d0335a"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-rojos",
+      "name": "Búho Ojos Rojos",
+      "description": "Anillo de búho con ojos rojos, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "1ZbO7_dix-wUVtwsKIeoJgdKDKy0VVCz-"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Rojos Ajustable en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1ZbO7_dix-wUVtwsKIeoJgdKDKy0VVCz-/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "19QibYg8AaH0tjeCUbT5oz8MzCFe83GKG",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-rojos.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-rojos.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1aCY5rbkhVpUmsBiNoZYkqDKhOpEaz7aP/view?usp=drivesdk",
+      "primary_image_source_id": "1aCY5rbkhVpUmsBiNoZYkqDKhOpEaz7aP",
+      "primary_image_sha256": "30aea497d4d024b7d773a38ebf941ff9d4f1717d7f9b2079a60154959f0aa232",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Rojos",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-rojos",
+    "image_sha256": "30aea497d4d024b7d773a38ebf941ff9d4f1717d7f9b2079a60154959f0aa232"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-naranja",
+      "name": "Búho Ojos Naranja",
+      "description": "Anillo de búho con ojos naranja, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "11_rUPZOh4E9S0YvRZU4ImdlviOmlG69h"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Naranja Ajustable en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/11_rUPZOh4E9S0YvRZU4ImdlviOmlG69h/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1KgTkEYDV-pB18Q7FEtnXzo9MGL1SRL2U",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-naranja.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-naranja.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1o8VfdKzedmKeb62cunFNkMrPaw8yAOP0/view?usp=drivesdk",
+      "primary_image_source_id": "1o8VfdKzedmKeb62cunFNkMrPaw8yAOP0",
+      "primary_image_sha256": "fad40c522390fc059d9c84fe1a5d6839a6fc77a921836389ed186dd475bdbccf",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Naranja",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-naranja",
+    "image_sha256": "fad40c522390fc059d9c84fe1a5d6839a6fc77a921836389ed186dd475bdbccf"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "esencia-marina-hoja-corazon",
+      "name": "Esencia Marina · Hoja Corazón del Bosque",
+      "description": "Anillo ancho con relieves de hojas y detalle central de color verde turquesa.",
+      "source_ids": [
+        "173hJv-OsmZt0rS3LWJP5vqaXT5me-mpW"
+      ],
+      "source_docs": [
+        "Anillo Esencia Marina Hoja Corazón del Bosque en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/173hJv-OsmZt0rS3LWJP5vqaXT5me-mpW/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1yufEOzOStsM-aZIHRSbKeFnC9MwPkZBn",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/esencia-marina-hoja-corazon.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/esencia-marina-hoja-corazon.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/138i6N07NGl5bByiQKskSrfSxRgw_6mY6/view?usp=drivesdk",
+      "primary_image_source_id": "138i6N07NGl5bByiQKskSrfSxRgw_6mY6",
+      "primary_image_sha256": "85cf19bde52e2764d36f37d632cd4e6f5f49efafcba73f74a5e04301d5ba53d2",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Naturaleza",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "esencia-marina-hoja-corazon",
+    "image_sha256": "85cf19bde52e2764d36f37d632cd4e6f5f49efafcba73f74a5e04301d5ba53d2"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "esfinge-planeta-olvidado",
+      "name": "Esfinge del Planeta Olvidado",
+      "description": "Anillo ancho de tono plateado con figura felina y motivos entrelazados en relieve.",
+      "source_ids": [
+        "10wHwfrvkiaCgH4arw5heJZBTFRc5-M-N"
+      ],
+      "source_docs": [
+        "Anillo Esfinge del Planeta Olvidado en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/10wHwfrvkiaCgH4arw5heJZBTFRc5-M-N/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1Z_uQP75yjvs6YQHBB6yCbLcbj9LUtNiz",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/esfinge-planeta-olvidado.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/esfinge-planeta-olvidado.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1HX73_clwIp7Td1GQtLh9TAm6C1BD-b4p/view?usp=drivesdk",
+      "primary_image_source_id": "1HX73_clwIp7Td1GQtLh9TAm6C1BD-b4p",
+      "primary_image_sha256": "0d7258e3fde30e2305138576e3bf82c3fe2b1a1542b9823da52a7a9ba84bbfb6",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Naturaleza",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "esfinge-planeta-olvidado",
+    "image_sha256": "0d7258e3fde30e2305138576e3bf82c3fe2b1a1542b9823da52a7a9ba84bbfb6"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-verdes",
+      "name": "Búho Ojos Verdes",
+      "description": "Anillo de búho con ojos verdes, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "11PnRs9dexhgK8Nrpp7Pw5SKTnrviu1xV"
+      ],
+      "source_docs": [
+        "Anillo Búho Ojos Verdes Ajustable.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/11PnRs9dexhgK8Nrpp7Pw5SKTnrviu1xV/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1A_emiRi9wwSvWTf2ArBnZOWzp5KMc4I4",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-verdes.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-verdes.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1kf7KMn1c8omEvXh2YcmL7ycJiO40gnXG/view?usp=drivesdk",
+      "primary_image_source_id": "1kf7KMn1c8omEvXh2YcmL7ycJiO40gnXG",
+      "primary_image_sha256": "0a02481192cc6859f397bc5bfad3472359b85fecaa204179db913fcafbc9bede",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Verdes",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-verdes",
+    "image_sha256": "0a02481192cc6859f397bc5bfad3472359b85fecaa204179db913fcafbc9bede"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-azul-celeste",
+      "name": "Búho Ojos Azul Celeste",
+      "description": "Anillo de búho con ojos azul celeste, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "1Ldgjet-qQcdD3WAddWDWcMniqmQgyEM-"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Azul Celeste Ajustable en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1Ldgjet-qQcdD3WAddWDWcMniqmQgyEM-/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1NM3i_zPeBolPim2rtwqahhZAck-0eD4b",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-azul-celeste.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-azul-celeste.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1Pu4BMP6bEVflB3ubOfCJhBrvAtbmmYO5/view?usp=drivesdk",
+      "primary_image_source_id": "1Pu4BMP6bEVflB3ubOfCJhBrvAtbmmYO5",
+      "primary_image_sha256": "f5e805f2abac477fa5d725dc5c16e7d569b76b003668030d614c4488d8d12a3a",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Azul Celeste",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-azul-celeste",
+    "image_sha256": "f5e805f2abac477fa5d725dc5c16e7d569b76b003668030d614c4488d8d12a3a"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-rosados",
+      "name": "Búho Ojos Rosados",
+      "description": "Anillo de búho con ojos rosados, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "1EwVtVnUSlwrQWiulF6DKM7CVYi8h9wT0"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Rosados Ajustable en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1EwVtVnUSlwrQWiulF6DKM7CVYi8h9wT0/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "12YYod-cOycfoiqnSDHjcts3xyVJzMcI7",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-rosados.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-rosados.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1lOUOwJIS1qHCe7avmWxgKvgZ2D64OIiT/view?usp=drivesdk",
+      "primary_image_source_id": "1lOUOwJIS1qHCe7avmWxgKvgZ2D64OIiT",
+      "primary_image_sha256": "974d7538aa27c811d7d656a72acfe0c0c0c6f58558f6dd6be0771aeb6e5650d5",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Rosados",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-rosados",
+    "image_sha256": "974d7538aa27c811d7d656a72acfe0c0c0c6f58558f6dd6be0771aeb6e5650d5"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "fragmento-fuego-dragon-cosmico",
+      "name": "Fragmento de Fuego del Dragón Cósmico",
+      "description": "Anillo abierto con dos alas envolventes en relieve y acabado metálico.",
+      "source_ids": [
+        "1iFeLEAm-ZeEufFj4MrCBRhEtFrNDPMrX"
+      ],
+      "source_docs": [
+        "Anillo Fragmento de Fuego del Dragón Cósmico Draco.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1iFeLEAm-ZeEufFj4MrCBRhEtFrNDPMrX/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1FYF3_QZ8KHYaM8gYC9d49Wt-2djjykL5",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/fragmento-fuego-dragon-cosmico.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/fragmento-fuego-dragon-cosmico.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1hYna6bzHiVxCz01LXRSE6SGyqRVaQzYm/view?usp=drivesdk",
+      "primary_image_source_id": "1hYna6bzHiVxCz01LXRSE6SGyqRVaQzYm",
+      "primary_image_sha256": "831ae7c98cf3ff7b41f9d1a472e33eabc412749a604a638aaaefcfd545f3231a",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Alas",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "fragmento-fuego-dragon-cosmico",
+    "image_sha256": "831ae7c98cf3ff7b41f9d1a472e33eabc412749a604a638aaaefcfd545f3231a"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-morados",
+      "name": "Búho Ojos Morados",
+      "description": "Anillo de búho con ojos morados, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "1_LC4rWpSos6oOCYcSpRCyP9vOkpuwjJP"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Morados Ajustable en Zamak - Anillos Draco Estilo Versátil para una Elegancia Encantadora.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1_LC4rWpSos6oOCYcSpRCyP9vOkpuwjJP/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1TlBAXlu-xvytqjv6iNnwTCpW01ONaA5E",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-morados.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-morados.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/14ht2mbakXmZ486LYuIiKn-fMARU70-V7/view?usp=drivesdk",
+      "primary_image_source_id": "14ht2mbakXmZ486LYuIiKn-fMARU70-V7",
+      "primary_image_sha256": "11258c87e43776bd35263b488e924e4ce955a525e774172d4667550ea3e33fd7",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Morados",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-morados",
+    "image_sha256": "11258c87e43776bd35263b488e924e4ce955a525e774172d4667550ea3e33fd7"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buho-ojos-azules",
+      "name": "Búho Ojos Azules",
+      "description": "Anillo de búho con ojos azules, relieves de plumas y acabado metálico.",
+      "source_ids": [
+        "1-bZgwBYI8MbGE3uPPgdhuk-jbDtWjAml"
+      ],
+      "source_docs": [
+        "Anillo de Búho con Ojos Azules Ajustable en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1-bZgwBYI8MbGE3uPPgdhuk-jbDtWjAml/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "11BnsoVQIjA3PYUrQWGYNv2CxO5TfKdjJ",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-azules.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buho-ojos-azules.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1_oiK_pIKcOwwD-2xDt81Z1KGbm5GASjL/view?usp=drivesdk",
+      "primary_image_source_id": "1_oiK_pIKcOwwD-2xDt81Z1KGbm5GASjL",
+      "primary_image_sha256": "ef03a90bb2a863650a04ae849181d039b00d48aca5af067c08c4dbdf6e1f0ba3",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Ojos Azules",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Búhos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buho-ojos-azules",
+    "image_sha256": "ef03a90bb2a863650a04ae849181d039b00d48aca5af067c08c4dbdf6e1f0ba3"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "guante-infinito-titan",
+      "name": "Guante Infinito del Titán",
+      "description": "Anillo de tono dorado inspirado en un guante, con relieves y detalles de varios colores.",
+      "source_ids": [
+        "1lNLOnBnGITHuzsIIzJiC5PLFl0YAIRcD"
+      ],
+      "source_docs": [
+        "Anillo de Thanos Zamak - Guante Infinito del Titán Ángulo Anillo.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1lNLOnBnGITHuzsIIzJiC5PLFl0YAIRcD/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "15FJj9zCI7grM1libF3b_R7gglNPBsoJy",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/guante-infinito-titan.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/guante-infinito-titan.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1gU0LeZqVMG4jxd99bbLhL1M1VSlt7q8R/view?usp=drivesdk",
+      "primary_image_source_id": "1gU0LeZqVMG4jxd99bbLhL1M1VSlt7q8R",
+      "primary_image_sha256": "8e460015ae22f085011afd50f4b0af53356f6a4eba72b309bddd05997862503d",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Dorado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Cósmicos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "guante-infinito-titan",
+    "image_sha256": "8e460015ae22f085011afd50f4b0af53356f6a4eba72b309bddd05997862503d"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "almas-errantes",
+      "name": "Almas Errantes",
+      "description": "Anillo con varias calaveras agrupadas en relieve y acabado de tono plateado.",
+      "source_ids": [
+        "1QdP2xtEMpVn_AuX0rIToOz0ojt7kHZPO"
+      ],
+      "source_docs": [
+        "Anillo Almas Errantes en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1QdP2xtEMpVn_AuX0rIToOz0ojt7kHZPO/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1LwOAu7qDF1n5XqVl6R7GHyBf9jKxItl8",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/almas-errantes.jpeg",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/almas-errantes.jpeg"
+      ],
+      "image_dimensions": [
+        472,
+        472
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://docs.google.com/document/d/1QdP2xtEMpVn_AuX0rIToOz0ojt7kHZPO/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true",
+      "primary_image_source_id": "embedded:word/media/image1.jpeg",
+      "primary_image_sha256": "814f1299c5ec9e806115f0f6b58c860d7092a01b06fa101e6010116864b40248",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [
+        "Original DOCX embedded cover; 472px source retained because folder contains campaign collages, not a clean single-product image."
+      ],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Oscuros",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "almas-errantes",
+    "image_sha256": "814f1299c5ec9e806115f0f6b58c860d7092a01b06fa101e6010116864b40248"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "naipe-apuesta-final",
+      "name": "Naipe · Apuesta Final",
+      "description": "Anillo ancho de tono plateado con figuras de naipes, corazones y detalles oscuros.",
+      "source_ids": [
+        "1wceJ-b-75fNTCcCwJPoVTtVQqVlv3K-G"
+      ],
+      "source_docs": [
+        "Anillo de Naipe en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1wceJ-b-75fNTCcCwJPoVTtVQqVlv3K-G/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1kUnaky_ZPLh-vfmyST3Z1-ICrcoNThR_",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/naipe-apuesta-final.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/naipe-apuesta-final.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/10p2EjLKlaXEoWJnNEIVkhhyaeCD7ERWR/view?usp=drivesdk",
+      "primary_image_source_id": "10p2EjLKlaXEoWJnNEIVkhhyaeCD7ERWR",
+      "primary_image_sha256": "3d88f4d8b08f54f49fac75d5550ff7ddfb21b5a5cbf9e978d6f4c7b109ce1a01",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Cósmicos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "naipe-apuesta-final",
+    "image_sha256": "3d88f4d8b08f54f49fac75d5550ff7ddfb21b5a5cbf9e978d6f4c7b109ce1a01"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "misterio-pulpo",
+      "name": "Misterio del Pulpo",
+      "description": "Anillo de tentáculo curvado con ventosas en relieve y acabado metálico.",
+      "source_ids": [
+        "1hUK8X0pT3NLtGogSOFEzpjWVuyutRSGY"
+      ],
+      "source_docs": [
+        "Anillo Misterio del Pulpo Draco.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1hUK8X0pT3NLtGogSOFEzpjWVuyutRSGY/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1_hsh6XCFro5xPGEXZ_fUPSeZ9K9FJrSN",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/misterio-pulpo.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/misterio-pulpo.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1KaAdGUqww1R-w8-300sXvq8qMd5LJ954/view?usp=drivesdk",
+      "primary_image_source_id": "1KaAdGUqww1R-w8-300sXvq8qMd5LJ954",
+      "primary_image_sha256": "27164600b8d10c6295605e84259449d8afe0b9e29ab597e6b58c5bbd9706ca43",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Naturaleza",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": true,
+      "size_range": null
+    },
+    "published_id": "misterio-pulpo",
+    "image_sha256": "27164600b8d10c6295605e84259449d8afe0b9e29ab597e6b58c5bbd9706ca43"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "cobra-dorada",
+      "name": "Cobra Dorada",
+      "description": "Anillo de serpiente enroscada de tono dorado con escamas en relieve y detalles azules.",
+      "source_ids": [
+        "15fSqXf3fGnHLXuZXlwD3xxFKjkvp_Kun"
+      ],
+      "source_docs": [
+        "Anillos cobra dorada en Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/15fSqXf3fGnHLXuZXlwD3xxFKjkvp_Kun/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1pNmru_vIEKYjqsz1VUIYmmnTbppVpb8E",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/cobra-dorada.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/cobra-dorada.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1WmQZOTZgWvf3znYtejtWAhTKI3hjKjfu/view?usp=drivesdk",
+      "primary_image_source_id": "1WmQZOTZgWvf3znYtejtWAhTKI3hjKjfu",
+      "primary_image_sha256": "45e338a1ed0caaaa80608febc4963927be9b747d22ad00f46d89a1a7703e6116",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Dorado",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Serpientes",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "cobra-dorada",
+    "image_sha256": "45e338a1ed0caaaa80608febc4963927be9b747d22ad00f46d89a1a7703e6116"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "buda-zen",
+      "name": "Buda Zen",
+      "description": "Anillo con rostro de Buda en relieve, acabado metálico y detalles de tono dorado.",
+      "source_ids": [
+        "1b50bg1syiOpm7lEuo7hzjvoKjUi6cVSC"
+      ],
+      "source_docs": [
+        "Anillo de Buda Zen Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1b50bg1syiOpm7lEuo7hzjvoKjUi6cVSC/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1mh0hNgA7ydJnXaj8zczAe4kdM6S0YW99",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/buda-zen.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/buda-zen.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/15BFMBqMv6MEDOHaRSrQkS56IRWUM8yJ9/view?usp=drivesdk",
+      "primary_image_source_id": "15BFMBqMv6MEDOHaRSrQkS56IRWUM8yJ9",
+      "primary_image_sha256": "6b98437bcacd39aa2eb0df42cb9eac10f3a69b90e3e8013f755bbfdde962ddae",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Cósmicos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "buda-zen",
+    "image_sha256": "6b98437bcacd39aa2eb0df42cb9eac10f3a69b90e3e8013f755bbfdde962ddae"
+  },
+  {
+    "batch": "draco-catalog-drive-new",
+    "source": {
+      "id": "bola-cosmica",
+      "name": "Bola Cósmica",
+      "description": "Anillo de aros articulados con letras y símbolos grabados, desplegado en forma de esfera.",
+      "source_ids": [
+        "1uP17bh4IachLJS-a1V6z3dI9TVNHqlgD"
+      ],
+      "source_docs": [
+        "Anillo de Bola Cosmica Zamak.docx"
+      ],
+      "source_urls": [
+        "https://docs.google.com/document/d/1uP17bh4IachLJS-a1V6z3dI9TVNHqlgD/edit?usp=drivesdk&ouid=112805480302632285403&rtpof=true&sd=true"
+      ],
+      "source_folder_id": "1Ph88-XkHhCH0x3uoo-xwA306wu3Mwn5X",
+      "primary_image_path": "/workspace/shared/draco-catalog-drive-new/products/bola-cosmica.png",
+      "gallery_image_paths": [
+        "/workspace/shared/draco-catalog-drive-new/products/bola-cosmica.png"
+      ],
+      "image_dimensions": [
+        1200,
+        1200
+      ],
+      "image_verified_visually": true,
+      "primary_image_source_url": "https://drive.google.com/file/d/1ObZ7AMphOYSsGEzvu-Z78iuX2s_BwJ75/view?usp=drivesdk",
+      "primary_image_source_id": "1ObZ7AMphOYSsGEzvu-Z78iuX2s_BwJ75",
+      "primary_image_sha256": "d4d7027ae612b8b2618bfc12d7f2cf8b0947a684e686917e66524523f524116f",
+      "material_if_explicit": "Zamak",
+      "material_as_stated_in_documents": "Zamak reciclado",
+      "material_verification": "Source assertion; not independently verified",
+      "variant": "Metálico",
+      "caveats": [],
+      "price": null,
+      "currency": null,
+      "sku": null,
+      "stock": null,
+      "category": "Cósmicos",
+      "adjustable_as_stated": true,
+      "unisex_as_stated": false,
+      "size_range": null
+    },
+    "published_id": "bola-cosmica",
+    "image_sha256": "d4d7027ae612b8b2618bfc12d7f2cf8b0947a684e686917e66524523f524116f"
+  }
+]

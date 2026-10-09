@@ -1,0 +1,1221 @@
+{
+  "project": "anillos-draco",
+  "source_commit": "07e9cdc55f182a67776efbc0987fc165357c1d40",
+  "files": [
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 105,
+      "sha256": "ed97519f349cfba96174ed85f5d4786d893277e4af19c14f139569bf66ebb667"
+    },
+    {
+      "path": "README.md",
+      "bytes": 116,
+      "sha256": "a34be39b26f655b4d48a3cd902270907b62264b514d52f33e97b12f0fb4a7ea0"
+    },
+    {
+      "path": "build.py",
+      "bytes": 24878,
+      "sha256": "2a19e14fff3cf030930401b5603235257d5af3d4bbf4f72cc9c2b40b5880587b"
+    },
+    {
+      "path": "data/catalog.json",
+      "bytes": 72071,
+      "sha256": "2404a9bbe89b06c434e0fcded18c0c335f01e53b2ce3ec5096d804cfa0384219"
+    },
+    {
+      "path": "data/commerce.json",
+      "bytes": 153,
+      "sha256": "455ef30e1e42eab94307600cd1bb226d41d357702aa05196869a2fddf223fe69"
+    },
+    {
+      "path": "data/retouched.json",
+      "bytes": 28049,
+      "sha256": "32947b50d622d01c7c66348f31ea1718cd2665e8659422171086bd342498ac84"
+    },
+    {
+      "path": "data/sku-registry.json",
+      "bytes": 3645,
+      "sha256": "d42fa896e9eaaec509a5308d24f7aa73ebe6815f3e879f7e1c4a2933fb42c614"
+    },
+    {
+      "path": "data/social-widget.html",
+      "bytes": 1256,
+      "sha256": "1b56d67d37a64dba611cc65826500f7cf904410a6ef50c480a47134a5358b2d3"
+    },
+    {
+      "path": "dist/app.js",
+      "bytes": 29317,
+      "sha256": "2473da55e46b31ee5eee6bdc9505893790e4a4d84289045c9c3b9eca92e8f30b"
+    },
+    {
+      "path": "dist/assets/fonts/montserrat-400.ttf",
+      "bytes": 180068,
+      "sha256": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96"
+    },
+    {
+      "path": "dist/assets/fonts/montserrat-600.ttf",
+      "bytes": 180584,
+      "sha256": "c535bb158e8cfc3c27654f73aa68a87732899e7d9b10d8496b68605a56d947a7"
+    },
+    {
+      "path": "dist/assets/hero-campana-original.webp",
+      "bytes": 58608,
+      "sha256": "111e0a25e8db6452a355cb8fc5f221c3ae10b4e31fa8a98541f73d6898280704"
+    },
+    {
+      "path": "dist/assets/lifestyle-es.webp",
+      "bytes": 146004,
+      "sha256": "fe5bbe5a3d923b2566855e739e44043ff51d322f49b23b7e22678877199e3dd6"
+    },
+    {
+      "path": "dist/assets/lifestyle.webp",
+      "bytes": 138640,
+      "sha256": "887a3da6c30d13d916ca1bd56feb626e0131d6595655648c6f2cc2211d9713f4"
+    },
+    {
+      "path": "dist/assets/logo-original-es.png",
+      "bytes": 62446,
+      "sha256": "8b159d681bceb14e963295aa0e3f9c7de30aac7bff1b14cf89e236362d20fa13"
+    },
+    {
+      "path": "dist/assets/mark-original.png",
+      "bytes": 98169,
+      "sha256": "196ecc09500ae96923048e0de4ca85bf9190f78545a1358dcf81b8effd61c3f7"
+    },
+    {
+      "path": "dist/assets/retouched/abrazo-pulpo.webp",
+      "bytes": 46168,
+      "sha256": "9ebd1a76544a563058e6dfc50499b6d4154a51282ef22e04d87347411d88eb66"
+    },
+    {
+      "path": "dist/assets/retouched/abrazo-serpiente-coral.webp",
+      "bytes": 56316,
+      "sha256": "619701eb6c8115f23ff4c6523d1f5ea744e0db8944ad2277bb17a69894b01a17"
+    },
+    {
+      "path": "dist/assets/retouched/aguila-real-fiera.webp",
+      "bytes": 102260,
+      "sha256": "0e66e97fa2c6777711a9c394f6a291aeb5c12b2b532e9138b594e945414da4df"
+    },
+    {
+      "path": "dist/assets/retouched/alas-angelicales-oscuras.webp",
+      "bytes": 29334,
+      "sha256": "d581355fd3ffdeea43863da44da62ffcb75a45e9c23ba856dba3cd0b50f92ba8"
+    },
+    {
+      "path": "dist/assets/retouched/alma-calavera-marinera.webp",
+      "bytes": 121344,
+      "sha256": "be535b2d184340989db8edb79152b2b92c1ac5668a9ac98ff3de0ad5d8bfef37"
+    },
+    {
+      "path": "dist/assets/retouched/alma-dragon.webp",
+      "bytes": 64138,
+      "sha256": "30ec2173308f07f220289edf61e86770dbd093e4cb7c56402e4cece27def10d2"
+    },
+    {
+      "path": "dist/assets/retouched/alma-perdida.webp",
+      "bytes": 114004,
+      "sha256": "b0282f3f51115806c34fb2d83f20cc4cf8f858685b768d1a41d021c4d096b176"
+    },
+    {
+      "path": "dist/assets/retouched/almas-errantes.webp",
+      "bytes": 46202,
+      "sha256": "d837426cdff1431d1db5ebca6f8891b33a7f20b1fc712b5337f5f3d4e7d1c8ab"
+    },
+    {
+      "path": "dist/assets/retouched/almas-gemelas-serpiente.webp",
+      "bytes": 51050,
+      "sha256": "591418a0e416519c7d6011f452621721fdc41e863db0b889197ff11d39815c23"
+    },
+    {
+      "path": "dist/assets/retouched/anaconda-guardiana-bosque.webp",
+      "bytes": 64444,
+      "sha256": "d580fe294356efe30404bceb56f4c15caba52cc18be11b2004ea85ca03c516e6"
+    },
+    {
+      "path": "dist/assets/retouched/angel-guardian.webp",
+      "bytes": 72596,
+      "sha256": "39eb7d4d768ec1e780c6e43c77159bdb08731b73e753a83cf9350fc34c337e42"
+    },
+    {
+      "path": "dist/assets/retouched/bestia-lunas-rojas.webp",
+      "bytes": 105290,
+      "sha256": "cb3473ffc8c184742d5edee70d6c808b659da918d738081888eb1cd4e352d4d5"
+    },
+    {
+      "path": "dist/assets/retouched/bola-cosmica.webp",
+      "bytes": 124920,
+      "sha256": "0a960120fed28db41f2a66b5900d68b9d67b88e606bd59483dd0673ee5353eaa"
+    },
+    {
+      "path": "dist/assets/retouched/buda-zen.webp",
+      "bytes": 83186,
+      "sha256": "f2cb0c3127f08cb5d3fea13e245623432bcdd3dc19b41021df4c46b2c49fa147"
+    },
+    {
+      "path": "dist/assets/retouched/bufalo-fiera-ojos-aguamarina.webp",
+      "bytes": 75854,
+      "sha256": "1d5659e9b2196aecfc86dbe928abbd6c557a7728b4775afd6e814dd8b2fab097"
+    },
+    {
+      "path": "dist/assets/retouched/bufalo-fiera.webp",
+      "bytes": 82734,
+      "sha256": "624a12fdc95638be9fee8b1677b2d4433d4761409bc8bdf007795db795bc5317"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-azul-celeste.webp",
+      "bytes": 42108,
+      "sha256": "8ad1f2a04f9e556a1b026b79d87d488830384b913525deee215a093c73558c10"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-azules.webp",
+      "bytes": 36856,
+      "sha256": "c663b065b2b98ef27afb0d34a85df3a7b0fadd0727cec6df031c532b0b982950"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-morados.webp",
+      "bytes": 41248,
+      "sha256": "c25599a4a3150ed2a804b63fc8d4ded2efd0ef6e77d5ac97fd8bb69ef2a505db"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-naranja.webp",
+      "bytes": 53250,
+      "sha256": "96abc2526b98f3ec828260f1083d45dd7d53d2342a1c3d06c2df05751a5c177a"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-rojos.webp",
+      "bytes": 46256,
+      "sha256": "8158082015dff15e4d048b2dd69dee8e68b70e00571a405fe27953384e51d06e"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-rosados.webp",
+      "bytes": 38988,
+      "sha256": "fcbc2f4ed0de49ebdd470648c1d0f04f7da5372c5136da25260994eb2c7422b9"
+    },
+    {
+      "path": "dist/assets/retouched/buho-ojos-verdes.webp",
+      "bytes": 54232,
+      "sha256": "6da5eacf61167e0fca6520d05ba60f7cfd6b7aeaf156bf0121c44f77fc72a992"
+    },
+    {
+      "path": "dist/assets/retouched/caos-supremo.webp",
+      "bytes": 67210,
+      "sha256": "b3687934ef1ae529c0b2ddb7af9762f766671d704ad6c173315ccbcc84722e3b"
+    },
+    {
+      "path": "dist/assets/retouched/cenizas-dragon-blanco.webp",
+      "bytes": 36172,
+      "sha256": "57eb9821422de3373947a588a43f3b596af945ef6e308963864c70c9f3dbbfc9"
+    },
+    {
+      "path": "dist/assets/retouched/cenizas-dragon-negro.webp",
+      "bytes": 27666,
+      "sha256": "34cef65a87a6eb684c45d3628af1c7138aad84f20124b679a363ca1984369eac"
+    },
+    {
+      "path": "dist/assets/retouched/cobra-dorada.webp",
+      "bytes": 121268,
+      "sha256": "1f649d93d421252d7dd1ab14ce9870771e954510534e4bcf9367a3bef29f68a5"
+    },
+    {
+      "path": "dist/assets/retouched/cobra-fuego-aurora.webp",
+      "bytes": 57254,
+      "sha256": "9f80d7f08b0f30182dfe70a5e9acea86c4a601f94ee5d519ba93cfb18a65e329"
+    },
+    {
+      "path": "dist/assets/retouched/cobra-media-noche.webp",
+      "bytes": 54000,
+      "sha256": "1bb030f5cdabc30a7183631dff76b38467a3eede470ff71da83e7cee6b197bb1"
+    },
+    {
+      "path": "dist/assets/retouched/cola-bestia-alada-clara.webp",
+      "bytes": 35676,
+      "sha256": "a5a7c704f6c150a25209af95ba9e6ce8c1c0373e0209ef069dc1629f11dceb3a"
+    },
+    {
+      "path": "dist/assets/retouched/cola-bestia-alada-oscura.webp",
+      "bytes": 27868,
+      "sha256": "eeb33b251fad26b38182f1559537cdef529798e90e3cdd8e9aa3e87f640cb0be"
+    },
+    {
+      "path": "dist/assets/retouched/conejo-encantado-ojos-rojos.webp",
+      "bytes": 88836,
+      "sha256": "de259a2514c75c75be6049cbdc4729570bda58c0ae2df324c9971e2aa35443fe"
+    },
+    {
+      "path": "dist/assets/retouched/conejo-magico-ojos-azules.webp",
+      "bytes": 47910,
+      "sha256": "90cd936865fa63a483ef2641b26b955124dc16229ced35fd1c507d4c69e17ed0"
+    },
+    {
+      "path": "dist/assets/retouched/danza-dragon.webp",
+      "bytes": 61708,
+      "sha256": "ecf037f1e3611a6fde35589301d68ab53e0408737c5d18be99d17c6202156841"
+    },
+    {
+      "path": "dist/assets/retouched/detalle-frontal.webp",
+      "bytes": 71500,
+      "sha256": "416a1b669156e2806d8983f06450a624c25eecf9b6bad2bece7a5bf414652739"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-bestia-fuego.webp",
+      "bytes": 60314,
+      "sha256": "970a59625468b9438c999172bcfa30ff420a3c6907bba2dad2953042ac1aecda"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-fuego.webp",
+      "bytes": 49182,
+      "sha256": "69a5635f0ea55696b27629e6b86da9141bec5530d9c60bd08c6a1284ec54d7a4"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-leon.webp",
+      "bytes": 47016,
+      "sha256": "74f0091790aee51a1e68dbff1150fbd147fb0fa41b9e6edd14dcbbaec52ae64c"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-luz-eterna.webp",
+      "bytes": 70134,
+      "sha256": "5a5d2d876d2c7562db30b50d9c46a13e4785eed02dbc99e5ca2bef9daaa34acf"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-noche-ojo-azul.webp",
+      "bytes": 44502,
+      "sha256": "8296ad091430b867a30605ca1c83d49682abac65386c6cd249c7c8aa5b3852e7"
+    },
+    {
+      "path": "dist/assets/retouched/dragon-tiempo.webp",
+      "bytes": 43828,
+      "sha256": "7582e8c0ea2d6a16fa4a663cc0fc1e9a5124322fb3d86f6a04236ee203dc51f6"
+    },
+    {
+      "path": "dist/assets/retouched/elegancia-letal-serpiente.webp",
+      "bytes": 48416,
+      "sha256": "c832337193459cbeb0f473590f1fe5bcf65b8b5d724e8deab4eb005973702267"
+    },
+    {
+      "path": "dist/assets/retouched/emperador-draconico.webp",
+      "bytes": 43716,
+      "sha256": "0ffc89cc21b4a525b12bdc3740637faff9bceecc9cd0ec56f00025237b74ddb2"
+    },
+    {
+      "path": "dist/assets/retouched/esencia-marina-hoja-corazon.webp",
+      "bytes": 89076,
+      "sha256": "93f0a4372e9a8c152ffe43f224f267b6dae55e20dbfff7e2abbe00b3c726dc5d"
+    },
+    {
+      "path": "dist/assets/retouched/esfinge-planeta-olvidado.webp",
+      "bytes": 71432,
+      "sha256": "eac63fd0d74b00b949b4ecda467fbbea3e4828c28e966fddddfaabb7fbd3ee2a"
+    },
+    {
+      "path": "dist/assets/retouched/espiral-dragon-mistico.webp",
+      "bytes": 44466,
+      "sha256": "d2b6c93b64a337d7c5b508343ffcac0df99b8718b05f5fc516e3cbf819ddccef"
+    },
+    {
+      "path": "dist/assets/retouched/espiral-esmeralda-cobra.webp",
+      "bytes": 48960,
+      "sha256": "b4f5422c0944cfc0f73ebc77b634ddbfcb4f75e68906ab3198f0d267e65de28a"
+    },
+    {
+      "path": "dist/assets/retouched/felina-magia-gato.webp",
+      "bytes": 62082,
+      "sha256": "5a42122835c7c2688ccaae05131a03a8cf5527704621626ea1c38df0edc1688c"
+    },
+    {
+      "path": "dist/assets/retouched/fiera-leon.webp",
+      "bytes": 74762,
+      "sha256": "d82a9cf397e0796dcdf5a2b2765146d2cc57f57cb1cfb516493b0fbe977935ad"
+    },
+    {
+      "path": "dist/assets/retouched/fortaleza-natural-espiga-hoja.webp",
+      "bytes": 48816,
+      "sha256": "4b4ebddb86db1cfa148f3d01da2f269327c14922c653b3b0cec682a12ecf815f"
+    },
+    {
+      "path": "dist/assets/retouched/fragmento-fuego-dragon-cosmico.webp",
+      "bytes": 58696,
+      "sha256": "2065c8bb22876e6a1f1379eb9e64112f92506f9d210865014d732148105b26de"
+    },
+    {
+      "path": "dist/assets/retouched/garra-cristal-fuego.webp",
+      "bytes": 27952,
+      "sha256": "0f861792d42f4f1bbd13d8badeafd7b9d2d7c5826ada0b0b267420a1c848ee07"
+    },
+    {
+      "path": "dist/assets/retouched/garra-dragon-amatista.webp",
+      "bytes": 38196,
+      "sha256": "09f966357916977457ae4bf2cb14cd63511fa44549de7ce81a8a109dc2a59621"
+    },
+    {
+      "path": "dist/assets/retouched/garra-halcon-celestial.webp",
+      "bytes": 62308,
+      "sha256": "3793c4dc1ffbdccafd90f45d57a163d317de9cc659a717804127e375c8299b78"
+    },
+    {
+      "path": "dist/assets/retouched/garra-reina-bestial.webp",
+      "bytes": 52430,
+      "sha256": "8345d149aed18b63f2e7bb1d8328a36263931fd6550066551c47da366b4cad28"
+    },
+    {
+      "path": "dist/assets/retouched/guante-infinito-titan.webp",
+      "bytes": 107630,
+      "sha256": "43337219b277204c17ee75df6e399fa92aae9cfc0391487e80d7c92d90c098d2"
+    },
+    {
+      "path": "dist/assets/retouched/guardian-rio-cocodrilo.webp",
+      "bytes": 51752,
+      "sha256": "6f771eb21d618cba9e9df1f8e21e3e4e177a42df0a0c6e9a469eafe16d1b11a3"
+    },
+    {
+      "path": "dist/assets/retouched/honor-esparta.webp",
+      "bytes": 32096,
+      "sha256": "001a8af8bf61cd79e2b202c6ff478e78d4cae863356e305a51c6e2b496b3abbd"
+    },
+    {
+      "path": "dist/assets/retouched/latido-estelar-dos-almas-dorado.webp",
+      "bytes": 34720,
+      "sha256": "a849d36fa523f3ddbc3619f04001d52da122f16516973ed41e0aefe9e57ca32f"
+    },
+    {
+      "path": "dist/assets/retouched/latido-estelar-dos-almas.webp",
+      "bytes": 27592,
+      "sha256": "0a769eb8e40e4ff9a23d947285b9f479ced1b5691f99509591fa14c22517c64a"
+    },
+    {
+      "path": "dist/assets/retouched/lealtad-inquebrantable-perro-guardian.webp",
+      "bytes": 56504,
+      "sha256": "6a2b8d57340bdf6d6a534b3c850873579ae7c494fbd02dc1ed52c69042f92e84"
+    },
+    {
+      "path": "dist/assets/retouched/llama-siniestra.webp",
+      "bytes": 99422,
+      "sha256": "a1bdffa6209597c0b3fcb9058ecddcdfdb12811f21d17c891038d9b8e05a44c9"
+    },
+    {
+      "path": "dist/assets/retouched/mamba-negra-celestial.webp",
+      "bytes": 51330,
+      "sha256": "890def772d594073e627c81279b2398148501a11e8773f31dc2355e1cd19b4a7"
+    },
+    {
+      "path": "dist/assets/retouched/mascara-hierro-negra.webp",
+      "bytes": 42652,
+      "sha256": "30a7fcd1eeda10c086605d19bfb5b583b42641b3c943281a380e642a10b5500c"
+    },
+    {
+      "path": "dist/assets/retouched/mascara-urano.webp",
+      "bytes": 29982,
+      "sha256": "404ef194249d716a7483d78f9f8d7697dc0d808b24363b19d3bfb6d6ca4b8ef7"
+    },
+    {
+      "path": "dist/assets/retouched/mensajero-sombras.webp",
+      "bytes": 42824,
+      "sha256": "be3909a3303a83421800809780c02867b0fb300a21806181aca608ba43d089d6"
+    },
+    {
+      "path": "dist/assets/retouched/mirada-eclipse-ancestral.webp",
+      "bytes": 68394,
+      "sha256": "8d96e19b07326b4b00434fa69dc4a990897942bf3ba51f99a0652abcd14faeaf"
+    },
+    {
+      "path": "dist/assets/retouched/misterio-pulpo.webp",
+      "bytes": 45454,
+      "sha256": "1388aa20601094670241b5a2937655cc243f01aeeee8b7a4e8c062d698669f86"
+    },
+    {
+      "path": "dist/assets/retouched/naipe-apuesta-final.webp",
+      "bytes": 49354,
+      "sha256": "2b77c043bd8af9e91b130d3509d5247732f9ceb673d5d732f017c897e9d7f445"
+    },
+    {
+      "path": "dist/assets/retouched/naipe-estelar.webp",
+      "bytes": 664678,
+      "sha256": "a494451cd8171324e6ffc56878b54df68bfd191ee0faf52e765b826bfebb4c87"
+    },
+    {
+      "path": "dist/assets/retouched/ojo-espectral.webp",
+      "bytes": 90340,
+      "sha256": "2435f589aefad36237f2c8a5996105a6072e1a5cf50af84d07e1fdddde8e8ffa"
+    },
+    {
+      "path": "dist/assets/retouched/ojo-estelar.webp",
+      "bytes": 63396,
+      "sha256": "d64851afe269732602bf7907c25ebdffbac58e6170214570a8215898c4b3ddca"
+    },
+    {
+      "path": "dist/assets/retouched/ojo-orion-eterno.webp",
+      "bytes": 112638,
+      "sha256": "0fb07599b8a61cb4b5d9268367e3de8c285e92673ae23d9321e46b5cd915ac4c"
+    },
+    {
+      "path": "dist/assets/retouched/ojo-rojo-astral.webp",
+      "bytes": 59966,
+      "sha256": "a38b7f124b5affa86d2e4b7269eca99a324c9341d5fa7c2199d0e00820d10602"
+    },
+    {
+      "path": "dist/assets/retouched/patitas-guardian-nebulosa-claro.webp",
+      "bytes": 23028,
+      "sha256": "0915c467df06249d31078745add52efdde833c76dce0db1aab0a8b2a4191e0f4"
+    },
+    {
+      "path": "dist/assets/retouched/patitas-guardian-nebulosa.webp",
+      "bytes": 26380,
+      "sha256": "b1afbe90316e0c1f453968bf3e545bd6dca44483d4b059d2239e1c5a7079468c"
+    },
+    {
+      "path": "dist/assets/retouched/piton-susurro-mortal.webp",
+      "bytes": 37788,
+      "sha256": "4c518df07c0f69c6a649b0feee92b2baf8ce9518ba134a91909d7700e1cc925b"
+    },
+    {
+      "path": "dist/assets/retouched/plumas-luz-guardian-celestial.webp",
+      "bytes": 89520,
+      "sha256": "e7e9da443f2472b4103436f8cb17cb7c1957f360253e9e90cd17eba63802efaa"
+    },
+    {
+      "path": "dist/assets/retouched/poder-oscuro.webp",
+      "bytes": 30250,
+      "sha256": "8ff315947c3b3afe39a435eb48a243f63e1805bae02328a67c694ad1e36c9d5e"
+    },
+    {
+      "path": "dist/assets/retouched/puno-cometa-errante.webp",
+      "bytes": 92874,
+      "sha256": "31c8c0c6f3e3c1bf1d60f6e176b698a42a7b81fb30d00b205e6648522f761573"
+    },
+    {
+      "path": "dist/assets/retouched/raiz-poder-hoja-bosque.webp",
+      "bytes": 77492,
+      "sha256": "8252de0c5d42779ef30d94b65329432108fb907782df43840c42a53f782e11c2"
+    },
+    {
+      "path": "dist/assets/retouched/renacer-garra-demoniaca.webp",
+      "bytes": 48296,
+      "sha256": "768a9f74008d9a47a4a3103210dd1d38474d8926f3e681a9de648ce50bcabfc9"
+    },
+    {
+      "path": "dist/assets/retouched/rugido-garra-salvaje.webp",
+      "bytes": 41060,
+      "sha256": "23913a89c07b12fa201bf99b38f098d60bd027ead12cf5cea6fa38be28df876a"
+    },
+    {
+      "path": "dist/assets/retouched/sabiduria-verde-hoja-sagrada.webp",
+      "bytes": 55128,
+      "sha256": "1bd9ffdbc146a2fb13be505c6b611e81c30a2f22c2591e69872fcb3681d9db05"
+    },
+    {
+      "path": "dist/assets/retouched/serpiente-vibora-nocturna.webp",
+      "bytes": 69546,
+      "sha256": "1aafa77da600c88dbcf13c0d619d733403418b2493238f86ac7b64807a86e53f"
+    },
+    {
+      "path": "dist/assets/retouched/sigilo-letal-serpiente-sombra.webp",
+      "bytes": 38446,
+      "sha256": "614cbc660ab28237d7884f21dd532d55af1ed50a61aaa8145d857dc283b08636"
+    },
+    {
+      "path": "dist/assets/retouched/sombra-demoniaca.webp",
+      "bytes": 55944,
+      "sha256": "acaa6b3c12b8eb4054c632b8825be10d5b09a716d97b45b79c868bd46d097229"
+    },
+    {
+      "path": "dist/assets/retouched/sombra-guerrero.webp",
+      "bytes": 66384,
+      "sha256": "d23cbafce46f3ed40d6dd4b136eef25908869bf140d1acfa173dd2e0c9ae58e1"
+    },
+    {
+      "path": "dist/assets/retouched/susurro-antigua-cascabel.webp",
+      "bytes": 40536,
+      "sha256": "f1fd1204fd851cb567e88d719b8370af0b9cf7a7be8df37610abd5700da15e0a"
+    },
+    {
+      "path": "dist/assets/retouched/terciopelo-letal-eclipse.webp",
+      "bytes": 59614,
+      "sha256": "ddd6e79bb596a9e4298210e5ab4c4a73720c7c5aa83d7d0cb288268f04ef19f4"
+    },
+    {
+      "path": "dist/assets/retouched/toro-dorado-fiera.webp",
+      "bytes": 68854,
+      "sha256": "5079a9f28d28ca136e1802bb1d4bb02e2ded57db6b11433d3e7ef76aeab2f1b7"
+    },
+    {
+      "path": "dist/assets/retouched/toro-fiera-guardian-tierra.webp",
+      "bytes": 62332,
+      "sha256": "8fc800518a2c83481cd0412ae11ee58067ef7efd6629fbc215e7c72b3226219c"
+    },
+    {
+      "path": "dist/assets/retouched/union-divina-manos-abrazando.webp",
+      "bytes": 43890,
+      "sha256": "b20950e32df140dafa2e32780964ce50ee6bec86d0700d9ec26034f763d6fbf1"
+    },
+    {
+      "path": "dist/assets/retouched/veneno-escarlata-real.webp",
+      "bytes": 68690,
+      "sha256": "8018997abb656364ad6ab10ab1fdbffee723876b5a97f11a7b5a739edbfd7ae0"
+    },
+    {
+      "path": "dist/assets/retouched/vigilante-imperio.webp",
+      "bytes": 46286,
+      "sha256": "bd8b2362950c1b5acd21c64304c6569b2469179bb5c73405128da41ee6869572"
+    },
+    {
+      "path": "dist/assets/retouched/vikingo-talisman-guerrero.webp",
+      "bytes": 22904,
+      "sha256": "f9708c58e531a19f673de093062fc3287ecb05c64a1375c1027b818b276d32a3"
+    },
+    {
+      "path": "dist/assets/retouched/vuelos-eternos-dragon.webp",
+      "bytes": 49538,
+      "sha256": "ccdfc1c49fb2408b55974648f0ebc392d9b13d9f186b96a9e5792476368feba7"
+    },
+    {
+      "path": "dist/assets/whatsapp-official.svg",
+      "bytes": 1133,
+      "sha256": "1ab6db0cc2eb55d911f151b0aa339c55b6b225efcceddb8ff2050cab1410e347"
+    },
+    {
+      "path": "dist/catalog.json",
+      "bytes": 62562,
+      "sha256": "ed91a0ad448bbc920bab0e6abcb6c3314991bee18a7647cc9a466024537247a7"
+    },
+    {
+      "path": "dist/colombia-locations.json",
+      "bytes": 70626,
+      "sha256": "423319317cb5d3b2438b4dadaf425d75a3f8b1ddd45aa43cb506c65512d0906d"
+    },
+    {
+      "path": "dist/cuidados/index.html",
+      "bytes": 11852,
+      "sha256": "39a33bb10df0b215e07e8eeee81892f21c3d57d313154b20aee4b57aacf0fd80"
+    },
+    {
+      "path": "dist/favicon.svg",
+      "bytes": 252,
+      "sha256": "c7fa241bf7f0c38656784ed5b744e2b14a27813bba15b7b66e88fd28719c9e93"
+    },
+    {
+      "path": "dist/fonts.css",
+      "bytes": 299,
+      "sha256": "e93b126d8dd8e57c7a1d48724695f220f85138e735a521947790ec8f9aaf42a7"
+    },
+    {
+      "path": "dist/guia-de-tallas/index.html",
+      "bytes": 11991,
+      "sha256": "6e289c0b2a6b9d3579e3fd874ea461dbb57e3aa6d7389695b90f6986a67f01fd"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 23071,
+      "sha256": "d569daead03a691cd7525f94330e2bbcc2631ca5887d13c4cfd18da12ff6533e"
+    },
+    {
+      "path": "dist/pedido/index.html",
+      "bytes": 11264,
+      "sha256": "87199c1972be766da15dd7398cc55a7bfa687edd0908f7ed578dbd6317c6bde0"
+    },
+    {
+      "path": "dist/producto/abrazo-pulpo/index.html",
+      "bytes": 13316,
+      "sha256": "d034d233f14839d54c45ba3248a1a1e7d9464096d1e485229476ad5da54d6375"
+    },
+    {
+      "path": "dist/producto/abrazo-serpiente-coral/index.html",
+      "bytes": 13415,
+      "sha256": "97a06343bbce7687a83f3fcdc3f1b85ee3f02686428378c29cc18727a84491f6"
+    },
+    {
+      "path": "dist/producto/aguila-real-fiera/index.html",
+      "bytes": 13308,
+      "sha256": "d6346abf76ae2242eb3a9fd7e9f9acb20ecf9614ad950aeeb703939e2ce55f13"
+    },
+    {
+      "path": "dist/producto/alas-angelicales-oscuras/index.html",
+      "bytes": 13376,
+      "sha256": "9445632e0402242081e5c1a11914726bdf0b724aa0b0dd4020f79de0047a90fb"
+    },
+    {
+      "path": "dist/producto/alma-calavera-marinera/index.html",
+      "bytes": 13525,
+      "sha256": "6edafc09df3bdfb96939b020685efb631ff16b16ee5772b94f5d8940268dcef3"
+    },
+    {
+      "path": "dist/producto/alma-dragon/index.html",
+      "bytes": 13264,
+      "sha256": "b31ab0dc412baad2cc60525bf5b057172c3d4bd44964cb102476d881c5e576f3"
+    },
+    {
+      "path": "dist/producto/alma-perdida/index.html",
+      "bytes": 13347,
+      "sha256": "ad48f21a8428f57ad83cecab152011ef2dde48d7202069d9ed312d261d121985"
+    },
+    {
+      "path": "dist/producto/almas-errantes/index.html",
+      "bytes": 13220,
+      "sha256": "7a4f4c10eabbd29b9c35eaa44e5d46dfdb1bb85cc2eb5d677e7ba6f3d5639bbf"
+    },
+    {
+      "path": "dist/producto/almas-gemelas-serpiente/index.html",
+      "bytes": 13382,
+      "sha256": "49c5bf901ec628c3c5f974b21d41740a44e6d3355b592a629ad2beeb1d1f3da8"
+    },
+    {
+      "path": "dist/producto/anaconda-guardiana-bosque/index.html",
+      "bytes": 13450,
+      "sha256": "538a98901ebe9b5844f67e48b7f7bc98f7a846d67f4f6becfbdd77a63d15984b"
+    },
+    {
+      "path": "dist/producto/angel-guardian/index.html",
+      "bytes": 13280,
+      "sha256": "12e9ec531eec797776caa1db42e7ce19199371de04eabdad21cad053e3621144"
+    },
+    {
+      "path": "dist/producto/bestia-lunas-rojas/index.html",
+      "bytes": 13506,
+      "sha256": "cf413ec40023643b1d2245cdeaacd5e077021987c5e149394c7f108c6b4a5fc5"
+    },
+    {
+      "path": "dist/producto/bola-cosmica/index.html",
+      "bytes": 13278,
+      "sha256": "ada20baeea6940858acba1f39343c1b5ec32d438172539ff1896a61e732b8a4c"
+    },
+    {
+      "path": "dist/producto/buda-zen/index.html",
+      "bytes": 13158,
+      "sha256": "f6edc84cc9ce6292581b2d9195b71b018426e4aa10c5750fdca6101c37ac707b"
+    },
+    {
+      "path": "dist/producto/bufalo-fiera-ojos-aguamarina/index.html",
+      "bytes": 13585,
+      "sha256": "c775d23cf10a99115c7e0dc7b9256b65a2e554c756776b1a83888a38cb69c70f"
+    },
+    {
+      "path": "dist/producto/bufalo-fiera/index.html",
+      "bytes": 13258,
+      "sha256": "13ea8a2dd86a934864b2b0d6fa13f93835d6a4207299daa28450504261b95e53"
+    },
+    {
+      "path": "dist/producto/buho-ojos-azul-celeste/index.html",
+      "bytes": 13380,
+      "sha256": "9fae459de2ce88230b4b320db8a3e05a152f55deba7bf61addcd4a28b692f9e7"
+    },
+    {
+      "path": "dist/producto/buho-ojos-azules/index.html",
+      "bytes": 13249,
+      "sha256": "3b95857078648bd7cc7c842bbc13b9cf12a516eb573c635053f1220da529ef16"
+    },
+    {
+      "path": "dist/producto/buho-ojos-morados/index.html",
+      "bytes": 13273,
+      "sha256": "9254758bc89763e71fe3ec04b2bf1e381a390f687c3076b9d02aad2a8a55a5ec"
+    },
+    {
+      "path": "dist/producto/buho-ojos-naranja/index.html",
+      "bytes": 13276,
+      "sha256": "3bbcd1ce81eb58d85e9536199b458805db628b7c45d4cf1681a382c48c701389"
+    },
+    {
+      "path": "dist/producto/buho-ojos-rojos/index.html",
+      "bytes": 13231,
+      "sha256": "ff1caaf787501ec1f457d87a9e38579cad8cd3f029e64fde99a852c688be6378"
+    },
+    {
+      "path": "dist/producto/buho-ojos-rosados/index.html",
+      "bytes": 13275,
+      "sha256": "e11fb486d3c6ab99566287c0f8f98c3cada9c4e7e195299b496cbba6ec6750f5"
+    },
+    {
+      "path": "dist/producto/buho-ojos-verdes/index.html",
+      "bytes": 13253,
+      "sha256": "512c71c6b5f934c747738a64bec098386b8057aa4900d6e28269a175fdf159b9"
+    },
+    {
+      "path": "dist/producto/caos-supremo/index.html",
+      "bytes": 13454,
+      "sha256": "f42eb6082d2200f366da0bfcdf6aec6623fc10070941ce382725cee0061f664c"
+    },
+    {
+      "path": "dist/producto/cenizas-dragon-blanco/index.html",
+      "bytes": 13399,
+      "sha256": "7c182a7447a90ff8d5fd0d801060a6cce7b2333096061d3a6d474ba11009dbc8"
+    },
+    {
+      "path": "dist/producto/cenizas-dragon-negro/index.html",
+      "bytes": 13323,
+      "sha256": "5cdab59eed33e92ee59b225ee2517fe011a1546d1898ac7ee23e8b9017cac9ce"
+    },
+    {
+      "path": "dist/producto/cobra-dorada/index.html",
+      "bytes": 13247,
+      "sha256": "72964dc364e72c59587e4502a4be9f0d64a65efa5540d037dacdf5b2d0893755"
+    },
+    {
+      "path": "dist/producto/cobra-fuego-aurora/index.html",
+      "bytes": 13393,
+      "sha256": "49e8e047841d067ff4c5005050f557b4cd883a1146bb345e93d4bcdcf11c131e"
+    },
+    {
+      "path": "dist/producto/cobra-media-noche/index.html",
+      "bytes": 13393,
+      "sha256": "7cd4b056e0666067711667fda6ef0177cba902b5cd0273f3ffb5eff7aa5ef13d"
+    },
+    {
+      "path": "dist/producto/cola-bestia-alada-clara/index.html",
+      "bytes": 13479,
+      "sha256": "a8cfe6ee262d3a5d3934c5a50ac3c16ab4e4bd69a3a13d4cb761b6f7f099c3b8"
+    },
+    {
+      "path": "dist/producto/cola-bestia-alada-oscura/index.html",
+      "bytes": 13449,
+      "sha256": "9dd6dd2466fc66a6b93f7a07572a43c54f6cad2ea3c365b86c9c657896ddced6"
+    },
+    {
+      "path": "dist/producto/conejo-encantado-ojos-rojos/index.html",
+      "bytes": 13464,
+      "sha256": "0adcf90ac1a3bc9f4fbba08bb01d0e46e8034e570c8828751178b5ade3f238e8"
+    },
+    {
+      "path": "dist/producto/conejo-magico-ojos-azules/index.html",
+      "bytes": 13446,
+      "sha256": "222e6fd375b69ccc8e7020b2ff492ed859c74a91a33ae6c7b3c3d84835b04a1b"
+    },
+    {
+      "path": "dist/producto/danza-dragon/index.html",
+      "bytes": 13243,
+      "sha256": "b6584d4672f462428e7a106ec1454fe65c81a9a6643942ede1d48a9deb6b2c71"
+    },
+    {
+      "path": "dist/producto/detalle-frontal/index.html",
+      "bytes": 13224,
+      "sha256": "3e8e399cc3d953ad7b4f93c69606e39ab3eea6a0633ea87e28220bf2e821ebfe"
+    },
+    {
+      "path": "dist/producto/dragon-bestia-fuego/index.html",
+      "bytes": 13422,
+      "sha256": "bd02ed58cc97d757f6da8635dbadb457a92b85dfe36bc09a3dcab9fcd84843a0"
+    },
+    {
+      "path": "dist/producto/dragon-fuego/index.html",
+      "bytes": 13225,
+      "sha256": "fa461dedb4238eab18cf81d504e15ba7331b649309b635e80cf9d740bc6726cb"
+    },
+    {
+      "path": "dist/producto/dragon-leon/index.html",
+      "bytes": 13306,
+      "sha256": "44d511305ed8fa52762e2bb92c16062455132d25dc3ebb7b6505dc72a2c1b33b"
+    },
+    {
+      "path": "dist/producto/dragon-luz-eterna/index.html",
+      "bytes": 13387,
+      "sha256": "ee6e761ddb9d0bcc0b137e46e238df4e68d2d4fd6e4c91f13dda75efdfcd7292"
+    },
+    {
+      "path": "dist/producto/dragon-noche-ojo-azul/index.html",
+      "bytes": 13487,
+      "sha256": "9b3b827e243c5bf1db0f08b765634c6da56014488e6cbff7d10a3de8e5fd9099"
+    },
+    {
+      "path": "dist/producto/dragon-tiempo/index.html",
+      "bytes": 13254,
+      "sha256": "19b0675e09ac5851b41160fa9412940dc48b247c861af86dffcb45d98978bfd5"
+    },
+    {
+      "path": "dist/producto/elegancia-letal-serpiente/index.html",
+      "bytes": 13460,
+      "sha256": "b814d078f774e4575358ed04c154b9441d2e7dd8506473bcbf755ebdd8257aa4"
+    },
+    {
+      "path": "dist/producto/emperador-draconico/index.html",
+      "bytes": 13347,
+      "sha256": "49ca39e4cff174cad65801ee266f358dfa2940cf1f1b51d4d83b9a146bfeba1d"
+    },
+    {
+      "path": "dist/producto/esencia-marina-hoja-corazon/index.html",
+      "bytes": 13579,
+      "sha256": "ebce3a0d05ecd5df491e6b35248d3af3d85e2ace401952af7d72983392e49773"
+    },
+    {
+      "path": "dist/producto/esfinge-planeta-olvidado/index.html",
+      "bytes": 13450,
+      "sha256": "80fc3e20513bca35e9d1a51ae71ea548a6fe84a5e0e692deb97dcd2783b4dae5"
+    },
+    {
+      "path": "dist/producto/espiral-dragon-mistico/index.html",
+      "bytes": 13464,
+      "sha256": "68bb33bb1195e8de20797e13104c5c4d5211817cb009edeb3158682d356649b9"
+    },
+    {
+      "path": "dist/producto/espiral-esmeralda-cobra/index.html",
+      "bytes": 13480,
+      "sha256": "bfe466e6014ee4056a7076a97e5d3c0e6d0142dbc6d3eabcf79e3ef505c4ac58"
+    },
+    {
+      "path": "dist/producto/felina-magia-gato/index.html",
+      "bytes": 13375,
+      "sha256": "29fcdfff3a498a9a689a69e25849aface9c73af20ddd1860c0d27358cb2a8f3a"
+    },
+    {
+      "path": "dist/producto/fiera-leon/index.html",
+      "bytes": 13209,
+      "sha256": "5c4270dca9978f4bab27fe757dcfbaec6806889ab7d82307c4bdd5f73957605b"
+    },
+    {
+      "path": "dist/producto/fortaleza-natural-espiga-hoja/index.html",
+      "bytes": 13543,
+      "sha256": "fcb8a21883cd2e7fcdfff25c177f77d1daf0dd3f55266f2d3b57af864cab0893"
+    },
+    {
+      "path": "dist/producto/fragmento-fuego-dragon-cosmico/index.html",
+      "bytes": 13543,
+      "sha256": "fa0d5f083591c729206b315a7aabb3792f67183e9fcc423aacb4fcfc7d68ddc0"
+    },
+    {
+      "path": "dist/producto/garra-cristal-fuego/index.html",
+      "bytes": 13345,
+      "sha256": "3310367890f8f3611f57006d5c1b64e38aed5eb8e85d05dffbdb2aaad7ec08bf"
+    },
+    {
+      "path": "dist/producto/garra-dragon-amatista/index.html",
+      "bytes": 13450,
+      "sha256": "851fccd2f4f93daa022010023dc0f974c66e406121776989d0a861844f7275ba"
+    },
+    {
+      "path": "dist/producto/garra-halcon-celestial/index.html",
+      "bytes": 13454,
+      "sha256": "7dd41109ebd67daae7039d30e0fa729b18ec25fda4c2b802db3e2dc28c307ad5"
+    },
+    {
+      "path": "dist/producto/garra-reina-bestial/index.html",
+      "bytes": 13506,
+      "sha256": "45eed25112cf23fe4b6b0effcb245e0ac8fffce31d4192ca6353407b7b184427"
+    },
+    {
+      "path": "dist/producto/guante-infinito-titan/index.html",
+      "bytes": 13446,
+      "sha256": "44b9a6308eb2aba9a49d49c9f186b1c540e71ae57f4106593454b765acd37e65"
+    },
+    {
+      "path": "dist/producto/guardian-rio-cocodrilo/index.html",
+      "bytes": 13474,
+      "sha256": "8e7121de5173ee9a605ac3c73c808469cbf23991785c6a9318e679cbed467b1c"
+    },
+    {
+      "path": "dist/producto/honor-esparta/index.html",
+      "bytes": 13283,
+      "sha256": "3554ac5dba97f34835b92b9b16f9d50ffe8e32cdc4dd8b8aced1681653a69733"
+    },
+    {
+      "path": "dist/producto/latido-estelar-dos-almas-dorado/index.html",
+      "bytes": 13532,
+      "sha256": "307dfebcfac09bdc3e9b358bab8432cffdd4a6063d4fd6768d319be11c5a1aa6"
+    },
+    {
+      "path": "dist/producto/latido-estelar-dos-almas/index.html",
+      "bytes": 13428,
+      "sha256": "a48495104fa392dea145a0b566b91fc1bae311d0dc034e8489ece363b12ff49f"
+    },
+    {
+      "path": "dist/producto/lealtad-inquebrantable-perro-guardian/index.html",
+      "bytes": 13632,
+      "sha256": "3a9e679716d12ed0c1299b3e0a268d7167d4b735edbe02cd3666b1a2386112d4"
+    },
+    {
+      "path": "dist/producto/llama-siniestra/index.html",
+      "bytes": 13488,
+      "sha256": "0eb208b2f28d695915f5f2af2a5a6342f7cfcef57183be7af8209a05a0045339"
+    },
+    {
+      "path": "dist/producto/mamba-negra-celestial/index.html",
+      "bytes": 13436,
+      "sha256": "3f5aec6f701d8afda9bae0a58ca3c4bd645bf4e4642c1f0abf44bed5bd8b5532"
+    },
+    {
+      "path": "dist/producto/mascara-hierro-negra/index.html",
+      "bytes": 13375,
+      "sha256": "6a07551a5524156108f55ad590b8014d327a4f48a4c2c93a99e7772bbc05b7bb"
+    },
+    {
+      "path": "dist/producto/mascara-urano/index.html",
+      "bytes": 13288,
+      "sha256": "0832ec6cf9229e96e633ed2be66aa71120de0b5382c26deac319d7ad49e6aa99"
+    },
+    {
+      "path": "dist/producto/mensajero-sombras/index.html",
+      "bytes": 13388,
+      "sha256": "9ca33df71f95f26a981ea037bae85fed62457325ebfff9f8d39cf1eebd3e3db2"
+    },
+    {
+      "path": "dist/producto/mirada-eclipse-ancestral/index.html",
+      "bytes": 13390,
+      "sha256": "58e9da3e668c542ca3b898bfb9cf52ed43ccbb1977b31e3a70502bedecadadc3"
+    },
+    {
+      "path": "dist/producto/misterio-pulpo/index.html",
+      "bytes": 13245,
+      "sha256": "5eb6ea024c9caab9614b0a165595ea365b61f4927365a3066891866e3bfdac97"
+    },
+    {
+      "path": "dist/producto/naipe-apuesta-final/index.html",
+      "bytes": 13367,
+      "sha256": "dfec45fc3ee27c5ef7b80e0167e98a2af10c03d9da5db6ea872e76791cddfc98"
+    },
+    {
+      "path": "dist/producto/naipe-estelar/index.html",
+      "bytes": 13248,
+      "sha256": "1d51cb1166c533ed743faedb9a5e3cab4027a257c1bc5ec5960f44db98d3af25"
+    },
+    {
+      "path": "dist/producto/ojo-espectral/index.html",
+      "bytes": 13266,
+      "sha256": "60b7ab094c5495e53e3577154e0c7e5757a41d101c1faafcf0c4a91b98a2c22a"
+    },
+    {
+      "path": "dist/producto/ojo-estelar/index.html",
+      "bytes": 13209,
+      "sha256": "b17e2c7114917ae101d2720d0ec8abf0519b2b2b72fd018593fc4b848bd9b0fe"
+    },
+    {
+      "path": "dist/producto/ojo-orion-eterno/index.html",
+      "bytes": 13337,
+      "sha256": "a7515472ea4f8b6c9823dd7cfc59ce2b4ef01d9d8ff971c7750a24e86c34d446"
+    },
+    {
+      "path": "dist/producto/ojo-rojo-astral/index.html",
+      "bytes": 13161,
+      "sha256": "0a9823c94b3687478a7e1e34fab5c61aacdef96adfc50d5042d2cbfef8ca04b3"
+    },
+    {
+      "path": "dist/producto/patitas-guardian-nebulosa-claro/index.html",
+      "bytes": 13548,
+      "sha256": "c00d0df40f3819314ed31f6bce94323bf002a139b9d782d798190e1014a7781a"
+    },
+    {
+      "path": "dist/producto/patitas-guardian-nebulosa/index.html",
+      "bytes": 13422,
+      "sha256": "7bb1aaab095a01135d5f0b0a1cb5bfb87a372e1f3f112448b9e414de9545c219"
+    },
+    {
+      "path": "dist/producto/piton-susurro-mortal/index.html",
+      "bytes": 13508,
+      "sha256": "83b4699a9a59fb101f4dbd72598affa8487eb71dc0782b56cae24ec65e4936e7"
+    },
+    {
+      "path": "dist/producto/plumas-luz-guardian-celestial/index.html",
+      "bytes": 13627,
+      "sha256": "afa6331a3c2866b8e4a7e0687e8f4e36579f2df0e4e59d0174428f2123ea67b4"
+    },
+    {
+      "path": "dist/producto/poder-oscuro/index.html",
+      "bytes": 13489,
+      "sha256": "54956549ad4754f4d511c2186462f10101ae880367d60facac51d249bd51c336"
+    },
+    {
+      "path": "dist/producto/puno-cometa-errante/index.html",
+      "bytes": 13373,
+      "sha256": "3d158ba7692adc8d458b9b9b1f8a38ebb9c03381a4db4b640e2b3e79840066a1"
+    },
+    {
+      "path": "dist/producto/raiz-poder-hoja-bosque/index.html",
+      "bytes": 13473,
+      "sha256": "bcff83756219bb7e5c3d9ece3e0c051d071d3bd57a8f17890c62a3d2be8a11c8"
+    },
+    {
+      "path": "dist/producto/renacer-garra-demoniaca/index.html",
+      "bytes": 13457,
+      "sha256": "348228a2a72d8e00ae7b93ab0499ec9608c92dd5228679902e5744f5d4093123"
+    },
+    {
+      "path": "dist/producto/rugido-garra-salvaje/index.html",
+      "bytes": 13384,
+      "sha256": "75273e51cfd8c80abef83a8ba185d96d5beb42822adecd5a792c8bdeedbc6405"
+    },
+    {
+      "path": "dist/producto/sabiduria-verde-hoja-sagrada/index.html",
+      "bytes": 13433,
+      "sha256": "bf236d4ee317719b6e55932526ceefdb7d9f55049607c976b85fc0ae4a41c0b6"
+    },
+    {
+      "path": "dist/producto/serpiente-vibora-nocturna/index.html",
+      "bytes": 13536,
+      "sha256": "e2e6387acde645e120a9cc998064d9a5961cbb43f7d706a79647ec04f41fbd30"
+    },
+    {
+      "path": "dist/producto/sigilo-letal-serpiente-sombra/index.html",
+      "bytes": 13427,
+      "sha256": "3ed5cb14ba9e4f2116b1c656a11234ae97b45ea5f64e7a96dc01ac146b3e728e"
+    },
+    {
+      "path": "dist/producto/sombra-demoniaca/index.html",
+      "bytes": 13244,
+      "sha256": "c7a467b1dbc3cfb888cfc1adfd598cedde91bae902ee45c5f8c267bbb284502e"
+    },
+    {
+      "path": "dist/producto/sombra-guerrero/index.html",
+      "bytes": 13346,
+      "sha256": "ffc2363b8d0a6d99effcc1aee703b991a1e7d311c8f6fa13ae37eca843acf9be"
+    },
+    {
+      "path": "dist/producto/susurro-antigua-cascabel/index.html",
+      "bytes": 13489,
+      "sha256": "e4062d97328f720763e94db38b6a50fe9d56f76b4fd9b1d1441296c3af87aaf5"
+    },
+    {
+      "path": "dist/producto/terciopelo-letal-eclipse/index.html",
+      "bytes": 13387,
+      "sha256": "1a6750e19f3de7ed3859efd2fdf0f3f20811118df07d5e210d2b523a00e733bb"
+    },
+    {
+      "path": "dist/producto/toro-dorado-fiera/index.html",
+      "bytes": 13416,
+      "sha256": "adf563db21daf4537841d358a67175158eff57c84891a0828e19cf5292bd833d"
+    },
+    {
+      "path": "dist/producto/toro-fiera-guardian-tierra/index.html",
+      "bytes": 13475,
+      "sha256": "adc3d1e610059723b44a730462d73079b64a9b560e87e8dfaee53a9041ab97ab"
+    },
+    {
+      "path": "dist/producto/union-divina-manos-abrazando/index.html",
+      "bytes": 13446,
+      "sha256": "a42b64eee94ed8c3ae72257408966541ae5948d59882999ff00aaff3fea91332"
+    },
+    {
+      "path": "dist/producto/veneno-escarlata-real/index.html",
+      "bytes": 13405,
+      "sha256": "17bd7346530ad0850433c2ddf34cb4093f56b55a5fa1cbdcd01ef7400c0bece4"
+    },
+    {
+      "path": "dist/producto/vigilante-imperio/index.html",
+      "bytes": 13393,
+      "sha256": "336c8185d67468c94e8e774e8fe5d460da6c2949afd429228f33c55ba0200b2c"
+    },
+    {
+      "path": "dist/producto/vikingo-talisman-guerrero/index.html",
+      "bytes": 13656,
+      "sha256": "93796dc5e0715a8778c78a1d239b022ab410ea0c2ba98fc541db8b47e0e992c9"
+    },
+    {
+      "path": "dist/producto/vuelos-eternos-dragon/index.html",
+      "bytes": 13445,
+      "sha256": "77ce104f3436bcb4602fd333b2ab8767c4598e7967f1765464ab318780229e2f"
+    },
+    {
+      "path": "dist/receipt-fonts.js",
+      "bytes": 480924,
+      "sha256": "52292d0fc429148af1f3160f660215a8de2ee1b2b4c068b0f81d58783481c9f5"
+    },
+    {
+      "path": "dist/receipt.js",
+      "bytes": 4839,
+      "sha256": "04b6adc8256b0564e22d5acc2e143b6729e437da075a092d3875bf8d0c70008f"
+    },
+    {
+      "path": "dist/robots.txt",
+      "bytes": 107,
+      "sha256": "4838e630b61d887a08e588b08ad743802695a647f55e96a50df8f9e32a28c567"
+    },
+    {
+      "path": "dist/sitemap.xml",
+      "bytes": 7650,
+      "sha256": "4e30cbd4413809a301c66267ef78ce46f9eb9da7d829423fef3f38dcaaa7ce41"
+    },
+    {
+      "path": "dist/social.js",
+      "bytes": 2456,
+      "sha256": "f80d977dbd6b0ba4adc9ddb4d2d2c5f395c3bd09445db1d671d9ca362e08c075"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 34084,
+      "sha256": "595c7d87104bffb3b66c64dffcd02f088c99b4ce4ea4e0c729d457d61435da4e"
+    },
+    {
+      "path": "dist/tienda/index.html",
+      "bytes": 145519,
+      "sha256": "b60221456db1707fcad604d56f1c274d165ae899e60dbc7f06230adc168a40d9"
+    },
+    {
+      "path": "dist/vendor/jspdf-LICENSE.txt",
+      "bytes": 1142,
+      "sha256": "dc388ec35ff463288cdde3588a36fd4ed12a45deff053243b37309acc9ef583b"
+    },
+    {
+      "path": "dist/vendor/jspdf.umd.min.js",
+      "bytes": 420165,
+      "sha256": "e6551fcdc32f09d6853b2c5126d18d01d9447e0da618a41a11ebeee0f6c20d54"
+    },
+    {
+      "path": "docs/Draco-inventario-SKU-97.csv",
+      "bytes": 7968,
+      "sha256": "c8de287d5e309b0a12454979a8aaec32ffa743afa507a8f9670bb6b1b7bf0412"
+    },
+    {
+      "path": "docs/LEEME-DRACO.txt",
+      "bytes": 10782,
+      "sha256": "016e62d7c2efe7c6930ce91a5a40c4d62e35287d57104ccfc8307f1f0c197435"
+    },
+    {
+      "path": "docs/Manual_Marca_Draco.pdf",
+      "bytes": 26171215,
+      "sha256": "1d3e34cc31c4fce0116c2e9025a52e68b522f462ed98309ae37f2a25dd160c1b"
+    },
+    {
+      "path": "docs/Montserrat-OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "docs/catalog-provenance.json",
+      "bytes": 144714,
+      "sha256": "4427a9e82394d90fda0fd2e8f59936e7e9ffc973c826a3fb50ef3c0a8928053f"
+    },
+    {
+      "path": "docs/colombia-locations-source.json",
+      "bytes": 3211,
+      "sha256": "19b589c3ffda66e51c14bb26fbee1b2faa935eb8b15c732a12076b99c9098d5f"
+    },
+    {
+      "path": "docs/photo-delivery-manifest.json",
+      "bytes": 28278,
+      "sha256": "a013ec3253d7669fbe128bde7e4d88c26e2f4a60274402b947dd1473bce05e0c"
+    },
+    {
+      "path": "docs/whatsapp-logo-source.txt",
+      "bytes": 841,
+      "sha256": "0e05c487716fc31c1d4280829f289b8b8c3c303773e2645f18c6d237fbe9f1e8"
+    },
+    {
+      "path": "import_retouched.py",
+      "bytes": 2523,
+      "sha256": "d533bbbdfb1f5381ba737f20fedca2255dd19665149df7400100fc437d258796"
+    },
+    {
+      "path": "ingest_catalog.py",
+      "bytes": 3596,
+      "sha256": "fafb8e27bf1e70b39ca7f37b109fb7ed9323a818f893f13473e1033114bda851"
+    },
+    {
+      "path": "optimize_web_encoding.py",
+      "bytes": 1094,
+      "sha256": "c8fad63c4519de071826015b637ae1a95fc37c682c44b3e345985984b8fbfcd6"
+    },
+    {
+      "path": "qa.cjs",
+      "bytes": 2412,
+      "sha256": "2f54f3233ab9a3d5241af3800d78adb5e03522d38c98a8cc48e8d86c56c288a1"
+    },
+    {
+      "path": "sku_registry.py",
+      "bytes": 797,
+      "sha256": "41d6f0eed0f96f7c6a1a35ec3f4e23fb27d2682580c84758e97e7d72eb3ef065"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 856,
+      "sha256": "638d37ad1ef0407d1fe4b75aeacd2a443d1039acf352bc0e8537aecf7d38fc35"
+    }
+  ],
+  "excluded": [
+    "__pycache__/sku_registry.cpython-312.pyc"
+  ],
+  "secret_scan_findings": [],
+  "total_bytes": 36277143
+}

@@ -1,0 +1,82 @@
+{
+  "source": "Original AI-generated oblique objects, prepared and visually reviewed 2026-10-08. Illustrative only; no measured scale or real-farm provenance.",
+  "files": [
+    {
+      "path": "/plan-oblique/banana-plant-256.webp",
+      "bytes": 21364,
+      "sha256": "1ad239463996a085837d6d8192c6684113a8353666c87991d2995c3cbb6b40ce",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/cacao-tree-256.webp",
+      "bytes": 28268,
+      "sha256": "7af5db3e15e88bf70891b531bdc1f4f4ef8d80aa9907090d3936aac67ed05e30",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/cattle-256.webp",
+      "bytes": 13342,
+      "sha256": "246f13750b521eff82c22425f5e21001d6a4a08dfb4f8519dc4591ddac60d054",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/chicken-coop-256.webp",
+      "bytes": 21164,
+      "sha256": "f831f4672d447eb52a77822cc5360ec3ae9ca7f7023bc57dad58ff36b74f49c3",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/coffee-shrub-256.webp",
+      "bytes": 28662,
+      "sha256": "f6e76957b3fb151fc85fa544e77312df321792ab678ef8a62d5f893d049b093f",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/greenhouse-256.webp",
+      "bytes": 17512,
+      "sha256": "efe9d9ce3f269ae57b791d55d7298f8daf6a9bd14e42ad3c7147ef833b7545e0",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/hen-256.webp",
+      "bytes": 15086,
+      "sha256": "c5eccfee4d5166ebcd112f09aeb02936d20a065d71da647e60b509a1fed6fec6",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/open-shed-256.webp",
+      "bytes": 14496,
+      "sha256": "3d109c89f6cc255c454c51ac8eee6208b0ded69b813f435c4825bb08b1460d37",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/pig-256.webp",
+      "bytes": 10658,
+      "sha256": "7a4dc9e7c237eafc69a0eef8f2dab1ff202a55b80bd3d4547396652f4d79cd97",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/rural-house-256.webp",
+      "bytes": 14186,
+      "sha256": "f88f2a4b2870e917aba378be4eca1abb6bfcae83d349ef0d42450673a08d5cf7",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "path": "/plan-oblique/wood-cabin-256.webp",
+      "bytes": 17514,
+      "sha256": "c15a948783d6c13e46c7bfe4e8fc0fba7ae1a2e56d0758688783e13f20794451",
+      "width": 256,
+      "height": 256
+    }
+  ]
+}

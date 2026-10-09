@@ -1,0 +1,158 @@
+[
+  {
+    "id": "demo_v1_public_productora",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "Hato Claro · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Apure",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo productora. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Bovinos y leche",
+      "purposes": [
+        "Producción",
+        "Venta de animales"
+      ],
+      "farmType": "Productora",
+      "productionProcess": "Identificación → pesajes → revisión de registros → acuerdo de entrega.",
+      "saleOptions": "Animales por unidad o lote. Precio, documentación y disponibilidad por confirmar.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  },
+  {
+    "id": "demo_v1_public_turistica",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "Senderos del Patio · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Mérida",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo turística. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Turismo rural y talleres",
+      "purposes": [
+        "Visitas",
+        "Capacitaciones"
+      ],
+      "farmType": "Turística",
+      "productionProcess": "Consulta → definición del recorrido → confirmación → visita.",
+      "saleOptions": "Experiencias por grupo con reserva. Accesibilidad y condiciones por confirmar.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  },
+  {
+    "id": "demo_v1_public_mixta",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "Horizonte Mixto · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Barinas",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo mixta. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Aves, cacao y visitas",
+      "purposes": [
+        "Producción",
+        "Venta de productos",
+        "Visitas"
+      ],
+      "farmType": "Mixta",
+      "productionProcess": "Registro del lote → seguimiento → cosecha o recolección → presentación.",
+      "saleOptions": "Productos por unidad o kilogramo. Formatos y condiciones por confirmar.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  },
+  {
+    "id": "demo_v1_public_cultivos",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "Cacao del Sendero · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Sucre",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo cultivos y cosechas. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Cacao y cultivos tropicales",
+      "purposes": [
+        "Producción",
+        "Venta de productos"
+      ],
+      "farmType": "Cultivos y cosechas",
+      "productionProcess": "Cosecha → selección → registro del lote → acondicionamiento → pesaje.",
+      "saleOptions": "Cacao por kilogramo o saco; muestra y condiciones por acordar.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  },
+  {
+    "id": "demo_v1_public_transformacion",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "Taller de la Cosecha · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Lara",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo transformación de alimentos. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Café tostado y presentación de lotes",
+      "purposes": [
+        "Producción",
+        "Venta de productos"
+      ],
+      "farmType": "Transformación de alimentos",
+      "productionProcess": "Recepción → registro → transformación habilitada → empaque → entrega.",
+      "saleOptions": "Café en presentaciones de ejemplo. Sin certificación ni habilitación acreditada.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  },
+  {
+    "id": "demo_v1_public_venta",
+    "demo": true,
+    "previewOnly": true,
+    "missingBeforeSubmission": [
+      "phone"
+    ],
+    "payload": {
+      "name": "La Vega de Papel · ejemplo ficticio",
+      "responsibleName": "Responsable ficticio de ejemplo",
+      "phone": "",
+      "state": "Portuguesa",
+      "municipality": "Zona de ejemplo · sin ubicación real",
+      "description": "Ficha ficticia para explorar el registro de una finca de tipo propiedad en venta. Se pueden editar nombre, rubros y descripción. No representa una finca, actividad, persona u oferta real.",
+      "rubrics": "Propiedad rural de ejemplo",
+      "purposes": [
+        "Venta de la propiedad"
+      ],
+      "farmType": "Propiedad en venta",
+      "productionProcess": "Consulta → visita acordada → revisión documental por las partes.",
+      "saleOptions": "Ejemplo de venta de propiedad; no hay inmueble en oferta, precio ni título acreditado.",
+      "visitConditions": "Ejemplo de condiciones: una visita real requeriría cita y confirmación. Esta ficha no admite reservas.",
+      "socials": {}
+    }
+  }
+]

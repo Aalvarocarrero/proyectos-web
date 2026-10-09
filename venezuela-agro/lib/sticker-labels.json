@@ -1,0 +1,118 @@
+{
+  "agricultores-cosecha-agricultor-con-zanahoria--mujer": {
+    "name": "Cosechadora de zanahoria",
+    "aliases": [
+      "zanahoria",
+      "mujer",
+      "agricultora con zanahoria",
+      "cosechadora de zanahoria"
+    ]
+  },
+  "agricultores-cosecha-agricultor-con-zanahoria--hombre": {
+    "name": "Cosechador de zanahoria",
+    "aliases": [
+      "zanahoria",
+      "hombre",
+      "agricultor con zanahoria",
+      "cosechador de zanahoria"
+    ]
+  },
+  "agricultores-cosecha-agricultor-con-yuca--mujer": {
+    "name": "Cosechadora de yuca",
+    "aliases": [
+      "yuca",
+      "mujer",
+      "agricultora con yuca",
+      "cosechadora de yuca"
+    ]
+  },
+  "agricultores-cosecha-agricultor-con-yuca--hombre": {
+    "name": "Cosechador de yuca",
+    "aliases": [
+      "yuca",
+      "hombre",
+      "agricultor con yuca",
+      "cosechador de yuca"
+    ]
+  },
+  "agricultores-cosecha-agricultor-con-ocumo--mujer": {
+    "name": "Cosechadora de ocumo",
+    "aliases": [
+      "ocumo",
+      "ocumo blanco",
+      "mujer",
+      "agricultora con ocumo",
+      "cosechadora de ocumo"
+    ]
+  },
+  "agricultores-cosecha-agricultor-con-ocumo--hombre": {
+    "name": "Cosechador de ocumo",
+    "aliases": [
+      "ocumo",
+      "ocumo blanco",
+      "hombre",
+      "agricultor con ocumo",
+      "cosechador de ocumo"
+    ]
+  },
+  "agricultores-animales-agricultor-con-vaca--mujer": {
+    "name": "Productora de bovinos",
+    "aliases": [
+      "vaca",
+      "bovino",
+      "ganado",
+      "mujer",
+      "agricultora con vaca",
+      "productora de bovinos"
+    ]
+  },
+  "agricultores-animales-agricultor-con-vaca--hombre": {
+    "name": "Productor de bovinos",
+    "aliases": [
+      "vaca",
+      "bovino",
+      "ganado",
+      "hombre",
+      "agricultor con vaca",
+      "productor de bovinos"
+    ]
+  },
+  "agricultores-animales-agricultor-con-oveja--mujer": {
+    "name": "Productora de ovinos",
+    "aliases": [
+      "oveja",
+      "ovino",
+      "mujer",
+      "agricultora con oveja",
+      "productora de ovinos"
+    ]
+  },
+  "agricultores-animales-agricultor-con-oveja--hombre": {
+    "name": "Productor de ovinos",
+    "aliases": [
+      "oveja",
+      "ovino",
+      "hombre",
+      "agricultor con oveja",
+      "productor de ovinos"
+    ]
+  },
+  "agricultores-animales-agricultor-con-conejo--mujer": {
+    "name": "Productora de conejos",
+    "aliases": [
+      "conejo",
+      "mujer",
+      "agricultora con conejo",
+      "productora de conejos"
+    ]
+  },
+  "agricultores-animales-agricultor-con-conejo--hombre": {
+    "name": "Productor de conejos",
+    "aliases": [
+      "conejo",
+      "hombre",
+      "agricultor con conejo",
+      "productor de conejos"
+    ]
+  }
+}

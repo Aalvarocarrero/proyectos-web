@@ -1,0 +1,149 @@
+{
+  "source": "Original AI-generated raster artwork using the built-in image generation tool",
+  "illustrative": true,
+  "files": [
+    {
+      "file": "banana-plant-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 86381,
+      "sha256": "8957929930bdd08f16fc0eb361c091328862d024e09c8c8c8260c3075f1778af",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 33981,
+      "semi_transparent_pixels": 31504,
+      "content_bbox": [
+        8,
+        9,
+        247,
+        246
+      ]
+    },
+    {
+      "file": "cacao-canopy-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 128470,
+      "sha256": "a9d7b8bab0395f31a5083eaa9b89460b910061ba32915100332d32e0da871290",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 21593,
+      "semi_transparent_pixels": 43936,
+      "content_bbox": [
+        3,
+        4,
+        253,
+        253
+      ]
+    },
+    {
+      "file": "coffee-shrub-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 105370,
+      "sha256": "12a6608aec1101b4c5e9d4c6f27a6b247d442c7dc30d9fe43ab0e5841e61a798",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 31781,
+      "semi_transparent_pixels": 33736,
+      "content_bbox": [
+        16,
+        18,
+        246,
+        242
+      ]
+    },
+    {
+      "file": "low-crop-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 89387,
+      "sha256": "051a1c811d20b30d1fe91b59bdfef16c3f571682c6883416a5eb2d3c231463be",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 30952,
+      "semi_transparent_pixels": 34518,
+      "content_bbox": [
+        14,
+        17,
+        244,
+        240
+      ]
+    },
+    {
+      "file": "cattle-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 30401,
+      "sha256": "b7fba010c7c25e9f70f5b046db4e5b16d9254357375a701f328ee493c99b354c",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 53700,
+      "semi_transparent_pixels": 11815,
+      "content_bbox": [
+        93,
+        11,
+        170,
+        242
+      ],
+      "scope": "Explicitly fictional demo animal positions only; do not imply real location or count."
+    },
+    {
+      "file": "pig-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 44858,
+      "sha256": "38b3fbb49a138968034fd5a8f72244ef7e9b0dc5987d8b6c5fd8957a8bb41819",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 45069,
+      "semi_transparent_pixels": 20459,
+      "content_bbox": [
+        75,
+        10,
+        187,
+        248
+      ],
+      "scope": "Explicitly fictional demo animal positions only; do not imply real location or count."
+    },
+    {
+      "file": "hen-256.png",
+      "width": 256,
+      "height": 256,
+      "mode": "RGBA",
+      "bytes": 44002,
+      "sha256": "f68c5ceda18450ed34c30e16cc8eb6efa4721298ae8639082007b188e14494b9",
+      "alpha_min_max": [
+        0,
+        255
+      ],
+      "transparent_pixels": 50235,
+      "semi_transparent_pixels": 15286,
+      "content_bbox": [
+        77,
+        19,
+        185,
+        239
+      ],
+      "scope": "Explicitly fictional demo animal positions only; do not imply real location or count."
+    }
+  ]
+}

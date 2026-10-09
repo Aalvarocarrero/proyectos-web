@@ -1,0 +1,77 @@
+{
+  "prepared_on": "2026-10-09",
+  "remote_upload_performed": false,
+  "complete": true,
+  "projects": [
+    {
+      "folder": "venezuela-agro",
+      "title": "Venezuela Agro / Parcela Los Morochos",
+      "site_id": "appgprj_6a9e40d2e7108191bee6e53452208ac7",
+      "saved_version": 72,
+      "source_commit": "2733e19b3be23af60f77ada6e838f32a246c2f99",
+      "status": "source_staged",
+      "source_matches_latest_saved": true,
+      "source_matches_latest_deployed": true,
+      "file_count": 838,
+      "source_bytes": 37752228
+    },
+    {
+      "folder": "anillos-draco",
+      "title": "Anillos Draco",
+      "site_id": "appgprj_6ac2d025385c8191a347595b5fd45fab",
+      "saved_version": 13,
+      "source_commit": "07e9cdc55f182a67776efbc0987fc165357c1d40",
+      "status": "source_staged",
+      "source_matches_latest_saved": true,
+      "source_matches_latest_deployed": true,
+      "file_count": 242,
+      "source_bytes": 36277143
+    },
+    {
+      "folder": "rohocafe",
+      "title": "Rohocafé",
+      "site_id": "appgprj_6aa0af44ba0c81918121290e049cb256",
+      "saved_version": 9,
+      "source_commit": "5838b55b7c1fba59bb6874417e42512d4356a6d8",
+      "status": "source_staged",
+      "source_matches_latest_saved": true,
+      "source_matches_latest_deployed": true,
+      "file_count": 31,
+      "source_bytes": 1902540
+    },
+    {
+      "folder": "aeterna-global",
+      "title": "Aeterna Global",
+      "site_id": "appgprj_6ac2d5a133f08191a54ccc0c5a2953be",
+      "saved_version": 18,
+      "source_commit": "aec998fc5abd10a6c5acd25d1b1afb24ca16fc90",
+      "latest_deployed_version": 17,
+      "latest_deployed_source_commit": "74c6f5f6eb4b07ad2cc826e02563c641a8a4bd0e",
+      "status": "source_staged",
+      "source_bytes": 53664616,
+      "scan_confirmed_findings": 0,
+      "file_count": 203
+    },
+    {
+      "folder": "alvaro-carrero-mentor",
+      "title": "Álvaro Carrero · Mentor de transformación personal",
+      "site_id": "appgprj_6ac44ce984fc8191b372f1d310971767",
+      "saved_version": 19,
+      "source_commit": "5bd37c816be1ea4e3ed8760e8eb3cfa98faf8c86",
+      "latest_deployed_version": 19,
+      "status": "source_staged",
+      "file_count": 87,
+      "source_bytes": 5186743
+    }
+  ],
+  "skill_status": "13_named_public_references_with_catalog_and_licenses",
+  "prototypes": [
+    {
+      "folder": "aeterna-global/prototipos/scroll-cinematico",
+      "source_commit": "ab49bde7179d2c5cc371fe396f507901fa368aac",
+      "file_count": 190,
+      "source_bytes": 53547907
+    }
+  ],
+  "note": "Complete local source staging only. No remote repository upload has occurred."
+}

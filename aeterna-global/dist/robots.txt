@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /
+# Private owner review

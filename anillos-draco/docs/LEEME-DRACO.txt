@@ -1,0 +1,83 @@
+ANILLOS DRACO | DESARROLLO PRIVADO | 5 OCTUBRE 2026
+
+ESTADO Y ACCESO
+Esta web sigue privada por instrucción del propietario. Mantiene noindex y robots bloqueado. No se modificaron el dominio anterior, DNS ni WordPress. El lanzamiento público se hará solo tras autorización y elección/control del dominio definitivo.
+
+CATÁLOGO
+97 modelos/variantes reconciliados con 97 DOCX de Drive y los ZIP Pages. Versiones duplicadas consolidadas; colores y acabados distintos conservados. Fuente: https://drive.google.com/drive/folders/1-0UUEWGNcuDS1qsOf2fPlq3ZaCCob4XT
+Cada modelo tiene fotografía real y página /producto/{id}/. No hay existencias ni rangos exactos de talla confirmados; no se inventan. No se afirman fabricación colombiana, piedras naturales, hipoalergenicidad o sostenibilidad certificada.
+
+PRECIO, ENVÍO Y CONTACTO CONFIRMADOS
+Todos los anillos: $50.000 COP por unidad.
+Envío incluido a toda Colombia.
+WhatsApp: +57 321 558 7953.
+Disponibilidad, plazo de entrega, medio de pago, cambios y garantías se coordinan directamente con el negocio. La web no cobra ni instala una pasarela.
+
+CARRITO Y WHATSAPP
+Carrito local con cantidades de 1 a 99 por referencia, subtotales y total. Admite 45 unidades o 45 modelos. Añadir repetidamente incrementa cantidad. Importaciones que excedan 99 se rechazan con aviso; no se cambian silenciosamente.
+WhatsApp abre un mensaje prellenado con modelos, cantidades, total, envío y enlaces. El cliente pulsa Enviar en WhatsApp; la web no envía mensajes por sí sola ni confirma pedidos.
+Ruta /pedido/ permite reconstruir una selección mediante identificadores estables y cantidades, sin incluir datos personales en el enlace. Precios se leen del catálogo, no de la URL.
+En la fase privada, los pedidos largos usan Copiar pedido completo y Abrir WhatsApp para pegarlo; no dependen de un enlace inaccesible para comunicar el detalle. Las páginas y enlaces privados son solo para pruebas del propietario.
+Al publicar en el dominio definitivo: configurar SITE_ORIGIN y PRIVATE_PREVIEW en app.js, revisar enlaces y permisos, y probar el flujo real antes de anunciarlo. No activar automáticamente estos cambios.
+No hay CRM servidor, pagos automáticos, mensajes entrantes ni seguimiento de clientes implementado.
+
+FOTOGRAFÍA
+97 fotos revisadas y tratadas con herramientas no generativas de Adobe: encuadre, fondo y ajuste tonal suave. Se conservan geometría, grabados, acabados, colores y ángulos reales.
+96 recortes transparentes se presentan sobre blanco con sombra suave en CSS. Rugido Garra Salvaje utiliza una alternativa fiel con fondo blanco: se rechazó un recorte automático que eliminaba una parte real del anillo.
+Se sustituyeron originales pequeños por fotografías verificadas de mayor resolución donde estaban disponibles. Se mantienen las limitaciones de algunos originales pequeños; no se inventó textura ni detalle.
+Las copias web usan WebP optimizado, conservando dimensiones y transparencia. La presentación normaliza escala y centrado mediante CSS, sin redibujar las piezas.
+
+DISEÑO Y MÓVIL
+Identidad original española ANILLOS DRACO / EL ENCANTO DEL COSMOS y fotografías de campaña reales.
+Paleta oficial: #101011, #bf4616, #c7aa93, #f7f7f7, #998f76, #beb8a5. Montserrat local con licencia OFL; lettering original conservado.
+Grilla fluida, tarjetas alineadas, controles táctiles, menú adaptable, ancho máximo y zonas seguras. Fondo blanco uniforme para productos, acentos discretos de constelación y movimiento reducido respetado.
+
+RENDIMIENTO Y SEO
+HTML/CSS/JavaScript estáticos, imágenes diferidas fuera de la portada, dimensiones reservadas, fuentes locales y recursos optimizados.
+Idioma es-CO, títulos/descripciones, canonical a anillosdraco.co como dominio objetivo, Open Graph, Product/Offer con precio y envío 0, sitemap. No se inventan valoraciones ni stock.
+La indexación está desactivada durante el desarrollo. Al lanzar: confirmar dominio/HTTPS, revisar redirecciones de URLs anteriores, activar indexación y Search Console. No se garantiza ranking.
+
+APPLE PAY
+Investigado, no activado. Apple no añade comisión al comercio; el procesador/pasarela cobra según contrato. Lyra Colombia anuncia Apple Pay, pero tarifa completa y plazo de abono requieren cotización. Una cuenta australiana con Stripe exige requisitos comerciales propios y tiene sus tarifas de tarjetas internacionales/conversión. No hay cuentas, credenciales ni cobros configurados.
+
+VERIFICACIONES
+97 fotos: originales, recortes y resultados inspeccionados; recortes defectuosos corregidos o descartados.
+JavaScript y HTML: sintaxis, referencias, archivos, rutas, precios y datos estructurados comprobados.
+DOM simulado: cantidades, sumas, 45 unidades/45 modelos, persistencia y migración, entradas inválidas, pedidos compartidos, límites, foco, copiado alternativo y WhatsApp. Son pruebas de lógica, no de navegador.
+La comprobación visual final en navegador real sigue limitada por el entorno. No se afirma una auditoría completa de todos los dispositivos ni un resultado Lighthouse medido.
+
+ARCHIVOS
+Fuente única: data/catalog.json; datos comerciales en data/commerce.json.
+Generar HTML: python3 build.py.
+Comprobación estática: python3 validate.py.
+Comprobación JS: node --check dist/app.js.
+qa.cjs contiene pruebas para un entorno con Playwright/Chromium disponible.
+Los scripts de importación documentan el proceso usado y requieren sus fuentes locales. Para cambios portátiles, editar data/catalog.json y ejecutar build.py.
+Manual de marca: https://drive.google.com/file/d/1CyEMMd7TCKof4aqLMtcV0LsOx3hLvUeo/view
+
+ACTUALIZACIÓN SOCIAL OCT 5 2026
+Accesos oficiales verificados en anillosdraco.co/habla-con-nosotros/: Instagram, Facebook y YouTube. WhatsApp flotante compacto, panel solo al pulsar, minimizar/Escape/clic exterior, sugerencia breve una vez por sesión y oculta durante scroll. Oculto con modal/carrito o entrada de texto, respeto del área segura móvil. No se promete atención humana 24/7. En producto comparte enlace y nombre; carrito usa flujo existente. Pruebas estáticas y simuladas; validación visual autenticada pendiente.
+
+TikTok y enlace directo para escribir reseña en Google proporcionados por el propietario el 5 octubre 2026. No es un enlace de ubicación; botón etiquetado Reseñas en Google.
+
+CORRECCIÓN VISUAL OCT 5 2026
+Campaña editorial traducida mediante edición generativa de texto: Descubre / Audacia y originalidad. Se conserva el original lifestyle.webp. Imagen resultante inspeccionada visualmente; no es idéntica píxel a píxel. Catálogo real de 97 productos sin cambios. Logo WhatsApp SVG descargado intacto de whatsapp.com, sobre superficie CSS traslúcida, sin alterar sus trazados ni color. Procedencia en whatsapp-logo-source.txt.
+
+CARRITO FLOTANTE Y FOTOS DEL PEDIDO — 5 OCT 2026
+Carrito flotante inferior izquierdo visible cuando hay unidades; abre el mismo carrito y conserva cantidades. Separado de WhatsApp y oculto durante diálogos/entrada de texto. Ajustes de min-width, grids, menú móvil y controles para prevenir desbordamientos.
+WhatsApp click-to-chat solo prepara texto: el mensaje incluye ficha y enlace de foto por referencia. No adjunta archivos automáticamente. El carrito permite preparar láminas PNG (hasta 12 referencias por lámina) con fotografías, cantidades y total; un segundo toque abre compartir archivos si el navegador lo admite. El usuario elige WhatsApp y contacto; texto y fotos se envían por separado. Descargas individuales como alternativa. No se afirma que el mensaje se haya enviado. Los enlaces siguen privados hasta publicación autorizada del dominio.
+Pruebas: sintaxis, 102 HTML, mock de carrito previo, carrito flotante, generación de páginas con 1 y 45 modelos, compartir archivos e invalidación al cambiar cantidades. Pruebas simuladas; navegador móvil real pendiente.
+
+REVISIÓN IPAD Y FOTOS INDIVIDUALES
+Reemplaza las láminas agrupadas por un PNG por modelo con foto real, nombre, cantidad, subtotal y total pedido. Compartir archivos abre el selector del dispositivo; el usuario elige WhatsApp/contacto y confirma. No es envío automático ni integración CRM. Eliminados los enlaces Foto del texto para no confundirlos con adjuntos. Fichas permanecen.
+Gutters comunes clamp16/2.8vw/40, banner de borde a borde, contenedor1600máximo para escritorioancho, navegacióncompactahasta1100, rejillasminmax0, controlesalineados y alturarespaldo100vh. Pruebasestáticas/mocks; capturaorientacióniPadsolicitadapendiente, no afirmartestSafari.
+
+FORMULARIO DE CLIENTE Y UBICACIONES
+Nombre, teléfono, departamento, municipio/localidad y dirección en el carrito; validación antes de continuar al texto WhatsApp. Datos personales solo en memoria de la página y en el mensaje que el cliente decide enviar: no se guardan en localStorage, enlaces de pedido ni servidor. Botones de compra de producto pasan por el carrito para completar datos. Fotos se preparan automáticamente al abrir/cambiar el carrito; compartirlas aún requiere el gesto y confirmación del cliente. El reintento manual solo aparece si falla la preparación. No existe envío por API ni CRM conectado.
+Departamentos:32 y BogotáD.C.; localidades1122 (1103municipios,18áreasnomunicipalizadas,1isla). Fuente DANE/DatosAbiertos gdxc-w37w corte30dic2024, códigos contrastadosMGN2025, licenciaCCBY-SA4.0. Fuente/atribución incluida en datos y docs/colombia-locations-source.json. No implica cobertura de transportadora.
+Pruebas simuladas: camposobligatorios, filtradodepartamento/municipio, Bogotá separada, textoWhatsApp concliente, privacidadsinpersistencia, carros1/45modelos ygeneraciónfotos. iPadSafari real pendiente.
+
+RECIBO LOCAL Y SKU PERMANENTES
+Registro data/sku-registry.json asigna DRC-0001 a DRC-0097 a los modelos existentes y conserva sus asignaciones aunque cambie el orden del catálogo. No reutilizar identificadores de modelos retirados. ingest_catalog.py y build.py reutilizan registro. Catálogo, fichas, tarjetas, mensajes y esquema Product incluyen SKU. Exportación docs/Draco-inventario-SKU-97.csv para control interno; no inventa stock ni GTIN/EAN.
+El recibo PDF se genera localmente con fotos, SKU, cantidades, precio unitario, subtotales, envío incluido y total, nombre/teléfono/departamento/municipio/dirección y referencia local. Es resumen pendiente de confirmación, no factura ni comprobante de pago ni registro en servidor. Descargar/compartir PDF no garantiza recepción por WhatsApp. No API de WhatsApp ni servicio de pago contratado.
+jsPDF4.2.1MIT y fuentesMontserratOFL autoalojadas, cargadas solo al crearPDF; licencias conservadas. PDF probado con3modelos/4unidades200000COP1página y45modelos/46unidades2300000COP10páginas, fotosacentospaginacióntotalesrevisados.

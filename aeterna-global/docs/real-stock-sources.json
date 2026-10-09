@@ -1,0 +1,36 @@
+{
+  "checked": "2026-10-05",
+  "usage": "Free commercial-use licenses; not public domain or copyright-free. Do not imply depicted people endorse Aeterna or that these are Aeterna client work.",
+  "chosen": [
+    {
+      "role": "celebration",
+      "file": "party-fauxels-3184193.jpg",
+      "photographer": "fauxels",
+      "source": "https://www.pexels.com/photo/group-of-friends-making-toast-3184193/",
+      "license": "https://www.pexels.com/license/",
+      "download": "https://images.pexels.com/photos/3184193/pexels-photo-3184193.jpeg?w=2200&auto=compress&cs=tinysrgb",
+      "alt_es": "Grupo de adultos brindando durante una celebración en una mesa luminosa",
+      "note": "Real stock photograph, published November 5 2019; inspected pixels: adults, natural expressions, no visible brand or watermark. Illustrative stock, not an Aeterna client project.",
+      "dimensions": [
+        2200,
+        1467
+      ],
+      "bytes": 275881
+    },
+    {
+      "role": "restaurant_food",
+      "file": "food-liuyun-wu-9osoakefXmQ.jpg",
+      "photographer": "liuyun wu",
+      "source": "https://unsplash.com/photos/a-plate-of-food-on-a-table-with-a-glass-of-wine-9osoakefXmQ",
+      "license": "https://unsplash.com/license",
+      "download": "https://images.unsplash.com/photo-1689672235271-727de51355e6?auto=format&fit=max&w=2000&q=85",
+      "alt_es": "Plato de alta cocina con bogavante, cítricos y hierbas en una mesa de restaurante",
+      "note": "Real stock photograph; source categorizes as photo, published July 18 2023. Inspected pixels: premium plated food, no watermark or visible branding. Illustrative stock, not an Aeterna client project.",
+      "dimensions": [
+        2000,
+        3000
+      ],
+      "bytes": 802151
+    }
+  ]
+}

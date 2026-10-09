@@ -1,0 +1,4215 @@
+{
+  "project": "venezuela-agro",
+  "source_commit": "2733e19b3be23af60f77ada6e838f32a246c2f99",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 533,
+      "sha256": "7bdeafda721bee40e1f163357860ac8d9fca3d84c6d83dad652bb5413ddd1755"
+    },
+    {
+      "path": ".npmrc",
+      "bytes": 76,
+      "sha256": "494e64a8818b6158e89321250500ad5ad018e33ad5cfea06a1cacd2cf4da75fa"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 95,
+      "sha256": "01319e5a294a86021696cfbf5702b8e0b317a46dfb243fea2398b616379724ad"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4734,
+      "sha256": "edcc5bba146b37c8cdee73cbc597f06a98bd37918758ddc455b1e6f97567a5a1"
+    },
+    {
+      "path": "app/admin/page.tsx",
+      "bytes": 2568,
+      "sha256": "6d0216d9767d818fc1493721117121ff195b49637000ef14e96c1c68b760a926"
+    },
+    {
+      "path": "app/api/admin/route.ts",
+      "bytes": 9037,
+      "sha256": "69e1ec9e97fa873d92280315c8c3be265b99a6372a09611652bc1520bf0f7fab"
+    },
+    {
+      "path": "app/api/bootstrap/route.ts",
+      "bytes": 5100,
+      "sha256": "e3ff7e9ce2a7285ec086b863a7b39838350316cb5318ee7d505ae1a9fb1dc304"
+    },
+    {
+      "path": "app/api/community/route.ts",
+      "bytes": 1206,
+      "sha256": "743aa850b15b5586e70969730986d53ae7a95c46af0438399b933fb9fc026980"
+    },
+    {
+      "path": "app/api/farm/split/route.ts",
+      "bytes": 2104,
+      "sha256": "6d61551b51a200678fb29db93300cedc3414d1e4429f6abe02b536a03717976a"
+    },
+    {
+      "path": "app/api/marketplace/route.ts",
+      "bytes": 1595,
+      "sha256": "c86ab2428a14cb82843aeec29b9ba72d88aa6ed045fd493d65162db6dc40c7bd"
+    },
+    {
+      "path": "app/api/media/[...key]/route.ts",
+      "bytes": 2362,
+      "sha256": "bdcbbefdad4b519019d1389fec8cd30328902cd7c556b4099e3359a8fb4a8c0e"
+    },
+    {
+      "path": "app/api/offline-public/route.ts",
+      "bytes": 5088,
+      "sha256": "2d7e57c5b828a2cddc76c2d34065ff9685439573fb9932f69055e2eddd770c2e"
+    },
+    {
+      "path": "app/api/offline-session/route.ts",
+      "bytes": 321,
+      "sha256": "8cf4768aa63c3bba64e1245e2cc0b22dd838544d99b8eb02fd6c73ccda01f42e"
+    },
+    {
+      "path": "app/api/red/route.ts",
+      "bytes": 758,
+      "sha256": "f197954b8d9f4ca6fdaa07d3c7de49611596cba0db0caac13f0584019749905a"
+    },
+    {
+      "path": "app/api/security/consent/route.ts",
+      "bytes": 2653,
+      "sha256": "09ef71c69320af7f2c357f8e370ec28cf705e1648d0807423e3a95cb8dc47b59"
+    },
+    {
+      "path": "app/api/security/device/route.ts",
+      "bytes": 3172,
+      "sha256": "fee1163521ee9c9d4b547f7e8b7762de623b76471b4061c2b44f608aad710aa2"
+    },
+    {
+      "path": "app/api/security/passkey/authenticate/options/route.ts",
+      "bytes": 155,
+      "sha256": "c7f34704119c6f709e0a9a01ac2dabff8af7ebd2774fc88aea879fff05c9d5bd"
+    },
+    {
+      "path": "app/api/security/passkey/authenticate/verify/route.ts",
+      "bytes": 155,
+      "sha256": "c7f34704119c6f709e0a9a01ac2dabff8af7ebd2774fc88aea879fff05c9d5bd"
+    },
+    {
+      "path": "app/api/security/passkey/register/options/route.ts",
+      "bytes": 155,
+      "sha256": "c7f34704119c6f709e0a9a01ac2dabff8af7ebd2774fc88aea879fff05c9d5bd"
+    },
+    {
+      "path": "app/api/security/passkey/register/verify/route.ts",
+      "bytes": 155,
+      "sha256": "c7f34704119c6f709e0a9a01ac2dabff8af7ebd2774fc88aea879fff05c9d5bd"
+    },
+    {
+      "path": "app/api/security/status/route.ts",
+      "bytes": 2050,
+      "sha256": "a2d00d44b05b3872db34eb1b04cb4e4fbb30b062e167134f6ece2a69f759a1b3"
+    },
+    {
+      "path": "app/api/sync/route.ts",
+      "bytes": 17458,
+      "sha256": "1a2adf677cf6832415aff02962648c8893a657bbcc23695df98d4ed79efc1054"
+    },
+    {
+      "path": "app/app-local/page.tsx",
+      "bytes": 484,
+      "sha256": "b36fd55b8a3b0c061df83dc1a749364a3634d00a0b2c438fb1a2d195ae302cf7"
+    },
+    {
+      "path": "app/app/page.tsx",
+      "bytes": 807,
+      "sha256": "a39ab07d86b67af78c2e356285e67030da2b27bd1ed8fb81afa2981bf73b236d"
+    },
+    {
+      "path": "app/aprende/[slug]/page.tsx",
+      "bytes": 8062,
+      "sha256": "8e23fe5ee2bf8db1825bb9a988a02fcc3fe714fdc95bb2dee20b2354b14e7169"
+    },
+    {
+      "path": "app/aprende/page.tsx",
+      "bytes": 6093,
+      "sha256": "be85e03706ec6d301ad4a3d989e2a7c21942c74d0e2e5430d545ccd535798840"
+    },
+    {
+      "path": "app/biblioteca-local/page.tsx",
+      "bytes": 364,
+      "sha256": "098796b96c274afc0a2366de0fd4db2a14136154bc4e5120bc9d9e60e7ef6197"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "bytes": 2534,
+      "sha256": "8ce4e64c61d30b882d143e9bf12138deffb3708a0a1ccc994b0f5e5eb06361bf"
+    },
+    {
+      "path": "app/creditos-fotograficos/page.tsx",
+      "bytes": 5404,
+      "sha256": "69d8faa3e449334e7ffc7d4c900dd9fe8e0796ed3d19ac1dad964a13ea8a4934"
+    },
+    {
+      "path": "app/finca-demo/page.tsx",
+      "bytes": 277,
+      "sha256": "b895ceef76e3dd2ffd41f8ea33b2ad312f4e0341123a4e8622e088c857e3ee96"
+    },
+    {
+      "path": "app/fincas/[id]/page.tsx",
+      "bytes": 4542,
+      "sha256": "5e59024d4cf7155ba04d248b7b4bc44da3ceb281284fa73a2ee0b7a600b38fd5"
+    },
+    {
+      "path": "app/fincas/page.tsx",
+      "bytes": 1916,
+      "sha256": "4ab3bb7180e52885be932937f27af465d11d81a1cde96aafb03aca289b668f07"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 23959,
+      "sha256": "25e11367ef1cd237a3da786452e184def4e64d3146af8a0044e2c1973bb6d7f9"
+    },
+    {
+      "path": "app/guia-institucional/page.tsx",
+      "bytes": 8892,
+      "sha256": "cedcf71057fb2d2fa74a55ed75436aaa5f371dec2dce25c5dfbfd45d53220b56"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 2845,
+      "sha256": "266d5914bfe02e14998ab187719f1b7b5967c70e6fadc8cb58587f20e8718a98"
+    },
+    {
+      "path": "app/legal/comercio/page.tsx",
+      "bytes": 3981,
+      "sha256": "e4f0e1972c9f804b232a5fd5984327e90cf3e9aaf2215a96c27d968390af97bd"
+    },
+    {
+      "path": "app/legal/privacidad/page.tsx",
+      "bytes": 7678,
+      "sha256": "9d3e54ad46b768029bd958dfad764ce11730429a28e51d4e66c75a89417230c4"
+    },
+    {
+      "path": "app/legal/terminos/page.tsx",
+      "bytes": 4816,
+      "sha256": "ece8c611cac5fd11abcbd339e9c153c1e8734e491fa3b492a109610f39355159"
+    },
+    {
+      "path": "app/marketplace/[id]/page.tsx",
+      "bytes": 6178,
+      "sha256": "94f0ca0636956a086d08f59cd53657a52e26368c09961c07f0b5b617b32e995d"
+    },
+    {
+      "path": "app/marketplace/page.tsx",
+      "bytes": 1777,
+      "sha256": "364be086d1fef7ce1cc84e87567003445259e840576c1c8a17e9b5fcf06d996f"
+    },
+    {
+      "path": "app/marketplace/publicar/page.tsx",
+      "bytes": 2559,
+      "sha256": "5260d90e883159fd0c5de514ecc6dc70f975451597d636a8cd08ec691d788089"
+    },
+    {
+      "path": "app/nosotros/page.tsx",
+      "bytes": 6766,
+      "sha256": "6b09b75af167e9976b8481cf48bd20824e92408e690a62d9fd8c76868b54c7df"
+    },
+    {
+      "path": "app/offline/page.tsx",
+      "bytes": 1595,
+      "sha256": "c5439e48296f3b262bcd59f7f4e2a2bf8ff84663b9af677eb6d4eafca11058c4"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 27211,
+      "sha256": "5a50fdcda44b3623a4fbd859910cd26133fe18868ab341f1768b7a919d6611f8"
+    },
+    {
+      "path": "app/plataforma/page.tsx",
+      "bytes": 8687,
+      "sha256": "885d866c7db34cc905bb3bb45b2755d3f26fcb7c13dc881eaea1412458b8df23"
+    },
+    {
+      "path": "app/profesionales/[id]/page.tsx",
+      "bytes": 2616,
+      "sha256": "a0ee7b18488d51aad4e41a56da2d16378fa1189d7aa4111dea4ec1949245300a"
+    },
+    {
+      "path": "app/profesionales/page.tsx",
+      "bytes": 3934,
+      "sha256": "0774c369db7519590994e1894daa658f3354f73bb99b0325173eee9c95804b70"
+    },
+    {
+      "path": "app/proyectos/page.tsx",
+      "bytes": 7187,
+      "sha256": "de441d530021349863a53e8947cc50b659eff61f40c2a35eb13a877f23be387c"
+    },
+    {
+      "path": "app/red/[id]/page.tsx",
+      "bytes": 1788,
+      "sha256": "f62ef83996971b67b88c5abc8b046c8a40c2d158042a157ffb2dffcb0d00746b"
+    },
+    {
+      "path": "app/red/page.tsx",
+      "bytes": 1874,
+      "sha256": "56578afec168b56558d3353b50c5e7cec30639ea4b77a339fff929d257824dfd"
+    },
+    {
+      "path": "app/robots.ts",
+      "bytes": 417,
+      "sha256": "9738a1a4b37b08b6c390afe1e57699f944b62815dc6cb6a566e0d697c8b529d0"
+    },
+    {
+      "path": "app/rubros/page.tsx",
+      "bytes": 3029,
+      "sha256": "00ad9f5a27cc8c70da70d7ea1daa60e6bdc9ae292540178ed9a031291b4a9e55"
+    },
+    {
+      "path": "app/sitemap.ts",
+      "bytes": 3722,
+      "sha256": "7dc31e9e29c6987c88dec0df777097b86d7ffa17e89959a42a31bdb03f2d79af"
+    },
+    {
+      "path": "app/stickers/page.tsx",
+      "bytes": 1124,
+      "sha256": "ce2cd3002453d7bb009dd8e7b96f8f8c8469a0caec83b1eac40403dc6c12d866"
+    },
+    {
+      "path": "app/tienda/page.tsx",
+      "bytes": 2789,
+      "sha256": "170f0340ec0660d6b9f24dc0c87fb6bd69e0b521635b6647ed2efc67b48106a7"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "bytes": 1254,
+      "sha256": "81b7cbfaeb970611572256aba0e313425beb3809f6426f63750696c15d9c756b"
+    },
+    {
+      "path": "components.json",
+      "bytes": 420,
+      "sha256": "31f4ca67a4a62572571003d3d5aac85ee6fbfca67a192924bac6b168d95e98fd"
+    },
+    {
+      "path": "components/accessibility-menu.tsx",
+      "bytes": 2345,
+      "sha256": "ff447a27605fb07041cee85363d7b7a7d5a7dc864942e894653eb7b0c0fe4963"
+    },
+    {
+      "path": "components/account-services.tsx",
+      "bytes": 553,
+      "sha256": "0f7e56ca2f7f134ce2850a8122ef0da4af38c9748acf664ad5e76a6005738bb5"
+    },
+    {
+      "path": "components/admin-dashboard.tsx",
+      "bytes": 17061,
+      "sha256": "9e2a7955185d8ad5d1e8fc1299e8bd4fc555f54983ab467b1240deac584b0d73"
+    },
+    {
+      "path": "components/agro-analytics-consent.tsx",
+      "bytes": 5576,
+      "sha256": "97fe80444d79b2f6b689fcb63def5405cf9ec6256f56ad114dcc5c38a8c2e5d6"
+    },
+    {
+      "path": "components/agro-category-icon.tsx",
+      "bytes": 3069,
+      "sha256": "fb96f633714982dcb395b157f2325bbb1e6eafd60330092507ba8e407841051b"
+    },
+    {
+      "path": "components/agro-network.tsx",
+      "bytes": 23157,
+      "sha256": "942e0a08e92034b851d941e3f93d477c9e8622bb9927ba1ce8001b615886aff9"
+    },
+    {
+      "path": "components/article-sources.tsx",
+      "bytes": 1179,
+      "sha256": "ba202557d90e7f7038d282573f8fd581ee391c6854ea863876fb0753e595db7d"
+    },
+    {
+      "path": "components/backup-import-control.tsx",
+      "bytes": 3269,
+      "sha256": "49e9675215e07a5a1b696e41a3a97f82a1244b580b97a23d4116aff08d442b24"
+    },
+    {
+      "path": "components/brand-icons.tsx",
+      "bytes": 2236,
+      "sha256": "59729c2de1abaddd230e3b8b6fd80b6f9a716146d5678edf210a4a58275f11d0"
+    },
+    {
+      "path": "components/community-forms.tsx",
+      "bytes": 24128,
+      "sha256": "55edc0cd38800400b836a9475ca2d9d9f3e3b8f0b17cf5e01be686970534f839"
+    },
+    {
+      "path": "components/connectivity-pill.tsx",
+      "bytes": 895,
+      "sha256": "78993df92e10fd26342b3c1553be4450904643b0fa5521f53922fdcfa1110f38"
+    },
+    {
+      "path": "components/demo-geographic-map.tsx",
+      "bytes": 1405,
+      "sha256": "9c93c9e160484f1144d7193db01b0f5f1050016ba3884fe1a3e787f5650ef8c7"
+    },
+    {
+      "path": "components/device-install-action.tsx",
+      "bytes": 1353,
+      "sha256": "85f56b416f7d129137ef46226a73bf879b1738c417f05c8c637d8f36fcd9afe9"
+    },
+    {
+      "path": "components/farm-area-illustration.tsx",
+      "bytes": 6768,
+      "sha256": "50e1128fa4a78335ae01b22cc7277c6d5c87d9ac4987f4a4f6450e7a0e768303"
+    },
+    {
+      "path": "components/farm-area-records.tsx",
+      "bytes": 5591,
+      "sha256": "374f8c089da30177acbd090f0e11012ccf297538358a15d20f7d42e8135388cf"
+    },
+    {
+      "path": "components/farm-dashboard.tsx",
+      "bytes": 96889,
+      "sha256": "fc2b6ba26659db3e6537cf964bbfe8907e070f9ee6c3ebfcfd395106fe5b7c33"
+    },
+    {
+      "path": "components/farm-demo-workspace.tsx",
+      "bytes": 33669,
+      "sha256": "510d13a8ab1acdb86e27d7eac87ff1b0278293d2cd423f2a33b647f47c6d3032"
+    },
+    {
+      "path": "components/farm-first-start.tsx",
+      "bytes": 1209,
+      "sha256": "7215d89ed839cae2621fa4640aab16cea65037c00901242a2e7abc35307997a8"
+    },
+    {
+      "path": "components/farm-illustrated-scene.tsx",
+      "bytes": 18519,
+      "sha256": "e287d7296792405849b0099f8f2465117fa46880ba38af034aca02be66229920"
+    },
+    {
+      "path": "components/farm-intelligence.tsx",
+      "bytes": 17313,
+      "sha256": "117f6a742111409f8ecd000c9960efe69195eeda3c3e315df174c187ff18f330"
+    },
+    {
+      "path": "components/farm-location-fields.tsx",
+      "bytes": 3375,
+      "sha256": "d5b495356981760b9793183d034d7a8954f816bb85b8fedf7e0b453d753c7a68"
+    },
+    {
+      "path": "components/farm-map-editor.tsx",
+      "bytes": 56416,
+      "sha256": "e1cbb8265807ec251d1b51aab305b680a0a844be607817831b0a5c9839d028e3"
+    },
+    {
+      "path": "components/farm-plan-fields.tsx",
+      "bytes": 26984,
+      "sha256": "1b74adf3a504932bd7f7356fbf951b1fbe52d67d93849ca1d277d076242ea10f"
+    },
+    {
+      "path": "components/farm-record-form.tsx",
+      "bytes": 2164,
+      "sha256": "659f64235f4e05de870c011191b14c2dbf9561c6b2d53a6e86f5fef467c68193"
+    },
+    {
+      "path": "components/idea-invitation.tsx",
+      "bytes": 22622,
+      "sha256": "8f08d7572f0b39f166e054b17e27cc14a3599997fdd320cee280105625df3ce5"
+    },
+    {
+      "path": "components/install-app-banner.tsx",
+      "bytes": 14958,
+      "sha256": "6b2a0329155e7761ca3e0bd347bf9b84cc26a89a7fb497872dc21663b0f60ab0"
+    },
+    {
+      "path": "components/learning-form-preview.tsx",
+      "bytes": 1224,
+      "sha256": "0c1a1e6215adf8093f76d152b9e2dc6dcad500c98b7e4642c0f60514144c1a07"
+    },
+    {
+      "path": "components/legal-page.tsx",
+      "bytes": 2979,
+      "sha256": "3b82797fb21e45c0c2a23b555b9f8b001d9189a4896161a77bb4229a46d180e8"
+    },
+    {
+      "path": "components/listing-contact-card.tsx",
+      "bytes": 3668,
+      "sha256": "6380b1b93927a7c3357f7c005c6e93d6d152aa639791b129cac31c51e3551f4b"
+    },
+    {
+      "path": "components/listing-form.tsx",
+      "bytes": 18667,
+      "sha256": "3e2165306b6ecb9de499eb764f3879b9bf4f7e797929d63d8dcbde98e677e398"
+    },
+    {
+      "path": "components/listing-photo-repair.tsx",
+      "bytes": 3039,
+      "sha256": "25c0dde73ffbe3aa0cc609ade967931755ee5482765063c4a0b8692d8395134a"
+    },
+    {
+      "path": "components/map-pack-download.tsx",
+      "bytes": 5605,
+      "sha256": "de457b16467e9e3d8368d18ab66a75f18c22a8562edf3a573c9d1c07c091378f"
+    },
+    {
+      "path": "components/marketplace-browser.tsx",
+      "bytes": 14470,
+      "sha256": "7018ee8cc985fd704a5ec523ca1dc340e2ddd429016b0acf99551b86fa640a2e"
+    },
+    {
+      "path": "components/marketplace-photo.tsx",
+      "bytes": 1432,
+      "sha256": "48432f1db73c10b5f8001bfec7e26060ed911b43d301a7a1ab0d5ccb1d1942df"
+    },
+    {
+      "path": "components/morochito-companion.tsx",
+      "bytes": 1382,
+      "sha256": "4ce2cf290bbc1ce3bf88c44e5212ed5d2ef597ca61e1b7f0e99da418645170d5"
+    },
+    {
+      "path": "components/offline-library.tsx",
+      "bytes": 14613,
+      "sha256": "485824fbeb9bb00d5a6ec04144097854ac85ea7af9b3319181a905e1d9feee5b"
+    },
+    {
+      "path": "components/offline-navigation.tsx",
+      "bytes": 997,
+      "sha256": "8ca4355dee0a799a86f07c5517bfa8f5e0a983b1a803c7d4933c3b31e4dcb787"
+    },
+    {
+      "path": "components/offline-public-drafts.tsx",
+      "bytes": 3431,
+      "sha256": "83e7adebaaa5971ae76106c19a44e228fcbee70d8c40dbef494ef4d59b68fb61"
+    },
+    {
+      "path": "components/offline-readiness.tsx",
+      "bytes": 8703,
+      "sha256": "1c6009c27240508adb192a18dca4c9cefde186caf44adab49fc4a4865e87fd4f"
+    },
+    {
+      "path": "components/offline-sync-manager.tsx",
+      "bytes": 1184,
+      "sha256": "a8360ac6b4d4e2b4063acd7c1189e0e2f2f8e7b5f615f31ba265f1fedd432269"
+    },
+    {
+      "path": "components/offline-workspace-gate.tsx",
+      "bytes": 1704,
+      "sha256": "bf9fca0611dcd8496cb82c4473934de6cff80f66efebba43f59087eb0c849d13"
+    },
+    {
+      "path": "components/photo-credit.tsx",
+      "bytes": 541,
+      "sha256": "31b0dfdc1734de9f419fdec0576f6571ce055bea5dd66c6584b44eadd8fbf130"
+    },
+    {
+      "path": "components/polygon-sketch-editor.tsx",
+      "bytes": 21998,
+      "sha256": "f9259e1ed6e14463202075d6b008ee5adfcce1ed5a5f611eddd143d90ac9138c"
+    },
+    {
+      "path": "components/private-farm-locator.tsx",
+      "bytes": 24968,
+      "sha256": "b7329dc0c02ee908191ab63fbb1fc1105bb1e907756409ea9188fb8eb95e3593"
+    },
+    {
+      "path": "components/professional-directory.tsx",
+      "bytes": 5897,
+      "sha256": "c04d9b61728c9740434cff09cf804fed30dfbb05ccf2f4f6435c102ec42c3a66"
+    },
+    {
+      "path": "components/professional-manager.tsx",
+      "bytes": 3122,
+      "sha256": "100edd5fe3f45f9daf08c220a8f1593ee9af4b26977bec1638265f47db03efa9"
+    },
+    {
+      "path": "components/professional-profile-view.tsx",
+      "bytes": 6935,
+      "sha256": "c7222c2882ec2eec5e4c4d9a093ea728f1370a7abdcc989366a8bfa0c3147600"
+    },
+    {
+      "path": "components/profile-socials.tsx",
+      "bytes": 967,
+      "sha256": "23b4e6fc772a2ed727ff0db06443b1a4fad0fa212e25a4f49fdb748fcafbe869"
+    },
+    {
+      "path": "components/project-example.tsx",
+      "bytes": 2690,
+      "sha256": "06112d0ce8a0d98dd52dde023448cd9241b4debad947511fe07c02b492617d75"
+    },
+    {
+      "path": "components/public-farm-examples.tsx",
+      "bytes": 3548,
+      "sha256": "5b60fbeb207780fcd2a7035f529e1a0cfef1e011e3c6909e6c76befa2a6e0daa"
+    },
+    {
+      "path": "components/public-footer.tsx",
+      "bytes": 4298,
+      "sha256": "1ae52cefcd311d56fdd0e404b120e8f399b1eba184c2b44d4b2b7d5667025dd2"
+    },
+    {
+      "path": "components/satellite-download.tsx",
+      "bytes": 6756,
+      "sha256": "33794834873f5d7988677ce32bb8bb0f166c9b50f08b0b3fe13262624704aa3a"
+    },
+    {
+      "path": "components/satellite-zone-download.tsx",
+      "bytes": 9467,
+      "sha256": "ebdda51d8bee0caa5051be47d60c183c9d4d13d6269132d03d10f50a1dc4daaa"
+    },
+    {
+      "path": "components/security-center.tsx",
+      "bytes": 12218,
+      "sha256": "f1a7009ba3e0d970d6af5740ee1b56efc6575d5a81d53d3712c21b1566ccc3f9"
+    },
+    {
+      "path": "components/site-header.tsx",
+      "bytes": 4230,
+      "sha256": "e3025481d15a90062e561c4843a1db623a3c01e02c67de22e389bf3dda34cb12"
+    },
+    {
+      "path": "components/site-image.tsx",
+      "bytes": 254,
+      "sha256": "1bf1e6eb694257ba621aca5d6717ab0d0049d93894636e924080114ab675b269"
+    },
+    {
+      "path": "components/social-links.module.css",
+      "bytes": 3300,
+      "sha256": "c2a51949b58aedfc3a0b49216e2a98ddd9396c3c449147c757f7c485981f03da"
+    },
+    {
+      "path": "components/social-links.tsx",
+      "bytes": 7400,
+      "sha256": "174c800f3b7780bebeb2dddda68d03b41712772cbdb2b3d86e299d6904dad685"
+    },
+    {
+      "path": "components/sticker-gallery.tsx",
+      "bytes": 11566,
+      "sha256": "5eaca2d0da76acbe949a2de805f14b7ef3cc31d62d629a29b74479e9d22e40ba"
+    },
+    {
+      "path": "components/store-catalog.tsx",
+      "bytes": 17575,
+      "sha256": "fe00faa0eadeb160437044d56e6408e8534e94748b595336c872e4394c5343ce"
+    },
+    {
+      "path": "components/sync-issues.tsx",
+      "bytes": 4098,
+      "sha256": "34070ed3b217d9c59363ac326b5e21c86873624364593cb70219a675b376858c"
+    },
+    {
+      "path": "components/technical-data-table.tsx",
+      "bytes": 1749,
+      "sha256": "6e9711a797969ea7e8083cdf4fa61539267fa3709553c9299dfa2d4f90178fb7"
+    },
+    {
+      "path": "components/ui/accordion.tsx",
+      "bytes": 2048,
+      "sha256": "a4f153089ba886dfcf73fac26b5c01ca933fa12fbe88df6fb723912bfffdfbb0"
+    },
+    {
+      "path": "components/ui/alert-dialog.tsx",
+      "bytes": 5439,
+      "sha256": "9a8d950f2b9b4352d5ebb762fb44d5c28c2d353aa29712071973656a8736e311"
+    },
+    {
+      "path": "components/ui/alert.tsx",
+      "bytes": 1614,
+      "sha256": "2cc59b5f7bda91c1670884b1bf46bfc8a2a6f226cef184f5762acc037188885b"
+    },
+    {
+      "path": "components/ui/aspect-ratio.tsx",
+      "bytes": 274,
+      "sha256": "b1c157886236782cb92d8fbcd4749532aaf6d8aabefd6e157ca40358f902f407"
+    },
+    {
+      "path": "components/ui/attachment.tsx",
+      "bytes": 6002,
+      "sha256": "ae8a25dd1a896d3964e3ef54d97e51221b418cde287dfd794428b89951c5c790"
+    },
+    {
+      "path": "components/ui/avatar.tsx",
+      "bytes": 2916,
+      "sha256": "58a846bf1617b94b9681921db9b8461d0145f311424663d11678a06b6153cb34"
+    },
+    {
+      "path": "components/ui/badge.tsx",
+      "bytes": 1776,
+      "sha256": "46a0de5224f6a5d5d63d45246534288518dce888f031064bff925bbc7fe6ad97"
+    },
+    {
+      "path": "components/ui/breadcrumb.tsx",
+      "bytes": 2350,
+      "sha256": "d4c0831bba2212e778248f54a6ace6ef378df8bba4616d1abf27787a31eabae5"
+    },
+    {
+      "path": "components/ui/bubble.tsx",
+      "bytes": 4699,
+      "sha256": "870cc0c5cfc8a515053f7e41e706a6bd017a909b45f1305fd3b164a52cc4483b"
+    },
+    {
+      "path": "components/ui/button-group.tsx",
+      "bytes": 2202,
+      "sha256": "784c89d8ee683e1bc972ae69e6ea8225a7f63abe22aa1b5fc3423ae8a2a399c0"
+    },
+    {
+      "path": "components/ui/button.tsx",
+      "bytes": 2392,
+      "sha256": "cc36af0f8b5019c33cc039fbf03bb952a513072b15b55b53c592b78af3e5f4c4"
+    },
+    {
+      "path": "components/ui/calendar.tsx",
+      "bytes": 7832,
+      "sha256": "3855fbe0d3f8ad3a4b93071f98b76a9f6782d46ec8b05f5d2ddbee1e4e39bc84"
+    },
+    {
+      "path": "components/ui/card.tsx",
+      "bytes": 1987,
+      "sha256": "c48dd3b96be90a7066f1aebf294f0af9d00ebcdc367d5d4aca55429ade570c1c"
+    },
+    {
+      "path": "components/ui/carousel.tsx",
+      "bytes": 5556,
+      "sha256": "b7ea0dda3903d972c186f739e23da61f547bc83b5a0bf13b16856577846d5fc3"
+    },
+    {
+      "path": "components/ui/chart.tsx",
+      "bytes": 10614,
+      "sha256": "45aa5ea4a386f4fb5b8869ff4bab3a08cf89255190ee322043baf84c3e950b6a"
+    },
+    {
+      "path": "components/ui/checkbox.tsx",
+      "bytes": 1214,
+      "sha256": "b23ab9d4deeedf2ac8f512c368361ede681aa383437ef48563a6f9b7dbe95f27"
+    },
+    {
+      "path": "components/ui/collapsible.tsx",
+      "bytes": 795,
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b"
+    },
+    {
+      "path": "components/ui/combobox.tsx",
+      "bytes": 9158,
+      "sha256": "2d68e78b2dc7e38a085f222dede60a80b4f8229a6e91732c484605e204d46735"
+    },
+    {
+      "path": "components/ui/command.tsx",
+      "bytes": 4818,
+      "sha256": "361193df1e3d64a9e9b5048f045264782fcb387aab3f00f2b805fdcbf538b16a"
+    },
+    {
+      "path": "components/ui/context-menu.tsx",
+      "bytes": 8268,
+      "sha256": "2cf1fcf59df0649a3e2a126d1df2f639145f6b6bf5689ee54af1f40ab1245017"
+    },
+    {
+      "path": "components/ui/dialog.tsx",
+      "bytes": 5803,
+      "sha256": "9498ab9028fb3564734a8856bed8d0848f375cfcb000b004dc6a142b234615d2"
+    },
+    {
+      "path": "components/ui/direction.tsx",
+      "bytes": 506,
+      "sha256": "84ae2ad658207f0e0f367978e5508cd8027cd00c29c41d3d13db21a708c3d1e6"
+    },
+    {
+      "path": "components/ui/drawer.tsx",
+      "bytes": 4255,
+      "sha256": "cb6eaf58eb0757ca91af284e5d925b89a42ad7eb19cb3f44c575a3487aa9350f"
+    },
+    {
+      "path": "components/ui/dropdown-menu.tsx",
+      "bytes": 8418,
+      "sha256": "98f0dcdae38225b73734aceeb9213dd751fea2c72ea520df31003cd133deac8a"
+    },
+    {
+      "path": "components/ui/empty.tsx",
+      "bytes": 2396,
+      "sha256": "ae95bdcf367a076ae02e7925f14522a148798f72d9651749c6d55497dba584c0"
+    },
+    {
+      "path": "components/ui/field.tsx",
+      "bytes": 6159,
+      "sha256": "ba67d76f017ac059fc86cf8c344e0b2991c4322d3619e125498c19b87f6eefbd"
+    },
+    {
+      "path": "components/ui/form.tsx",
+      "bytes": 3757,
+      "sha256": "315b46bb75ab7d1c6061b5d750aa4bedf6e7a455e15e2d7f9182f053d5972b1e"
+    },
+    {
+      "path": "components/ui/hover-card.tsx",
+      "bytes": 1526,
+      "sha256": "f5d8df42c59370ec14d61bcc54f7d68e9bb7dfa0d6a872b2f7cffc2aafbf23b8"
+    },
+    {
+      "path": "components/ui/input-group.tsx",
+      "bytes": 5065,
+      "sha256": "6afbd58fea4c438e6252dc4568bddc122e84ababead4ad5cee50ace01100c9a0"
+    },
+    {
+      "path": "components/ui/input-otp.tsx",
+      "bytes": 2254,
+      "sha256": "161946daa89f0eda2575b9271c0494e35807c4ffb55598a49f67160c17fec299"
+    },
+    {
+      "path": "components/ui/input.tsx",
+      "bytes": 962,
+      "sha256": "8c4612a7c41319ac5049daa3b34b080f9784b6245c17780eb87c127e58e473db"
+    },
+    {
+      "path": "components/ui/item.tsx",
+      "bytes": 4486,
+      "sha256": "6e2144d6d87142dbbe56d568810bf546318c8aa661447ebb0d76ebbf382cb45f"
+    },
+    {
+      "path": "components/ui/kbd.tsx",
+      "bytes": 862,
+      "sha256": "6088c3a5432338b1719c17e9b5d0e1fa74fd1f66060f248fc88909d33a82cd13"
+    },
+    {
+      "path": "components/ui/label.tsx",
+      "bytes": 606,
+      "sha256": "a476e41f08b9de5bd447de66a33d8bc2ad18f2fa6b96c064778bab4b6f439f4c"
+    },
+    {
+      "path": "components/ui/marker.tsx",
+      "bytes": 1864,
+      "sha256": "3d798763f094b2bb5e7ade2d5cd1b9bab498bc8ca7fd4cfaf4e5835bdedc34a0"
+    },
+    {
+      "path": "components/ui/menubar.tsx",
+      "bytes": 8389,
+      "sha256": "9243af8afcea03703398ccd1c2a8c0a87ad6cbaf2bd272fb609f5b79fe46aebb"
+    },
+    {
+      "path": "components/ui/message-scroller.tsx",
+      "bytes": 3992,
+      "sha256": "bb7660a248e4e9589c3816c7c1c199ea1381a70d2c8476ae895b567a7a4d86cf"
+    },
+    {
+      "path": "components/ui/message.tsx",
+      "bytes": 2232,
+      "sha256": "9d2952bf3b641081f09aa2739535e6bbd1be0a4946789752a2c20d8aaef43185"
+    },
+    {
+      "path": "components/ui/native-select.tsx",
+      "bytes": 1995,
+      "sha256": "007516b111fca8c98a6c40c94ab91bb68cc5b52afce1ed1f5e510c3d86e7347c"
+    },
+    {
+      "path": "components/ui/navigation-menu.tsx",
+      "bytes": 6658,
+      "sha256": "889d358a77de88e9cb6f39ea4895ea4c76eaf01d731b74e44f1c41e97a78a044"
+    },
+    {
+      "path": "components/ui/pagination.tsx",
+      "bytes": 2717,
+      "sha256": "374ad135c3d4ff3ec080a0009cd9745cdd0e12faa89d2b0e86074f11e5127fd1"
+    },
+    {
+      "path": "components/ui/popover.tsx",
+      "bytes": 2357,
+      "sha256": "31c350309ff5d3034e6ecf1b0eda75ba8855bdbf987fc7ad6d71f0ef07c5a447"
+    },
+    {
+      "path": "components/ui/progress.tsx",
+      "bytes": 755,
+      "sha256": "c8c26e8f5f041c3cdf4915347dc1d9c022f9448f149990fadcaf303e952fa57d"
+    },
+    {
+      "path": "components/ui/radio-group.tsx",
+      "bytes": 1460,
+      "sha256": "fe5ce39636d0818c2bf9c4eebddff893d1225fa2c81b5fa4bb8cbb39a8c913ce"
+    },
+    {
+      "path": "components/ui/resizable.tsx",
+      "bytes": 1815,
+      "sha256": "bc63958467aa00557c551bb0d96a5ae4c965c1e1ba2380e595949d933b132f7c"
+    },
+    {
+      "path": "components/ui/scroll-area.tsx",
+      "bytes": 1639,
+      "sha256": "8bd9d986b2844c9a87de825c6de4787b6739b36c3dc9a05ccf3eb107160e4043"
+    },
+    {
+      "path": "components/ui/select.tsx",
+      "bytes": 6353,
+      "sha256": "0b796a108a4eb5ba52d9ad938b7aea36dc56ae66c703a6d0a23dbc24f96daff3"
+    },
+    {
+      "path": "components/ui/separator.tsx",
+      "bytes": 694,
+      "sha256": "6da346505c8629a4668420d2a5ca48891383bbe0b0ceb14163537c671879427e"
+    },
+    {
+      "path": "components/ui/sheet.tsx",
+      "bytes": 5781,
+      "sha256": "a9713fbac4248b59eecde78bb9802afca6bdc1f429169be80d99b73fb380ff16"
+    },
+    {
+      "path": "components/ui/sidebar.tsx",
+      "bytes": 21526,
+      "sha256": "4a8d73e7730a2b1fcecfca31299ed26db65c2307b84197a59c6ec7c01c7ad28e"
+    },
+    {
+      "path": "components/ui/skeleton.tsx",
+      "bytes": 276,
+      "sha256": "ba48dd5be5a6a1378bd4e011028654b5bf419f1e7d20ee4b9f8330c1264e7239"
+    },
+    {
+      "path": "components/ui/slider.tsx",
+      "bytes": 1991,
+      "sha256": "0e37484f4b416e79ac18c655cac961aefacf6e67085cfc2b320ea8af545635a3"
+    },
+    {
+      "path": "components/ui/sonner.tsx",
+      "bytes": 1034,
+      "sha256": "13ccc9b0fe4248e622f83a1d3b2f0566b72b5e04162d7d0c8db8945ecc71b55f"
+    },
+    {
+      "path": "components/ui/spinner.tsx",
+      "bytes": 331,
+      "sha256": "3e6e6e8d37fb4069f8e43e55318f8db06fbc36e6c8be0096da3c9337c1c798b9"
+    },
+    {
+      "path": "components/ui/switch.tsx",
+      "bytes": 1408,
+      "sha256": "386d4d4deb39f34126f9700fe9bf5393d238485dd94018bba9d154dda84c62ae"
+    },
+    {
+      "path": "components/ui/table.tsx",
+      "bytes": 2478,
+      "sha256": "20e5a7f224959c6b75802995706a97e9da171f693d4b6b1b436388fcd9df96f3"
+    },
+    {
+      "path": "components/ui/tabs.tsx",
+      "bytes": 3782,
+      "sha256": "865d0194331b9b2be36723fa79d3575dc83078b4cb941cafee87cb72fc2cff46"
+    },
+    {
+      "path": "components/ui/textarea.tsx",
+      "bytes": 759,
+      "sha256": "253cdeb487c73beaaccdf47fc163e36e7d5b7ae6ddf09a4f64998a109a112979"
+    },
+    {
+      "path": "components/ui/toggle-group.tsx",
+      "bytes": 2308,
+      "sha256": "69f643e889e933f05c1439084480d8646f66a161c7d1cf0730ee926382ade35e"
+    },
+    {
+      "path": "components/ui/toggle.tsx",
+      "bytes": 1565,
+      "sha256": "ba4d0b0a2b2fee75dc36dfc19e32082e721024b919050c97fd5dc70faa924e16"
+    },
+    {
+      "path": "components/ui/tooltip.tsx",
+      "bytes": 1830,
+      "sha256": "a0784eb77831a799fad7991df4f1b666f876201565a80175e1aa68733574a2e4"
+    },
+    {
+      "path": "components/venezuela-state-map.tsx",
+      "bytes": 9389,
+      "sha256": "006435b410980a73a3709d93406d4377d89b036073db25092b7ab211ac91f8f7"
+    },
+    {
+      "path": "components/venezuelaagro-logo.tsx",
+      "bytes": 1174,
+      "sha256": "20ec4d092ff0377f2c98f3a67ba2dc765e3538d1bb64c7ab9cc3bb516d1992a3"
+    },
+    {
+      "path": "db/index.ts",
+      "bytes": 441,
+      "sha256": "6d2b1bd2e01b0ba2c9346dcf8a84408fd410f3e91161f5d4c383c0e76e9f3e4b"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 13444,
+      "sha256": "f6ded873118f381cce13c05a98396fd13e930d35f5e31ee24d45de276f0c4d3f"
+    },
+    {
+      "path": "docs/AERIAL-PLAN-2026-10-08.md",
+      "bytes": 2816,
+      "sha256": "35c5f79e328a92d4d48aa8d1c2e53a6d3bc7a9bbb71b72d835bf74e24a80bcb4"
+    },
+    {
+      "path": "docs/ANALYTICS-CONSENT-2026-10-07.md",
+      "bytes": 11632,
+      "sha256": "3b658722ae4c8b478d81c04140c4da876b07ce6d9be00b0a0bb3bca1a69cb18f"
+    },
+    {
+      "path": "docs/APRENDE-TERRENO-AGUA-2026-10-07.md",
+      "bytes": 1481,
+      "sha256": "b973200938e90bad7277beedf88a3a9fdf379da32e082302456b4ad83190ca79"
+    },
+    {
+      "path": "docs/AREA-CONTEXT-2026-10-08.md",
+      "bytes": 1862,
+      "sha256": "10a9f5d5b5b3a327d361c85c39f69d8c7c07134982d8e56290d149b774331bdf"
+    },
+    {
+      "path": "docs/AUDITORIA-FUNCIONAL-2026-10-07.md",
+      "bytes": 32371,
+      "sha256": "59a14f74080e1faa02dfc791d87e5f6856f525649cd8b30c6eb0210853451c8a"
+    },
+    {
+      "path": "docs/BIBLIOTECA-OFFLINE-2026-10-07.md",
+      "bytes": 5053,
+      "sha256": "41f93753b74622552461fb8f3d8381d6410bc0f7e2ba1ceedbdafcb95e600dfd"
+    },
+    {
+      "path": "docs/CARTOGRAPHIC-PILOT-2026-10-08.md",
+      "bytes": 2212,
+      "sha256": "1ae50ba1657d90253e3d68c3f3744b6ff8043d9995aaefddcf44f82874e2f678"
+    },
+    {
+      "path": "docs/COBERTURA-EJEMPLOS.md",
+      "bytes": 2547,
+      "sha256": "1121a9c2c3635ccbf3cb7ad3646f976c7e389894c8547aa4dcb1b4f6cde2fc84"
+    },
+    {
+      "path": "docs/CORRECCION-INVITACION-MOVIL-2026-10-07.md",
+      "bytes": 1950,
+      "sha256": "1447738af0d2f86453183129cef15c7ec9287d2050cf9db8dff5fb588ed13bc1"
+    },
+    {
+      "path": "docs/DIVISION-ATOMICA-DE-AREAS.md",
+      "bytes": 2154,
+      "sha256": "105d53632c9d1fa2aa1724df54bd2410f623f9688071c5917151708befa05164"
+    },
+    {
+      "path": "docs/EDITABLE-DEMO-2026-10-07.md",
+      "bytes": 4183,
+      "sha256": "d41d16c1bc17d27a55d6384a06b095e430e1008a79d0298469cf16e37129b151"
+    },
+    {
+      "path": "docs/EXAMPLE-COHERENCE-2026-10-07.md",
+      "bytes": 2840,
+      "sha256": "aff9ad27e80f10e21df32d21241d41661a7bd0713dbd695a953af417ad9a5059"
+    },
+    {
+      "path": "docs/FOTOGRAFIAS-CONTEXTO.md",
+      "bytes": 2138,
+      "sha256": "8ae02f3ac326cda4d93be671f3372d087493a8e601c7bfe547b5daf4e2b771ad"
+    },
+    {
+      "path": "docs/ILLUSTRATED-FARM-2026-10-08.md",
+      "bytes": 2206,
+      "sha256": "549e3416101f3344ef48003a50e527b8f9e4d5d86adcea9d118bd6e881fa0dd0"
+    },
+    {
+      "path": "docs/MAP-MODES-2026-10-08.md",
+      "bytes": 1788,
+      "sha256": "c702ce87539237901bbb71969c721962fa6bc5c070006a3e7bab7b9aad7962d6"
+    },
+    {
+      "path": "docs/MERCADO-FOTOGRAFIAS.md",
+      "bytes": 2356,
+      "sha256": "7412fec0618f965e37a0f6e0b43aa998e8bc620d50d4c2a3ad790e73bf1ad1a5"
+    },
+    {
+      "path": "docs/MOBILE-AUDIT-2026-10-07.md",
+      "bytes": 6149,
+      "sha256": "a4150d3125c17e6a032f7232e38f8304fc6e16e0197af2ad54d91476cc50305c"
+    },
+    {
+      "path": "docs/MOBILE-SURVEY-AND-DEMONSTRATIONS-2026-10-07.md",
+      "bytes": 2581,
+      "sha256": "0a784403cb590766032965669371e97abbc4d9ce7bdb3ec6d3ae0c72043e39bd"
+    },
+    {
+      "path": "docs/NATIONAL-MAP-CONTEXT-2026-10-08.md",
+      "bytes": 2717,
+      "sha256": "68c200a73efe28b6704b00fc88ee0da7f8b22e8485334e0ec3b71b6370a8ba59"
+    },
+    {
+      "path": "docs/OFFLINE-FORM-FIX-2026-10-07.md",
+      "bytes": 2155,
+      "sha256": "c46669d0e3462c41ab6b0e5d8060df5afc795ed7beeff496e3fb32afc33000ce"
+    },
+    {
+      "path": "docs/OFFLINE-Y-MIGRACION-CLOUDFLARE.md",
+      "bytes": 9689,
+      "sha256": "bc1de786fe95b7d732357f6f503c970abfddec6fe99d283f53488e773127a33a"
+    },
+    {
+      "path": "docs/POLYGONS-AND-PRIVATE-MAP.md",
+      "bytes": 4040,
+      "sha256": "32f90b0a1711be72d94e951cc65ac64843f156a02b6283be494f316972e8f308"
+    },
+    {
+      "path": "docs/POPUP-BRIGHTNESS-2026-10-07.md",
+      "bytes": 1973,
+      "sha256": "25bce2c8233034800402137969ae17aaeebc1a673fe88f04f06270376743e913"
+    },
+    {
+      "path": "docs/PREPARACION-OFFLINE-Y-DOMINIO-2026-10-06.md",
+      "bytes": 11336,
+      "sha256": "ade79f57d0ffa5af89cb30dd1f6166df17e076d0a6e2039fad98a391f9427401"
+    },
+    {
+      "path": "docs/REFINAMIENTO-VIDRIO-Y-SECUENCIA-2026-10-07.md",
+      "bytes": 1504,
+      "sha256": "0876d86837e80a8c0f88da20adb192e6e950b1d7544401d156c040f0efb39dee"
+    },
+    {
+      "path": "docs/REGIONAL-CONTEXT-2026-10-08.md",
+      "bytes": 1669,
+      "sha256": "154ee93b5dc809ee1300dce0e5681834e4b6911f5e74ff0e1b2b1a2de048bde2"
+    },
+    {
+      "path": "docs/SATELLITE-BY-ZONE-2026-10-08.md",
+      "bytes": 3039,
+      "sha256": "47badc2bf3a7875acbf0937cf7342a8d329745cad29f8083a9d1c891e13b1cda"
+    },
+    {
+      "path": "docs/SATELLITE-SAMPLE-2026-10-07.md",
+      "bytes": 4252,
+      "sha256": "ed7c30d7d790310bff09c6879c2dc1d5441eb993dcc6acdc0af16c9d4dcd3806"
+    },
+    {
+      "path": "docs/SATELLITE-ZONES-NEXT-STEPS-2026-10-08.md",
+      "bytes": 3646,
+      "sha256": "1f87a82e3c5f8f539a96cfd6decced17ab8d8fbcdd5cae4605ffe303614d41b5"
+    },
+    {
+      "path": "docs/SECUENCIA-INSTALACION-IDEAS-2026-10-07.md",
+      "bytes": 1896,
+      "sha256": "076d4e48c3a9b7756aa19bbb0c449595c4f31bd86a86546248306a91769540eb"
+    },
+    {
+      "path": "docs/STICKERS-DEL-AGRO.md",
+      "bytes": 5191,
+      "sha256": "8268fbd35eb4e2c550790243fb1d751c48eb4020bff0789036b482287a85d33f"
+    },
+    {
+      "path": "docs/TAXONOMIA-INDEXACION-2026-10-07.md",
+      "bytes": 12174,
+      "sha256": "7ec94eb54722801da606edc6d90717fe491533769b098eb98e7b77e64e60f80a"
+    },
+    {
+      "path": "docs/community-and-business.md",
+      "bytes": 5492,
+      "sha256": "058c659c064a7f48278912a9b9b0ffd93f5b283b30ca5ecd4c25c7f2e582bc2f"
+    },
+    {
+      "path": "docs/interface-design.md",
+      "bytes": 3702,
+      "sha256": "1593cf51a7c776fe0126aa254afbee02296094ed3fc57951597d17bf9980924a"
+    },
+    {
+      "path": "docs/revision-tienda-inicio.md",
+      "bytes": 2472,
+      "sha256": "a8a16268d7bf5354d21e79a62bbd91778bbd257db3bae11a75824eea17200dee"
+    },
+    {
+      "path": "docs/venezuela-agro-launch.md",
+      "bytes": 3724,
+      "sha256": "dac118252f58ccec5be64b73df74a8b97d103ebfebf5bd12c7a4c65e422c322b"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 148,
+      "sha256": "af081f7384aaeb0082cf422e29f139d137ca2f6a57c69b2c37b9fb1f8479867b"
+    },
+    {
+      "path": "drizzle/0000_abandoned_molecule_man.sql",
+      "bytes": 3360,
+      "sha256": "a8e2db7380b2d1ec4ac01ebdd636fe220ca9e58cb55e5734b688520a5be72e76"
+    },
+    {
+      "path": "drizzle/0001_tense_medusa.sql",
+      "bytes": 5172,
+      "sha256": "216e787b089de84f70d0f3d6d91abe2bef0ba7bd21857e57d4c29e51a88466f3"
+    },
+    {
+      "path": "drizzle/0002_open_anthem.sql",
+      "bytes": 732,
+      "sha256": "1c49b82fd69bd0ce3aa584dbf494ed633013ba84023d44aa5534a3826f1617e3"
+    },
+    {
+      "path": "drizzle/0003_naive_franklin_storm.sql",
+      "bytes": 423,
+      "sha256": "7bc144649b7546ce9a0e5b4a416e265b3da0243076bb7ab769dc2009ec96b4b6"
+    },
+    {
+      "path": "drizzle/0004_salty_ricochet.sql",
+      "bytes": 1729,
+      "sha256": "3b16d736d8c1e61b518c27d3f2b3d8945fe3904fc1c9a3e73ac69bda507b47c3"
+    },
+    {
+      "path": "drizzle/0005_powerful_silverclaw.sql",
+      "bytes": 2174,
+      "sha256": "6f36707ab83391387d9063cf38634192e0d1338ce6d830a632b56da6197c1b27"
+    },
+    {
+      "path": "drizzle/0006_dazzling_slipstream.sql",
+      "bytes": 162,
+      "sha256": "cc6ecdf600a02c04e3fb811cf1f2a258765d585f58b1fd9340bba38e8c422598"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 15043,
+      "sha256": "9db2b0118256a20865edc43e2b5316bbad61b73979619effdd808605425d85ed"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 37072,
+      "sha256": "1d8bcd3331126759fa6c1d18336fe274dfe0a3e4fa1e03d6884418768de4be42"
+    },
+    {
+      "path": "drizzle/meta/0002_snapshot.json",
+      "bytes": 40103,
+      "sha256": "8f14ad918cb39fc1d27e4ecdf343d9beadf261ff79defe221a4d29aed405bda3"
+    },
+    {
+      "path": "drizzle/meta/0003_snapshot.json",
+      "bytes": 40992,
+      "sha256": "ada245e08c13218b2b7bc1c14eb9cd8d6db0da6aea6b96bd5e23e70067ae9ecb"
+    },
+    {
+      "path": "drizzle/meta/0004_snapshot.json",
+      "bytes": 48278,
+      "sha256": "41239878a02afb6b1bdba575c979214c918d28f268ebeea283ca784ae9660da6"
+    },
+    {
+      "path": "drizzle/meta/0005_snapshot.json",
+      "bytes": 53343,
+      "sha256": "f155a0fa1cf3cf19731011882672e284ff14f773568385aa5ddf110518577cd5"
+    },
+    {
+      "path": "drizzle/meta/0006_snapshot.json",
+      "bytes": 53765,
+      "sha256": "8c03d3863cdc6e29d5e47e84965e085be08cc92de89a8ace313b4d00db26851a"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 1075,
+      "sha256": "773b6bfdcff95fe8a4603adbb0cb08ac3808bc2444de786f3854044ba285d642"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 846,
+      "sha256": "f22a254df7d934bbf9be499d3c969a13abb7f7f64c03f5967d0095cad81dfe06"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "bytes": 1712,
+      "sha256": "79368a025c639369a2db36f9e188f31802d705b75a07d017a288f8584687bd62"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "bytes": 370,
+      "sha256": "d89eabd95716ce404f5f7ca2a254220435be8ddce7c899d7ef461ff22ec80454"
+    },
+    {
+      "path": "hooks/use-mobile.ts",
+      "bytes": 565,
+      "sha256": "ad0936f84f1df79d3697bfbff9c18f8ad58431c1cbaf2359c6a853b0fcc9f28b"
+    },
+    {
+      "path": "hooks/use-offline-snapshot.ts",
+      "bytes": 1659,
+      "sha256": "2fb2d7af74c4e19cbb06afd06030666988af35a026188f14014d6be02a955109"
+    },
+    {
+      "path": "lib/account-contact.ts",
+      "bytes": 575,
+      "sha256": "998f3336fcca7a2cf04328bed9d545c23cc4fe88b4462cf6672d32b0e9265f30"
+    },
+    {
+      "path": "lib/admin-access.ts",
+      "bytes": 401,
+      "sha256": "868c93f4d4697d4030199f7c15f342b4104b7397dae9f74a7809f481ffa8b303"
+    },
+    {
+      "path": "lib/agro-analytics-policy.ts",
+      "bytes": 9807,
+      "sha256": "f5e58d3b7a3c42ba1b4f42965d9ffa2e73a0e959b05bb764f1896f9e1c0a8289"
+    },
+    {
+      "path": "lib/agro-catalog.ts",
+      "bytes": 6873,
+      "sha256": "d35da8e49be7c7b02512fec5478344fdd7b268df671792782e912242e7e3c9b2"
+    },
+    {
+      "path": "lib/agro-google-transport.ts",
+      "bytes": 8300,
+      "sha256": "5e7434f076e97194d4b732878df1af1e0bfb123fe108f29d1154dc3f2d1d29dd"
+    },
+    {
+      "path": "lib/agro-icon-paths.ts",
+      "bytes": 3892,
+      "sha256": "e415869d96b6ae3bf99a2eb4b7a635d1e8f0c33f6abc97785048efe44262b39f"
+    },
+    {
+      "path": "lib/area-split-payload.ts",
+      "bytes": 1530,
+      "sha256": "2928ead34c35fda9175f57b010c52f7813c7939db724b294ff5f16595c4210c7"
+    },
+    {
+      "path": "lib/articles.ts",
+      "bytes": 16758,
+      "sha256": "1c87544f47fe5dd80158b704d7ea6fd3b451449992ce27027b03dc8e59655c62"
+    },
+    {
+      "path": "lib/atomic-area-split.ts",
+      "bytes": 10348,
+      "sha256": "aebe78acd248e8f3df879ecfc2f1e6f97f359d5921d4e778bddcf1a934547455"
+    },
+    {
+      "path": "lib/backup-import.ts",
+      "bytes": 5700,
+      "sha256": "bc55d90f196f4b86988bbfb0e98dfcfdd4d20648679021988c3d880dd3eeda98"
+    },
+    {
+      "path": "lib/cartographic-selection.ts",
+      "bytes": 1019,
+      "sha256": "6cb3d8a3449b105c8f84858ba7647edce26c4983a1bbb087bac6a0ee39d6879a"
+    },
+    {
+      "path": "lib/community-network-db.ts",
+      "bytes": 7816,
+      "sha256": "f36eaa2e5675f4e6f739bda4d5c55758a0d652c7dc71b1fe7bee75631647837d"
+    },
+    {
+      "path": "lib/demo-farm-geography.ts",
+      "bytes": 1566,
+      "sha256": "07bffffaaad2ba37313b32b72e029b2c2305eaa4f0e9fced01ed5cc70f547b7b"
+    },
+    {
+      "path": "lib/demo-plan-animals.ts",
+      "bytes": 2235,
+      "sha256": "6d597c4b8f464149bd8b403caea3d4f43fe566f9f6225035b1c3f011aa74ee71"
+    },
+    {
+      "path": "lib/farm-aerial-presentation.ts",
+      "bytes": 3873,
+      "sha256": "294c0b8c5fd9f7373423282dfce58088a3b1ec99eb9b53c6d2bec2087204c0d3"
+    },
+    {
+      "path": "lib/farm-area-context.ts",
+      "bytes": 2325,
+      "sha256": "ba94c06c4d25533f03c548bfd443598c4ce5245360bdd69a60e50442ff5d7290"
+    },
+    {
+      "path": "lib/farm-demo-fixture.json",
+      "bytes": 46479,
+      "sha256": "6e9cfe1b39e89b5997f04f83714e0a5f6a7e8580f11df36c303a13318f3e09a7"
+    },
+    {
+      "path": "lib/farm-demo-navigation.ts",
+      "bytes": 3365,
+      "sha256": "61435489c420380d6b86949f1c1e37395d404cd52ca5bfb79262584fcfd03bcc"
+    },
+    {
+      "path": "lib/farm-demo-store.ts",
+      "bytes": 6824,
+      "sha256": "3e2cf5ce87d0fd0dfc2d13745ac8f638fa273aa457101b93892247e4f3aa3a55"
+    },
+    {
+      "path": "lib/farm-form-geometry.ts",
+      "bytes": 6083,
+      "sha256": "b114cda2ee71d8f5ef4fae0129b52b7fd1386287973d26d14d626c87f8393bcc"
+    },
+    {
+      "path": "lib/farm-geography.ts",
+      "bytes": 3392,
+      "sha256": "39065ed3a2262f00511cc20b5d62aa9524651b1fddd6ed0b0f7aab912c6ccd7e"
+    },
+    {
+      "path": "lib/farm-geometry.ts",
+      "bytes": 4543,
+      "sha256": "a3955143a65ded51c4e4580eba228054f115d05777a6b12f6f9467cbef5908d9"
+    },
+    {
+      "path": "lib/farm-outline-view.ts",
+      "bytes": 1633,
+      "sha256": "2dfe0b5a5206187a3d94d49973b3987cd433832c27fffa9fabcd93d3438ad035"
+    },
+    {
+      "path": "lib/farm-plan-presentation.ts",
+      "bytes": 2550,
+      "sha256": "76e583bc02387a1629dbd187764f15d85ccae572bb03e6522fdae28a4680d1dc"
+    },
+    {
+      "path": "lib/farm-reference-action.ts",
+      "bytes": 232,
+      "sha256": "b4f64164b32c218cd66437fb9517babadbeb57ac5b585191dbfdd43b573cc616"
+    },
+    {
+      "path": "lib/farm-tap-placement.ts",
+      "bytes": 3168,
+      "sha256": "2950a653427e9d146d8996d00669ecb1506b6b9d93dbd3c724ed716302dcdf40"
+    },
+    {
+      "path": "lib/farm-types.ts",
+      "bytes": 1187,
+      "sha256": "be49fda55a1ec28e846cfe4dccfa94558772d7de791915e3e5c6acdad180b9b5"
+    },
+    {
+      "path": "lib/form-defaults.tsx",
+      "bytes": 978,
+      "sha256": "337788a4129358dadcd6067de8dfe901b63b6cb4b3eb1e3634758de9a75fdf88"
+    },
+    {
+      "path": "lib/form-submission.ts",
+      "bytes": 434,
+      "sha256": "c7e357856242938fd81fbd5ea77376d45c14de89f0fd07a04879738dd7ece2bf"
+    },
+    {
+      "path": "lib/idea-invitation-photo.ts",
+      "bytes": 741,
+      "sha256": "ee20929b198ed626453caa139960650ea243f1e6d065dcadb060a93578610508"
+    },
+    {
+      "path": "lib/idea-invitation-scheduler.ts",
+      "bytes": 614,
+      "sha256": "158cf57807e3b023d64069642065671ee9f97d18ab490d6839810414d64aa039"
+    },
+    {
+      "path": "lib/idea-invitation.ts",
+      "bytes": 4329,
+      "sha256": "91a5f7ac3e04dfa0b05ed567b3aeaaae063ba6222c6717483cc2b99ce5524bdd"
+    },
+    {
+      "path": "lib/illustrated-geometry.ts",
+      "bytes": 3195,
+      "sha256": "c2b9056f8613c7c795dc4365afc44d2a90e6024a4822712ce1b39963db84e089"
+    },
+    {
+      "path": "lib/illustrated-plan-adapter.ts",
+      "bytes": 2499,
+      "sha256": "4765ff5de066fff6a1ab3024c0d59194ff5a299b6bcea486f5974983d55f935c"
+    },
+    {
+      "path": "lib/illustrated-sprite-contact.ts",
+      "bytes": 3257,
+      "sha256": "2b59753fe5139156148d84fcd2b9518696c16453692a4f70a048933e4869c351"
+    },
+    {
+      "path": "lib/indexing-policy.ts",
+      "bytes": 3403,
+      "sha256": "9f38b37947791ae62cd791a25fabf6e5f42d11b32e55b08dda73d661f2af7336"
+    },
+    {
+      "path": "lib/install-action.ts",
+      "bytes": 1105,
+      "sha256": "0de40f4a0c91dea3723105b7959cfdd9b96b246fe28275615fd2e5812b8a31b0"
+    },
+    {
+      "path": "lib/install-guidance.ts",
+      "bytes": 9331,
+      "sha256": "c7dd70bb8f9fe8a2d6c266043ab37c636cd5ffb63c9af84cbb84e72c5a54e0ba"
+    },
+    {
+      "path": "lib/institution-marks.ts",
+      "bytes": 2364,
+      "sha256": "1fc66262e30cc6bad6035ee0b89b02c5bd60d6e79e6ad241f9fe3c299b24ec94"
+    },
+    {
+      "path": "lib/inventory-example-photos.json",
+      "bytes": 11372,
+      "sha256": "de49f1f7586dd0c595f9cbe092a9cc096cfcea4d6b7645c50a084434c937fd96"
+    },
+    {
+      "path": "lib/json-ld.ts",
+      "bytes": 251,
+      "sha256": "2e14e4f419688781c6ded519ef1a240720be8ac632337d9b20e012bae15fa470"
+    },
+    {
+      "path": "lib/knowledge-db.ts",
+      "bytes": 2286,
+      "sha256": "0e7abb90b704c109c96f7d9325c6c45e990405a592d4f8f047db421f4471aeb5"
+    },
+    {
+      "path": "lib/land-water-guides.ts",
+      "bytes": 23992,
+      "sha256": "733fa149b4b70ecd2371ecf3a4f9efb5dd633f1a88116c19e0490ff0271e6062"
+    },
+    {
+      "path": "lib/legacy-recovery.ts",
+      "bytes": 464,
+      "sha256": "fa150b93a4b6968835d898e907314ce40337d5c4a3b102115613d7b7320c16a4"
+    },
+    {
+      "path": "lib/listing-contact.ts",
+      "bytes": 2458,
+      "sha256": "e2d0ff23edf6d449c5574282c6071d6e21c0b40b6789ec93899ac80699b4886a"
+    },
+    {
+      "path": "lib/listing-photo-repair.ts",
+      "bytes": 612,
+      "sha256": "08cf497061f5b9a01484043f081a4757d0377580ec2b6309e313d07e7d4a7985"
+    },
+    {
+      "path": "lib/listing-photo.ts",
+      "bytes": 588,
+      "sha256": "6803333120f4b60351c40609e213d26c5b9002cc00754edc441787c11be6a196"
+    },
+    {
+      "path": "lib/local-satellite-zone.ts",
+      "bytes": 3598,
+      "sha256": "3fbbf48e9fd2e773c3b038712c830cb136f8bfd1b29a99b61859f2d705f2b95c"
+    },
+    {
+      "path": "lib/map-coverage-clip.ts",
+      "bytes": 1342,
+      "sha256": "ba279d4c2574e834dfbc216a3a46f9dcae82bd206b24513eff80b322231cebb9"
+    },
+    {
+      "path": "lib/map-label-presentation.ts",
+      "bytes": 681,
+      "sha256": "3ad49c7431b122cdc4b7d5799cbb43783236a8bfb19e84951ae188dd3559300f"
+    },
+    {
+      "path": "lib/market-example-photos.json",
+      "bytes": 15495,
+      "sha256": "dfd8c9c82b139c34171cf0ee786fbbcd50f7f8d0a1a47d9a0bcc355908bd133d"
+    },
+    {
+      "path": "lib/market-examples.json",
+      "bytes": 17703,
+      "sha256": "1d83e9483586154b32ff1c26cd5f084bd5feed09150fda35592f6de9b75359e3"
+    },
+    {
+      "path": "lib/marketplace-categories.ts",
+      "bytes": 2480,
+      "sha256": "c93116889b7d9098c34f4456114ba9e2de0eb257a4772a3334f8955d89cb282e"
+    },
+    {
+      "path": "lib/network-profile.ts",
+      "bytes": 14174,
+      "sha256": "7d4a405737a571748ef6fad38c225092b29582ff86b8ba1e0a5cb0ded93ebb64"
+    },
+    {
+      "path": "lib/official-links.ts",
+      "bytes": 693,
+      "sha256": "5ada40e8d68a1b6d1582cbf73f11ae3e3d9581b3f5e2b9e9107442216c07f9a5"
+    },
+    {
+      "path": "lib/offline-db.ts",
+      "bytes": 32611,
+      "sha256": "5bf7f3df538e28f6576674b29f15914c65168faaa35852f31095682db27d35b4"
+    },
+    {
+      "path": "lib/offline-document-navigation.ts",
+      "bytes": 478,
+      "sha256": "dca52d3b4ea3bac0806476bb3ccbbd36676d0bced3819979cde9ed767379271d"
+    },
+    {
+      "path": "lib/offline-library-routes.ts",
+      "bytes": 389,
+      "sha256": "81f330bfbb553e26529bf351f9377c7fe740f5b339990ba4f63df992cee045a3"
+    },
+    {
+      "path": "lib/offline-library-worker.ts",
+      "bytes": 2934,
+      "sha256": "016cc868dd386cf130a83cd332f32087e0109126a2331329dcccc1c9a857e7c4"
+    },
+    {
+      "path": "lib/offline-map-pack.ts",
+      "bytes": 6414,
+      "sha256": "aae96f4c568260fbff6a1ec8ebe2e78cbb08e0d28eda9063420235c50e5b357b"
+    },
+    {
+      "path": "lib/offline-owner.ts",
+      "bytes": 4618,
+      "sha256": "0a8160b7adf4395c71ee644d36c4114ea4a9f6190741599fc27121a945371c25"
+    },
+    {
+      "path": "lib/offline-public-store.ts",
+      "bytes": 4609,
+      "sha256": "6a8f66ec0cd9b2cbb2b1aa5d9cc1180bd95549525739120a98805f62512e8b0a"
+    },
+    {
+      "path": "lib/offline-public-types.ts",
+      "bytes": 2820,
+      "sha256": "0e32241a9f10f34e793ff35e3cfb7f02d3f3d9f8bcd3192591f60a35a43afd70"
+    },
+    {
+      "path": "lib/offline-satellite-store.ts",
+      "bytes": 4906,
+      "sha256": "70b10892b31b2dbd6fdb817f0b6cdf2870bcb5f22b62cb83bdada170b95f6a56"
+    },
+    {
+      "path": "lib/orb-morph.ts",
+      "bytes": 7001,
+      "sha256": "0dbf05f4134bb322981531b362d072e0b3f9d912ecb27455350d3d378672eda7"
+    },
+    {
+      "path": "lib/order-details.ts",
+      "bytes": 1582,
+      "sha256": "3d02bed63b2a65984b78d91f5ecd500bfc8521be26ef3cea0b111b0a5c155d00"
+    },
+    {
+      "path": "lib/plan-oblique-assets.json",
+      "bytes": 2476,
+      "sha256": "c98aaffe2abd85d57a0cbf198228afa5ee6f3dc4937886c80ce2d750b0384efd"
+    },
+    {
+      "path": "lib/plan-vegetation-assets.json",
+      "bytes": 3449,
+      "sha256": "6df7f5ee95797ac426b5745892014e5bb579f7e141443f977502eceac8ab7b1e"
+    },
+    {
+      "path": "lib/platform-guides.ts",
+      "bytes": 19851,
+      "sha256": "a1184d6142d24c010b3685bbc4dfc1cef64d5ad4674aeb2437411b7c51447cab"
+    },
+    {
+      "path": "lib/policy-version.ts",
+      "bytes": 55,
+      "sha256": "54f22bcfd6cf5c2bd1dac083bdc93453a0677a5a6abba4cd5bf8dc0cc2c2afe0"
+    },
+    {
+      "path": "lib/polygon-editor-interaction.ts",
+      "bytes": 5805,
+      "sha256": "2e58e63679dd013500fa4718640baabac2cda60470f899cf1bdca9e5767ec4cb"
+    },
+    {
+      "path": "lib/polygon-geometry.ts",
+      "bytes": 12769,
+      "sha256": "13d522abb4f8d328ecc2bd85562cf73e1a1f9bb455572bf71288d8b452c1d933"
+    },
+    {
+      "path": "lib/product-photos.ts",
+      "bytes": 9369,
+      "sha256": "1e265b079559c159e0641f77bba0c3f74aba02ffce14877e08025ba94b706957"
+    },
+    {
+      "path": "lib/professional-db.ts",
+      "bytes": 646,
+      "sha256": "bfc80d76cff4b17cbfc8644914155a1d8d1868081cb09dc71b2975a5e3306842"
+    },
+    {
+      "path": "lib/professional-demo-data.json",
+      "bytes": 39520,
+      "sha256": "761caa3b76199ce4c94492e864f85deddb767a88efb8994ef4b96a4c4af516fd"
+    },
+    {
+      "path": "lib/professional-demo-portraits.ts",
+      "bytes": 3852,
+      "sha256": "d96299e6628357cc75c743239cf70a43b60cd8168abfdabab45ed12ddda29476"
+    },
+    {
+      "path": "lib/professional-examples.ts",
+      "bytes": 1390,
+      "sha256": "64ce80051f92185278010d60aeb4f1dfb6d903bdc35a2388b9522f16118db019"
+    },
+    {
+      "path": "lib/professional-profile.ts",
+      "bytes": 4528,
+      "sha256": "baab83d1acd8a79c9b2f374683788c9a2dd7e3f8f53fe2794272f7393dbdd4db"
+    },
+    {
+      "path": "lib/public-registration-examples.json",
+      "bytes": 6739,
+      "sha256": "2c808533992c1f89c0bff2358773678f3188a696e8408a1ec1cce7762b24b953"
+    },
+    {
+      "path": "lib/record-categories.ts",
+      "bytes": 471,
+      "sha256": "65d55c3a87866ec8aa45ef4b0bdc15293ab6138836618f5936826d16c1903ff9"
+    },
+    {
+      "path": "lib/revision-write.ts",
+      "bytes": 2752,
+      "sha256": "741730cad82796b0377fdb260dd8854d1da2adcad49a193a2cdf6ff23cfe6393"
+    },
+    {
+      "path": "lib/safe-json.ts",
+      "bytes": 239,
+      "sha256": "afb475101ce43eda201c70aafe14ba0f986b2cad835ef04adf4dcf33269461df"
+    },
+    {
+      "path": "lib/satellite-packs.ts",
+      "bytes": 996,
+      "sha256": "bad00018cd415f956bc924f4412e5f5e42556ffa947e2a121115c3a62527641d"
+    },
+    {
+      "path": "lib/satellite-range-client.ts",
+      "bytes": 2561,
+      "sha256": "7cd2e0836864a4742c4d6843035833f073829ca0edee582122ddf44d14cef9e8"
+    },
+    {
+      "path": "lib/satellite-viewport.ts",
+      "bytes": 406,
+      "sha256": "cd4900891e44d4e666ad7b4e3133a42867af8f50ef9f2301a81fe7449a87098a"
+    },
+    {
+      "path": "lib/satellite-zone-contract.ts",
+      "bytes": 3109,
+      "sha256": "754c4211f0c97a1b05fba476896969978da69722c96fe160798dcb165c1be3f8"
+    },
+    {
+      "path": "lib/security.ts",
+      "bytes": 1607,
+      "sha256": "c1d2c7cfaba2cf17ba1798b31f053743a005968830bebdcfa2a0f832be383789"
+    },
+    {
+      "path": "lib/seo-listing.ts",
+      "bytes": 1019,
+      "sha256": "3688d45e531e82fbdf9b04ee1a8e65a8927aa3b9e2777434168a56603803ff6b"
+    },
+    {
+      "path": "lib/site-content-security.ts",
+      "bytes": 1123,
+      "sha256": "f9f6fc12dcb3296ab82daaf589806f954fae729758e5c54d0e750db7af2aaabd"
+    },
+    {
+      "path": "lib/site-identity.ts",
+      "bytes": 389,
+      "sha256": "2ab5be110d30b802bb8a12555347d5f1af8bcd2c85eccda8390ba3dad33c9924"
+    },
+    {
+      "path": "lib/site-photos.ts",
+      "bytes": 8374,
+      "sha256": "f4ae57c88abe94eed7128b08d8039ccc80e75af3b8548b62c8df84ff416b078c"
+    },
+    {
+      "path": "lib/social-position.ts",
+      "bytes": 4441,
+      "sha256": "bfba4479b2a85444cc85c0ef9a005c75d0dc56bf1c08656d86921322f0eb4fa0"
+    },
+    {
+      "path": "lib/sticker-assets.json",
+      "bytes": 50516,
+      "sha256": "2e9547e44947030f0f5f9f83dfd7cb04c9f2cbf580cb5cb1194cf6afedd20c0b"
+    },
+    {
+      "path": "lib/sticker-catalog.ts",
+      "bytes": 1834,
+      "sha256": "c1986ae030e9ba20bec1657fcdaff6f8826cc8ce5a5dad469a0fd12cdd97c956"
+    },
+    {
+      "path": "lib/sticker-labels.json",
+      "bytes": 2698,
+      "sha256": "39b3c42071ac4bc2cbf20b20424514c6f919d3e7128c294ddde43770a9b0f5d6"
+    },
+    {
+      "path": "lib/store-products.ts",
+      "bytes": 9176,
+      "sha256": "4a996118864ea2cad3808de75a839387776cd69b04fa4947b0a748687869464f"
+    },
+    {
+      "path": "lib/sync-reconciliation.ts",
+      "bytes": 506,
+      "sha256": "b728e1f1af8d600866929e88023ef8145076dd24049ced7eb32ff93b1ee3a6dd"
+    },
+    {
+      "path": "lib/sync-validation.ts",
+      "bytes": 11801,
+      "sha256": "d67e02027cd6d9fa7cc011336d160c189ed832c772043b5b9a04908fe2510876"
+    },
+    {
+      "path": "lib/utils.ts",
+      "bytes": 177,
+      "sha256": "53f3d3d070f0a9082934da25b875f9499855c2b0693868dd28be8c23d8730f68"
+    },
+    {
+      "path": "lib/venezuela-locations.json",
+      "bytes": 69910,
+      "sha256": "3210976d8d15f15b9a63c7750002929f518dc127069733a633b354b6e00bb416"
+    },
+    {
+      "path": "lib/venezuela.ts",
+      "bytes": 344,
+      "sha256": "bc2c85f490098101d7d5d648e465b43983773baa6d4348492c47c827b9ce9c34"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 289,
+      "sha256": "bc470439383d04e6020d76a797eaba327b360469279b7b782edc47d4fb6c0dcc"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 520834,
+      "sha256": "059cf0ee4dec5e3953fa3609b3ae1d3dacd82449e317a9b2a6e113f03311cb47"
+    },
+    {
+      "path": "package.json",
+      "bytes": 2237,
+      "sha256": "20ce794b4d315575c2966420180c42b4d94baa734d7e2c430d89f79ea27f01fd"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 94,
+      "sha256": "dfac7ac2d86d326a0e5adb024e7943c181393ed17a5fcb8f0315b24c7da6ddde"
+    },
+    {
+      "path": "public/apple-touch-icon-precomposed.png",
+      "bytes": 18696,
+      "sha256": "27aa6ad97caa835adc212c6020ae449aa6b911ef41832852532997a69c8f1660"
+    },
+    {
+      "path": "public/apple-touch-icon.png",
+      "bytes": 18696,
+      "sha256": "27aa6ad97caa835adc212c6020ae449aa6b911ef41832852532997a69c8f1660"
+    },
+    {
+      "path": "public/demo-cacao.webp",
+      "bytes": 129314,
+      "sha256": "bce0a8eb8a806ac59cd89d0b82b3d2bd16b6bfdcddc975529a399bb123780ff5"
+    },
+    {
+      "path": "public/demo-drone.webp",
+      "bytes": 202600,
+      "sha256": "9ce1be44039d332565d4a9b9d42e6e421e40ff34d4ce0342bf5b92162ffd418d"
+    },
+    {
+      "path": "public/demo-novillas.webp",
+      "bytes": 178976,
+      "sha256": "b012426e14ca5caeb39a580c56aeb9d521326a66f697236bcd37dc53575b3683"
+    },
+    {
+      "path": "public/demo-poultry-product.webp",
+      "bytes": 55520,
+      "sha256": "c63a68f97f64d0e112f20b3742cb8efa4f4d24e24739618e4c43b7aae5be83f3"
+    },
+    {
+      "path": "public/demo-poultry.webp",
+      "bytes": 100298,
+      "sha256": "67cd9788a5b6ab277865ea27b1864579556280cd1e7844bf226ff0282dc31360"
+    },
+    {
+      "path": "public/examples/market-0.svg",
+      "bytes": 892,
+      "sha256": "40f8e9577e6fedf92bee98debdc325034a2394bc24044bc95418e399ae783391"
+    },
+    {
+      "path": "public/examples/market-1.svg",
+      "bytes": 916,
+      "sha256": "e70716b8b4da11e433b677049dbbb046f45b42a8f603e452bc1dc8ab6e40a9b5"
+    },
+    {
+      "path": "public/examples/market-10.svg",
+      "bytes": 987,
+      "sha256": "ccbabfa0d38800a14a81e7cb4de9801c058facb9ca4fc1f5a063e34cba45d1d9"
+    },
+    {
+      "path": "public/examples/market-11.svg",
+      "bytes": 852,
+      "sha256": "1598247d8e0b126577b47c7eb6c8bab545a323d6669ea046c2e3c7a6f1d1a1ee"
+    },
+    {
+      "path": "public/examples/market-12.svg",
+      "bytes": 840,
+      "sha256": "6547a762f12a7b64336bf2d42c65bf156c5e6401d52839efbc5ad481b211b7df"
+    },
+    {
+      "path": "public/examples/market-13.svg",
+      "bytes": 889,
+      "sha256": "6da10ae8a02de6072461171d29e13ce94610e314f6b122dba3c7e4ebc96bd90c"
+    },
+    {
+      "path": "public/examples/market-14.svg",
+      "bytes": 911,
+      "sha256": "8cfdc9954461caa606ad3fe547699e63678471f068b01d7f19a4ba0a7a23859c"
+    },
+    {
+      "path": "public/examples/market-15.svg",
+      "bytes": 853,
+      "sha256": "4e70d2e01e04e230449815a3a030963f64053d7ce6070a08c97138e1ef51b949"
+    },
+    {
+      "path": "public/examples/market-16.svg",
+      "bytes": 833,
+      "sha256": "851ea876ebc277824e4e6fa530bd85ac8709cfae43c411d80be7459e82e3c180"
+    },
+    {
+      "path": "public/examples/market-17.svg",
+      "bytes": 892,
+      "sha256": "9dbb49047d34d8ac72ccd7faa33dffbdf14625c3b579404c12fc086b3c24cef1"
+    },
+    {
+      "path": "public/examples/market-2.svg",
+      "bytes": 879,
+      "sha256": "30e05536acd0314b39b22a5e0f72dcfa925a6ed15c4274d510c759a525fbe9d4"
+    },
+    {
+      "path": "public/examples/market-3.svg",
+      "bytes": 918,
+      "sha256": "72490c021adc200def7a068c3b93620d449a7e951935848aa928f65220f9ac2d"
+    },
+    {
+      "path": "public/examples/market-4.svg",
+      "bytes": 884,
+      "sha256": "6378ea375814539019f16cb70281f2a7b1405647ca788fc2900b449ccebd965e"
+    },
+    {
+      "path": "public/examples/market-5.svg",
+      "bytes": 893,
+      "sha256": "2c8a1c004e19bce9f294a8cb073664097531de8f11bdfd5b3db5d0ec1d7e7cb0"
+    },
+    {
+      "path": "public/examples/market-6.svg",
+      "bytes": 859,
+      "sha256": "a45b237fad14b257f1f512df8c15ba3d72bce01e1fe507007a5bdea4780c2dde"
+    },
+    {
+      "path": "public/examples/market-7.svg",
+      "bytes": 877,
+      "sha256": "5bd681462c95d91762e60945a28c2e671ba75c80843e98d78b5dd92fb788a1ac"
+    },
+    {
+      "path": "public/examples/market-8.svg",
+      "bytes": 884,
+      "sha256": "1004fb5914b6c6a8a08ea53af43195f73fcd5f4e792871d0e32cb8c01adc1c20"
+    },
+    {
+      "path": "public/examples/market-9.svg",
+      "bytes": 856,
+      "sha256": "a54ba36b86a02f983da0b7fea3306592a2b92f28e94f6099b3f92ff0be74042c"
+    },
+    {
+      "path": "public/favicon.ico",
+      "bytes": 5962,
+      "sha256": "f4c1dcd5bf92205cb5223e339ef765b4653da7df97b69e6484091e7aa23c3dbe"
+    },
+    {
+      "path": "public/favicon.png",
+      "bytes": 4869,
+      "sha256": "53eb9039acdbf3d300cbbf1f429b5726fa1f124c0170b4370802fd831bbf2ecf"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 875,
+      "sha256": "e6f53b5a3f13faeff25ba4d0d3fcc54a99c5a69e2f3b8a7348ca23057c82155a"
+    },
+    {
+      "path": "public/file.svg",
+      "bytes": 392,
+      "sha256": "1e0ae4d1a1ddfa36752988647b731e4abf150c414d069ec83c96fb0aaeff0307"
+    },
+    {
+      "path": "public/globe.svg",
+      "bytes": 1036,
+      "sha256": "d051a8c47936990a9085693d307bb7cea1bc1b6d7ed956bcbaacf674f4ec96b9"
+    },
+    {
+      "path": "public/guias/comprar-tienda-los-morochos-paso-1.svg",
+      "bytes": 1229,
+      "sha256": "40a9054671615cf5d5e65b0fe1f5f25ad573717c023690e1e4db3e6465cf249f"
+    },
+    {
+      "path": "public/guias/comprar-tienda-los-morochos-paso-2.svg",
+      "bytes": 1471,
+      "sha256": "96827156e37146b7a1b0b8b40080452d29fac14a40e6a64e8093828e7c43b98d"
+    },
+    {
+      "path": "public/guias/comprar-tienda-los-morochos-paso-3.svg",
+      "bytes": 1475,
+      "sha256": "121bd2acb207639ef594e54444858c579a8fb3029aff8e1692b5f953d9e22e58"
+    },
+    {
+      "path": "public/guias/comprar-tienda-los-morochos-paso-4.svg",
+      "bytes": 1266,
+      "sha256": "172ab0a725a3c777916e9fff66043e05fcb884658f3c98b8838a31f5f1d58d63"
+    },
+    {
+      "path": "public/guias/comprar-tienda-los-morochos.svg",
+      "bytes": 2854,
+      "sha256": "97d3cfd9f634d6e1ae04bec09bd9a7ebea3234740714cecd91ff4ceb4592d285"
+    },
+    {
+      "path": "public/guias/crear-plano-de-mi-finca-paso-1.svg",
+      "bytes": 1244,
+      "sha256": "b91c0a74826c3f974f154e54834f29d4b8fc5605c85ef03673bc9f22c77bf6d5"
+    },
+    {
+      "path": "public/guias/crear-plano-de-mi-finca-paso-2.svg",
+      "bytes": 1459,
+      "sha256": "5194aab281691c0c9f0a284339f9e99ed29e09e6bd32b9587718f2e762ad097a"
+    },
+    {
+      "path": "public/guias/crear-plano-de-mi-finca-paso-3.svg",
+      "bytes": 1481,
+      "sha256": "ea0e7e550b54535adba8e04eca119eb36e918db5b47f04b4b73fa33406c681fc"
+    },
+    {
+      "path": "public/guias/crear-plano-de-mi-finca-paso-4.svg",
+      "bytes": 1278,
+      "sha256": "4381a5823ccd7b92d4d8b1a410fe441e4e5a1333a27b33e69aa394ca1ce019aa"
+    },
+    {
+      "path": "public/guias/crear-plano-de-mi-finca.svg",
+      "bytes": 2858,
+      "sha256": "13ff6aaf74c090f9f0aed3272831ede835354b2640f8847ae0252bfa076887a8"
+    },
+    {
+      "path": "public/guias/dividir-potreros-lagunas-cultivos-paso-1.svg",
+      "bytes": 1244,
+      "sha256": "4b015afdf5485d65c7850859e2b7d3f801b6fa52e14b1db1571bbf8c11154479"
+    },
+    {
+      "path": "public/guias/dividir-potreros-lagunas-cultivos-paso-2.svg",
+      "bytes": 1440,
+      "sha256": "d7dfd699b9ed88dff6a7ccf0221a0d68f7575ded5d4bed10c8e6715b207fa4a7"
+    },
+    {
+      "path": "public/guias/dividir-potreros-lagunas-cultivos-paso-3.svg",
+      "bytes": 1464,
+      "sha256": "3a657dc4931b967dbf5191a08774512f284adb988eb44d91688d6e41a4662e7d"
+    },
+    {
+      "path": "public/guias/dividir-potreros-lagunas-cultivos-paso-4.svg",
+      "bytes": 1280,
+      "sha256": "3f5575ea0dbad3a68c7e339e63f2707a2e730a1cfb6516505c78d9e765cd8766"
+    },
+    {
+      "path": "public/guias/dividir-potreros-lagunas-cultivos.svg",
+      "bytes": 2831,
+      "sha256": "7c269186dc6e9620cb83a99ff88241fd44368f5c4dfa9caf7212932c89edd1c3"
+    },
+    {
+      "path": "public/guias/fincas-comunidad-paso-1.svg",
+      "bytes": 1258,
+      "sha256": "f976b82482b0b1d9a937a91e95e7d8982a915dd1411ae9daab0f8ecb65986576"
+    },
+    {
+      "path": "public/guias/fincas-comunidad-paso-2.svg",
+      "bytes": 1485,
+      "sha256": "d1060bfdd0a35439933abf52be76544fbf03a4c425e779c21507d49a8163c2cb"
+    },
+    {
+      "path": "public/guias/fincas-comunidad-paso-3.svg",
+      "bytes": 1487,
+      "sha256": "599b53e567a9f4d7d352a25f7c1fb67e8f20bb7365a6fe9a83ebddcea75e1226"
+    },
+    {
+      "path": "public/guias/fincas-comunidad-paso-4.svg",
+      "bytes": 1274,
+      "sha256": "c00b72ade843331beb58c0b4b454b4d70dbcf9297b2bb1976a1934dd5eef7caa"
+    },
+    {
+      "path": "public/guias/fincas-comunidad.svg",
+      "bytes": 2659,
+      "sha256": "7a85a76dd2b17bcb56d83dff964d8135215546a8c2eecf131801a14c5cc7aa79"
+    },
+    {
+      "path": "public/guias/instalar-iphone-android-paso-1.svg",
+      "bytes": 1237,
+      "sha256": "133e3d5098094a4743a843901dd885d05eab4b586fe7da4756fd1c09c8bcbc7f"
+    },
+    {
+      "path": "public/guias/instalar-iphone-android-paso-2.svg",
+      "bytes": 1475,
+      "sha256": "8771e426848c172d197d8fd68c6f430a8b6eda6e21c0eaf59be2ba9577c8b8a5"
+    },
+    {
+      "path": "public/guias/instalar-iphone-android-paso-3.svg",
+      "bytes": 1481,
+      "sha256": "cf161d27df3dd0ab3e00c481282aa489f16f4c3052e6a33262dc0cbdcc6cb35d"
+    },
+    {
+      "path": "public/guias/instalar-iphone-android-paso-4.svg",
+      "bytes": 1282,
+      "sha256": "a6d6089e292fa0291a1b1cb50fab2546b8a5084523d134b905fe1095a23dcd2f"
+    },
+    {
+      "path": "public/guias/instalar-iphone-android.svg",
+      "bytes": 2665,
+      "sha256": "7cb1df224fa05aa4c8ed2ba2a89f49ed472846782b33dd29486eef2489292e5e"
+    },
+    {
+      "path": "public/guias/perfil-profesional-agro-paso-1.svg",
+      "bytes": 1234,
+      "sha256": "355c885433e3ecafd78597c59583aedc267c969fcd58bbe448238d0e70f29054"
+    },
+    {
+      "path": "public/guias/perfil-profesional-agro-paso-2.svg",
+      "bytes": 1498,
+      "sha256": "f55e6b076d7d3f576fcd82c93ecdb1b1144614df4fbd2b23e8cd5289d7fbf0b2"
+    },
+    {
+      "path": "public/guias/perfil-profesional-agro-paso-3.svg",
+      "bytes": 1504,
+      "sha256": "2ad714ded48e1484852719155328baec636f07bcf602844c6ad46e1c0a115184"
+    },
+    {
+      "path": "public/guias/perfil-profesional-agro-paso-4.svg",
+      "bytes": 1262,
+      "sha256": "ef57ad545a3cb56952f20e7bc73a58ffdc68ea9db78c27e392d67637a3cb1297"
+    },
+    {
+      "path": "public/guias/perfil-profesional-agro.svg",
+      "bytes": 3138,
+      "sha256": "544b092a461289d85243492f644a8ae70362ab8f31e0fd5263e45bc441379827"
+    },
+    {
+      "path": "public/guias/primeros-pasos-registro-paso-1.svg",
+      "bytes": 1248,
+      "sha256": "319f1acd6ec6344fd206de1d0feb059057c5d17619a162f732e2e67c9eaa5428"
+    },
+    {
+      "path": "public/guias/primeros-pasos-registro-paso-2.svg",
+      "bytes": 1469,
+      "sha256": "bb537c54582eb37eb6c6e5469b65e29a8889d0421c3813416825bbef7a9ecc40"
+    },
+    {
+      "path": "public/guias/primeros-pasos-registro-paso-3.svg",
+      "bytes": 1487,
+      "sha256": "d85932416f3af97b4ba2ebcd96c10f5d5bfb9ed757ec8c856db05f8642b9e81a"
+    },
+    {
+      "path": "public/guias/primeros-pasos-registro-paso-4.svg",
+      "bytes": 1290,
+      "sha256": "b08aa59f0196e2c6c6aea1ca2427ed2ce502026218420742ac402ed6ef981bbf"
+    },
+    {
+      "path": "public/guias/primeros-pasos-registro.svg",
+      "bytes": 2621,
+      "sha256": "acaad377f4ba7b3cb86d81fb5e088f6bf949ab5a4dc12349a7c3356d5e21ac0a"
+    },
+    {
+      "path": "public/guias/produccion-inventario-costos-paso-1.svg",
+      "bytes": 1228,
+      "sha256": "a08649110e64e854586337df080389c1e3c2a70338c0702f9444dc0fa56d4dac"
+    },
+    {
+      "path": "public/guias/produccion-inventario-costos-paso-2.svg",
+      "bytes": 1453,
+      "sha256": "d4b3cf4aad15d27a9e5a2a10bd59f72de3af838e4b85799c27a8217725f1242c"
+    },
+    {
+      "path": "public/guias/produccion-inventario-costos-paso-3.svg",
+      "bytes": 1463,
+      "sha256": "21de088fe95217d62dc963d8137d94ed1144fb9adc1fef66bdf7a940d91935ca"
+    },
+    {
+      "path": "public/guias/produccion-inventario-costos-paso-4.svg",
+      "bytes": 1278,
+      "sha256": "ad9e30204437d114231863da2f06f461b2e5bf79e3461391eeeaa3cc6592ea2a"
+    },
+    {
+      "path": "public/guias/produccion-inventario-costos.svg",
+      "bytes": 2861,
+      "sha256": "895a7857973372ad8dfe86d31f23555cd334e5d5e3a018d012b44fb6ef96991f"
+    },
+    {
+      "path": "public/guias/proyectos-alianzas-instituciones-paso-1.svg",
+      "bytes": 1242,
+      "sha256": "fb41d8a8a1048ec97d00f04114fa338d4e6d573b9f6206793cf2dfaa70445b70"
+    },
+    {
+      "path": "public/guias/proyectos-alianzas-instituciones-paso-2.svg",
+      "bytes": 1462,
+      "sha256": "588ac1a67e8e38fff2f56b5c0b67b78528753bc425e9034ccb228d28b47d9231"
+    },
+    {
+      "path": "public/guias/proyectos-alianzas-instituciones-paso-3.svg",
+      "bytes": 1454,
+      "sha256": "e47a7f736c2f949d7808c76449da0de01e5f31831e6ffd10f8880d97ea6d10f3"
+    },
+    {
+      "path": "public/guias/proyectos-alianzas-instituciones-paso-4.svg",
+      "bytes": 1276,
+      "sha256": "9ea8e538d2652667ec6ab525eabb597b8ced54ca43205e12a3c8efd4d8c34aff"
+    },
+    {
+      "path": "public/guias/proyectos-alianzas-instituciones.svg",
+      "bytes": 2857,
+      "sha256": "fcafad5269dfd2064402d9c535e75aa079087d476f1562260ea83617f4dae483"
+    },
+    {
+      "path": "public/guias/publicar-vender-mercado-agro-paso-1.svg",
+      "bytes": 1272,
+      "sha256": "8e545fdb01a847887ffefb3165fa69a56e4a886506390571e6bb35294f307bd9"
+    },
+    {
+      "path": "public/guias/publicar-vender-mercado-agro-paso-2.svg",
+      "bytes": 1465,
+      "sha256": "29f663887b6e2d8a09f6087447e4b6ef89433b65b02e38b73272201b743111d6"
+    },
+    {
+      "path": "public/guias/publicar-vender-mercado-agro-paso-3.svg",
+      "bytes": 1469,
+      "sha256": "ed4b089bfa33ddf17287ce75cadfac540715cc6729ae7e55829da4007f66f24e"
+    },
+    {
+      "path": "public/guias/publicar-vender-mercado-agro-paso-4.svg",
+      "bytes": 1284,
+      "sha256": "37d03fc8130f5502b2540c4eda21bf36d469f66e0d4c52292965fd953ebd966a"
+    },
+    {
+      "path": "public/guias/publicar-vender-mercado-agro.svg",
+      "bytes": 3116,
+      "sha256": "64eebb95f1f63ac4c6e977ec0bd970bfac769ebe43f487852fadc6b75ca7a6d6"
+    },
+    {
+      "path": "public/guias/registrar-animales-pesajes-paso-1.svg",
+      "bytes": 1242,
+      "sha256": "20ecfbcfcc68ab59ac8205428b5dc8a61884a90704336231a01b614b46f39862"
+    },
+    {
+      "path": "public/guias/registrar-animales-pesajes-paso-2.svg",
+      "bytes": 1461,
+      "sha256": "4a57889985fbbcee1fd19cf0be113834d3c175ead060d1868539c3f5785af83a"
+    },
+    {
+      "path": "public/guias/registrar-animales-pesajes-paso-3.svg",
+      "bytes": 1459,
+      "sha256": "1321a812ee05af54afa360847e06df0454259db3a70e69e248495cca6902a461"
+    },
+    {
+      "path": "public/guias/registrar-animales-pesajes-paso-4.svg",
+      "bytes": 1264,
+      "sha256": "89f77f203990e8e3ca4401ac70e6bd8939fb599608a8e609f3dc8faf82228623"
+    },
+    {
+      "path": "public/guias/registrar-animales-pesajes.svg",
+      "bytes": 2834,
+      "sha256": "94014084db0d138232651a3794cf3f05145fa376100e5029911f4d403ae79465"
+    },
+    {
+      "path": "public/guias/trabajar-sin-internet-paso-1.svg",
+      "bytes": 1251,
+      "sha256": "57b9eed65617166ac96baa8fd4f9bd4a727b11fd5f7c65b00446f8eb8f44498c"
+    },
+    {
+      "path": "public/guias/trabajar-sin-internet-paso-2.svg",
+      "bytes": 1446,
+      "sha256": "b6f8c81a9ab97f6e0ebbc5d5ae8179d6f7499a718fb74991922047f7bbcd86a6"
+    },
+    {
+      "path": "public/guias/trabajar-sin-internet-paso-3.svg",
+      "bytes": 1460,
+      "sha256": "2dca3d6e74c09c291ced8e1cb392294eba099c2ad26ff13d7e42bb22c22f1e68"
+    },
+    {
+      "path": "public/guias/trabajar-sin-internet-paso-4.svg",
+      "bytes": 1264,
+      "sha256": "9ab9006ce99f2eefd9b2f896605349924a03369dcb6d706a5f11902242695829"
+    },
+    {
+      "path": "public/guias/trabajar-sin-internet.svg",
+      "bytes": 2594,
+      "sha256": "81f5a6b4a5e9d904489e250388a04ebcc87ccea479b61438b49496e52677a8ac"
+    },
+    {
+      "path": "public/hero-apure-1200.avif",
+      "bytes": 101655,
+      "sha256": "7f3898e7c48f4a7052a07d8e807cfd89676aa323ee020bee240775c96905f53a"
+    },
+    {
+      "path": "public/hero-apure-1200.webp",
+      "bytes": 96304,
+      "sha256": "6480f1608479c14704b1044ca972167be71de15fe2130bc7cebeceb3805532b8"
+    },
+    {
+      "path": "public/hero-apure-1536.avif",
+      "bytes": 131230,
+      "sha256": "07fcb8ac67242bde9e56552db357879ae36b533a98df8ec9cc89b702e4bf0cf9"
+    },
+    {
+      "path": "public/hero-apure-640.avif",
+      "bytes": 35256,
+      "sha256": "0cb9261fbf2a2343b544de5f2ac4be9ad1480dd655bf2d4a6d066f5bac0dab26"
+    },
+    {
+      "path": "public/hero-apure-640.webp",
+      "bytes": 34072,
+      "sha256": "be771986fedb238be34e59c89d2a9daaa350906d81db8432b3fc8e26db5b2a2a"
+    },
+    {
+      "path": "public/hero-apure.webp",
+      "bytes": 224168,
+      "sha256": "6596ab49134335fe0de141bcfc635c08e31e8301b1e92800212ffef368f483d7"
+    },
+    {
+      "path": "public/icon-192.png",
+      "bytes": 20233,
+      "sha256": "c0f32b649dff6a8e4625d38487759337dcf8a4ca1af4f8a07a8ae975c2c1ad25"
+    },
+    {
+      "path": "public/icon-512.png",
+      "bytes": 55799,
+      "sha256": "0a7cc31c8f2fc3805134466297193de820d25e4b6ddf7ed2daf6e2504c25f472"
+    },
+    {
+      "path": "public/icons/agro/animal.svg",
+      "bytes": 358,
+      "sha256": "80566bb57ff9586887c3ae3b262317a7b46cc6737359830cba833f8dceba2562"
+    },
+    {
+      "path": "public/icons/agro/barn.svg",
+      "bytes": 270,
+      "sha256": "c67b31151eba9ae245d19fe29532aa88573493bb86d51003567bc627080cbd55"
+    },
+    {
+      "path": "public/icons/agro/bee.svg",
+      "bytes": 319,
+      "sha256": "ad624c204de87de1fa086f0832658d048e3af219c3691e46406fc667d9c8afa7"
+    },
+    {
+      "path": "public/icons/agro/calendar.svg",
+      "bytes": 275,
+      "sha256": "62826269ca69c3843843c2da6fd9dae75099be08a69865b0aa81829afde764e7"
+    },
+    {
+      "path": "public/icons/agro/chicken.svg",
+      "bytes": 354,
+      "sha256": "8133842375a97d8524e59877b855fd89d9055d76e353cd1b43dd0fe8768bb3b0"
+    },
+    {
+      "path": "public/icons/agro/cloud.svg",
+      "bytes": 282,
+      "sha256": "9c38e3a39efb97c83d69686536758b44ac4a0eb7db34e096dcf9e6329025a5d8"
+    },
+    {
+      "path": "public/icons/agro/cow.svg",
+      "bytes": 346,
+      "sha256": "78936c22a89a2b763a0fa4a3bd25d89727c60155ad6ff8f1a8d5ae9555d19d5f"
+    },
+    {
+      "path": "public/icons/agro/crop.svg",
+      "bytes": 302,
+      "sha256": "894de46304442ec5b6fbdd2bd6e72bccf262f32673bf3fb58789f2fb4e83df46"
+    },
+    {
+      "path": "public/icons/agro/device.svg",
+      "bytes": 248,
+      "sha256": "679fe98b3a56663798097c9ff6fa953f91d56fdc79b229575a7df14f57fca263"
+    },
+    {
+      "path": "public/icons/agro/dna.svg",
+      "bytes": 279,
+      "sha256": "183431010c15819b6e9cf68e523ae0b8705be4de286fcb12eedf5f16821e54b1"
+    },
+    {
+      "path": "public/icons/agro/drone.svg",
+      "bytes": 312,
+      "sha256": "56f9d645533540cc5f602278196d1c81426b9169e3de1a813c94155c949cfc84"
+    },
+    {
+      "path": "public/icons/agro/fence.svg",
+      "bytes": 290,
+      "sha256": "6b52f8c61f2fe5b120609aed633ae79eaa0f1f139ecca6d02543622b159d6a58"
+    },
+    {
+      "path": "public/icons/agro/fertilizer.svg",
+      "bytes": 295,
+      "sha256": "c27029e93b1b91d1b330198adfb8d5eba8984b8db1ad1c49e1e5fa7ce014d214"
+    },
+    {
+      "path": "public/icons/agro/fish.svg",
+      "bytes": 306,
+      "sha256": "276bbe41d6f1516c54eb51dd7d5e1b482af770e2506883409eceeee27aea1b02"
+    },
+    {
+      "path": "public/icons/agro/fruit.svg",
+      "bytes": 296,
+      "sha256": "6654f41b03a44bd23a67934213ca5bc6c7ceb6444097c34054df7105495ae7fe"
+    },
+    {
+      "path": "public/icons/agro/fuel.svg",
+      "bytes": 265,
+      "sha256": "3e8f2ec583a4b8b6c383692de4d1ed39cea3f0e3ca22ea537f0d704d5147b3cc"
+    },
+    {
+      "path": "public/icons/agro/goat.svg",
+      "bytes": 330,
+      "sha256": "e13bf4c037712c3a7c1d6a71ebe74443b5f10764bb5e359a77cb53750605d0c4"
+    },
+    {
+      "path": "public/icons/agro/health.svg",
+      "bytes": 250,
+      "sha256": "14a8c876f89ecee28a2b125191ec049f5152e10fb67e1ac6c3bd50e94edd1ca7"
+    },
+    {
+      "path": "public/icons/agro/horse.svg",
+      "bytes": 311,
+      "sha256": "429cb69abb9933243e9aaeb1b1c62de577db6025a25361001cafe16b784682f6"
+    },
+    {
+      "path": "public/icons/agro/house.svg",
+      "bytes": 251,
+      "sha256": "efc8b601b31821ecc2c6ab8c48b77b82b1544bf1561df11976ad68d6f5291c19"
+    },
+    {
+      "path": "public/icons/agro/location.svg",
+      "bytes": 275,
+      "sha256": "dffd235f242eaf8f14afc9b2591ac45a8ab157e4cba1645684484d984f0c5bc6"
+    },
+    {
+      "path": "public/icons/agro/manifest.json",
+      "bytes": 2929,
+      "sha256": "9738cd3ed968a88c6de7dd8e2df00b9f8881dcaca2506e7ca6f5fac294e9ef44"
+    },
+    {
+      "path": "public/icons/agro/meat.svg",
+      "bytes": 293,
+      "sha256": "17714ce91e20a3e6035f5c1b10a180d0a2511a9aed5406d9388bdda09850d4f9"
+    },
+    {
+      "path": "public/icons/agro/money.svg",
+      "bytes": 345,
+      "sha256": "b60648e04ff583174b87a6f37303405d00c7792eae37522c193ba31fb72b24d9"
+    },
+    {
+      "path": "public/icons/agro/package.svg",
+      "bytes": 270,
+      "sha256": "53ce9d5818ef84cbb228dfdd0e82396efd57a4e17f509b140f50af06b349d301"
+    },
+    {
+      "path": "public/icons/agro/pig.svg",
+      "bytes": 322,
+      "sha256": "bfcc1d1def1c157cfa8071369e15c4345fc88826f82f2f1a83316de9fecffb29"
+    },
+    {
+      "path": "public/icons/agro/plan.svg",
+      "bytes": 259,
+      "sha256": "045f0c1cf9cbb43679f3b5566e3f43f9d61d5222a9fff997f15ceafea51c9f8d"
+    },
+    {
+      "path": "public/icons/agro/rabbit.svg",
+      "bytes": 333,
+      "sha256": "ac81dbbb90a98a81689abb86bfabb4918cb1cf4ea2c16d763ba9e6217feda2d2"
+    },
+    {
+      "path": "public/icons/agro/road.svg",
+      "bytes": 249,
+      "sha256": "d9a760c2fe69c5f1d843c253b8a10210649995ff57e0ced1016840157865d1eb"
+    },
+    {
+      "path": "public/icons/agro/scale.svg",
+      "bytes": 260,
+      "sha256": "490717755e732b57ce4c3493fb0be8f55c426932aa0def55f4bb0ec288b0186e"
+    },
+    {
+      "path": "public/icons/agro/services.svg",
+      "bytes": 298,
+      "sha256": "c12f9add14318faa64792b254e0221d83e64c84b73f284d47346d658e6daa969"
+    },
+    {
+      "path": "public/icons/agro/settings.svg",
+      "bytes": 257,
+      "sha256": "b4aca07e67aa57754817124cccbc51e7f7e9dc0302e80136a9dffa075da0da3a"
+    },
+    {
+      "path": "public/icons/agro/tool.svg",
+      "bytes": 263,
+      "sha256": "c45a62b7da6ea16e530b23c311ae003268f9db2bf5a2c11f43784427e8add5e2"
+    },
+    {
+      "path": "public/icons/agro/tractor.svg",
+      "bytes": 323,
+      "sha256": "7ef9cab23ad0af027c2a19bcf32638776674d3675f25f307b0aa0eec2e236b82"
+    },
+    {
+      "path": "public/icons/agro/tree.svg",
+      "bytes": 246,
+      "sha256": "5fa11d4e52d8df91d1031b6e2df2f5f9466b09b76503a94e76178787fe049e13"
+    },
+    {
+      "path": "public/icons/agro/vegetable.svg",
+      "bytes": 294,
+      "sha256": "aee62486eb119ebd3ee43cc860ae9c9e2a9a016fd89d5b76f9f2aa8e8e93efe1"
+    },
+    {
+      "path": "public/icons/agro/water.svg",
+      "bytes": 296,
+      "sha256": "a47f67bc86cc9e57c8c5f44f1ffdba9d04a3125f249a254b857367eef62b5e56"
+    },
+    {
+      "path": "public/icons/agro/wheat.svg",
+      "bytes": 405,
+      "sha256": "d583acd4f25775ef07e41bf8942969db742ed4208e93548395aff28b10602460"
+    },
+    {
+      "path": "public/icons/agro/worm.svg",
+      "bytes": 316,
+      "sha256": "665366d896c6a91ae9a85857671d925c29b375dd5c52929c30a556e01cb1cfaa"
+    },
+    {
+      "path": "public/institutions/inia.webp",
+      "bytes": 1882,
+      "sha256": "a05821bac4ec478a4acce7440dd4ea230caf9d7782ad377cf2c0f584c4fc6c47"
+    },
+    {
+      "path": "public/institutions/insai.webp",
+      "bytes": 38390,
+      "sha256": "8211b51a2adadadf7384153a883e7b641b6282eec917a2761d5633075892fce2"
+    },
+    {
+      "path": "public/institutions/insopesca.webp",
+      "bytes": 41924,
+      "sha256": "98f0fb926aebb11c0ab9c413c6e505a243581fdf1e0862e24ec9b2f38b0fa3dc"
+    },
+    {
+      "path": "public/institutions/inti.webp",
+      "bytes": 19132,
+      "sha256": "da8508a02c59672727cd41fb0652fe4717765f220e931e4d7dc91916f3f8c0c5"
+    },
+    {
+      "path": "public/institutions/saren.webp",
+      "bytes": 1612,
+      "sha256": "adddf068c7b7e5bf806fec78fb9fb436fcd81a0e0f39b7e1e5dab7c026d9b882"
+    },
+    {
+      "path": "public/inventory-examples/combustible.webp",
+      "bytes": 90776,
+      "sha256": "022025ba04620220bd19e364349a696d32a2ac2e49fbe2419ad1096e94036939"
+    },
+    {
+      "path": "public/inventory-examples/fertilizantes.webp",
+      "bytes": 26628,
+      "sha256": "b0dc20c7701278421e571874e33f694dae990a311bdf035aee302aae8a511860"
+    },
+    {
+      "path": "public/inventory-examples/forrajes.webp",
+      "bytes": 45444,
+      "sha256": "bfd99fec9a93980ca9bae24315f1e18691629aa24fdc51217d8a33c9f35c2205"
+    },
+    {
+      "path": "public/inventory-examples/herramientas.webp",
+      "bytes": 49674,
+      "sha256": "9c40495179043b1a37132417dbe8b115b897ffee9a59cccc329ede2695a69216"
+    },
+    {
+      "path": "public/inventory-examples/medicinas.webp",
+      "bytes": 7280,
+      "sha256": "be3274777f0a88f8b5bab21e464743ead1281680932e464656d012fb679cb812"
+    },
+    {
+      "path": "public/inventory-examples/otros.webp",
+      "bytes": 17692,
+      "sha256": "f910e1339a9bd6506be09a55f6bd59440aad4365210e6e4f581fec55e8a474f7"
+    },
+    {
+      "path": "public/inventory-examples/sal.webp",
+      "bytes": 39150,
+      "sha256": "6ab60c94120d77161666e24f97300bc3e7ccee4d7aac68c4a9f53862655c0270"
+    },
+    {
+      "path": "public/inventory-examples/semillas.webp",
+      "bytes": 60684,
+      "sha256": "ba0c3062c6956ded0662e5a312bbe83ecd24baa8c79bfe10e96fbd09f668e23a"
+    },
+    {
+      "path": "public/legado-familiar.webp",
+      "bytes": 100878,
+      "sha256": "559b9455766bd903d3a4118a0c2d94f3d5938eb55687738d1db03afc4a853a5c"
+    },
+    {
+      "path": "public/licenses/leaflet.txt",
+      "bytes": 1395,
+      "sha256": "53e8dc25862014e4324741ca18fbe3611e11d42ef69f59f86ea8c5389647d4cb"
+    },
+    {
+      "path": "public/licenses/proj4.txt",
+      "bytes": 1454,
+      "sha256": "d514fd8b286fc00a5c97a29f8a99b73f1a4053bbdd00c400aee5f24a1b6b301e"
+    },
+    {
+      "path": "public/logo-morochos.webp",
+      "bytes": 19778,
+      "sha256": "698d41030e865b7d1d596a9fb78ae4b52d84f269c6334fe8f53879059de654f5"
+    },
+    {
+      "path": "public/manifest.webmanifest",
+      "bytes": 1734,
+      "sha256": "b41f853413cd273e85debf6963df4b916a26e79d69ad525a9d9e0f05551b84d8"
+    },
+    {
+      "path": "public/map-context/venezuela-region-20261007-z6.pmtiles",
+      "bytes": 2521390,
+      "sha256": "bce4d01c0ae0310c2111d1727ea1062091a6ba298a5c77a67b0d661650bd7514"
+    },
+    {
+      "path": "public/map-packs/venezuela-context-20261007-z10.pmtiles",
+      "bytes": 9790298,
+      "sha256": "6932fce5754d60a3c8674451d03a7523a8aa3324a912fa250a22f582732a487c"
+    },
+    {
+      "path": "public/map-packs/venezuela-public-pilot-20261007.pmtiles",
+      "bytes": 567939,
+      "sha256": "10044fa6c78d798d1d1130b659cdb7defcc6589e9864fe27284b93f3cfeeaf0d"
+    },
+    {
+      "path": "public/morochito-transparent.webp",
+      "bytes": 78508,
+      "sha256": "e8ceeacb2eee9157eeaa071dfc4f0a264dc86f1e43ae5868d8eca95fcf3685be"
+    },
+    {
+      "path": "public/morochito.webp",
+      "bytes": 76476,
+      "sha256": "0de87d18d3c10ce92c81d09549171ff54bb00e526d06339328ceeb15c3f1acdf"
+    },
+    {
+      "path": "public/photo-cacao.webp",
+      "bytes": 240878,
+      "sha256": "4e2ca9d0be245026ce7b462e7e7f0b8e68b63d004955a040c048d3fc6536fe71"
+    },
+    {
+      "path": "public/photo-cattle.webp",
+      "bytes": 73646,
+      "sha256": "e3e32ed9f0503945fab4ffef4b59404818b41d28b1210277cb65e32ecc1421c8"
+    },
+    {
+      "path": "public/photo-digital-farm.webp",
+      "bytes": 60056,
+      "sha256": "723df5ec1ffa26de14e1d9a197467669f4bb2bc8b90b8c91b5f94855e2c4f6ba"
+    },
+    {
+      "path": "public/photos/amanecer-trujillo.webp",
+      "bytes": 394926,
+      "sha256": "2891be8aa0ad48828c2bda78bf629f1164950a982289222516996647cf823e2d"
+    },
+    {
+      "path": "public/photos/arreo-guarico.webp",
+      "bytes": 187034,
+      "sha256": "aa7496dbd0bd573f638b292ec056a8e045661ff2aca6a61c64e90866fa9ef192"
+    },
+    {
+      "path": "public/photos/campesino-yaracuy-idea.webp",
+      "bytes": 134326,
+      "sha256": "072a96da33ff61123532d016a13a7c71cf6d3718cb30bf25d8a21b41490e49e8"
+    },
+    {
+      "path": "public/photos/campo-merida.webp",
+      "bytes": 281606,
+      "sha256": "85576dfe2cdd83c3dd41539056512f504b4e81493653f4c0310470161dc72081"
+    },
+    {
+      "path": "public/photos/cosecha-papa.webp",
+      "bytes": 174502,
+      "sha256": "9834d79611d9d206191a127c9e306fcf332af3976e97cb977d61f8ae5e6aad7f"
+    },
+    {
+      "path": "public/photos/cowboys.webp",
+      "bytes": 305848,
+      "sha256": "649dda53e52d2d386ed3ce47260334f8f6b3936ec0ccf36c6c01404c28654505"
+    },
+    {
+      "path": "public/photos/faena-arrozal.webp",
+      "bytes": 156328,
+      "sha256": "f8eb40ec9bfc1490f312c5e9c9af088614641b8b81bb5a8adf8bd66e29821028"
+    },
+    {
+      "path": "public/photos/ganado-guarico.webp",
+      "bytes": 220494,
+      "sha256": "865d915d224be3e3a4bd372ad11c8b4ee101bedc8db3a14b10ec01592fbc32dd"
+    },
+    {
+      "path": "public/photos/jornada.webp",
+      "bytes": 562100,
+      "sha256": "ff1277ce6e040c561f2d48bd2a63de47edc510a2b0439b12e1a33bc22469ce56"
+    },
+    {
+      "path": "public/photos/llaneros-apure.webp",
+      "bytes": 331228,
+      "sha256": "2d6a00f60bae7ae901a81735e4d82e565b026d3d80043881cf6a637308551e37"
+    },
+    {
+      "path": "public/photos/llanos-sunset.webp",
+      "bytes": 58000,
+      "sha256": "3602ef20dd707c3e62ae3ef726127b4f7210adb5d79afddf87826119c447f872"
+    },
+    {
+      "path": "public/photos/market-examples/demo-apicultura-extractor.webp",
+      "bytes": 56210,
+      "sha256": "814b614b157a203e54add82c3d3b0abcddc01e12a436d48742ebc34096afbbe1"
+    },
+    {
+      "path": "public/photos/market-examples/demo-aves-gallinas.webp",
+      "bytes": 48654,
+      "sha256": "460e3f9fe03ebb4d18ca43bed1ad0438598e29764467a19229282eeac5831aae"
+    },
+    {
+      "path": "public/photos/market-examples/demo-bovinos.webp",
+      "bytes": 75824,
+      "sha256": "160eb425f593a754c9af7b632d79195ee03489d257ad4cabe1817a388f4f15a8"
+    },
+    {
+      "path": "public/photos/market-examples/demo-carnicos-caja-bovina.webp",
+      "bytes": 52282,
+      "sha256": "90648ee613211e949063c6453ef9f2ce804eb8c98cab95254c4f816102d21475"
+    },
+    {
+      "path": "public/photos/market-examples/demo-cercas-malla.webp",
+      "bytes": 43528,
+      "sha256": "73ee1d75c215f3b9192e8da0760b8d92026b3e430fafc10f4e24342dd8b21504"
+    },
+    {
+      "path": "public/photos/market-examples/demo-drone.webp",
+      "bytes": 20746,
+      "sha256": "594536a1931d7b1807438347dfddbefc4dd10b15e867e0cd906d1325a06c7d1b"
+    },
+    {
+      "path": "public/photos/market-examples/demo-equinos-yegua.webp",
+      "bytes": 53532,
+      "sha256": "a494b0d4c57fb8b5653515b61a66a6425bb0cc7c1de3755ecfee19fa8be1e6fd"
+    },
+    {
+      "path": "public/photos/market-examples/demo-fertilizantes-compost.webp",
+      "bytes": 81728,
+      "sha256": "2bf16ac957f633c8673f605d00c9e8a2318f09c322974de4b5925f74d16caf60"
+    },
+    {
+      "path": "public/photos/market-examples/demo-finca-doce-hectareas.webp",
+      "bytes": 58408,
+      "sha256": "3d8362ba3dadfb05152bc72d49231742e6ce95ebaa101086e4fdcce51969f6f4"
+    },
+    {
+      "path": "public/photos/market-examples/demo-frutas-pina.webp",
+      "bytes": 102292,
+      "sha256": "3769a9724d3f0dae26806af4e739688ea3ba411eff25c99f7bed99e39d74204b"
+    },
+    {
+      "path": "public/photos/market-examples/demo-genetica-tanque.webp",
+      "bytes": 65208,
+      "sha256": "6316a6251bf2f79be5b683f5e2b590d09c03a7026a5ca5351bfe0d55e1474bcc"
+    },
+    {
+      "path": "public/photos/market-examples/demo-granos-maiz.webp",
+      "bytes": 56200,
+      "sha256": "f27c0b3bc55c5fed7d79fd33def19ad88121f690fec7b5bbb2ddf867e8dcef0d"
+    },
+    {
+      "path": "public/photos/market-examples/demo-hortalizas-tomate.webp",
+      "bytes": 41224,
+      "sha256": "bdb03c9b168c66264da1539ce3b56d4e4a9639762c4282064fb4a326b12c4bc7"
+    },
+    {
+      "path": "public/photos/market-examples/demo-maquinaria-rastra.webp",
+      "bytes": 139480,
+      "sha256": "ee41daa0ef0b46181939e7e10e0576105f44c4f4369b0c85a8c8227e35f70fce"
+    },
+    {
+      "path": "public/photos/market-examples/demo-nutricion-alimento.webp",
+      "bytes": 166524,
+      "sha256": "5ee60899ebc4d43ea518b65589211187b375ac02e41cb3eba17ffa7c4b7abaaf"
+    },
+    {
+      "path": "public/photos/market-examples/demo-ovinos-corderos.webp",
+      "bytes": 90030,
+      "sha256": "6450da22c95c94bdbf6d1e16a8a21f55b6cac18de3aaa05bd637f13ac9b90dae"
+    },
+    {
+      "path": "public/photos/market-examples/demo-piscicultura-cachama.webp",
+      "bytes": 19518,
+      "sha256": "2ca5457e9af5f24bc9a76c1e30a21261b90957a88f1db2581f116a8a38b6b528"
+    },
+    {
+      "path": "public/photos/market-examples/demo-porcinos-engorde.webp",
+      "bytes": 59168,
+      "sha256": "e0b1d393bc39077fef81942d27e4b49b16fde8e1165d820689088ae8ac3c716f"
+    },
+    {
+      "path": "public/photos/market-examples/demo-semillas.webp",
+      "bytes": 35812,
+      "sha256": "191e0ba3c6fa952ea484dba275507cca7cb2dd38db67f8ae5b93af4c621ac19f"
+    },
+    {
+      "path": "public/photos/market-examples/demo-servicios-revision-cercas.webp",
+      "bytes": 67128,
+      "sha256": "6d33b1f6823c2169fdcb8e446512d17e89bea1fa6c8401907fe8dcbe3e7fca38"
+    },
+    {
+      "path": "public/photos/market-examples/demo-veterinaria-envases.webp",
+      "bytes": 5604,
+      "sha256": "b228fe878f68cd0c089dcd09612246aeb6d23b33b121a6ab2154e0111284e7c4"
+    },
+    {
+      "path": "public/photos/mercado-caracas.webp",
+      "bytes": 369406,
+      "sha256": "f9658584c80875dc2236f007f7a2dc659444eac545235ff435530cc2a525403b"
+    },
+    {
+      "path": "public/photos/ordeno.webp",
+      "bytes": 148914,
+      "sha256": "dc0f918d9aa938eaddf2f54030fb14c92b4d0718623ac4363779c08616d983b5"
+    },
+    {
+      "path": "public/photos/paramo-siembra.webp",
+      "bytes": 301952,
+      "sha256": "84b3f39d17f29c0e772d4ffe5b6059a9e64c80532f54752ffc6790e13064b4f3"
+    },
+    {
+      "path": "public/photos/vacas-llano.webp",
+      "bytes": 252322,
+      "sha256": "1ae1a8d328a820978804d18efedb061ac78e22b284c07cb2c582b510da932b19"
+    },
+    {
+      "path": "public/plan-oblique/banana-plant-256.webp",
+      "bytes": 21364,
+      "sha256": "1ad239463996a085837d6d8192c6684113a8353666c87991d2995c3cbb6b40ce"
+    },
+    {
+      "path": "public/plan-oblique/cacao-tree-256.webp",
+      "bytes": 28268,
+      "sha256": "7af5db3e15e88bf70891b531bdc1f4f4ef8d80aa9907090d3936aac67ed05e30"
+    },
+    {
+      "path": "public/plan-oblique/cattle-256.webp",
+      "bytes": 13342,
+      "sha256": "246f13750b521eff82c22425f5e21001d6a4a08dfb4f8519dc4591ddac60d054"
+    },
+    {
+      "path": "public/plan-oblique/chicken-coop-256.webp",
+      "bytes": 21164,
+      "sha256": "f831f4672d447eb52a77822cc5360ec3ae9ca7f7023bc57dad58ff36b74f49c3"
+    },
+    {
+      "path": "public/plan-oblique/coffee-shrub-256.webp",
+      "bytes": 28662,
+      "sha256": "f6e76957b3fb151fc85fa544e77312df321792ab678ef8a62d5f893d049b093f"
+    },
+    {
+      "path": "public/plan-oblique/greenhouse-256.webp",
+      "bytes": 17512,
+      "sha256": "efe9d9ce3f269ae57b791d55d7298f8daf6a9bd14e42ad3c7147ef833b7545e0"
+    },
+    {
+      "path": "public/plan-oblique/hen-256.webp",
+      "bytes": 15086,
+      "sha256": "c5eccfee4d5166ebcd112f09aeb02936d20a065d71da647e60b509a1fed6fec6"
+    },
+    {
+      "path": "public/plan-oblique/open-shed-256.webp",
+      "bytes": 14496,
+      "sha256": "3d109c89f6cc255c454c51ac8eee6208b0ded69b813f435c4825bb08b1460d37"
+    },
+    {
+      "path": "public/plan-oblique/pig-256.webp",
+      "bytes": 10658,
+      "sha256": "7a4dc9e7c237eafc69a0eef8f2dab1ff202a55b80bd3d4547396652f4d79cd97"
+    },
+    {
+      "path": "public/plan-oblique/rural-house-256.webp",
+      "bytes": 14186,
+      "sha256": "f88f2a4b2870e917aba378be4eca1abb6bfcae83d349ef0d42450673a08d5cf7"
+    },
+    {
+      "path": "public/plan-oblique/wood-cabin-256.webp",
+      "bytes": 17514,
+      "sha256": "c15a948783d6c13e46c7bfe4e8fc0fba7ae1a2e56d0758688783e13f20794451"
+    },
+    {
+      "path": "public/plan-vegetation/banana-plant-256.png",
+      "bytes": 86381,
+      "sha256": "8957929930bdd08f16fc0eb361c091328862d024e09c8c8c8260c3075f1778af"
+    },
+    {
+      "path": "public/plan-vegetation/cacao-canopy-256.png",
+      "bytes": 128470,
+      "sha256": "a9d7b8bab0395f31a5083eaa9b89460b910061ba32915100332d32e0da871290"
+    },
+    {
+      "path": "public/plan-vegetation/cattle-256.png",
+      "bytes": 30401,
+      "sha256": "b7fba010c7c25e9f70f5b046db4e5b16d9254357375a701f328ee493c99b354c"
+    },
+    {
+      "path": "public/plan-vegetation/coffee-shrub-256.png",
+      "bytes": 105370,
+      "sha256": "12a6608aec1101b4c5e9d4c6f27a6b247d442c7dc30d9fe43ab0e5841e61a798"
+    },
+    {
+      "path": "public/plan-vegetation/hen-256.png",
+      "bytes": 44002,
+      "sha256": "f68c5ceda18450ed34c30e16cc8eb6efa4721298ae8639082007b188e14494b9"
+    },
+    {
+      "path": "public/plan-vegetation/low-crop-256.png",
+      "bytes": 89387,
+      "sha256": "051a1c811d20b30d1fe91b59bdfef16c3f571682c6883416a5eb2d3c231463be"
+    },
+    {
+      "path": "public/plan-vegetation/pig-256.png",
+      "bytes": 44858,
+      "sha256": "38b3fbb49a138968034fd5a8f72244ef7e9b0dc5987d8b6c5fd8957a8bb41819"
+    },
+    {
+      "path": "public/products/aves.webp",
+      "bytes": 51628,
+      "sha256": "f54a8ced7a2a43fa965adec69176af555e34a82417c58bd2f7d8efd8c21711ac"
+    },
+    {
+      "path": "public/products/bovinos.webp",
+      "bytes": 71172,
+      "sha256": "07cbe95799f99bd1788decefc3606ca7e45d8dad40833aee9c287da1c990ae14"
+    },
+    {
+      "path": "public/products/cacao.webp",
+      "bytes": 38914,
+      "sha256": "bcc798c213d615e888ca7cc61800165445c03720cc5f4be43d98345f21574890"
+    },
+    {
+      "path": "public/products/cafe.webp",
+      "bytes": 27654,
+      "sha256": "cfab7cb850f0021331258cadcc43de61461a1d3d16aa230f0d4251aaa793f142"
+    },
+    {
+      "path": "public/products/cerdo.webp",
+      "bytes": 27586,
+      "sha256": "be91534ab5802ec93c687dc5626c3b6fcd1fe677a639d5937dac613ad2b030ee"
+    },
+    {
+      "path": "public/products/frutas.webp",
+      "bytes": 66138,
+      "sha256": "f5d8295870ad2d37e8c77201e8d1b72b68553c20dbd6b3012c3cd634011e842f"
+    },
+    {
+      "path": "public/products/genetica.webp",
+      "bytes": 28636,
+      "sha256": "430475047ee655265b411f21a715e31e8f55d267aa7893d98762c2b3d8c45f6a"
+    },
+    {
+      "path": "public/products/hortalizas.webp",
+      "bytes": 64344,
+      "sha256": "1dec124557125ce12d1c6f657663ca145a6d62259acc5d3ea4bbb45ae71a9d0c"
+    },
+    {
+      "path": "public/products/pescado.webp",
+      "bytes": 62000,
+      "sha256": "2f7e739966f1ed93465d7ce105bded6fb5a5f4b4e3f9d6d319feca3120d0ffab"
+    },
+    {
+      "path": "public/products/pollo.webp",
+      "bytes": 14394,
+      "sha256": "52004cd2f071de2de1002f87dc9b8af78f95458f40309bab3180baa6ab57f20d"
+    },
+    {
+      "path": "public/products/porcinos.webp",
+      "bytes": 60774,
+      "sha256": "7a5be937aa2f39c88a0522aa583c8d891f97f8c1ba40eeb7c329f9eb08639b6a"
+    },
+    {
+      "path": "public/products/res.webp",
+      "bytes": 55798,
+      "sha256": "50e7ee50a5a00bf7eb2a1d550fa31f3c79187bbebc6cb9191302d38c3432e79a"
+    },
+    {
+      "path": "public/profiles/ejemplo-acuicultura.svg",
+      "bytes": 816,
+      "sha256": "d1e20e32fb452f0d554b4489ac748e8ace664cf97daffefc2ac6ed2f44d87115"
+    },
+    {
+      "path": "public/profiles/ejemplo-agronomia.svg",
+      "bytes": 802,
+      "sha256": "2325d204f124b12a3f32b77356cf10b06df4779f474a88a33b025623f29b6e7d"
+    },
+    {
+      "path": "public/profiles/ejemplo-apicultura.svg",
+      "bytes": 818,
+      "sha256": "be2f86db3a80ccdee135c0674151d4b32fac782f7eb502acf94298fe392541ac"
+    },
+    {
+      "path": "public/profiles/ejemplo-avicultura.svg",
+      "bytes": 809,
+      "sha256": "38678025583340880c846849668bd752a086eaf6c77d6e1273b76b16891e2a87"
+    },
+    {
+      "path": "public/profiles/ejemplo-derecho.svg",
+      "bytes": 807,
+      "sha256": "a9b3de57f3c77b2ed00fe2399e937c15126155ce72660c072e7f3299a0cd88a9"
+    },
+    {
+      "path": "public/profiles/ejemplo-drones.svg",
+      "bytes": 808,
+      "sha256": "254b74dd74a56b1526287cb6a5903e55fbb5815aa8c01c8c450502d6c0168a69"
+    },
+    {
+      "path": "public/profiles/ejemplo-empresa.svg",
+      "bytes": 530,
+      "sha256": "f9fb0d050c57d20f2201ec94ab6b0a6814174ed93bd69bd7cc8df92d5ee1d984"
+    },
+    {
+      "path": "public/profiles/ejemplo-logistica.svg",
+      "bytes": 815,
+      "sha256": "e6b70cabcc584c6404e71b28dc9aeb98241db29dfd63397e706d8fb06ff89505"
+    },
+    {
+      "path": "public/profiles/ejemplo-mecanica.svg",
+      "bytes": 811,
+      "sha256": "6b7cafa265bb1bda9a45bc54c9a49ef743c4f440deedb25677443f1920e26043"
+    },
+    {
+      "path": "public/profiles/ejemplo-riego.svg",
+      "bytes": 813,
+      "sha256": "3b22b9d402571076c5d311b21b16e570691c7af1dfb86bba2958a36e36b2fa09"
+    },
+    {
+      "path": "public/profiles/ejemplo-topografia.svg",
+      "bytes": 803,
+      "sha256": "f90455dd50da563ef5a0593ef6308d64aa7fcfeb2d8686c45a8a72dae86be405"
+    },
+    {
+      "path": "public/profiles/ejemplo-veterinaria.svg",
+      "bytes": 802,
+      "sha256": "e584c7c07b216969a189a1a5bfaa088ac2d8a81a0d7d924abf8abb4b30f40000"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-acuicultura.webp",
+      "bytes": 27578,
+      "sha256": "78926416393a766cb58c6b69a26accbbf249279dbc32724a62d014524d6fa3db"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-agronomia.webp",
+      "bytes": 38348,
+      "sha256": "44342504a430b11a080706bf5533eb176265809a45c91db7cecb92b7db9c11d2"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-apicultura.webp",
+      "bytes": 36022,
+      "sha256": "035ecba43f9fa3687ade7eeb23b186b1f175d07d49b2efb46551ecbac329af40"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-avicultura.webp",
+      "bytes": 25540,
+      "sha256": "a29510399e3466e6d71c842b85bb5770702be1b3bd8656ccc7a854078b6734ef"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-derecho.webp",
+      "bytes": 23698,
+      "sha256": "3910b9deed02a0d418979b1d7f0c850068ae4ba35a1dfa7a5e74b4995f5ac4c4"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-drones.webp",
+      "bytes": 36626,
+      "sha256": "a7268d3f147fa505ae59befc7b194b07fdfa01a9290bfa6eb38c7c50078ef679"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-empresa.webp",
+      "bytes": 41848,
+      "sha256": "d96f5aa040771df2892bbc0bb4c1ac08ba2126a9e7fc1de1c2efd1c087efa11e"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-logistica.webp",
+      "bytes": 31748,
+      "sha256": "76e60d17ec62953c9388862f34ebd23b52411ab9c198b781981cf344324573b5"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-mecanica.webp",
+      "bytes": 33236,
+      "sha256": "fc7f52705beb7a296b05bb9666c560abdddfa87e6e2d351fa7bd237372744a9e"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-riego.webp",
+      "bytes": 26908,
+      "sha256": "897ec3d337430ea85a44aa4c1b3eea1a3864d38d99b9e9d9bb722c4f5952c505"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-topografia.webp",
+      "bytes": 30436,
+      "sha256": "9ffd681eeacfa34ab452409d6e2fecdccb0d358cc269fdf7e3c6e0f74a9f9dba"
+    },
+    {
+      "path": "public/profiles/fictional/ejemplo-veterinaria.webp",
+      "bytes": 31006,
+      "sha256": "fed87016e5cf138ea76837251f1549fc01ee76f8061e69ef3ed142dfdc013fc5"
+    },
+    {
+      "path": "public/satellite-packs/llanos-muestra-20260121.png",
+      "bytes": 1768170,
+      "sha256": "1f40baf8574e36c6d81e7a8b39c4be71cf69d3abe0c146d86528218a6035859a"
+    },
+    {
+      "path": "public/sticker-packs/coleccion-compacta-de4ceaf2a0.zip",
+      "bytes": 2812731,
+      "sha256": "d8e04dcc492c7302ee075c1525f0a5d6dc3ac309ad23d58d930a0cf852b0e18d"
+    },
+    {
+      "path": "public/sticker-packs/coleccion-completa-d89799ef2a.zip",
+      "bytes": 1751970,
+      "sha256": "6e3d9979751911cad43c5774b355a6b1ebc29d559d7ce513dec458a1dd92bc92"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--hombre-ea7e240d92.png",
+      "bytes": 96316,
+      "sha256": "ea7e240d926fab408619d17e54514c276e42c868d1e2bc3d33c9b59458c316e4"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--mujer-987768f9fa.png",
+      "bytes": 97814,
+      "sha256": "987768f9faf418ff7fca6ff4e7ba7741fe15a9b1ca5c8c892943676e2254c997"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--hombre-0b6fb981fc.png",
+      "bytes": 24699,
+      "sha256": "0b6fb981fc9cd2bb420cdb8722196bf977908644170aa31ff7c3b25f04f9e77a"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--mujer-08bddd3240.png",
+      "bytes": 23976,
+      "sha256": "08bddd324048bd63c9d1fc8b77b2c08b6814dd4af2e179f8b8dc955b54ee5bee"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--hombre-9ae8594448.png",
+      "bytes": 98728,
+      "sha256": "9ae8594448b399eba62cd0a32bfb5fbd7d1348f26a9b686f65f3c3f8f435912c"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--mujer-1726f80e37.png",
+      "bytes": 23062,
+      "sha256": "1726f80e37369ccc96d53b9559205a688634400b9560520307a42a08daeca0b1"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--hombre-e1a3d9e6d2.png",
+      "bytes": 75160,
+      "sha256": "e1a3d9e6d2fce9b5d6f89190b6974860d233d47ef7c1dcd58bbcf740f27fdf93"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--mujer-13e187db60.png",
+      "bytes": 67297,
+      "sha256": "13e187db60cacd6577ac7c80a67ec95d4e373b5ff253da1be9114e006d86e569"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--hombre-be2f92a35a.png",
+      "bytes": 27408,
+      "sha256": "be2f92a35a6fd7dbb9efbb8e8328575b4044d50cd49b878e0c4636fc1204ea3c"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--mujer-2798bff642.png",
+      "bytes": 23522,
+      "sha256": "2798bff642d1145ab57b0206249432ca015279e2c59a85b85d7a7d514c989485"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--hombre-538f57b95e.png",
+      "bytes": 27670,
+      "sha256": "538f57b95e035fa2267456aa265605a27753555d9f7f76030e1e9e7546bf6ecc"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--mujer-9d96aeebae.png",
+      "bytes": 27405,
+      "sha256": "9d96aeebae01152cee8c72a3735b2e0a728e7486e368c30eb6b2e48448bc501c"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--hombre-b31d41ff98.png",
+      "bytes": 76566,
+      "sha256": "b31d41ff98d5d4f92e0ad5178627a47f892661141a961ef94e319b663c1699b6"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--mujer-b4be7da00b.png",
+      "bytes": 71957,
+      "sha256": "b4be7da00bc9096d04329db5d1fba10f4429606a7c2b6fdfce20056c0a3e8c5b"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--hombre-c705de780f.png",
+      "bytes": 82799,
+      "sha256": "c705de780f2735c2a6a6acc6f0cb30d343df24e921a37e349b3ce2faa2265695"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--mujer-e48ddb8290.png",
+      "bytes": 82284,
+      "sha256": "e48ddb82905d4a304ee4e54ac72d37b7642429278b422925c23251a8240c5086"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--hombre-7e1210e3fe.png",
+      "bytes": 73761,
+      "sha256": "7e1210e3feeeb1373769a60d2bcfbc91ec5faceae0c2614cd54e808d014fcf6f"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--mujer-bf7eb7f44f.png",
+      "bytes": 74886,
+      "sha256": "bf7eb7f44f0d937f2071c8ac37616f403d5128c89c79699d39aac30c8943bd48"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--hombre-ae730bac4e.png",
+      "bytes": 81898,
+      "sha256": "ae730bac4eb404d1bdc4946b05196a3db91b0026aca820ee283ad43ef9e44fb7"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--mujer-a2122a0dab.png",
+      "bytes": 68688,
+      "sha256": "a2122a0dab8c7be67704d9dc2ecc157b0551755360c6f23c016458f63052e86f"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--hombre-bd29ad4cca.png",
+      "bytes": 72176,
+      "sha256": "bd29ad4cca007bc97750274b213d7f425b52f2266e8419d3d49b7677335f8f34"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--mujer-766b3cf92e.png",
+      "bytes": 71669,
+      "sha256": "766b3cf92e750fb3a955f0f715ecf836cf2e18900a3d8a34bb4593d41703c566"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--hombre-d401a414a1.png",
+      "bytes": 82958,
+      "sha256": "d401a414a1b93d8496e48bb61998e7a86570dac17b13c34bc40c682de3be4844"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--mujer-c053b22902.png",
+      "bytes": 87645,
+      "sha256": "c053b229028a8a96d3d1ec7b809489d674fad5f786a8ebb99e5045dfdbccd866"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--hombre-8fe303ea04.png",
+      "bytes": 89036,
+      "sha256": "8fe303ea04a27be72ca2b5c6839ce955227507ddfa6e5dff7c1d0474ef815129"
+    },
+    {
+      "path": "public/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--mujer-baa1e2a1a1.png",
+      "bytes": 82468,
+      "sha256": "baa1e2a1a17dc4107ee8bf38d8f1a29efbe2e5fb78fce642d228ed4b0a0f1562"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-caballo-73bb49d85a.png",
+      "bytes": 24379,
+      "sha256": "73bb49d85ac0146fce1e4db0eb9cef328e695b45cf1826172d0bb18add352a4e"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-gallina-77493f1068.png",
+      "bytes": 28176,
+      "sha256": "77493f106813194af45071eacd52e1f37d684949502fe6ae123ab108eead0771"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-gallo-2f8e50dc43.png",
+      "bytes": 31098,
+      "sha256": "2f8e50dc4326ec1e85a4e2557ead6d6a1ec8e6584edc990f944266f17951c426"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-oveja-01769bb7dd.png",
+      "bytes": 26217,
+      "sha256": "01769bb7ddc8dee0b79280027d91a87967cb99db8a0545078583f23954157916"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-pollito-b76755a43b.png",
+      "bytes": 93248,
+      "sha256": "b76755a43bdf4da70844fc870593e922b31b4879e87a19baa0f0691519a533c3"
+    },
+    {
+      "path": "public/sticker-packs/compact/animales-vaca-a0d5a4e818.png",
+      "bytes": 26716,
+      "sha256": "a0d5a4e81845d986dc713b3918c50b9d8edab13fb7f24493f59563c98ddc38b5"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-bomba-de-agua-e16b03cc21.png",
+      "bytes": 31784,
+      "sha256": "e16b03cc21205f2e9b6f03f92e7b989b8a5b61cd15e208f2426a4b0b94360962"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-desmalezadora-551bbd59d9.png",
+      "bytes": 72747,
+      "sha256": "551bbd59d91a9594a450838aaf33370e9bd42bcb85ba335e4ca8de90aa00950a"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-destornillador-caf5167663.png",
+      "bytes": 62556,
+      "sha256": "caf51676639419c84c654bac91de538a58b3acd828a55c6716317e65a4dbd644"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-drone-agricola-4a44ae3017.png",
+      "bytes": 84640,
+      "sha256": "4a44ae30173e3e9475871c935f92b00228bdca552bcf9840be8bbe97b9329694"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-grapas-para-cerca-45a5de2bdc.png",
+      "bytes": 27480,
+      "sha256": "45a5de2bdc33a69c38540e017232693203ca9f1d77b043be33bac81793204112"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-martillo-d25a7d5af5.png",
+      "bytes": 79856,
+      "sha256": "d25a7d5af5ba3b9b22ab46a004d222c669daab4185945ba01dcab538c0e543bb"
+    },
+    {
+      "path": "public/sticker-packs/compact/herramientas-tractor-a5df4bc57b.png",
+      "bytes": 28802,
+      "sha256": "a5df4bc57b7feef43b2582c7f269437cba02b9341c515c449328ebb7945d16cc"
+    },
+    {
+      "path": "public/sticker-packs/compact/hortalizas-fresa-419619230d.png",
+      "bytes": 29664,
+      "sha256": "419619230d681ded45c9e0b2590cc8dc8486eae782fa3d0ecfb4dea7dfd67539"
+    },
+    {
+      "path": "public/sticker-packs/compact/hortalizas-zanahoria-ad554b2b22.png",
+      "bytes": 26005,
+      "sha256": "ad554b2b223c32288cfeeb96731c5cf248083aef56f75bb594f4bef487842911"
+    },
+    {
+      "path": "public/sticker-packs/compact/instalaciones-corral-3056f2f592.png",
+      "bytes": 23436,
+      "sha256": "3056f2f592fa81431a0e5bb137a9446ce40f61a057f29d9c2d9142a347df250e"
+    },
+    {
+      "path": "public/sticker-packs/compact/instalaciones-finca-d9a9f1e6f1.png",
+      "bytes": 31968,
+      "sha256": "d9a9f1e6f1d669b96540796e5e3a2935009e41dedb67e90f35224bea082fea77"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-acuicultura-peces--hombre-95c9673316.png",
+      "bytes": 29189,
+      "sha256": "95c96733169b5e55cccd948f5587daf38923620213b6212b5003860baca2b4f5"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-acuicultura-peces--mujer-5dd0cb7876.png",
+      "bytes": 28644,
+      "sha256": "5dd0cb7876ac1af6bed7e58010f26e6ae24db4e38e268a7b1820d66bbaa8c28b"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-agronomo--hombre-3d055ddd53.png",
+      "bytes": 72557,
+      "sha256": "3d055ddd5348ec81a5a88fefbf177e6d801b6561420a60608279ff2ca105ba1b"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-agronomo--mujer-799450ae80.png",
+      "bytes": 71245,
+      "sha256": "799450ae80990ffca9121c6e9ff0cade49fd15b715f9be670f81d2e6a71424d0"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-veterinaria--hombre-a4536b2ba6.png",
+      "bytes": 93207,
+      "sha256": "a4536b2ba6cd191fdeca28893253c8724af5be9553c26b398303cbf8592bfff4"
+    },
+    {
+      "path": "public/sticker-packs/compact/profesionales-veterinaria--mujer-215d11949d.png",
+      "bytes": 99909,
+      "sha256": "215d11949dd72a92b84264e3b4d8c1b24dd63f83855f458f0e1917cec6f979f9"
+    },
+    {
+      "path": "public/sticker-packs/compact/sanidad-vacuna-veterinaria-ee66f506ec.png",
+      "bytes": 24246,
+      "sha256": "ee66f506ec4707de6b8a1789a2b2a902e59e9e520f8843e0e6089ff23335378b"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-cabra--hombre-6b5a9691d6.png",
+      "bytes": 33446,
+      "sha256": "6b5a9691d601b53660fe798101b33469d1601f87d3aeed5b5e12b49aadcfb2a7"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-cabra--mujer-c54770b433.png",
+      "bytes": 35319,
+      "sha256": "c54770b433c7954915385ae9f6cceb4ea8c6bf376746e6c30d87242e56b3b82e"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--hombre-a3420959ea.png",
+      "bytes": 36219,
+      "sha256": "a3420959eacff9e04484072f77fd3895bbe82e01c44d59e4ff505f3850da3dc3"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--mujer-5711862833.png",
+      "bytes": 35041,
+      "sha256": "5711862833ffac99d2fd872ff552ef2d54102df1cd74bd8a3296234db7afc800"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-conejo--hombre-f0d17522e5.png",
+      "bytes": 33632,
+      "sha256": "f0d17522e580b66f7fa8bddf159e14926a8b89aae46fbe6410f54f204b8dd2fb"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-conejo--mujer-e71dcb6265.png",
+      "bytes": 34548,
+      "sha256": "e71dcb6265a084f656bbd6f6a2d324b1b53df5234b6654853e9a83edd8cfc6c1"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-gallina--hombre-e1be8e79e7.png",
+      "bytes": 26823,
+      "sha256": "e1be8e79e71f97796ab32135600d42292f39b90977d285380b92270471ee1919"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-gallina--mujer-03289a0829.png",
+      "bytes": 24211,
+      "sha256": "03289a08294de12f803dba1cf321496b8f4ffd60f3299f04acd64b13a3bbfe78"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-oveja--hombre-e6f34b6f9f.png",
+      "bytes": 40228,
+      "sha256": "e6f34b6f9f06c68a910545d83ff645e312dd8bd34e775a3d5662cc503583ec1f"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-oveja--mujer-0eb298c356.png",
+      "bytes": 34895,
+      "sha256": "0eb298c35672c39875e585c203f65c47296b1dc4242030e6c7a8c4a3fe8c84cd"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-vaca--hombre-5ab26382f8.png",
+      "bytes": 41219,
+      "sha256": "5ab26382f8d2fae9bc65644e5325cf51300ef0b90b477d77ebe3df79b9c70117"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-animales-agricultor-con-vaca--mujer-41196eaaf8.png",
+      "bytes": 39994,
+      "sha256": "41196eaaf8570399873f2ec1b2b2338c77be151a5455ff4e3bbb1080afb35752"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--hombre-5572e6ee98.png",
+      "bytes": 29330,
+      "sha256": "5572e6ee988ad5a09526dab26c882729594ed5795b2d5c4d702d28516ec322cb"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--mujer-1660981fa5.png",
+      "bytes": 27096,
+      "sha256": "1660981fa5458004c62384dd367994a7177417027947fd23e476600913d937cc"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--hombre-3fc9c4decb.png",
+      "bytes": 30377,
+      "sha256": "3fc9c4decb764258d33d37379aa0856d0630f2a7fca665fc4d08fc3768077717"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--mujer-caf2b0d1e9.png",
+      "bytes": 29705,
+      "sha256": "caf2b0d1e9ef7589a9a5767934d5ac6e8237d258d0bacd5ad578155ea55aca34"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--hombre-ee722a57fc.png",
+      "bytes": 28074,
+      "sha256": "ee722a57fcb032bdc3479f9aef802ed426575ca5d594e7e6e65a04ec8be63211"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--mujer-a9f5b22f3e.png",
+      "bytes": 27791,
+      "sha256": "a9f5b22f3e78b687c7172c8422ba87dcb89f594cd2028796f72ae922912089b2"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--hombre-641268208e.png",
+      "bytes": 28792,
+      "sha256": "641268208e949deebaa0af52e24370ae63a62dff80e1a4cca63334f27d39c144"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--mujer-576d0c7e69.png",
+      "bytes": 24713,
+      "sha256": "576d0c7e69c4dc88fbf48188e8e0ed0c087084d9a789c4c6426facdaaa71ef44"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--hombre-b88111d5e2.png",
+      "bytes": 25991,
+      "sha256": "b88111d5e2664592cdeb00909d623ece90f8fe98bf78e933594a9bb674928922"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--mujer-ef27ab2fad.png",
+      "bytes": 25816,
+      "sha256": "ef27ab2fad76b1fbdd427c9cbbc71424b57ac51a751ccd8672721391b7272d61"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--hombre-7212e6383e.png",
+      "bytes": 29666,
+      "sha256": "7212e6383ef231355319f98473587c2352cc13a5f6302eae842e99f031208b3a"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--mujer-22292230cf.png",
+      "bytes": 32916,
+      "sha256": "22292230cfdd768e8d50f4d29974c7208c96d168a31f1f8e281823518bf3fd92"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--hombre-0af77f3edc.png",
+      "bytes": 33832,
+      "sha256": "0af77f3edc95f171f34d6dade77b3c213f5b544d733d4c3a5c1b45d2543fc406"
+    },
+    {
+      "path": "public/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--mujer-e1a1a36419.png",
+      "bytes": 30678,
+      "sha256": "e1a1a364198895d13da268d105b7c5850977460a0f88fcf13427ee6d197469e7"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-caballo-6297ecf75e.png",
+      "bytes": 36460,
+      "sha256": "6297ecf75ee03f2b0c919b7e16306604dc13cc24a9aed9216512f78cc1ad86b2"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-gallina-2e72fd4c9a.png",
+      "bytes": 41818,
+      "sha256": "2e72fd4c9a8c916dd7085901112e2e8a3ac743a54b73b1dc2f2eb26d37b1f7f4"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-gallo-901a6f42cd.png",
+      "bytes": 46521,
+      "sha256": "901a6f42cdba88ded07ae619868a2e4d95e4d7703872ed039a3adb206336409c"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-oveja-cee435e3ad.png",
+      "bytes": 38726,
+      "sha256": "cee435e3adcca3c8470b85f10d468321585950c1ab746b0e736d123d0560649d"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-pollito-babed4f413.png",
+      "bytes": 28485,
+      "sha256": "babed4f4135ab8d3714d6883b06af61c8f3937f9aa47b4a136b725582e0b6b9e"
+    },
+    {
+      "path": "public/sticker-packs/png/animales-vaca-51aac77140.png",
+      "bytes": 39709,
+      "sha256": "51aac7714074b593f1cfe995965c09629c9e2554f422b56df903f96b41f2949f"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-bomba-de-agua-b604eb67ce.png",
+      "bytes": 47377,
+      "sha256": "b604eb67ce5a13a356fb815948be8cde6bd7acc684357486202b0c469df8a437"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-desmalezadora-e72838f8bd.png",
+      "bytes": 24762,
+      "sha256": "e72838f8bd7de767a27b9e61be3d80f66678f7f33180290e771dc2f0dd646e34"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-destornillador-a57f0d1270.png",
+      "bytes": 94901,
+      "sha256": "a57f0d1270635207b636a340794f20809ab56c0080d14aeb9ab24777da8e83b6"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-drone-agricola-be2a5c4cd8.png",
+      "bytes": 29283,
+      "sha256": "be2a5c4cd864b5d98ff787aaba08edf85bb3f6427fe45a525042cf14e4ec9847"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-grapas-para-cerca-eba1cf8653.png",
+      "bytes": 42266,
+      "sha256": "eba1cf865375d8716d292b20ed91f85778058653208a30183ba96cd07a3df1f9"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-martillo-b21d4f55ea.png",
+      "bytes": 26896,
+      "sha256": "b21d4f55ea25c193dfd432161b658ae4e18a85fba554e7e69d9dd3f450ed99bf"
+    },
+    {
+      "path": "public/sticker-packs/png/herramientas-tractor-cf4b302f90.png",
+      "bytes": 42092,
+      "sha256": "cf4b302f90d6c6cf033c1f7702d5f4663944eee793614fb3e3a95939e3a17f8b"
+    },
+    {
+      "path": "public/sticker-packs/png/hortalizas-fresa-65c1621307.png",
+      "bytes": 44114,
+      "sha256": "65c16213077f809349a65006fb489505b03ea533fad60ec52aeeac951cd1f74b"
+    },
+    {
+      "path": "public/sticker-packs/png/hortalizas-zanahoria-688066ef6f.png",
+      "bytes": 39014,
+      "sha256": "688066ef6f765f3693c5c77e34679532d0eecec08402c4cb19c3f50ee7e80fff"
+    },
+    {
+      "path": "public/sticker-packs/png/instalaciones-corral-bb17523351.png",
+      "bytes": 34732,
+      "sha256": "bb17523351709cd29c2a4ec9dafd51a4939c6ebf3e44943882f5ea792a10aeba"
+    },
+    {
+      "path": "public/sticker-packs/png/instalaciones-finca-5b1a64fe88.png",
+      "bytes": 48140,
+      "sha256": "5b1a64fe885b333bba3f950cb309b42de304669fe398cfcf2cfa3726d0dd1d60"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-acuicultura-peces--hombre-fc7603d37b.png",
+      "bytes": 42363,
+      "sha256": "fc7603d37be64e3a861395022ff205120179917a4d30f5d557d26f97c57290cc"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-acuicultura-peces--mujer-a553aab16b.png",
+      "bytes": 42481,
+      "sha256": "a553aab16b6330567fbd59cada78706f5cf05d8a96b1a93138fe83294c706923"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-agronomo--hombre-53222c8ffa.png",
+      "bytes": 25810,
+      "sha256": "53222c8ffa6c73f361c78adc24ee54181175ee025813acc2a4fb6501b9615bb2"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-agronomo--mujer-1d7628f17a.png",
+      "bytes": 24967,
+      "sha256": "1d7628f17aecd00309f41891deda3c57846f4ca9db5d8c4e9b8425c7b5b8fdd6"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-veterinaria--hombre-c6367037e3.png",
+      "bytes": 32625,
+      "sha256": "c6367037e3766acf03ee876065f9e8229cf2501ba8b8983f99323d1d8404bfd1"
+    },
+    {
+      "path": "public/sticker-packs/png/profesionales-veterinaria--mujer-0a1a49b0a2.png",
+      "bytes": 34772,
+      "sha256": "0a1a49b0a252fcbba3ab6a7790db594341db5790a0eb440bb961344bd674d345"
+    },
+    {
+      "path": "public/sticker-packs/png/sanidad-vacuna-veterinaria-6c182e10e5.png",
+      "bytes": 35458,
+      "sha256": "6c182e10e537ae80e45c7692dd9af2dcd5d8475519e7b50944ae0fb6aed8fefd"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--hombre-85a9136c0d.webp",
+      "bytes": 17642,
+      "sha256": "85a9136c0d66290267e63d0e11fe5b1781495e1cf4eb4f76bad4955fcaae8b80"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--mujer-ed89a43cda.webp",
+      "bytes": 18428,
+      "sha256": "ed89a43cdab1882ef67a2f273c0499d461ef0bc4744f7bdc21dd7e226e81bb7a"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--hombre-cba5ea5165.webp",
+      "bytes": 17964,
+      "sha256": "cba5ea5165b332c9aae1ed2f95ab836082249cb170efd37145f17a9ad2304813"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--mujer-0ba8d795df.webp",
+      "bytes": 16626,
+      "sha256": "0ba8d795dfff1aa69c0b492cf0df9e9eda73bf6e9c2f67b081adae6f237ad568"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--hombre-300d9fc1f7.webp",
+      "bytes": 15596,
+      "sha256": "300d9fc1f7462e2d068f39e975599a4204bf58a27da071cdf272ade6e60f7a95"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--mujer-d6c23d4cfa.webp",
+      "bytes": 15914,
+      "sha256": "d6c23d4cfa2fe8eb3d0ae8fe38b09fbbbea37aefc2d82cdf402c403383236417"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--hombre-055378424d.webp",
+      "bytes": 14104,
+      "sha256": "055378424d5c67652c6b11d4bc97dc1d24cb51c4de384b5016c2dc69de8ffb94"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--mujer-f80233e730.webp",
+      "bytes": 12932,
+      "sha256": "f80233e7303a7aa999f1203a456cfdf59ec92bd6668b4e924b34e7b2959d01ae"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--hombre-e79549e714.webp",
+      "bytes": 18874,
+      "sha256": "e79549e714b7ca5ec78eddb3bf8b7c2013ec0d908ff1450fb510e0bbd0797010"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--mujer-d3e9cbb78f.webp",
+      "bytes": 17592,
+      "sha256": "d3e9cbb78fc36d0409edae5fa8ef2f26b7b8425f6f61fc3a0d7b1c92643a9fde"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--hombre-72003c14e0.webp",
+      "bytes": 21384,
+      "sha256": "72003c14e0be73ed42803b62402398a5583d2a732f2f483746b88b84f29345bd"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--mujer-7a1584d1dc.webp",
+      "bytes": 21126,
+      "sha256": "7a1584d1dcc378c99fad6fa20c5067663d8194346cf2fdba0ddb7e999febcab7"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--hombre-3dd98e89e6.webp",
+      "bytes": 14388,
+      "sha256": "3dd98e89e64afcd5c723839cb7c34391ac99cc4a59f05710db5e08be9acecbeb"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--mujer-4a3bab6f5c.webp",
+      "bytes": 13832,
+      "sha256": "4a3bab6f5c566fe8fe4ca7314dd0e61b21852a3fea3510c540e6990f0b7d3001"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--hombre-13d2ffad03.webp",
+      "bytes": 15456,
+      "sha256": "13d2ffad03deddab1e87c77b9178298f711c4f054c4d6794cc6fc9538ee651a5"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--mujer-a69dbd0ff8.webp",
+      "bytes": 15354,
+      "sha256": "a69dbd0ff89fec1e4d214adf50c3d8f97d0636153be4a9136eeb55883d52404f"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--hombre-a416e2aa00.webp",
+      "bytes": 13838,
+      "sha256": "a416e2aa00a9680cc7629e0ef55ab52717f0ce63d442bd732cae4caef41f023d"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--mujer-9a19b699c4.webp",
+      "bytes": 14314,
+      "sha256": "9a19b699c43d3b3b0fd3c498ea0a95ff6da221e1870e3d6f17169382e5477369"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--hombre-cf548c3acc.webp",
+      "bytes": 14894,
+      "sha256": "cf548c3acc334b7d896ef96ac0d69928c473fc452531aca1135aca0b8ffee559"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--mujer-1d6d8f4500.webp",
+      "bytes": 13046,
+      "sha256": "1d6d8f4500bff8553928be5db34a2daeed7bf896555c693f5d987eb45bcdc2e4"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--hombre-e7e01384c5.webp",
+      "bytes": 13644,
+      "sha256": "e7e01384c5ccddbc42b93568ae290f17afcd466d28ad46487794eae1e8441231"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--mujer-2e98dae360.webp",
+      "bytes": 13798,
+      "sha256": "2e98dae360c7d57f0b445590f80dec620af5a150d219df08d8a54796ac2f2c5b"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--hombre-b5a6c6222c.webp",
+      "bytes": 14950,
+      "sha256": "b5a6c6222c423cb109e556206821485df39772a1d2a5ae9c7e42b0516ea6db69"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--mujer-5c62c99c78.webp",
+      "bytes": 15832,
+      "sha256": "5c62c99c78863a2f27fb582324fa8f6ddc308302433412913ec4f64a43408eb7"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--hombre-408a629433.webp",
+      "bytes": 16142,
+      "sha256": "408a6294336dbb44223a7fc3230cf8e116a26696514f552b5bc93f88b77fb4fb"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--mujer-b185d2f01d.webp",
+      "bytes": 15002,
+      "sha256": "b185d2f01db491fff619a3b828eb2a27c6c0d58a0499fcdd6e19804e4ae85ce1"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-caballo-6cc655a4f3.webp",
+      "bytes": 18250,
+      "sha256": "6cc655a4f35179de89e8fb122f2177cfcf07e36488eebb8a6570019a57f245c4"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-gallina-06ed37eb62.webp",
+      "bytes": 19586,
+      "sha256": "06ed37eb62f491084ecaace6c26d9119f4deda3189f4bd570b1dc03e8c2c29e7"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-gallo-eb1674d361.webp",
+      "bytes": 20382,
+      "sha256": "eb1674d361933260cd1f854224dee24eb4a09f6a4b2cd1971360739920a1154e"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-oveja-a6f9524a57.webp",
+      "bytes": 20718,
+      "sha256": "a6f9524a5749a329bed535ef8645de866a4c21c206cfc882b4eb1900bd216a1a"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-pollito-abb8559719.webp",
+      "bytes": 15146,
+      "sha256": "abb8559719a454e0c9d253f0e3742bd20287562c7da83968e8dc0261cd17f130"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/animales-vaca-14fbb27d8c.webp",
+      "bytes": 21188,
+      "sha256": "14fbb27d8c7bd2aa61d2236522e80796e2e9a9dc2738e0459a75b2a077e699d8"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-bomba-de-agua-37581ed070.webp",
+      "bytes": 24566,
+      "sha256": "37581ed0700b5ca4b51e88115e81dd09f132aaa3d37fca578c0ac5b601cfc71a"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-desmalezadora-1d795d272f.webp",
+      "bytes": 15380,
+      "sha256": "1d795d272f5d5cff21d979bd41cfe9aa68c5f6b9f4ce6877971f503516b9d017"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-destornillador-de77d6209e.webp",
+      "bytes": 11162,
+      "sha256": "de77d6209e2f8507a321c15af6ac227d98a586d80142a2e06d153abfc8cd3675"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-drone-agricola-6d3ded46c3.webp",
+      "bytes": 17844,
+      "sha256": "6d3ded46c3e982eb7f67e3d6fac3d811abac09b33cc9d28e6fa68638799fb778"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-grapas-para-cerca-358eee9bad.webp",
+      "bytes": 19518,
+      "sha256": "358eee9badb423198c811208108e914e7a5a0e1f21900647b3cc9ac781ced314"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-martillo-1c53325ac2.webp",
+      "bytes": 13890,
+      "sha256": "1c53325ac23071f4072d519afa953b8ebe69a2efcd4d6d10ba06a289974c00d0"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/herramientas-tractor-4de5f01d39.webp",
+      "bytes": 21778,
+      "sha256": "4de5f01d39bd8840bfe2d9e8995c156b4d8d1309336f08ddbaf7dd8e94223057"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/hortalizas-fresa-a615a5563e.webp",
+      "bytes": 19148,
+      "sha256": "a615a5563e1e8f88c948755732bb63c072f00adcdf8b1618af675905e78e70f0"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/hortalizas-zanahoria-4328f11362.webp",
+      "bytes": 17764,
+      "sha256": "4328f11362346fbc3821c567227311078ea145e17e7fb4fb5ba904a53b2c609e"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/instalaciones-corral-322905fd84.webp",
+      "bytes": 18928,
+      "sha256": "322905fd8427486d81f381b236f17a203cd359c519584fa1ce78a9cdccb331a7"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/instalaciones-finca-2327429118.webp",
+      "bytes": 18888,
+      "sha256": "23274291189edd399930dd710ec393e5f535c95a56e6248f6783e30d38a9e498"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-acuicultura-peces--hombre-e3b6381195.webp",
+      "bytes": 18884,
+      "sha256": "e3b63811952bece105d2b394a01410a8be07dcfb5b6ed66b7dd355a0f9e6bceb"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-acuicultura-peces--mujer-d04903e6c8.webp",
+      "bytes": 19606,
+      "sha256": "d04903e6c822814539e7a31c1e1b4d6d04b96520309a95c7fca75873cc8aeecf"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-agronomo--hombre-9ceae24ad1.webp",
+      "bytes": 14024,
+      "sha256": "9ceae24ad1589d59509951bf1781a2070e4ebbe43e6c061d96481d2a8952aa4a"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-agronomo--mujer-458d21a005.webp",
+      "bytes": 14068,
+      "sha256": "458d21a005928f4dde52f624e1faaf89acdd4de7897a618b09351ac71aea12db"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-veterinaria--hombre-3549248c9f.webp",
+      "bytes": 14490,
+      "sha256": "3549248c9f9ca42dd09fac82cd4366e1ac1ec90918e1d02de2c7086e9fa38e7e"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/profesionales-veterinaria--mujer-7540c5d419.webp",
+      "bytes": 15826,
+      "sha256": "7540c5d419d698d20805d32d3253ee4494967ea3c650e4f55d4a6d666ef54a78"
+    },
+    {
+      "path": "public/sticker-packs/thumbs/sanidad-vacuna-veterinaria-0d689bfa69.webp",
+      "bytes": 16842,
+      "sha256": "0d689bfa696c25efbbbf7b6cc954d88d4371127c5d0343e074dc36815c26d88c"
+    },
+    {
+      "path": "public/sw.js",
+      "bytes": 14767,
+      "sha256": "c80b0ed0f6975121d81271931669bba3aeba6b14d649ea884878c5288a4446f6"
+    },
+    {
+      "path": "public/tecnologia-campo.webp",
+      "bytes": 231866,
+      "sha256": "54d56bfacbd90c7f79f26650be2eff1e2fd0a2bfb7ad4561820be7585e76c645"
+    },
+    {
+      "path": "public/venezuela-agro-icon.svg",
+      "bytes": 875,
+      "sha256": "e6f53b5a3f13faeff25ba4d0d3fcc54a99c5a69e2f3b8a7348ca23057c82155a"
+    },
+    {
+      "path": "public/venezuela-states.geojson",
+      "bytes": 42341,
+      "sha256": "ef2d5c0b95a96f9b2443597a71334dbf5b329ad65063a8396a3e4c2df4e055b1"
+    },
+    {
+      "path": "public/window.svg",
+      "bytes": 386,
+      "sha256": "decf1cf7bb22b5c99c4857cfcd5718ce5465c4454166317589c83fc73df74b66"
+    },
+    {
+      "path": "scripts/build-verified.sh",
+      "bytes": 718,
+      "sha256": "5680539607fc76f4c38d0b0ae2b19e01e839f6f926a3c4dca32aa6593765e36a"
+    },
+    {
+      "path": "scripts/clean-generated-build.mjs",
+      "bytes": 200,
+      "sha256": "dc262a46cd7ad96726b7eecd4f1f54416ea0c85216365795ac96e886f09d1919"
+    },
+    {
+      "path": "scripts/generate-category-visuals.mjs",
+      "bytes": 2315,
+      "sha256": "92ecea0df1e57559d03ca4fc4e5de6e49dbb82d2e9c08e33a275b6b3e000b1c6"
+    },
+    {
+      "path": "scripts/generate-learning-visuals.mjs",
+      "bytes": 5172,
+      "sha256": "8989f972e20039611cae36822edacd01708542f9af612169d940e8386ede407f"
+    },
+    {
+      "path": "scripts/generate-platform-icons.py",
+      "bytes": 2192,
+      "sha256": "403b03c6c0d9b5740271c29cf1363daf583a00a7777c0ed11e69e0dc891bd791"
+    },
+    {
+      "path": "scripts/import-market-photos.py",
+      "bytes": 2400,
+      "sha256": "4e3db0726d44998d2b2b815ab35405ad2fe2f7a6e3a8f869d5bc1d867f5a3703"
+    },
+    {
+      "path": "scripts/import-sticker-assets.py",
+      "bytes": 5542,
+      "sha256": "0e79db8ee97b1a50f6c46001eee95cb5a49f8f2e42eca210a96c70d005e41b5f"
+    },
+    {
+      "path": "scripts/install-ci.sh",
+      "bytes": 7282,
+      "sha256": "658c0aefc1d907dafde98ebc288b623ab9d2824a7bb1db055370a339a794a10d"
+    },
+    {
+      "path": "scripts/offline-assets.mjs",
+      "bytes": 2567,
+      "sha256": "8327123dbaa3c40401a8898b3ada55d43c9e75401f09abfdc0179a0c6a2bde32"
+    },
+    {
+      "path": "scripts/prepare-venezuela-map.mjs",
+      "bytes": 3931,
+      "sha256": "530520c587d7f13cea236ddeb6232f1085d99a9dc2abf485e7a2bd06d1fb3813"
+    },
+    {
+      "path": "scripts/sites-env.sh",
+      "bytes": 1530,
+      "sha256": "df86ebfc27d2f00860036658e933ac0ddd7b5f6879aa5d51218f0863c7e1fb60"
+    },
+    {
+      "path": "tests/account-contact.test.mjs",
+      "bytes": 1636,
+      "sha256": "ba5a689b641d81cbc7e96ce8b14d55cf8f960139c3339687db7e63600b4e2d2f"
+    },
+    {
+      "path": "tests/agro-analytics-consent.test.mjs",
+      "bytes": 11611,
+      "sha256": "fc7fccba295b85f7b36b279797ac957f4246ad3f93d19178db337589fbb7dd7e"
+    },
+    {
+      "path": "tests/agro-category-icons.test.mjs",
+      "bytes": 1403,
+      "sha256": "0a762d004bf5a0cc3aefddc83d7ef5f7107097bc8f4eff267e4c0fad3fa4a82c"
+    },
+    {
+      "path": "tests/agro-google-transport.test.mjs",
+      "bytes": 11170,
+      "sha256": "f596a3fe46317e02e1c8d6bcb4af0d51b249be8901516dfe232a78bd5cef3410"
+    },
+    {
+      "path": "tests/atomic-area-split.test.mjs",
+      "bytes": 19923,
+      "sha256": "2029ecce951fd898d674e429bd660129f82de30d432e582804f160f01b34fa02"
+    },
+    {
+      "path": "tests/audit-endpoints.test.mjs",
+      "bytes": 22436,
+      "sha256": "12f39ce6ce90e4a11dfdce88fe7db22ea463daf56c919c797dc8f1b92c87fe90"
+    },
+    {
+      "path": "tests/backup-import.test.mjs",
+      "bytes": 3102,
+      "sha256": "95956512225bfc7eea6567df918bfec54a2e9530ca40d4cc62abed36151bc22f"
+    },
+    {
+      "path": "tests/community-network.test.mjs",
+      "bytes": 5630,
+      "sha256": "7e1bfe90ef8754d9ee74a4d17c4244dd5300632f545305f90c43d23c3bf8c425"
+    },
+    {
+      "path": "tests/content-identities.test.mjs",
+      "bytes": 2472,
+      "sha256": "10d4bb778766243cd763009b165ea838a5f3cc13b93029c0213fd2ef41fc1c0a"
+    },
+    {
+      "path": "tests/farm-aerial-presentation.test.mjs",
+      "bytes": 5206,
+      "sha256": "595647060f3353f6fad3ca27b205445e9cec105c455980b1eae1a6aafb02f398"
+    },
+    {
+      "path": "tests/farm-area-context.test.mjs",
+      "bytes": 2417,
+      "sha256": "cc9747d0e2d47ddff18f2c322b01d973f65b2f15cb846d64246901cb53b8733e"
+    },
+    {
+      "path": "tests/farm-area-illustration.test.mjs",
+      "bytes": 2945,
+      "sha256": "91012898376457e6d1099e46691c44077d583e748dfcf5479e1f1e9977959efc"
+    },
+    {
+      "path": "tests/farm-demo-render.test.mjs",
+      "bytes": 4250,
+      "sha256": "51b0c580567e7a52e8f1fb6ddf1773461814fa19aac4f4504d01ac70a1f5b3e8"
+    },
+    {
+      "path": "tests/farm-demo.test.mjs",
+      "bytes": 10025,
+      "sha256": "77bcba962d104a901fd83a1b9eef31fb309d11aaa57f1bce2feb47a2326aee63"
+    },
+    {
+      "path": "tests/farm-example-navigation.test.mjs",
+      "bytes": 2474,
+      "sha256": "1c4cf2e16c0c0f8748049ee5580577476ec8ef0a3f067a60bffb1e41f56ce566"
+    },
+    {
+      "path": "tests/farm-form-submission.test.mjs",
+      "bytes": 5438,
+      "sha256": "bf52ff88c7740b92422c1a26f4aa446bd3eac4e4db505a0d4a383f1de3442261"
+    },
+    {
+      "path": "tests/farm-geography.test.mjs",
+      "bytes": 5884,
+      "sha256": "cbcc5e387e172d5be73e3461fca62b3b23663bb911bb5b1d4bc33e4730a03484"
+    },
+    {
+      "path": "tests/farm-map-gestures.test.mjs",
+      "bytes": 13344,
+      "sha256": "e3ae5b883854cedc10ee6686805d0998a447ff8d2f9b8e6228e44ed30bff013c"
+    },
+    {
+      "path": "tests/farm-reference-presentation.test.mjs",
+      "bytes": 7271,
+      "sha256": "4d607147bca06126a5aeb2b0f11a875288832da6649deed374d71c7f818a2b99"
+    },
+    {
+      "path": "tests/farm-tap-placement.test.mjs",
+      "bytes": 5826,
+      "sha256": "f89bf480ede8f967ae0d631f14911e2f6a30f7991b531235dd7aa4331d1f101b"
+    },
+    {
+      "path": "tests/fictional-professionals.test.mjs",
+      "bytes": 2657,
+      "sha256": "ab196ecf6570fc00cf46cf497989733959ca6a2d815b29539c828f0ea25b6d2d"
+    },
+    {
+      "path": "tests/floating-control-family.test.mjs",
+      "bytes": 1880,
+      "sha256": "626dcc8d658c062888141d9ab4ae85dcee9cf61fe16ac87be98a4c179f018ed1"
+    },
+    {
+      "path": "tests/idea-delivery.test.mjs",
+      "bytes": 5305,
+      "sha256": "d23a7efa90825c8f652a018faf859fde0981e9dabe903c06306d7a91c42568f3"
+    },
+    {
+      "path": "tests/idea-invitation.test.mjs",
+      "bytes": 11037,
+      "sha256": "d01754be3f0ab4690643a7e0ccdeae6b6a802a3a74acc2816dd4f3266445e1b8"
+    },
+    {
+      "path": "tests/illustrated-gestures.test.mjs",
+      "bytes": 4358,
+      "sha256": "2a8aff5dce9b5cce760ece25237f9ca97f4fe91929a9761f51de916161aad28b"
+    },
+    {
+      "path": "tests/illustrated-scene.test.mjs",
+      "bytes": 3729,
+      "sha256": "79548949889178e6a0da983b29d026f60fcfa8e8e82dbeed0088c6ca3cfe5517"
+    },
+    {
+      "path": "tests/indexing-policy.test.mjs",
+      "bytes": 1955,
+      "sha256": "e44e73711ac1d870dae0671998afbdfaafe37094243368132d67ad0bffdb482f"
+    },
+    {
+      "path": "tests/install-action.test.mjs",
+      "bytes": 2263,
+      "sha256": "b58191e038089655ea1cfa0ce0e1f028179de505564884567fd1df152886c991"
+    },
+    {
+      "path": "tests/install-guidance.test.mjs",
+      "bytes": 11094,
+      "sha256": "67c6266350cb2bde5fc0dc46c706a66753e94a8d9c2ca11598148c8877753703"
+    },
+    {
+      "path": "tests/land-water-guides.test.mjs",
+      "bytes": 2834,
+      "sha256": "90eaeccb44fa75806427586ca105ee49565d98482cb8ecb6815513ad3d43be3e"
+    },
+    {
+      "path": "tests/listing-contact.test.mjs",
+      "bytes": 2467,
+      "sha256": "97667d69f21b866d0c9f5f9714bac588cb70a060cdad8cae7085d0119b8323f6"
+    },
+    {
+      "path": "tests/listing-photo.test.mjs",
+      "bytes": 3996,
+      "sha256": "c34b90b5e242e4caea72d4e7d945d08dac064e10bd3c8506939a6fd678c5f8b0"
+    },
+    {
+      "path": "tests/market-example-coverage.test.mjs",
+      "bytes": 6586,
+      "sha256": "65cf1f1780ab04266c6cc437366aba1e8fcffec43e23e360ba4da431714809c5"
+    },
+    {
+      "path": "tests/mobile-layout.test.mjs",
+      "bytes": 3806,
+      "sha256": "5d2ac8160efa75fb11fed584a185fddf7070dd1955fb04550e50977db356b44d"
+    },
+    {
+      "path": "tests/offline-library-worker.test.mjs",
+      "bytes": 3081,
+      "sha256": "7536a24e708e0f6e07b23592346b8ccdf14e55ade76849d97630e21d12efe141"
+    },
+    {
+      "path": "tests/offline-map-navigation.test.mjs",
+      "bytes": 2411,
+      "sha256": "f8b15a2f335cbb081a39f9535263a06d2d92eb83ec45433567e63dd8def92645"
+    },
+    {
+      "path": "tests/offline-map-pack.test.mjs",
+      "bytes": 11297,
+      "sha256": "381f5b33f55efa5c2e47ae46e1103ea4c0f62ab6f28ecfbb55b2a5c9bc4188af"
+    },
+    {
+      "path": "tests/offline-public-storage.test.mjs",
+      "bytes": 4825,
+      "sha256": "75725e2c34a9e683b53b179a8917c444b0b4791f9d8f0802021b0354ee12a42e"
+    },
+    {
+      "path": "tests/offline-public.test.mjs",
+      "bytes": 14155,
+      "sha256": "ebc14451a50190ef713125ed03ca2dda0bb8ba8dccf764919879ad70749ee67d"
+    },
+    {
+      "path": "tests/offline-resilience.test.mjs",
+      "bytes": 18892,
+      "sha256": "fde644d7f34f14646190b2023991698fb90bda912239f5999d49b671bc25bc22"
+    },
+    {
+      "path": "tests/offline-satellite-storage.test.mjs",
+      "bytes": 6913,
+      "sha256": "919b8f4c5e8cb087a900e7a52036d375296b6a0efb6f8aa01a31f4a8d9d555f0"
+    },
+    {
+      "path": "tests/offline-storage.test.mjs",
+      "bytes": 33431,
+      "sha256": "46382c23aa9866c1279707ecd5ba482cf22bdead6c304224e6a105379cbfcea3"
+    },
+    {
+      "path": "tests/orb-morph.test.mjs",
+      "bytes": 10782,
+      "sha256": "bc199c3c855d077071748e5d153cc10a63f25dc37e52c93d129618e9b48e4748"
+    },
+    {
+      "path": "tests/platform-learning.test.mjs",
+      "bytes": 2323,
+      "sha256": "18065eba5541f86bfde0e3cb2d74623ef0822cbce7878ee406189b17491c8d65"
+    },
+    {
+      "path": "tests/polygon-geometry.test.mjs",
+      "bytes": 19428,
+      "sha256": "aec67c0c3aada18d23da5038ee8efd45d778407fb81b09724be46dec292c191c"
+    },
+    {
+      "path": "tests/polygon-sketch-editor.test.mjs",
+      "bytes": 22485,
+      "sha256": "b25ca570bba49b84066914b6d8b618aed3738b062bc1a9553437fdd79132e1c2"
+    },
+    {
+      "path": "tests/product-photos.test.mjs",
+      "bytes": 1874,
+      "sha256": "e9e1996f24494e2736ac9ebc2a6673d6acd9e09227e1ab85ddf3fbda4c4ca850"
+    },
+    {
+      "path": "tests/professional-profile.test.mjs",
+      "bytes": 3608,
+      "sha256": "0711d75827e080583093d50cb9f245737ac450ea08d9a7a9cc22f27446d36caa"
+    },
+    {
+      "path": "tests/project-shortcut.test.mjs",
+      "bytes": 1524,
+      "sha256": "6aeb5b3dadb25dd89aee66d0cb7389797aff2fc576abcadb9675af2373a3c92a"
+    },
+    {
+      "path": "tests/public-registration-examples.test.mjs",
+      "bytes": 3411,
+      "sha256": "9bdb6459bc715fa1a93d0af0df5fdc1c654d794f89a3fa911dd09b2d2c688d92"
+    },
+    {
+      "path": "tests/record-categories.test.mjs",
+      "bytes": 1611,
+      "sha256": "4ee20620f5fdfbca5e82c455f75be9e389b250437fff91fe69d5c7d8793956cb"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "bytes": 5885,
+      "sha256": "dbebd5ce5c33c0353c3ed551f105609803f86027639ec275c60160c9429a997a"
+    },
+    {
+      "path": "tests/satellite-zone-component.test.mjs",
+      "bytes": 4041,
+      "sha256": "b33119a4e37be59b64b6635ca33b9e65e20962b95da7f2cc97af74ce5e88160c"
+    },
+    {
+      "path": "tests/satellite-zone.test.mjs",
+      "bytes": 5684,
+      "sha256": "131c5a5e2701a617cebfbe6f06ae25e42dc08f663467f6fc17ee0f36080b24c7"
+    },
+    {
+      "path": "tests/shared-dialog-focus.test.mjs",
+      "bytes": 3499,
+      "sha256": "fdb7362aebbac2b76852c6c577df59d62e53dcffef1944d36da0b96afc4c7d60"
+    },
+    {
+      "path": "tests/site-content-security.test.mjs",
+      "bytes": 1960,
+      "sha256": "3324f0eee274fab3e953421a669be129d9ce08ae482ee204e246936253c13359"
+    },
+    {
+      "path": "tests/site-photos.test.mjs",
+      "bytes": 2015,
+      "sha256": "a3ea3a9b3d951182e33369b08f2802e93801654d48675f9f070ea669df7b087e"
+    },
+    {
+      "path": "tests/social-glass.test.mjs",
+      "bytes": 8615,
+      "sha256": "e6e88996cbd3a405174191ee24117974e46e2e11475ad4f9bf0fc01ff6464f7b"
+    },
+    {
+      "path": "tests/sticker-gallery.test.mjs",
+      "bytes": 9575,
+      "sha256": "4e6ba13b71d64d79b819d0c353c3b3a4c92dd6311e783c525bb2af999f844768"
+    },
+    {
+      "path": "tests/sticky-close-cards.test.mjs",
+      "bytes": 1429,
+      "sha256": "2d2d2549e0aecbb98335ec59bf4c758e507ccd59b460b289ec22976fb9a6a0f7"
+    },
+    {
+      "path": "tests/store-catalog.test.mjs",
+      "bytes": 3023,
+      "sha256": "d0729b45aaf6504833bb8c7b1d59f01b250d773bee6f9c516a95002920053798"
+    },
+    {
+      "path": "tests/survey-document-format.test.mjs",
+      "bytes": 4002,
+      "sha256": "0919c11fcdad6ebe9a703d0b607a9b10a16907f01a28f5bd7e66afeb10f4c3e5"
+    },
+    {
+      "path": "tests/ui-components.test.mjs",
+      "bytes": 3493,
+      "sha256": "2da302bd89e6ed347ba31ebbf515835431059c0d72af03bf0f471862c3fd4bb5"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 666,
+      "sha256": "be18523b23b78b6e1a876ddd107d330f0168bddf09d751b57e0b5edce69c66f3"
+    },
+    {
+      "path": "types/cloudflare.d.ts",
+      "bytes": 149,
+      "sha256": "74437e2cf71a31411a3ed76d15e037aac860be14474ebe1e5b1b4c0731e68587"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "bytes": 1063,
+      "sha256": "1564074e13439397221ffd522e2e504d56561994a23d371aa5e3ad43e4f5423f"
+    },
+    {
+      "path": "vendor/shadcn-tailwind-4.13.0.css",
+      "bytes": 16041,
+      "sha256": "bc7d83425702955b4cb67cb14ede9d603f9d912376d57a2d81d661094d2a782a"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1844,
+      "sha256": "f46d4108af2c54d0cad89088edcb31bac85b6deb8d41ef59b5d4282ee8333b9d"
+    },
+    {
+      "path": "worker/index.ts",
+      "bytes": 3008,
+      "sha256": "8b174b6aeded99738e4beb8e99fe1122e5cde5fcfd8830c2fb0f6b41702093bd"
+    },
+    {
+      "path": "workers/satellite-zone-worker.ts",
+      "bytes": 6444,
+      "sha256": "263f346d235f14ed812918f69b22b7531de992d34700249d55453964a1f448df"
+    }
+  ],
+  "excluded": [
+    "docs/audit-evidence/deployed-schema-v31.json",
+    "docs/audit-evidence/lint-2026-10-07.txt",
+    "docs/audit-evidence/lint-v37-2026-10-07.txt",
+    "docs/audit-evidence/routes-2026-10-07.txt",
+    "docs/audit-evidence/tests-2026-10-07.txt",
+    "docs/audit-evidence/tests-offline-forms-2026-10-07.txt",
+    "docs/audit-evidence/tests-v32-2026-10-07.txt",
+    "docs/audit-evidence/tests-v33-2026-10-07.txt",
+    "docs/audit-evidence/tests-v34-2026-10-07.txt",
+    "docs/audit-evidence/tests-v35-2026-10-07.txt",
+    "docs/audit-evidence/tests-v37-2026-10-07.txt",
+    "docs/audit-evidence/tests-v38-2026-10-07.txt",
+    "docs/audit-evidence/tests-v39-2026-10-07.txt",
+    "docs/audit-evidence/verification-2026-10-07.txt",
+    "docs/audit-evidence/verification-v37-2026-10-07.txt"
+  ],
+  "secret_scan_findings": [],
+  "total_bytes": 37752228
+}

@@ -1,0 +1,444 @@
+{
+  "project": "alvaro-carrero-mentor",
+  "source_commit": "5bd37c816be1ea4e3ed8760e8eb3cfa98faf8c86",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 44,
+      "sha256": "9bc0a92ed9648544f60149b60274792cb672ce6ec506eb3e3381ab5b2cfae1f8"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 68,
+      "sha256": "a0c511f406961e5a5228292eb6ddf033303d88a051242c07d32ce69961830afb"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11360,
+      "sha256": "990f0ece8942a3ca7b75a0b4c985ce65ad0dff62cb18935e2b285bccfc7e1474"
+    },
+    {
+      "path": "cloudflare/feedback-schema.sql",
+      "bytes": 1082,
+      "sha256": "3bc39a9c0400bb36e658d6ad0656058bccbeeb9a57400e3ee82255a62571d609"
+    },
+    {
+      "path": "cloudflare/retention-worker.example.jsonc",
+      "bytes": 284,
+      "sha256": "5d3ac4c28af5eaf1306152b90cd2fb60c38ec1fb449e3ea607f319ed4ad6d6ec"
+    },
+    {
+      "path": "cloudflare/retention-worker.js",
+      "bytes": 1119,
+      "sha256": "cad5e0e34a1f0f4a9795cfce8451f8022e32b13fabc801802fd0ddee6ff71241"
+    },
+    {
+      "path": "config/kit-forms.json",
+      "bytes": 932,
+      "sha256": "0b21bc14915eae5429a23b5dd84e2eaad7c33e3004ecdfe88e00d314a97adab6"
+    },
+    {
+      "path": "config/site.mjs",
+      "bytes": 1865,
+      "sha256": "936f90c6977d58c5ddd686b2025ee7ec9dd3fe39e9a81994367e5089d3c757aa"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 1252,
+      "sha256": "29f6ddf1458caf7297593d3b18f9e92914ffaf8703643a1a71e08d1ad7c8ab13"
+    },
+    {
+      "path": "docs/DOMAIN-MIGRATION.md",
+      "bytes": 7836,
+      "sha256": "67e0aba15ca13d1c2e7d1b36ad602b2b9f819036c38af39018580027c66b983e"
+    },
+    {
+      "path": "docs/wrangler.example.jsonc",
+      "bytes": 467,
+      "sha256": "28a322a5caa2a9a970b086312d4bea3d9a65b5936da91c74407a2b1f8c65efbb"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 76,
+      "sha256": "0fb1ea88ff01861405ab37e3fcf326edb375f04fbd66fd4d5b45d6bd9bc76669"
+    },
+    {
+      "path": "drizzle/0000_yummy_black_bird.sql",
+      "bytes": 356,
+      "sha256": "3c1990853588848db23875f7ebd4e947a4d2ddcd48ec57bd0134148716dfd1ad"
+    },
+    {
+      "path": "drizzle/0001_icy_wilson_fisk.sql",
+      "bytes": 252,
+      "sha256": "6de18a0b0412d38af528c52e8ddbc61397c5d452027927283df21a09ce12d01c"
+    },
+    {
+      "path": "drizzle/0002_organic_captain_midlands.sql",
+      "bytes": 333,
+      "sha256": "8a792cc1d0cd53cadff61cdeee4a041ae54a5c9591e26e13fecab26183e6d5bf"
+    },
+    {
+      "path": "drizzle/meta/0000_snapshot.json",
+      "bytes": 2320,
+      "sha256": "4ada54eaba44dc4d17f592a0f82ee068951cb91dc92011ed0a00e720f545a73f"
+    },
+    {
+      "path": "drizzle/meta/0001_snapshot.json",
+      "bytes": 3311,
+      "sha256": "5c87123d3b80239834f14ed1d333c76f0266d77cb979c36a62bd4e567a22ada0"
+    },
+    {
+      "path": "drizzle/meta/0002_snapshot.json",
+      "bytes": 5068,
+      "sha256": "c51b11d83827ecd1b544417c486c0e2fb034c36bf0485b74b32af86b1b35186f"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 501,
+      "sha256": "589b750e4b5231d4f74429d18bdbdc018ab6adb61cc5d102ba11a24dacd1d3e0"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 54052,
+      "sha256": "0d96c05b50ae6f6256ea86db1c80d88153ae8772602c182a836a1b3f77dad19e"
+    },
+    {
+      "path": "package.json",
+      "bytes": 345,
+      "sha256": "a344ec5ed3c204dca8410d378e21367b0551cbdd4a10506d856fb597794f44da"
+    },
+    {
+      "path": "public/app.js",
+      "bytes": 4055,
+      "sha256": "f04588462c51fe9a20300bfba595f90147d2d04730f41de818b10fde2df11581"
+    },
+    {
+      "path": "public/assets/Montserrat-OFL.txt",
+      "bytes": 4400,
+      "sha256": "8b7141c03fa4f8d44e6345d5d4931709290f0f67875e452e95ac1fd3a027802e"
+    },
+    {
+      "path": "public/assets/alvaro.jpg",
+      "bytes": 2787,
+      "sha256": "ef1f4bdfa5d894e6a368978a011c04d8d29fff7e934c4c42b86ee0718d5bc009"
+    },
+    {
+      "path": "public/assets/claridad.mp4",
+      "bytes": 3895458,
+      "sha256": "857eb516924b6d31a09864d507d3b42a1a0f6808250af0fc86b194858b69c78e"
+    },
+    {
+      "path": "public/assets/claridad.webp",
+      "bytes": 38028,
+      "sha256": "dbe504bd10bdbb13a6931b6d57ec4ff0e8cefc14473dc2c88386e4c2bf6b4ff4"
+    },
+    {
+      "path": "public/assets/crecimiento.webp",
+      "bytes": 113958,
+      "sha256": "1b8ef1e5dcb3df006b1a9b99e3242044b6991745c6c0eceae3b6fc9fc2f36429"
+    },
+    {
+      "path": "public/assets/cuidado.webp",
+      "bytes": 97424,
+      "sha256": "6928b1a862311d459cf88bd0e30f2bb66e4ef5e016f5629cac59f32850491686"
+    },
+    {
+      "path": "public/assets/habitos.webp",
+      "bytes": 50288,
+      "sha256": "8a57e5498d958bf1f025cf2850ef3e09315702aae5c0aa03583454c9a4eacd74"
+    },
+    {
+      "path": "public/assets/mark.svg",
+      "bytes": 251,
+      "sha256": "5957cf204844562fe8a65f40cc67b2bee3edc2344995e8eabaac45aee8cfdbf0"
+    },
+    {
+      "path": "public/assets/montserrat-400.ttf",
+      "bytes": 180068,
+      "sha256": "84f3d3275dfb159dd311c61828fd754a82ec31c377120518e2cd3e7d34394e96"
+    },
+    {
+      "path": "public/assets/montserrat-600.ttf",
+      "bytes": 180584,
+      "sha256": "c535bb158e8cfc3c27654f73aa68a87732899e7d9b10d8496b68605a56d947a7"
+    },
+    {
+      "path": "public/assets/progreso.webp",
+      "bytes": 91766,
+      "sha256": "e38ef9a832e8271d83418fa13adde70f7734a479644b9f75f3d00686106ec1d8"
+    },
+    {
+      "path": "public/community.css",
+      "bytes": 4653,
+      "sha256": "8244aa1c12bad9412f0dc182e82224a2191a7ffe5216a1ea40e024543cebe435"
+    },
+    {
+      "path": "public/community.js",
+      "bytes": 652,
+      "sha256": "610b2534aeed9469c0a4d78bd278a45c24421e8864ea61be07e2c5914ec0686f"
+    },
+    {
+      "path": "public/comunidad/index.html",
+      "bytes": 10618,
+      "sha256": "8127cc0e14bb3b4a28476846d94de5bb48bab9066dc1be60f938a305c6dbc7ec"
+    },
+    {
+      "path": "public/condiciones/index.html",
+      "bytes": 3843,
+      "sha256": "ffb57acb0de523941c85e2fb668ac90000e9397275d5f0840db385c6c640b4b7"
+    },
+    {
+      "path": "public/contacto/index.html",
+      "bytes": 3434,
+      "sha256": "9bdd6a7161c190d25aa9f24a69b0dc9754f44350de88d891cce82500e0f6b5a1"
+    },
+    {
+      "path": "public/en/about/index.html",
+      "bytes": 4452,
+      "sha256": "8f8fdec378d59577aef8dd04034de165271c148414a285460cb4e206e95dc4f1"
+    },
+    {
+      "path": "public/en/app.js",
+      "bytes": 4050,
+      "sha256": "1d11a03b368e92489b030955de5f4a6d737eee36b3ea897398545506e9f33456"
+    },
+    {
+      "path": "public/en/community/index.html",
+      "bytes": 10380,
+      "sha256": "b80a6aa7ee42a8279598bf06838bf37b52884dd9a5fb37c6ff32d2837c37de12"
+    },
+    {
+      "path": "public/en/conditions/index.html",
+      "bytes": 3737,
+      "sha256": "6c27fad48c35eb7e68abca70b5874a4d1fa0144b71cd937335574ff47e4d9d1b"
+    },
+    {
+      "path": "public/en/contact/index.html",
+      "bytes": 3415,
+      "sha256": "d3c4ecda7153ff0dd62d94ecde4194fe2e4bcf462bfb23c664b305d0497a9b53"
+    },
+    {
+      "path": "public/en/feedback/index.html",
+      "bytes": 11773,
+      "sha256": "cfa1dbae65317133e152e961db6362753193b522906b94dd4ca96232d0d955a5"
+    },
+    {
+      "path": "public/en/group-mentoring/index.html",
+      "bytes": 5730,
+      "sha256": "b060d39e129465ce42220991aa0b13b59c158b1645594a218472728a3cacc191"
+    },
+    {
+      "path": "public/en/index.html",
+      "bytes": 18790,
+      "sha256": "2c993b68685ce57c5035df1d71a1e8258e102b161a5e1424a5cada928c4992d6"
+    },
+    {
+      "path": "public/en/individual-mentoring/index.html",
+      "bytes": 5879,
+      "sha256": "32a11120e9b8cba5ee2c3b34b5defc7720732c698c86e1f57f3f4891b3eca49c"
+    },
+    {
+      "path": "public/en/privacy/index.html",
+      "bytes": 5964,
+      "sha256": "d8e7e903bd03cd52301f5b14ed008c209e6581a99dd07f1602c0647c846a7f76"
+    },
+    {
+      "path": "public/en/resource/index.html",
+      "bytes": 11179,
+      "sha256": "a5c8ce50c2e40d9de8d6cd5d3b478aed809f09143e386f703d321d79731fa897"
+    },
+    {
+      "path": "public/en/session/booking.js",
+      "bytes": 9104,
+      "sha256": "ea7a6249f2499c6f0a9aab77e434869b10614b133ed63eb1a796e304a9639bcb"
+    },
+    {
+      "path": "public/en/session/index.html",
+      "bytes": 7682,
+      "sha256": "2d81d5de47b9c76dd6d01747e14cfeca0bb3b4d002f77aca94aff74b747f3676"
+    },
+    {
+      "path": "public/feedback.css",
+      "bytes": 16048,
+      "sha256": "c1113a08a0f4c45924d8ed6fc20aab6913a06dd8f8d62e41834f1fddd96cd2ea"
+    },
+    {
+      "path": "public/feedback.js",
+      "bytes": 14838,
+      "sha256": "ffdfbeccd9a3510e32a4c8c5eadd261f38b6d46eeee06fd7c6c9ae1a63296de6"
+    },
+    {
+      "path": "public/feedback/index.html",
+      "bytes": 11893,
+      "sha256": "e6bd43a9a833263a578f2ec49fda7e3a168a9faf0b809f8dfafa628b98153b4a"
+    },
+    {
+      "path": "public/index.html",
+      "bytes": 18675,
+      "sha256": "edde5d1ec8435282cfda8b88bd5069bda1278af87d9c7d089781568d5279f68b"
+    },
+    {
+      "path": "public/kit-signup.css",
+      "bytes": 1255,
+      "sha256": "7a6541b6f0104e288d7cc236e71a6d3a58a4b447909c4d9f779a89b14b2e99f8"
+    },
+    {
+      "path": "public/kit-signup.js",
+      "bytes": 338,
+      "sha256": "cdccf12bd9c4738e08eddb623161f3774615c923c32d283796ab43e249093592"
+    },
+    {
+      "path": "public/mentoria-grupal/index.html",
+      "bytes": 5837,
+      "sha256": "7d3331bed896e002c1896aac691ab49a424863ee3f729cd58b976b727c596444"
+    },
+    {
+      "path": "public/mentoria-individual/index.html",
+      "bytes": 5912,
+      "sha256": "e39d105c72ec355807cc7bb04d9009a9cc9e045785c991aaac018a04c16e2005"
+    },
+    {
+      "path": "public/navigation.css",
+      "bytes": 3776,
+      "sha256": "dbac3f34e4461b4cc2fe6dd479e11ac4175d5c4b3dd697f00eadda5abfeae74f"
+    },
+    {
+      "path": "public/navigation.js",
+      "bytes": 2367,
+      "sha256": "a30bcaee5d7cc8ee50a04ce59fb8fb4fdc805658f70437b7dc2c955f2c62c320"
+    },
+    {
+      "path": "public/privacidad/index.html",
+      "bytes": 6194,
+      "sha256": "14956d7ec8ef1fc695fd7dc96b6ac10ddb9377e5a8ea8aee4400822d905c8837"
+    },
+    {
+      "path": "public/recurso/index.html",
+      "bytes": 11552,
+      "sha256": "8e5796c7940d781e7b055935be99988c7c5010c3a5a83b8746a21ad13c31f958"
+    },
+    {
+      "path": "public/resources/seven-days-en.pdf",
+      "bytes": 49748,
+      "sha256": "9003ffc21cbfaaee4ae9ca9b81be6f41b5b21aaea45f256f9b5ed6de1b1f4cd6"
+    },
+    {
+      "path": "public/resources/seven-days-en.txt",
+      "bytes": 5735,
+      "sha256": "a505823ffa5b3fda591fb32206eca18644c0d99695d2efc196e99df24b74a8f8"
+    },
+    {
+      "path": "public/resources/seven-days-es.pdf",
+      "bytes": 50547,
+      "sha256": "5ea3f234afeda03c86d8796ceb17007be697cb5d1031feaf62346acc36d26577"
+    },
+    {
+      "path": "public/resources/seven-days-es.txt",
+      "bytes": 6009,
+      "sha256": "f0c422616d7f7fd03202be703ced6bf6863f37c66e8040aa4a5f5fa6e610542a"
+    },
+    {
+      "path": "public/robots.txt",
+      "bytes": 26,
+      "sha256": "331ea9090db0c9f6f597bd9840fd5b171830f6e0b3ba1cb24dfa91f0c95aedc1"
+    },
+    {
+      "path": "public/sesion/booking.css",
+      "bytes": 4755,
+      "sha256": "9c28eb9e8fea36a9b5cfd9491a03538942ec829c9ac3e6f879455dd6906c6303"
+    },
+    {
+      "path": "public/sesion/booking.js",
+      "bytes": 9115,
+      "sha256": "f07e8a3c02d55414380ba9d1189cc448cd3c7d1babc25649ffa4f99443156b62"
+    },
+    {
+      "path": "public/sesion/index.html",
+      "bytes": 7657,
+      "sha256": "e23765d87be649e95017d8d99192b058a3c14a1bc86d54e59357b353f22de443"
+    },
+    {
+      "path": "public/sitemap.xml",
+      "bytes": 2121,
+      "sha256": "9293050698b563f0546baaaeda2ef3cca30da6bf484f3bc86273afeb12e6ff7e"
+    },
+    {
+      "path": "public/sobre-alvaro/index.html",
+      "bytes": 4497,
+      "sha256": "3053228906a4afc233869349d614e4dc1c03ffd346f686af1dde17af3bb0bb5c"
+    },
+    {
+      "path": "public/styles.css",
+      "bytes": 16827,
+      "sha256": "8ec271a4c3df43ce0291adc2943b5212dcd2464fdcd78381201a251a5660ba6d"
+    },
+    {
+      "path": "public/vendor/embla-LICENSE.txt",
+      "bytes": 1066,
+      "sha256": "992490064b90ec94c302fe5f29dcc14cb44145857064e46f9ffe6c8f511c1093"
+    },
+    {
+      "path": "public/vendor/embla-carousel.umd.js",
+      "bytes": 17946,
+      "sha256": "f05b5dbfe37d79b636b9db74ad04ed5e99b4bce369d781b0fb38b0b2ac619e66"
+    },
+    {
+      "path": "scripts/build.mjs",
+      "bytes": 5422,
+      "sha256": "c224b67ad5f66bff86f4295d6a3190b81b7b06f14d7b3c2c56988de3134ce770"
+    },
+    {
+      "path": "scripts/prepare-feedback-import.py",
+      "bytes": 1500,
+      "sha256": "6f2487850985817b9bc28d6a9fcb18b062a8310efe2cafd959369482ca26f195"
+    },
+    {
+      "path": "src/worker.js",
+      "bytes": 7074,
+      "sha256": "0093a3dec2182a89da6cf5711a9a69a1007e985b5981ceb042c15925406456ce"
+    },
+    {
+      "path": "tests/build-config.test.mjs",
+      "bytes": 931,
+      "sha256": "84f3b5d92010e357294ff28158f74719ccd7008a4cd4748f41f2d1bd1a69d30d"
+    },
+    {
+      "path": "tests/build-output.test.mjs",
+      "bytes": 2233,
+      "sha256": "f18dc27dddaac23ad081979faff39ac4a5c7422ec86473618f2e02681a80190d"
+    },
+    {
+      "path": "tests/feedback.test.mjs",
+      "bytes": 8057,
+      "sha256": "a80fe3af79a65cf429836a3b65c7043f16a6ba238da89f8b7c10bb99b82b1df0"
+    },
+    {
+      "path": "tests/kit-form.test.cjs",
+      "bytes": 1547,
+      "sha256": "7b819e4af9feb1ce80b7266c061f21c7cd3c683600fcfbb14efaa848cc5f24bf"
+    },
+    {
+      "path": "tests/navigation.test.cjs",
+      "bytes": 2900,
+      "sha256": "5414e5202fbe533cb7d2e05faea55126c17cefdfed32a47d84f264d86cf23864"
+    },
+    {
+      "path": "tests/retention.test.mjs",
+      "bytes": 1575,
+      "sha256": "e54dfa9f66a1e3360cbf067b2dc7a007ff7c978274a41a051df1c157e56ed907"
+    },
+    {
+      "path": "tests/subscription-visibility.test.cjs",
+      "bytes": 1308,
+      "sha256": "b2b162c8dbc0d2f71908e23817fe8747d2a5d6606f9e7c286822f87ca9ffe099"
+    },
+    {
+      "path": "validate.py",
+      "bytes": 2137,
+      "sha256": "e61b2ab281b6fe3234abb8c8937e2071f439fc46ab6e0455015392f827698f51"
+    }
+  ],
+  "excluded": [],
+  "secret_scan_findings": [],
+  "total_bytes": 5186743
+}

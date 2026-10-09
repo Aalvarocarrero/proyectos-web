@@ -1,0 +1,1 @@
+export function parseObjectJson(value:string):Record<string,unknown>{try{const parsed:unknown=JSON.parse(value);return parsed!==null&&typeof parsed==="object"&&!Array.isArray(parsed)?parsed as Record<string,unknown>:{};}catch{return {};}}

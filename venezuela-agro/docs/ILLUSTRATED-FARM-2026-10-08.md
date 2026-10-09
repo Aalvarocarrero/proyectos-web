@@ -1,0 +1,11 @@
+# Illustrated farm and geographic map
+
+The geographic country map is above the management scene, with one Calles/Satélite switch. The fixed same-origin national package loads into memory for online viewing after checking the local copy; explicit Save remains required for persistent offline availability. A progress-idle deadline, total deadline and retry action bound failed loads. Reconnection retries a missing map; failed IndexedDB reads do not prevent online display. Existing owner/farm imagery consent remains mandatory before provider queries.
+
+The separate default illustrated view projects existing normalized geometry with X=x+0.18y and Y=0.11x+0.68y. It never writes projected coordinates, resets a farm, changes areas or edits real records. Technical editing and source measurements remain separate secondary views. Concave property outlines remain concave. Areas already placed outside the property remain visibly shaped and are flagged for review, rather than silently clipped or moved.
+
+Eleven original oblique assets total202,252bytes; all are included in explicit offline preparation. Buildings and vegetation sit on conservative interior footprints. Decorative plants do not represent inventory. Animal sprites require explicit fictitious demo placements; ordinary area-linked animals produce only aggregate counts. No position is inferred from a title or text match. The asset registry records exact bytes and hashes.
+
+Labels appear only when they fit the saved area, avoid collision and avoid animal positions; more become available on zoom. The full14px HTML name list remains accessible at small sizes, with44px controls. Illustrated selection registers stable focus-return buttons. Leaving technical editing ends its move mode. The scene has no continuous animation and caps decorative instances at300.
+
+Static1200px/320px and a synthetic concave fixture were rendered and inspected. These are SVG renders, not physical mobile-device screenshots. Geometry/selection/storage regressions and build checks precede deployment. Browser verification is recorded separately after publication. This is a stylized2.5D illustration, not a photograph, satellite image or calibrated3D survey.

@@ -1,0 +1,37 @@
+/* Shared disclosure navigation: desktop stays inline; small screens start closed. */
+[data-nav-toggle].site-menu-toggle{display:none}
+@media(max-width:760px){
+ html{scroll-padding-top:110px}
+ main [id],main h1,section[id]{scroll-margin-top:110px}
+ .header[data-navigation],.fb-header[data-navigation]{position:sticky;top:0;z-index:60;background:var(--paper,#f5f2eb);width:100%;max-width:none;display:flex;align-items:center;justify-content:space-between;flex-wrap:nowrap;gap:12px;padding:calc(12px + env(safe-area-inset-top,0px)) max(20px,env(safe-area-inset-right,0px)) 12px max(20px,env(safe-area-inset-left,0px));border-bottom:1px solid var(--line,#d6d1c6)}
+ [data-navigation] .wordmark{font-size:24px;min-width:0;white-space:normal;line-height:1.15}
+ [data-navigation] .wordmark span{font-size:10px;letter-spacing:.6px;line-height:1.4}
+ [data-nav-toggle].site-menu-toggle{display:inline-flex;flex:none;align-items:center;justify-content:center;flex-direction:column;gap:6px;width:48px;min-width:48px;min-height:48px;margin:0;padding:12px;background:transparent;border:1px solid var(--line,#d6d1c6);border-radius:8px;color:var(--ink,#282927)}
+ [data-nav-toggle] span{display:block;width:22px;height:2px;background:currentColor}
+ [data-navigation] [data-site-nav]{display:none!important;position:absolute;top:100%;left:0;right:0;margin:0;padding:16px max(24px,env(safe-area-inset-right,0px)) 20px max(24px,env(safe-area-inset-left,0px));background:var(--paper,#f5f2eb);border-bottom:1px solid var(--line,#d6d1c6);box-shadow:0 10px 18px #28292712;flex-direction:column;align-items:stretch;gap:4px;max-height:calc(100vh - 100px);max-height:calc(100dvh - 100px);overflow:auto;overscroll-behavior:contain}
+ [data-navigation] [data-site-nav].open{display:flex!important}
+ [data-navigation] [data-site-nav] a{display:flex;align-items:center;min-height:44px;font-size:14px;padding:10px 4px;white-space:normal}
+ [data-navigation] [data-site-nav] .fb-language{display:flex;align-self:flex-start;gap:6px;margin-top:8px}
+ [data-navigation] [data-site-nav] .fb-language a{justify-content:center;min-width:48px;padding:8px 12px}
+ [data-navigation] [data-site-nav] .fb-home-link{display:flex;font-size:14px}
+ [data-nav-toggle]:focus-visible,[data-site-nav] a:focus-visible{outline:3px solid var(--gold,#9b7738);outline-offset:3px}
+}
+@media print{[data-navigation]{position:static!important}[data-nav-toggle]{display:none!important}}
+
+[data-site-nav] a[data-current-page]{font-weight:600}
+
+
+
+/* Subscription remains visible outside the collapsed mobile menu. */
+.subscribe-banner{display:flex;align-items:center;justify-content:center;gap:24px;padding:14px 24px;background:var(--ink,#282927);color:var(--paper,#f5f2eb);font-size:14px;line-height:1.5}
+.subscribe-banner p{margin:0}
+.subscribe-banner a{flex:none;display:inline-flex;align-items:center;justify-content:center;min-height:44px;padding:9px 18px;border:1px solid currentColor;font-weight:600}
+.subscribe-banner a:hover{background:var(--paper,#f5f2eb);color:var(--ink,#282927)}
+.resource-subscribe{border:1px solid var(--line,#d6d1c6);padding:24px;margin:24px 0 40px;max-width:900px}
+.resource-subscribe h2{font-size:28px;letter-spacing:-.02em;margin-bottom:12px}
+.resource-subscribe p{font-size:16px;line-height:1.65}
+.resource-subscribe .button{font-size:14px}
+@media(max-width:760px){.subscribe-banner{align-items:flex-start;flex-direction:column;gap:10px;padding:16px 24px}.subscribe-banner a{width:100%}.resource-subscribe{padding:20px}}
+@media print{.subscribe-banner,.resource-subscribe{display:none}}
+
+@media(min-width:761px){.header[data-navigation]{flex-wrap:wrap;row-gap:16px}.header[data-navigation] [data-site-nav]{flex-wrap:wrap;min-width:0;gap:16px 24px}.header[data-navigation] [data-site-nav] a{font-size:14px}}

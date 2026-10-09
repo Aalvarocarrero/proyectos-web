@@ -1,0 +1,55 @@
+{
+  "version": "7",
+  "dialect": "sqlite",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "6",
+      "when": 1788759068426,
+      "tag": "0000_abandoned_molecule_man",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "6",
+      "when": 1788777503972,
+      "tag": "0001_tense_medusa",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "6",
+      "when": 1788955611914,
+      "tag": "0002_open_anthem",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "6",
+      "when": 1789116514794,
+      "tag": "0003_naive_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "6",
+      "when": 1791102309068,
+      "tag": "0004_salty_ricochet",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "6",
+      "when": 1791345696204,
+      "tag": "0005_powerful_silverclaw",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "6",
+      "when": 1791345786169,
+      "tag": "0006_dazzling_slipstream",
+      "breakpoints": true
+    }
+  ]
+}

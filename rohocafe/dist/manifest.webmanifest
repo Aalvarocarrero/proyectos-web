@@ -1,0 +1,27 @@
+{
+  "name": "Rohocafé — Café colombiano de origen",
+  "short_name": "Rohocafé",
+  "description": "Ediciones limitadas de café colombiano de especialidad.",
+  "lang": "es-CO",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#fbfaf7",
+  "theme_color": "#A91919",
+  "categories": ["shopping", "food", "lifestyle"],
+  "icons": [
+    {
+      "src": "./assets/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "./assets/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

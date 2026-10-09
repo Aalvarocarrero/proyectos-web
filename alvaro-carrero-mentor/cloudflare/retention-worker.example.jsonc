@@ -1,0 +1,7 @@
+{
+  "name":"alvaro-mentor-retention",
+  "main":"retention-worker.js",
+  "compatibility_date":"2026-10-07",
+  "triggers":{"crons":["15 0 * * *"]},
+  "d1_databases":[{"binding":"DB","database_name":"REPLACE_WITH_SAME_APPROVED_DATABASE","database_id":"REPLACE_WITH_REAL_DATABASE_ID"}]
+}

@@ -1,0 +1,83 @@
+{
+  "title": "DIVIPOLA- Códigos municipios",
+  "publisher": "Departamento Administrativo Nacional de Estadística - DANE",
+  "sourceUrl": "https://www.datos.gov.co/Mapas-Nacionales/DIVIPOLA-C-digos-municipios/gdxc-w37w",
+  "queryUrl": "https://www.datos.gov.co/resource/gdxc-w37w.json?$limit=5000",
+  "metadataUrl": "https://www.datos.gov.co/api/views/gdxc-w37w.json",
+  "snapshotDate": "2024-12-30",
+  "dataUpdatedAt": "2025-01-24T20:44:32+00:00",
+  "retrievedAt": "2026-10-05T09:19:48.906861+00:00",
+  "license": {
+    "name": "Creative Commons Attribution | Share Alike 4.0 International",
+    "logoUrl": "images/licenses/cc30bysa.png",
+    "termsLink": "http://creativecommons.org/licenses/by-sa/4.0/legalcode"
+  },
+  "crossCheck": {
+    "sourceUrl": "https://geoportal.dane.gov.co/mparcgis/rest/services/Divipola/Serv_DIVIPOLA_MGN_2025/FeatureServer/317",
+    "queryUrl": "https://geoportal.dane.gov.co/mparcgis/rest/services/Divipola/Serv_DIVIPOLA_MGN_2025/FeatureServer/317/query?where=1%3D1&outFields=DPTO_CCDGO,MPIO_CDPMP,MPIO_TIPO,DPTO_CNMBRE,MPIO_CNMBRE,MPIO_NANO&returnGeometry=false&f=json",
+    "recordCount": 1122,
+    "identicalCodeSets": true,
+    "differences": [
+      {
+        "code": "13838",
+        "socrata": {
+          "cod_dpto": "13",
+          "dpto": "BOLÍVAR",
+          "cod_mpio": "13838",
+          "nom_mpio": "TURBANÁ",
+          "tipo_municipio": "Municipio",
+          "longitud": "-75,44265",
+          "latitud": "10,274585"
+        },
+        "dane2025": {
+          "DPTO_CCDGO": "13",
+          "MPIO_CDPMP": "13838",
+          "MPIO_TIPO": "MUNICIPIO",
+          "DPTO_CNMBRE": "BOLÍVAR",
+          "MPIO_CNMBRE": "TURBANA",
+          "MPIO_NANO": 2024
+        }
+      },
+      {
+        "code": "19760",
+        "socrata": {
+          "cod_dpto": "19",
+          "dpto": "CAUCA",
+          "cod_mpio": "19760",
+          "nom_mpio": "SOTARÁ - PAISPAMBA",
+          "tipo_municipio": "Municipio",
+          "longitud": "-76,613365",
+          "latitud": "2,253156"
+        },
+        "dane2025": {
+          "DPTO_CCDGO": "19",
+          "MPIO_CDPMP": "19760",
+          "MPIO_TIPO": "MUNICIPIO",
+          "DPTO_CNMBRE": "CAUCA",
+          "MPIO_CNMBRE": "SOTARÁ PAISPAMBA",
+          "MPIO_NANO": 2024
+        }
+      }
+    ],
+    "recordVersionYears": {
+      "2024": 954,
+      "2025": 168
+    }
+  },
+  "counts": {
+    "departments": 32,
+    "capitalDistricts": 1,
+    "firstLevelOptions": 33,
+    "municipalities": 1103,
+    "nonMunicipalizedAreas": 18,
+    "islands": 1,
+    "totalLocalities": 1122
+  },
+  "notes": [
+    "Preserves original DANE uppercase spelling and accented characters. Codes remain strings, preserving leading zeros.",
+    "Bogotá D.C. is its own first-level capital district (11), containing locality 11001, not a municipality under Cundinamarca.",
+    "The municipalities array intentionally includes all source locality types. Show type annotations for non-municipalized areas and islands. Source Municipio includes districts.",
+    "This is the official published snapshot cross-checked against MGN 2025, not a claim of real-time administrative currency.",
+    "No delivery coverage or carrier serviceability is implied."
+  ]
+}

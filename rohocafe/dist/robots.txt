@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://rohocafe-colombia.aalvarocarrero.chatgpt.site/sitemap.xml

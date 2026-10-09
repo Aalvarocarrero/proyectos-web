@@ -1,0 +1,972 @@
+[
+  {
+    "id": "abrazo-serpiente-coral",
+    "adobe_file": "abrazo-serpiente-coral.png",
+    "width": 741,
+    "height": 696,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "alma-dragon",
+    "adobe_file": "alma-dragon.png",
+    "width": 792,
+    "height": 597,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "bola-cosmica",
+    "adobe_file": "bola-cosmica.png",
+    "width": 1140,
+    "height": 1111,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-azules",
+    "adobe_file": "buho-ojos-azules.png",
+    "width": 608,
+    "height": 418,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-verdes",
+    "adobe_file": "buho-ojos-verdes.png",
+    "width": 559,
+    "height": 646,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cobra-fuego-aurora",
+    "adobe_file": "cobra-fuego-aurora.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "conejo-magico-ojos-azules",
+    "adobe_file": "conejo-magico-ojos-azules.png",
+    "width": 612,
+    "height": 597,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-leon",
+    "adobe_file": "dragon-leon.png",
+    "width": 622,
+    "height": 605,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "emperador-draconico",
+    "adobe_file": "emperador-draconico.png",
+    "width": 560,
+    "height": 559,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "felina-magia-gato",
+    "adobe_file": "felina-magia-gato.png",
+    "width": 929,
+    "height": 539,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "garra-reina-bestial",
+    "adobe_file": "garra-reina-bestial.png",
+    "width": 709,
+    "height": 385,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "honor-esparta",
+    "adobe_file": "honor-esparta.png",
+    "width": 526,
+    "height": 679,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "mamba-negra-celestial",
+    "adobe_file": "mamba-negra-celestial.png",
+    "width": 585,
+    "height": 681,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "mascara-urano",
+    "adobe_file": "mascara-urano.png",
+    "width": 518,
+    "height": 518,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "ojo-rojo-astral",
+    "adobe_file": "ojo-rojo-astral.png",
+    "width": 711,
+    "height": 638,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "plumas-luz-guardian-celestial",
+    "adobe_file": "plumas-luz-guardian-celestial.png",
+    "width": 1005,
+    "height": 1110,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "sombra-guerrero",
+    "adobe_file": "sombra-guerrero.png",
+    "width": 714,
+    "height": 906,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "rugido-garra-salvaje",
+    "adobe_file": "rugido-garra-salvaje-fallback.png",
+    "width": 626,
+    "height": 634,
+    "alpha": false,
+    "faithful_fallback": true,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "union-divina-manos-abrazando",
+    "adobe_file": "union-divina-manos-abrazando.png",
+    "width": 1123,
+    "height": 555,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "aguila-real-fiera",
+    "adobe_file": "aguila-real-fiera.png",
+    "width": 956,
+    "height": 826,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "abrazo-pulpo",
+    "adobe_file": "abrazo-pulpo.png",
+    "width": 651,
+    "height": 496,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "almas-errantes",
+    "adobe_file": "almas-errantes.png",
+    "width": 607,
+    "height": 556,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buda-zen",
+    "adobe_file": "buda-zen.png",
+    "width": 785,
+    "height": 743,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-morados",
+    "adobe_file": "buho-ojos-morados.png",
+    "width": 650,
+    "height": 457,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "caos-supremo",
+    "adobe_file": "caos-supremo.png",
+    "width": 797,
+    "height": 491,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cobra-media-noche",
+    "adobe_file": "cobra-media-noche.png",
+    "width": 734,
+    "height": 500,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "danza-dragon",
+    "adobe_file": "danza-dragon.png",
+    "width": 626,
+    "height": 673,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-luz-eterna",
+    "adobe_file": "dragon-luz-eterna.png",
+    "width": 593,
+    "height": 623,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "esencia-marina-hoja-corazon",
+    "adobe_file": "esencia-marina-hoja-corazon.png",
+    "width": 1019,
+    "height": 560,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "fiera-leon",
+    "adobe_file": "fiera-leon.png",
+    "width": 779,
+    "height": 700,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "garra-dragon-amatista",
+    "adobe_file": "garra-dragon-amatista.png",
+    "width": 635,
+    "height": 426,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "latido-estelar-dos-almas",
+    "adobe_file": "latido-estelar-dos-almas.png",
+    "width": 889,
+    "height": 322,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "mensajero-sombras",
+    "adobe_file": "mensajero-sombras.png",
+    "width": 753,
+    "height": 381,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "naipe-estelar",
+    "adobe_file": "naipe-estelar.png",
+    "width": 3052,
+    "height": 2339,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "ojo-orion-eterno",
+    "adobe_file": "ojo-orion-eterno.png",
+    "width": 1088,
+    "height": 913,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "poder-oscuro",
+    "adobe_file": "poder-oscuro.png",
+    "width": 333,
+    "height": 420,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "sabiduria-verde-hoja-sagrada",
+    "adobe_file": "sabiduria-verde-hoja-sagrada.png",
+    "width": 836,
+    "height": 607,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "susurro-antigua-cascabel",
+    "adobe_file": "susurro-antigua-cascabel.png",
+    "width": 648,
+    "height": 708,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "veneno-escarlata-real",
+    "adobe_file": "veneno-escarlata-real.png",
+    "width": 891,
+    "height": 729,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "angel-guardian",
+    "adobe_file": "angel-guardian.png",
+    "width": 657,
+    "height": 726,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "alas-angelicales-oscuras",
+    "adobe_file": "alas-angelicales-oscuras.png",
+    "width": 722,
+    "height": 490,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "almas-gemelas-serpiente",
+    "adobe_file": "almas-gemelas-serpiente.png",
+    "width": 719,
+    "height": 507,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "bufalo-fiera",
+    "adobe_file": "bufalo-fiera.png",
+    "width": 715,
+    "height": 760,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-naranja",
+    "adobe_file": "buho-ojos-naranja.png",
+    "width": 609,
+    "height": 503,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cenizas-dragon-blanco",
+    "adobe_file": "cenizas-dragon-blanco.png",
+    "width": 624,
+    "height": 624,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cola-bestia-alada-clara",
+    "adobe_file": "cola-bestia-alada-clara.png",
+    "width": 611,
+    "height": 481,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "detalle-frontal",
+    "adobe_file": "detalle-frontal.png",
+    "width": 642,
+    "height": 650,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-noche-ojo-azul",
+    "adobe_file": "dragon-noche-ojo-azul.png",
+    "width": 696,
+    "height": 730,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "esfinge-planeta-olvidado",
+    "adobe_file": "esfinge-planeta-olvidado.png",
+    "width": 910,
+    "height": 740,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "fortaleza-natural-espiga-hoja",
+    "adobe_file": "fortaleza-natural-espiga-hoja.png",
+    "width": 669,
+    "height": 543,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "garra-halcon-celestial",
+    "adobe_file": "garra-halcon-celestial.png",
+    "width": 775,
+    "height": 586,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "latido-estelar-dos-almas-dorado",
+    "adobe_file": "latido-estelar-dos-almas-dorado.png",
+    "width": 895,
+    "height": 481,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "mirada-eclipse-ancestral",
+    "adobe_file": "mirada-eclipse-ancestral.png",
+    "width": 725,
+    "height": 616,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "naipe-apuesta-final",
+    "adobe_file": "naipe-apuesta-final.png",
+    "width": 846,
+    "height": 691,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "patitas-guardian-nebulosa",
+    "adobe_file": "patitas-guardian-nebulosa.png",
+    "width": 744,
+    "height": 530,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "puno-cometa-errante",
+    "adobe_file": "puno-cometa-errante.png",
+    "width": 1046,
+    "height": 843,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "serpiente-vibora-nocturna",
+    "adobe_file": "serpiente-vibora-nocturna.png",
+    "width": 596,
+    "height": 785,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "terciopelo-letal-eclipse",
+    "adobe_file": "terciopelo-letal-eclipse.png",
+    "width": 910,
+    "height": 626,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "vigilante-imperio",
+    "adobe_file": "vigilante-imperio.png",
+    "width": 602,
+    "height": 734,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "alma-perdida",
+    "adobe_file": "alma-perdida.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "anaconda-guardiana-bosque",
+    "adobe_file": "anaconda-guardiana-bosque.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "bufalo-fiera-ojos-aguamarina",
+    "adobe_file": "bufalo-fiera-ojos-aguamarina.png",
+    "width": 732,
+    "height": 698,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-rojos",
+    "adobe_file": "buho-ojos-rojos.png",
+    "width": 585,
+    "height": 431,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cenizas-dragon-negro",
+    "adobe_file": "cenizas-dragon-negro.png",
+    "width": 592,
+    "height": 679,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cola-bestia-alada-oscura",
+    "adobe_file": "cola-bestia-alada-oscura.png",
+    "width": 574,
+    "height": 434,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-bestia-fuego",
+    "adobe_file": "dragon-bestia-fuego.png",
+    "width": 636,
+    "height": 641,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-tiempo",
+    "adobe_file": "dragon-tiempo.png",
+    "width": 698,
+    "height": 506,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "espiral-esmeralda-cobra",
+    "adobe_file": "espiral-esmeralda-cobra.png",
+    "width": 612,
+    "height": 600,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "fragmento-fuego-dragon-cosmico",
+    "adobe_file": "fragmento-fuego-dragon-cosmico.png",
+    "width": 929,
+    "height": 551,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "guante-infinito-titan",
+    "adobe_file": "guante-infinito-titan.png",
+    "width": 1085,
+    "height": 914,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "lealtad-inquebrantable-perro-guardian",
+    "adobe_file": "lealtad-inquebrantable-perro-guardian.png",
+    "width": 898,
+    "height": 570,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "misterio-pulpo",
+    "adobe_file": "misterio-pulpo.png",
+    "width": 576,
+    "height": 690,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "ojo-espectral",
+    "adobe_file": "ojo-espectral.png",
+    "width": 858,
+    "height": 764,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "patitas-guardian-nebulosa-claro",
+    "adobe_file": "patitas-guardian-nebulosa-claro.png",
+    "width": 748,
+    "height": 396,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "raiz-poder-hoja-bosque",
+    "adobe_file": "raiz-poder-hoja-bosque.png",
+    "width": 876,
+    "height": 709,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "sigilo-letal-serpiente-sombra",
+    "adobe_file": "sigilo-letal-serpiente-sombra.png",
+    "width": 872,
+    "height": 481,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "toro-dorado-fiera",
+    "adobe_file": "toro-dorado-fiera.png",
+    "width": 882,
+    "height": 1044,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "vikingo-talisman-guerrero",
+    "adobe_file": "vikingo-talisman-guerrero.png",
+    "width": 407,
+    "height": 266,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "alma-calavera-marinera",
+    "adobe_file": "alma-calavera-marinera.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "bestia-lunas-rojas",
+    "adobe_file": "bestia-lunas-rojas.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-azul-celeste",
+    "adobe_file": "buho-ojos-azul-celeste.png",
+    "width": 623,
+    "height": 432,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "buho-ojos-rosados",
+    "adobe_file": "buho-ojos-rosados.png",
+    "width": 571,
+    "height": 373,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "cobra-dorada",
+    "adobe_file": "cobra-dorada.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "conejo-encantado-ojos-rojos",
+    "adobe_file": "conejo-encantado-ojos-rojos.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "dragon-fuego",
+    "adobe_file": "dragon-fuego.png",
+    "width": 555,
+    "height": 642,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "elegancia-letal-serpiente",
+    "adobe_file": "elegancia-letal-serpiente.png",
+    "width": 804,
+    "height": 555,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "espiral-dragon-mistico",
+    "adobe_file": "espiral-dragon-mistico.png",
+    "width": 768,
+    "height": 408,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "garra-cristal-fuego",
+    "adobe_file": "garra-cristal-fuego.png",
+    "width": 446,
+    "height": 415,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "guardian-rio-cocodrilo",
+    "adobe_file": "guardian-rio-cocodrilo.png",
+    "width": 594,
+    "height": 607,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "llama-siniestra",
+    "adobe_file": "llama-siniestra.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "mascara-hierro-negra",
+    "adobe_file": "mascara-hierro-negra.png",
+    "width": 681,
+    "height": 752,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "ojo-estelar",
+    "adobe_file": "ojo-estelar.png",
+    "width": 709,
+    "height": 639,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "piton-susurro-mortal",
+    "adobe_file": "piton-susurro-mortal.png",
+    "width": 602,
+    "height": 435,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "renacer-garra-demoniaca",
+    "adobe_file": "renacer-garra-demoniaca.png",
+    "width": 582,
+    "height": 554,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "sombra-demoniaca",
+    "adobe_file": "sombra-demoniaca.png",
+    "width": 579,
+    "height": 743,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "toro-fiera-guardian-tierra",
+    "adobe_file": "toro-fiera-guardian-tierra.png",
+    "width": 1058,
+    "height": 785,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  },
+  {
+    "id": "vuelos-eternos-dragon",
+    "adobe_file": "vuelos-eternos-dragon.png",
+    "width": 1200,
+    "height": 1200,
+    "alpha": true,
+    "faithful_fallback": false,
+    "lossless_master_verified": true,
+    "website_format": "WebP quality92; native dimensions and alpha retained"
+  }
+]

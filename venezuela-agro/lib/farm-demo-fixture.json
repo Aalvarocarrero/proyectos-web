@@ -1,0 +1,1330 @@
+{
+  "metadata": {
+    "version": 5,
+    "namespace": "venezuela-agro-demo-v1",
+    "idPrefix": "demo_v1_",
+    "asOf": "2026-10-07",
+    "label": "Demostración editable",
+    "notice": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales.",
+    "persistence": "demo-only-local",
+    "canSynchronize": false,
+    "canPublish": false,
+    "farmAreaSqM": 100000,
+    "allocatedAreaSqM": 70300,
+    "remainingAreaSqM": 29700,
+    "geography": "Unknown; normalized sketch only; no survey or geographic point",
+    "timestamps": "Fixed sample dates, not live tasks or deadlines"
+  },
+  "farms": [
+    {
+      "id": "demo_v1_farm_horizonte",
+      "payload": {
+        "name": "Finca Horizonte · demostración",
+        "location": "Ubicación sin definir · finca ficticia",
+        "areaSqM": 100000,
+        "boundaryShape": "Rectángulo",
+        "boundaryMeasurements": {
+          "northM": 400,
+          "southM": 400,
+          "eastM": 250,
+          "westM": 250
+        },
+        "propertySketch": {
+          "version": 1,
+          "coordinateSpace": "normalized-100",
+          "vertices": [
+            {
+              "id": "A",
+              "x": 0,
+              "y": 0
+            },
+            {
+              "id": "B",
+              "x": 100,
+              "y": 0
+            },
+            {
+              "id": "C",
+              "x": 100,
+              "y": 100
+            },
+            {
+              "id": "D",
+              "x": 0,
+              "y": 100
+            }
+          ]
+        },
+        "geographicReference": null,
+        "objective": "Explorar una finca mixta de 10 ha con animales, cultivos, existencias y costos de ejemplo. Cambia o elimina estos datos para practicar; no corresponden a una finca real."
+      }
+    }
+  ],
+  "records": [
+    {
+      "id": "demo_v1_animal_alba",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "animal",
+        "category": "Bovino",
+        "title": "Alba · ejemplo",
+        "data": {
+          "tag": "DEM-B01",
+          "name": "Alba",
+          "species": "Bovino",
+          "sex": "Hembra",
+          "birthDate": "2023-03-15",
+          "weightKg": 412,
+          "breed": "Mestiza",
+          "purpose": "Producción de leche",
+          "status": "Activo",
+          "areaId": "demo_v1_area_potrero_norte",
+          "demoPlanPlacement": {
+            "version": 1,
+            "coordinateSpace": "area-percent",
+            "areaId": "demo_v1_area_potrero_norte",
+            "x": 36,
+            "y": 52,
+            "source": "fictional-demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_alba_weight_1",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Bovino",
+        "title": "Pesaje · Alba · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_alba",
+          "animalTitle": "Alba · ejemplo",
+          "weightKg": 387.28,
+          "measuredAt": "2026-09-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_alba_weight_2",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Bovino",
+        "title": "Pesaje · Alba · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_alba",
+          "animalTitle": "Alba · ejemplo",
+          "weightKg": 399.64,
+          "measuredAt": "2026-09-15",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_alba_weight_3",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Bovino",
+        "title": "Pesaje · Alba · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_alba",
+          "animalTitle": "Alba · ejemplo",
+          "weightKg": 412,
+          "measuredAt": "2026-10-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_trigo",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "animal",
+        "category": "Porcino",
+        "title": "Trigo · ejemplo",
+        "data": {
+          "tag": "DEM-P01",
+          "name": "Trigo",
+          "species": "Porcino",
+          "sex": "Macho",
+          "birthDate": "2026-04-12",
+          "weightKg": 120,
+          "breed": "Cruce de ejemplo",
+          "purpose": "Engorde para venta",
+          "status": "Activo",
+          "areaId": "demo_v1_area_corrales",
+          "demoPlanPlacement": {
+            "version": 1,
+            "coordinateSpace": "area-percent",
+            "areaId": "demo_v1_area_corrales",
+            "x": 35,
+            "y": 40,
+            "source": "fictional-demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_trigo_weight_1",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Porcino",
+        "title": "Pesaje · Trigo · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_trigo",
+          "animalTitle": "Trigo · ejemplo",
+          "weightKg": 60,
+          "measuredAt": "2026-07-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_trigo_weight_2",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Porcino",
+        "title": "Pesaje · Trigo · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_trigo",
+          "animalTitle": "Trigo · ejemplo",
+          "weightKg": 70,
+          "measuredAt": "2026-08-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_trigo_weight_3",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Porcino",
+        "title": "Pesaje · Trigo · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_trigo",
+          "animalTitle": "Trigo · ejemplo",
+          "weightKg": 80,
+          "measuredAt": "2026-09-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_nube",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "animal",
+        "category": "Gallina",
+        "title": "Nube · ejemplo",
+        "data": {
+          "tag": "DEM-A01",
+          "name": "Nube",
+          "species": "Gallina",
+          "sex": "Hembra",
+          "birthDate": "2026-03-08",
+          "weightKg": 1.8,
+          "breed": "Ponedoras de ejemplo",
+          "purpose": "Producción de huevos",
+          "status": "Activo",
+          "areaId": "demo_v1_area_galpon",
+          "demoPlanPlacement": {
+            "version": 1,
+            "coordinateSpace": "area-percent",
+            "areaId": "demo_v1_area_galpon",
+            "x": 82,
+            "y": 40,
+            "source": "fictional-demo"
+          }
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_nube_weight_1",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Gallina",
+        "title": "Pesaje · Nube · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_nube",
+          "animalTitle": "Nube · ejemplo",
+          "weightKg": 1.69,
+          "measuredAt": "2026-09-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_nube_weight_2",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Gallina",
+        "title": "Pesaje · Nube · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_nube",
+          "animalTitle": "Nube · ejemplo",
+          "weightKg": 1.75,
+          "measuredAt": "2026-09-15",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_nube_weight_3",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Gallina",
+        "title": "Pesaje · Nube · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_nube",
+          "animalTitle": "Nube · ejemplo",
+          "weightKg": 1.8,
+          "measuredAt": "2026-10-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_potrero_norte",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Potrero",
+        "title": "Potrero Norte · ejemplo",
+        "data": {
+          "name": "Potrero Norte · ejemplo",
+          "usage": "Potrero",
+          "areaSqM": 30000,
+          "shape": "Rectangular",
+          "lengthM": 200,
+          "widthM": 150,
+          "diameterM": null,
+          "color": "#557347",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 3,
+          "mapY": 3,
+          "mapWidth": 27,
+          "mapHeight": 28,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_potrero_sur",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Bosque / reserva",
+        "title": "Reserva arbolada · ejemplo",
+        "data": {
+          "name": "Reserva arbolada · ejemplo",
+          "usage": "Bosque / reserva",
+          "areaSqM": 20000,
+          "shape": "Rectangular",
+          "lengthM": 200,
+          "widthM": 100,
+          "diameterM": null,
+          "color": "#29442c",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 3,
+          "mapY": 44,
+          "mapWidth": 25,
+          "mapHeight": 22,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_cacao",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Cultivo",
+        "title": "Parcela de cacao · ejemplo",
+        "data": {
+          "name": "Parcela de cacao · ejemplo",
+          "usage": "Cultivo",
+          "areaSqM": 10000,
+          "shape": "Rectangular",
+          "lengthM": 100,
+          "widthM": 100,
+          "diameterM": null,
+          "color": "#92a85b",
+          "crop": "Cacao",
+          "cropVariety": "",
+          "mapX": 48,
+          "mapY": 3,
+          "mapWidth": 22,
+          "mapHeight": 28,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_cafe",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Otro",
+        "title": "Área de uso por definir · ejemplo",
+        "data": {
+          "name": "Área de uso por definir · ejemplo",
+          "usage": "Otro",
+          "areaSqM": 5000,
+          "shape": "Rectangular",
+          "lengthM": 100,
+          "widthM": 50,
+          "diameterM": null,
+          "color": "#7d6d5f",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 33,
+          "mapY": 3,
+          "mapWidth": 10,
+          "mapHeight": 28,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_galpon",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Galpón",
+        "title": "Galpón de ejemplo · ejemplo",
+        "data": {
+          "name": "Galpón de ejemplo · ejemplo",
+          "usage": "Galpón",
+          "areaSqM": 400,
+          "shape": "Rectangular",
+          "lengthM": 20,
+          "widthM": 20,
+          "diameterM": null,
+          "color": "#9a7659",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 32,
+          "mapY": 44,
+          "mapWidth": 19,
+          "mapHeight": 13,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_deposito",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Depósito",
+        "title": "Depósito central · ejemplo",
+        "data": {
+          "name": "Depósito central · ejemplo",
+          "usage": "Depósito",
+          "areaSqM": 100,
+          "shape": "Rectangular",
+          "lengthM": 10,
+          "widthM": 10,
+          "diameterM": null,
+          "color": "#705849",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 32,
+          "mapY": 59,
+          "mapWidth": 19,
+          "mapHeight": 7,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_corrales",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Vaquera / corrales",
+        "title": "Corral de manejo · ejemplo",
+        "data": {
+          "name": "Corral de manejo · ejemplo",
+          "usage": "Vaquera / corrales",
+          "areaSqM": 600,
+          "shape": "Rectangular",
+          "lengthM": 30,
+          "widthM": 20,
+          "diameterM": null,
+          "color": "#815534",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 55,
+          "mapY": 44,
+          "mapWidth": 19,
+          "mapHeight": 13,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_agua",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Laguna / agua",
+        "title": "Reserva de agua · ejemplo",
+        "data": {
+          "name": "Reserva de agua · ejemplo",
+          "usage": "Laguna / agua",
+          "areaSqM": 1200,
+          "shape": "Rectangular",
+          "lengthM": 40,
+          "widthM": 30,
+          "diameterM": null,
+          "color": "#4f91a8",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 55,
+          "mapY": 59,
+          "mapWidth": 19,
+          "mapHeight": 9,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_casa",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Casa",
+        "title": "Casa de administración · ejemplo",
+        "data": {
+          "name": "Casa de administración · ejemplo",
+          "usage": "Casa",
+          "areaSqM": 200,
+          "shape": "Rectangular",
+          "lengthM": 20,
+          "widthM": 10,
+          "diameterM": null,
+          "color": "#b8754d",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 78,
+          "mapY": 44,
+          "mapWidth": 18,
+          "mapHeight": 13,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_area_vial",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Vías",
+        "title": "Acceso interior · ejemplo",
+        "data": {
+          "name": "Acceso interior · ejemplo",
+          "usage": "Vías",
+          "areaSqM": 1000,
+          "shape": "Rectangular",
+          "lengthM": 100,
+          "widthM": 10,
+          "diameterM": null,
+          "color": "#a58a69",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 3,
+          "mapY": 35,
+          "mapWidth": 44,
+          "mapHeight": 5,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_bovinos",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Ganadería bovina",
+        "title": "Seguimiento de Alba · ejemplo",
+        "data": {
+          "objective": "Registrar pesajes y revisar el historial individual.",
+          "startDate": "2026-09-01",
+          "endDate": "2026-12-15",
+          "status": "Activo",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_porcinos",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Porcicultura",
+        "title": "Lote piloto porcino · ejemplo",
+        "data": {
+          "objective": "Consolidar pesajes de Trigo y notas del lote.",
+          "startDate": "2026-09-02",
+          "endDate": "2026-12-16",
+          "status": "Activo",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_aves",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Avicultura",
+        "title": "Registro de aves · ejemplo",
+        "data": {
+          "objective": "Practicar el seguimiento de consumo y producción.",
+          "startDate": "2026-09-03",
+          "endDate": "2026-12-17",
+          "status": "Activo",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_peces",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Piscicultura",
+        "title": "Evaluación de un módulo acuícola · ejemplo",
+        "data": {
+          "objective": "Comparar costos antes de decidir si se inicia.",
+          "startDate": "2026-09-04",
+          "endDate": "2026-12-18",
+          "status": "Planificado",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_cacao",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Cacao",
+        "title": "Cosecha de cacao · ejemplo",
+        "data": {
+          "objective": "Registrar selección, pesaje y trazabilidad por lote.",
+          "startDate": "2026-09-05",
+          "endDate": "2026-12-19",
+          "status": "Activo",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados.",
+          "areaId": "demo_v1_area_cacao"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_cafe",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Café",
+        "title": "Preparación de cosecha de café · ejemplo",
+        "data": {
+          "objective": "Organizar herramientas y hojas de recepción.",
+          "startDate": "2026-09-06",
+          "endDate": "2026-12-20",
+          "status": "Planificado",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_abejas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Apicultura",
+        "title": "Evaluación de apiario · ejemplo",
+        "data": {
+          "objective": "Preparar un escenario sin asumir colmenas instaladas.",
+          "startDate": "2026-09-07",
+          "endDate": "2026-12-21",
+          "status": "Planificado",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_cycle_genetica",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "production-cycle",
+        "category": "Genética",
+        "title": "Revisión del registro bovino · ejemplo",
+        "data": {
+          "objective": "Organizar identificación y antecedentes; no certifica genética.",
+          "startDate": "2026-09-08",
+          "endDate": "2026-12-22",
+          "status": "En pausa",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Fechas de interfaz; no son plazos técnicos recomendados."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_heno",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Alimentos y forrajes",
+        "title": "Heno seco en pacas",
+        "data": {
+          "quantity": 24,
+          "unit": "paca",
+          "minimum": 8,
+          "location": "Depósito central · zona seca",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Pacas ficticias identificadas como DEM-H01. La cantidad cuenta pacas, no kilogramos.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_alimento",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Alimentos y forrajes",
+        "title": "Alimento almacenado para aves",
+        "data": {
+          "quantity": 6,
+          "unit": "saco",
+          "minimum": 3,
+          "location": "Depósito central · estante A",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Sacos de ejemplo de 40 kg. Referencia de empaque; no representa una recomendación alimentaria.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_vitaminas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Vitaminas y medicinas",
+        "title": "Envase de vitaminas veterinarias · muestra",
+        "data": {
+          "quantity": 2,
+          "unit": "envase",
+          "minimum": 2,
+          "location": "Gabinete sanitario · estante 1",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Artículo genérico sin marca ni principio activo. Sin dosis ni indicación de uso; sirve para practicar el control de envases.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_botiquin",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Vitaminas y medicinas",
+        "title": "Gasas para botiquín",
+        "data": {
+          "quantity": 5,
+          "unit": "caja",
+          "minimum": 2,
+          "location": "Gabinete sanitario · estante 2",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Cajas demostrativas cerradas. Registrar lote y vencimiento reales cuando se disponga de ellos.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_maiz",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Semillas",
+        "title": "Semilla de maíz · lote de práctica",
+        "data": {
+          "quantity": 12,
+          "unit": "kg",
+          "minimum": 5,
+          "location": "Depósito central · estante B",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lote DEM-S01. Identificación ficticia; no implica certificación, germinación ni procedencia verificadas.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_hortalizas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Semillas",
+        "title": "Semillas de hortalizas · sobres de práctica",
+        "data": {
+          "quantity": 20,
+          "unit": "sobre",
+          "minimum": 6,
+          "location": "Depósito central · cajón B2",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Sobres de ejemplo separados por rubro. Edita especie, variedad y lote según tu registro real.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_abono",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Fertilizantes y control",
+        "title": "Abono orgánico ensacado",
+        "data": {
+          "quantity": 10,
+          "unit": "saco",
+          "minimum": 4,
+          "location": "Depósito central · zona de insumos",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Sacos ficticios de 25 kg para mostrar empaque. No indica composición, dosis ni frecuencia de aplicación.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_trampas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Fertilizantes y control",
+        "title": "Trampas adhesivas de monitoreo",
+        "data": {
+          "quantity": 12,
+          "unit": "unidad",
+          "minimum": 5,
+          "location": "Depósito central · estante C",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Material demostrativo de observación. No constituye diagnóstico ni programa de control.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_sal",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Sal, melaza y suplementos",
+        "title": "Sal mineral ensacada · ejemplo",
+        "data": {
+          "quantity": 3,
+          "unit": "saco",
+          "minimum": 3,
+          "location": "Depósito central · estante D",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Sacos ficticios de 20 kg. Composición y uso por definir con el profesional responsable.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_melaza",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Sal, melaza y suplementos",
+        "title": "Melaza en envase cerrado",
+        "data": {
+          "quantity": 40,
+          "unit": "litro",
+          "minimum": 15,
+          "location": "Depósito central · zona de recipientes",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Cantidad sintética para registrar entradas y salidas; no es una ración o indicación de mezcla.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_alambre",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Herramientas y cercas",
+        "title": "Alambre para reparación de cerca",
+        "data": {
+          "quantity": 2,
+          "unit": "rollo",
+          "minimum": 1,
+          "location": "Depósito central · panel de herramientas",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Rollos de práctica de 100 m. Sin garantía de resistencia ni especificación para una instalación concreta.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_palas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Herramientas y cercas",
+        "title": "Palas de trabajo",
+        "data": {
+          "quantity": 4,
+          "unit": "unidad",
+          "minimum": 2,
+          "location": "Depósito central · panel de herramientas",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Herramientas ficticias numeradas DEM-T01 a DEM-T04. Permite practicar reposición y ubicación.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_diesel",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Combustible y lubricantes",
+        "title": "Diésel · control de existencias",
+        "data": {
+          "quantity": 25,
+          "unit": "litro",
+          "minimum": 10,
+          "location": "Área técnica · almacenamiento identificado",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Existencia ficticia; no documenta compra ni cumplimiento de condiciones de almacenamiento.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_aceite",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Combustible y lubricantes",
+        "title": "Aceite lubricante · envases de práctica",
+        "data": {
+          "quantity": 4,
+          "unit": "envase",
+          "minimum": 2,
+          "location": "Área técnica · gabinete",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Envases de ejemplo de 1 litro. Compatibilidad, especificación y mantenimiento por verificar en el equipo real.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_sacos",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Otros insumos",
+        "title": "Sacos vacíos de recolección",
+        "data": {
+          "quantity": 30,
+          "unit": "unidad",
+          "minimum": 10,
+          "location": "Depósito central · estante E",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Sacos demostrativos limpios para identificar lotes. Sin capacidad ni uso alimentario certificados.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_inventory_etiquetas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "inventory",
+        "category": "Otros insumos",
+        "title": "Etiquetas de identificación",
+        "data": {
+          "quantity": 100,
+          "unit": "unidad",
+          "minimum": 25,
+          "location": "Casa de administración · archivador",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Etiquetas sintéticas para animales, pesajes y cosechas de práctica. Sin códigos oficiales.",
+          "areaId": "demo_v1_area_deposito"
+        }
+      }
+    },
+    {
+      "id": "demo_v1_finance_alimento",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "finance",
+        "category": "Costo",
+        "title": "Alimento del lote · ejemplo",
+        "data": {
+          "kind": "Costo",
+          "amount": 120,
+          "date": "2026-09-05",
+          "supplier": "Proveedor ficticio A",
+          "invoiceReference": "DEM-REF-ALIMENTO",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Monto en USD creado únicamente para probar cálculos; referencia no fiscal."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_finance_herramientas",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "finance",
+        "category": "Inversión",
+        "title": "Herramientas de trabajo · ejemplo",
+        "data": {
+          "kind": "Inversión",
+          "amount": 85,
+          "date": "2026-09-08",
+          "supplier": "Proveedor ficticio B",
+          "invoiceReference": "DEM-REF-HERRAMIENTAS",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Monto en USD creado únicamente para probar cálculos; referencia no fiscal."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_finance_transporte",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "finance",
+        "category": "Costo",
+        "title": "Traslado de insumos · ejemplo",
+        "data": {
+          "kind": "Costo",
+          "amount": 35,
+          "date": "2026-09-10",
+          "supplier": "Servicio ficticio C",
+          "invoiceReference": "DEM-REF-TRANSPORTE",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Monto en USD creado únicamente para probar cálculos; referencia no fiscal."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_finance_cacao",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "finance",
+        "category": "Ingreso",
+        "title": "Ingreso de cacao · ejemplo",
+        "data": {
+          "kind": "Ingreso",
+          "amount": 300,
+          "date": "2026-09-25",
+          "supplier": "Comprador ficticio A",
+          "invoiceReference": "DEM-REF-CACAO",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Monto en USD creado únicamente para probar cálculos; referencia no fiscal."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_finance_huevos",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "finance",
+        "category": "Ingreso",
+        "title": "Ingreso de huevos · ejemplo",
+        "data": {
+          "kind": "Ingreso",
+          "amount": 60,
+          "date": "2026-09-28",
+          "supplier": "Comprador ficticio B",
+          "invoiceReference": "DEM-REF-HUEVOS",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Monto en USD creado únicamente para probar cálculos; referencia no fiscal."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_health_bovinos",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "health",
+        "category": "Bovinos",
+        "title": "Revisión visual registrada · ejemplo",
+        "data": {
+          "event": "Revisión visual registrada · ejemplo",
+          "group": "Alba DEM-B01",
+          "date": "2026-09-20",
+          "nextDate": "2026-10-20",
+          "product": "",
+          "batch": "",
+          "professional": "Responsable de ejemplo · sin credencial asignada",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Agenda administrativa simulada. No documenta diagnóstico, tratamiento, vacunación ni aptitud sanitaria; no prescribe una frecuencia de atención."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_health_aves",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "health",
+        "category": "Avicultura",
+        "title": "Revisión del registro sanitario · ejemplo",
+        "data": {
+          "event": "Revisión del registro sanitario · ejemplo",
+          "group": "Nube DEM-A01",
+          "date": "2026-09-22",
+          "nextDate": "2026-10-22",
+          "product": "",
+          "batch": "",
+          "professional": "Responsable de ejemplo · sin credencial asignada",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Agenda administrativa simulada. No documenta diagnóstico, tratamiento, vacunación ni aptitud sanitaria; no prescribe una frecuencia de atención."
+        }
+      }
+    },
+    {
+      "id": "demo_v1_plan_aves",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "plan",
+        "category": "Gallinas ponedoras",
+        "title": "Escenario editable de aves · ejemplo",
+        "data": {
+          "quantity": 12,
+          "days": 30,
+          "feedPerUnit": 3,
+          "waterPerUnitDay": 0.4,
+          "areaPerUnit": 1,
+          "costPerUnit": 6,
+          "expectedRevenue": 120,
+          "totals": {
+            "feed": 36,
+            "water": 144.0,
+            "area": 12,
+            "variableCost": 72,
+            "margin": 48
+          },
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Coeficientes arbitrarios para aprender a usar la calculadora. No son recomendaciones agronómicas ni promesas de rendimiento.",
+          "assumptionsReviewed": false
+        }
+      }
+    },
+    {
+      "id": "demo_v1_plan_cacao",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "plan",
+        "category": "Cacao",
+        "title": "Escenario editable de cacao · ejemplo",
+        "data": {
+          "quantity": 100,
+          "days": 90,
+          "feedPerUnit": 1,
+          "waterPerUnitDay": 1,
+          "areaPerUnit": 4,
+          "costPerUnit": 2,
+          "expectedRevenue": 300,
+          "totals": {
+            "feed": 100,
+            "water": 9000,
+            "area": 400,
+            "variableCost": 200,
+            "margin": 100
+          },
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Coeficientes arbitrarios para aprender a usar la calculadora. No son recomendaciones agronómicas ni promesas de rendimiento.",
+          "assumptionsReviewed": false
+        }
+      }
+    },
+    {
+      "id": "demo_v1_animal_trigo_weight_4",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "weight",
+        "category": "Porcino",
+        "title": "Pesaje · Trigo · ejemplo",
+        "data": {
+          "animalId": "demo_v1_animal_trigo",
+          "animalTitle": "Trigo · ejemplo",
+          "weightKg": 120,
+          "measuredAt": "2026-10-01",
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Lectura sintética para mostrar el historial."
+        }
+      }
+    },
+    {
+      "id": "demo_v4_task_cerca",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "task",
+        "category": "Mantenimiento",
+        "title": "Revisar cerca · tarea ficticia",
+        "data": {
+          "areaId": "demo_v1_area_potrero_norte",
+          "status": "Pendiente",
+          "date": "2026-10-09",
+          "notes": "Ejercicio de aprendizaje. No representa trabajo real ni una recomendación técnica."
+        }
+      }
+    },
+    {
+      "id": "demo_v4_task_agua",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "task",
+        "category": "Mantenimiento",
+        "title": "Revisar entrada de agua · tarea ficticia",
+        "data": {
+          "areaId": "demo_v1_area_agua",
+          "status": "Completada",
+          "date": "2026-10-07",
+          "notes": "Ejercicio de aprendizaje. No representa trabajo real ni una recomendación técnica."
+        }
+      }
+    },
+    {
+      "id": "demo_v5_area_greenhouse",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Invernadero",
+        "title": "Invernadero · ejemplo",
+        "data": {
+          "name": "Invernadero · ejemplo",
+          "usage": "Invernadero",
+          "areaSqM": 600,
+          "shape": "Rectangular",
+          "lengthM": 20,
+          "widthM": 30.0,
+          "diameterM": null,
+          "color": "#92a85b",
+          "crop": "Lechuga",
+          "cropVariety": "",
+          "mapX": 74,
+          "mapY": 3,
+          "mapWidth": 22,
+          "mapHeight": 13,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v5_area_tank",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Tanque de agua",
+        "title": "Tanque de agua · ejemplo",
+        "data": {
+          "name": "Tanque de agua · ejemplo",
+          "usage": "Tanque de agua",
+          "areaSqM": 100,
+          "shape": "Rectangular",
+          "lengthM": 10,
+          "widthM": 10.0,
+          "diameterM": null,
+          "color": "#a58a69",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 78,
+          "mapY": 60,
+          "mapWidth": 8,
+          "mapHeight": 8,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v5_area_compost",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Compostera",
+        "title": "Compostera · ejemplo",
+        "data": {
+          "name": "Compostera · ejemplo",
+          "usage": "Compostera",
+          "areaSqM": 100,
+          "shape": "Rectangular",
+          "lengthM": 10,
+          "widthM": 10.0,
+          "diameterM": null,
+          "color": "#a58a69",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 88,
+          "mapY": 60,
+          "mapWidth": 8,
+          "mapHeight": 8,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v5_area_nursery",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Vivero",
+        "title": "Vivero · ejemplo",
+        "data": {
+          "name": "Vivero · ejemplo",
+          "usage": "Vivero",
+          "areaSqM": 400,
+          "shape": "Rectangular",
+          "lengthM": 20,
+          "widthM": 20.0,
+          "diameterM": null,
+          "color": "#92a85b",
+          "crop": "Lechuga",
+          "cropVariety": "",
+          "mapX": 74,
+          "mapY": 19,
+          "mapWidth": 22,
+          "mapHeight": 12,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    },
+    {
+      "id": "demo_v5_area_access_east",
+      "payload": {
+        "farmId": "demo_v1_farm_horizonte",
+        "recordType": "area",
+        "category": "Vías",
+        "title": "Acceso este · ejemplo",
+        "data": {
+          "name": "Acceso este · ejemplo",
+          "usage": "Vías",
+          "areaSqM": 600,
+          "shape": "Rectangular",
+          "lengthM": 60,
+          "widthM": 10,
+          "diameterM": null,
+          "color": "#a58a69",
+          "crop": "",
+          "cropVariety": "",
+          "mapX": 47,
+          "mapY": 35,
+          "mapWidth": 44,
+          "mapHeight": 5,
+          "notes": "Ejemplo ficticio editable. No representa existencias, precios ni actividades reales. Croquis sin coordenadas geográficas; tamaños dibujados no están a escala."
+        }
+      }
+    }
+  ],
+  "listings": [
+    {
+      "id": "demo_v1_listing_cacao",
+      "payload": {
+        "title": "Lote de cacao · borrador de ejemplo",
+        "category": "Cacao",
+        "status": "draft",
+        "location": "Zona de ejemplo · sin ubicación real"
+      }
+    },
+    {
+      "id": "demo_v1_listing_aves",
+      "payload": {
+        "title": "Aves · borrador de ejemplo",
+        "category": "Avicultura",
+        "status": "draft",
+        "location": "Zona de ejemplo · sin ubicación real"
+      }
+    }
+  ]
+}

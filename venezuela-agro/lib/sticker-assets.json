@@ -1,0 +1,1626 @@
+{
+  "items": [
+    {
+      "id": "animales-caballo",
+      "name": "Caballo",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "caballo"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-caballo-6297ecf75e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 36460
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-caballo-6cc655a4f3.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18250
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-caballo-73bb49d85a.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24379
+      }
+    },
+    {
+      "id": "animales-oveja",
+      "name": "Oveja",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "oveja",
+        "ovino"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-oveja-cee435e3ad.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 38726
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-oveja-a6f9524a57.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20718
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-oveja-01769bb7dd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 26217
+      }
+    },
+    {
+      "id": "animales-vaca",
+      "name": "Vaca",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "vaca",
+        "bovino",
+        "ganado"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-vaca-51aac77140.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 39709
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-vaca-14fbb27d8c.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21188
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-vaca-a0d5a4e818.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 26716
+      }
+    },
+    {
+      "id": "animales-gallina",
+      "name": "Gallina",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "gallina",
+        "gallinas"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-gallina-2e72fd4c9a.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 41818
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-gallina-06ed37eb62.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19586
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-gallina-77493f1068.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28176
+      }
+    },
+    {
+      "id": "animales-pollito",
+      "name": "Pollito",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "pollito",
+        "pollitos",
+        "pollo bebé"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-pollito-babed4f413.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28485
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-pollito-abb8559719.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15146
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-pollito-b76755a43b.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 93248
+      }
+    },
+    {
+      "id": "animales-gallo",
+      "name": "Gallo",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "gallo",
+        "gallos"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/animales-gallo-901a6f42cd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 46521
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/animales-gallo-eb1674d361.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 20382
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/animales-gallo-2f8e50dc43.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 31098
+      }
+    },
+    {
+      "id": "hortalizas-zanahoria",
+      "name": "Zanahoria",
+      "familyId": "hortalizas",
+      "familyName": "Hortalizas, raíces y granos",
+      "aliases": [
+        "zanahoria"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/hortalizas-zanahoria-688066ef6f.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 39014
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/hortalizas-zanahoria-4328f11362.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17764
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/hortalizas-zanahoria-ad554b2b22.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 26005
+      }
+    },
+    {
+      "id": "hortalizas-fresa",
+      "name": "Fresa",
+      "familyId": "hortalizas",
+      "familyName": "Hortalizas, raíces y granos",
+      "aliases": [
+        "fresa"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/hortalizas-fresa-65c1621307.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 44114
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/hortalizas-fresa-a615a5563e.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19148
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/hortalizas-fresa-419619230d.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29664
+      }
+    },
+    {
+      "id": "instalaciones-finca",
+      "name": "Finca",
+      "familyId": "instalaciones",
+      "familyName": "Fincas e instalaciones",
+      "aliases": [
+        "finca"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/instalaciones-finca-5b1a64fe88.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 48140
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/instalaciones-finca-2327429118.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18888
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/instalaciones-finca-d9a9f1e6f1.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 31968
+      }
+    },
+    {
+      "id": "instalaciones-corral",
+      "name": "Corral",
+      "familyId": "instalaciones",
+      "familyName": "Fincas e instalaciones",
+      "aliases": [
+        "corral"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/instalaciones-corral-bb17523351.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 34732
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/instalaciones-corral-322905fd84.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18928
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/instalaciones-corral-3056f2f592.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 23436
+      }
+    },
+    {
+      "id": "sanidad-vacuna-veterinaria",
+      "name": "Vacuna veterinaria",
+      "familyId": "sanidad",
+      "familyName": "Sanidad y bienestar",
+      "aliases": [
+        "vacuna veterinaria",
+        "vacuna",
+        "vacunas",
+        "vacunación"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/sanidad-vacuna-veterinaria-6c182e10e5.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 35458
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/sanidad-vacuna-veterinaria-0d689bfa69.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16842
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/sanidad-vacuna-veterinaria-ee66f506ec.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24246
+      }
+    },
+    {
+      "id": "herramientas-bomba-de-agua",
+      "name": "Bomba de agua",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "bomba de agua",
+        "bomba",
+        "motobomba"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-bomba-de-agua-b604eb67ce.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 47377
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-bomba-de-agua-37581ed070.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 24566
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-bomba-de-agua-e16b03cc21.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 31784
+      }
+    },
+    {
+      "id": "herramientas-martillo",
+      "name": "Martillo",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "martillo"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-martillo-b21d4f55ea.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 26896
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-martillo-1c53325ac2.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13890
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-martillo-d25a7d5af5.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 79856
+      }
+    },
+    {
+      "id": "herramientas-grapas-para-cerca",
+      "name": "Grapas para cerca",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "grapas para cerca",
+        "grapas",
+        "grapa",
+        "grapas de alambre"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-grapas-para-cerca-eba1cf8653.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 42266
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-grapas-para-cerca-358eee9bad.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19518
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-grapas-para-cerca-45a5de2bdc.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27480
+      }
+    },
+    {
+      "id": "herramientas-destornillador",
+      "name": "Destornillador",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "destornillador"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-destornillador-a57f0d1270.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 94901
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-destornillador-de77d6209e.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 11162
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-destornillador-caf5167663.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 62556
+      }
+    },
+    {
+      "id": "herramientas-desmalezadora",
+      "name": "Desmalezadora",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "desmalezadora",
+        "desbrozadora",
+        "guaraña"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-desmalezadora-e72838f8bd.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24762
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-desmalezadora-1d795d272f.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15380
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-desmalezadora-551bbd59d9.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 72747
+      }
+    },
+    {
+      "id": "herramientas-drone-agricola",
+      "name": "Drone agrícola",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "drone agrícola"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-drone-agricola-be2a5c4cd8.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29283
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-drone-agricola-6d3ded46c3.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17844
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-drone-agricola-4a44ae3017.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 84640
+      }
+    },
+    {
+      "id": "herramientas-tractor",
+      "name": "Tractor",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "tractor"
+      ],
+      "download": {
+        "src": "/sticker-packs/png/herramientas-tractor-cf4b302f90.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 42092
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/herramientas-tractor-4de5f01d39.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21778
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/herramientas-tractor-a5df4bc57b.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28802
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-zanahoria--mujer",
+      "name": "Agricultora con zanahoria",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "zanahoria",
+        "mujer",
+        "agricultora con zanahoria"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-zanahoria",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--mujer-e1a1a36419.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 30678
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--mujer-b185d2f01d.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15002
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--mujer-baa1e2a1a1.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 82468
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-zanahoria--hombre",
+      "name": "Agricultor con zanahoria",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "zanahoria",
+        "hombre",
+        "agricultor con zanahoria"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-zanahoria",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--hombre-0af77f3edc.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 33832
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--hombre-408a629433.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16142
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--hombre-8fe303ea04.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 89036
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-yuca--mujer",
+      "name": "Agricultora con yuca",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "yuca",
+        "mujer",
+        "agricultora con yuca"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-yuca",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--mujer-22292230cf.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 32916
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--mujer-5c62c99c78.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15832
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--mujer-c053b22902.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 87645
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-yuca--hombre",
+      "name": "Agricultor con yuca",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "yuca",
+        "hombre",
+        "agricultor con yuca"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-yuca",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--hombre-7212e6383e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29666
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--hombre-b5a6c6222c.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14950
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--hombre-d401a414a1.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 82958
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-ocumo--mujer",
+      "name": "Agricultora con ocumo",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "ocumo",
+        "ocumo blanco",
+        "mujer",
+        "agricultora con ocumo"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-ocumo",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--mujer-576d0c7e69.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24713
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--mujer-1d6d8f4500.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13046
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--mujer-a2122a0dab.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 68688
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-ocumo--hombre",
+      "name": "Agricultor con ocumo",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "ocumo",
+        "ocumo blanco",
+        "hombre",
+        "agricultor con ocumo"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-ocumo",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--hombre-641268208e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28792
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--hombre-cf548c3acc.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14894
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--hombre-ae730bac4e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 81898
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-vaca--mujer",
+      "name": "Agricultora con vaca",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "vaca",
+        "bovino",
+        "ganado",
+        "mujer",
+        "agricultora con vaca"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-vaca",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-vaca--mujer-41196eaaf8.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 39994
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--mujer-7a1584d1dc.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21126
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--mujer-9d96aeebae.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27405
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-vaca--hombre",
+      "name": "Agricultor con vaca",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "vaca",
+        "bovino",
+        "ganado",
+        "hombre",
+        "agricultor con vaca"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-vaca",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-vaca--hombre-5ab26382f8.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 41219
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--hombre-72003c14e0.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 21384
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--hombre-538f57b95e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27670
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-oveja--mujer",
+      "name": "Agricultora con oveja",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "oveja",
+        "ovino",
+        "mujer",
+        "agricultora con oveja"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-oveja",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-oveja--mujer-0eb298c356.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 34895
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--mujer-d3e9cbb78f.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17592
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--mujer-2798bff642.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 23522
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-oveja--hombre",
+      "name": "Agricultor con oveja",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "oveja",
+        "ovino",
+        "hombre",
+        "agricultor con oveja"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-oveja",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-oveja--hombre-e6f34b6f9f.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 40228
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--hombre-e79549e714.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18874
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--hombre-be2f92a35a.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27408
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-conejo--mujer",
+      "name": "Agricultora con conejo",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "conejo",
+        "mujer",
+        "agricultora con conejo"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-conejo",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-conejo--mujer-e71dcb6265.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 34548
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--mujer-d6c23d4cfa.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15914
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--mujer-1726f80e37.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 23062
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-conejo--hombre",
+      "name": "Agricultor con conejo",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "conejo",
+        "hombre",
+        "agricultor con conejo"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-conejo",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-conejo--hombre-f0d17522e5.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 33632
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--hombre-300d9fc1f7.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15596
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--hombre-9ae8594448.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 98728
+      }
+    },
+    {
+      "id": "profesionales-veterinaria--mujer",
+      "name": "Veterinaria",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "veterinaria",
+        "veterinario",
+        "veterinarios",
+        "mujer"
+      ],
+      "pairId": "profesionales-veterinaria",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-veterinaria--mujer-0a1a49b0a2.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 34772
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-veterinaria--mujer-7540c5d419.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15826
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-veterinaria--mujer-215d11949d.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 99909
+      }
+    },
+    {
+      "id": "profesionales-veterinaria--hombre",
+      "name": "Veterinario",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "veterinaria",
+        "veterinario",
+        "veterinarios",
+        "hombre"
+      ],
+      "pairId": "profesionales-veterinaria",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-veterinaria--hombre-c6367037e3.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 32625
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-veterinaria--hombre-3549248c9f.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14490
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-veterinaria--hombre-a4536b2ba6.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 93207
+      }
+    },
+    {
+      "id": "profesionales-agronomo--mujer",
+      "name": "Agrónoma",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "agrónomo",
+        "mujer",
+        "agrónoma"
+      ],
+      "pairId": "profesionales-agronomo",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-agronomo--mujer-1d7628f17a.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24967
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-agronomo--mujer-458d21a005.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14068
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-agronomo--mujer-799450ae80.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 71245
+      }
+    },
+    {
+      "id": "profesionales-agronomo--hombre",
+      "name": "Agrónomo",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "agrónomo",
+        "hombre"
+      ],
+      "pairId": "profesionales-agronomo",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-agronomo--hombre-53222c8ffa.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 25810
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-agronomo--hombre-9ceae24ad1.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14024
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-agronomo--hombre-3d055ddd53.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 72557
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-maiz--mujer",
+      "name": "Cosechadora de maíz",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "maiz",
+        "maíz",
+        "cosechadora"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-maiz",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--mujer-a9f5b22f3e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27791
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--mujer-9a19b699c4.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14314
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--mujer-bf7eb7f44f.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 74886
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-maiz--hombre",
+      "name": "Cosechador de maíz",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "maiz",
+        "maíz",
+        "cosechador"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-maiz",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--hombre-ee722a57fc.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28074
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--hombre-a416e2aa00.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13838
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--hombre-7e1210e3fe.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 73761
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cafe--mujer",
+      "name": "Cosechadora de café",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "cafe",
+        "café",
+        "cosechadora"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-cafe",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--mujer-caf2b0d1e9.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29705
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--mujer-a69dbd0ff8.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15354
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--mujer-e48ddb8290.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 82284
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cafe--hombre",
+      "name": "Cosechador de café",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "cafe",
+        "café",
+        "cosechador"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-cafe",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--hombre-3fc9c4decb.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 30377
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--hombre-13d2ffad03.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 15456
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--hombre-c705de780f.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 82799
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cacao--mujer",
+      "name": "Cosechadora de cacao",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "cacao",
+        "cacao",
+        "cosechadora"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-cacao",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--mujer-1660981fa5.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 27096
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--mujer-4a3bab6f5c.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13832
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--mujer-b4be7da00b.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 71957
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cacao--hombre",
+      "name": "Cosechador de cacao",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "cacao",
+        "cacao",
+        "cosechador"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-cacao",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--hombre-5572e6ee98.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29330
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--hombre-3dd98e89e6.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14388
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--hombre-b31d41ff98.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 76566
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-tomate--mujer",
+      "name": "Cosechadora de tomate",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "tomate",
+        "tomate",
+        "cosechadora"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-tomate",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--mujer-ef27ab2fad.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 25816
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--mujer-2e98dae360.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13798
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--mujer-766b3cf92e.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 71669
+      }
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-tomate--hombre",
+      "name": "Cosechador de tomate",
+      "familyId": "agricultores-cosecha",
+      "familyName": "Agricultores con cosecha",
+      "aliases": [
+        "tomate",
+        "tomate",
+        "cosechador"
+      ],
+      "pairId": "agricultores-cosecha-agricultor-con-tomate",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--hombre-b88111d5e2.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 25991
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--hombre-e7e01384c5.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 13644
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--hombre-bd29ad4cca.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 72176
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-cerdo--mujer",
+      "name": "Productora de cerdos",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "cerdo",
+        "cerdos",
+        "productora"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-cerdo",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--mujer-5711862833.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 35041
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--mujer-0ba8d795df.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 16626
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--mujer-08bddd3240.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 23976
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-cerdo--hombre",
+      "name": "Productor de cerdos",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "cerdo",
+        "cerdos",
+        "productor"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-cerdo",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--hombre-a3420959ea.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 36219
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--hombre-cba5ea5165.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17964
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--hombre-0b6fb981fc.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24699
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-cabra--mujer",
+      "name": "Productora de caprinos",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "cabra",
+        "caprinos",
+        "productora"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-cabra",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-cabra--mujer-c54770b433.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 35319
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--mujer-ed89a43cda.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18428
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--mujer-987768f9fa.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 97814
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-cabra--hombre",
+      "name": "Productor de caprinos",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "cabra",
+        "caprinos",
+        "productor"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-cabra",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-cabra--hombre-6b5a9691d6.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 33446
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--hombre-85a9136c0d.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 17642
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--hombre-ea7e240d92.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 96316
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-gallina--mujer",
+      "name": "Productora de gallinas",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "gallina",
+        "gallinas",
+        "productora"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-gallina",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-gallina--mujer-03289a0829.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 24211
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--mujer-f80233e730.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 12932
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--mujer-13e187db60.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 67297
+      }
+    },
+    {
+      "id": "agricultores-animales-agricultor-con-gallina--hombre",
+      "name": "Productor de gallinas",
+      "familyId": "agricultores-animales",
+      "familyName": "Agricultores con animales",
+      "aliases": [
+        "gallina",
+        "gallinas",
+        "productor"
+      ],
+      "pairId": "agricultores-animales-agricultor-con-gallina",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/agricultores-animales-agricultor-con-gallina--hombre-e1be8e79e7.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 26823
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--hombre-055378424d.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 14104
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--hombre-e1a3d9e6d2.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 75160
+      }
+    },
+    {
+      "id": "profesionales-acuicultura-peces--mujer",
+      "name": "Acuicultora de peces",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "peces",
+        "peces",
+        "acuicultora"
+      ],
+      "pairId": "profesionales-acuicultura-peces",
+      "characterVariant": "woman",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-acuicultura-peces--mujer-a553aab16b.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 42481
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-acuicultura-peces--mujer-d04903e6c8.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 19606
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-acuicultura-peces--mujer-5dd0cb7876.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 28644
+      }
+    },
+    {
+      "id": "profesionales-acuicultura-peces--hombre",
+      "name": "Acuicultor de peces",
+      "familyId": "profesionales",
+      "familyName": "Personas del agro",
+      "aliases": [
+        "peces",
+        "peces",
+        "acuicultor"
+      ],
+      "pairId": "profesionales-acuicultura-peces",
+      "characterVariant": "man",
+      "download": {
+        "src": "/sticker-packs/png/profesionales-acuicultura-peces--hombre-fc7603d37b.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 42363
+      },
+      "thumbnail": {
+        "src": "/sticker-packs/thumbs/profesionales-acuicultura-peces--hombre-e3b6381195.webp",
+        "width": 256,
+        "height": 256,
+        "bytes": 18884
+      },
+      "compactDownload": {
+        "src": "/sticker-packs/compact/profesionales-acuicultura-peces--hombre-95c9673316.png",
+        "width": 512,
+        "height": 512,
+        "bytes": 29189
+      }
+    }
+  ],
+  "packs": [
+    {
+      "id": "coleccion-completa",
+      "name": "Colección completa",
+      "src": "/sticker-packs/coleccion-completa-d89799ef2a.zip",
+      "bytes": 1751970,
+      "itemIds": [
+        "animales-caballo",
+        "animales-oveja",
+        "animales-vaca",
+        "animales-gallina",
+        "animales-pollito",
+        "animales-gallo",
+        "hortalizas-zanahoria",
+        "hortalizas-fresa",
+        "instalaciones-finca",
+        "instalaciones-corral",
+        "sanidad-vacuna-veterinaria",
+        "herramientas-bomba-de-agua",
+        "herramientas-martillo",
+        "herramientas-grapas-para-cerca",
+        "herramientas-destornillador",
+        "herramientas-desmalezadora",
+        "herramientas-drone-agricola",
+        "herramientas-tractor",
+        "agricultores-cosecha-agricultor-con-zanahoria--mujer",
+        "agricultores-cosecha-agricultor-con-zanahoria--hombre",
+        "agricultores-cosecha-agricultor-con-yuca--mujer",
+        "agricultores-cosecha-agricultor-con-yuca--hombre",
+        "agricultores-cosecha-agricultor-con-ocumo--mujer",
+        "agricultores-cosecha-agricultor-con-ocumo--hombre",
+        "agricultores-animales-agricultor-con-vaca--mujer",
+        "agricultores-animales-agricultor-con-vaca--hombre",
+        "agricultores-animales-agricultor-con-oveja--mujer",
+        "agricultores-animales-agricultor-con-oveja--hombre",
+        "agricultores-animales-agricultor-con-conejo--mujer",
+        "agricultores-animales-agricultor-con-conejo--hombre",
+        "profesionales-veterinaria--mujer",
+        "profesionales-veterinaria--hombre",
+        "profesionales-agronomo--mujer",
+        "profesionales-agronomo--hombre",
+        "agricultores-cosecha-agricultor-con-maiz--mujer",
+        "agricultores-cosecha-agricultor-con-maiz--hombre",
+        "agricultores-cosecha-agricultor-con-cafe--mujer",
+        "agricultores-cosecha-agricultor-con-cafe--hombre",
+        "agricultores-cosecha-agricultor-con-cacao--mujer",
+        "agricultores-cosecha-agricultor-con-cacao--hombre",
+        "agricultores-cosecha-agricultor-con-tomate--mujer",
+        "agricultores-cosecha-agricultor-con-tomate--hombre",
+        "agricultores-animales-agricultor-con-cerdo--mujer",
+        "agricultores-animales-agricultor-con-cerdo--hombre",
+        "agricultores-animales-agricultor-con-cabra--mujer",
+        "agricultores-animales-agricultor-con-cabra--hombre",
+        "agricultores-animales-agricultor-con-gallina--mujer",
+        "agricultores-animales-agricultor-con-gallina--hombre",
+        "profesionales-acuicultura-peces--mujer",
+        "profesionales-acuicultura-peces--hombre"
+      ]
+    },
+    {
+      "id": "coleccion-compacta",
+      "name": "Colección compacta",
+      "src": "/sticker-packs/coleccion-compacta-de4ceaf2a0.zip",
+      "bytes": 2812731,
+      "itemIds": [
+        "animales-caballo",
+        "animales-oveja",
+        "animales-vaca",
+        "animales-gallina",
+        "animales-pollito",
+        "animales-gallo",
+        "hortalizas-zanahoria",
+        "hortalizas-fresa",
+        "instalaciones-finca",
+        "instalaciones-corral",
+        "sanidad-vacuna-veterinaria",
+        "herramientas-bomba-de-agua",
+        "herramientas-martillo",
+        "herramientas-grapas-para-cerca",
+        "herramientas-destornillador",
+        "herramientas-desmalezadora",
+        "herramientas-drone-agricola",
+        "herramientas-tractor",
+        "agricultores-cosecha-agricultor-con-zanahoria--mujer",
+        "agricultores-cosecha-agricultor-con-zanahoria--hombre",
+        "agricultores-cosecha-agricultor-con-yuca--mujer",
+        "agricultores-cosecha-agricultor-con-yuca--hombre",
+        "agricultores-cosecha-agricultor-con-ocumo--mujer",
+        "agricultores-cosecha-agricultor-con-ocumo--hombre",
+        "agricultores-animales-agricultor-con-vaca--mujer",
+        "agricultores-animales-agricultor-con-vaca--hombre",
+        "agricultores-animales-agricultor-con-oveja--mujer",
+        "agricultores-animales-agricultor-con-oveja--hombre",
+        "agricultores-animales-agricultor-con-conejo--mujer",
+        "agricultores-animales-agricultor-con-conejo--hombre",
+        "profesionales-veterinaria--mujer",
+        "profesionales-veterinaria--hombre",
+        "profesionales-agronomo--mujer",
+        "profesionales-agronomo--hombre",
+        "agricultores-cosecha-agricultor-con-maiz--mujer",
+        "agricultores-cosecha-agricultor-con-maiz--hombre",
+        "agricultores-cosecha-agricultor-con-cafe--mujer",
+        "agricultores-cosecha-agricultor-con-cafe--hombre",
+        "agricultores-cosecha-agricultor-con-cacao--mujer",
+        "agricultores-cosecha-agricultor-con-cacao--hombre",
+        "agricultores-cosecha-agricultor-con-tomate--mujer",
+        "agricultores-cosecha-agricultor-con-tomate--hombre",
+        "agricultores-animales-agricultor-con-cerdo--mujer",
+        "agricultores-animales-agricultor-con-cerdo--hombre",
+        "agricultores-animales-agricultor-con-cabra--mujer",
+        "agricultores-animales-agricultor-con-cabra--hombre",
+        "agricultores-animales-agricultor-con-gallina--mujer",
+        "agricultores-animales-agricultor-con-gallina--hombre",
+        "profesionales-acuicultura-peces--mujer",
+        "profesionales-acuicultura-peces--hombre"
+      ]
+    }
+  ]
+}

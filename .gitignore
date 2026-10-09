@@ -1,0 +1,14 @@
+**/.git/
+**/node_modules/
+**/__pycache__/
+**/*.pyc
+**/.env*
+**/*.pem
+**/*.key
+**/*.sqlite
+**/*.sqlite3
+**/.sites-runtime/
+**/.wrangler/
+**/.next/
+**/.test-vite-cache/
+**/*.tsbuildinfo

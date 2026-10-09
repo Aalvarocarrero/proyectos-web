@@ -1,0 +1,10 @@
+Aeterna Global — Gold Coast maternity album
+22 real approved edited photographs. Original PNG masters remain in the private Drive folder; the Site contains 640/1280/1920px WebP delivery versions, encoded from those masters, with no additional artistic editing. Full image proportions retained in gallery and lightbox. Featured photograph16 selected for mobile/desktop hero.
+Routes: / and /maternity-gold-coast/ . Owner-private preview; noindex/nofollow, robots disallow. No analytics, public launch, customer-data collection or social posting added by this update. WhatsApp opens a user-controlled enquiry, no automatic send.
+Build: python build_album.py (requires original approved PNGs at its documented source path only to regenerate image deliveries). Existing legacy build_static.py depends on absent earlier workspace; retained for history and not used. Validate: python validate_album.py ; node --check dist/album.js .
+Verification: static HTML and assets audited; lightbox logic simulated. Real authenticated browser visual test remains pending because existing browser login is unavailable. No new login attempt made.
+
+REDESIGN AFTER REVIEW
+Replaced initial mixed-aspect masonry/layout with photo-first full-bleed editorial hero and one continuous, uniformly framed 4:5 horizontal rail. Uses native scroll snap and self-hosted PhotoSwipe 5.4.4 (MIT license retained). Swipe/pinch/full-frame viewer, keyboard arrows/Escape/focus management; no autoplay. Preview crops use per-photo focal positions, while opening restores the entire source frame. No distortion or newly generated photo detail.
+Primary research: https://photoswipe.com/getting-started/ ; https://photoswipe.com/opening-or-closing-transition/ ; https://photoswipe.com/options/ ; https://github.com/emilkowalski/skills/blob/main/skills/apple-design/SKILL.md .
+Current UI rebuild: python redesign_album.py (approved optimized assets already present). Do not run legacy build_album.py afterward; it restores the superseded first layout.
