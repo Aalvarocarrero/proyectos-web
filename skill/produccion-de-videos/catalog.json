@@ -1,0 +1,35 @@
+{
+  "schema_version": 1,
+  "archived_at_utc": "2026-10-10",
+  "scope": "Copias privadas de código fuente fijadas por commit, con guías independientes.",
+  "entries": [
+    {
+      "id": "openmontage",
+      "repository": "https://github.com/calesthio/OpenMontage",
+      "commit": "9327439db69021ab4b0e2776729bf3b58fdb5a87",
+      "path": "openmontage",
+      "guide": "openmontage/SKILL.md",
+      "source_archive": "openmontage/source.tar.gz",
+      "archive_sha256": "9871a1f5e174eb52d554fa09bda5fa610d169c0d9d4b0dafa150f7c87ebdcb8b",
+      "included_files": 2008,
+      "excluded_files": 135,
+      "licence": "AGPL-3.0",
+      "installed": false,
+      "executed": false
+    },
+    {
+      "id": "wan2gp",
+      "repository": "https://github.com/deepbeepmeep/Wan2GP",
+      "commit": "6479db36bdc2619a904a852bba9c2d78e1a83f82",
+      "path": "wan2gp",
+      "guide": "wan2gp/SKILL.md",
+      "source_archive": "wan2gp/source.tar.gz",
+      "archive_sha256": "5767e3f327962354b21b028863da7d90eb1b144dfa6a7dbb466c647eed4a863c",
+      "included_files": 2794,
+      "excluded_files": 18,
+      "licence": "WanGP Community License 2.0; componentes de terceros bajo sus propias licencias",
+      "installed": false,
+      "executed": false
+    }
+  ]
+}
