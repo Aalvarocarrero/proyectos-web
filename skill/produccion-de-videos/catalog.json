@@ -30,6 +30,20 @@
       "licence": "WanGP Community License 2.0; componentes de terceros bajo sus propias licencias",
       "installed": false,
       "executed": false
+    },
+    {
+      "id": "recordly",
+      "repository": "https://github.com/webadderallorg/Recordly",
+      "commit": "535d1cfafa87cc318db6f2b57b70b6c1c1079862",
+      "path": "recordly",
+      "guide": "recordly/SKILL.md",
+      "source_archive": "recordly/source.tar.gz",
+      "archive_sha256": "d7e5e0987842b3177f98cd5ef97abba59bf71c7e3bad29517a916a97ec7318ea",
+      "included_files": 1030,
+      "excluded_files": 121,
+      "licence": "AGPLv3 con avisos de marca y atribución; incluye atribución MIT a OpenScreen y licencias de terceros",
+      "installed": false,
+      "executed": false
     }
   ]
 }

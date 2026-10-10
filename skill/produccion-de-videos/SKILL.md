@@ -1,12 +1,13 @@
 ---
 name: produccion-de-videos
-description: Seleccionar y preparar un flujo de producción de video con las referencias archivadas OpenMontage y Wan2GP. Usar para planificar montaje completo o generación de recursos a partir de estos proyectos.
+description: Seleccionar y preparar un flujo de producción de video con las referencias archivadas OpenMontage, Wan2GP y Recordly. Usar para planificar montaje completo o generación de recursos a partir de estos proyectos.
 ---
 
 # Producción de videos
 
 Esta carpeta guarda referencias y código; no acredita una instalación funcional.
 
+- Para grabar y editar tutoriales de pantalla de Venezuela Agro, leer [Recordly](recordly/SKILL.md).
 - Para guion, selección de recursos, montaje, narración, subtítulos y composición, leer [OpenMontage](openmontage/SKILL.md).
 - Para generar planos, imágenes o audio mediante modelos locales, leer [Wan2GP](wan2gp/SKILL.md).
 - Se pueden combinar en un proyecto, pero no asumir que existe una integración ya probada entre ambos.

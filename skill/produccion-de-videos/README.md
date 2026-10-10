@@ -4,6 +4,7 @@ Biblioteca privada de código de referencia para producir y generar video. Archi
 
 ## Proyectos
 
+- **[Recordly](recordly/README.md):** grabación y edición de pantalla para futuros tutoriales de Venezuela Agro, con navegación real, cursor, zooms y voz.
 - **[OpenMontage](openmontage/README.md):** organiza investigación, guion, recursos, montaje y composición de un video mediante herramientas y flujos de trabajo.
 - **[Wan2GP / WanGP](wan2gp/README.md):** interfaz y herramientas para ejecutar modelos generativos de video, imagen y audio, según el equipo y el modelo elegido.
 
@@ -19,6 +20,7 @@ La copia de repositorios no incorpora automáticamente sus instrucciones al asis
 
 ## Licencias
 
+- **Recordly:** AGPLv3 con avisos de marca/atribución y reconocimiento MIT de OpenScreen; conservar LICENSE.md y los avisos de terceros completos.
 - **OpenMontage:** AGPL-3.0, conservada íntegramente. Revisar sus obligaciones antes de distribuir modificaciones o ofrecer versiones modificadas por red.
 - **Wan2GP:** WanGP Community License 2.0 para la implementación del autor. Permite uso privado, interno y de producción para clientes dentro de sus condiciones. La venta del software, el acceso de pago, determinados servicios alojados y el empaquetado comercial requieren revisar y, en su caso, obtener una licencia separada. La venta o licencia directa de resultados puede exigir crédito a WanGP.
 - Los componentes de terceros, modelos, pesos, datasets y servicios conservan sus propios términos. No se concede una licencia única al conjunto de esta carpeta ni se asume autorización comercial para todos los modelos.
