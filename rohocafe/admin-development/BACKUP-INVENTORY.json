@@ -1,0 +1,1360 @@
+{
+  "source": "roho-content-admin",
+  "destination": "rohocafe/admin-development",
+  "sourceCommit": "55d4bb0f0f1e4651470c7873285be5828e7ad713",
+  "status": "development-not-published",
+  "files": [
+    {
+      "path": "rohocafe/admin-development/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "06562490dc4875f37a43a188baa3bb0d2f61dd87",
+      "size": 865,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/.npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6",
+      "size": 45,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/.openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f8fbd88a52fb9fef5fca015b01ff321435cce07",
+      "size": 95,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/CATALOG_ADMIN_PLAN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fc3e529fd41693345588b4da046123aff642a1a",
+      "size": 6369,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/CONTENT_ADMIN_REPORT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d156eee87d7336ef7caeea1258448f8ac6a973",
+      "size": 4270,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/IMAGE_CREDITS.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a671b61725d1ab5e754b0e9a8d2f35da1e14e4f",
+      "size": 1205,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/PROJECT_CONTEXT.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c13b06ec3ffc0d201824197c83f483e7231c74ec",
+      "size": 8713,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e49853be9d43a9342e843704e048739313036883",
+      "size": 656,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/admin/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "916e39e6f6dad3e813a7476d920bfb47e7c27f9a",
+      "size": 476,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/api/admin/[...path]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da3abe63205483f1cfc5f7dd7735aa99087eac96",
+      "size": 474,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/api/catalog-script/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d4c4eb07a9c8a2c0d366be1e9053bb2e447c9d9",
+      "size": 817,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/api/identity/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ab42b9d6d6c9560b2fdda67843bfb71b1576656",
+      "size": 345,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/chatgpt-auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3",
+      "size": 2550,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/globals.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d607915b0358e481d0f0474e1e001756cf0deda",
+      "size": 3928,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/layout.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9dd8ce063736e8d390c44b9265f5dc92f34cc018",
+      "size": 286,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/media/[key]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d4cb3dd43fe002ab907e168da715079c57c2abb",
+      "size": 1042,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/app/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0b873185687c91040d969eb54482dddc395f850",
+      "size": 217,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/build/connector-preview-plugin.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29e9953bdac6f25be5f1b58e5a02ef0457bafbe",
+      "size": 7211,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/build/connector-preview-worker.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d5f1974728c4b295d05a1422d7e2bce75635e5",
+      "size": 594,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/build/sites-vite-plugin.LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4243cb4a9aaa50f954498e54c850773e9ba13eea",
+      "size": 1063,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/build/sites-vite-plugin.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ece1b96530b40a7ea4981e6341b52771a07813e",
+      "size": 7185,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/build/sites-worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5589039057a3f3f221b4a5418d6a4e595e63224",
+      "size": 1279,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/cloudflare-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00547460367676c8c04d46ef4590c56fc41c38cb",
+      "size": 125,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f5bb16f79ed774f67415a8dc2b4a38243e3e90",
+      "size": 420,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/connector-error.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c994dc58811e4b02250092fec54b0b788edcc2c",
+      "size": 1082,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/accordion.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e3a250ce6ee0797b0258454d774800650adcc8",
+      "size": 2048,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/alert-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad327341382f200b84d5f833eb1b7a74b0e7469",
+      "size": 5439,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/alert.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99164ed4b320790482f514342dab5e72f284aca",
+      "size": 1614,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/aspect-ratio.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e38fa96f9c0cb767d7b8de0d6dbc171d1b921a",
+      "size": 274,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/attachment.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bdd1ce7db5800eb55198cd0291a1e47dc67fb0d",
+      "size": 6002,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/avatar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea658505703a577fe93341e5e1a0b478c27245f7",
+      "size": 2916,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb2a057aae0e23a74368cc4daf9657210e9a740",
+      "size": 1776,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/breadcrumb.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004bb63a4c92229e612b6126d79fb7b078aa7565",
+      "size": 2350,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/bubble.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792146e61d80ef595d032d5d09a3d572d50f1374",
+      "size": 4699,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/button-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd550d7afca6562548afe3f595b352406f7f3951",
+      "size": 2202,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d38506cee5430d95a59ec6a2a0cef2b79217e7a",
+      "size": 2392,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/calendar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d31419b130a18c52320f5a21546a9236123b6bf",
+      "size": 7832,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf57dc5a534792273b8fb86227e92e001f3dc53",
+      "size": 1987,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/carousel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a",
+      "size": 5556,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/chart.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9813c584e125847d88e9e7e7f9edff7e9ba45a97",
+      "size": 10614,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a7e433f3795b82a00c5c06a1fc6decf116a84a",
+      "size": 1214,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/collapsible.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7a4e7fc64a8874373c1584646a63f28cd63c47",
+      "size": 795,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/combobox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2415bd801031a16bbcee8343058825feecfaea69",
+      "size": 9158,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/command.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe3ccb406be52d28961b0c0220e87ecd19596ca",
+      "size": 4818,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/context-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aaca76552cf0468b1def03c9e2c42f1f0b60734",
+      "size": 8268,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24",
+      "size": 4303,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/direction.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e165774bd595fbf41d0c45efef1cf996897983",
+      "size": 506,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/drawer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad08671442203fe345093f364696bdf43528e0b7",
+      "size": 4255,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/dropdown-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1fcf62f1e3b648554789b8fe02943d92bf00fc",
+      "size": 8418,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/empty.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4b0095f6d19d2eae2e465060e9060b0c210856",
+      "size": 2396,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/field.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec849dae4d3dd06a973ba22e4b2248a25cf18148",
+      "size": 6159,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/form.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f371fea1bc35380d28678c6cf53df8f65deb2776",
+      "size": 3757,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/hover-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e869c0d3091cbeddf5cb0266e82ddf56f829a6",
+      "size": 1526,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/input-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7652d936fffd9c5bca4b88e6b9715bf559e667d",
+      "size": 5065,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/input-otp.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a556afacd71996bf0e385ff2b04869fb2ee4523",
+      "size": 2254,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/input.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1124aea14eee062fc2f4c55dad5f0d9de0ccc1a",
+      "size": 962,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/item.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5dbb1a9c2e70456e45a39887a4b7cc56d484a45",
+      "size": 4486,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/kbd.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2459224fbc531f6306b73aaeb22e9022d9985332",
+      "size": 862,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/label.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac80f701ebfe9dc02d632c08cafade732e46625",
+      "size": 606,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/marker.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa76c6c014ab342befcbf7571eb932917406522",
+      "size": 1864,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/menubar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af16a428377f81cbb3f66adfe518308e0b690d8",
+      "size": 8389,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/message-scroller.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b05011259c026a357380c3834bce0ead8565d22",
+      "size": 3992,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/message.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53437e8db2b0fad1da06a7499e54ddaf116295c2",
+      "size": 2232,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/native-select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3058398399ad6c029ad527052475b360b114715b",
+      "size": 1995,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/navigation-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a673f513c97fbeaae0872403b7582ab2ba7e3c3",
+      "size": 6658,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/pagination.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dcfb0cc050c5f2bdd930522d627313d03d3690c",
+      "size": 2717,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/popover.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30058c4ec284ca9cad1ed1162d084ce3cd94e2b0",
+      "size": 2357,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/progress.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ae25089ad549b7f13125e482f99b43dd895bd2",
+      "size": 755,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/radio-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe514536ed771f7adef0a6b9e4d1aeadc2c95481",
+      "size": 1460,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/resizable.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76832a10b4c5c2a137e25c16478567ba86daf0d",
+      "size": 1815,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/scroll-area.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c4eb1cdcd4a699b150a9ddc3e87bfb90b63d09",
+      "size": 1639,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc7120b4f78008ae5efc6d1c8b7ec8205c35d5",
+      "size": 6353,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd873e3631b571060f166897b7b62e033e87c18f",
+      "size": 694,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/sheet.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb53bb28b6850745c9519e8e7462e05f85a50c93",
+      "size": 4188,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5f6c5aefc88ffa2e999e284b299472215c05161",
+      "size": 21526,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/skeleton.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec6be770b846170b8e7f8916e5f165e2d1730df",
+      "size": 276,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/slider.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ebc4b4df1e9baf1f3997a4b6c08ef80c84a9c9",
+      "size": 1991,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/sonner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b20afe2e10fd9b94d1abc1ae732054b2fb9821c",
+      "size": 1034,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/spinner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5",
+      "size": 331,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8baa844fdb17d668b3ce07cfbd6a7ef52e2eb5eb",
+      "size": 1408,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7add5f1a22db954ac6cb3446f1bf8c8a9fc5c335",
+      "size": 2478,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b463afd170637df477e36184aa27d2ad1bd3c3e0",
+      "size": 3782,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/textarea.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e67d8fefe50c41dfa2deed9a5096d5be7691581a",
+      "size": 759,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/toggle-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9894607b212ff7182bf2024f4262da03df0a8973",
+      "size": 2308,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/toggle.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5250c98ff7f11f531af38c227230a76b7d25bf19",
+      "size": 1565,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/components/ui/tooltip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec65c1e4255f050d9555c6cdade90a5f8a6c0c29",
+      "size": 1830,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/db/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19b379900d94124b674f07ffe2dbba8f70bd8d6d",
+      "size": 423,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ba6e12da2e8c1f84dfb07b7cd4648f5bb12bae44",
+      "size": 1007,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/drizzle.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b2f34376984744343453838ce66658ad9d9b6a",
+      "size": 148,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/drizzle/0000_nice_gladiator.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "00af6f3dc8d60139878e2b258ac78639cdab7fe5",
+      "size": 711,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/drizzle/meta/0000_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5bb488f73d2e9298e711bedb9732b377eec79a",
+      "size": 4409,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/drizzle/meta/_journal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b81b23c2e16105063d4b178e852729a2aeba412",
+      "size": 204,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c56c0144ce558825265a2d79d06b1ce6150d24f",
+      "size": 846,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/examples/d1/app/api/notes/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f8318c3c290d68163e95aa3e170ad92a235f27",
+      "size": 1700,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/examples/d1/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb0c157110799b9b53c767517e0d192b7201f2e",
+      "size": 370,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/hooks/use-mobile.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "size": 565,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/lib/connector-context.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cdeac72bf2df63e0a73159af25e0b4564ed1d43",
+      "size": 612,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/lib/connector-contract.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f146418508b4c272a4495ec5498b6f0554b1f966",
+      "size": 5362,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/lib/connector-errors.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d2fe845ec965062d3724fd28a0892b4fbf5a9b",
+      "size": 2717,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/lib/connector-preview.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb3f498b67e3dfd93601626aa2675af07dfe711c",
+      "size": 433,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/lib/connectors.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b85c0dd699e7236ec1694e03466b03caa2a7dc",
+      "size": 416,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b500fb167fdaa78785feb0ff03b51f8a182a44ae",
+      "size": 177,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4",
+      "size": 133,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8fdaec7500eb3dc16d88807e4269b0685d61e4",
+      "size": 504152,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "170db67a0667359eae3ea4433a51b25760357b7c",
+      "size": 2102,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+      "size": 94,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/admin.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "195909668b6129f478099683be78224479a317f1",
+      "size": 3531,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/admin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "97f284ed475a7642b7585033800500726d0634c2",
+      "size": 15188,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b76df3dc67bcddecbbacee4d2d3403e67a99c55",
+      "size": 15223,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/apple-touch-icon.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36f8d8b24755ef71000cf0f7e6a4e2a666d73f0d",
+      "size": 3913,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/cosecha.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a07f498cb4ac8c76c821254b09f3b6fd5d39a49a",
+      "size": 54532,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/hero-cherries-desktop.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9bb1c6723008ef9d8edff786352072832d151e3e",
+      "size": 155834,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/hero-cherries-mobile.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bdf8f6ea7d7b675f47eb10f4254d93c1f98a5c",
+      "size": 98602,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/icon-192.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dd9da5bd82397bd359633a64f97266e7b94f409",
+      "size": 4258,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/icon-512.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf3d9a42a73726de48063fd04583d6198aaaca1",
+      "size": 17489,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-camino-v4-1200.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "35223dc515acd8a3a87dc88874e8332ccc127809",
+      "size": 237262,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-camino-v4-600.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4cd8225a2568e52349c045d3e2d79d3c0129d24e",
+      "size": 69000,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-camino.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6611f9baba49194d56daaee421aa298e995cc2a3",
+      "size": 19818,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-experiencia.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e0fdfd12662cd86f65a11c798568391d8452a0a",
+      "size": 19430,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-origen-v4-1200.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c63b3fe298350a9fde142f279d6152ad5ad51c4",
+      "size": 146540,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-origen-v4-600.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0c05da482e37ffd7c07ab52350a8db1fb0f11da",
+      "size": 43520,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-pausa-v4-1200.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a8c2179edf040af9e76df9fb9525c2dc019984",
+      "size": 193934,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-pausa-v4-600.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea9057dde0563df1c87a2481ff04d1c44243585b",
+      "size": 58096,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/kit-ritual.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4df50f94556fe63e0557d0b10ca511334fb6abe2",
+      "size": 19594,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/origen.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b2e509a5c8220eb3a1d4ea6f5ac2f59da27fb85",
+      "size": 485226,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/roho-001.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8b8256865e137e780cc1640638f406868075afd8",
+      "size": 67240,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/roho-logo-red.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57ee89b21a86923499d89a2f9d2f137d228b4ba4",
+      "size": 33408,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/assets/roho-logo-white.png",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f532c376c8b7f473cfe9fc1cc18c9d50faf00557",
+      "size": 34195,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/catalog-sync.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3e1575d67bf6f9319bfba713b572d5628a6224ca",
+      "size": 2336,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/catalog.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "020aa3a6c496cf3c2d13dcefafea3c4b4a27fedc",
+      "size": 1629,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/content-fields.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8d5aebcecf9585d9dd0b18800a2efed809bf6f33",
+      "size": 8344,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/homepage-sync.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d48f59400f1e301baaee2fb67325335785e366ec",
+      "size": 813,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96b87a8873c81f98aa9a230ac15921092aced703",
+      "size": 39487,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/manifest.webmanifest",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1592b233d97f2ec51c30b9e3175edea738b2135f",
+      "size": 672,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c72130527a5148cf88aabdc2d821d6a86bcccf93",
+      "size": 163,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/sitemap.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f8b3e02e42207df93e6637c339d677a6a4febb2",
+      "size": 296,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/public/store.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7909fd55af36baaa21dee6c4ec306775db1c0663",
+      "size": 8399,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d24489f1fd3f5c5ed930baa41a5169372dc8fa7",
+      "size": 80261,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/public/sw.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1fba9d86b9d19939897f965fe24870d008eadcf5",
+      "size": 2056,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/raw-modules.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e8cc778eed666594d769718d8e8f319f56e1bc2",
+      "size": 72,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/build-verified.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c69cf3ad6855c25c312b67f02fd1afffb97b63d",
+      "size": 661,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/connector-preview/connector-preview-session.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2d2d92f663e547e4af956e3f0475a6198b1bf2",
+      "size": 6855,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/connector-preview/host-binding.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e6efb56e6ceb044dd3c9127d26960b5bb9c5e9",
+      "size": 7793,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/connector-preview/protocol.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6476ba302de4ee408ba549fc0d790861185dd919",
+      "size": 1781,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/execution-profile.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27aec211320d9a5fd0dbbb07f5c508222b2b8d4",
+      "size": 624,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/install-ci.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22bd7d555c8f2a996d5bfe5be0ba9a5a43a1bf7f",
+      "size": 1685,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/install-ci.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b4a810e1663afb4572d167eb78e09b3db07be10",
+      "size": 6783,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/install-pnpm.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573ecdb89461a5922386ec9ccf5a83504fa9caae",
+      "size": 9015,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/npm-install.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ade63f6092ed209b1a76718145d80de38b34f2",
+      "size": 7025,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/pnpm-install.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae92c9fe150ee780e46f590947ceacd03b7226ad",
+      "size": 10633,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/run-framework.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "166b0c2487819135ddfb30c9267e790ebb8c498f",
+      "size": 993,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/sites-env.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eeedb5e13e4b9af70d89446d981dfd4cd92a3fd",
+      "size": 906,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/sites-env.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728416424d5d2f4c9a746d53621668225645356c",
+      "size": 1530,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/smoke-http.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe18745014a77791155b9e20cce73bf2e30a899",
+      "size": 1116,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/test-admin.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792ca35e631d2d737af1378abdd1bb4362f37c02",
+      "size": 12262,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/test-catalog.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d2bf81009b9177fccb3e12505073fbbe9744a2c5",
+      "size": 4042,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/test-homepage.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64c06e90b6f3e3350618804a7275070ed2ad6a5f",
+      "size": 2889,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/scripts/validate.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0662b3ec2bc95dde503b4d9d0b71f8628a76634",
+      "size": 2639,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/admin-handler.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "348cea29d33165da9ae8110bd5b33b8abe7ffb5f",
+      "size": 4963,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/admin.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "16890b8f4e6b5549574871bb18991268e81e1f99",
+      "size": 4197,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/catalog-service.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3960e62ef0d7aee295b4db41ddfc597518bcef9",
+      "size": 10851,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/default-catalog.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5bacde59ed7c0e59c0e9630fa4e2f0bd4a7e5a4",
+      "size": 9303,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/image-validation.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc1de6a805c54b0c82fc65caf0cc7f3c93b9c887",
+      "size": 2157,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/server/known-assets.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c26402ad8ebb9b434f2eb019725c8726d3999035",
+      "size": 579,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be170f57ec372cc118f2d343092a53b85fc189a4",
+      "size": 800,
+      "existing": false
+    },
+    {
+      "path": "rohocafe/admin-development/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0",
+      "size": 1063,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/vendor/shadcn-tailwind-4.13.0.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7807c58eb94de8b764b9b6b7b5d8cde6d012b17f",
+      "size": 16041,
+      "existing": true
+    },
+    {
+      "path": "rohocafe/admin-development/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c760210840bf230b9738c8d20a51f48b7dd5f0",
+      "size": 3115,
+      "existing": false
+    }
+  ],
+  "excluded": [
+    ".env.example"
+  ],
+  "secretAlertsExcluded": [],
+  "databaseBackup": false,
+  "r2Backup": false,
+  "backupDate": "2026-10-15",
+  "note": "Source or release snapshot only. Deployment status is descriptive; this backup operation does not publish sites. No database or R2 storage backup. Previous historical files preserved."
+}

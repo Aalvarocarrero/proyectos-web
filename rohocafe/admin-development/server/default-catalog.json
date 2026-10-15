@@ -1,0 +1,223 @@
+{
+  "schemaVersion": 1,
+  "products": {
+    "roho-001": {
+      "name": "ROHO 001 Tabi Honey",
+      "detail": "Café + postal · 250 g",
+      "eyebrow": "Café de especialidad · Edición fundacional",
+      "description": "Una cosecha limitada que preserva la identidad de Pinchote y convierte su trazabilidad en parte esencial del producto.",
+      "category": "Café colombiano de especialidad",
+      "edition": "ROHO 001",
+      "variety": "Tabi · 100% arábica",
+      "process": "Honey",
+      "origin": "Pinchote, Santander, Colombia",
+      "format": "Grano entero · 250 g",
+      "includes": [
+        "Café ROHO 001 de 250 g",
+        "Bolsa numerada",
+        "Postal de origen"
+      ],
+      "price": 48572,
+      "image": "./assets/roho-001.webp",
+      "id": "roho-001",
+      "categoryId": "coffee",
+      "coffeeType": "Café de especialidad",
+      "presentation": "Grano entero · 250 g",
+      "availability": "Prelanzamiento",
+      "publicationStatus": "published",
+      "priceType": "reference",
+      "currency": "COP",
+      "stock": null,
+      "conceptImage": false
+    },
+    "kit-origen": {
+      "name": "Kit Origen",
+      "detail": "Café + postal + caja",
+      "eyebrow": "Kit de café de especialidad · Edición 001",
+      "description": "La primera experiencia de ROHO preparada para regalar, con el mismo café Tabi Honey y la historia de su territorio.",
+      "category": "Kit de café de especialidad",
+      "edition": "ROHO 001",
+      "variety": "Tabi · 100% arábica",
+      "process": "Honey",
+      "origin": "Pinchote, Santander, Colombia",
+      "format": "Café de 250 g · Kit de colección",
+      "includes": [
+        "Café ROHO 001 de 250 g",
+        "Postal de origen",
+        "Caja de colección"
+      ],
+      "price": 59622,
+      "image": "./assets/kit-origen-v4-1200.webp",
+      "id": "kit-origen",
+      "categoryId": "kits",
+      "coffeeType": "Café de especialidad",
+      "presentation": "Kit con café de 250 g",
+      "availability": "Prelanzamiento",
+      "publicationStatus": "published",
+      "priceType": "reference",
+      "currency": "COP",
+      "stock": null,
+      "conceptImage": true
+    },
+    "kit-camino": {
+      "name": "Kit Camino",
+      "detail": "Café + camiseta + postal + caja",
+      "eyebrow": "Kit de café de especialidad · Edición 001",
+      "description": "Una edición para vestir y compartir el origen, construida alrededor de la cosecha ROHO 001 Tabi Honey.",
+      "category": "Kit de café y objeto de marca",
+      "edition": "ROHO 001",
+      "variety": "Tabi · 100% arábica",
+      "process": "Honey",
+      "origin": "Pinchote, Santander, Colombia",
+      "format": "Café de 250 g · Kit de colección",
+      "includes": [
+        "Café ROHO 001 de 250 g",
+        "Camiseta ROHO",
+        "Postal de origen",
+        "Caja de colección"
+      ],
+      "price": 111622,
+      "image": "./assets/kit-camino-v4-1200.webp",
+      "id": "kit-camino",
+      "categoryId": "kits",
+      "coffeeType": "Café de especialidad",
+      "presentation": "Kit con café de 250 g",
+      "availability": "Prelanzamiento",
+      "publicationStatus": "published",
+      "priceType": "reference",
+      "currency": "COP",
+      "stock": null,
+      "conceptImage": true
+    },
+    "kit-pausa": {
+      "name": "Kit Pausa",
+      "detail": "Café + taza + postal + caja",
+      "eyebrow": "Kit de café de especialidad · Edición 001",
+      "description": "El ritual más completo de la primera cosecha: café, objeto, relato y territorio reunidos en una sola experiencia.",
+      "category": "Kit de experiencia de café",
+      "edition": "ROHO 001",
+      "variety": "Tabi · 100% arábica",
+      "process": "Honey",
+      "origin": "Pinchote, Santander, Colombia",
+      "format": "Café de 250 g · Kit de colección",
+      "includes": [
+        "Café ROHO 001 de 250 g",
+        "Taza Two Way Cup",
+        "Postal de origen",
+        "Caja de colección"
+      ],
+      "price": 176622,
+      "image": "./assets/kit-pausa-v4-1200.webp",
+      "id": "kit-pausa",
+      "categoryId": "kits",
+      "coffeeType": "Café de especialidad",
+      "presentation": "Kit con café de 250 g",
+      "availability": "Prelanzamiento",
+      "publicationStatus": "published",
+      "priceType": "reference",
+      "currency": "COP",
+      "stock": null,
+      "conceptImage": true
+    }
+  },
+  "harvests": {
+    "ROHO 001": {
+      "location": "Pinchote, Santander",
+      "latitude": 6.53225,
+      "longitude": -73.17323,
+      "mapEmbed": "https://www.openstreetmap.org/export/embed.html?bbox=-73.24%2C6.47%2C-73.11%2C6.59&layer=mapnik&marker=6.53225%2C-73.17323",
+      "mapUrl": "https://www.openstreetmap.org/?mlat=6.53225&mlon=-73.17323#map=13/6.53225/-73.17323",
+      "farm": "En validación",
+      "producer": "En validación",
+      "altitude": "En validación",
+      "roastDate": "Se publicará con el lanzamiento",
+      "cupping": "Perfil de catación en validación",
+      "plannedUnits": "40 bolsas numeradas"
+    }
+  },
+  "categories": [
+    {
+      "id": "coffee",
+      "label": "Café de origen"
+    },
+    {
+      "id": "kits",
+      "label": "Kits y regalos"
+    }
+  ],
+  "facets": [
+    {
+      "key": "coffeeType",
+      "label": "Tipo de café"
+    },
+    {
+      "key": "process",
+      "label": "Proceso"
+    },
+    {
+      "key": "variety",
+      "label": "Variedad"
+    },
+    {
+      "key": "presentation",
+      "label": "Presentación"
+    },
+    {
+      "key": "origin",
+      "label": "Origen"
+    },
+    {
+      "key": "edition",
+      "label": "Edición"
+    },
+    {
+      "key": "availability",
+      "label": "Disponibilidad"
+    }
+  ],
+  "texts": {
+    "title": "Encuentra tu",
+    "subtitle": "forma de vivir el origen.",
+    "description": "Cafés de especialidad y rituales para compartir. Explora cada presentación por su tipo de café, proceso y territorio.",
+    "notice": "Catálogo de prelanzamiento. Los precios son de referencia. La selección no reserva unidades ni realiza pedidos. Las ventas y el envío aún no están habilitados."
+  },
+  "homepage": {
+    "heroIntro": "Café colombiano de especialidad · Est. 2026",
+    "heroTitle": "El origen no se fabrica.\nSe cultiva.",
+    "heroLead": "Ediciones limitadas que convierten cada cosecha en una historia de altura, manos campesinas y carácter irrepetible.",
+    "collectionTitle": "Una cosecha.\nCuatro formas de vivirla.",
+    "collectionLead": "ROHO 001 reúne una selección Tabi con proceso Honey. Cada presentación conserva el mismo origen y amplía el ritual.",
+    "originTitle": "Antes de ser café,\nfue paisaje.",
+    "originLead": "ROHO nace para volver visible lo que una taza suele ocultar: la semilla elegida, el cuidado diario, las decisiones del productor y el tiempo preciso de cada proceso.",
+    "processTitle": "La calidad se construye\nmucho antes del tueste.",
+    "processLead": "Cada etapa protege el potencial genético del grano y reconoce el criterio de quienes lo cultivan.",
+    "qualityTitle": "“Premium” no será un adjetivo.\nSerá evidencia.",
+    "qualityLead": "Cada edición publicará la información que permite comprender su valor: genética, origen, proceso y catación del lote.",
+    "producerTitle": "El productor no es una nota al pie.",
+    "producerLead": "Es quien interpreta el clima, cuida la planta y decide el instante exacto de cada etapa. Por eso, cada futura ficha de ROHO hará visible la finca, el productor, el lote, la variedad, el proceso, la fecha de tueste y el perfil de catación.",
+    "producerQuote": "“El alma del café está en las decisiones humanas que acompañan su origen.”",
+    "producerCaption": "La selección empieza en el árbol.",
+    "numberedTitle": "Ninguna cosecha vuelve a ocurrir de la misma manera.",
+    "numberedLead": "Por eso no repetimos ediciones. Las numeramos, documentamos y dejamos que cada una cuente el momento exacto del que proviene.",
+    "communityTitle": "Dos lugares.\nUn mismo origen.",
+    "communityLead": "Sigue la construcción de la primera edición desde Colombia y Australia. Cada canal abre una parte distinta de la historia.",
+    "step1Title": "Selección",
+    "step1Description": "Variedad y semilla se eligen por adaptación, sanidad y potencial de taza.",
+    "step2Title": "Cultivo",
+    "step2Description": "Suelo, sombra y nutrición se cuidan respetando el ritmo de la montaña.",
+    "step3Title": "Cosecha",
+    "step3Description": "Las cerezas se recolectan a mano en su punto correcto de maduración.",
+    "step4Title": "Proceso",
+    "step4Description": "Selección, despulpado y fermentación definen limpieza y complejidad.",
+    "step5Title": "Secado",
+    "step5Description": "El control de humedad preserva la estabilidad y el carácter del lote.",
+    "step6Title": "Tueste",
+    "step6Description": "Un perfil creado en origen revela el café sin cubrir su identidad.",
+    "originImage": "./assets/origen.webp",
+    "originAlt": "Cafetal colombiano entre árboles y montañas",
+    "producerImage": "./assets/cosecha.webp",
+    "producerAlt": "Mano campesina seleccionando cerezas de café en una planta",
+    "traceImage": "./assets/cosecha.webp",
+    "traceAlt": "Manos seleccionando cerezas de café maduras en el cafetal"
+  }
+}
