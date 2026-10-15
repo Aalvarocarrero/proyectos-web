@@ -1,35 +1,60 @@
 import config from './content-config.json' with {type:'json'};
 import template from './home-template.mjs';
-import {adminIdentity,requireMutation,loadState,saveState,renderContent,defaultsFor,escapeHTML,htmlResponse,json,HttpError} from './content-service.mjs';
+import {adminIdentity,requireMutation,loadState,saveState,renderContent,defaultsFor,escapeHTML,htmlResponse,json,HttpError,readLimitedBody,isUploadedImage,storedContent,verifyImages,validateContent} from './content-service.mjs';
+import {inspectImage} from './image-validation.mjs';
+import {panel} from './admin-panel.mjs';
 export async function publicHome(env,request){
- if(request && new URL(request.url).searchParams.get("content-preview")==="1")return adminRequest(request,env);
- let content=defaultsFor(config);try{content=(await loadState(env,config)).published;}catch(error){console.error('Published content unavailable; original homepage served.');}
- // Preserve the source robots and canonical decisions, including private-preview noindex.
+ if(request && new URL(request.url).searchParams.get('content-preview')==='1')return adminRequest(request,env);
+ let content=defaultsFor(config);try{content=(await loadState(env,config)).published;}catch{console.error('Published content unavailable; original homepage served.');}
  return new Response(renderContent(template,content,config),{headers:{'Content-Type':'text/html; charset=utf-8','Cache-Control':'no-store','X-Content-Type-Options':'nosniff'}});
 }
-function panel(state){
- const fields=config.fields.map(f=>`<label>${escapeHTML(f.label)}${f.kind==='image'?`<select name="${f.key}">${config.imagePaths.map(path=>`<option value="${escapeHTML(path)}"${state.draft[f.key]===path?' selected':''}>${escapeHTML(path)}</option>`).join('')}</select>`:`<textarea name="${f.key}" maxlength="${f.max}" rows="${f.kind==='text'?3:2}" required>${escapeHTML(state.draft[f.key])}</textarea>`}</label>`).join('');
- return `<!doctype html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Contenido · ${escapeHTML(config.name)}</title>${config.brand==='draco'?'<link rel="stylesheet" href="/fonts.css">':''}<style>*{box-sizing:border-box}body{margin:0;background:${config.background};color:${config.foreground};font:16px ${config.font};line-height:1.6}main{max-width:1000px;margin:auto;padding:clamp(20px,5vw,60px)}a{color:${config.color}}h1{font-size:clamp(30px,5vw,56px);line-height:1.1}p{max-width:70ch;color:${config.muted}}form{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}label{display:grid;gap:8px;font-weight:bold;color:${config.color}}textarea,select{width:100%;min-height:60px;padding:12px;background:${config.surface};border:1px solid #555;border-radius:4px;color:${config.foreground};font:inherit;font-weight:normal}button{background:${config.color};border:0;border-radius:4px;padding:14px 20px;cursor:pointer;font:inherit;color:#fff}button:disabled{opacity:.5;cursor:wait}.actions,#status{grid-column:1/-1}.actions{display:flex;gap:16px;flex-wrap:wrap;align-items:center}#status{min-height:2em;color:${config.foreground}}small{color:${config.muted}}@media(max-width:650px){form{grid-template-columns:1fr}}</style></head><body><main><a href="/">← ${escapeHTML(config.name)}</a><h1>Contenido de portada</h1><p>Edita los textos, la imagen y el SEO de las secciones incluidas. Los cambios guardados son privados hasta que publiques. El catálogo, las otras páginas y sus funciones se conservan.</p><small>Versión ${state.version} · Publicada ${state.publishedVersion}</small><form id="editor" data-version="${state.version}">${fields}<div class="actions"><button type="submit" ${state.configured?'':'disabled'}>Guardar borrador</button><button type="button" id="publish" ${state.configured?'':'disabled'}>Publicar contenido</button><a href="/admin/preview" target="_blank" rel="noopener">Vista privada del borrador guardado ↗</a></div><p id="status" role="status" aria-live="polite">${state.configured?'Los campos no guardados todavía no aparecen en la vista privada.':'Almacenamiento pendiente de configurar. No se pueden guardar cambios.'}</p></form><script src="/content-admin.js" defer></script></main></body></html>`;
+export async function mediaResponse(request,env,privateMode=false){
+ const path=new URL(request.url).pathname.replace(/^\/api\/admin/,'');
+ if(!isUploadedImage(path)||!env.DB||!env.BUCKET)throw new HttpError(404,'Imagen no encontrada.');
+ if(!privateMode){const state=await loadState(env,config);if(!config.fields.some(f=>f.kind==='image'&&state.published[f.key]===path))throw new HttpError(404,'Imagen no encontrada.');}
+ const key=path.slice(7),row=await env.DB.prepare('SELECT content_type FROM content_media WHERE key=?').bind(key).first();
+ if(!row)throw new HttpError(404,'Imagen no encontrada.');const object=await env.BUCKET.get(key);if(!object)throw new HttpError(404,'Imagen no encontrada.');
+ return new Response(object.body,{headers:{'Content-Type':row.content_type,'Cache-Control':'private, no-store','X-Content-Type-Options':'nosniff','Content-Security-Policy':"default-src 'none'; sandbox",'X-Robots-Tag':'noindex, nofollow'}});
 }
+export async function publicMedia(request,env){try{return await mediaResponse(request,env);}catch(error){return json({error:'Imagen no encontrada.'},error instanceof HttpError?error.status:503);}}
+async function body(request){if(!(request.headers.get('content-type')||'').startsWith('application/json'))throw new HttpError(415,'Se requiere JSON.');try{return JSON.parse(new TextDecoder().decode(await readLimitedBody(request,250000)));}catch(error){if(error instanceof HttpError)throw error;throw new HttpError(400,'JSON inválido.');}}
+const exact=(value,keys)=>{if(!value||typeof value!=='object'||Array.isArray(value)||Object.keys(value).sort().join(',')!==keys.sort().join(','))throw new HttpError(400,'Solicitud inválida.');};
 export async function adminRequest(request,env){
  try{
-  const actor=adminIdentity(request,env,config),url=new URL(request.url);
+  const actor=adminIdentity(request,env,config),url=new URL(request.url),path=url.pathname;
   if(request.method==='GET'){
+   if(path.startsWith('/api/admin/media/'))return await mediaResponse(request,env,true);
    const state=await loadState(env,config);
-   if(url.pathname==='/admin/preview')return new Response(null,{status:302,headers:{Location:'/?content-preview=1','Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow'}});
-   if(['/','/index.html'].includes(url.pathname)&&url.searchParams.get('content-preview')==='1')return htmlResponse(renderContent(template,state.draft,config));
-   if(url.pathname==='/api/admin/content')return json(state);
-   if(['/admin','/admin/'].includes(url.pathname))return htmlResponse(panel(state));
+   if(path==='/admin/preview')return new Response(null,{status:302,headers:{Location:'/?content-preview=1','Cache-Control':'no-store','X-Robots-Tag':'noindex, nofollow'}});
+   if(['/','/index.html'].includes(path)&&url.searchParams.get('content-preview')==='1')return htmlResponse(renderContent(template,state.draft,config).replaceAll('/media/','/api/admin/media/'));
+   if(path==='/api/admin/content')return json(state);
+   if(path==='/api/admin/revisions')return json(env.DB?(await env.DB.prepare('SELECT version,action,created_at FROM content_revisions ORDER BY version DESC LIMIT 50').all()).results:[]);
+   if(path==='/api/admin/media')return json({assets:config.imagePaths,uploads:env.DB?(await env.DB.prepare('SELECT key,content_type,bytes,width,height,created_at FROM content_media ORDER BY created_at DESC LIMIT 100').all()).results:[]});
+   if(['/admin','/admin/'].includes(path)){const uploads=env.DB?(await env.DB.prepare('SELECT key FROM content_media ORDER BY created_at DESC').all()).results:[];return htmlResponse(panel({...state,mediaConfigured:!!env.DB&&!!env.BUCKET},uploads));}
    throw new HttpError(404,'No encontrado.');
   }
-  if(request.method!=='POST'||url.pathname!=='/api/admin/content')throw new HttpError(405,'Método no permitido.');
-  requireMutation(request);if(Number(request.headers.get('content-length')||0)>24000)throw new HttpError(413,'Contenido demasiado grande.');
-  const reader=request.body?.getReader();if(!reader)throw new HttpError(400,'Falta contenido.');const chunks=[];let bytes=0;while(true){const part=await reader.read();if(part.done)break;bytes+=part.value.byteLength;if(bytes>24000){await reader.cancel();throw new HttpError(413,'Contenido demasiado grande.');}chunks.push(part.value);}const raw=new Uint8Array(bytes);let offset=0;for(const chunk of chunks){raw.set(chunk,offset);offset+=chunk.byteLength;}const text=new TextDecoder().decode(raw);let body;try{body=JSON.parse(text);}catch{throw new HttpError(400,'JSON inválido.');}
-  if(!body||Object.keys(body).sort().join(',')!=='action,content,expectedVersion')throw new HttpError(400,'Solicitud inválida.');
-  return json(await saveState(env,config,actor,body.expectedVersion,body.content,body.action));
+  if(request.method!=='POST')throw new HttpError(405,'Método no permitido.');
+  requireMutation(request);
+  if(path==='/api/admin/media'){
+   if(!env.DB||!env.BUCKET)throw new HttpError(503,'Falta configurar D1 y R2 para cargar imágenes.');
+   const bytes=await readLimitedBody(request,5*1024*1024),image=inspectImage(bytes.buffer,request.headers.get('content-type')),key=`${crypto.randomUUID()}.${image.extension}`;
+   await env.BUCKET.put(key,bytes,{httpMetadata:{contentType:image.type}});
+   try{await env.DB.prepare('INSERT INTO content_media (key,content_type,bytes,width,height,actor,created_at) VALUES (?,?,?,?,?,?,?)').bind(key,image.type,bytes.byteLength,image.width,image.height,actor,new Date().toISOString()).run();}catch(error){await env.BUCKET.delete(key);throw error;}
+   return json({image:'/media/'+key,preview:'/api/admin/media/'+key,...image},201);
+  }
+  if(path==='/api/admin/restore'){
+   const input=await body(request);exact(input,['version','expectedVersion']);if(!Number.isSafeInteger(input.version)||input.version<0)throw new HttpError(400,'Versión inválida.');if(!env.DB)throw new HttpError(503,'Almacenamiento pendiente.');
+   let content=defaultsFor(config);if(input.version!==0){const revision=await env.DB.prepare('SELECT data FROM content_revisions WHERE version=?').bind(input.version).first();if(!revision)throw new HttpError(404,'Versión no encontrada.');content=storedContent(JSON.parse(revision.data),config);}
+   await verifyImages(content,env,config);return json(await saveState(env,config,actor,input.expectedVersion,content,'restore'));
+  }
+  if(path!=='/api/admin/content')throw new HttpError(404,'No encontrado.');
+  const input=await body(request);exact(input,['action','content','expectedVersion']);if(!['save','publish'].includes(input.action))throw new HttpError(400,'Acción inválida.');
+  // Validation and asset existence are checked before the atomic content write.
+  const content=validateContent(input.content,config);await verifyImages(content,env,config);
+  return json(await saveState(env,config,actor,input.expectedVersion,content,input.action));
  }catch(error){
   const status=error instanceof HttpError?error.status:503,message=error instanceof HttpError?error.message:'No se pudo acceder al contenido. Inténtalo de nuevo.';
-  if(request.method==='GET'&&new URL(request.url).pathname.startsWith('/admin'))return htmlResponse(`<html lang="es"><meta charset="utf-8"><meta name="robots" content="noindex,nofollow"><title>Administración · ${escapeHTML(config.name)}</title><body><h1>${escapeHTML(message)}</h1>${status===401?'<a href="/signin-with-chatgpt?return_to=%2Fadmin" target="_top">Iniciar sesión con ChatGPT</a>':''}</body></html>`,status);
+  if(request.method==='GET'&&new URL(request.url).pathname.startsWith('/admin'))return htmlResponse(`<html lang="es"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><title>Administración · Aeterna Global</title><link rel="stylesheet" href="/content-admin.css"><main><h1>${escapeHTML(message)}</h1>${status===401?'<a href="/signin-with-chatgpt?return_to=%2Fadmin" target="_top">Iniciar sesión con ChatGPT</a>':''}</main></html>`,status);
   return json({error:message},status);
  }
 }

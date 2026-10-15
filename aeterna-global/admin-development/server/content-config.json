@@ -1,7 +1,7 @@
 {
   "brand": "aeterna",
   "name": "Aeterna Global",
-  "color": "#a32626",
+  "color": "#e54843",
   "font": "Arial, sans-serif",
   "adminEnv": "AETERNA_ADMIN_USER_IDS",
   "fields": [
@@ -11,7 +11,8 @@
       "kind": "text",
       "original": "<title>Aeterna Global | Content, Photography & Social Media — Gold Coast</title>",
       "default": "Aeterna Global | Content, Photography & Social Media — Gold Coast",
-      "max": 160
+      "max": 160,
+      "section": "SEO"
     },
     {
       "key": "seoDescription",
@@ -19,7 +20,8 @@
       "kind": "meta",
       "original": "<meta name=\"description\" content=\"Aeterna Global on the Gold Coast: advertising, web development, organic SEO, social media management, video production, photography, rebranding, logo design, process automation and menu design.\">",
       "default": "Aeterna Global on the Gold Coast: advertising, web development, organic SEO, social media management, video production, photography, rebranding, logo design, process automation and menu design.",
-      "max": 500
+      "max": 500,
+      "section": "SEO"
     },
     {
       "key": "socialTitle",
@@ -27,7 +29,8 @@
       "kind": "meta",
       "original": "<meta property=\"og:title\" content=\"Aeterna Global — Creative content. Meaningful moments.\">",
       "default": "Aeterna Global — Creative content. Meaningful moments.",
-      "max": 500
+      "max": 500,
+      "section": "SEO"
     },
     {
       "key": "socialDescription",
@@ -35,7 +38,8 @@
       "kind": "meta",
       "original": "<meta property=\"og:description\" content=\"Content, photography and digital strategy for Gold Coast businesses, events and families.\">",
       "default": "Content, photography and digital strategy for Gold Coast businesses, events and families.",
-      "max": 500
+      "max": 500,
+      "section": "SEO"
     },
     {
       "key": "heroTitle",
@@ -43,7 +47,8 @@
       "kind": "text",
       "original": "<h1>Make your brand<br>worth noticing.<br><span>Capture what<br>matters.</span></h1>",
       "default": "Make your brand\nworth noticing.\nCapture what\nmatters.",
-      "max": 1000
+      "max": 1000,
+      "section": "Portada"
     },
     {
       "key": "heroBody",
@@ -51,7 +56,8 @@
       "kind": "text",
       "original": "<p>Creative content, photography and social media management for businesses. Thoughtful coverage for events and life’s meaningful moments.</p>",
       "default": "Creative content, photography and social media management for businesses. Thoughtful coverage for events and life’s meaningful moments.",
-      "max": 1000
+      "max": 1000,
+      "section": "Portada"
     },
     {
       "key": "servicesTitle",
@@ -59,7 +65,8 @@
       "kind": "text",
       "original": "<h2>Made for your business.<br>Made for your story.</h2>",
       "default": "Made for your business.\nMade for your story.",
-      "max": 1000
+      "max": 1000,
+      "section": "Servicios"
     },
     {
       "key": "servicesBody",
@@ -67,7 +74,8 @@
       "kind": "text",
       "original": "<p>Choose a focused service or bring production and strategy together.</p>",
       "default": "Choose a focused service or bring production and strategy together.",
-      "max": 1000
+      "max": 1000,
+      "section": "Servicios"
     },
     {
       "key": "aboutTitle",
@@ -75,7 +83,8 @@
       "kind": "text",
       "original": "<h2>One team. One strategy.<br>Unlimited growth.</h2>",
       "default": "One team. One strategy.\nUnlimited growth.",
-      "max": 1000
+      "max": 1000,
+      "section": "Portada"
     },
     {
       "key": "featureImage",
@@ -83,7 +92,9 @@
       "kind": "image",
       "original": "<img src=\"assets/camera.jpg\" alt=\"Álvaro con su cámara, fotografía original proporcionada\" width=\"608\" height=\"975\">",
       "default": "assets/camera.jpg",
-      "max": 300
+      "max": 300,
+      "section": "Imágenes",
+      "altKey": "featureImageAlt"
     },
     {
       "key": "featureImageAlt",
@@ -91,7 +102,591 @@
       "kind": "alt",
       "original": "<img src=\"assets/camera.jpg\" alt=\"Álvaro con su cámara, fotografía original proporcionada\" width=\"608\" height=\"975\">",
       "default": "Álvaro con su cámara, fotografía original proporcionada",
-      "max": 500
+      "max": 500,
+      "section": "Imágenes"
+    },
+    {
+      "key": "service1Title",
+      "label": "1. Social Media Management · Título",
+      "kind": "text",
+      "original": "<h3>Social Media Management</h3>",
+      "default": "Social Media Management",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service1Body",
+      "label": "1. Social Media Management · Resumen",
+      "kind": "text",
+      "original": "<p>Strategy, content, publishing and community management across the channels agreed in your plan.</p>",
+      "default": "Strategy, content, publishing and community management across the channels agreed in your plan.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service1Details",
+      "label": "1. Social Media Management · Detalle",
+      "kind": "text",
+      "original": "<div>Strategy & content calendar · Photography & short videos · Copywriting · Profile and keyword optimisation · Scheduling · Community management within agreed channels and hours · Monthly reporting.<br><br>Instagram, Facebook, TikTok, LinkedIn, YouTube, Pinterest, Threads and X. Platform count, publishing frequency and format adaptations are agreed in each plan.<br><br>Website SEO is scoped separately. Paid media and advertising spend are quoted separately.</div>",
+      "default": "Strategy & content calendar · Photography & short videos · Copywriting · Profile and keyword optimisation · Scheduling · Community management within agreed channels and hours · Monthly reporting.\n\nInstagram, Facebook, TikTok, LinkedIn, YouTube, Pinterest, Threads and X. Platform count, publishing frequency and format adaptations are agreed in each plan.\n\nWebsite SEO is scoped separately. Paid media and advertising spend are quoted separately.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service2Title",
+      "label": "2. Brands & Hospitality · Título",
+      "kind": "text",
+      "original": "<h3>Brands & Hospitality</h3>",
+      "default": "Brands & Hospitality",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service2Body",
+      "label": "2. Brands & Hospitality · Resumen",
+      "kind": "text",
+      "original": "<p>Photography and video production for food, drinks, interiors and people. Content that brings the experience of your business to life.</p>",
+      "default": "Photography and video production for food, drinks, interiors and people. Content that brings the experience of your business to life.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service2Details",
+      "label": "2. Brands & Hospitality · Detalle",
+      "kind": "text",
+      "original": "<div>Restaurant photography · Brand films & short videos · Print and digital menu design · Launch content · Branding · Websites & Google Business Profile · Meta & Google Ads.</div>",
+      "default": "Restaurant photography · Brand films & short videos · Print and digital menu design · Launch content · Branding · Websites & Google Business Profile · Meta & Google Ads.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service3Title",
+      "label": "3. Events & Celebrations · Título",
+      "kind": "text",
+      "original": "<h3>Events & Celebrations</h3>",
+      "default": "Events & Celebrations",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service3Body",
+      "label": "3. Events & Celebrations · Resumen",
+      "kind": "text",
+      "original": "<p>From private celebrations to corporate events. The atmosphere, the details and the moments in between.</p>",
+      "default": "From private celebrations to corporate events. The atmosphere, the details and the moments in between.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service3Details",
+      "label": "3. Events & Celebrations · Detalle",
+      "kind": "text",
+      "original": "<div>Photography · Event coverage · Highlight films · Social clips · Birthdays, private parties, launches and corporate events.</div>",
+      "default": "Photography · Event coverage · Highlight films · Social clips · Birthdays, private parties, launches and corporate events.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service4Title",
+      "label": "4. Maternity, Newborn & Family · Título",
+      "kind": "text",
+      "original": "<h3>Maternity, Newborn & Family</h3>",
+      "default": "Maternity, Newborn & Family",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service4Body",
+      "label": "4. Maternity, Newborn & Family · Resumen",
+      "kind": "text",
+      "original": "<p>Natural portraits and thoughtful storytelling for the moments you will want to keep.</p>",
+      "default": "Natural portraits and thoughtful storytelling for the moments you will want to keep.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service4Details",
+      "label": "4. Maternity, Newborn & Family · Detalle",
+      "kind": "text",
+      "original": "<div>Maternity sessions · Newborn lifestyle photography · Family portraits · Short keepsake films · Individual or combined session collections.</div>",
+      "default": "Maternity sessions · Newborn lifestyle photography · Family portraits · Short keepsake films · Individual or combined session collections.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service5Title",
+      "label": "5. Organic SEO & Local Visibility · Título",
+      "kind": "text",
+      "original": "<h3>Organic SEO & Local Visibility</h3>",
+      "default": "Organic SEO & Local Visibility",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service5Body",
+      "label": "5. Organic SEO & Local Visibility · Resumen",
+      "kind": "text",
+      "original": "<p>Help the right people discover your business through search, useful content and a stronger local presence.</p>",
+      "default": "Help the right people discover your business through search, useful content and a stronger local presence.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service5Details",
+      "label": "5. Organic SEO & Local Visibility · Detalle",
+      "kind": "text",
+      "original": "<div>Keyword and search-intent research · Page titles and descriptions · Service and location pages · Clear URLs and internal links · Image descriptions and optimisation · Technical and indexing review · Google Business Profile optimisation · Performance reporting.<br><br>SEO is part of our digital offer. Initial setup and ongoing work are agreed in the project scope; photography sessions do not automatically include an ongoing SEO service.</div>",
+      "default": "Keyword and search-intent research · Page titles and descriptions · Service and location pages · Clear URLs and internal links · Image descriptions and optimisation · Technical and indexing review · Google Business Profile optimisation · Performance reporting.\n\nSEO is part of our digital offer. Initial setup and ongoing work are agreed in the project scope; photography sessions do not automatically include an ongoing SEO service.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service6Title",
+      "label": "6. Paid Media & Digital Experiences · Título",
+      "kind": "text",
+      "original": "<h3>Paid Media & Digital Experiences</h3>",
+      "default": "Paid Media & Digital Experiences",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service6Body",
+      "label": "6. Paid Media & Digital Experiences · Resumen",
+      "kind": "text",
+      "original": "<p>Advertising campaigns and focused websites that connect attention with a clear next step.</p>",
+      "default": "Advertising campaigns and focused websites that connect attention with a clear next step.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service6Details",
+      "label": "6. Paid Media & Digital Experiences · Detalle",
+      "kind": "text",
+      "original": "<div>Meta Ads · Google Ads · Creative testing · Landing pages · Websites · Conversion measurement · Reporting and optimisation.<br><br>Website projects include an agreed SEO foundation. Ongoing SEO, additional channels and advertising spend are specified in the proposal.</div>",
+      "default": "Meta Ads · Google Ads · Creative testing · Landing pages · Websites · Conversion measurement · Reporting and optimisation.\n\nWebsite projects include an agreed SEO foundation. Ongoing SEO, additional channels and advertising spend are specified in the proposal.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service7Title",
+      "label": "7. Web Development · Título",
+      "kind": "text",
+      "original": "<h3>Web Development</h3>",
+      "default": "Web Development",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service7Body",
+      "label": "7. Web Development · Resumen",
+      "kind": "text",
+      "original": "<p>Websites and landing pages built around your brand, your audience and a clear next step.</p>",
+      "default": "Websites and landing pages built around your brand, your audience and a clear next step.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service7Details",
+      "label": "7. Web Development · Detalle",
+      "kind": "text",
+      "original": "<div>Website development · Landing pages · Responsive layouts · Website refreshes · An agreed SEO foundation.<br><br>Features, integrations, delivery and ongoing support are scoped for each project.</div>",
+      "default": "Website development · Landing pages · Responsive layouts · Website refreshes · An agreed SEO foundation.\n\nFeatures, integrations, delivery and ongoing support are scoped for each project.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service8Title",
+      "label": "8. Rebranding & Logo Design · Título",
+      "kind": "text",
+      "original": "<h3>Rebranding & Logo Design</h3>",
+      "default": "Rebranding & Logo Design",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service8Body",
+      "label": "8. Rebranding & Logo Design · Resumen",
+      "kind": "text",
+      "original": "<p>A new identity or a thoughtful refresh. Branding that helps your business tell a clear, consistent story.</p>",
+      "default": "A new identity or a thoughtful refresh. Branding that helps your business tell a clear, consistent story.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service8Details",
+      "label": "8. Rebranding & Logo Design · Detalle",
+      "kind": "text",
+      "original": "<div>Rebranding · Logo design · Brand identity · Visual guidelines · Agreed brand applications.<br><br>The creative direction, deliverables and revision rounds are agreed before work begins.</div>",
+      "default": "Rebranding · Logo design · Brand identity · Visual guidelines · Agreed brand applications.\n\nThe creative direction, deliverables and revision rounds are agreed before work begins.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service9Title",
+      "label": "9. Process Automation · Título",
+      "kind": "text",
+      "original": "<h3>Process Automation</h3>",
+      "default": "Process Automation",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service9Body",
+      "label": "9. Process Automation · Resumen",
+      "kind": "text",
+      "original": "<p>Practical automation to reduce repetitive work and help your business processes run more smoothly.</p>",
+      "default": "Practical automation to reduce repetitive work and help your business processes run more smoothly.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "service9Details",
+      "label": "9. Process Automation · Detalle",
+      "kind": "text",
+      "original": "<div>Process review · Workflow automation · Connecting compatible business tools · Testing and handover.<br><br>We assess your needs and existing tools first. Integrations, access requirements and support are agreed for each project.</div>",
+      "default": "Process review · Workflow automation · Connecting compatible business tools · Testing and handover.\n\nWe assess your needs and existing tools first. Integrations, access requirements and support are agreed for each project.",
+      "max": 2000,
+      "section": "Servicios"
+    },
+    {
+      "key": "portfolioText1",
+      "label": "Portafolio · One identity. Different stories.",
+      "kind": "text",
+      "original": "<h2>One identity. Different stories.</h2>",
+      "default": "One identity. Different stories.",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText2",
+      "label": "Portafolio · Food and event images illustrate our creative dire",
+      "kind": "text",
+      "original": "<p>Food and event images illustrate our creative direction. The maternity session is our own photography.</p>",
+      "default": "Food and event images illustrate our creative direction. The maternity session is our own photography.",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText3",
+      "label": "Portafolio · For brands & hospitality",
+      "kind": "text",
+      "original": "<h3>For brands & hospitality</h3>",
+      "default": "For brands & hospitality",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText4",
+      "label": "Portafolio · Food · Atmosphere · Brand detail",
+      "kind": "text",
+      "original": "<p>Food · Atmosphere · Brand detail</p>",
+      "default": "Food · Atmosphere · Brand detail",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText5",
+      "label": "Portafolio · For celebrations",
+      "kind": "text",
+      "original": "<h3>For celebrations</h3>",
+      "default": "For celebrations",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText6",
+      "label": "Portafolio · Energy · Connection · Real moments",
+      "kind": "text",
+      "original": "<p>Energy · Connection · Real moments</p>",
+      "default": "Energy · Connection · Real moments",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText7",
+      "label": "Portafolio · Maternity on the Gold Coast",
+      "kind": "text",
+      "original": "<h3>Maternity on the Gold Coast</h3>",
+      "default": "Maternity on the Gold Coast",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "portfolioText8",
+      "label": "Portafolio · Our photography · Explore the session",
+      "kind": "text",
+      "original": "<p>Our photography · Explore the session</p>",
+      "default": "Our photography · Explore the session",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText1",
+      "label": "Menús · Selected work / Menu design",
+      "kind": "text",
+      "original": "<p class=\"studio-kicker\">Selected work / Menu design</p>",
+      "default": "Selected work / Menu design",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText2",
+      "label": "Menús · Good taste.\nOn every page.",
+      "kind": "text",
+      "original": "<h2 id=\"menu-portfolio-title\">Good taste.<br>On every page.</h2>",
+      "default": "Good taste.\nOn every page.",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText3",
+      "label": "Menús · Two menus. One continuous experience.\nOpen a ",
+      "kind": "text",
+      "original": "<p>Two menus. One continuous experience.<br>Open a category and scroll through its story.</p>",
+      "default": "Two menus. One continuous experience.\nOpen a category and scroll through its story.",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText4",
+      "label": "Menús · Breakfast",
+      "kind": "text",
+      "original": "<h3>Breakfast</h3>",
+      "default": "Breakfast",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText5",
+      "label": "Menús · Caribbean-inspired breakfasts\n8 pages",
+      "kind": "text",
+      "original": "<p>Caribbean-inspired breakfasts<br>8 pages</p>",
+      "default": "Caribbean-inspired breakfasts\n8 pages",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText6",
+      "label": "Menús · Lunch",
+      "kind": "text",
+      "original": "<h3>Lunch</h3>",
+      "default": "Lunch",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText7",
+      "label": "Menús · Pasta selection\n4 pages",
+      "kind": "text",
+      "original": "<p>Pasta selection<br>4 pages</p>",
+      "default": "Pasta selection\n4 pages",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "menuText8",
+      "label": "Menús · Australian audience portfolio demo. Menu pric",
+      "kind": "text",
+      "original": "<p class=\"studio-demo-note\">Australian audience portfolio demo. Menu prices are illustrative AUD examples, not currency conversions or live restaurant prices.</p>",
+      "default": "Australian audience portfolio demo. Menu prices are illustrative AUD examples, not currency conversions or live restaurant prices.",
+      "max": 2000,
+      "section": "Portafolio"
+    },
+    {
+      "key": "intakeText1",
+      "label": "Planificación · Let’s bring it to life.",
+      "kind": "text",
+      "original": "<h2>Let’s bring it to life.</h2>",
+      "default": "Let’s bring it to life.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "intakeText2",
+      "label": "Planificación · Choose a preferred date or tell us what your ",
+      "kind": "text",
+      "original": "<p>Choose a preferred date or tell us what your project needs.</p>",
+      "default": "Choose a preferred date or tell us what your project needs.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "intakeText3",
+      "label": "Planificación · Plan a session.",
+      "kind": "text",
+      "original": "<h3>Plan a session.</h3>",
+      "default": "Plan a session.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "intakeText4",
+      "label": "Planificación · Photography, restaurant shoots or a strategy ",
+      "kind": "text",
+      "original": "<p>Photography, restaurant shoots or a strategy conversation. Explore your preferred date and time.</p>",
+      "default": "Photography, restaurant shoots or a strategy conversation. Explore your preferred date and time.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "intakeText5",
+      "label": "Planificación · Request a quote.",
+      "kind": "text",
+      "original": "<h3>Request a quote.</h3>",
+      "default": "Request a quote.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "intakeText6",
+      "label": "Planificación · Photography, menu design, brand content and d",
+      "kind": "text",
+      "original": "<p>Photography, menu design, brand content and digital services. Build a brief around your goals.</p>",
+      "default": "Photography, menu design, brand content and digital services. Build a brief around your goals.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "processText1",
+      "label": "Proceso · 01Understand",
+      "kind": "text",
+      "original": "<h3><span>01</span>Understand</h3>",
+      "default": "Understand",
+      "max": 2000,
+      "section": "Portada",
+      "prefix": "<span>01</span>"
+    },
+    {
+      "key": "processText2",
+      "label": "Proceso · We start with your business, your occasion an",
+      "kind": "text",
+      "original": "<p>We start with your business, your occasion and what you want to create.</p>",
+      "default": "We start with your business, your occasion and what you want to create.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "processText3",
+      "label": "Proceso · 02Create",
+      "kind": "text",
+      "original": "<h3><span>02</span>Create</h3>",
+      "default": "Create",
+      "max": 2000,
+      "section": "Portada",
+      "prefix": "<span>02</span>"
+    },
+    {
+      "key": "processText4",
+      "label": "Proceso · We plan the session, shape the story and prod",
+      "kind": "text",
+      "original": "<p>We plan the session, shape the story and produce the right content.</p>",
+      "default": "We plan the session, shape the story and produce the right content.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "processText5",
+      "label": "Proceso · 03Deliver & refine",
+      "kind": "text",
+      "original": "<h3><span>03</span>Deliver & refine</h3>",
+      "default": "Deliver & refine",
+      "max": 2000,
+      "section": "Portada",
+      "prefix": "<span>03</span>"
+    },
+    {
+      "key": "processText6",
+      "label": "Proceso · Carefully edited material. For ongoing client",
+      "kind": "text",
+      "original": "<p>Carefully edited material. For ongoing clients, regular review and reporting.</p>",
+      "default": "Carefully edited material. For ongoing clients, regular review and reporting.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "contactText1",
+      "label": "Contacto · Tell us what you have in mind.",
+      "kind": "text",
+      "original": "<h2>Tell us what you have in mind.</h2>",
+      "default": "Tell us what you have in mind.",
+      "max": 2000,
+      "section": "Portada"
+    },
+    {
+      "key": "portfolioImage1",
+      "label": "Retrato complementario · imagen",
+      "kind": "image",
+      "original": "<img class=\"studio-photo-companion\" src=\"/assets/maternity/gold-coast-maternity-06-1280.webp\" alt=\"Gold Coast maternity portrait, photograph 21 in the Becoming collection. Original Aeterna Global photography.\" width=\"1280\" height=\"720\" loading=\"eager\">",
+      "default": "/assets/maternity/gold-coast-maternity-06-1280.webp",
+      "max": 300,
+      "section": "Imágenes",
+      "altKey": "portfolioImage1Alt"
+    },
+    {
+      "key": "portfolioImage1Alt",
+      "label": "Retrato complementario · descripción",
+      "kind": "alt",
+      "original": "<img class=\"studio-photo-companion\" src=\"/assets/maternity/gold-coast-maternity-06-1280.webp\" alt=\"Gold Coast maternity portrait, photograph 21 in the Becoming collection. Original Aeterna Global photography.\" width=\"1280\" height=\"720\" loading=\"eager\">",
+      "default": "Gold Coast maternity portrait, photograph 21 in the Becoming collection. Original Aeterna Global photography.",
+      "max": 500,
+      "section": "Imágenes"
+    },
+    {
+      "key": "portfolioImage2",
+      "label": "Hospitalidad · imagen",
+      "kind": "image",
+      "original": "<img src=\"/assets/food-real.webp\" alt=\"A plated lobster dish with herbs and citrus, illustrative stock photograph\" width=\"933\" height=\"1400\" loading=\"lazy\" style=\"object-position:50% 78%\">",
+      "default": "/assets/food-real.webp",
+      "max": 300,
+      "section": "Imágenes",
+      "altKey": "portfolioImage2Alt"
+    },
+    {
+      "key": "portfolioImage2Alt",
+      "label": "Hospitalidad · descripción",
+      "kind": "alt",
+      "original": "<img src=\"/assets/food-real.webp\" alt=\"A plated lobster dish with herbs and citrus, illustrative stock photograph\" width=\"933\" height=\"1400\" loading=\"lazy\" style=\"object-position:50% 78%\">",
+      "default": "A plated lobster dish with herbs and citrus, illustrative stock photograph",
+      "max": 500,
+      "section": "Imágenes"
+    },
+    {
+      "key": "portfolioImage3",
+      "label": "Celebraciones · imagen",
+      "kind": "image",
+      "original": "<img src=\"/assets/events-real.webp\" alt=\"A group of adults raising glasses at a celebration, illustrative stock photograph\" width=\"1400\" height=\"934\" loading=\"lazy\" style=\"object-position:50% 45%\">",
+      "default": "/assets/events-real.webp",
+      "max": 300,
+      "section": "Imágenes",
+      "altKey": "portfolioImage3Alt"
+    },
+    {
+      "key": "portfolioImage3Alt",
+      "label": "Celebraciones · descripción",
+      "kind": "alt",
+      "original": "<img src=\"/assets/events-real.webp\" alt=\"A group of adults raising glasses at a celebration, illustrative stock photograph\" width=\"1400\" height=\"934\" loading=\"lazy\" style=\"object-position:50% 45%\">",
+      "default": "A group of adults raising glasses at a celebration, illustrative stock photograph",
+      "max": 500,
+      "section": "Imágenes"
+    },
+    {
+      "key": "portfolioImage4",
+      "label": "Maternidad · imagen",
+      "kind": "image",
+      "original": "<img src=\"/assets/maternity/gold-coast-maternity-19-1280.webp\" srcset=\"/assets/maternity/gold-coast-maternity-19-640.webp 640w, /assets/maternity/gold-coast-maternity-19-1280.webp 1280w, /assets/maternity/gold-coast-maternity-19-1920.webp 1920w\" sizes=\"(max-width:650px) 82vw, (max-width:1100px) 44vw, 30vw\" width=\"1280\" height=\"720\" alt=\"Gold Coast maternity portrait, photograph 15 in the Becoming collection. Original Aeterna Global photography.\" loading=\"lazy\">",
+      "default": "/assets/maternity/gold-coast-maternity-19-1280.webp",
+      "max": 300,
+      "section": "Imágenes",
+      "altKey": "portfolioImage4Alt"
+    },
+    {
+      "key": "portfolioImage4Alt",
+      "label": "Maternidad · descripción",
+      "kind": "alt",
+      "original": "<img src=\"/assets/maternity/gold-coast-maternity-19-1280.webp\" srcset=\"/assets/maternity/gold-coast-maternity-19-640.webp 640w, /assets/maternity/gold-coast-maternity-19-1280.webp 1280w, /assets/maternity/gold-coast-maternity-19-1920.webp 1920w\" sizes=\"(max-width:650px) 82vw, (max-width:1100px) 44vw, 30vw\" width=\"1280\" height=\"720\" alt=\"Gold Coast maternity portrait, photograph 15 in the Becoming collection. Original Aeterna Global photography.\" loading=\"lazy\">",
+      "default": "Gold Coast maternity portrait, photograph 15 in the Becoming collection. Original Aeterna Global photography.",
+      "max": 500,
+      "section": "Imágenes"
     }
   ],
   "imagePaths": [
@@ -259,8 +854,8 @@
     "/assets/maternity/gold-coast-maternity-09-1920.webp",
     "assets/camera.jpg"
   ],
-  "background": "#f6f3ef",
-  "foreground": "#20212a",
-  "muted": "#5c5653",
-  "surface": "#fff"
+  "background": "#101113",
+  "foreground": "#f6f3ef",
+  "muted": "#c6c5c3",
+  "surface": "#1b1c1f"
 }

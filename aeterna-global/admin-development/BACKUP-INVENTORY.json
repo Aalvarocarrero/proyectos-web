@@ -1,7 +1,7 @@
 {
-  "source": "aeterna-content-admin",
+  "source": "aeterna-content-admin-next",
   "destination": "aeterna-global/admin-development",
-  "sourceCommit": "75eade669d720493c4bf9e7cd9962d6a25c69ede",
+  "sourceCommit": "9a0011904224b17fcf8808ae37644860caa0a260",
   "status": "development-not-published",
   "files": [
     {
@@ -10,7 +10,7 @@
       "type": "blob",
       "sha": "796f2e42212771ce511e044cda4fdac18eb26df8",
       "size": 880,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/.npmrc",
@@ -18,14 +18,14 @@
       "type": "blob",
       "sha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6",
       "size": 45,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/.openai/hosting.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "c681d69bc785b8997f1c208b07bab2abd213ff40",
-      "size": 91,
+      "sha": "257e42147a73283ea7aafbc93294e7b9d2277ee3",
+      "size": 95,
       "existing": false
     },
     {
@@ -34,7 +34,7 @@
       "type": "blob",
       "sha": "4373d6e019093e06baf386ab451315369830f21a",
       "size": 5277,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/app/admin/[[...path]]/route.ts",
@@ -42,7 +42,7 @@
       "type": "blob",
       "sha": "45dee83b9de8ba52869b0d5d42ce05fd868b504f",
       "size": 222,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/app/api/admin/[...path]/route.ts",
@@ -50,7 +50,7 @@
       "type": "blob",
       "sha": "1a7a408f57f7523cd40929d04bc6fa3bd7b62e25",
       "size": 304,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/app/chatgpt-auth.ts",
@@ -58,7 +58,7 @@
       "type": "blob",
       "sha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3",
       "size": 2550,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/app/index.html/route.ts",
@@ -66,6 +66,14 @@
       "type": "blob",
       "sha": "85bdfed7b18b50135bc69d971242769adf2bdf9a",
       "size": 215,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/app/media/[[...path]]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "586cfb37965799c1c329f53a3da64870554dd02a",
+      "size": 220,
       "existing": false
     },
     {
@@ -74,7 +82,7 @@
       "type": "blob",
       "sha": "e53a0536961412aa81604235a5605fe8fa2bcc4e",
       "size": 212,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/build/connector-preview-plugin.mjs",
@@ -82,7 +90,7 @@
       "type": "blob",
       "sha": "f29e9953bdac6f25be5f1b58e5a02ef0457bafbe",
       "size": 7211,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/build/connector-preview-worker.mjs",
@@ -90,7 +98,7 @@
       "type": "blob",
       "sha": "f4d5f1974728c4b295d05a1422d7e2bce75635e5",
       "size": 594,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/build/sites-vite-plugin.LICENSE",
@@ -98,7 +106,7 @@
       "type": "blob",
       "sha": "4243cb4a9aaa50f954498e54c850773e9ba13eea",
       "size": 1063,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/build/sites-vite-plugin.ts",
@@ -106,7 +114,7 @@
       "type": "blob",
       "sha": "2ece1b96530b40a7ea4981e6341b52771a07813e",
       "size": 7185,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/build/sites-worker.ts",
@@ -114,7 +122,7 @@
       "type": "blob",
       "sha": "f5589039057a3f3f221b4a5418d6a4e595e63224",
       "size": 1279,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/cloudflare-env.d.ts",
@@ -122,7 +130,7 @@
       "type": "blob",
       "sha": "856e090c902917b4e1cebee0e08ea1d398fd01c3",
       "size": 99,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/components.json",
@@ -138,7 +146,7 @@
       "type": "blob",
       "sha": "3c994dc58811e4b02250092fec54b0b788edcc2c",
       "size": 1082,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/components/ui/accordion.tsx",
@@ -306,7 +314,7 @@
       "type": "blob",
       "sha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24",
       "size": 4303,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/components/ui/direction.tsx",
@@ -530,7 +538,7 @@
       "type": "blob",
       "sha": "cb53bb28b6850745c9519e8e7462e05f85a50c93",
       "size": 4188,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/components/ui/sidebar.tsx",
@@ -634,22 +642,22 @@
       "type": "blob",
       "sha": "19b379900d94124b674f07ffe2dbba8f70bd8d6d",
       "size": 423,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/db/schema.ts",
       "mode": "100644",
       "type": "blob",
-      "sha": "9feb576ee436c7e8ee59c06a19835076564de437",
-      "size": 632,
+      "sha": "18ef707c006ca381e8280c54110324fe2738d789",
+      "size": 932,
       "existing": false
     },
     {
       "path": "aeterna-global/admin-development/docs/CONTENT_ADMIN.md",
       "mode": "100644",
       "type": "blob",
-      "sha": "8cb878e646ad67f530e4e2289aa76dd318f2d4da",
-      "size": 3327,
+      "sha": "03e2167f645030c58afe79ecd1613d63c22d5334",
+      "size": 7556,
       "existing": false
     },
     {
@@ -666,6 +674,14 @@
       "type": "blob",
       "sha": "eaae597857f42f69261ce69f1012314252a22780",
       "size": 453,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle/0001_organic_jocasta.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b25258322799dab04ec042db4c0f5cedf4a617b5",
+      "size": 233,
       "existing": false
     },
     {
@@ -674,14 +690,22 @@
       "type": "blob",
       "sha": "ccdddffa9e5d260c961e24000c7e26445cbf5da2",
       "size": 2933,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle/meta/0001_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "98f4f49bc02e7eaf26356fb85d5e965ffaa82b28",
+      "size": 4409,
       "existing": false
     },
     {
       "path": "aeterna-global/admin-development/drizzle/meta/_journal.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "2fe7e2050617ca60fad6dc49ded67ab4a245b81c",
-      "size": 208,
+      "sha": "540255026eb60c60b92d23bbde91be9e3a2db909",
+      "size": 351,
       "existing": false
     },
     {
@@ -698,7 +722,7 @@
       "type": "blob",
       "sha": "07f8318c3c290d68163e95aa3e170ad92a235f27",
       "size": 1700,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/examples/d1/db/schema.ts",
@@ -722,7 +746,7 @@
       "type": "blob",
       "sha": "6cdeac72bf2df63e0a73159af25e0b4564ed1d43",
       "size": 612,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/lib/connector-contract.mts",
@@ -730,7 +754,7 @@
       "type": "blob",
       "sha": "f146418508b4c272a4495ec5498b6f0554b1f966",
       "size": 5362,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/lib/connector-errors.mts",
@@ -738,7 +762,7 @@
       "type": "blob",
       "sha": "c9d2fe845ec965062d3724fd28a0892b4fbf5a9b",
       "size": 2717,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/lib/connector-preview.d.ts",
@@ -746,7 +770,7 @@
       "type": "blob",
       "sha": "bb3f498b67e3dfd93601626aa2675af07dfe711c",
       "size": 433,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/lib/connectors.ts",
@@ -754,7 +778,7 @@
       "type": "blob",
       "sha": "30b85c0dd699e7236ec1694e03466b03caa2a7dc",
       "size": 416,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/lib/utils.ts",
@@ -770,7 +794,7 @@
       "type": "blob",
       "sha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4",
       "size": 133,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/package-lock.json",
@@ -778,14 +802,14 @@
       "type": "blob",
       "sha": "0c8fdaec7500eb3dc16d88807e4269b0685d61e4",
       "size": 504152,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/package.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "93a6a301ab9689ff87c2ce052d9a185f06f16154",
-      "size": 2166,
+      "sha": "717dc1d404a72e84d8b1effdd5557df446d6c421",
+      "size": 2221,
       "existing": false
     },
     {
@@ -834,7 +858,7 @@
       "type": "blob",
       "sha": "50ea57ab7e7bd8fe4930d3744b820a01160e9e4c",
       "size": 6081,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/assets/camera.jpg",
@@ -1466,7 +1490,7 @@
       "type": "blob",
       "sha": "3a28fd743239ec7d2d25ded4375e3b3e23d967ef",
       "size": 35588,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/preview-30.jpg",
@@ -2213,11 +2237,27 @@
       "existing": true
     },
     {
+      "path": "aeterna-global/admin-development/public/content-admin.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "432f0a2bd36affba527c26a11317bc5386018230",
+      "size": 3074,
+      "existing": false
+    },
+    {
       "path": "aeterna-global/admin-development/public/content-admin.js",
       "mode": "100644",
       "type": "blob",
-      "sha": "3987f4177bd97965524d50a2204f358b9bd84331",
-      "size": 1362,
+      "sha": "35eed78224442b87373b678ebbf8b2df0b3ac0e7",
+      "size": 5147,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/content-gallery.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f0a9c143a80a217c35542548d93e3e7143057769",
+      "size": 498,
       "existing": false
     },
     {
@@ -2226,7 +2266,7 @@
       "type": "blob",
       "sha": "e809d2fcd01cac0df96545595f825c4fa0fb7b7c",
       "size": 105509,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/email-assets/food-inspiration.jpg",
@@ -2234,7 +2274,7 @@
       "type": "blob",
       "sha": "627dc253e207a1f03456890809d2597b9827b8e0",
       "size": 48266,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/email-assets/menu-portfolio.jpg",
@@ -2242,7 +2282,7 @@
       "type": "blob",
       "sha": "e9f7f57ddd5843974177419710128a0c18e814d3",
       "size": 69227,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/email-assets/pasta-cover.jpg",
@@ -2250,7 +2290,7 @@
       "type": "blob",
       "sha": "02e7c0295cb4d09fc0f52dbc47a37fb1e8dc565d",
       "size": 86202,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/full-motion.js",
@@ -2266,7 +2306,7 @@
       "type": "blob",
       "sha": "967fa713d6d52c5565e5fd294b6c59dbda693679",
       "size": 30984,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/gallery-rail.js",
@@ -2290,7 +2330,7 @@
       "type": "blob",
       "sha": "f11bb6c1221b31d5e0b6ba5cf9bc3cf4048ed746",
       "size": 32103,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/menus/THIRD-PARTY-NOTICES.txt",
@@ -2306,7 +2346,7 @@
       "type": "blob",
       "sha": "b6065d8982cc180cd8cfd044c8b49842e8463f10",
       "size": 3582,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-01-thumb.webp",
@@ -2530,7 +2570,7 @@
       "type": "blob",
       "sha": "96f45884e12aa548e30bd771527557520e25e00c",
       "size": 10432,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/menus/menu-links.js",
@@ -2538,7 +2578,7 @@
       "type": "blob",
       "sha": "2900b7452ac1d42783f45da1d978205a7a2a9449",
       "size": 3229,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/menus/menu-world.css",
@@ -2610,7 +2650,7 @@
       "type": "blob",
       "sha": "01ad13a2482bd7605287b02a09fccb31a2f0a173",
       "size": 10890,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/public/quote-preview/quote.js",
@@ -2690,7 +2730,7 @@
       "type": "blob",
       "sha": "aca7fe8c2106a1ac4c6b394bd4005f6d38669e49",
       "size": 7681,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/build-verified.sh",
@@ -2698,7 +2738,7 @@
       "type": "blob",
       "sha": "6c69cf3ad6855c25c312b67f02fd1afffb97b63d",
       "size": 661,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/connector-preview/connector-preview-session.mjs",
@@ -2706,7 +2746,7 @@
       "type": "blob",
       "sha": "aa2d2d92f663e547e4af956e3f0475a6198b1bf2",
       "size": 6855,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/connector-preview/host-binding.mjs",
@@ -2714,7 +2754,7 @@
       "type": "blob",
       "sha": "88e6efb56e6ceb044dd3c9127d26960b5bb9c5e9",
       "size": 7793,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/connector-preview/protocol.mjs",
@@ -2722,7 +2762,7 @@
       "type": "blob",
       "sha": "6476ba302de4ee408ba549fc0d790861185dd919",
       "size": 1781,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/execution-profile.mjs",
@@ -2730,7 +2770,7 @@
       "type": "blob",
       "sha": "f27aec211320d9a5fd0dbbb07f5c508222b2b8d4",
       "size": 624,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/install-ci.mjs",
@@ -2738,7 +2778,7 @@
       "type": "blob",
       "sha": "22bd7d555c8f2a996d5bfe5be0ba9a5a43a1bf7f",
       "size": 1685,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/install-ci.sh",
@@ -2746,7 +2786,7 @@
       "type": "blob",
       "sha": "7b4a810e1663afb4572d167eb78e09b3db07be10",
       "size": 6783,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/install-pnpm.sh",
@@ -2754,7 +2794,7 @@
       "type": "blob",
       "sha": "573ecdb89461a5922386ec9ccf5a83504fa9caae",
       "size": 9015,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/npm-install.mjs",
@@ -2762,7 +2802,7 @@
       "type": "blob",
       "sha": "64ade63f6092ed209b1a76718145d80de38b34f2",
       "size": 7025,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/pnpm-install.mjs",
@@ -2770,7 +2810,7 @@
       "type": "blob",
       "sha": "ae92c9fe150ee780e46f590947ceacd03b7226ad",
       "size": 10633,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/run-framework.mjs",
@@ -2778,7 +2818,7 @@
       "type": "blob",
       "sha": "166b0c2487819135ddfb30c9267e790ebb8c498f",
       "size": 993,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/sites-env.mjs",
@@ -2786,7 +2826,7 @@
       "type": "blob",
       "sha": "1eeedb5e13e4b9af70d89446d981dfd4cd92a3fd",
       "size": 906,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/scripts/sites-env.sh",
@@ -2797,27 +2837,35 @@
       "existing": true
     },
     {
+      "path": "aeterna-global/admin-development/server/admin-panel.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "10bcf47facc430b5e02770e5db691fab1accf66e",
+      "size": 4152,
+      "existing": false
+    },
+    {
       "path": "aeterna-global/admin-development/server/content-config.json",
       "mode": "100644",
       "type": "blob",
-      "sha": "e153679bda8f25f8a4bb357c580cd883f0afdcb0",
-      "size": 12714,
+      "sha": "59ffb1d1d8379ab63ce64e479f5eb63e52718c29",
+      "size": 39538,
       "existing": false
     },
     {
       "path": "aeterna-global/admin-development/server/content-handler.mjs",
       "mode": "100644",
       "type": "blob",
-      "sha": "1d89408ae39744114053d4015297ccfd951c4a79",
-      "size": 6136,
+      "sha": "1135641b737a7ef8c9ea90d1bf6c802479d298f2",
+      "size": 6938,
       "existing": false
     },
     {
       "path": "aeterna-global/admin-development/server/content-service.mjs",
       "mode": "100644",
       "type": "blob",
-      "sha": "72ae831e3037c469896da8c2112d9f5de998c5ad",
-      "size": 5788,
+      "sha": "0869326bc6c43e7f27846c232288c9f4cde711a1",
+      "size": 8363,
       "existing": false
     },
     {
@@ -2826,6 +2874,14 @@
       "type": "blob",
       "sha": "c110c23f2e27065db67182ab48b59703740f6b39",
       "size": 43731,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/server/image-validation.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "029c2b65b32a9c6b93c434393d8a81b1e1695896",
+      "size": 2752,
       "existing": false
     },
     {
@@ -2834,14 +2890,30 @@
       "type": "blob",
       "sha": "aa5a8dc3394ba5480ab01d406c6314317012d42d",
       "size": 26922,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/tests/content-admin.test.mjs",
       "mode": "100644",
       "type": "blob",
-      "sha": "6eb92d39d9c510afe9c536399fe1bef0730247a2",
-      "size": 7800,
+      "sha": "6dfcca8c44aacc189101de2b47641092ad00388f",
+      "size": 16879,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/tests/run-runtime-smoke.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e9211739a5603f49e2913ed4ed63983dfa9de8",
+      "size": 1714,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/tests/runtime-smoke.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "335c9253e27cf969044076273f9f005890c5e607",
+      "size": 3364,
       "existing": false
     },
     {
@@ -2850,7 +2922,7 @@
       "type": "blob",
       "sha": "be170f57ec372cc118f2d343092a53b85fc189a4",
       "size": 800,
-      "existing": false
+      "existing": true
     },
     {
       "path": "aeterna-global/admin-development/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
@@ -2874,7 +2946,7 @@
       "type": "blob",
       "sha": "62c760210840bf230b9738c8d20a51f48b7dd5f0",
       "size": 3115,
-      "existing": false
+      "existing": true
     }
   ],
   "excluded": [],

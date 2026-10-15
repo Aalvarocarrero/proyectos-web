@@ -2,7 +2,7 @@
   "source": "roho-content-admin",
   "destination": "rohocafe/admin-development",
   "sourceCommit": "55d4bb0f0f1e4651470c7873285be5828e7ad713",
-  "status": "development-not-published",
+  "status": "owner-private-preview-admin-activation-pending",
   "files": [
     {
       "path": "rohocafe/admin-development/.gitignore",
@@ -1356,5 +1356,7 @@
   "databaseBackup": false,
   "r2Backup": false,
   "backupDate": "2026-10-15",
-  "note": "Source or release snapshot only. Deployment status is descriptive; this backup operation does not publish sites. No database or R2 storage backup. Previous historical files preserved."
+  "note": "Source snapshot. This ROHO revision has an owner-private Sites preview with D1 tables verified, but the admin allowlist is not configured and public launch is not complete. No database or R2 backup. Historical files preserved.",
+  "previewDeployment": "appgdep_6ad0cc9bc0d0819187743e0dd17b59b5",
+  "backupBranch": "backup/2026-10-15-projects"
 }
