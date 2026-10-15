@@ -1,0 +1,814 @@
+{
+  "source": "alvaro-content-admin",
+  "destination": "alvaro-carrero-mentor/admin-development",
+  "sourceCommit": "321028dfc9f12a5850ac7c74a1396b6d325a4500",
+  "status": "development-not-published",
+  "files": [
+    {
+      "path": "alvaro-carrero-mentor/admin-development/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a32da6f8dfb7a2c1181ddaf1bd349f92f4b7f5a4",
+      "size": 44,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/.openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf6b03581f4f4d8cb4b670e27b6705a6bf673752",
+      "size": 68,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ce3739fda01630d872fb374436173e1bb36d101",
+      "size": 11809,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/cloudflare/feedback-schema.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36f01ac8c0690bfa73d486b746ae77e0becf600b",
+      "size": 1082,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/cloudflare/retention-worker.example.jsonc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5e2f27e0ec2a7c63fcebd1e8b449a61a78688c9",
+      "size": 284,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/cloudflare/retention-worker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0290df9b51b30d312b876e2daeb137d8d8d772dd",
+      "size": 1119,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/config/kit-forms.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ad9dfa629e658295961e53dede1257a36251e6c",
+      "size": 932,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/config/site.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec0324f8203cacc234508b59b586b501a703bb27",
+      "size": 1865,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8e8af4b861841e8b03f3be283ee4f7fc2edb12d",
+      "size": 2153,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/docs/DOMAIN-MIGRATION.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2a33f9ed7f3c72ccbf7d6c4634327dad0a26b1d2",
+      "size": 7836,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/docs/content-admin-local.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ccf8aa25c5e2547e939aecc6653f6096e84d2eb",
+      "size": 7001,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/docs/wrangler.example.jsonc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57334e8c6b1aef77b87710b645044498e7568a99",
+      "size": 467,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b438dd095e9cca8d262f3292ed06727b39978bb3",
+      "size": 76,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/0000_yummy_black_bird.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "903a53c97d649d128bb6ca5b85531d11fe08f1a1",
+      "size": 356,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/0001_icy_wilson_fisk.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b72b788607b04f7d283a1a2f3e87d4938f17dad2",
+      "size": 252,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/0002_organic_captain_midlands.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3294d4aa4a87e7256387552e4e4b24831d2d9501",
+      "size": 333,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/0003_sleepy_catseye.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f78dd0199931d58766b2b8798f52c7617edac9b",
+      "size": 642,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/meta/0000_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a3f31b78cbfc1d85e58efadaf5f5429b28c9212b",
+      "size": 2320,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/meta/0001_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f8c80613fafb4216d4833e4b46b113ee17cc81a3",
+      "size": 3311,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/meta/0002_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acbaf96129469cfc52a08395efc31cce1c47a46f",
+      "size": 5068,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/meta/0003_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "331db1fe91c2e7545f3a7d6f6a9ca210ef202788",
+      "size": 8470,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/drizzle/meta/_journal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "813418fdbfc2b00994f12645e635f472e5f558f7",
+      "size": 643,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e1799f79c8627a4eebe2b0fec9628e19d325bf2f",
+      "size": 54052,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e7a813a6164fe6ef065a1057f058db0f891d899",
+      "size": 345,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a68f8c4c96cd6237825cbcf2db1c3a015e226bcb",
+      "size": 4055,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/Montserrat-OFL.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe576a2ee1f96353b05d030c0b7620d525cc53a8",
+      "size": 4400,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/alvaro.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a4fb2d1f87eb21da41682a9d2ad4d64010cdb5ec",
+      "size": 2787,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/claridad.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d3f5ae7bba7c841e44b23598097c3d6c819967b3",
+      "size": 3895458,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/claridad.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23d03ee4ade6f23303710d5bd1a59062d9c00744",
+      "size": 38028,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/crecimiento.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20412016e0a333c4f66836e78ddacfb08489ee5",
+      "size": 113958,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/cuidado.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1ab595ea1042d013b061a8a087984c3c0dd9980",
+      "size": 97424,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/habitos.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6a194afa946a5d4b1388b12b23c609847a84aa1",
+      "size": 50288,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/mark.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8c6b081996b2b4129c320f72e795d1a3e91edbfa",
+      "size": 251,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/montserrat-400.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e06c4273d0065de751ff9c66969f81d4a0bfcd86",
+      "size": 180068,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/montserrat-600.ttf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "918df399516c7b1e2352d418d7fc7a6793b659b7",
+      "size": 180584,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/assets/progreso.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fddd2a7981d3622f6421d1bd00ec90a6053fdc1",
+      "size": 91766,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/community.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8f22860819722c48a835eae092041659d55a7d07",
+      "size": 4653,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/community.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfe6ebc684adb6de4e8988b361194ff6972f7746",
+      "size": 652,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/comunidad/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57c24464bd616b8c7af5513ff4e8cc1531cd94e4",
+      "size": 10618,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/condiciones/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "418b824809266684b94c5d92db7ef2a7b36128de",
+      "size": 3843,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/contacto/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d44155644935fa94069248b39b045725d14f9183",
+      "size": 3434,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/content-admin.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f8d82a097e4e669d27121583916a0e6f39644fb",
+      "size": 6022,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/content-admin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bef6ec821775ff2a7d4bcfd20688f1ca9868ae48",
+      "size": 5170,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/about/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4abc9ef3ac9ab61cf38f0e11d5a4212470abc446",
+      "size": 4452,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae5f0eed013f13b622899d87bf6a162ae1acbdbb",
+      "size": 4050,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/community/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b4f2c7b425dfbcc13bbfb164945c26747b74270",
+      "size": 10380,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/conditions/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "336d0dcd172581457db64077bad4d6e802e47016",
+      "size": 3737,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/contact/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2cbc68b44a40123bdb5377f1d33c09edda0c34",
+      "size": 3415,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/feedback/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "48b08557ddd8fa6b018ed66bb0b6f2830bb379bd",
+      "size": 11773,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/group-mentoring/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53f4eb97641ea32c6fc47fbbbded57f5c2ffdfbc",
+      "size": 5730,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6f512c554525d07359dbbb85109603a5c5f16f0b",
+      "size": 19311,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/individual-mentoring/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c84568c3880ecc8c0228e310b37170a7f0ec652",
+      "size": 5879,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/privacy/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50e12f9d03e41afa22c8e0fe28d98da55bbb5d42",
+      "size": 5964,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/resource/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6fdcad2e2e572410d274fd0a577fc513efad7424",
+      "size": 11179,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/session/booking.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "df4741e904876db7c1fa387ac4513c8a85eb2172",
+      "size": 9104,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/en/session/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "338bfcca5ad41eb7dab261c8616bbbe9671764ca",
+      "size": 7682,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/feedback.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6deef90850a37f9798edf6ecc218b0d3dc84b9c7",
+      "size": 16048,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/feedback.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e83b79af47bef27483862117703faa0ae7802ab",
+      "size": 14838,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/feedback/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96f76df5e7c0433fb815cc33235e1e0eb2738e1f",
+      "size": 11893,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8eb173aa28dca019071af2efde5e1f8d9c351aaa",
+      "size": 19196,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/kit-signup.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804cf1e244f5fd74d6aafcd678e8c94277448632",
+      "size": 1255,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/kit-signup.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c7ecfe17d492a3bd609912000bc66ce305aad95",
+      "size": 338,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/mentoria-grupal/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "611e245dfe255145e6e3317e8e18f2e42316ed52",
+      "size": 5837,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/mentoria-individual/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e7343e91003396cf7d886454a0fe4943b0c85792",
+      "size": 5912,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/navigation.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01fbb658ec66a9806c69fe820a12247cc2ce8d87",
+      "size": 3776,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/navigation.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "09dd9d752ddff520f2322b1ec83142908665179b",
+      "size": 2367,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/privacidad/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91a39fa8dcc1968a2661177b05e123ddc8b560e6",
+      "size": 6194,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/recurso/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daed08d8d0f4e8877db88266297b682d997c12c9",
+      "size": 11552,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/resources/seven-days-en.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7518d3370e61b19c11ae66d25ec85d060a298b66",
+      "size": 49748,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/resources/seven-days-en.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b47673d4b219818c22f9a22d9da0b42fccacd74",
+      "size": 5735,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/resources/seven-days-es.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88506ba0f1701558ed7f2692f9ef588869a4e319",
+      "size": 50547,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/resources/seven-days-es.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "54c4705422973d77e6cbe91160abee49dd82928f",
+      "size": 6009,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f53798bb4fe33c86020be7f10c44f29486fd190",
+      "size": 26,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/sesion/booking.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be199cd7e0da53a8bcf35a4e4e48477cc7163207",
+      "size": 4755,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/sesion/booking.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8248f5e4ebef571a8fa632343631079919b2d35a",
+      "size": 9115,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/sesion/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d6fd48be233904ac1c3b70b3b7561cd906cc6239",
+      "size": 7657,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/sitemap.xml",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d6f1a3a8c18e947a6fb4e792267caad251de433",
+      "size": 2121,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/sobre-alvaro/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b8f526c66290fbeb6a3b809a55609739f9aae6fa",
+      "size": 4497,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e4a48c47a0c6bb0cd52232703054ae019f5d923",
+      "size": 16827,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/vendor/embla-LICENSE.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2376624f527f4f1e53887552e42b004ab4056898",
+      "size": 1066,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/public/vendor/embla-carousel.umd.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5832ad542d8feae741243378c676bf4987277c21",
+      "size": 17946,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/scripts/build.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "366755397b6034a67a8cf4e2014e7e26073db93f",
+      "size": 5797,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/scripts/prepare-feedback-import.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e106eaa30b5094481551afd5413eed2809580624",
+      "size": 1500,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/admin-view.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a37b4f3f8dbda0394cfe0c6ec8ebe35a46a5809d",
+      "size": 6242,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/content-contract.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "501bf918da212f095b2af6bbcc1adfeaed48bf6d",
+      "size": 1490,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/content-fields.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c15529c9131acd0f1775ae9886ab335a5a6b60ab",
+      "size": 13153,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/content-renderer.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c3c4dc0a89b9f6fc8919d7fd54c049d15d45f703",
+      "size": 2650,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/content-router.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0bd4f671194a0577d49c17369483e33d517501d9",
+      "size": 4604,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/content-service.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "089de3cf69c8b867c93da65fcc276e8dc8d5f6a9",
+      "size": 7097,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/src/worker.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b2e35c054431c81be270858b6c903b4647fb4b2a",
+      "size": 7225,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/build-config.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ad2a2ed4274a7ca8244565488557b293b892446",
+      "size": 931,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/build-output.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6474309532efb8e0427db700af921b89855d3376",
+      "size": 2233,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/content-admin-ui.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2149a75c1b1d8099769c62471e4bd47500771e62",
+      "size": 5027,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/content-admin.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14dc6bd462673ed2f6cc2ce9dfb2d19fbf0f23fe",
+      "size": 16411,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/feedback.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7d6f1cf6794df30ed7e0285700a48a6d3e39d9e8",
+      "size": 8165,
+      "existing": false
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/kit-form.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4b9b49da5fd48f8afc01c92952d913f287d8595a",
+      "size": 1547,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/navigation.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23a0ff472decc96fae42da75d66745180805e406",
+      "size": 2900,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/retention.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0548f400b63449e7e925c30821dad8c1d495b936",
+      "size": 1575,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/tests/subscription-visibility.test.cjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "15de8e6f15805dbe0a5a068c1e756944f2755b20",
+      "size": 1308,
+      "existing": true
+    },
+    {
+      "path": "alvaro-carrero-mentor/admin-development/validate.py",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b79197b8793bc3c885975bc4aff030b6b8d07b66",
+      "size": 2137,
+      "existing": true
+    }
+  ],
+  "excluded": [],
+  "secretAlertsExcluded": [],
+  "databaseBackup": false,
+  "r2Backup": false,
+  "backupDate": "2026-10-15",
+  "note": "Source or release snapshot only. Deployment status is descriptive; this backup operation does not publish sites. No database or R2 storage backup. Previous historical files preserved."
+}

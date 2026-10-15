@@ -1,0 +1,27 @@
+{
+  "verified_form_source": "Official Kit embeds saved/reloaded by authorized setup worker",
+  "forms": {
+    "es": {
+      "id": "10008824",
+      "uid": "55b504fa9f"
+    },
+    "en": {
+      "id": "10008873",
+      "uid": "ff5ad42336"
+    }
+  },
+  "field": "tags[]",
+  "purpose_consent": {
+    "community_email": "24349010",
+    "individual_email": "24349011",
+    "group_email": "24349012"
+  },
+  "adult_self_declaration": "24349092",
+  "interest_only": {
+    "direction": "24329035",
+    "habits": "24329037"
+  },
+  "semantics": "Only affirmative purpose tags authorize those emails. Overall list/Confirmed status and interest tags do not. Unchecking on resubmit does not revoke existing permission; unsubscribe or explicit removal is needed.",
+  "age_limit": "Required browser self-declaration, not independently verified age.",
+  "tested": "Synthetic FormData/browser validity only; no contact submitted by website worker."
+}

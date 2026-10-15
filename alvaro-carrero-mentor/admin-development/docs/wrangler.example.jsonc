@@ -1,0 +1,8 @@
+{
+  // Template only. Do not deploy until target account, database and access are approved.
+  "name": "alvaro-carrero-mentor",
+  "main": "dist/server/index.js",
+  "compatibility_date": "2026-10-07",
+  "assets": {"directory": "dist/client", "binding": "ASSETS", "run_worker_first": ["/api/*"]},
+  "d1_databases": [{"binding": "DB", "database_name": "REPLACE_WITH_APPROVED_DATABASE_NAME", "database_id": "REPLACE_WITH_REAL_DATABASE_ID", "migrations_dir": "drizzle"}]
+}
