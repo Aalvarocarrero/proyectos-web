@@ -1,0 +1,17 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {checkGrouping,evaluatePlan,stages,supplies} from '../dist/logic.mjs';
+test('six clearly separated stages',()=>assert.deepEqual(stages.map(s=>s.id),['18m','2y','3y','5y','7y','12y']));
+test('color grouping recognizes exact answer',()=>assert.equal(checkGrouping(['a','b'],'color').correct,true));
+test('shape grouping recognizes a changed rule',()=>assert.equal(checkGrouping(['a','c'],'shape').correct,true));
+test('empty selection is not correct',()=>assert.equal(checkGrouping([],'color').correct,false));
+test('extra and missing selections identified',()=>assert.deepEqual(checkGrouping(['a','c'],'color'),{correct:false,missing:['b'],extra:['c']}));
+test('duplicates cannot change outcome',()=>assert.equal(checkGrouping(['a','a','b'],'color').correct,true));
+test('bad shape and rule rejected',()=>{assert.throws(()=>checkGrouping(['x'],'shape'));assert.throws(()=>checkGrouping([],'other'));});
+test('basic complete plan costs two',()=>assert.deepEqual(evaluatePlan(['water','map','fruit']),{total:2,remaining:6,missing:[],overBudget:false,ready:true}));
+test('alternative complete plan allowed',()=>assert.equal(evaluatePlan(['water','map','sandwich','notebook']).ready,true));
+test('exact budget is valid',()=>assert.equal(evaluatePlan(['water','map','fruit','toy']).ready,true));
+test('overflow detected',()=>assert.equal(evaluatePlan(supplies.map(s=>s.id)).overBudget,true));
+test('missing essentials detected even under budget',()=>assert.deepEqual(evaluatePlan([]).missing,['Agua','Revisar la ruta','Una merienda']));
+test('challenge re-evaluates original choice',()=>{assert.equal(evaluatePlan(['water','map','sandwich','notebook'],8).ready,true);assert.equal(evaluatePlan(['water','map','sandwich','notebook'],5).ready,false);assert.equal(evaluatePlan(['water','map','fruit','notebook'],5).ready,true);});
+test('duplicate products cannot inflate totals',()=>assert.equal(evaluatePlan(['fruit','fruit']).total,2));
+test('invalid data rejected',()=>{assert.throws(()=>evaluatePlan(['unknown']));for(const b of [-1,NaN,Infinity])assert.throws(()=>evaluatePlan([],b));});
+test('exhaustive 64 combinations obey invariant',()=>{for(let mask=0;mask<64;mask++){const ids=supplies.filter((_,i)=>mask&(1<<i)).map(x=>x.id);for(const b of [5,8]){const r=evaluatePlan(ids,b);assert.equal(r.ready,!r.overBudget&&r.missing.length===0);assert.equal(r.remaining,b-r.total);}}});

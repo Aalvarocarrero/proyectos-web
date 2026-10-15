@@ -1,0 +1,24 @@
+✔ six clearly separated stages (1.88535ms)
+✔ color grouping recognizes exact answer (0.221044ms)
+✔ shape grouping recognizes a changed rule (0.111959ms)
+✔ empty selection is not correct (0.091278ms)
+✔ extra and missing selections identified (0.172121ms)
+✔ duplicates cannot change outcome (0.099691ms)
+✔ bad shape and rule rejected (0.276508ms)
+✔ basic complete plan costs two (0.345562ms)
+✔ alternative complete plan allowed (0.268666ms)
+✔ exact budget is valid (0.27798ms)
+✔ overflow detected (0.13916ms)
+✔ missing essentials detected even under budget (0.145991ms)
+✔ challenge re-evaluates original choice (0.17177ms)
+✔ duplicate products cannot inflate totals (0.100422ms)
+✔ invalid data rejected (0.146351ms)
+✔ exhaustive 64 combinations obey invariant (4.111174ms)
+ℹ tests 16
+ℹ suites 0
+ℹ pass 16
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 107.568879
