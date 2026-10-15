@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en-AU">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101113">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Menu stories · Aeterna Global</title><link rel="stylesheet" href="/analytics-consent.css">
+  <meta name="description" content="A private cinematic preview of Aeterna Global’s restaurant menu design portfolio.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="menu-world.css">
+  <script src="menus.js" defer></script>
+  <script src="menu-world.js?v=5" defer></script>
+  <script src="menu-links.js?v=7" defer></script>
+  <script src="app.js?v=7" defer></script>
+<link rel="stylesheet" href="/social-contact.css?v=14"><link rel="stylesheet" href="site-context.css"><link rel="stylesheet" href="/gallery-world.css?v=4"><link rel="stylesheet" href="/viewer-framing.css?v=5"><script src="/analytics-consent.js" defer></script></head>
+<body>
+  <a class="skip" href="#menu-choices">Skip to the menus</a>
+  <header class="site-header">
+    <a class="wordmark" href="/" aria-label="Aeterna Global studio home"><span>AETERNA</span><small>GLOBAL</small></a>
+    <nav aria-label="Preview navigation"><a href="/">Back to studio</a><a href="#breakfast-category">Breakfast</a><a href="#lunch-category">Lunch</a></nav>
+    <span class="preview-label"><i aria-hidden="true"></i> Private preview</span>
+  </header>
+  <main id="top">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">Aeterna Global / Menu design</p>
+        <h1 id="hero-title">Good taste.<br><span>On every page.</span></h1>
+        <p class="intro">A closer look at two restaurant menus.<br>Photography, character and design, brought together.</p>
+        <a class="text-link" href="#menu-choices">Explore the collection</a>
+      </div>
+      <div class="hero-art" aria-label="A preview of the breakfast and pasta menus">
+        <div class="halo" aria-hidden="true"></div>
+        <a class="cover cover-back" href="assets/pasta/pasta-01.webp" data-open="pasta-01" aria-label="Open the Lunch pasta menu"><img src="assets/pasta/pasta-01.webp" alt="Pasta menu cover for Doña Petrona del Mar" width="1200" height="1600" fetchpriority="high"></a>
+        <a class="cover cover-front" href="assets/breakfast/breakfast-01.webp" data-open="breakfast-01" aria-label="Open the Breakfast menu"><img src="assets/breakfast/breakfast-01.webp" alt="Breakfast menu cover for Doña Petrona del Mar" width="1200" height="1600" fetchpriority="high"></a>
+        <span class="art-caption">Doña Petrona del Mar<br><span>Selected menu work / 01—02</span></span>
+      </div>
+      <div class="hero-bottom"><span>Two menus. Twelve pages. One experience.</span><a href="#menu-choices">Breakfast &amp; Lunch</a><span>Gold Coast, Australia</span></div>
+    </section>
+    <div class="palette-transition" aria-hidden="true"></div>
+    <section class="menu-collection" id="menu-choices" aria-labelledby="collection-title">
+      <div class="menu-collection-heading"><div><p class="eyebrow">The collection / By occasion</p><h2 id="collection-title">A menu for your moment.</h2></div><p>Choose a category.<br>Its complete story opens in one place.</p></div>
+      <div class="category-pair">
+        <a class="menu-category" id="breakfast-category" href="assets/downloads/breakfast-menu-aud-demo.pdf" data-open-menu="breakfast" aria-label="Open the Breakfast menu, eight-page cinematic journey"><span class="category-copy"><span class="category-number">01 / MORNING</span><strong>Breakfast</strong><small>Caribbean-inspired breakfasts<br>8 pages</small><span class="category-action">Explore menu</span></span><span class="category-image"><img src="assets/breakfast/breakfast-01.webp" alt="Breakfast menu cover" width="1600" height="2134" loading="lazy"></span></a>
+        <a class="menu-category" id="lunch-category" href="assets/downloads/pasta-menu-aud-demo.pdf" data-open-menu="pasta" aria-label="Open the Lunch menu, four-page pasta journey"><span class="category-copy"><span class="category-number">02 / MIDDAY</span><strong>Lunch</strong><small>Pasta selection<br>4 pages</small><span class="category-action">Explore menu</span></span><span class="category-image"><img src="assets/pasta/pasta-01.webp" alt="Pasta menu cover in the Lunch category" width="1600" height="2134" loading="lazy"></span></a>
+      </div>
+      <p class="aud-demo-note" id="preview-details">Australian audience demo. Prices are illustrative AUD examples, not currency conversions or live restaurant prices.</p>
+    </section>
+    <noscript><p class="preview-noscript">JavaScript is off. The menu buttons open the complete PDF editions instead.</p></noscript>
+  </main>
+  <footer><a class="wordmark" href="#top" aria-label="Aeterna Global"><span>AETERNA</span><small>GLOBAL</small></a><p>Private Australian demo · October 2026<br>Independent of the live Aeterna website</p><span>Content. Photography. Digital strategy.</span></footer>
+  <button class="motion-control" id="motion-toggle" type="button" aria-pressed="false"><span>Motion off</span></button>
+  <div class="scroll-progress" aria-hidden="true"><i></i></div>
+  <dialog id="menu-world" aria-labelledby="world-title">
+    <header class="world-bar"><div><p class="eyebrow">Aeterna / AUD illustrative prices</p><h2 id="world-title">Menu journey</h2></div><div class="world-actions"><button id="world-motion" type="button" aria-label="Cinematic menu motion" aria-pressed="true">Motion: on</button><a id="world-pdf" href="#" download>Download PDF</a><button id="world-close" type="button">Close menu</button></div></header>
+    <div class="world-scroll" id="world-scroll" tabindex="0" aria-describedby="world-scroll-guidance" aria-label="Cinematic menu journey. Scroll down to travel through the pages."><div class="world-track" id="world-track"><div class="world-stage" id="world-stage"></div></div></div>
+    <div class="world-caption"><span id="world-page-label">Cover</span><button id="world-inspect" type="button">Read in detail +</button><span class="world-scroll-guidance" id="world-scroll-guidance">Scroll down to explore</span></div>
+    <nav class="world-navigation" aria-label="Menu chapters"><div class="world-route" id="world-route"></div><button id="world-continue" type="button">Continue</button></nav>
+    <div class="world-meter" aria-hidden="true"><i id="world-meter-fill"></i></div>
+    <p class="world-announcement" id="world-announcement" aria-live="polite"></p>
+    <section class="world-detail" id="world-detail" hidden aria-label="Full-size menu page"><div class="world-detail-bar"><span id="world-detail-title">Menu page</span><button id="world-detail-close" type="button">Back to the journey</button></div><div class="world-detail-canvas" id="world-detail-canvas"><img id="world-detail-image" alt=""></div></section>
+  </dialog>
+<aside class="floating-contact" aria-label="Social media and contact"><div id="aeterna-social-menu" class="floating-social-menu" hidden><p>Connect with us</p><a class="" href="https://www.instagram.com/aeterna.global/" target="_blank" rel="noopener noreferrer" aria-label="Instagram (opens in a new tab)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="18" cy="6" r=".7" fill="currentColor"/></svg><span>Instagram</span></a><a class="" href="https://www.facebook.com/Aeterna.global/" target="_blank" rel="noopener noreferrer" aria-label="Facebook (opens in a new tab)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 21v-8h3l.5-4H14V7c0-1.2.5-2 2-2h2V1.5c-.8-.1-2-.2-3-.2-3 0-5 1.8-5 5V9H7v4h3v8"/></svg><span>Facebook</span></a><a class="" href="https://www.tiktok.com/@aeterna.global" target="_blank" rel="noopener noreferrer" aria-label="TikTok (opens in a new tab)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3v12a5 5 0 1 1-5-5v4a1 1 0 1 0 1 1V3h4c0 3 2 5 5 5v4a9 9 0 0 1-5-2"/></svg><span>TikTok</span></a><a class="" href="https://www.youtube.com/channel/UC993afFGIRkrMBNtiCLlx6w" target="_blank" rel="noopener noreferrer" aria-label="YouTube (opens in a new tab)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="5" width="20" height="14" rx="4"/><path d="m10 9 6 3-6 3Z"/></svg><span>YouTube</span></a><a class="" href="https://www.linkedin.com/in/alvarocarrero/" target="_blank" rel="noopener noreferrer" aria-label="Álvaro · LinkedIn (opens in a new tab)"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="2"/><path d="M7 10v7m0-10v.1M11 17v-7m0 3c0-4 6-4 6 0v4"/></svg><span>Álvaro · LinkedIn</span></a></div><button class="floating-social-toggle" type="button" aria-label="Open social media links" aria-expanded="false" aria-controls="aeterna-social-menu"><svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="6" cy="12" r="3"/><circle cx="18" cy="5" r="3"/><circle cx="18" cy="19" r="3"/><path d="m9 10.5 6-4M9 13.5l6 4"/></svg></button><a class="floating-whatsapp" href="https://wa.me/61415979973?text=Hi%2C%20I%E2%80%99m%20coming%20from%20the%20Aeterna%20Global%20website%20and%20would%20like%20more%20information." target="_blank" rel="noopener noreferrer" aria-label="Chat with Aeterna Global on WhatsApp"><img class="whatsapp-official-mark" src="/assets/whatsapp-official.svg" width="32" height="32" alt=""><span class="whatsapp-button-copy"><strong>WhatsApp</strong><small>Start a conversation</small></span></a></aside><script src="/social-contact.js?v=13" defer></script></body>
+</html>

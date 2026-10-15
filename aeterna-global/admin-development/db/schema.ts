@@ -1,0 +1,3 @@
+import {sqliteTable,integer,text} from 'drizzle-orm/sqlite-core';
+export const contentState=sqliteTable('content_state',{id:integer('id').primaryKey(),version:integer('version').notNull(),draft:text('draft').notNull(),published:text('published').notNull(),publishedVersion:integer('published_version').notNull(),operationId:text('operation_id').notNull(),updatedAt:text('updated_at').notNull()});
+export const contentRevisions=sqliteTable('content_revisions',{version:integer('version').primaryKey(),data:text('data').notNull(),action:text('action').notNull(),actor:text('actor').notNull(),createdAt:text('created_at').notNull()});

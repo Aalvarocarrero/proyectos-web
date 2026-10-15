@@ -1,0 +1,56 @@
+/* Foreground contract: complete, centered, uncropped images at every scroll position. */
+#menu-world{inset:0;left:0;right:0;width:100%;max-width:100vw;height:100%;height:100dvh;max-height:100dvh;min-width:0;min-height:0;margin:0;padding:0;box-sizing:border-box;overflow:hidden}
+#menu-world[open]{grid-template-columns:minmax(0,1fr);grid-template-rows:auto minmax(0,1fr) auto auto}
+#menu-world>.world-bar,#menu-world>.world-scroll,#menu-world>.world-caption,#menu-world>.world-navigation{min-width:0;max-width:100%;width:100%;box-sizing:border-box}
+#menu-world .world-bar{grid-row:1;flex-wrap:wrap;gap:10px 16px;padding:16px 24px}
+#menu-world .world-bar>div:first-child{min-width:0;flex:1 1 130px}
+#menu-world .world-bar h2,#menu-world .world-bar .eyebrow{overflow-wrap:anywhere;max-width:100%}
+#menu-world .world-actions{min-width:0;max-width:100%;flex:0 1 auto;flex-wrap:wrap;justify-content:flex-end;margin-left:auto;gap:6px}
+#menu-world .world-actions>*{min-width:0;max-width:100%;white-space:normal;text-align:center}
+#menu-world .world-scroll{grid-row:2;min-height:0;overflow-x:hidden;overflow-y:auto}
+#menu-world .world-track,#menu-world .world-stage,#menu-world .world-scene{width:100%;max-width:100%;min-width:0;box-sizing:border-box}
+#menu-world .world-stage{height:var(--world-height);perspective:none}
+#menu-world .world-scene{padding:0;border:0;perspective:none;overflow:hidden}
+#menu-world .world-poster,#menu-world[data-kind=gallery] .world-poster{position:absolute;margin:0!important;max-width:100%;max-height:100%;aspect-ratio:auto;transform-origin:50% 50%;perspective:none;outline:none;box-sizing:border-box;box-shadow:0 22px 70px #0008,0 0 0 1px #ffffff24}
+#menu-world .world-poster img,#menu-world[data-kind=gallery] .world-poster img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;aspect-ratio:auto;object-fit:contain;object-position:50% 50%;transform:none;margin:0}
+#menu-world .world-scene-copy,#menu-world[data-kind=gallery] .world-scene-copy{position:absolute;left:24px;right:24px;top:19px;width:auto;max-width:none;display:flex;align-items:center;justify-content:center;gap:12px 20px;flex-wrap:wrap;text-align:center;pointer-events:none}
+#menu-world .world-scene-copy h3,#menu-world[data-kind=gallery] .world-scene-copy h3{font-size:clamp(18px,2.2vw,28px);max-width:calc(100% - 90px);margin:0;line-height:1.15;letter-spacing:-.04em;overflow-wrap:anywhere}
+#menu-world .world-scene-number,#menu-world[data-kind=gallery] .world-scene-number{font-size:8px;margin:0;flex:0 0 auto}
+#menu-world .world-image-credit{flex-basis:100%;max-width:none;margin:0;font-size:9px;line-height:1.5;text-align:center}
+#menu-world.world-compact:not(.world-reduced) .world-scene-copy{display:none!important}
+#menu-world .world-caption{grid-row:3;position:relative;inset:auto;bottom:auto;left:auto;right:auto;min-width:0;display:flex;align-items:center;gap:12px;padding:7px 24px;background:#151617;border-top:1px solid #ffffff12;pointer-events:auto}
+#menu-world .world-caption:before{position:static;inset:auto;transform:none;order:2;margin-left:auto;font-size:7px;white-space:nowrap;pointer-events:none}
+#menu-world #world-page-label{order:1;min-width:0;max-width:100%;font-size:10px;line-height:1.6;overflow-wrap:anywhere}
+#menu-world #world-inspect{order:3;flex:0 0 auto;max-width:50%;font-size:10px;min-height:38px;white-space:normal}
+#menu-world .world-navigation{grid-row:4;min-width:0;max-width:100%;width:100%;overflow:hidden;gap:16px;padding:10px 24px;min-height:64px}
+#menu-world .world-route{flex:1 1 0;min-width:0;width:0;max-width:100%;overflow-x:auto;overflow-y:hidden;position:relative}
+#menu-world .world-dot{flex:0 0 auto}#menu-world .world-navigation>button{flex:0 0 auto;min-width:0;max-width:100px;white-space:normal}
+#menu-world .world-detail{min-width:0;max-width:100%;width:100%;grid-template-columns:minmax(0,1fr);overflow:hidden}
+#menu-world .world-detail-bar{min-width:0;max-width:100%;width:100%;flex-wrap:wrap;gap:10px}
+#menu-world .world-detail-bar>span{min-width:0;overflow-wrap:anywhere}
+#menu-world .world-detail-canvas{display:flex;align-items:center;justify-content:center;min-width:0;min-height:0;max-width:100%;width:100%;height:100%;padding:16px;overflow:auto;touch-action:pan-x pan-y pinch-zoom}
+#menu-world .world-detail-canvas img,#menu-world[data-kind=gallery] .world-detail-canvas img{display:block;width:100%;height:100%;max-width:100%;max-height:100%;object-fit:contain;object-position:center;margin:auto;box-shadow:none}
+/* Reduced motion keeps the same uncropped fitting, in natural document flow. */
+#menu-world.world-reduced .world-stage{height:auto;max-width:100%;overflow:visible}
+#menu-world.world-reduced .world-scene,#menu-world[data-kind=gallery].world-reduced .world-scene{position:relative;min-height:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:22px;padding:30px 12px;overflow:visible}
+#menu-world.world-reduced .world-poster,#menu-world[data-kind=gallery].world-reduced .world-poster{position:relative!important;left:auto!important;top:auto!important;margin:0!important;max-width:100%;max-height:none;order:2;flex-shrink:0}
+#menu-world.world-reduced .world-scene-copy,#menu-world[data-kind=gallery].world-reduced .world-scene-copy{position:relative;inset:auto;width:100%;max-width:100%;display:flex!important;pointer-events:auto;order:1}
+#menu-world.world-reduced .world-inline-read{flex-basis:100%;justify-content:center}
+@media(max-width:760px){
+ #menu-world .world-bar{padding:12px 14px;gap:8px 12px}#menu-world .world-bar h2{font-size:12px}#menu-world .world-actions{gap:5px}#menu-world .world-actions button,#menu-world .world-actions a{font-size:8px;padding:9px 10px;min-height:40px}
+ #menu-world .world-scene-copy,#menu-world[data-kind=gallery] .world-scene-copy{left:15px;right:15px;top:16px;gap:7px 14px}#menu-world .world-scene-copy h3,#menu-world[data-kind=gallery] .world-scene-copy h3{font-size:20px;max-width:calc(100% - 72px)}
+ #menu-world .world-caption{padding:6px 14px;gap:12px}#menu-world .world-caption:before{display:none}#menu-world #world-page-label{flex:1;font-size:8px}#menu-world #world-inspect{font-size:9px;padding:9px 11px;min-height:38px}
+ #menu-world .world-navigation{gap:10px;padding:7px 12px calc(7px + env(safe-area-inset-bottom));min-height:59px}#menu-world .world-navigation>button{font-size:9px;max-width:76px;min-width:0}#menu-world .world-route{justify-content:flex-start}
+ #menu-world .world-detail-canvas{padding:12px}
+}
+@media(prefers-reduced-motion:reduce){#menu-world .world-poster{transform:none!important}}
+
+/* CSS centering remains correct even between viewport-resize measurements. */
+#menu-world .world-poster,#menu-world[data-kind=gallery] .world-poster{left:50%;top:50%;translate:-50% -50%;max-width:calc(100% - 24px);max-height:100%}
+#menu-world.world-reduced .world-poster,#menu-world[data-kind=gallery].world-reduced .world-poster{translate:none!important}
+
+/* Persistent lower-right instruction has its own space, never overlays photographs or buttons. */
+#menu-world .world-caption{flex-wrap:wrap}
+#menu-world .world-caption:before{display:none}
+#menu-world .world-scroll-guidance{order:4;flex:0 0 auto;margin-left:auto;max-width:100%;pointer-events:none;user-select:none;color:#f6f3ef;background:#252729;border:1px solid #ffffff30;border-radius:3px;padding:8px 11px;font-size:12px;font-weight:600;line-height:1.5;letter-spacing:.02em;text-align:right;box-sizing:border-box}
+@media(max-width:760px){#menu-world .world-caption{gap:5px 12px}#menu-world .world-scroll-guidance{flex-basis:100%;border:0;border-top:1px solid #ffffff20;border-radius:0;background:transparent;padding:5px 0 2px;font-size:12px}}

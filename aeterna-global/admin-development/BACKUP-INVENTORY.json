@@ -1,0 +1,2886 @@
+{
+  "source": "aeterna-content-admin",
+  "destination": "aeterna-global/admin-development",
+  "sourceCommit": "75eade669d720493c4bf9e7cd9962d6a25c69ede",
+  "status": "development-not-published",
+  "files": [
+    {
+      "path": "aeterna-global/admin-development/.gitignore",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "796f2e42212771ce511e044cda4fdac18eb26df8",
+      "size": 880,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/.npmrc",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9f274d6425b9792ae0a70cb0b96a29fd98ec6ed6",
+      "size": 45,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/.openai/hosting.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c681d69bc785b8997f1c208b07bab2abd213ff40",
+      "size": 91,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4373d6e019093e06baf386ab451315369830f21a",
+      "size": 5277,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/app/admin/[[...path]]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45dee83b9de8ba52869b0d5d42ce05fd868b504f",
+      "size": 222,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/app/api/admin/[...path]/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1a7a408f57f7523cd40929d04bc6fa3bd7b62e25",
+      "size": 304,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/app/chatgpt-auth.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a0ae2ed9a9771b5fc36a06af554a05c18b2a13b3",
+      "size": 2550,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/app/index.html/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "85bdfed7b18b50135bc69d971242769adf2bdf9a",
+      "size": 215,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/app/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e53a0536961412aa81604235a5605fe8fa2bcc4e",
+      "size": 212,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/build/connector-preview-plugin.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f29e9953bdac6f25be5f1b58e5a02ef0457bafbe",
+      "size": 7211,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/build/connector-preview-worker.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4d5f1974728c4b295d05a1422d7e2bce75635e5",
+      "size": 594,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/build/sites-vite-plugin.LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4243cb4a9aaa50f954498e54c850773e9ba13eea",
+      "size": 1063,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/build/sites-vite-plugin.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ece1b96530b40a7ea4981e6341b52771a07813e",
+      "size": 7185,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/build/sites-worker.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5589039057a3f3f221b4a5418d6a4e595e63224",
+      "size": 1279,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/cloudflare-env.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "856e090c902917b4e1cebee0e08ea1d398fd01c3",
+      "size": 99,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/components.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c8f5bb16f79ed774f67415a8dc2b4a38243e3e90",
+      "size": 420,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/connector-error.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3c994dc58811e4b02250092fec54b0b788edcc2c",
+      "size": 1082,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/accordion.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e3a250ce6ee0797b0258454d774800650adcc8",
+      "size": 2048,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/alert-dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dad327341382f200b84d5f833eb1b7a74b0e7469",
+      "size": 5439,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/alert.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f99164ed4b320790482f514342dab5e72f284aca",
+      "size": 1614,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/aspect-ratio.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "57e38fa96f9c0cb767d7b8de0d6dbc171d1b921a",
+      "size": 274,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/attachment.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5bdd1ce7db5800eb55198cd0291a1e47dc67fb0d",
+      "size": 6002,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/avatar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ea658505703a577fe93341e5e1a0b478c27245f7",
+      "size": 2916,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/badge.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb2a057aae0e23a74368cc4daf9657210e9a740",
+      "size": 1776,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/breadcrumb.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "004bb63a4c92229e612b6126d79fb7b078aa7565",
+      "size": 2350,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/bubble.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "792146e61d80ef595d032d5d09a3d572d50f1374",
+      "size": 4699,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/button-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd550d7afca6562548afe3f595b352406f7f3951",
+      "size": 2202,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/button.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d38506cee5430d95a59ec6a2a0cef2b79217e7a",
+      "size": 2392,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/calendar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d31419b130a18c52320f5a21546a9236123b6bf",
+      "size": 7832,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acf57dc5a534792273b8fb86227e92e001f3dc53",
+      "size": 1987,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/carousel.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e05a77ea155fde6af5d9a4848b1d3953df6ea5a",
+      "size": 5556,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/chart.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9813c584e125847d88e9e7e7f9edff7e9ba45a97",
+      "size": 10614,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/checkbox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5a7e433f3795b82a00c5c06a1fc6decf116a84a",
+      "size": 1214,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/collapsible.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2f7a4e7fc64a8874373c1584646a63f28cd63c47",
+      "size": 795,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/combobox.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2415bd801031a16bbcee8343058825feecfaea69",
+      "size": 9158,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/command.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8fe3ccb406be52d28961b0c0220e87ecd19596ca",
+      "size": 4818,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/context-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5aaca76552cf0468b1def03c9e2c42f1f0b60734",
+      "size": 8268,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/dialog.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "84bdef4bb307087da1bfaf3cadf7be5dbda73f24",
+      "size": 4303,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/direction.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22e165774bd595fbf41d0c45efef1cf996897983",
+      "size": 506,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/drawer.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad08671442203fe345093f364696bdf43528e0b7",
+      "size": 4255,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/dropdown-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae1fcf62f1e3b648554789b8fe02943d92bf00fc",
+      "size": 8418,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/empty.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ce4b0095f6d19d2eae2e465060e9060b0c210856",
+      "size": 2396,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/field.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec849dae4d3dd06a973ba22e4b2248a25cf18148",
+      "size": 6159,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/form.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f371fea1bc35380d28678c6cf53df8f65deb2776",
+      "size": 3757,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/hover-card.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "91e869c0d3091cbeddf5cb0266e82ddf56f829a6",
+      "size": 1526,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/input-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a7652d936fffd9c5bca4b88e6b9715bf559e667d",
+      "size": 5065,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/input-otp.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6a556afacd71996bf0e385ff2b04869fb2ee4523",
+      "size": 2254,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/input.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f1124aea14eee062fc2f4c55dad5f0d9de0ccc1a",
+      "size": 962,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/item.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5dbb1a9c2e70456e45a39887a4b7cc56d484a45",
+      "size": 4486,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/kbd.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2459224fbc531f6306b73aaeb22e9022d9985332",
+      "size": 862,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/label.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ac80f701ebfe9dc02d632c08cafade732e46625",
+      "size": 606,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/marker.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cfa76c6c014ab342befcbf7571eb932917406522",
+      "size": 1864,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/menubar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4af16a428377f81cbb3f66adfe518308e0b690d8",
+      "size": 8389,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/message-scroller.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0b05011259c026a357380c3834bce0ead8565d22",
+      "size": 3992,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/message.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53437e8db2b0fad1da06a7499e54ddaf116295c2",
+      "size": 2232,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/native-select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3058398399ad6c029ad527052475b360b114715b",
+      "size": 1995,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/navigation-menu.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0a673f513c97fbeaae0872403b7582ab2ba7e3c3",
+      "size": 6658,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/pagination.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1dcfb0cc050c5f2bdd930522d627313d03d3690c",
+      "size": 2717,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/popover.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30058c4ec284ca9cad1ed1162d084ce3cd94e2b0",
+      "size": 2357,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/progress.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b3ae25089ad549b7f13125e482f99b43dd895bd2",
+      "size": 755,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/radio-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe514536ed771f7adef0a6b9e4d1aeadc2c95481",
+      "size": 1460,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/resizable.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a76832a10b4c5c2a137e25c16478567ba86daf0d",
+      "size": 1815,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/scroll-area.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c4eb1cdcd4a699b150a9ddc3e87bfb90b63d09",
+      "size": 1639,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/select.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c0dc7120b4f78008ae5efc6d1c8b7ec8205c35d5",
+      "size": 6353,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/separator.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd873e3631b571060f166897b7b62e033e87c18f",
+      "size": 694,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/sheet.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb53bb28b6850745c9519e8e7462e05f85a50c93",
+      "size": 4188,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/sidebar.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f5f6c5aefc88ffa2e999e284b299472215c05161",
+      "size": 21526,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/skeleton.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ec6be770b846170b8e7f8916e5f165e2d1730df",
+      "size": 276,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/slider.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "46ebc4b4df1e9baf1f3997a4b6c08ef80c84a9c9",
+      "size": 1991,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/sonner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9b20afe2e10fd9b94d1abc1ae732054b2fb9821c",
+      "size": 1034,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/spinner.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a70e713c5b4ecb2af186efe3fadea51805f26ba5",
+      "size": 331,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/switch.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8baa844fdb17d668b3ce07cfbd6a7ef52e2eb5eb",
+      "size": 1408,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/table.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7add5f1a22db954ac6cb3446f1bf8c8a9fc5c335",
+      "size": 2478,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/tabs.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b463afd170637df477e36184aa27d2ad1bd3c3e0",
+      "size": 3782,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/textarea.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e67d8fefe50c41dfa2deed9a5096d5be7691581a",
+      "size": 759,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/toggle-group.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9894607b212ff7182bf2024f4262da03df0a8973",
+      "size": 2308,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/toggle.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5250c98ff7f11f531af38c227230a76b7d25bf19",
+      "size": 1565,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/components/ui/tooltip.tsx",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ec65c1e4255f050d9555c6cdade90a5f8a6c0c29",
+      "size": 1830,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/db/index.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "19b379900d94124b674f07ffe2dbba8f70bd8d6d",
+      "size": 423,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9feb576ee436c7e8ee59c06a19835076564de437",
+      "size": 632,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/docs/CONTENT_ADMIN.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8cb878e646ad67f530e4e2289aa76dd318f2d4da",
+      "size": 3327,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c2b2f34376984744343453838ce66658ad9d9b6a",
+      "size": 148,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle/0000_rapid_spacker_dave.sql",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eaae597857f42f69261ce69f1012314252a22780",
+      "size": 453,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle/meta/0000_snapshot.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ccdddffa9e5d260c961e24000c7e26445cbf5da2",
+      "size": 2933,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/drizzle/meta/_journal.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe7e2050617ca60fad6dc49ded67ab4a245b81c",
+      "size": 208,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/eslint.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c56c0144ce558825265a2d79d06b1ce6150d24f",
+      "size": 846,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/examples/d1/app/api/notes/route.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "07f8318c3c290d68163e95aa3e170ad92a235f27",
+      "size": 1700,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/examples/d1/db/schema.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7bb0c157110799b9b53c767517e0d192b7201f2e",
+      "size": 370,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/hooks/use-mobile.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2b0fe1dfef3b17850bbac040665f514a8ffd0f15",
+      "size": 565,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/connector-context.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6cdeac72bf2df63e0a73159af25e0b4564ed1d43",
+      "size": 612,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/connector-contract.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f146418508b4c272a4495ec5498b6f0554b1f966",
+      "size": 5362,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/connector-errors.mts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c9d2fe845ec965062d3724fd28a0892b4fbf5a9b",
+      "size": 2717,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/connector-preview.d.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb3f498b67e3dfd93601626aa2675af07dfe711c",
+      "size": 433,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/connectors.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30b85c0dd699e7236ec1694e03466b03caa2a7dc",
+      "size": 416,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/lib/utils.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b500fb167fdaa78785feb0ff03b51f8a182a44ae",
+      "size": 177,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/next.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9ffa3083ad279ecf95fd8eae59cb253e9a539c4",
+      "size": 133,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/package-lock.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c8fdaec7500eb3dc16d88807e4269b0685d61e4",
+      "size": 504152,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/package.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "93a6a301ab9689ff87c2ce052d9a185f06f16154",
+      "size": 2166,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/postcss.config.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61e36849cf7cfa9f1f71b4a3964a4953e3e243d3",
+      "size": 94,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/album.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e182067685bdf4fe76889ff8e5f0ac57ae7f88e4",
+      "size": 10065,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/album.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f81d61edc697c7a13817843a101467abee999965",
+      "size": 2231,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/album.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "393354b5719969a34368de3f8c74b6ab88aad98f",
+      "size": 13707,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/analytics-consent.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b5e1015ec18334b4a290fc16c32777817a4c55eb",
+      "size": 1364,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/analytics-consent.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50ea57ab7e7bd8fe4930d3744b820a01160e9e4c",
+      "size": 6081,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/camera.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e43d2c88827fcadc080eec40d40f522c4c0b415d",
+      "size": 126437,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/city.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "30d28225351437834641e91fa7323ae3a1e55a1b",
+      "size": 239787,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/events-real.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7cfb5cb4ff4ec13a5fa3ead9e9ac9193b641a3b7",
+      "size": 122370,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/events.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "edfe9fc98d115aaed93ad997cbb09ce790e9f279",
+      "size": 83558,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/family.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11d60beac9a37da7eef3bed1e713e3b0898efd45",
+      "size": 87515,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "928dceb71e42dc61c6a9286d8c09fe177da63b0a",
+      "size": 236,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/food-real.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5881de0e1b818aae2cb8ce4f7e656036eb01a805",
+      "size": 151516,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/food.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5071aefc85a0391fc3d17618e11ed3ef123caa9f",
+      "size": 53391,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-01-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7fe40c3067a99bba76a10523a66799c6e3e013bc",
+      "size": 46188,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-01-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14ce1440451a15a91bee0def2b391de9732638e1",
+      "size": 103602,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-01-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2651fc85078a6add219ac5c99080934631e48411",
+      "size": 16626,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-02-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "624b5c5eb3847877f21475453fe4a9a2f4cd00c4",
+      "size": 56682,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-02-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa06cbe6687d0351729858a3d0088676f1d12ca0",
+      "size": 115312,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-02-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547c61080a5c266fcc35305d01afb63d9522b348",
+      "size": 18460,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-03-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bc4aad00c6dc74e208aa1b3a1ea935878e9697d1",
+      "size": 75388,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-03-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bdf082eefa38e9d78c2db5efebaea2634d57ac51",
+      "size": 163042,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-03-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fae089b8f158870666ee4235e773b9b5df1f37ab",
+      "size": 22112,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-04-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "886ef61c50664bed440ab65695d548247ce1fe2d",
+      "size": 155796,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-04-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89cae68ed7f3d4b6399928893e2cb8460600ce49",
+      "size": 376988,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-04-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "721a9d101f02dad23af89f780ccd935af3caf1ad",
+      "size": 34410,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-05-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2c7d750024007225d65abf6700577a7bd895e914",
+      "size": 89778,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-05-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "580ec7db97a49e3cd7740ccb16cf147a0b337210",
+      "size": 181746,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-05-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "958f2df7ed85fe909ec8ab60e31941f136702888",
+      "size": 31278,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-06-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "908b73e050a4a38907b62e1e031d5785aceab53b",
+      "size": 41656,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-06-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aaf4459a2e69446e4bcd6d2598e9fedc25d1a6b8",
+      "size": 90178,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-06-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ce5b7a1d673ab0e4f2ee108fbc7f7846f5f7845",
+      "size": 14616,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-07-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c143c2513572e1e611faedd87e257c2646d1f692",
+      "size": 201148,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-07-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b74b705240801807e7c40fd0bcd91a0050ddf644",
+      "size": 392684,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-07-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "73c932d038dec7a737d50899806710edb79a7ec3",
+      "size": 65470,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-08-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "108ce2119ee9650276d0a33cf118f8ba10f4a130",
+      "size": 165828,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-08-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "664e3378c7e70dbbc4f2aec8ef273d11e08c41aa",
+      "size": 319874,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-08-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e4d23376c1e896366b4e93d360bab73a96a07c7a",
+      "size": 57818,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-09-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6e1269a715764cbc87aefbb029cd088b33b99dd1",
+      "size": 107934,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-09-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a9eabd882bed5a38decf6525cadc921a8ef290a3",
+      "size": 212912,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-09-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6bf1892e0d09d8c54a6f2b7541b11c78939c66cc",
+      "size": 29716,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-10-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "547aed687d6a4f8d14ca98d57b083d31764d0586",
+      "size": 282996,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-10-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dc2fbf007c42ad44f988a51e41b45e43dbfeedc7",
+      "size": 637416,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-10-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ff623ebeac1ee8eeba330a77feb46a574c1627ca",
+      "size": 67048,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-11-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d7a67c78c45ffb72a03d3fab2a91c6eae09a6953",
+      "size": 55560,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-11-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2d31b97f6c09da3d8118e89fd4a2c804b98e4442",
+      "size": 121742,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-11-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fa6361d654ff46d7a0ef009afb8210f04df03872",
+      "size": 16258,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-12-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e8d508d8731532aa6588340260c38ce2511f7e2",
+      "size": 124418,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-12-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8839049f5522802456d345961f017ec93a5a10a4",
+      "size": 254050,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-12-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "082769815876c6ebb0bd97d6b2588c5f8fbe2248",
+      "size": 34304,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-13-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb70f0f8a3be66c126dde2385bba9e479bfe35dc",
+      "size": 78574,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-13-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0e41220ecab167dcb2edbd76f25ed87ed900507c",
+      "size": 165688,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-13-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61865db86424611d5dc9c0d39c8b0418f5a89731",
+      "size": 21364,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-14-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "79905de0c069e832d9dc0ff8a70e4d6a4ccc8a18",
+      "size": 177118,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-14-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1b945ef6a5b224ae01974ba4bcceefe010fd5caa",
+      "size": 350478,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-14-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f36740039f2d2e8e01d2ac00b599fec262092dd",
+      "size": 51026,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-15-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0d2c06491863d8e658292e91985124c7c101cb53",
+      "size": 76506,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-15-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "173c4d112fa67bbeba86356785d79bb3766c216b",
+      "size": 181166,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-15-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fe058c1595e4aad5b82ffb4125a355273f474ce7",
+      "size": 24890,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-16-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f04601512e1a6db00b89ec3de9a1b975192db27d",
+      "size": 71114,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-16-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92ebdfe223d0f8342f66d1828a12c1b4f7927600",
+      "size": 158878,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-16-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9e9c03dda1aa0d2573ddd5d3cb328065b2832edc",
+      "size": 18510,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-17-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1cef1f7d9bccd6f97fe4137ca785a651c2c9c927",
+      "size": 223794,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-17-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "34b79f19c2656e90e5cefd09e6bd128f2aa7803c",
+      "size": 456760,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-17-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4ba7c19181213ed8421f8815ff638aa33a5a8ed8",
+      "size": 68956,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-18-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c22b47fc847b946a1822a01480f09d8f4d93834c",
+      "size": 63610,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-18-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e174e1ef83b6bb50d6f8de26bee10db3f62794d0",
+      "size": 122284,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-18-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1ad3b43c3c242d170a8e70eb13889464e3335f4a",
+      "size": 21332,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-19-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "68a7e35e4051ebb8c9f4fc73614f9817e906b541",
+      "size": 107154,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-19-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeec5eb64f28f602a5a2ae34f945678de773e588",
+      "size": 217438,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-19-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "61129dd48bfaff1bcda184678b7fbf0f2bc81f4e",
+      "size": 36006,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-20-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a1d1cf3abedd3fa81a38b0d08b171f5b01f691c6",
+      "size": 87612,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-20-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2e85b7fb326458c7ad565c6947bb23b2c05ac911",
+      "size": 174120,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-20-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c2dc4a7ade6f64903d5bae5f3da62c6c6684edb",
+      "size": 27536,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-21-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3ebcfbabf72f8a464668b9aefa8c8883f524b85a",
+      "size": 78464,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-21-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "67b6893f14cec95bc5eb1709dbaae32ff75cf1fe",
+      "size": 185140,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-21-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c895109fd9908701dc6be731317126fa26012cf7",
+      "size": 27218,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-22-1280.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "53c96670fbb3e1d0138fff1000c3feaf10cceb80",
+      "size": 73720,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-22-1920.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "307486f5d8deb2b1d289c805913a0832a59ebeaa",
+      "size": 154682,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/maternity/gold-coast-maternity-22-640.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "069224659d25f7d85fd48621da0d10afbe9569db",
+      "size": 20578,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/assets/whatsapp-official.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb2c2be82ed77040e5e65abe3d35c5157673eaa5",
+      "size": 1181,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/booking-preview/booking.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8ed8f1320d06b907abccdd2438361b9e96fb50b7",
+      "size": 8815,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/booking-preview/booking.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c24ab797a1d1335be33209cc0869cdbcedc55870",
+      "size": 7484,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/booking-preview/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bd76f2268d1a553ea62e68e2c930260bc13ff63f",
+      "size": 13543,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3a28fd743239ec7d2d25ded4375e3b3e23d967ef",
+      "size": 35588,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/preview-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "89baf35aafc1ddbfdd8680534757ed18148cbc3f",
+      "size": 577697,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-01.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8861428d6a221f59a097d7e23a725e6c08214b1b",
+      "size": 261179,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-02.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9fc0a6313aea036ae6541f5a3be7e15656b0e2f7",
+      "size": 437410,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-03.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7ac60e9658caa836040574fbadaa64f325098c57",
+      "size": 257278,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-04.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f5662abcb789a3902876ae7abdb0d46abcfc75f",
+      "size": 242240,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-05.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d48367cc0ee779f55a9d71ae691a2bcaf754240e",
+      "size": 316341,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-06.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d24ebf4c3e9959dc741d2b92349480986ff5ad4c",
+      "size": 308247,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-07.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6807216eb62fb522bd5b1df92eb603f0871f2937",
+      "size": 281131,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-08.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4fd6663dacf992e8d7e4a34955f16737c4e17cf3",
+      "size": 283673,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-09.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "763d9d88cdc06af1d3a1c8cc922ea871477aba68",
+      "size": 258921,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cb18473ef47dd6ba47b663907f3295bd72b91f44",
+      "size": 269271,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-11.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5cb56d3906ec51a93396fca46cd13c645d5ddbd7",
+      "size": 233719,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-12.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80b2cd6c28283114e80622ee79138de4e77f04cf",
+      "size": 370911,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-13.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "92b0a8b82b7e56fd64db45a655ac13d53e5e5d61",
+      "size": 289533,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-14.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "de9847f0dc7f91199444774572cb383fa674bc40",
+      "size": 266701,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0c4c65993fe173e60d24398a07a4f0041de9e1ac",
+      "size": 383992,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-16.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9370b579336e158bdd7f43c898a7ea663719f583",
+      "size": 243200,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-17.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bf10a17578455c7b4774fd241109df16da572ba4",
+      "size": 290177,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-18.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3db6fe2fcb9c0e4908e9f3f6c0252f8f91cd28",
+      "size": 279347,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-19.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c4265989a24d0360ff78ed1bc80af61c20b6deb",
+      "size": 333568,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "abefb00f1707cac17902a59d7e26a710fd1a11b3",
+      "size": 291495,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-21.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ef7b03d17f548f92c6e64d34a2ff639831724794",
+      "size": 307887,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-22.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e5dab33e16a1483c20b6ddb0054b193c8968e87",
+      "size": 290902,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-23.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "588111f3b256c5c31d40e9e11134a05ffc4e7328",
+      "size": 278889,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-24.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b1f5401f0a320220291473229d162331a0ea1ee",
+      "size": 265227,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eef8ccb02279af970951bf66ff164467c7fe7cc",
+      "size": 261427,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-26.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4f01fb0d0f4f7543bdc38d1726988c03c76dccfb",
+      "size": 229087,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-27.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8605bac871f1522e845b33cefb65fa5c4f60878c",
+      "size": 383889,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-28.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "49934aaa2c356ded4302eb1a0568ea30f5399318",
+      "size": 447589,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-29.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a11780d5ff6c12db860b8428be507babb8d6fd6b",
+      "size": 281392,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/square/aeterna-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5031794958a927142431a66b018179f3b7a79f94",
+      "size": 291103,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-01.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "350c3c8f8f0616043905010c919a900a52d28f43",
+      "size": 289123,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-02.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "306f5f5c8a3fb19bcd96496de22e86dbb5921f5a",
+      "size": 468101,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-03.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "223a2c17ef2a2fd02544140a956d3da18ca6f000",
+      "size": 287832,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-04.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f57b3f6ed9ff3a550d2eaedca99531692774cee",
+      "size": 272376,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-05.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "eb994c4b5c214ed13d127ae44b0402f27ad29666",
+      "size": 346282,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-06.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e6ecd0ae26b44343525d10f66dd026c5b51d465b",
+      "size": 340999,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-07.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8e261e55804b8ca814b9186f56252337da40137d",
+      "size": 311729,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-08.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "0f3c6fc5219834faad1f2c5b0eb6457fc58c2cf0",
+      "size": 313177,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-09.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b71df4346ef0f3f103c1671bdecb0846e3063c1c",
+      "size": 285817,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-10.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "71dd387d694ea4c63ff08e21bcc71cdcd917b63f",
+      "size": 298874,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-11.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "674b878c5ec839c841d4bbcf798d632c9ffaf744",
+      "size": 263485,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-12.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cd47f69eba9e1446ce42ab336d7fbd48ef731293",
+      "size": 399603,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-13.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "027fa5aaa022fd4acf9f52d6d4b2c7cedd6b5014",
+      "size": 316842,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-14.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1c106e336eb243ff2123726374f6f68d4d3307f8",
+      "size": 293921,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-15.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "006e1cc845f7f900e1d4c80b4fd12b2a73b7fa4d",
+      "size": 403342,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-16.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d91b1bf5dfb0a61c68b23a8bccfd4e27679de615",
+      "size": 272115,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-17.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e54ad97dae70bcbe1a5c808b17a01e5cbebfbcb7",
+      "size": 319953,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-18.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9a6ecbd20f9936f06132fe61af82c3eea4186cd0",
+      "size": 308884,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-19.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3945bcbe8df9c3e0b0004bc7151f4a04dd7479dd",
+      "size": 363216,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-20.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "83174d1981d597b8f11e427ee2e37fbd1be51a2d",
+      "size": 320688,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-21.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8879d9b4f482df962258cdb2a7164d71e7cfa4be",
+      "size": 337953,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-22.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bfcac8bb502a4b0ef027e80d75a43652b7cbf81d",
+      "size": 321341,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-23.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01e60b6c579252c7731cdd354b9276e679163764",
+      "size": 309730,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-24.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5256c272341faf1956fb6d6d42cef3bf7f604d61",
+      "size": 294681,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-25.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c98ff57b3316c29ba44f5e7a31ae5603f0c267fb",
+      "size": 287798,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-26.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9eaab5222a6b7c79d8e50ab979691316f5e9583d",
+      "size": 260808,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-27.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "144cd84f891d25079fe900c0719410c9d9967495",
+      "size": 412886,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-28.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "688aab347219cb8d861a3d0ea04a84389118eb53",
+      "size": 476719,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-29.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ecbac84bbb7389ccdbab16d61eeb44d5b26a82a3",
+      "size": 302839,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/vertical/aeterna-30.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b4b32157ce88c3753ac22c39aa2bc2e2889a3fed",
+      "size": 318825,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-01.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "422f792e27917a9778ad50956b150221a3a3834b",
+      "size": 775722,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-02.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "931a3dd1d9c59d5c2996f01f12b64ea4b80d5026",
+      "size": 989710,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-03.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bebd2dbf173ba66e55488d7b175224c97513d1a5",
+      "size": 854083,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-04.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1188fff7f707bb57b5f3e26774978ee07f4b138e",
+      "size": 727814,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-05.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "bb22e6c4cd5b293aec9195b0a058fae959a6a08f",
+      "size": 854533,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-06.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "9621046faabfbeb98e1e7289f2f049525492400a",
+      "size": 924277,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-07.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "80610ce28c941c7cb06948351a49ba7591bbf6f2",
+      "size": 753783,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-08.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23de2355dcd87fdf74b0efd6ce8b630143fb363e",
+      "size": 807583,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-09.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7f0f8c55466d989b3455029bc93adedafebfbc3d",
+      "size": 774324,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-10.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ddcc23f15a021f54ddb4b504bb01362cce1d1053",
+      "size": 813526,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-11.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6643ed51b0dfeab7baea66ee8a9cf132098b2aa3",
+      "size": 721571,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-12.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a12cd63eef5a8417d1e5b3c224a52b88bbf1ed6e",
+      "size": 942603,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-13.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aeb5a7b8397d39b7a0490e16f1485150dcc45e68",
+      "size": 853693,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-14.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d04eb587ea86dfcd4f4bb49cb8871ece1fc9fba7",
+      "size": 779252,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-15.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ad77d0598d6679b9e83697b77ff953b9d4c20c41",
+      "size": 925259,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-16.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7776a7e06085b571dcb1488f6bfd2edcde2b29d5",
+      "size": 730171,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-17.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "36bda97f29879fb6f3e57e8b0487d7e7619f2ce6",
+      "size": 813644,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-18.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75c20d221738632c3e9a6e80034be64ec5c23c95",
+      "size": 752035,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-19.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6212020ecbfc6a72b47d6141a68def05ebd3a7f4",
+      "size": 939698,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-20.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "772b3ce9ae8ae43eca46d1d5dff7ebc073defd5f",
+      "size": 856975,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-21.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f4e9da9cf33404d562b7c46a4e2324e507983c07",
+      "size": 848347,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-22.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d60efba48e356727c88cd3a2f70b1ca4a3ece2fd",
+      "size": 812635,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-23.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f451ccf45b626d4bae39c11358b96c2318b28605",
+      "size": 752978,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-24.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4a01eda53bff04caa3edc2207375c1c79f1f27b4",
+      "size": 808797,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-25.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "744d60e517fee2c31a71adffbec006f4beeff357",
+      "size": 775604,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-26.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6af122c7d191596b41240c904d027900f50abc2c",
+      "size": 720193,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-27.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cf8b9b92b6a584bd9608cf3f1ea38c05ef0e3448",
+      "size": 950750,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-28.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "45c66d5dc1e20e0e25e56a060f0567d3a868e7a3",
+      "size": 994713,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-29.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f52fbb5b0d9342db39b768005c7fa7b7e52fb471",
+      "size": 797289,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/campaigns/2026-10-06/youtube/aeterna-30.mp4",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2fe0e944d0fd6257aead768af4c220f7517cdc6d",
+      "size": 760165,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/cinematic-preview.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a512cfe7611d0d8f23f90cab19feb07ca7c91a09",
+      "size": 2400,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/cinematic-preview.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d5833b8f298303e1f3a4c1822037f6b7d181da74",
+      "size": 2790,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/content-admin.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3987f4177bd97965524d50a2204f358b9bd84331",
+      "size": 1362,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/email-assets/breakfast-cover.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e809d2fcd01cac0df96545595f825c4fa0fb7b7c",
+      "size": 105509,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/email-assets/food-inspiration.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "627dc253e207a1f03456890809d2597b9827b8e0",
+      "size": 48266,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/email-assets/menu-portfolio.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e9f7f57ddd5843974177419710128a0c18e814d3",
+      "size": 69227,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/email-assets/pasta-cover.jpg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "02e7c0295cb4d09fc0f52dbc47a37fb1e8dc565d",
+      "size": 86202,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/full-motion.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d81847157a28c34858b39761e6918591b69270a4",
+      "size": 3339,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/full-theme.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "967fa713d6d52c5565e5fd294b6c59dbda693679",
+      "size": 30984,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/gallery-rail.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "dfcb1f26ab75f3d334e0cb786b1864f0ddd0fd23",
+      "size": 1676,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/gallery-world.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "11ecee798564b72ea47737ceab8e85a8c4c0a83c",
+      "size": 7913,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/maternity-gold-coast/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f11bb6c1221b31d5e0b6ba5cf9bc3cf4048ed746",
+      "size": 32103,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/THIRD-PARTY-NOTICES.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f501b968ec4298d6dc1cce08ad806bb2b0735d93",
+      "size": 1571,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/app.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b6065d8982cc180cd8cfd044c8b49842e8463f10",
+      "size": 3582,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-01-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c6eea673bb9bf61cab27e34c3cc2a1fb4d3ff583",
+      "size": 170672,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-01.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5faa2f81a1b739fe51b35f01711edf934a97494c",
+      "size": 970356,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-02-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4d6f728287114fb3773d64f7b3549b74d620057e",
+      "size": 69902,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-02.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2ee45a573f9aa3743a8085e4114921e6db647ec1",
+      "size": 412514,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-03-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "3f08e5b5feacc4ec14b972b2d76325ec0e465a64",
+      "size": 84282,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-03.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23676650aac10ca464b670f3567b8c3ab440ce85",
+      "size": 484116,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-04-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "23beb33c13f7c4fcf3aa1b1774682cace8751c83",
+      "size": 102566,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-04.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b301509ce479033906accccd567d0c2d5b86d7b2",
+      "size": 574994,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-05-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5b366698afaa6c92459d3eff5931a6f7fe2b49fe",
+      "size": 92520,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-05.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "da83cc10a3cf9cedeb00691a9b7eb69a63e7df34",
+      "size": 536848,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-06-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "daf5f859c84b85a81b1896eee990f5ee8d6a8e0f",
+      "size": 88452,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-06.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5d103d917c120e0da073ed5f9e1520d400c88d90",
+      "size": 516256,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-07-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14761271042ab36675ef72aeb2f2c2ace764895c",
+      "size": 78298,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-07.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "a42a7244b5f33a97fa2b779940066e9f3656f427",
+      "size": 486824,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-08-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "05a687ce302a4d6d60caa015b7888da93ffc29a5",
+      "size": 59512,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/breakfast/breakfast-08.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "44e0fa6ab6876ee17b90de2f5dbb7a6c1ead4fdc",
+      "size": 381218,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/downloads/breakfast-menu-aud-demo.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4eb3f674f65eb5daa88eb07ac1649f9a25e9ae95",
+      "size": 5914519,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/downloads/pasta-menu-aud-demo.pdf",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "292c1b151f10e7d0cea8eb49963c8e325645e698",
+      "size": 3335221,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/favicon.svg",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d20d4bc3941f1d4ea166bc2ad7f4e4c5d1dfe605",
+      "size": 192,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-01-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4265266f79de48e4091bbe90c2e2e4da0a9e92a4",
+      "size": 122950,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-01.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "171c8bf8cf78cee3d5614bf465d7eb880232604f",
+      "size": 683410,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-02-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "acdbe738b02156bd10a84090e26a21367336af2b",
+      "size": 103036,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-02.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f2b9f7e7ba4d3f408bd3e6668ff7a746d5c05a80",
+      "size": 648094,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-03-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2de8d8b1d10684dfbb97df9b32b0483674f15acf",
+      "size": 90374,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-03.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c42671df9a13fc7fe4876cdbc42c29ebfb5570ed",
+      "size": 571304,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-04-thumb.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "facd57b16e13968ddd1493a45678a872c9fda848",
+      "size": 112560,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/assets/pasta/pasta-04.webp",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8008451218b25051a7b17b6ce5864ac0711abe3d",
+      "size": 704000,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "96f45884e12aa548e30bd771527557520e25e00c",
+      "size": 10432,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/menu-links.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "2900b7452ac1d42783f45da1d978205a7a2a9449",
+      "size": 3229,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/menu-world.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d8811dd9593d567f9de694f95b643e66d7ec55f8",
+      "size": 11015,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/menu-world.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "17c3deac50b7631fd539704aea074fadb320cd26",
+      "size": 14678,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/menus.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "14669b61fa52bf12d53ac588183428c51ea6ca66",
+      "size": 2040,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/site-context.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f9ce3126d6da42a6780ddad2d755eaf9a651aafa",
+      "size": 548,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/menus/styles.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c422cbbb9ff5c4200811918f6f29711b0157571a",
+      "size": 26170,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/portfolio-galleries.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "d629f2ac352a067bdb532740f7b82a4f3d539f67",
+      "size": 15314,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/portfolio-init.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "673dad6d1c74d78884eb6018a496f7f9388d3973",
+      "size": 881,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/portfolio-menus.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "65216f00d0034d060d8b20c2cc21f4bcb8b436a3",
+      "size": 2222,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/quote-preview/index.html",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "01ad13a2482bd7605287b02a09fccb31a2f0a173",
+      "size": 10890,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/public/quote-preview/quote.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "804b8c11ede2cdd314cc225851ca6942a3e7e5db",
+      "size": 2296,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/robots.txt",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1f53798bb4fe33c86020be7f10c44f29486fd190",
+      "size": 26,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/social-contact.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "8557ec3808c4916b1637d565cf3add751a1f6ff4",
+      "size": 4579,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/social-contact.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "50b34ab35720e49f0d68a1674096e3a5eeb03fd4",
+      "size": 742,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/subpages-theme.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "4c91ba1af362fd6575af4e5378b3dd31c1aad0bb",
+      "size": 17563,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/vendor/photoswipe/LICENSE",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "5e0ff4d6c825895d919e888b6985caef745bbb74",
+      "size": 1109,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/vendor/photoswipe/photoswipe-lightbox.esm.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cac7e4e0f8b8bed99b14273c544652f5c208808e",
+      "size": 14338,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/vendor/photoswipe/photoswipe.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "686dfc36a68aa72bb5bd94da49b391b76a29ba9b",
+      "size": 7003,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/vendor/photoswipe/photoswipe.esm.min.js",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "cc924b79afa73872c466467d64da07bfe0d0953d",
+      "size": 54270,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/public/viewer-framing.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aca7fe8c2106a1ac4c6b394bd4005f6d38669e49",
+      "size": 7681,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/build-verified.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6c69cf3ad6855c25c312b67f02fd1afffb97b63d",
+      "size": 661,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/connector-preview/connector-preview-session.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa2d2d92f663e547e4af956e3f0475a6198b1bf2",
+      "size": 6855,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/connector-preview/host-binding.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "88e6efb56e6ceb044dd3c9127d26960b5bb9c5e9",
+      "size": 7793,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/connector-preview/protocol.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6476ba302de4ee408ba549fc0d790861185dd919",
+      "size": 1781,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/execution-profile.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "f27aec211320d9a5fd0dbbb07f5c508222b2b8d4",
+      "size": 624,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/install-ci.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "22bd7d555c8f2a996d5bfe5be0ba9a5a43a1bf7f",
+      "size": 1685,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/install-ci.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7b4a810e1663afb4572d167eb78e09b3db07be10",
+      "size": 6783,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/install-pnpm.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "573ecdb89461a5922386ec9ccf5a83504fa9caae",
+      "size": 9015,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/npm-install.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "64ade63f6092ed209b1a76718145d80de38b34f2",
+      "size": 7025,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/pnpm-install.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "ae92c9fe150ee780e46f590947ceacd03b7226ad",
+      "size": 10633,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/run-framework.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "166b0c2487819135ddfb30c9267e790ebb8c498f",
+      "size": 993,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/sites-env.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1eeedb5e13e4b9af70d89446d981dfd4cd92a3fd",
+      "size": 906,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/scripts/sites-env.sh",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "728416424d5d2f4c9a746d53621668225645356c",
+      "size": 1530,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/server/content-config.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "e153679bda8f25f8a4bb357c580cd883f0afdcb0",
+      "size": 12714,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/server/content-handler.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "1d89408ae39744114053d4015297ccfd951c4a79",
+      "size": 6136,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/server/content-service.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "72ae831e3037c469896da8c2112d9f5de998c5ad",
+      "size": 5788,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/server/home-template.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "c110c23f2e27065db67182ab48b59703740f6b39",
+      "size": 43731,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/server/original-public-sha256.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "aa5a8dc3394ba5480ab01d406c6314317012d42d",
+      "size": 26922,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/tests/content-admin.test.mjs",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "6eb92d39d9c510afe9c536399fe1bef0730247a2",
+      "size": 7800,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/tsconfig.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "be170f57ec372cc118f2d343092a53b85fc189a4",
+      "size": 800,
+      "existing": false
+    },
+    {
+      "path": "aeterna-global/admin-development/vendor/shadcn-tailwind-4.13.0.LICENSE.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "fad4d887a681dd49233e5ed01ee2c7a1513089a0",
+      "size": 1063,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/vendor/shadcn-tailwind-4.13.0.css",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "7807c58eb94de8b764b9b6b7b5d8cde6d012b17f",
+      "size": 16041,
+      "existing": true
+    },
+    {
+      "path": "aeterna-global/admin-development/vite.config.ts",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "62c760210840bf230b9738c8d20a51f48b7dd5f0",
+      "size": 3115,
+      "existing": false
+    }
+  ],
+  "excluded": [],
+  "secretAlertsExcluded": [],
+  "databaseBackup": false,
+  "r2Backup": false,
+  "backupDate": "2026-10-15",
+  "note": "Source or release snapshot only. Deployment status is descriptive; this backup operation does not publish sites. No database or R2 storage backup. Previous historical files preserved."
+}
