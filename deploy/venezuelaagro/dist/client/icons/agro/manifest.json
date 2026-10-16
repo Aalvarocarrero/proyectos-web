@@ -1,0 +1,161 @@
+{
+  "version": 1,
+  "brand": "Venezuela Agro",
+  "provenance": "Original project-authored SVG geometry; no Apple emoji or SF Symbols assets",
+  "viewBox": "0 0 24 24",
+  "strokeWidth": 1.8,
+  "icons": [
+    {
+      "id": "pig",
+      "src": "/icons/agro/pig.svg"
+    },
+    {
+      "id": "cow",
+      "src": "/icons/agro/cow.svg"
+    },
+    {
+      "id": "chicken",
+      "src": "/icons/agro/chicken.svg"
+    },
+    {
+      "id": "horse",
+      "src": "/icons/agro/horse.svg"
+    },
+    {
+      "id": "goat",
+      "src": "/icons/agro/goat.svg"
+    },
+    {
+      "id": "fish",
+      "src": "/icons/agro/fish.svg"
+    },
+    {
+      "id": "worm",
+      "src": "/icons/agro/worm.svg"
+    },
+    {
+      "id": "rabbit",
+      "src": "/icons/agro/rabbit.svg"
+    },
+    {
+      "id": "bee",
+      "src": "/icons/agro/bee.svg"
+    },
+    {
+      "id": "fence",
+      "src": "/icons/agro/fence.svg"
+    },
+    {
+      "id": "crop",
+      "src": "/icons/agro/crop.svg"
+    },
+    {
+      "id": "water",
+      "src": "/icons/agro/water.svg"
+    },
+    {
+      "id": "house",
+      "src": "/icons/agro/house.svg"
+    },
+    {
+      "id": "barn",
+      "src": "/icons/agro/barn.svg"
+    },
+    {
+      "id": "package",
+      "src": "/icons/agro/package.svg"
+    },
+    {
+      "id": "tree",
+      "src": "/icons/agro/tree.svg"
+    },
+    {
+      "id": "road",
+      "src": "/icons/agro/road.svg"
+    },
+    {
+      "id": "wheat",
+      "src": "/icons/agro/wheat.svg"
+    },
+    {
+      "id": "health",
+      "src": "/icons/agro/health.svg"
+    },
+    {
+      "id": "fertilizer",
+      "src": "/icons/agro/fertilizer.svg"
+    },
+    {
+      "id": "tool",
+      "src": "/icons/agro/tool.svg"
+    },
+    {
+      "id": "fuel",
+      "src": "/icons/agro/fuel.svg"
+    },
+    {
+      "id": "scale",
+      "src": "/icons/agro/scale.svg"
+    },
+    {
+      "id": "calendar",
+      "src": "/icons/agro/calendar.svg"
+    },
+    {
+      "id": "money",
+      "src": "/icons/agro/money.svg"
+    },
+    {
+      "id": "plan",
+      "src": "/icons/agro/plan.svg"
+    },
+    {
+      "id": "location",
+      "src": "/icons/agro/location.svg"
+    },
+    {
+      "id": "animal",
+      "src": "/icons/agro/animal.svg"
+    },
+    {
+      "id": "dna",
+      "src": "/icons/agro/dna.svg"
+    },
+    {
+      "id": "device",
+      "src": "/icons/agro/device.svg"
+    },
+    {
+      "id": "cloud",
+      "src": "/icons/agro/cloud.svg"
+    },
+    {
+      "id": "settings",
+      "src": "/icons/agro/settings.svg"
+    },
+    {
+      "id": "meat",
+      "src": "/icons/agro/meat.svg"
+    },
+    {
+      "id": "vegetable",
+      "src": "/icons/agro/vegetable.svg"
+    },
+    {
+      "id": "fruit",
+      "src": "/icons/agro/fruit.svg"
+    },
+    {
+      "id": "tractor",
+      "src": "/icons/agro/tractor.svg"
+    },
+    {
+      "id": "drone",
+      "src": "/icons/agro/drone.svg"
+    },
+    {
+      "id": "services",
+      "src": "/icons/agro/services.svg"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+✔ clear floating glass has a neutral six-percent surface, quiet hover and bounded static blur (2.26239ms)
+✔ local text and icon backing retain AA contrast even over pure black (0.573677ms)
+✔ accessibility and unsupported-blur fallbacks stay opaque even during hover or press (0.380735ms)
+✔ approved desktop closed controls remain byte-for-byte unchanged (31.521125ms)
+✔ mobile targets and social clearance fit 320, 390 and 430px including safe-area edges (0.695851ms)
+✔ opened surfaces share readable material while form content and focus are retained (9.238985ms)
+✔ two mobile controls consolidate existing actions without substituting seller contact (2.394269ms)
+✔ popover delegates Escape/outside dismissal to Radix and explicitly restores focus (0.480907ms)
+✔ hero preserves complete CMS wording and only mobile receives typography overrides (12.276016ms)
+✔ compact labeled targets fit safe areas at 320/390/430 and avoid title/CTA intersections (0.515269ms)
+✔ closing installation returns keyboard focus to the visible mobile More control (19.136906ms)
+✔ desktop and mobile use the same two-control dock, menu and hero collision checks (16.552649ms)
+✔ branded action hierarchy uses readable labels, solid contrast and compact 48px targets (0.378672ms)
+✔ future production builds and promotion packaging preserve the approved verified owner pair without credentials (9.616036ms)
+✔ prefers lower-right and respects safe-area bottom (1.616314ms)
+✔ actual primary CTA collision lifts only the social control (1.077248ms)
+✔ non-colliding content does not unnecessarily move the lower-right button (0.217498ms)
+✔ overlapping CTA blockers are merged and the lower useful gap is chosen (0.262617ms)
+✔ open panel avoids store request and other compact orbs without moving them (0.253853ms)
+✔ short landscape windows cap the panel for internal scrolling (0.135736ms)
+✔ pinch zoom or a keyboard uses visual viewport offsets and never the old layout height (0.140031ms)
+✔ very narrow views use a bounded panel above the button (0.142425ms)
+✔ when every safe interval is covered the social control yields instead of covering a CTA (0.239652ms)
+✔ geometry is deterministic and does not mutate obstacle or viewport inputs (0.300244ms)
+✔ component preserves official links, Radix dismissal/focus, and observes viewport geometry (7.073743ms)
+✔ glass styling includes readable opaque fallback, proper transform origin, touch targets and reduced motion (0.5951ms)
+✔ a safe previous social location stays stable when lower content changes (0.366144ms)
+✔ scroll bursts hold placement and schedule one settled measurement; unmount cancels pending work (0.453486ms)
+ℹ tests 28
+ℹ suites 0
+ℹ pass 28
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 531.912913

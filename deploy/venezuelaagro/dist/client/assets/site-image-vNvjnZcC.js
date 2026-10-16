@@ -1,0 +1,1 @@
+import{r as e}from"./framework-CXnKph_e.js";import{t}from"./image-CwgptN7L.js";var n=e();function r({alt:e,...r}){return(0,n.jsx)(t,{...r,alt:e,unoptimized:!0})}export{r as t};

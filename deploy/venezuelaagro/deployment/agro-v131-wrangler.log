@@ -1,0 +1,4211 @@
+
+--- 2026-10-15T21:01:21.238Z debug
+🪵  Writing logs to "/tmp/agro-v131-wrangler.log"
+---
+
+--- 2026-10-15T21:01:21.237Z warn
+▲ [WARNING] Proxy environment variables detected. We'll use your proxy for fetch requests.
+
+
+---
+
+--- 2026-10-15T21:01:21.270Z debug
+.env file not found at "/workspace/scratch/1cce691d0fde/agro-approved-v131-release/.env". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-15T21:01:21.270Z debug
+.env file not found at "/workspace/scratch/1cce691d0fde/agro-approved-v131-release/.env.local". Continuing... For more details, refer to https://developers.cloudflare.com/workers/wrangler/system-environment-variables/
+---
+
+--- 2026-10-15T21:01:21.371Z log
+
+ ⛅️ wrangler 4.92.0
+───────────────────
+---
+
+--- 2026-10-15T21:01:21.380Z debug
+Error sending metrics event Error: ENOENT: no such file or directory, mkdir '/home/agent/.config/.wrangler'
+    at Object.mkdirSync (node:fs:1411:26)
+    at writeMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55951:8)
+    at getDeviceId (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55986:5)
+    at getMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55919:20)
+    at dispatch (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56105:27)
+    at Object.sendCommandEvent (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56092:9)
+    at /workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179087:20
+    at AsyncLocalStorage.run (node:internal/async_local_storage/async_context_frame:63:14)
+    at run (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:63924:61)
+    at Object.handler (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179046:13) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: '/home/agent/.config/.wrangler'
+}
+---
+
+--- 2026-10-15T21:01:21.611Z info
+Attaching additional modules:
+---
+
+--- 2026-10-15T21:01:21.639Z log
+┌────────────────────────────────────────────────────┬──────┬─────────────┐
+│ Name                                               │ Type │ Size        │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ __vite_rsc_assets_manifest.js                      │ esm  │ 49.90 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/__vite_rsc_assets_manifest.js                  │ esm  │ 49.90 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/Icon-DsC9kmMg.js                        │ esm  │ 3.37 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/account-services-121VucMA.js            │ esm  │ 42.05 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/admin-dashboard-Cdh8DWr_.js             │ esm  │ 23.45 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/agro-catalog-DV8tudCB.js                │ esm  │ 7.37 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/agro-category-icon-BvENtu1T.js          │ esm  │ 7.20 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/agro-network-Cj1LW5xk.js                │ esm  │ 63.49 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/arrow-right-BK-E7gK8.js                 │ esm  │ 0.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/arrow-up-right-4sSx04o4.js              │ esm  │ 0.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/auth-fetch-BggIZaGf.js                  │ esm  │ 2.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/auth-paths-DyLjOkUj.js                  │ esm  │ 1.38 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/backup-import-CijNni40.js               │ esm  │ 8.51 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/book-open-CzT7R2yd.js                   │ esm  │ 0.54 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/brand-icons-VNAOb6KX.js                 │ esm  │ 3.11 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/building-2-BNaf1wUO.js                  │ esm  │ 0.68 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/button-D3WpGtsB.js                      │ esm  │ 11.16 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/check-D7kn-cfT.js                       │ esm  │ 0.36 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/chevron-down-CVMRqVWl.js                │ esm  │ 0.38 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/chevron-right-DEW50sAS.js               │ esm  │ 0.38 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/circle-check-7KdtDT0-.js                │ esm  │ 0.44 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/clock-3-DiuBC-BJ.js                     │ esm  │ 0.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/cloud-off-BFgsW-OX.js                   │ esm  │ 0.57 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/cloud-vh94nK20.js                       │ esm  │ 0.40 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/community-forms-DQzipyaL.js             │ esm  │ 36.20 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/company-D3GlpNfY.js                     │ esm  │ 5.69 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/company-directory-Djrjh1lL.js           │ esm  │ 8.95 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/company-manager-CwXNOpRW.js             │ esm  │ 46.33 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/company-profile-view-CTX6rQso.js        │ esm  │ 17.22 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/compass-DAVRLU-2.js                     │ esm  │ 0.50 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/connection-indicator-DpEs-ntT.js        │ esm  │ 9.09 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/connectivity-pill-CiKsYyOS.js           │ esm  │ 1.58 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/contextual-whatsapp-contact-CuE8E_7S.js │ esm  │ 4.07 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/createLucideIcon-ZIVktEBq.js            │ esm  │ 2.04 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/deflate-Cn59SZnG.js                     │ esm  │ 0.18 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/design-form-example-C_2Wgnlj.js         │ esm  │ 3.91 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/device-install-action-jfFRmtQX.js       │ esm  │ 1.85 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dialog-BB9AB3vt.js                      │ esm  │ 23.96 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/directory-filters-C0npapi5.js           │ esm  │ 1.16 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/directory-return-link-CMY2wqSM.js       │ esm  │ 0.89 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/directory-search-DOvvGzjM.js            │ esm  │ 0.51 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-C5VmNqSD.js                        │ esm  │ 1.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-D6jSFrrm.js                        │ esm  │ 39.80 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-DA4Me00g.js                        │ esm  │ 52.36 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-DHGV5ZND.js                        │ esm  │ 16.17 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-DUSHNR2F2.js                       │ esm  │ 22.91 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/dist-Daz4_HNt.js                        │ esm  │ 69.98 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/download-CtKUAd8o.js                    │ esm  │ 0.50 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/error-boundary-08QyFU2L.js              │ esm  │ 8.27 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/es2015-BDbqYqHm.js                      │ esm  │ 78.85 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/esm-DpsLY8Wc.js                         │ esm  │ 167.05 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/exchange-rates-Dh445WGD.js              │ esm  │ 5.04 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-aerial-proposal-CKQTIOjJ.js        │ esm  │ 22.86 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-asset-pack-C3s4Y-70.js             │ esm  │ 6.12 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-dashboard-Cz3tUlFc.js              │ esm  │ 1291.02 KiB │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-demo-fixture-BJD6KUFv.js           │ esm  │ 174.24 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-demo-navigation-BjKE4VPT.js        │ esm  │ 499.64 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-demo-workspace-CvxzDyim.js         │ esm  │ 71.57 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-illustrated-scene-BFNumxO0.js      │ esm  │ 73.33 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-masterplan-scene-C68sxXF3.js       │ esm  │ 29.37 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-masterplan-webgl-AimMQaLd.js       │ esm  │ 1747.74 KiB │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-plan-catalog-7z5TuNyx.js           │ esm  │ 19.01 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-showcase-DiJbFLMk.js               │ esm  │ 1.62 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/farm-showcase-nSYmrAKf.js               │ esm  │ 27.81 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/form-feedback-C28cLJou.js               │ esm  │ 3.08 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/formal-submission-notice-Dhskdcco.js    │ esm  │ 4.67 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/google-signin-BleGGw9P.js               │ esm  │ 6.72 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/heart-DLhONV2f.js                       │ esm  │ 0.49 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/home-content-editor-Bz6WUMOO.js         │ esm  │ 17.51 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/home-farm-preview-B7yXFn1n.js           │ esm  │ 9.08 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/home-farm-scene-DdXtTljY.js             │ esm  │ 1.16 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/illustrated-plan-adapter-v5jMuBYX.js    │ esm  │ 26.42 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/image-qVpohnYm.js                       │ esm  │ 90.05 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/image-share-OFqHbnpR.js                 │ esm  │ 47.76 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/info-DdI7MQkT.js                        │ esm  │ 0.48 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/input-Coa5XNOy.js                       │ esm  │ 1.02 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/install-action-C1mhv1ba.js              │ esm  │ 1.12 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/install-app-banner-CrwgN44c.js          │ esm  │ 18.41 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/install-guidance-Dq4s3ddC.js            │ esm  │ 6.84 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/inventory-example-photos-r3SAw7hC.js    │ esm  │ 10.41 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/jpeg-COnpGcoF.js                        │ esm  │ 10.59 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/layout-segment-context-hvtXd_Ya.js      │ esm  │ 1.72 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/leaflet-B4kmrmRF.js                     │ esm  │ 12.72 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/leaflet-src-CPpGQ6xW.js                 │ esm  │ 236.76 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/learning-catalog-DS0d1zFy.js            │ esm  │ 8.72 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/learning-form-preview-D8zusb2v.js       │ esm  │ 2.08 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/lerc-BPA-y5TV.js                        │ esm  │ 94.91 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/lightbulb-rhOIV-Ui.js                   │ esm  │ 0.56 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/link-CTsUsqTe.js                        │ esm  │ 24.47 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/listing-form-jy8c_mFj.js                │ esm  │ 99.20 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/loader-circle-Be8OWdZ5.js               │ esm  │ 0.39 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/lzw-Bu24AIK8.js                         │ esm  │ 1.41 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/mail-BCfpLZJj.js                        │ esm  │ 0.47 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/map-DxHTKUQ1.js                         │ esm  │ 9.50 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/map-pin-CLoB_NAM.js                     │ esm  │ 0.51 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/marketplace-browser-BBwBc5Vm.js         │ esm  │ 47.69 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/marketplace-categories-DbEPTFAD.js      │ esm  │ 2.60 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/marketplace-detail-B0hA2QGM.js          │ esm  │ 45.65 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/marketplace-details-Bh_zF0oZ.js         │ esm  │ 5.20 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/marketplace-location-N3zgKCBC.js        │ esm  │ 15.89 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/message-circle-BeenzVnM.js              │ esm  │ 0.49 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/mobile-public-actions-CsJWa6jD.js       │ esm  │ 7.74 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/official-links-CA05kvbk.js              │ esm  │ 0.61 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-account-boundary-hnu6xdcm.js    │ esm  │ 14.77 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-db-BE3xVTyb.js                  │ esm  │ 70.41 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-download-size-Kf0EnICD.js       │ esm  │ 5.63 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-library-Dxe7VQtd.js             │ esm  │ 100.57 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-navigation-C7-Akcvw.js          │ esm  │ 2.10 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/offline-worker-registration-BSgQQTz5.js │ esm  │ 0.63 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/orb-morph-BBTjMrt3.js                   │ esm  │ 5.29 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/packbits-B3UDnSZ9.js                    │ esm  │ 0.35 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/pako.esm-Dr8dQWp1.js                    │ esm  │ 45.58 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/phone-CjU-4AYr.js                       │ esm  │ 0.55 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/plus-D6_6wvlQ.js                        │ esm  │ 0.40 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/price-conversion-RjpQe0IX.js            │ esm  │ 17.63 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/product-photos-SgvyNbFN.js              │ esm  │ 8.85 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/professional-directory-_xp7Jo0S.js      │ esm  │ 14.73 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/professional-manager-DPaOYKO-.js        │ esm  │ 7.45 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/professional-profile-Bdu_R75C.js        │ esm  │ 23.41 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/professional-profile-view-DRCXT-k5.js   │ esm  │ 13.34 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/professional-tariffs-CK20DPxg.js        │ esm  │ 9.09 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/profile-socials-CNv5AvhP.js             │ esm  │ 2.13 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/project-example-DpJp98Qm.js             │ esm  │ 4.21 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/public-form-errors-C9Km7-c4.js          │ esm  │ 1.74 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/public-image-content-8oZuiwD9.js        │ esm  │ 7.63 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/public-workspace-controls-OU9fKSzS.js   │ esm  │ 0.49 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/quote-conversion-Bk1UoxEX.js            │ esm  │ 4.30 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/raw-BoeidpiM.js                         │ esm  │ 0.12 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/refresh-cw-oXiIaqnM.js                  │ esm  │ 0.60 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/rotate-ccw-Bz9RMZRD.js                  │ esm  │ 0.45 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/router-Bz-oUOfO.js                      │ esm  │ 22.81 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/satellite-zone-worker-DnAKFpF2.js       │ esm  │ 186.60 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/search-DIjj0o4I.js                      │ esm  │ 0.43 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/security-center-CM8-IZsL.js             │ esm  │ 24.63 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/session-menu-CN6OlFhc.js                │ esm  │ 8.23 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/share-2-hETJIGMl.js                     │ esm  │ 0.69 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/sheet-CrQr0EPV.js                       │ esm  │ 6.89 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/site-header-OvNO9HSg.js                 │ esm  │ 13.25 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/site-image-BkHVDc6T.js                  │ esm  │ 0.45 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/smartphone-C3Wo9C5C.js                  │ esm  │ 0.46 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/social-links-BPHQj6B6.js                │ esm  │ 13.15 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/sonner-DB8KwmXB.js                      │ esm  │ 3.66 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/sprout-DfDNS-vk.js                      │ esm  │ 0.57 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/sticker-gallery-E5n4tOp4.js             │ esm  │ 88.60 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/store-4WcoluRr.js                       │ esm  │ 2.42 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/store-catalog-6FFK-fJf.js               │ esm  │ 40.34 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/textarea-C9uNbx98.js                    │ esm  │ 0.85 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/tractor-urrd7JYo.js                     │ esm  │ 0.89 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/types-nz7Y6Ylx.js                       │ esm  │ 98.41 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/use-directory-filters-BQnZ7cZf.js       │ esm  │ 1.43 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/use-offline-snapshot-D9a2gB0u.js        │ esm  │ 1.30 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/user-round-BrCc97k9.js                  │ esm  │ 0.44 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/utils-8qBjT-XH.js                       │ esm  │ 86.73 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/venezuela-Cj1crq10.js                   │ esm  │ 0.41 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/venezuelaagro-logo-DvpF7I67.js          │ esm  │ 1.92 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/webimage-Cf1bw8RJ.js                    │ esm  │ 0.93 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/whatsapp-contact-D2hkSaZs.js            │ esm  │ 2.91 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/wifi-off-Bb6uRUdV.js                    │ esm  │ 0.77 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/x-CHtQ2pYl.js                           │ esm  │ 0.39 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/zoom-out-BR-YrpgZ.js                    │ esm  │ 1.08 KiB    │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/assets/zstd-I8RfiqhZ.js                        │ esm  │ 79.16 KiB   │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ ssr/index.js                                       │ esm  │ 580.08 KiB  │
+├────────────────────────────────────────────────────┼──────┼─────────────┤
+│ Total (162 modules)                                │      │ 7377.61 KiB │
+└────────────────────────────────────────────────────┴──────┴─────────────┘
+---
+
+--- 2026-10-15T21:01:21.640Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/__vite_rsc_assets_manifest.js
+---
+
+--- 2026-10-15T21:01:21.643Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/__vite_rsc_assets_manifest.js
+---
+
+--- 2026-10-15T21:01:21.644Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/Icon-DsC9kmMg.js
+---
+
+--- 2026-10-15T21:01:21.645Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/account-services-121VucMA.js
+---
+
+--- 2026-10-15T21:01:21.645Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/admin-dashboard-Cdh8DWr_.js
+---
+
+--- 2026-10-15T21:01:21.646Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/agro-catalog-DV8tudCB.js
+---
+
+--- 2026-10-15T21:01:21.646Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/agro-category-icon-BvENtu1T.js
+---
+
+--- 2026-10-15T21:01:21.646Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/agro-network-Cj1LW5xk.js
+---
+
+--- 2026-10-15T21:01:21.647Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/arrow-right-BK-E7gK8.js
+---
+
+--- 2026-10-15T21:01:21.647Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/arrow-up-right-4sSx04o4.js
+---
+
+--- 2026-10-15T21:01:21.647Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/auth-fetch-BggIZaGf.js
+---
+
+--- 2026-10-15T21:01:21.648Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/auth-paths-DyLjOkUj.js
+---
+
+--- 2026-10-15T21:01:21.648Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/backup-import-CijNni40.js
+---
+
+--- 2026-10-15T21:01:21.648Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/book-open-CzT7R2yd.js
+---
+
+--- 2026-10-15T21:01:21.648Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/brand-icons-VNAOb6KX.js
+---
+
+--- 2026-10-15T21:01:21.649Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/building-2-BNaf1wUO.js
+---
+
+--- 2026-10-15T21:01:21.649Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/button-D3WpGtsB.js
+---
+
+--- 2026-10-15T21:01:21.649Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/check-D7kn-cfT.js
+---
+
+--- 2026-10-15T21:01:21.649Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/chevron-down-CVMRqVWl.js
+---
+
+--- 2026-10-15T21:01:21.650Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/chevron-right-DEW50sAS.js
+---
+
+--- 2026-10-15T21:01:21.650Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/circle-check-7KdtDT0-.js
+---
+
+--- 2026-10-15T21:01:21.650Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/clock-3-DiuBC-BJ.js
+---
+
+--- 2026-10-15T21:01:21.650Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/cloud-off-BFgsW-OX.js
+---
+
+--- 2026-10-15T21:01:21.651Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/cloud-vh94nK20.js
+---
+
+--- 2026-10-15T21:01:21.651Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/community-forms-DQzipyaL.js
+---
+
+--- 2026-10-15T21:01:21.651Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/company-D3GlpNfY.js
+---
+
+--- 2026-10-15T21:01:21.651Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/company-directory-Djrjh1lL.js
+---
+
+--- 2026-10-15T21:01:21.652Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/company-manager-CwXNOpRW.js
+---
+
+--- 2026-10-15T21:01:21.652Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/company-profile-view-CTX6rQso.js
+---
+
+--- 2026-10-15T21:01:21.652Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/compass-DAVRLU-2.js
+---
+
+--- 2026-10-15T21:01:21.652Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/connection-indicator-DpEs-ntT.js
+---
+
+--- 2026-10-15T21:01:21.653Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/connectivity-pill-CiKsYyOS.js
+---
+
+--- 2026-10-15T21:01:21.653Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/contextual-whatsapp-contact-CuE8E_7S.js
+---
+
+--- 2026-10-15T21:01:21.653Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/createLucideIcon-ZIVktEBq.js
+---
+
+--- 2026-10-15T21:01:21.653Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/deflate-Cn59SZnG.js
+---
+
+--- 2026-10-15T21:01:21.654Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/design-form-example-C_2Wgnlj.js
+---
+
+--- 2026-10-15T21:01:21.654Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/device-install-action-jfFRmtQX.js
+---
+
+--- 2026-10-15T21:01:21.654Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dialog-BB9AB3vt.js
+---
+
+--- 2026-10-15T21:01:21.654Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/directory-filters-C0npapi5.js
+---
+
+--- 2026-10-15T21:01:21.655Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/directory-return-link-CMY2wqSM.js
+---
+
+--- 2026-10-15T21:01:21.655Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/directory-search-DOvvGzjM.js
+---
+
+--- 2026-10-15T21:01:21.655Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-C5VmNqSD.js
+---
+
+--- 2026-10-15T21:01:21.655Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-D6jSFrrm.js
+---
+
+--- 2026-10-15T21:01:21.656Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-DA4Me00g.js
+---
+
+--- 2026-10-15T21:01:21.656Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-DHGV5ZND.js
+---
+
+--- 2026-10-15T21:01:21.656Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-DUSHNR2F2.js
+---
+
+--- 2026-10-15T21:01:21.656Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/dist-Daz4_HNt.js
+---
+
+--- 2026-10-15T21:01:21.657Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/download-CtKUAd8o.js
+---
+
+--- 2026-10-15T21:01:21.657Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/error-boundary-08QyFU2L.js
+---
+
+--- 2026-10-15T21:01:21.657Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/es2015-BDbqYqHm.js
+---
+
+--- 2026-10-15T21:01:21.657Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/esm-DpsLY8Wc.js
+---
+
+--- 2026-10-15T21:01:21.658Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/exchange-rates-Dh445WGD.js
+---
+
+--- 2026-10-15T21:01:21.658Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-aerial-proposal-CKQTIOjJ.js
+---
+
+--- 2026-10-15T21:01:21.658Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-asset-pack-C3s4Y-70.js
+---
+
+--- 2026-10-15T21:01:21.659Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-dashboard-Cz3tUlFc.js
+---
+
+--- 2026-10-15T21:01:21.659Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-demo-fixture-BJD6KUFv.js
+---
+
+--- 2026-10-15T21:01:21.660Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-demo-navigation-BjKE4VPT.js
+---
+
+--- 2026-10-15T21:01:21.660Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-demo-workspace-CvxzDyim.js
+---
+
+--- 2026-10-15T21:01:21.660Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-illustrated-scene-BFNumxO0.js
+---
+
+--- 2026-10-15T21:01:21.661Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-masterplan-scene-C68sxXF3.js
+---
+
+--- 2026-10-15T21:01:21.661Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-masterplan-webgl-AimMQaLd.js
+---
+
+--- 2026-10-15T21:01:21.662Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-plan-catalog-7z5TuNyx.js
+---
+
+--- 2026-10-15T21:01:21.662Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-showcase-DiJbFLMk.js
+---
+
+--- 2026-10-15T21:01:21.662Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/farm-showcase-nSYmrAKf.js
+---
+
+--- 2026-10-15T21:01:21.662Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/form-feedback-C28cLJou.js
+---
+
+--- 2026-10-15T21:01:21.663Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/formal-submission-notice-Dhskdcco.js
+---
+
+--- 2026-10-15T21:01:21.663Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/google-signin-BleGGw9P.js
+---
+
+--- 2026-10-15T21:01:21.663Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/heart-DLhONV2f.js
+---
+
+--- 2026-10-15T21:01:21.665Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/home-content-editor-Bz6WUMOO.js
+---
+
+--- 2026-10-15T21:01:21.665Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/home-farm-preview-B7yXFn1n.js
+---
+
+--- 2026-10-15T21:01:21.666Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/home-farm-scene-DdXtTljY.js
+---
+
+--- 2026-10-15T21:01:21.666Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/illustrated-plan-adapter-v5jMuBYX.js
+---
+
+--- 2026-10-15T21:01:21.666Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/image-qVpohnYm.js
+---
+
+--- 2026-10-15T21:01:21.667Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/image-share-OFqHbnpR.js
+---
+
+--- 2026-10-15T21:01:21.667Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/info-DdI7MQkT.js
+---
+
+--- 2026-10-15T21:01:21.667Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/input-Coa5XNOy.js
+---
+
+--- 2026-10-15T21:01:21.667Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/install-action-C1mhv1ba.js
+---
+
+--- 2026-10-15T21:01:21.668Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/install-app-banner-CrwgN44c.js
+---
+
+--- 2026-10-15T21:01:21.668Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/install-guidance-Dq4s3ddC.js
+---
+
+--- 2026-10-15T21:01:21.668Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/inventory-example-photos-r3SAw7hC.js
+---
+
+--- 2026-10-15T21:01:21.669Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/jpeg-COnpGcoF.js
+---
+
+--- 2026-10-15T21:01:21.669Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/layout-segment-context-hvtXd_Ya.js
+---
+
+--- 2026-10-15T21:01:21.669Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/leaflet-B4kmrmRF.js
+---
+
+--- 2026-10-15T21:01:21.669Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/leaflet-src-CPpGQ6xW.js
+---
+
+--- 2026-10-15T21:01:21.670Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/learning-catalog-DS0d1zFy.js
+---
+
+--- 2026-10-15T21:01:21.670Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/learning-form-preview-D8zusb2v.js
+---
+
+--- 2026-10-15T21:01:21.670Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/lerc-BPA-y5TV.js
+---
+
+--- 2026-10-15T21:01:21.670Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/lightbulb-rhOIV-Ui.js
+---
+
+--- 2026-10-15T21:01:21.671Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/link-CTsUsqTe.js
+---
+
+--- 2026-10-15T21:01:21.671Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/listing-form-jy8c_mFj.js
+---
+
+--- 2026-10-15T21:01:21.671Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/loader-circle-Be8OWdZ5.js
+---
+
+--- 2026-10-15T21:01:21.671Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/lzw-Bu24AIK8.js
+---
+
+--- 2026-10-15T21:01:21.671Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/mail-BCfpLZJj.js
+---
+
+--- 2026-10-15T21:01:21.672Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/map-DxHTKUQ1.js
+---
+
+--- 2026-10-15T21:01:21.672Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/map-pin-CLoB_NAM.js
+---
+
+--- 2026-10-15T21:01:21.672Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/marketplace-browser-BBwBc5Vm.js
+---
+
+--- 2026-10-15T21:01:21.673Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/marketplace-categories-DbEPTFAD.js
+---
+
+--- 2026-10-15T21:01:21.673Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/marketplace-detail-B0hA2QGM.js
+---
+
+--- 2026-10-15T21:01:21.673Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/marketplace-details-Bh_zF0oZ.js
+---
+
+--- 2026-10-15T21:01:21.673Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/marketplace-location-N3zgKCBC.js
+---
+
+--- 2026-10-15T21:01:21.676Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/message-circle-BeenzVnM.js
+---
+
+--- 2026-10-15T21:01:21.677Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/mobile-public-actions-CsJWa6jD.js
+---
+
+--- 2026-10-15T21:01:21.677Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/official-links-CA05kvbk.js
+---
+
+--- 2026-10-15T21:01:21.677Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-account-boundary-hnu6xdcm.js
+---
+
+--- 2026-10-15T21:01:21.678Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-db-BE3xVTyb.js
+---
+
+--- 2026-10-15T21:01:21.678Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-download-size-Kf0EnICD.js
+---
+
+--- 2026-10-15T21:01:21.678Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-library-Dxe7VQtd.js
+---
+
+--- 2026-10-15T21:01:21.679Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-navigation-C7-Akcvw.js
+---
+
+--- 2026-10-15T21:01:21.679Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/offline-worker-registration-BSgQQTz5.js
+---
+
+--- 2026-10-15T21:01:21.679Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/orb-morph-BBTjMrt3.js
+---
+
+--- 2026-10-15T21:01:21.680Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/packbits-B3UDnSZ9.js
+---
+
+--- 2026-10-15T21:01:21.680Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/pako.esm-Dr8dQWp1.js
+---
+
+--- 2026-10-15T21:01:21.680Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/phone-CjU-4AYr.js
+---
+
+--- 2026-10-15T21:01:21.680Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/plus-D6_6wvlQ.js
+---
+
+--- 2026-10-15T21:01:21.681Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/price-conversion-RjpQe0IX.js
+---
+
+--- 2026-10-15T21:01:21.681Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/product-photos-SgvyNbFN.js
+---
+
+--- 2026-10-15T21:01:21.681Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/professional-directory-_xp7Jo0S.js
+---
+
+--- 2026-10-15T21:01:21.682Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/professional-manager-DPaOYKO-.js
+---
+
+--- 2026-10-15T21:01:21.682Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/professional-profile-Bdu_R75C.js
+---
+
+--- 2026-10-15T21:01:21.682Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/professional-profile-view-DRCXT-k5.js
+---
+
+--- 2026-10-15T21:01:21.683Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/professional-tariffs-CK20DPxg.js
+---
+
+--- 2026-10-15T21:01:21.683Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/profile-socials-CNv5AvhP.js
+---
+
+--- 2026-10-15T21:01:21.683Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/project-example-DpJp98Qm.js
+---
+
+--- 2026-10-15T21:01:21.684Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/public-form-errors-C9Km7-c4.js
+---
+
+--- 2026-10-15T21:01:21.684Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/public-image-content-8oZuiwD9.js
+---
+
+--- 2026-10-15T21:01:21.684Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/public-workspace-controls-OU9fKSzS.js
+---
+
+--- 2026-10-15T21:01:21.684Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/quote-conversion-Bk1UoxEX.js
+---
+
+--- 2026-10-15T21:01:21.685Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/raw-BoeidpiM.js
+---
+
+--- 2026-10-15T21:01:21.685Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/refresh-cw-oXiIaqnM.js
+---
+
+--- 2026-10-15T21:01:21.685Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/rotate-ccw-Bz9RMZRD.js
+---
+
+--- 2026-10-15T21:01:21.685Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/router-Bz-oUOfO.js
+---
+
+--- 2026-10-15T21:01:21.686Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/satellite-zone-worker-DnAKFpF2.js
+---
+
+--- 2026-10-15T21:01:21.686Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/search-DIjj0o4I.js
+---
+
+--- 2026-10-15T21:01:21.686Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/security-center-CM8-IZsL.js
+---
+
+--- 2026-10-15T21:01:21.687Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/session-menu-CN6OlFhc.js
+---
+
+--- 2026-10-15T21:01:21.687Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/share-2-hETJIGMl.js
+---
+
+--- 2026-10-15T21:01:21.687Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/sheet-CrQr0EPV.js
+---
+
+--- 2026-10-15T21:01:21.688Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/site-header-OvNO9HSg.js
+---
+
+--- 2026-10-15T21:01:21.688Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/site-image-BkHVDc6T.js
+---
+
+--- 2026-10-15T21:01:21.688Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/smartphone-C3Wo9C5C.js
+---
+
+--- 2026-10-15T21:01:21.688Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/social-links-BPHQj6B6.js
+---
+
+--- 2026-10-15T21:01:21.689Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/sonner-DB8KwmXB.js
+---
+
+--- 2026-10-15T21:01:21.689Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/sprout-DfDNS-vk.js
+---
+
+--- 2026-10-15T21:01:21.689Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/sticker-gallery-E5n4tOp4.js
+---
+
+--- 2026-10-15T21:01:21.690Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/store-4WcoluRr.js
+---
+
+--- 2026-10-15T21:01:21.690Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/store-catalog-6FFK-fJf.js
+---
+
+--- 2026-10-15T21:01:21.690Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/textarea-C9uNbx98.js
+---
+
+--- 2026-10-15T21:01:21.691Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/tractor-urrd7JYo.js
+---
+
+--- 2026-10-15T21:01:21.691Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/types-nz7Y6Ylx.js
+---
+
+--- 2026-10-15T21:01:21.691Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/use-directory-filters-BQnZ7cZf.js
+---
+
+--- 2026-10-15T21:01:21.691Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/use-offline-snapshot-D9a2gB0u.js
+---
+
+--- 2026-10-15T21:01:21.692Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/user-round-BrCc97k9.js
+---
+
+--- 2026-10-15T21:01:21.692Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/utils-8qBjT-XH.js
+---
+
+--- 2026-10-15T21:01:21.692Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/venezuela-Cj1crq10.js
+---
+
+--- 2026-10-15T21:01:21.693Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/venezuelaagro-logo-DvpF7I67.js
+---
+
+--- 2026-10-15T21:01:21.693Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/webimage-Cf1bw8RJ.js
+---
+
+--- 2026-10-15T21:01:21.693Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/whatsapp-contact-D2hkSaZs.js
+---
+
+--- 2026-10-15T21:01:21.694Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/wifi-off-Bb6uRUdV.js
+---
+
+--- 2026-10-15T21:01:21.694Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/x-CHtQ2pYl.js
+---
+
+--- 2026-10-15T21:01:21.694Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/zoom-out-BR-YrpgZ.js
+---
+
+--- 2026-10-15T21:01:21.694Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/assets/zstd-I8RfiqhZ.js
+---
+
+--- 2026-10-15T21:01:21.695Z debug
+Writing additional module to output /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/wrangler-dry-run/ssr/index.js
+---
+
+--- 2026-10-15T21:01:21.715Z info
+✨ Read 770 files from the assets directory /workspace/scratch/1cce691d0fde/agro-approved-v131-f6b3b5e/dist/client
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/.assetsignore
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/.vite
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/_headers
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/apple-touch-icon-precomposed.png
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/apple-touch-icon.png
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/assets
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/company-examples
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/demo-cacao.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/demo-drone.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/demo-novillas.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/demo-poultry-product.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/demo-poultry.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/examples
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/farm-3d
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/favicon.ico
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/favicon.png
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/favicon.svg
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/file.svg
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/globe.svg
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/guias
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure-1200.avif
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure-1200.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure-1536.avif
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure-640.avif
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure-640.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/hero-apure.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/icon-192.png
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/icon-512.png
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/icons
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/institutions
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/inventory-examples
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/learning
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/legado-familiar.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/licenses
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/logo-morochos.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/manifest.webmanifest
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/map-context
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/map-packs
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/morochito-transparent.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/morochito.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/offline-assets.json
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/offline-library-assets.json
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/photo-cacao.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/photo-cattle.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/photo-digital-farm.webp
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/photos
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/plan-oblique
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/plan-vegetation
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/previews
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/products
+---
+
+--- 2026-10-15T21:01:21.715Z debug
+/profiles
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/revision-precios.html
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/satellite-packs
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sw.js
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/tecnologia-campo.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/venezuela-agro-icon.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/venezuela-states.geojson
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/window.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-compacta-a859ca5d2b.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-compacta-b5fc3e45fe.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-compacta-de4ceaf2a0.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-completa-12235e6a44.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-completa-97d7712838.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/coleccion-completa-d89799ef2a.zip
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--hombre-85a9136c0d.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-cabra--mujer-ed89a43cda.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--hombre-cba5ea5165.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-cerdo--mujer-0ba8d795df.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--hombre-300d9fc1f7.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-conejo--mujer-d6c23d4cfa.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--hombre-055378424d.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-gallina--mujer-f80233e730.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--hombre-e79549e714.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-oveja--mujer-d3e9cbb78f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--hombre-72003c14e0.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-animales-agricultor-con-vaca--mujer-7a1584d1dc.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-apio--hombre-39ffd9fd92.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-apio--mujer-1b26164907.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--hombre-3dd98e89e6.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cacao--mujer-4a3bab6f5c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--hombre-13d2ffad03.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cafe--mujer-a69dbd0ff8.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cilantro--hombre-3b0fdd4667.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-cilantro--mujer-672fca9e72.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-fresa--hombre-a093cd617f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-fresa--mujer-a739b32339.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--hombre-a416e2aa00.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-maiz--mujer-9a19b699c4.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--hombre-cf548c3acc.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-ocumo--mujer-1d6d8f4500.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-perejil--hombre-e5236f045c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-perejil--mujer-ca3aab4a14.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--hombre-e7e01384c5.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-tomate--mujer-2e98dae360.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--hombre-b5a6c6222c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-yuca--mujer-5c62c99c78.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--hombre-408a629433.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/agricultores-cosecha-agricultor-con-zanahoria--mujer-b185d2f01d.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-abeja-6e2d27e20f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-caballo-6cc655a4f3.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-cabra-b82b114be0.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-cerdo-c41589b85f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-conejo-f145ec5f0b.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-gallina-06ed37eb62.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-gallo-eb1674d361.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-oveja-a6f9524a57.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-pato-60e61e607f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-pollito-abb8559719.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-tilapia-d1c5d3ad91.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/animales-vaca-14fbb27d8c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-aguacate-d237fc82b6.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-cacao-ded2443125.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-cafe-7f42745feb.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-maiz-cd2574625c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-platano-5db9b67c7a.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/cultivos-yuca-21e68054a2.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-bomba-de-agua-37581ed070.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-botas-de-trabajo-9754ea8114.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-carretilla-f73c7ce94c.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-desmalezadora-1d795d272f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-destornillador-de77d6209e.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-drone-agricola-6d3ded46c3.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-grapas-para-cerca-358eee9bad.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-machete-96dd2415d4.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-martillo-1c53325ac2.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-pala-edb9547cbe.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-rastrillo-441c8912da.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-regadera-13cd50ee57.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/herramientas-tractor-4de5f01d39.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/hortalizas-fresa-a615a5563e.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/hortalizas-zanahoria-4328f11362.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/instalaciones-corral-322905fd84.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/instalaciones-finca-2327429118.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-acuicultura-peces--hombre-e3b6381195.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-acuicultura-peces--mujer-d04903e6c8.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-agronomo--hombre-9ceae24ad1.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-agronomo--mujer-458d21a005.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-veterinaria--hombre-3549248c9f.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/profesionales-veterinaria--mujer-7540c5d419.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/thumbs/sanidad-vacuna-veterinaria-0d689bfa69.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-cabra--hombre-6b5a9691d6.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-cabra--mujer-c54770b433.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--hombre-a3420959ea.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-cerdo--mujer-5711862833.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-conejo--hombre-f0d17522e5.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-conejo--mujer-e71dcb6265.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-gallina--hombre-e1be8e79e7.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-gallina--mujer-03289a0829.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-oveja--hombre-e6f34b6f9f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-oveja--mujer-0eb298c356.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-vaca--hombre-5ab26382f8.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-animales-agricultor-con-vaca--mujer-41196eaaf8.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-apio--hombre-b35893fada.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-apio--mujer-1ab021b53e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--hombre-5572e6ee98.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cacao--mujer-1660981fa5.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--hombre-3fc9c4decb.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cafe--mujer-caf2b0d1e9.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cilantro--hombre-7478145553.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-cilantro--mujer-c204094d1f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-fresa--hombre-08da701a94.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-fresa--mujer-56a971b062.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--hombre-ee722a57fc.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-maiz--mujer-a9f5b22f3e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--hombre-641268208e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-ocumo--mujer-576d0c7e69.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-perejil--hombre-48a3229333.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-perejil--mujer-71d34ba59c.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--hombre-b88111d5e2.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-tomate--mujer-ef27ab2fad.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--hombre-7212e6383e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-yuca--mujer-22292230cf.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--hombre-0af77f3edc.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/agricultores-cosecha-agricultor-con-zanahoria--mujer-e1a1a36419.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-abeja-0f0375eb2e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-caballo-6297ecf75e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-cabra-77a990e8ee.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-cerdo-80c60dcdd1.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-conejo-c77d786a38.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-gallina-2e72fd4c9a.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-gallo-901a6f42cd.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-oveja-cee435e3ad.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-pato-f7915d2aac.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-pollito-babed4f413.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-tilapia-e95104788c.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/animales-vaca-51aac77140.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-aguacate-0b33833ad3.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-cacao-0a00976a65.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-cafe-a499ef1a97.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-maiz-5f5dca2b55.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-platano-b6e6fb3c33.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/cultivos-yuca-99d7cf7b3f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-bomba-de-agua-b604eb67ce.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-botas-de-trabajo-c0acb41640.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-carretilla-27c733b261.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-desmalezadora-e72838f8bd.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-destornillador-a57f0d1270.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-drone-agricola-be2a5c4cd8.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-grapas-para-cerca-eba1cf8653.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-machete-a1af26aa10.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-martillo-b21d4f55ea.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-pala-fdf7bfa2f0.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-rastrillo-4e1ee37251.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-regadera-1366e89e58.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/herramientas-tractor-cf4b302f90.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/hortalizas-fresa-65c1621307.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/hortalizas-zanahoria-688066ef6f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/instalaciones-corral-bb17523351.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/instalaciones-finca-5b1a64fe88.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-acuicultura-peces--hombre-fc7603d37b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-acuicultura-peces--mujer-a553aab16b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-agronomo--hombre-53222c8ffa.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-agronomo--mujer-1d7628f17a.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-veterinaria--hombre-c6367037e3.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/profesionales-veterinaria--mujer-0a1a49b0a2.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/png/sanidad-vacuna-veterinaria-6c182e10e5.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--hombre-ea7e240d92.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-cabra--mujer-987768f9fa.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--hombre-0b6fb981fc.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-cerdo--mujer-08bddd3240.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--hombre-9ae8594448.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-conejo--mujer-1726f80e37.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--hombre-e1a3d9e6d2.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-gallina--mujer-13e187db60.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--hombre-be2f92a35a.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-oveja--mujer-2798bff642.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--hombre-538f57b95e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-animales-agricultor-con-vaca--mujer-9d96aeebae.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-apio--hombre-ae89cd864f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-apio--mujer-799afea99b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--hombre-b31d41ff98.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cacao--mujer-b4be7da00b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--hombre-c705de780f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cafe--mujer-e48ddb8290.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cilantro--hombre-bd1c6ce991.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-cilantro--mujer-2c014c9801.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-fresa--hombre-9b4a6bc571.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-fresa--mujer-8762c9d546.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--hombre-7e1210e3fe.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-maiz--mujer-bf7eb7f44f.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--hombre-ae730bac4e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-ocumo--mujer-a2122a0dab.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-perejil--hombre-953cd865b7.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-perejil--mujer-2f2b7edd40.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--hombre-bd29ad4cca.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-tomate--mujer-766b3cf92e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--hombre-d401a414a1.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-yuca--mujer-c053b22902.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--hombre-8fe303ea04.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/agricultores-cosecha-agricultor-con-zanahoria--mujer-baa1e2a1a1.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-abeja-95baae63e6.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-caballo-73bb49d85a.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-cabra-04c119cb2e.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-cerdo-25918df624.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-conejo-a908c9d5e5.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-gallina-77493f1068.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-gallo-2f8e50dc43.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-oveja-01769bb7dd.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-pato-0c9af4f5c1.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-pollito-b76755a43b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-tilapia-7e49319b2c.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/animales-vaca-a0d5a4e818.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-aguacate-daa7d20cf3.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-cacao-7a856278eb.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-cafe-6ea6339527.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-maiz-cde87084fa.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-platano-763afad164.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/cultivos-yuca-aa7388d3fb.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-bomba-de-agua-e16b03cc21.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-botas-de-trabajo-d9d824ae3d.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-carretilla-080d5ca927.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-desmalezadora-551bbd59d9.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-destornillador-caf5167663.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-drone-agricola-4a44ae3017.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-grapas-para-cerca-45a5de2bdc.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-machete-dc8659ebb8.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-martillo-d25a7d5af5.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-pala-dfc5459174.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-rastrillo-f6054f071c.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-regadera-94dfd67385.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/herramientas-tractor-a5df4bc57b.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/hortalizas-fresa-419619230d.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/hortalizas-zanahoria-ad554b2b22.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/instalaciones-corral-3056f2f592.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/instalaciones-finca-d9a9f1e6f1.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-acuicultura-peces--hombre-95c9673316.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-acuicultura-peces--mujer-5dd0cb7876.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-agronomo--hombre-3d055ddd53.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-agronomo--mujer-799450ae80.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-veterinaria--hombre-a4536b2ba6.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/profesionales-veterinaria--mujer-215d11949d.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/sticker-packs/compact/sanidad-vacuna-veterinaria-ee66f506ec.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/beef-pexels.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/cattle-cc0.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/chickens-free.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/compost-free.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/envases-original.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/extractor-original.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/farm-pigs-pexels.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/farm-tools-free.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/fish-pexels.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/horse-pexels.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/maize-grains-cc0.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/nitrogen-tank-pd.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/pellets-original.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/pork-free.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/rastra-original.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/rice-cc0.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/rural-fence-pd.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/share-photos/sheep-free.webp
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/satellite-packs/llanos-muestra-20260121.png
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-acuicultura.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-agronomia.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-apicultura.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-avicultura.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-derecho.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-drones.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-empresa.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-logistica.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-mecanica.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-riego.svg
+---
+
+--- 2026-10-15T21:01:21.716Z debug
+/profiles/ejemplo-topografia.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/ejemplo-veterinaria.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-acuicultura.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-agronomia.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-apicultura.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-avicultura.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-derecho.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-drones.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-empresa.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-logistica.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-mecanica.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-riego.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-topografia.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/profiles/fictional/ejemplo-veterinaria.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/aves.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/bovinos.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/cacao.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/cafe.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/cerdo.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/frutas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/genetica.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/hortalizas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/pescado.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/pollo.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/porcinos.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/products/res.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/previews/finca-modelo-plan-ab2acb14cfee.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/previews/finca-modelo-plan.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/banana-plant-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/cacao-canopy-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/cattle-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/coffee-shrub-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/hen-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/low-crop-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-vegetation/pig-256.png
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/banana-plant-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/cacao-tree-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/cattle-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/chicken-coop-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/coffee-shrub-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/greenhouse-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/hen-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/open-shed-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/pig-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/rural-house-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/plan-oblique/wood-cabin-256.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/amanecer-trujillo.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/arreo-guarico.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/campesino-yaracuy-idea.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/campo-merida.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/cosecha-papa.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/cowboys.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/faena-arrozal.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/ganado-guarico.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/jornada.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/llaneros-apure.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/llanos-sunset.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/mercado-caracas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/ordeno.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/paramo-siembra.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/vacas-llano.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-apicultura-extractor.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-aves-gallinas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-bovinos.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-carnicos-caja-bovina.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-cercas-malla.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-drone.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-equinos-yegua.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-fertilizantes-compost.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-finca-doce-hectareas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-frutas-pina.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-genetica-tanque.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-granos-maiz.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-hortalizas-tomate.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-maquinaria-rastra.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-nutricion-alimento.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-ovinos-corderos.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-piscicultura-cachama.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-porcinos-engorde.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-semillas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-servicios-revision-cercas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/photos/market-examples/demo-veterinaria-envases.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/map-packs/venezuela-context-20261007-z10.pmtiles
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/map-packs/venezuela-public-pilot-20261007.pmtiles
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/map-context/venezuela-region-20261007-z6.pmtiles
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/licenses/ez-tree-textures.md
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/licenses/ez-tree.txt
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/licenses/leaflet.txt
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/licenses/proj4.txt
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/licenses/three.txt
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/learning/finca-escuela.html
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/learning/revision-responsive.html
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/combustible.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/fertilizantes.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/forrajes.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/herramientas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/medicinas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/otros.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/sal.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/inventory-examples/semillas.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/institutions/inia.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/institutions/insai.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/institutions/insopesca.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/institutions/inti.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/institutions/saren.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/animal.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/barn.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/bee.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/calendar.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/chicken.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/cloud.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/cow.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/crop.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/device.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/dna.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/drone.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/fence.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/fertilizer.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/fish.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/fruit.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/fuel.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/goat.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/health.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/horse.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/house.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/location.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/manifest.json
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/meat.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/money.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/package.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/pig.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/plan.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/rabbit.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/road.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/scale.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/services.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/settings.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/tool.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/tractor.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/tree.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/vegetable.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/water.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/wheat.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/icons/agro/worm.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/comprar-tienda-los-morochos-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/comprar-tienda-los-morochos-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/comprar-tienda-los-morochos-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/comprar-tienda-los-morochos-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/comprar-tienda-los-morochos.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/crear-plano-de-mi-finca-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/crear-plano-de-mi-finca-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/crear-plano-de-mi-finca-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/crear-plano-de-mi-finca-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/crear-plano-de-mi-finca.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/dividir-potreros-lagunas-cultivos-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/dividir-potreros-lagunas-cultivos-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/dividir-potreros-lagunas-cultivos-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/dividir-potreros-lagunas-cultivos-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/dividir-potreros-lagunas-cultivos.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/finca-escuela-cultivos-animales-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/finca-escuela-cultivos-animales-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/finca-escuela-cultivos-animales-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/finca-escuela-cultivos-animales-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/finca-escuela-cultivos-animales.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/fincas-comunidad-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/fincas-comunidad-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/fincas-comunidad-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/fincas-comunidad-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/fincas-comunidad.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/instalar-iphone-android-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/instalar-iphone-android-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/instalar-iphone-android-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/instalar-iphone-android-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/instalar-iphone-android.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/perfil-profesional-agro-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/perfil-profesional-agro-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/perfil-profesional-agro-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/perfil-profesional-agro-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/perfil-profesional-agro.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/primeros-pasos-registro-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/primeros-pasos-registro-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/primeros-pasos-registro-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/primeros-pasos-registro-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/primeros-pasos-registro.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/produccion-inventario-costos-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/produccion-inventario-costos-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/produccion-inventario-costos-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/produccion-inventario-costos-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/produccion-inventario-costos.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/proyectos-alianzas-instituciones-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/proyectos-alianzas-instituciones-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/proyectos-alianzas-instituciones-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/proyectos-alianzas-instituciones-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/proyectos-alianzas-instituciones.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/publicar-vender-mercado-agro-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/publicar-vender-mercado-agro-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/publicar-vender-mercado-agro-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/publicar-vender-mercado-agro-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/publicar-vender-mercado-agro.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/registrar-animales-pesajes-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/registrar-animales-pesajes-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/registrar-animales-pesajes-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/registrar-animales-pesajes-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/registrar-animales-pesajes.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/trabajar-sin-internet-paso-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/trabajar-sin-internet-paso-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/trabajar-sin-internet-paso-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/trabajar-sin-internet-paso-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/guias/trabajar-sin-internet.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/manifest.json
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/bark-arm.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/bark-color.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/bark-normal.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/cattle.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/duck.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/goat.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/grass-arm.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/grass-color.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/grass-normal.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/hen.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/horse.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/leaves-ash.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/pig.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/rabbit.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/rooster.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/v1/sheep.glb
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/bee.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/buffalo.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/cattle.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-cilantro.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-maize.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-onion.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-parsley.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-soy.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/crop-tomato.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/donkey.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/duck.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/fish.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/goat.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/goose.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/hen.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/hive.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/horse.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/mule.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/pig.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/quail.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/rabbit.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/rooster.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/sheep.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/shrimp.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/turkey.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/farm-3d/previews/worm.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-0.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-1.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-10.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-11.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-12.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-13.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-14.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-15.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-16.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-17.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-2.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-3.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-4.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-5.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-6.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-7.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-8.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/examples/market-9.svg
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/company-examples/veterinaria-ejemplo-cepillo.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/company-examples/veterinaria-ejemplo-collar-correa.webp
+---
+
+--- 2026-10-15T21:01:21.717Z debug
+/company-examples/veterinaria-ejemplo-comedero.webp
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/company-examples/veterinaria-ejemplo-local.webp
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/Icon-BJEC1M7G.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/account-services-DwdOXlJk.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/admin-dashboard-CGfLrq8M.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/agro-catalog-B7qn02kT.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/agro-category-icon-2GkMvB4D.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/agro-network-Bxkdl2cE.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/arrow-right-B_rdtoO7.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/arrow-up-right-KNzriIhG.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/auth-fetch-B0Sz0Oie.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/auth-paths-B-VxzyUX.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/backup-import-D87Cppx0.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/book-open-BlaCJr95.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/brand-icons-CsW0tl2I.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/building-2-CAaiUICq.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/button-mbafAg5c.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/check-BI6S8aTq.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/chevron-down-CZShy5QM.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/chevron-right-DjKClnEv.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/circle-check-DuYusqjf.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/clock-3-DKqnrPlt.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/cloud-1iRIrr-q.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/cloud-off-797ZMMNo.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/community-forms-B9sU7cGx.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/company-DLgxbf5i.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/company-directory-B4pWB0iY.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/company-manager-MogQUsQG.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/company-profile-view-CNCqKLj4.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/compass-v5-GFXi4.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/connection-indicator-U-wDDOp5.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/connectivity-pill-CR_ibPbr.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/contextual-whatsapp-contact-Dz6sCQj6.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/createLucideIcon-DsGqHFL7.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/deflate-Cn59SZnG.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/design-form-example-DE-iHIYZ.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/device-install-action-Cm-g2bn0.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dialog-BTTQkP5A.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/directory-filters-D19122j-.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/directory-return-link-DQaKIpXX.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/directory-search-B-ZCGBiN.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-A6jz3xf3.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-BTGf5tSh.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-BlCvuUeW.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-D02U1ZSF.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-Vu7OQT5_.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/dist-o65Rxcqt.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/download-CR7p2Qa1.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/es2015-8qoacUFW.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/esm-CVQV7vd2.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/exchange-rates-ClMnO-Lm.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-aerial-proposal-C2e2OPQG.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-asset-pack-CfP7TV65.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-dashboard-hLkz4gVj.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-demo-fixture-CYCqO1KH.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-demo-navigation-BHTIm80Q.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-demo-workspace-BactWPif.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-illustrated-scene-C4JNL70r.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-masterplan-scene-CGf8H7Jd.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-masterplan-webgl-DlW4ahXO.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-plan-catalog-BGV3o0_C.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-showcase-B3Z833so.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/farm-showcase-Dpuq22pI.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/form-feedback-BpwgOJzN.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/formal-submission-notice-fYx6jLZX.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/framework-CXnKph_e.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/google-signin-t5pa7B-y.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/heart-DXOtA8dM.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/home-content-editor-dlyiCnIW.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/home-farm-preview-DQyO2T4e.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/home-farm-scene-OmlBhpgt.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/illustrated-plan-adapter-DWiWY_gK.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/image-CwgptN7L.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/image-share-DQosnZTm.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/index-BW131GXA.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/index-CyICXXPW.css
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/info-BPpCl3Qb.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/input-a45IPNCW.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/install-action-sThTH7PN.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/install-app-banner-Cz95UaH7.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/install-guidance-DGooOryk.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/inventory-example-photos-Cf2xNpxi.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/jpeg-COnpGcoF.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/layout-segment-context-Bpc_TNIw.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/leaflet-DkBrfjv-.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/leaflet-src-BDulQfl8.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/leaflet-vh-t_kPv.css
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/learning-catalog-Dk-HZkbM.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/learning-form-preview-BDEHJMOC.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/lerc-BPA-y5TV.js
+---
+
+--- 2026-10-15T21:01:21.718Z debug
+/assets/lightbulb-G5uhCyn3.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/link-DR1l1MT6.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/listing-form-Ckr8hTkZ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/loader-circle-Do5rLFtH.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/lzw-Bu24AIK8.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/mail--r88BnEM.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/map-pin-B3wicebP.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-browser-BVO10BXT.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-categories-4v0Z72Fj.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-detail-CxX3DC7E.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-details-0FGnqveL.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-location-BqyS89gp.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/marketplace-photo-UwABMphA.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/message-circle-BYRevbtn.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/mobile-public-actions-Bsg5wziO.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/official-links-Xt_E_7J4.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-account-boundary-DtwxSPaI.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-db-BgcUL19Z.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-download-size-D6kugFZY.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-library--g4eHgL6.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-navigation-mAg61OQm.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-preparation-EjII1FqQ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/offline-worker-registration-CP3n9xIz.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/orb-morph-BgrAM9xk.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/packbits-B3UDnSZ9.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/pako.esm-Dr8dQWp1.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/phone-BojWTBlC.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/plus-CC8MZoTY.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/price-conversion-CxqFUFoC.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/product-photos-CZIYhqSE.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/professional-directory-RNDJtXt5.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/professional-manager-BwT26ijR.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/professional-profile-DXc5Yrxu.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/professional-profile-view-DuF9oQQz.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/professional-tariffs-DtULU_eR.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/profile-socials-CyKg7F6D.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/project-example-1mCrSgQb.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/public-form-errors-D78jWe1M.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/public-image-content-CD6zV0II.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/public-workspace-controls-CXXAi16Q.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/quote-conversion-D5wp7tDL.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/raw-BoeidpiM.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/refresh-cw-v23_x7f5.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/rolldown-runtime-S-ySWqyJ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/rotate-ccw-DO2xn1nW.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/router-CIJ1Gxx_.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/satellite-zone-worker-DnAKFpF2.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/search-C3Xmvdne.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/security-center-CtaCESKJ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/session-menu-D1e_vA-G.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/share-2-B61k_0Gw.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/sheet-BbviR2vk.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/site-header-DsO7DxoD.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/site-image-vNvjnZcC.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/smartphone-DQ1_5Wm0.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/social-links-BElgtp5O.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/social-links-Dufuk-2B.css
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/sonner-C0-d5pkl.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/sprout-LC288rtC.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/sticker-gallery-CMQ-aewM.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/store-catalog-kfLcNjmu.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/textarea-CxAgNTaY.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/tractor-CSLKxE7X.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/types-BfTeLzKl.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/use-directory-filters-BULADiGM.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/use-offline-snapshot-CH85MaMW.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/user-round-BnSsUPif.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/utils-BHJHmrpA.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/venezuela-BOnEjsqy.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/venezuelaagro-logo-5AQUWEv0.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/webimage-Cf1bw8RJ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/whatsapp-contact-MWnHfkf2.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/wifi-off-AQ1QsWIl.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/x-BMd_cQNi.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/zoom-out-Bf_KkglM.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/assets/zstd-I8RfiqhZ.js
+---
+
+--- 2026-10-15T21:01:21.719Z debug
+/.vite/manifest.json
+---
+
+--- 2026-10-15T21:01:21.721Z debug
+Ignoring asset: .assetsignore
+---
+
+--- 2026-10-15T21:01:21.721Z debug
+Ignoring asset: _headers
+---
+
+--- 2026-10-15T21:01:22.246Z log
+Total Upload: 9311.46 KiB / gzip: 2063.53 KiB
+---
+
+--- 2026-10-15T21:01:22.264Z log
+Your Worker has access to the following bindings:
+---
+
+--- 2026-10-15T21:01:22.264Z log
+Binding                                                                Resource                  
+---
+
+--- 2026-10-15T21:01:22.264Z log
+env.DB (venezuelaagro-production)                                      D1 Database               
+---
+
+--- 2026-10-15T21:01:22.264Z log
+env.BUCKET (venezuelaagro-production-files)                            R2 Bucket                 
+---
+
+--- 2026-10-15T21:01:22.264Z log
+env.ASSETS                                                             Assets                    
+---
+
+--- 2026-10-15T21:01:22.264Z log
+env.AUTH_MODE ("google")                                               Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+env.AUTH_ACCESS_POLICY ("public-production")                           Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+env.APP_ORIGIN ("https://venezuelaagro.com")                           Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+env.TURNSTILE_SITE_KEY ("0x4AAAAAAFWfwMwzdORVkoDe")                    Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+env.OWNER_ADMIN_EMAIL ("alvarojuniorcarrerovasquez@gmail.com")         Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+env.OWNER_GOOGLE_SUBJECT ("113186509837584939227")                     Environment Variable      
+---
+
+--- 2026-10-15T21:01:22.265Z log
+
+---
+
+--- 2026-10-15T21:01:22.265Z log
+--dry-run: exiting now.
+---
+
+--- 2026-10-15T21:01:22.266Z debug
+Error sending metrics event Error: ENOENT: no such file or directory, mkdir '/home/agent/.config/.wrangler'
+    at Object.mkdirSync (node:fs:1411:26)
+    at writeMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55951:8)
+    at getDeviceId (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55986:5)
+    at getMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55919:20)
+    at dispatch (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56105:27)
+    at Object.sendAdhocEvent (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56055:7)
+    at sendMetricsEvent (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56189:23)
+    at Object.handler (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:230997:9)
+    at async /workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179097:26
+    at async Object.handler (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179046:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: '/home/agent/.config/.wrangler'
+}
+---
+
+--- 2026-10-15T21:01:22.266Z debug
+Error sending metrics event Error: ENOENT: no such file or directory, mkdir '/home/agent/.config/.wrangler'
+    at Object.mkdirSync (node:fs:1411:26)
+    at writeMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55951:8)
+    at getDeviceId (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55986:5)
+    at getMetricsConfig (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:55919:20)
+    at dispatch (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56105:27)
+    at Object.sendCommandEvent (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:56092:9)
+    at /workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179105:22
+    at async Object.handler (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:179046:7) {
+  errno: -2,
+  code: 'ENOENT',
+  syscall: 'mkdir',
+  path: '/home/agent/.config/.wrangler'
+}
+---

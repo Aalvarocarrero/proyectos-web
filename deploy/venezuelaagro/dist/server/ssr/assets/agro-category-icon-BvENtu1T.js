@@ -1,0 +1,115 @@
+import { n as require_jsx_runtime } from "../index.js";
+import { a as findAgroEntry } from "./agro-catalog-DV8tudCB.js";
+//#region lib/agro-icon-paths.ts
+/** Original Venezuela Agro geometry. 24-unit canvas; shared rounded 1.8-unit stroke.
+* These paths are authored for this project, not Apple/SF Symbols or emoji assets.
+*/
+var AGRO_ICON_PATHS = {
+	pig: ["M5 9c1-4 8-5 12-2l3-2v6l2 1v5h-3l-1 4h-3l-1-3H9l-1 3H5l-1-5c-3-1-3-5-1-5 1 0 2 1 1 2", "M16 10h.1M20 13v2"],
+	cow: ["M7 7 4 3 2 4l1 5 4 1m10-3 3-4 2 1-1 5-4 1M7 7c3-2 7-2 10 0v8c2 1 2 5 0 6H7c-2-1-2-5 0-6Z", "M8 15h8M9 18v1m6-1v1M9 10h.1M15 10h.1"],
+	chicken: ["M15 6c-1-3 1-5 2-3 1-3 3-1 2 1 3-1 3 2 1 3l3 2-4 2c1 5-2 8-7 8-6 0-10-4-9-9l4 3-1-7 6 6 2-3V7Z", "M17 8h.1M11 19v3m5-3v3M8 22h5m1 0h5"],
+	horse: ["M6 21c0-7 4-9 5-12L8 7l5-3 2-3 1 4 4 3 1 5-3 2-4-2c-1 3 0 5 2 8Z", "M8 4 5 8l2 3-3 4M16 9h.1"],
+	goat: ["M8 8C3 7 3 3 6 2m10 6c5-1 5-5 2-6M8 8 4 10l4 3m8-5 4 2-4 3M8 8h8v9l-4 4-4-4Z", "M10 12h.1M14 12h.1M11 21v2m2-2v2"],
+	fish: ["M4 12c4-7 11-7 15-2l4-4v12l-4-4c-4 5-11 5-15-2Z", "M10 9h.1M13 7l-1-4 6 4M13 17l-1 4 6-4"],
+	worm: ["M3 16c-3-7 4-11 7-6l4 7c3 5 9 1 7-3M3 16c2 6 7 6 9 2M5 9l4 1M4 14l6-1M8 19l3-3M15 18l3-2M19 17l1-3M5 10h.1"],
+	rabbit: ["M9 11C3 2 6-2 10 8M13 10C12 0 17 0 16 10M7 11c-6 6-1 12 6 11 7 0 8-8 2-11Z", "M10 15h.1M15 15h.1M11 18h3m-1.5 0v2"],
+	bee: ["M9 8C2 0-1 9 8 11M15 8C22 0 25 9 16 11M8 10c0-5 8-5 8 0v8l-4 4-4-4Z", "M8 12h8M8 16h8M10 6 8 3m6 3 2-3"],
+	fence: ["M3 22V5l2-3 2 3v17M17 22V5l2-3 2 3v17M7 8h10M7 16h10M1 8h2m18 0h2M1 16h2m18 0h2"],
+	crop: ["M12 22V10M12 14C3 14 2 9 3 5c7 0 9 4 9 9ZM12 10c0-6 4-8 9-8 0 6-3 8-9 8Z", "M5 22h14"],
+	water: ["M12 2c-2 4-7 8-7 12a7 7 0 0 0 14 0c0-4-5-8-7-12Z", "M8 15c0 3 2 4 4 4M2 23h20"],
+	house: ["M2 11 12 2l10 9M5 9v13h14V9M10 22v-8h4v8"],
+	barn: ["M2 9 12 2l10 7v13H2ZM8 22V11h8v11M8 11l8 11m0-11-8 11M10 6h4"],
+	package: ["M3 7 12 2l9 5v12l-9 4-9-4ZM3 7l9 5 9-5M12 12v11M8 4l9 5v5"],
+	tree: ["M12 2 5 10h4l-6 7h7v6h4v-6h7l-6-7h4Z"],
+	road: ["M7 2 2 22m15-20 5 20M12 3v4m0 4v3m0 4v3"],
+	wheat: ["M12 23V3M12 8C5 8 4 5 5 2c5 0 7 2 7 6ZM12 13c-7 0-8-3-7-6 5 0 7 2 7 6ZM12 18c-7 0-8-3-7-6 5 0 7 2 7 6ZM12 8c7 0 8-3 7-6-5 0-7 2-7 6ZM12 13c7 0 8-3 7-6-5 0-7 2-7 6ZM12 18c7 0 8-3 7-6-5 0-7 2-7 6Z"],
+	health: ["M6 3h12v18H6ZM9 1h6v4H9ZM12 8v9M8 12h8"],
+	fertilizer: ["M9 2h6M10 2v7L4 19c-1 2 0 3 2 3h12c2 0 3-1 2-3L14 9V2M7 15h10M10 18h.1M14 19h.1"],
+	tool: ["M8 2a6 6 0 0 0 7 8l7 9-3 3-9-7a6 6 0 0 0-8-7l4 1 3-3Z"],
+	fuel: ["M7 3h9v4l4 3v12H4V6h3ZM9 3V1h5v2M7 7h9M8 12l8 7m0-7-8 7"],
+	scale: ["M5 4h14l3 18H2ZM8 8a5 5 0 0 1 8 0l-4 5ZM12 13l2-5"],
+	calendar: ["M3 5h18v17H3ZM7 2v6m10-6v6M3 10h18M7 14h3m4 0h3m-10 4h3m4 0h3"],
+	money: ["M3 5h18v14H3ZM7 5a4 4 0 0 1-4 4m18 0a4 4 0 0 1-4-4M3 15a4 4 0 0 1 4 4m10 0a4 4 0 0 1 4-4", "M12 8a4 4 0 1 0 0 8 4 4 0 1 0 0-8Z"],
+	plan: ["M7 3H4v19h16V3h-3M8 1h8v5H8ZM8 10h8M8 14h8M8 18h5"],
+	location: ["M12 23 5 13a8 8 0 1 1 14 0ZM12 6a3 3 0 1 0 0 6 3 3 0 1 0 0-6Z"],
+	animal: ["M7 14c-6 7 0 9 5 7 5 2 11 0 5-7-3-4-7-4-10 0ZM6 4a2 3 0 1 0 0 6 2 3 0 1 0 0-6ZM12 1a2 3 0 1 0 0 6 2 3 0 1 0 0-6ZM18 4a2 3 0 1 0 0 6 2 3 0 1 0 0-6Z"],
+	dna: ["M6 1c0 10 12 12 12 22M18 1C18 11 6 13 6 23M6 3h12M8 8h8m-8 8h8M6 21h12"],
+	device: ["M6 1h12v22H6ZM6 5h12M6 19h12M11 21h2"],
+	cloud: ["M6 19a5 5 0 0 1-1-10 7 7 0 0 1 13-2 6 6 0 0 1 0 12ZM9 12l3-3 3 3m-3-3v8"],
+	settings: ["M3 6h18M3 12h18M3 18h18M7 3v6m10 0v6M9 15v6"],
+	meat: ["M3 15c-4-8 9-16 16-10 8 7 1 17-6 17-5 0-9-2-10-7ZM14 7a4 4 0 1 0 0 8 4 4 0 1 0 0-8Z"],
+	vegetable: ["M7 8c-5 4-5 14-5 14s10 0 14-5c3-4-5-12-9-9ZM14 7l4-5m-2 8 6-2M6 13l3 3m-5 1 2 2"],
+	fruit: ["M12 7c-8-6-15 4-8 12 4 4 5 2 8 2s4 2 8-2c7-8 0-18-8-12ZM12 7c0-4 2-6 6-6 0 4-2 6-6 6Z"],
+	tractor: ["M4 14V6h9v9h6l3 4H3M7 6V2h6v4M18 14V9h3M7 13a5 5 0 1 0 0 10 5 5 0 1 0 0-10ZM19 17a3 3 0 1 0 0 6 3 3 0 1 0 0-6Z"],
+	drone: ["M9 9h6v6H9ZM9 9 4 4m11 5 5-5M9 15l-5 5m11-5 5 5M1 4h6M4 1v6m13-3h6m-3-3v6M1 20h6m-3-3v6m13-3h6m-3-3v6"],
+	services: ["M2 8l4-4 6 2 5-2 5 4-5 6-5-5-3 3-3-2 6-4M3 10l8 10 3-2m-5-1 3-3m0 4 3-3m-1 3 3-2 4-6"]
+};
+//#endregion
+//#region components/agro-category-icon.tsx
+var import_jsx_runtime = require_jsx_runtime();
+function agroIconKind(category) {
+	const raw = category.normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+	if (/\bconejo/.test(raw)) return "rabbit";
+	if (/\blombri/.test(raw)) return "worm";
+	const entry = findAgroEntry(category);
+	const s = (entry?.parent ?? category).normalize("NFD").replace(/[\u0300-\u036f]/g, "").toLowerCase();
+	if (/genetica|reproduccion/.test(s)) return "dna";
+	if (/\bcarne(?:\s|$)|carnic|^cortes?$|^canales$|viscera/.test(s)) return "meat";
+	if (/\bequin|\bcaball|\byegua|\bpotro|\bburro|\bmula/.test(s)) return "horse";
+	if (/\bovino|\bcaprino|\boveja|\bcabra|\bchivo|\bcarnero|\bcordero/.test(s)) return "goat";
+	if (/maquinaria|tractor|cosechadora/.test(s)) return "tractor";
+	if (/dron|tecnologia|sensor/.test(s)) return "drone";
+	if (/servicio|asistencia|capacitacion/.test(s)) return "services";
+	if (/verdura|hortaliza/.test(s)) return "vegetable";
+	if (/fruta/.test(s)) return "fruit";
+	if (/potrero|pastoreo|corral|vaquera/.test(s)) return "fence";
+	if (/porc|cerd|lechon|verraco/.test(s)) return "pig";
+	if (/bovin|vaca|toro|becerr|ganad/.test(s)) return "cow";
+	if (/\bave|\bavic|\bgallin|\bpollo|\bgallo|\bpato|\bpavo/.test(s)) return "chicken";
+	if (/pez|peces|pisc|pesca/.test(s)) return "fish";
+	if (/conejo/.test(s)) return "rabbit";
+	if (/pesaje|peso/.test(s)) return "scale";
+	if (/invernadero|vivero/.test(s) && !/forest/.test(s)) return "crop";
+	if (/compost/.test(s)) return "fertilizer";
+	if (/laguna|agua|riego/.test(s)) return "water";
+	if (/casa|vivienda|finca|terreno/.test(s)) return "house";
+	if (/galpon|instalacion/.test(s)) return "barn";
+	if (/bosque|reserva|forest/.test(s)) return "tree";
+	if (/via|acceso/.test(s)) return "road";
+	if (/medicin|vitamin|sanitari|salud/.test(s)) return "health";
+	if (/fertiliz|control/.test(s)) return "fertilizer";
+	if (/herramient|cerca/.test(s)) return "tool";
+	if (/combust|lubric/.test(s)) return "fuel";
+	if (/alimento|forraje|cereal|grano/.test(s)) return "wheat";
+	if (/semilla|cultivo|hortaliza|fruta|cacao|cafe|produccion/.test(s)) return "crop";
+	if (/costo|finanz|dinero|movimiento/.test(s)) return "money";
+	if (/plan|escenario/.test(s)) return "plan";
+	if (/ciclo|fecha/.test(s)) return "calendar";
+	if (/inventario|insumo|sal|melaza|suplemento|deposito|nutricion/.test(s)) return "package";
+	if (/apic|abeja|colmena/.test(s)) return "bee";
+	if (/genetica/.test(s)) return "dna";
+	if (/dispositivo/.test(s)) return "device";
+	if (/sincron/.test(s)) return "cloud";
+	if (/personalizable/.test(s)) return "settings";
+	if (/animal/.test(s)) return "animal";
+	return entry?.kind === "Cultivos" ? "crop" : entry?.kind === "Animales" ? "animal" : "location";
+}
+function AgroCategoryIcon({ category, size = 24, ...props }) {
+	const kind = agroIconKind(category);
+	return /* @__PURE__ */ (0, import_jsx_runtime.jsx)("svg", {
+		"data-agro-icon": kind,
+		viewBox: "0 0 24 24",
+		width: size,
+		height: size,
+		stroke: "currentColor",
+		strokeWidth: 1.8,
+		strokeLinecap: "round",
+		strokeLinejoin: "round",
+		fill: "none",
+		"aria-hidden": "true",
+		...props,
+		children: AGRO_ICON_PATHS[kind].map((d, index) => /* @__PURE__ */ (0, import_jsx_runtime.jsx)("path", { d }, index))
+	});
+}
+//#endregion
+export { AgroCategoryIcon as t };

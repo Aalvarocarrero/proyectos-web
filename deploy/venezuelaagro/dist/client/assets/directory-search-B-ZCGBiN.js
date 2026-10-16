@@ -1,0 +1,1 @@
+function e(e){return e.normalize(`NFD`).replace(/[\u0300-\u036f]/g,``).toLocaleLowerCase(`es`).trim()}function t(t,n){let r=e(n);return!r||e(t.filter(e=>e!=null).join(` `)).includes(r)}export{t};

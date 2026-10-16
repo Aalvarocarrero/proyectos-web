@@ -1,0 +1,121 @@
+7:00:07 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ authorized admin header renders explicit home and logout controls before any client fetch (23.438206ms)
+✔ each shortcut targets an offset section and headings wrap at narrow widths (3.411747ms)
+✔ admin signout reuses offline safety and a cancellable focus-managed dialog (0.872438ms)
+✖ only public promotional overlays are suppressed on admin, while connection and account services remain (2.788635ms)
+ℹ tests 4
+ℹ suites 0
+ℹ pass 3
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1130.940159
+
+✖ failing tests:
+
+test at tests/admin-navigation.test.mjs:46:1
+✖ only public promotional overlays are suppressed on admin, while connection and account services remain (2.788635ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<\/PublicWorkspaceControls>/. Input:
+  
+  'import { MobilePublicActions } from "@/components/mobile-public-actions";\n' +
+    'import { PublicWorkspaceControls } from "@/components/public-workspace-controls";\n' +
+    'import { OfflineWorkerRegistration } from "@/components/offline-worker-registration";\n' +
+    'import { robotsPolicy } from "@/lib/indexing-policy";\n' +
+    'import { SITE_ORIGIN } from "@/lib/site-identity";\n' +
+    'import type { Metadata, Viewport } from "next";\n' +
+    'import { InstallAppBanner } from "@/components/install-app-banner";\n' +
+    'import { AccountServices } from "@/components/account-services";\n' +
+    'import {SocialFloatingMenu} from "@/components/social-links";\n' +
+    'import {OfflineNavigation} from "@/components/offline-navigation";\n' +
+    'import { Toaster } from "@/components/ui/sonner";\n' +
+    'import "./globals.css";\n' +
+    '\n' +
+    'export const metadata: Metadata = {\n' +
+    '  metadataBase: new URL(SITE_ORIGIN),\n' +
+    '  robots:robotsPolicy(),\n' +
+    '  title: {\n' +
+    '    default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",\n' +
+    '    template: "%s | VenezuelaAgro",\n' +
+    '  },\n' +
+    '  description:\n' +
+    '    "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",\n' +
+    '  applicationName: "Venezuela Agro",\n' +
+    '  appleWebApp: {\n' +
+    '    capable: true,\n' +
+    '    statusBarStyle: "black-translucent",\n' +
+    '    title: "Venezuela Agro",\n' +
+    '  },\n' +
+    '  formatDetection: { telephone: false },\n' +
+    '  manifest: "/manifest.webmanifest",\n' +
+    '  alternates: { canonical: "/" },\n' +
+    '  keywords: [\n' +
+    '    "finca Venezuela",\n' +
+    '    "agropecuaria Apure",\n' +
+    '    "ganadería Venezuela",\n' +
+    '    "Venezuela Agro",\n' +
+    '    "comprar y vender cosechas Venezuela",\n' +
+    '    "marketplace agropecuario",\n' +
+    '    "gestión de fincas",\n' +
+    '    "producción animal",\n' +
+    '  ],\n' +
+    '  icons: {\n' +
+    '    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/favicon.png", type: "image/png" }],\n' +
+    '    shortcut: "/favicon.ico",\n' +
+    '    apple: "/apple-touch-icon.png",\n' +
+    '  },\n' +
+    '  openGraph: {\n' +
+    '    type: "website",\n' +
+    '    locale: "es_VE",\n' +
+    '    siteName: "VenezuelaAgro",\n' +
+    '    title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",\n' +
+    '    description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",\n' +
+    '    images: [{ url: "/hero-apure.webp", width: 1536, height: 1024, alt: "Campo venezolano al amanecer" }],\n' +
+    '  },\n' +
+    '  twitter: {\n' +
+    '    card: "summary_large_image",\n' +
+    '    title: "Venezuela Agro",\n' +
+    '    description: "Campo, familia y tecnología para el productor venezolano.",\n' +
+    '    images: ["/hero-apure.webp"],\n' +
+    '  },\n' +
+    '};\n' +
+    '\n' +
+    'export const viewport: Viewport = {\n' +
+    '  themeColor: "#211d1a",\n' +
+    '  colorScheme: "light",\n' +
+    '  width: "device-width",\n' +
+    '  initialScale: 1,\n' +
+    '  viewportFit: "cover",\n' +
+    '};\n' +
+    '\n' +
+    'export default function RootLayout({\n' +
+    '  children,\n' +
+    '}: Readonly<{ children: React.ReactNode }>) {\n' +
+    '  return (\n' +
+    '    <html lang="es-VE">\n' +
+    '      <body className="min-w-0 overflow-x-clip antialiased">\n' +
+    '        {children}\n' +
+    '        <OfflineWorkerRegistration />\n' +
+    '        <AccountServices />\n' +
+    '        <PublicWorkspaceControls>\n' +
+    '          <InstallAppBanner />\n' +
+    '          <SocialFloatingMenu />\n' +
+    '          <MobilePublicActions />\n' +
+    '        </PublicWorkspaceControls>\n' +
+    '        <OfflineNavigation />\n' +
+    '        <Toaster theme="light" position="top-center" offset="6rem" mobileOffset="6rem" closeButton visibleToasts={2} />\n' +
+    '      </body>\n' +
+    '    </html>\n' +
+    '  );\n' +
+    '}\n'
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/venezuela-agro-production-auth/tests/admin-navigation.test.mjs:49:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'import { MobilePublicActions } from "@/components/mobile-public-actions";\nimport { PublicWorkspaceControls } from "@/components/public-workspace-controls";\nimport { OfflineWorkerRegistration } from "@/components/offline-worker-registration";\nimport { robotsPolicy } from "@/lib/indexing-policy";\nimport { SITE_ORIGIN } from "@/lib/site-identity";\nimport type { Metadata, Viewport } from "next";\nimport { InstallAppBanner } from "@/components/install-app-banner";\nimport { AccountServices } from "@/components/account-services";\nimport {SocialFloatingMenu} from "@/components/social-links";\nimport {OfflineNavigation} from "@/components/offline-navigation";\nimport { Toaster } from "@/components/ui/sonner";\nimport "./globals.css";\n\nexport const metadata: Metadata = {\n  metadataBase: new URL(SITE_ORIGIN),\n  robots:robotsPolicy(),\n  title: {\n    default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",\n    template: "%s | VenezuelaAgro",\n  },\n  description:\n    "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",\n  applicationName: "Venezuela Agro",\n  appleWebApp: {\n    capable: true,\n    statusBarStyle: "black-translucent",\n    title: "Venezuela Agro",\n  },\n  formatDetection: { telephone: false },\n  manifest: "/manifest.webmanifest",\n  alternates: { canonical: "/" },\n  keywords: [\n    "finca Venezuela",\n    "agropecuaria Apure",\n    "ganadería Venezuela",\n    "Venezuela Agro",\n    "comprar y vender cosechas Venezuela",\n    "marketplace agropecuario",\n    "gestión de fincas",\n    "producción animal",\n  ],\n  icons: {\n    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/favicon.png", type: "image/png" }],\n    shortcut: "/favicon.ico",\n    apple: "/apple-touch-icon.png",\n  },\n  openGraph: {\n    type: "website",\n    locale: "es_VE",\n    siteName: "VenezuelaAgro",\n    title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",\n    description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",\n    images: [{ url: "/hero-apure.webp", width: 1536, height: 1024, alt: "Campo venezolano al amanecer" }],\n  },\n  twitter: {\n    card: "summary_large_image",\n    title: "Venezuela Agro",\n    description: "Campo, familia y tecnología para el productor venezolano.",\n    images: ["/hero-apure.webp"],\n  },\n};\n\nexport const viewport: Viewport = {\n  themeColor: "#211d1a",\n  colorScheme: "light",\n  width: "device-width",\n  initialScale: 1,\n  viewportFit: "cover",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{ children: React.ReactNode }>) {\n  return (\n    <html lang="es-VE">\n      <body className="min-w-0 overflow-x-clip antialiased">\n        {children}\n        <OfflineWorkerRegistration />\n        <AccountServices />\n        <PublicWorkspaceControls>\n          <InstallAppBanner />\n          <SocialFloatingMenu />\n          <MobilePublicActions />\n        </PublicWorkspaceControls>\n        <OfflineNavigation />\n        <Toaster theme="light" position="top-center" offset="6rem" mobileOffset="6rem" closeButton visibleToasts={2} />\n      </body>\n    </html>\n  );\n}\n',
+    expected: /<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<\/PublicWorkspaceControls>/,
+    operator: 'match',
+    diff: 'simple'
+  }

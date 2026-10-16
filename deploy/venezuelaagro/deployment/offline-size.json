@@ -1,0 +1,23 @@
+{
+  "revision": "morochos-v33800833767489",
+  "core": {
+    "assetCount": 199,
+    "knownBytes": 8015065,
+    "unmeasuredHtml": [
+      "/finca-modelo",
+      "/finca-demo",
+      "/biblioteca-local",
+      "/offline",
+      "/app-local"
+    ]
+  },
+  "optionalLibrary": {
+    "assetCount": 485,
+    "knownBytes": 20494516,
+    "sharedWithCoreBytes": 8013331,
+    "additionalKnownBytes": 12481185,
+    "htmlPages": 13
+  },
+  "combinedKnownUniqueBytes": 20496250,
+  "accountData": "Variable per account; not included in these public measurements. No third-party feeds requested."
+}

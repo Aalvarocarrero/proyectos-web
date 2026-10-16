@@ -1,0 +1,132 @@
+npm warn Unknown env config "http-proxy". This will stop working in the next major version of npm.
+
+> site-creator-vinext-starter@0.1.0 lint
+> bash scripts/sites-env.sh -- eslint . --ignore-pattern dist --ignore-pattern .next
+
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/app/aprende/[slug]/page.tsx
+  71:60  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  77:61  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/app/empresas/page.tsx
+  13:1847  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/app/fincas/[id]/page.tsx
+  19:852   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  19:1699  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/app/nosotros/page.tsx
+  6:35  warning  'Mail' is defined but never used  @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/agro-network.tsx
+   21:9     warning  'ProfileSocials' is defined but never used                                                                                                                                                                                                                                               @typescript-eslint/no-unused-vars
+   59:143   warning  React Hook useEffect has a missing dependency: 'load'. Either include it or remove the dependency array                                                                                                                                                                                  react-hooks/exhaustive-deps
+  102:644   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  102:1078  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  112:87    warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  113:137   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  119:3474  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/community-forms.tsx
+  95:483  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/company-directory.tsx
+  17:1934  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/company-manager.tsx
+  54:5504   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  54:6220   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  54:6559   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  54:10035  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/company-profile-view.tsx
+  11:543   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  11:1044  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  11:4705  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  11:5818  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/farm-aerial-proposal.tsx
+  13:78  warning  The ref value 'serial.current' will likely have changed by the time this effect cleanup function runs. If this ref points to a node rendered by React, copy 'serial.current' to a variable inside the effect, and use that variable in the cleanup function  react-hooks/exhaustive-deps
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/farm-masterplan-webgl.tsx
+  170:4  warning  React Hook useEffect has missing dependencies: 'props.interactionBlocked', 'props.preview', and 'props.tourPaused'. Either include them or remove the dependency array  react-hooks/exhaustive-deps
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/home-content-editor.tsx
+  101:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/image-share.tsx
+  65:14  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/learning-catalog.tsx
+  32:7  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/listing-form.tsx
+  237:108  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/marketplace-detail.tsx
+  15:2550  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/marketplace-gallery.tsx
+  13:596  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  15:536  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/marketplace-publish-extras.tsx
+  14:1285  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  14:1901  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/marketplace-related-card.tsx
+  22:16  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/mobile-public-actions.tsx
+  21:18  error  Error: Calling setState synchronously within an effect can trigger cascading renders
+
+Effects are intended to synchronize state between React and external systems such as manually updating the DOM, state management libraries, or other platform APIs. In general, the body of an effect should do one or both of the following:
+* Update external systems with the latest state from React.
+* Subscribe for updates from some external system, calling setState in a callback function when external state changes.
+
+Calling setState synchronously within an effect body causes cascading renders that can hurt performance, and is not recommended. (https://react.dev/learn/you-might-not-need-an-effect).
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/mobile-public-actions.tsx:21:18
+  19 |   const titleId=useId();
+  20 |   const install=useSyncExternalStore(subscribeInstallAction,installActionSnapshot,installActionServerSnapshot);
+> 21 |   useEffect(()=>{setOpen(false);},[pathname]);
+     |                  ^^^^^^^ Avoid calling setState() directly within an effect
+  22 |   useEffect(()=>{
+  23 |     let frame=0;
+  24 |     const measure=()=>{  react-hooks/set-state-in-effect
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/professional-directory.tsx
+  38:68  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/professional-profile-view.tsx
+  18:11  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/components/store-catalog.tsx
+  104:13   warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+  116:632  warning  Using `<img>` could result in slower LCP and higher bandwidth. Consider using `<Image />` from `next/image` or a custom image loader to automatically optimize images. This may incur additional usage or cost from your provider. See: https://nextjs.org/docs/messages/no-img-element  @next/next/no-img-element
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/learning/farm-learning-depth.js
+   3:10  warning  'depthMarkup' is defined but never used     @typescript-eslint/no-unused-vars
+   8:10  warning  'renderMode' is defined but never used      @typescript-eslint/no-unused-vars
+  17:10  warning  'playModeMarkup' is defined but never used  @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/lib/community-network-db.ts
+  11:9   warning  'imageDataUrl' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  11:22  warning  'actingUserId' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  39:23  warning  'actingUserId' is assigned a value but never used  @typescript-eslint/no-unused-vars
+  39:36  warning  'imageKey' is assigned a value but never used      @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/audit-endpoints.test.mjs
+  13:349  warning  'consent' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/farm-asset-pack-worker.test.mjs
+  60:7  warning  'tick' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/marketplace-details.test.mjs
+  3:144  warning  'listingPayloadSchema' is assigned a value but never used  @typescript-eslint/no-unused-vars
+
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/offline-storage.test.mjs
+  159:41  warning  'options' is defined but never used  @typescript-eslint/no-unused-vars
+
+✖ 51 problems (1 error, 50 warnings)
+

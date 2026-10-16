@@ -1,0 +1,29 @@
+[33m▲ [43;33m[[43;30mWARNING[43;33m][0m [1mProxy environment variables detected. We'll use your proxy for fetch requests.[0m
+
+
+Local runtime compatibility override: 2026-05-22; deployment artifact remains 2026-10-14. This is not exact-runtime parity.
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mFailed to write to log file Error: ENOENT: no such file or directory, mkdir '/home/agent/.config/.wrangler'[0m
+
+      at async Object.mkdir (node:internal/fs/promises:916:10)
+      at async ensureDirectoryExists (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:49645:3)
+      at async /workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:49720:7
+      at async Mutex.runWith (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/miniflare/dist/src/index.js:58160:48)
+      at async appendToDebugLogFile (/workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/wrangler/wrangler-dist/cli.js:49718:3) {
+    errno: -2,
+    code: 'ENOENT',
+    syscall: 'mkdir',
+    path: '/home/agent/.config/.wrangler'
+  }
+
+
+[31m✘ [41;31m[[41;97mERROR[41;31m][0m [1mWould have written: [0m
+
+  --- 2026-10-15T21:01:40.689Z debug
+  🪵  Writing logs to "/home/agent/.config/.wrangler/logs/wrangler-2026-10-15_21-01-40_480.log"
+  ---
+  
+
+
+PASS: compiled production Worker; public browsing/local shell; canonical/noindex; spoofed headers; protected/private APIs; owner-only CMS save/publish; CSRF; duplicate cookies; expiry.
+Synthetic-only ephemeral D1 and disabled outbound providers; no deployment or live integration claim.
+🪵  Logs were written to "/home/agent/.config/.wrangler/logs/wrangler-2026-10-15_21-01-40_480.log"

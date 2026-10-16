@@ -1,0 +1,1790 @@
+✔ registration contact requires email and valid phone; matching a different account is refused (3.05685ms)
+✔ disabled biometric routes refuse credential registration and authentication (54.334726ms)
+✔ authorized admin header renders explicit home and logout controls before any client fetch (22.347944ms)
+✔ each shortcut targets an offset section and headings wrap at narrow widths (2.037424ms)
+✔ admin signout reuses offline safety and a cancellable focus-managed dialog (0.74107ms)
+✖ only public promotional overlays are suppressed on admin, while connection and account services remain (2.131972ms)
+✔ RGB criteria are conservative color labels, not semantic inventory (1.257981ms)
+✔ components remain separate, include masks and rectangular envelopes, and respect contour (2.1111ms)
+✔ tiny and transparent regions are omitted and malformed or oversized input is rejected (1.759219ms)
+✔ scale preserves image aspect, is optional and rejects coincident or tiny baselines (0.149326ms)
+✔ image assistant is local review-only, account-scoped and never applies detections or creates animals (2.914785ms)
+✔ disabled release and absent transport never load or send, including a saved grant (2.581331ms)
+✔ basic consent: absence and refusal make zero transport calls, and explicit opt-in starts one canonical page view (0.602129ms)
+✔ versioned browser preference restores; malformed, historical and tampered values never grant (0.278701ms)
+✔ only exact HTTPS production host and section roots are eligible; previews and private/detail paths always fail closed (0.619726ms)
+✔ payload contains only canonical public page fields and advertisements stay denied (0.192451ms)
+✔ revocation blocks pending work first, stops transport and removes only owned cookies; consent can be granted again (0.272972ms)
+✔ private navigation, URL queries and cross-tab revocation invalidate callbacks even before the next React update (0.345071ms)
+✔ public route changes refresh canonical context and cancel the previous page lifetime (0.208124ms)
+✔ storage failures never grant; revocation shuts down even when persistence fails (0.449679ms)
+✔ late initialization cannot outlive revocation or unmount, and adapter failures fail closed (0.292763ms)
+✔ staged component is in normal document flow and cannot interfere with installation or ideas (5.274532ms)
+✔ server rendering emits no consent panel, preload or external tag before browser checks (37.719896ms)
+✔ land and animal categories use distinct consistent semantic SVG icons (12.438178ms)
+✔ release and verified-enhanced-measurement gates default off and prevent script creation (2.200956ms)
+✔ script is requested only after opt-in; manual page view waits for mocked load (1.729614ms)
+✔ global and stream configuration enforce fixed context, manual page views, denied Ads and prefixed host-only cookies (0.487717ms)
+✔ all excluded hosts, private/detail pages, queries and hashes make zero Google script requests (0.313534ms)
+✔ live Google disable flag blocks automatic sends immediately when URL or stored consent changes (0.580077ms)
+✔ revocation disables first, denies consent, discards app queue, removes only owned script and cookies (0.420426ms)
+✔ revocation or private navigation during load prevents late configuration and queued views (0.329858ms)
+✔ interrupted script load cannot silently retry in the same document; a new document is required (0.430301ms)
+✔ loaded Google runtime is reused across approved public navigation without reloading or clearing session cookies (0.449218ms)
+✔ another pre-existing Google integration is not adopted or overwritten (0.286913ms)
+✔ stale adapter stop cannot disable a newer page lifetime and direct fake payloads cannot add private fields (0.289077ms)
+6:59:48 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ individual dossier exposes explicit identity and unknown age without fabricated indicators (15.630282ms)
+✔ dated graph contains only exact animal and farm measurements, keeps uncharted old history visible (4.937602ms)
+✔ one measurement never creates an interpolated chart or target (2.760922ms)
+✔ health separates exact links from matching names, group records and other farms (2.551035ms)
+✔ demo uses the same dossier while keeping synthetic labels and no backed-up claim (2.640671ms)
+✔ new health form records exact ID and farm with user-chosen type and no automated medication (9.340025ms)
+✔ invalid calendar dates, nonpositive weights and backwards next dates never call save (8.785868ms)
+✔ identity correction preserves placement and unknown history fields, and date may stay unknown (2.62006ms)
+✔ reproductive record is explicit history and never creates pregnancy predictions or offspring (1.450602ms)
+✔ real and demo map paths pass exact animal roster and open the shared dossier (6.729921ms)
+✔ correcting identity never silently erases an old unparseable birth date (2.087094ms)
+✔ readonly model keeps identity, graphs and histories but exposes no save or edit entrypoints (10.107485ms)
+✔ readonly showcase passes exact roster and callback while blocking interaction for animal dossier (1.862375ms)
+✔ editable maps block motion for parent and internal dialogs without rebuilding unchanged geometry (1.811248ms)
+6:59:49 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ local queue checks same-farm, animal type, account namespace and expected owner before committing (16.44318ms)
+✔ local correction preserves unknown details and identity, checks stale snapshots, and never duplicates a record (3.406759ms)
+✔ animal deletion retains linked history; unchanged orphan edits work while new links and relinks fail (2.979914ms)
+✔ a linked animal cannot change farm or kind; normal deletion and unrelated records remain supported (2.292835ms)
+✔ invalid typed events fail inside the local transaction without partial outbox writes (2.233936ms)
+✔ restore validates the actual destination graph when an incoming animal ID is protected by an existing record (10.56743ms)
+✔ restore rejects an explicit foreign-owner target collision even within the same farm (1.292062ms)
+✔ imported owner metadata is provenance, allowing local-only correction and re-export of recovered dossiers (3.482804ms)
+✔ pending-only target records also protect imports from known incompatible ID collisions (1.837317ms)
+✔ an animal cannot be converted into a self-referencing history event (1.030277ms)
+6:59:50 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ actual sync stores linked typed health and reproduction, preserves unknown fields and replays without duplicates (41.318092ms)
+✔ new references reject foreign farm, owner, kind, deletion, missing ID and forged local owner (19.656637ms)
+✔ server schema rejects malformed event dates and types while old unlinked records remain supported (16.098409ms)
+✔ omitted identity and link fields from older clients are preserved and stale edits cannot erase corrections (12.906236ms)
+✔ animal deletion keeps linked histories intact and only unchanged historical links can still be edited (10.499838ms)
+✔ linked animals cannot move farms or change record type; the original dossier is unchanged (4.832994ms)
+✔ a target deleted or moved after preflight cannot accept a new linked event in the final SQL write (7.207673ms)
+✔ a linked history arriving after move preflight atomically prevents moving the animal (7.365662ms)
+✔ a concurrent correction invalidates a merged old-client write without dropping the newer identity (4.218796ms)
+✔ converting an unlinked animal into an event still enforces the linked-target atomic guard (4.079646ms)
+✔ an animal cannot be converted into an event linked to its own record ID (2.766712ms)
+6:59:51 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ calendar dates reject rollovers, timestamps, unknown dates and non-leap centuries (1.477944ms)
+✔ only explicit same-farm IDs form a dossier; dates are never inferred and input is unchanged (1.929206ms)
+✔ typed linked events validate enum, date, link kind and text while retaining legacy and unknown data (4.69166ms)
+✔ old-client updates preserve identity and unknown fields without cross-farm/type carryover or restoring cleared placement (0.272311ms)
+✔ backup graph rejects known cross-farm, wrong-kind and cross-owner animal links before import (3.277774ms)
+✔ backup recovery preserves orphan IDs and old unlinked records without guessing or fabricating animals (0.338572ms)
+✔ a backup pending edit from an old client preserves the cached animal identity and linked event fields (0.663212ms)
+✔ backup self-reference cannot masquerade as a historical missing animal (0.286923ms)
+6:59:51 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ split derives two owned areas from saved geometry and commits both revisions plus receipt in one transaction (23.251669ms)
+✔ identical operation replays without another transaction or a second division (4.2815ms)
+✔ operation ID cannot be reused with any altered source, child or revision (7.704235ms)
+✔ a later edit cannot be overwritten or divided again by the old operation (4.127848ms)
+✔ replay never resurrects a deleted child or source, or a deleted parent (5.047478ms)
+✔ stale source and parent revisions leave all rows unchanged (2.370011ms)
+✔ owner mismatch, missing login, and cross-site requests cannot mutate private records (2.906994ms)
+✔ a foreign parent, deleted parent, and source tombstone are rejected (3.697207ms)
+✔ source changing after preflight makes CAS and both dependent inserts change zero rows (2.1968ms)
+✔ parent deletion, edit or ownership change after preflight blocks the source CAS itself (5.368784ms)
+✔ an existing child ID triggers constraint failure and rolls back the source update (3.399618ms)
+✔ injected failure after the source or child write rolls back every write and permits a safe retry (5.56512ms)
+✔ concurrent identical attempts converge to one persisted split (2.775826ms)
+✔ two different split intents for the same source cannot both succeed (2.860924ms)
+✔ concurrent reuse of an operation ID with a different child is rejected (2.305874ms)
+✔ an operation ID claimed by ordinary sync before or during preflight cannot be claimed by a split (2.567511ms)
+✔ a different owner cannot replay an accepted split or read its records (2.751668ms)
+✔ malformed IDs, untrusted geometry, missing revisions, and oversized JSON are rejected (4.464768ms)
+✔ non-area records and invalid or too-small area payloads cannot be divided (11.694794ms)
+✔ legacy empty revisions remain valid CAS values and titles stay within sync limits (1.887913ms)
+✔ linked records prevent splitting without silently assigning them to a new half (1.351743ms)
+✔ a link arriving after split preflight is caught inside the atomic update (1.565206ms)
+6:59:52 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ private farm creates, conflicts preserve newer data, and last-operation replay survives receipt interruption (48.632838ms)
+✔ tombstones block stale resurrection and bootstrap returns deletion evidence (20.940066ms)
+✔ concurrent cross-owner creation cannot transfer ownership and receipt collisions mutate nothing (20.694404ms)
+✔ image namespaces are independent and unapproved/withdrawn media is not public (18.345946ms)
+✔ older public consent cannot override current refusal (3.086906ms)
+✔ business quote survives submission to administrative view with every requested detail (5.958095ms)
+✔ moderation rejects withdrawn content and stale reviewed revisions (9.728652ms)
+✔ JSON-LD safely contains hostile closing tags without executing markup (0.365843ms)
+✔ only the expressly approved owner has administrative access (2.34918ms)
+✔ professional photo-free details and current immutable media paths survive bootstrap/validation (5.695878ms)
+✔ idea feedback is durably acknowledged once and visible to the approved administrator (5.00915ms)
+✔ private geometry roundtrips and older clients preserve additive fields until explicitly cleared (17.344823ms)
+✔ publication requires a stored available photograph and keeps incomplete drafts unchanged (12.050952ms)
+✔ area references enforce owner and farm boundaries, preserve legacy omission and allow explicit unlink (49.219955ms)
+✔ animal diagram placements retain old-client omission, clear explicitly and reject new movement to removed area (20.486141ms)
+✔ endpoint-only publication lifecycle enforces owner boundaries, reviewed versions, public projection and private withdrawal (90.34745ms)
+✔ actual sync rejects mismatched or anonymous owners before writing records, receipts or media (1.182808ms)
+✔ market gallery and seller images persist with optional attributes and obey active owner media rules (13.822469ms)
+✔ untrusted legacy contact cannot forge gallery or seller image ownership (8.744816ms)
+✔ removed listing images cannot be reauthorized by professional or farm JSON aliases (7.018276ms)
+✔ raster validation rejects forged image labels before storage or a listing write (2.390252ms)
+✔ internal storage errors are not returned verbatim and identical operations can retry safely (5.075351ms)
+✔ admin snapshots are private and malformed legacy project lists do not break bootstrap (6.532573ms)
+✔ invalid anonymous submissions and unsupported deletes do not persist receipt spam (4.732703ms)
+✔ immutable order IDs confirm identical retries and reject changed content rather than falsely accepting it (15.7678ms)
+✔ concurrent different order or feedback content cannot both receive accepted acknowledgements (5.309875ms)
+✔ diagnostic: valid anonymous bursts currently have no application rate limiter (244.054545ms)
+✔ a stalled shared preflight times out for all callers and the next attempt can recover (4.573462ms)
+✔ the preflight deadline also bounds a stalled response body (0.762462ms)
+✔ canceling a single waiter promptly rejects without canceling its shared preflight (0.667319ms)
+✔ a concurrent surviving waiter uses the same CSRF response after another caller cancels (1.002485ms)
+✔ Request signal cancellation is honored and an already aborted caller starts no preflight (1.552777ms)
+✔ Sites, safe methods and external requests remain direct fetches (1.060623ms)
+6:59:54 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ accepts the versioned backup format without executing embedded text (3.634333ms)
+✔ rejects unknown formats, versions, types, dates, keys and duplicate entities before writes (2.439767ms)
+✔ rejects prototype pollution keys recursively and leaves object prototypes untouched (0.486826ms)
+✔ bounds bytes, depth, array sizes and malformed JSON (17.234065ms)
+✔ rejects malformed render-critical entity and upsert payloads before persistence (1.335368ms)
+6:59:55 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ portable records and binary assets roundtrip across all immutable migrations and every populated application table (127.458481ms)
+✔ restored bootstrap isolates owners, preserves direct and inherited tombstones, and rejects cross-owner writes (20.578109ms)
+✔ restored publication and R2 bytes obey public, private, withdrawn and unreferenced media boundaries (37.419792ms)
+✔ restored accepted and interrupted sync receipts replay idempotently without losing revisions or resurrecting tombstones (31.296618ms)
+✔ restored order and anonymous feedback receipts prevent duplicates, including interrupted acceptance (23.121474ms)
+✔ restored consent revocation and retired security history remain effective and unchanged (15.043605ms)
+✔ record, ownership, publication and media corruption cannot pass the separately retained archive digest (15.53636ms)
+✔ structural, relational and asset validation rejects incomplete but rehashed synthetic archives (194.808036ms)
+✔ interrupted staged asset restoration leaves the active database and bucket untouched and supports a clean retry (44.139958ms)
+6:59:57 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ only CSS-only placeholders with preserved styles are eligible for reconciliation (3.37432ms)
+✔ deleted CSS placeholder preload is removed while its stylesheet remains (0.461277ms)
+✔ missing real JavaScript or missing CSS makes the build fail closed (0.554338ms)
+✔ existing placeholders and subpath bases retain valid dependencies (0.175075ms)
+✖ rendered routes preload only files present in the packaged client (83.974909ms)
+✔ legacy professionals remain valid; companies require corporate identity; unsafe links are rejected (3.758871ms)
+✔ private registration fields never appear in the published farm; ownership and review are enforced (20.772458ms)
+✔ retries do not multiply likes and a stale retry cannot restore a removed like (12.429085ms)
+✔ shared marketplace announcements require an active listing and active owned farm, then keep moderation and safe removal (13.990313ms)
+✔ anonymous community stays public; once signed in the original boundary survives logout and account prop changes (45.571872ms)
+✔ own community posts reject late reads after logout, owner change, blocking or effect cleanup (30.426654ms)
+✔ same-owner pending reads retain only own records; blocked and different-account reads never begin (13.456126ms)
+✔ account locks pause refresh and mutations and reject late feed responses without deleting drafts (0.607358ms)
+6:59:59 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ business registration requires authenticated identity, same origin, confirmed contact and current public consent (22.264878ms)
+✔ input validation rejects restricted catalogue items, unsafe links, duplicated IDs, money and oversize photos (4.530758ms)
+✔ new businesses and photographs are private until moderation, with no fake seed companies (20.319458ms)
+✔ approved directory data is public and searchable without owner or revision leakage (6.579203ms)
+✔ owner edits reset moderation, stale writes preserve newest content and old media paths stop resolving (8.754705ms)
+✔ foreign or unreferenced media keys cannot be adopted by a different company (2.592889ms)
+✔ marketplace links must be active and owned, and disappear if that listing is later withdrawn (7.785096ms)
+✔ moderation checks referenced photographs and withdrawal is revision-checked and owner-only (11.060285ms)
+✔ untrusted ownership/status are ignored, oversized requests and spoofed rasters never persist (3.231294ms)
+✔ partial storage failure cleans new objects and leaves database unchanged (1.742804ms)
+✔ an edit race after uploads cannot overwrite a more recent revision or delete its images (3.590436ms)
+✔ account changes cannot submit an old draft or hydrate the previous account panel (1.401327ms)
+7:00:00 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ business directory has separate registration and complete accessible filters (156.7077ms)
+✔ empty directory truthfully reports no businesses without inserting demos (2.525677ms)
+✔ profile renders own contact and marketplace links, with regulated-goods warning (432.609777ms)
+✔ form has native validations, retained draft actions and image limits (46.559095ms)
+✔ veterinary example is editorial only with disabled contact and no fabricated prices (21.973387ms)
+✔ company catalog supports all shared currencies, keeps original amounts and converts only stated prices (29.226269ms)
+7:00:01 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ offline is visibly local and pending records remain pending (1.138641ms)
+✔ online never becomes proof of synchronization (0.123617ms)
+✔ unknown queue is not zero and demo reads no real records (0.366944ms)
+✔ unknown connection is never described as offline (0.162416ms)
+✔ header control listens to actual events, preserves demo isolation and stays in flow (10.374179ms)
+✔ headers own a single connection control; dashboard and game do not acquire a duplicate (6.344098ms)
+7:00:02 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ five official institution marks exist and six service cards reuse the appropriate identity (152.451819ms)
+✔ visible brand uses the complete name while contact address and learning slug remain stable (5.668727ms)
+✔ project and platform-idea copy remain distinct without rerouting stored entities (1.868184ms)
+✔ one safely encoded contextual message preserves domain, interest, Unicode and punctuation (1.947704ms)
+✔ missing opt-in, malformed number, private-shaped data and demos never produce destinations (18.212274ms)
+✔ company and product contacts refer to exact visible context; photo comes before CTA (37.37844ms)
+✔ professional profile CTA follows photo and carries service plus name (36.582336ms)
+✔ social controls validate recorded URLs and never make demo placeholders actionable (3.115088ms)
+✔ farm opt-in is optional for legacy records and community uses only public opted-in contacts (153.945229ms)
+✔ store and projects expose honest unavailable contact without leaking order or proposal phones (1.841513ms)
+✔ Contacto y Alianzas publishes only the approved Morochos number with the section message (87.524848ms)
+✔ default sample limit preserves every real and founder row without modifying data (2.01127ms)
+✔ matching examples are selected after filters, even when the default sample does not match (0.188325ms)
+✔ professional directory starts with one sample and preserves founder plus real entries (640.993811ms)
+✔ finca and community lists start with one sample while preserving real rows (203.418418ms)
+✔ navigation marks descendants without marking similarly named routes or anchors (0.813159ms)
+✔ preview is non-indexed, labels examples and does not persist or transmit its sample form (3.37395ms)
+✔ connection indicator never equates browser connectivity with confirmed sync (1.811017ms)
+✔ shared controls preserve the brand and expose active, invalid and touch states (1.18423ms)
+✔ filters restore accents and categories without dropping route context (3.251826ms)
+✔ reset removes all filters while preserving unrelated parameters and anchors (0.258681ms)
+✔ return navigation cannot be redirected outside its directory (0.179321ms)
+✔ all three directories keep filters and detail pages offer a safe return (5.946302ms)
+✔ company form checks the existing schema before any submission (0.84037ms)
+✔ demo company profiles gate all outbound commercial actions even with contact data (581.773493ms)
+✔ all sixteen licensed bundled resources have exact byte hashes and stay under the mobile transfer budget (12.999197ms)
+✔ GLB gate rejects external buffers, external images and decoder dependencies before parsing (0.903706ms)
+✔ cattle: actual GLTFLoader parses embedded materials and creates shared bounded instances (47.211352ms)
+✔ pig: actual GLTFLoader parses embedded materials and creates shared bounded instances (13.980351ms)
+✔ hen: actual GLTFLoader parses embedded materials and creates shared bounded instances (7.725837ms)
+✔ horse: actual GLTFLoader parses embedded materials and creates shared bounded instances (14.81356ms)
+✔ goat: actual GLTFLoader parses embedded materials and creates shared bounded instances (5.477078ms)
+✔ sheep: actual GLTFLoader parses embedded materials and creates shared bounded instances (4.934589ms)
+✔ rabbit: actual GLTFLoader parses embedded materials and creates shared bounded instances (11.744807ms)
+✔ duck: actual GLTFLoader parses embedded materials and creates shared bounded instances (7.354791ms)
+✔ rooster: actual GLTFLoader parses embedded materials and creates shared bounded instances (5.203725ms)
+✔ natural foliage has a bounded silhouette, real cutout UVs and a low shared triangle budget (6.209635ms)
+✔ scene preserves controls, positional records, fallback and cancellation while loading only local detail assets (2.470023ms)
+✔ cattle model has appropriate anatomy and finite reusable merged geometry (18.964919ms)
+✔ pig model has appropriate anatomy and finite reusable merged geometry (6.665766ms)
+✔ hen model has appropriate anatomy and finite reusable merged geometry (2.141727ms)
+✔ foliage is a bounded shared irregular crown rather than identical perfect spheres (0.86023ms)
+✔ saved crop and use drive imagery without inventing crops from notes or animal links (2.537515ms)
+✔ facility symbols use an interior circle in concave and narrow polygons without changing geometry (1.073122ms)
+✔ plant arrangement is deterministic and bounded across repeated renders (8.842169ms)
+✔ all bundled transparent aerial assets retain reviewed bytes and fit offline budget (14.45001ms)
+✔ animals appear only from explicit fictional positions in their exact linked demo area (14.007371ms)
+✔ area names appear only when they fit while the stored full title remains unchanged (0.571173ms)
+✔ coat detail preserves color, embedded map, shape and material identity (8.086582ms)
+✔ eyes, snout, hoof, horn, comb, beak and unknown materials stay authored (2.054515ms)
+✔ authored normal, bump or roughness maps and missing UVs are never overwritten (0.943716ms)
+✔ four deterministic shared 64-square mipmapped data textures bound memory and distant aliasing (13.787359ms)
+✔ actual nine bundled GLBs retain markings, anatomy, protected materials and instance budgets (99.165657ms)
+✔ plans and poses are deterministic, preserve frozen inputs and never infer or reposition records (8.358704ms)
+✔ hard cap is eight; exclusions and invalid duplicate identities stay stationary (1.039381ms)
+✔ rest intervals, resets and loop boundaries are position/orientation continuous with zero endpoint velocity (0.364ms)
+✔ swept body footprint stays inside concave enclosure and property with either winding at every phase (18.270734ms)
+✔ buildings, troughs, thin barriers and stationary neighbours constrain the full route (2.651277ms)
+✔ invalid geometry, scales and over-budget input fail closed instead of sampling or ignoring obstacles (0.760139ms)
+✔ actual showcase plans use existing nearby animals and preserve all saved positions/counts (138.225309ms)
+✔ clearance disks contain the actual schematic animal meshes at every root orientation (88.330867ms)
+✔ module owns no rendering loop, storage, mutation or network effects (1.145772ms)
+7:00:09 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ adaptive detail reaches any nearby animal, never only the first eighteen records (1.087104ms)
+✔ correction is deterministic, idempotent and preserves original texture objects (8.844157ms)
+✔ offline pig and cattle retain species-defining anatomy and bounded material draws (9.676875ms)
+✔ LOD keeps both bindings, hides inactive instances during movement and changes on camera position (2.023007ms)
+7:00:10 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ only typed same-farm area links are confirmed; text stays possible and weight location is not inferred (1.961896ms)
+✔ unknown uses remain in the territory layer and greenhouse joins crops (0.690804ms)
+✔ new fictional fixture links resolve inside its own farm and does not link finance by guess (3.189661ms)
+✔ each real area use has a distinct original top-down representation and category remains authoritative (17.065172ms)
+✔ tiny shapes omit decorative detail and intermediate areas use a simpler drawing (2.980155ms)
+✔ top-down artwork stays within the existing per-area clip and never writes geometry or data (1.902165ms)
+✔ explicit crop fields choose six matching bundled silhouettes in clipped2D artwork (10.385697ms)
+✔ local status reads use only the worker and never start a download (3.909999ms)
+✔ progress does not resolve the promise; only a final verified worker result does (0.825487ms)
+✔ already-aborted and cancelled registration cannot start a download (0.68174ms)
+✔ active cancellation targets the exact attempt and closes the reply port (0.972791ms)
+Paquete 3D: diagnóstico de descarga { code: 'worker_timeout' }
+✔ inactivity timeout requests cancellation and never manufactures a ready state (0.904417ms)
+✔ public cancellation helper cancels active operations and cannot reach completed attempts (0.657203ms)
+✔ worker controller takes precedence over a different registration active worker (0.520496ms)
+✔ compact Spanish control exposes explicit download, cancel, retry, progress and storage honesty without requesting permissions (2.061546ms)
+Paquete 3D: diagnóstico de descarga { code: 'worker_timeout' }
+✔ unresponsive old worker status gives an update/reload instruction rather than an asset-download failure (0.691946ms)
+Paquete 3D: diagnóstico de descarga {
+  code: 'http',
+  path: '/offline-assets.json',
+  httpStatus: 401,
+  deployment: 'morochos-v18',
+  phase: 'checking'
+}
+✔ structured worker diagnostics remain available in the page for browser QA without exposing raw exception text (0.829344ms)
+✔ install does not preload 3D files; download discovers all assets, counts checked bytes and saves notices (37.197636ms)
+✔ ready is derived from cached index, manifest, every hash and app shell without any network call (34.414645ms)
+✔ corrupted asset, missing notice, modified manifest and missing code invalidate local readiness (62.201553ms)
+✔ invalid file hashes and byte lengths never commit and preserve the prior complete pack (55.811919ms)
+✔ manifest rejects private/API/external/query/traversal paths, arbitrary licenses and duplicate files before fetching them (82.935195ms)
+✔ cancellation removes stage, preserves old pack and cannot cancel a later attempt using an old request ID (40.050259ms)
+✔ a stage is never served or reported ready and simultaneous downloads share one download (10.073664ms)
+✔ changed manifest or deployment during download prevents publishing a mixed version (16.177289ms)
+✔ no-store, redirected and unavailable resources cannot produce a ready pack (21.102452ms)
+✔ old deployment pack is not claimed ready by a newer application shell (11.959625ms)
+✔ retry clicked immediately after cancellation waits for discarded stage and starts a fresh attempt (18.069288ms)
+✔ currently shipped asset manifest downloads and serves every real file with exact bytes offline (94.780272ms)
+✔ private Site access gate receives same-origin credentials for fixed generic files, without allowing external or private URLs (20.427992ms)
+✔ early HTTP, cache-policy, origin, invalid JSON and fetch failures identify the public resource and deployed worker (23.243388ms)
+✔ private cache directive allows verified generic files in this browser, but no-store still refuses them (37.211708ms)
+✔ farm fetch entrypoint itself rejects private, API, external and unlisted paths before sending any request (2.033203ms)
+7:00:12 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ asset queue prioritizes ordered tasks and caps concurrency at two (14.318959ms)
+✔ cancelled queues never start remaining network work (0.438242ms)
+✔ enrichment starts on a later animation frame and is cancelled on cleanup (1.466538ms)
+7:00:12 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ original barn keeps detachable roof and visible interior without inferred inventory (13.205175ms)
+✔ pig bedding and feeder stay low while posts, roof and exact collision volumes remain available (5.363129ms)
+✔ 85 explicit demo plants share positions across renderers with21 distinct palms; existing stock/land unchanged (6.280475ms)
+✔ every planting footprint clears gates, roads, crops, buildings, animals and troughs (7.2356ms)
+✔ rejects real-farm inference, malformed dimensions, invalid positions; cap and subsequent edits remain safe (4.968793ms)
+✔ local palm mesh is low-poly, finite and physically bounded; no textures or download dependencies (45.553133ms)
+✔ practice templates do not clone fixture infrastructure; edits preserve config and split never duplicates it (125.520324ms)
+✔ visibility caps examined malformed proposals and keeps full-size animal clearance after a planting layout shrinks (1.136278ms)
+✔ scale fallback stays bounded with a large rejected demo accessory list (0.204839ms)
+✔ segment clearance rejects crossings and grazing contacts, including long jumps over narrow posts (0.920812ms)
+✔ safe return exits under a roof before ascending and fails closed when embedded in a wall (1.232704ms)
+✔ blocked barn aisle is skipped rather than flying through its door or fabricating an interior (0.721421ms)
+✔ empty farm has no invented cinematic subjects (0.115244ms)
+✔ six explicit crop kinds use the existing editable crop labels (2.934206ms)
+✔ Tomate: grounded distinct bounded geometry with shared reusable buffers (26.534139ms)
+✔ Maíz: grounded distinct bounded geometry with shared reusable buffers (7.365225ms)
+✔ Cebolla: grounded distinct bounded geometry with shared reusable buffers (6.793121ms)
+✔ Cilantro: grounded distinct bounded geometry with shared reusable buffers (4.604402ms)
+✔ Perejil: grounded distinct bounded geometry with shared reusable buffers (9.862051ms)
+✔ Soya: grounded distinct bounded geometry with shared reusable buffers (2.504857ms)
+✔ botanical features differ: fruits, tassel, bulb, lobed/curled foliage and trifoliate pods (15.95919ms)
+✔ vaquera is a bounded distinct facility symbol (3.217094ms)
+✔ fence is a bounded distinct facility symbol (0.886921ms)
+✔ gate is a bounded distinct facility symbol (1.340547ms)
+✔ structure classification uses category/custom usage without guessing from titles (0.87947ms)
+✔ illustrative crop rows fit both concave saved boundaries, remain bounded and never imply counts (1.749876ms)
+✔ adapter metadata preserves actual records, geometry, dimensions and persistence schema (4.17346ms)
+✔ catalog selection reaches both existing area draft flows before normal confirmation (7.368651ms)
+✔ lagoon ellipse calculations use declared length and width, without treating one diameter as an ellipse (0.650764ms)
+✔ explicit layout v2 preserves small dimensions and inverse-viewport offsets; invalid values use legacy fallback (0.798677ms)
+✔ fences have no opaque area fill and explicit crop fence flags are not inferred (2.642685ms)
+✔ six locally bundled geometry previews are lightweight valid WebP files (4.70289ms)
+✔ crop row marks cover both axes of the full plot before the visual count is capped (2.256932ms)
+✔ v2 split preserves negative origin, exact half footprints and declared area without jumping to legacy minima (2.000946ms)
+✔ invalid or unsplittably small v2 geometry is rejected instead of silently changing size or coordinates (0.73427ms)
+✔ fresh demo areas never inherit template fencing, proportional layouts, measured dimensions or crop notes (0.888273ms)
+✔ version 10 is one isolated fictional 400 × 250 m property with a 1.6-aspect sketch (7.52949ms)
+✔ all 41 saved v2 layouts preserve physical proportions, bounds and honest area arithmetic (2.046813ms)
+✔ exactly six explicit crops match the closed catalog; buildings and unequal water footprints remain distinct (0.629201ms)
+✔ the full fence outlines the exact property and gated roads reach its perimeter (0.350911ms)
+✔ 101 explicitly positioned fictional records cover all 20 supported kinds in suitable saved areas (11.878432ms)
+✔ the enlarged saved herds have exact bounded counts and preserve the original 45 animal IDs (4.468252ms)
+✔ every saved animal has a non-overlapping physical footprint inside its linked area (1.774512ms)
+✔ four saved fictional water troughs fit paddock corners without overlapping animals or adding land area (0.713659ms)
+✔ version 10 adds clearly fictional exact-linked health and reproduction while preserving legacy group records (0.580237ms)
+7:00:17 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ demo Resumen renders real seeded content without real data status (91.027295ms)
+✔ demo Animales renders real seeded content without real data status (85.594169ms)
+✔ demo Pesajes renders real seeded content without real data status (68.911046ms)
+✔ demo Plano y potreros renders real seeded content without real data status (45.050695ms)
+✔ demo Producción renders real seeded content without real data status (4.366879ms)
+✔ demo Planificación y costos renders real seeded content without real data status (10.260377ms)
+✔ demo Inventario renders real seeded content without real data status (6.437188ms)
+✔ demo Mis publicaciones renders real seeded content without real data status (2.700221ms)
+✔ demo Sincronización renders real seeded content without real data status (3.290884ms)
+✔ demo Seguridad y privacidad renders real seeded content without real data status (2.390363ms)
+✔ demo Configurar finca renders real seeded content without real data status (3.206586ms)
+✔ empty and fully deleted demo renders explicitly without automatically restoring fixtures (2.316861ms)
+✔ animal and weight views render one card per unique animal and one dated entry per measurement (56.783838ms)
+✔ animal cards never expose raw undefined/null for missing optional fixture values (19.474502ms)
+✔ large practice herd can be filtered without deleting animals or their histories (5.138486ms)
+7:00:19 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ concurrent first opens initialize exactly one isolated complete fictional workspace (14.41149ms)
+✔ all current record types can be edited and persist after reopening (89.600063ms)
+✔ farm and listing edits remain local, and derived plan totals are recalculated (7.422408ms)
+✔ invalid geometry, missing farm relations and overflowing allocated area abort the entire mutation (21.812866ms)
+✔ demo animal deletion atomically removes only its dependent fictional history (7.892218ms)
+✔ interrupted transaction leaves no partial change and can be retried (14.534736ms)
+✔ deleting all demo entities never silently reseeds on reload (3.283052ms)
+✔ explicit reset advances generation and stale saves cannot resurrect edits (6.029071ms)
+✔ a second tab save conflicts safely and demo export cannot masquerade as a real backup (19.104964ms)
+✔ all practice operations leave synthetic account/device caches and outboxes byte-for-byte unchanged (1.126562ms)
+✔ demo route excludes real-account services and real sync/publish imports (2.075627ms)
+✔ first-start choice waits for completed loading and never seeds or clears a real store (1.515441ms)
+✔ an older edited demo is preserved until an explicit reset selects the new fixture (16.726729ms)
+✔ new practice record templates never inherit the fixture area assignment (0.406154ms)
+✔ a newly added animal cannot acquire the template animal position by later linking its area (19.781746ms)
+✔ proportional v2 area coordinates save with signed origins while invalid layouts and negative quantities are rejected (7.2054ms)
+✔ a version 6 edited layout is never automatically migrated or reseeded by a version 10 read (15.626246ms)
+✔ version 10 never replaces an existing 45-animal practice herd and its edited placement (13.638021ms)
+✔ new herd examples stay editable and retain their own saved coordinates after reopening (10.484745ms)
+✔ linked sanitary and reproductive practice records persist without real account writes and reject wrong targets (39.438514ms)
+✔ opening view joins a continuous 360-degree orbit with fixed radius, elevation and target (20.464901ms)
+✔ spherical joining preserves current heading and has a smooth velocity through entry and each loop seam (0.42325ms)
+✔ high-refresh RAF writes are bounded near 30 Hz during continuous playback (0.744975ms)
+✔ held touch cancels immediately and the 2s idle clock starts at the final gesture END (1.209478ms)
+✔ wheel and keyboard activity debounce, and stale canceled timers cannot restart (0.207413ms)
+✔ modal, focused controls, hidden tab, and offscreen blockers compose independently (0.698436ms)
+✔ manual pause remains sticky after gestures, blockers, enabled changes, and idle (0.672547ms)
+✔ reduced motion suppresses autoplay; explicit Play opts in but never overrides other blockers (0.225881ms)
+✔ real farms cannot start via Play, and autoplay false is an explicit initial pause (0.268466ms)
+✔ window blur clears swallowed pointer/key releases without bypassing visibility (0.282548ms)
+✔ dispose removes all scheduling, rejects stale callbacks, and makes every action inert (1.963368ms)
+✔ responsive refit is smooth, preserves heading, and cannot override pause or reduced motion (1.072351ms)
+✔ tour copies its overview and a long browser stall cannot teleport the camera (0.935975ms)
+✔ invalid camera coordinates fail closed without scheduling or writes (0.240875ms)
+✔ cinematic mode follows distinct approach/detail/exit views, loops smoothly and keeps the aerial mode (1.450622ms)
+✔ cinematic shot boundaries match camera position and zero velocity/acceleration without dwell timers (0.221044ms)
+✔ cinematic safe return runs once before the route; an obstructed manual camera fails closed (1.114986ms)
+✔ cinematic mode yields for the whole gesture and respects reduced motion and dialog blockers (0.333894ms)
+✔ cinematic pauses and visibility interruptions resume the current shot instead of repeating the barn (0.671475ms)
+✔ manual movement invalidates saved cinematic progress and requests a safe return (0.37056ms)
+✔ unchanged overview notifications do not restart the cinematic timeline (1.044759ms)
+✔ aerial detail pass stays high, advances continuously and uses one broad approach per revolution (8.466817ms)
+✔ aerial safety envelope clears tall structures throughout the entire periodic route (6.352201ms)
+✔ aerial focus preserves pause, manual restart, resize and reduced-motion contracts (4.875819ms)
+✔ empty aerial subjects retain the original panorama without invented focus points (0.15248ms)
+✔ aerial complete laps and return paths stay clear of roof, tree and animal volumes (58.75307ms)
+✔ aerial configuration is copied and does not change from external mutation (8.384363ms)
+✔ aerial height envelope also holds during joining, with high geometry and an empty farm (6.92039ms)
+7:00:20 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ every management view has a direct, whitelisted practice section (1.202407ms)
+✔ practice fixtures still cover all data areas and public marketplace keeps explicit examples mode (7.309198ms)
+✔ all management areas explain distinct inputs, actions and honest outcomes (0.439194ms)
+✔ the area card opens the complete model and labels editable practice as a separate secondary action (4.008919ms)
+✔ first-start model link is available with empty storage and no continuation callback (7.242777ms)
+✔ first-start model link is available with unavailable storage and no continuation callback (0.699897ms)
+✔ model navigation uses browser-native links without a storage or continuation event handler (3.172305ms)
+✔ rapid repeated save while offline stores exactly one animal, retains it and resets a captured form (32.04258ms)
+✔ failed local save releases the gate for a deliberate retry (0.387556ms)
+✔ seven affected forms retain event form before awaits and expose inline saving/error feedback (1.894222ms)
+✔ select portals and mobile sidebar are above backdrop, with bounded date controls (0.792117ms)
+✔ pending saves prevent dismissal and stale close; normal mobile navigation closes only its sheet (1.747887ms)
+✔ busy plan submission prevents navigation synchronously and handles rejection without altering fields (1.519086ms)
+✔ REGVEN19 synthetic origin and roundtrip preserve axis order without remote grids (2.518757ms)
+✔ only an explicitly selected reference produces a point or polygon; sketches are not georeferenced (1.584605ms)
+✔ declared area keeps full precision and takes priority over coordinate estimates (1.675322ms)
+✔ collapsed metadata retains existing values, while explicit empty edits clear their fields (3.00378ms)
+✔ incomplete coordinate drafts fail visibly instead of changing to a smaller ring (0.712667ms)
+✔ legacy missing coordinates render safely, and normalized outline scale keeps aspect ratio (0.397601ms)
+✔ map context is same-origin and does not request geolocation or external tiles (3.747904ms)
+✔ collapsing metadata retains mounted controls and full precision area inputs (1.443662ms)
+7:00:22 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ all101 explicit animals remain grouped without inventing stock and bovine framing covers30 (12.285699ms)
+✔ four troughs are explicit physically bounded accessories and do not grow real infrastructure (3.756839ms)
+✔ editable practice preserves structured trough data and splitting never duplicates it (9.935507ms)
+7:00:23 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ inspection switches, Escape and reset restore roofs, camera and recorded animal transforms (105.228523ms)
+✔ nearby animal motion pauses on all visibility/accessibility guards and close restores saved matrices (52.982518ms)
+✔ render clamps a near-horizontal camera above the exact exterior mesh surface (37.132182ms)
+✔ tall-phone landscape reaches full fog before the camera far plane (33.831644ms)
+✔ a late local model inherits the paused pose and LOD never draws both representations (41.586815ms)
+✔ real 101-animal farm makes a continuous aerial detail pass, yields to touch and resumes from that heading (286.990069ms)
+✔ actual tour respects inspection, manual pause, visibility and reduced motion through resize and replay (48.855511ms)
+✔ automatic scene starts still when reduced motion or explicit pause is already set (68.819234ms)
+✔ automatic renderer does not wire cinematic shots and retains explicit interior controls (0.585726ms)
+✔ real 101-animal fixture ignores legacy cinematic mode and stays above all geometry for three aerial laps (473.628556ms)
+✔ legacy automatic mode still allows explicit barn inspection and cutaway, then restores aerial playback (46.910221ms)
+✔ manual camera inside a barn cannot auto-climb through its roof and explicit overview restores aerial flight (40.14759ms)
+✔ near-view shadow framing retains the approved sunlight direction and restores the broad overview (33.996933ms)
+✔ home preview waits for assets and a rendered frame, then resumes its controlled pause without rebuilding (32.70474ms)
+✔ home preview reveals usable procedural materials after its bounded budget if assets stall (32.871762ms)
+✔ unmounting a still-loading home preview cancels its material reveal timer (30.471394ms)
+7:00:25 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ original soil detail is deterministic, mipmapped, opaque and only 64 KiB resident base pixels (7.952519ms)
+✔ surface shading adds finite reusable vertex colors without altering topology or positions (0.890466ms)
+✔ renderer separates dry ground from vegetation and preserves local detail budgets (5.719966ms)
+✔ repeat soil observation changes review view, returns to full sample and preserves every saved progress field (5.957914ms)
+✔ mobile play keeps a bounded scene with separately scrolling decisions and a route back (2.729966ms)
+✔ growth artwork distinguishes tomato flowers, green fruit, maize harvest and original cilantro leaves (1.100443ms)
+✔ compact activity mode buttons dispatch the shared preserving callback and restore accessible focus/status (3.195529ms)
+✔ complete cilantro pathway requires every learning action and a valid fictional record (2.668002ms)
+✔ wrong answers and out-of-order/repeated actions teach without changing progress (1.257881ms)
+✔ restore rejects corrupt state, removes unknown personal fields, and repairs invalid completed records (0.557403ms)
+✔ local persistence is verified and denied storage does not fabricate success (1.014904ms)
+✔ mode change preserves progress and reset is scoped to fictional game state (0.202707ms)
+✔ delivered HTML matches source and remains self-contained below 180 KB (32.956932ms)
+✔ offline export embeds only allowlisted progress and reports download uncertainty honestly (0.985739ms)
+✔ downloaded HTML and notebook use actual newline bytes, not a literal backslash-n (2.151892ms)
+✔ animal activities and agronomy limitations are visible and contain no dosing schedule (1.449181ms)
+✔ hosted learning route suppresses unrelated overlays and real-account services (0.961063ms)
+✔ v1 progress migrates to v3 without overwriting the legacy save (0.411592ms)
+✔ soil challenge gates decisions on inspection and gives different answers for the two fictional samples (0.399915ms)
+✔ spacing challenge allows reversible placement, bounds count and tests every three-seed arrangement (1.864258ms)
+✔ cattle challenge requires all three observations and a safe next action; replay still requires a decision (0.345482ms)
+✔ challenge restore is allowlisted and crop replay preserves explored challenges (0.175395ms)
+✔ new controls provide guided goals, progressive hints, real challenges, glossary and reduced-motion support (12.041044ms)
+✔ v2 complete progress migrates without overwriting any earlier key (0.639357ms)
+✔ maize activity tests every six-position arrangement and gates pollination decisions (12.389005ms)
+✔ tomato activity requires support, selective picking and a unit-correct count (0.311671ms)
+✔ bovine activity requires complete observation, safe reporting and factual record (0.175466ms)
+✔ pig activity is a reversible resource plan with welfare and behavior decisions (0.205881ms)
+✔ poultry activity gates ordered hygiene route, egg recognition and unit-correct record (0.366454ms)
+✔ per-module replay preserves all other work and retains explored flag (0.164539ms)
+✔ schema3 strips unknown module fields and validates all stored choices (0.177458ms)
+✔ initial hub exposes crops and animals with full simulated cycles and bundled code compiles (14.488102ms)
+✔ each species UI renders every stage with functional actions and bounded illustration markup (4.900967ms)
+✔ full cycles gate every phase, survive reload, reject retries and finish all five pathways (4.471899ms)
+✔ older short activity achievements migrate honestly; malformed cycle data is stripped (0.352783ms)
+✔ brand tokens, categorized inventory and accelerated time limitations are explicit (11.333189ms)
+✔ both modes render distinct content in all five species at every stage and after completion (6.489983ms)
+✔ cilantro displays explanations and distinct reflection in all seven steps plus completed state (2.687602ms)
+✔ mode controls apply globally, announce changes and preserve partial forms and all progress (19.633754ms)
+✔ view mode permits scroll and selection without writes or keyboard movement (19.072025ms)
+✔ edit-mode tap is a no-op; a moved release saves once even on repeated pointerup (8.798598ms)
+✔ cancel, lost capture and ending edit mode discard previews without saving (58.953859ms)
+✔ secondary pointers cannot replace, finish or cancel the active gesture (12.579033ms)
+✔ pending save blocks a second gesture and storage failure is visible (22.582476ms)
+✔ a committed drag draft cannot mask a later saved layout edit (23.607851ms)
+✔ cancelled and failed drags cannot mask later saved coordinates (44.480908ms)
+✔ layer controls only change visible areas and restore them without writes (16.342741ms)
+✔ mobile legend opens the sheet and restores its stable button before opening record details (16.678297ms)
+✔ initial mobile details entry remembers its own stable opener (2.991191ms)
+✔ all-visible reset is explicitly disabled and restoration announces actual counts (3.065493ms)
+✔ two-row mobile tabs override the shared horizontal fixed height (5.777301ms)
+✔ switching map mode cancels an interrupted pan and area drag (14.401777ms)
+✔ illustrated and technical modes leave the geographic locator mounted with unchanged identity (3.536465ms)
+✔ animal placement saves once across double click and completed-save callback, with target snapshot guard (7.123236ms)
+7:00:27 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ real Three scene graph constructs with preserved outlines, bounded plants, positional animal and disposes cleanly (renderer stub) (122.33741ms)
+✔ default farm scene uses real perspective WebGL and local Three.js with recoverable vector fallback (5.445431ms)
+✔ GPU work is bounded, demand-rendered, disposed and offscreen-paused (1.73988ms)
+✔ 3D semantics retain saved geometry and explicit animals; drafts do not grow invented tree models (1.259694ms)
+✔ Three.js dependency and license are bundled rather than loaded from a third party CDN (1.572597ms)
+✔ opening a real farm starts on its 360 plan (1.423472ms)
+✔ dedicated touch controller combines twist, pan and zoom alongside native mouse controls (1.208897ms)
+✔ aerial and initial controls remain visible on narrow phones and use safe elevation limits (1.225612ms)
+7:00:28 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ 360 projection completes a full orbit and leaves saved geometry unchanged (1.93855ms)
+✔ camera clamps tilt zoom and pan while wrapping arbitrary turns (0.186512ms)
+✔ single pointer orbits and pan mode moves without modifying orientation (0.337861ms)
+✔ two fingers pinch and pan together, mismatched and degenerate contacts stay safe (0.160313ms)
+✔ 3D is lazy, read-only, offline bundled, and explicitly not a satellite reconstruction (6.856513ms)
+✔ 3D accessible controls and interrupted drag suppress accidental selection (3.021076ms)
+✔ two fingers genuinely twist yaw while translating and pinching the lightweight view (0.38391ms)
+✔ lightweight touch twist wraps the signed angle rather than jumping at 180 degrees (0.218269ms)
+✔ lightweight camera reaches overhead and retains its initial reset view (0.187613ms)
+✔ every supported original currency retains its real finance, per-unit and expected-revenue amount (27.463007ms)
+✔ only actual monetary fields are eligible; weights, animals, water and surface remain unconverted (0.660288ms)
+✔ empty, malformed, negative unsigned and unknown-currency records do not invent an equivalent (2.647722ms)
+✔ nested plan totals convert cost and signed margin without converting physical totals or mutating records (1.784187ms)
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+The width(-1) and height(-1) of chart should be greater than 0,
+       please check the style of container, or the props width(100%) and height(100%),
+       or add a minWidth(0) or minHeight(undefined) or use aspect(undefined) to control the
+       height and width.
+✔ live planning places a converter at each input, cost, signed margin, portfolio total and movement (854.036843ms)
+✔ editable demo covers every currency-specific summary and every nested record amount (476.118125ms)
+✔ real details, editable demo and readonly model all use typed-money rendering and live form previews (4.027156ms)
+✔ reference-only target selection is excluded from farm draft dirty-state changes (1.198101ms)
+✔ finance dialog clears money drafts only after an accepted close and retains the successful-save reset (0.9661ms)
+✔ money fields use full record width through phone and two-column tablet layouts, restoring desktop at lg (9.500498ms)
+✔ private rendered arrays reject late reads after a session boundary or owner change (1.374487ms)
+✔ same-account reads still populate and blocked views do not begin a read (0.286423ms)
+✔ account boundary wraps the whole workspace, retains form component state, and resolves local workspace identity (0.265021ms)
+✔ search ignores accents and case, matches words across visible fields, never mutates data (1.402871ms)
+✔ animal search finds arete, species and breed; production finds objective (0.194775ms)
+✔ minimum filter includes zero and threshold, ignores absent or invalid values (0.179511ms)
+✔ management lists show all categories by default and preserve empty-category records (0.796464ms)
+✔ missing or incomplete coordinates lead to configuration instead of a dead disabled action (3.443024ms)
+✔ valid point and polygon actions center the map, preserve coordinates and handle map loading visibly (3.748256ms)
+✔ demonstration geography is synthetic, closes the outline and preserves all stored practice data (4.688616ms)
+✔ plan presentation keeps a uniform transform, restrained colors and text inside available areas (0.724986ms)
+✔ national overview and reference actions are visible in real overview and demonstration summary (1.47521ms)
+✔ one geographic selector stays separate from illustrated and technical modes, preserving demo namespace (1.062095ms)
+✔ completion never overrides a newer streets selection, while explicit rectangle preview remains available (1.263089ms)
+✔ satellite selection without an image changes mode and explains why streets remain (0.578304ms)
+7:00:32 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ taxonomy distinguishes20 forms and refuses unknown or ambiguous animal substitutions (2.756166ms)
+✔ cattle fallback has finite bounded original geometry and no missing template (11.759934ms)
+✔ buffalo fallback has finite bounded original geometry and no missing template (3.131063ms)
+✔ pig fallback has finite bounded original geometry and no missing template (5.203029ms)
+✔ hen fallback has finite bounded original geometry and no missing template (2.141987ms)
+✔ rooster fallback has finite bounded original geometry and no missing template (1.576983ms)
+✔ quail fallback has finite bounded original geometry and no missing template (2.047134ms)
+✔ duck fallback has finite bounded original geometry and no missing template (1.359184ms)
+✔ goose fallback has finite bounded original geometry and no missing template (2.407379ms)
+✔ turkey fallback has finite bounded original geometry and no missing template (1.540549ms)
+✔ horse fallback has finite bounded original geometry and no missing template (1.187856ms)
+✔ donkey fallback has finite bounded original geometry and no missing template (1.277871ms)
+✔ mule fallback has finite bounded original geometry and no missing template (1.207745ms)
+✔ sheep fallback has finite bounded original geometry and no missing template (1.925219ms)
+✔ goat fallback has finite bounded original geometry and no missing template (1.373676ms)
+✔ rabbit fallback has finite bounded original geometry and no missing template (1.182707ms)
+✔ fish fallback has finite bounded original geometry and no missing template (0.442459ms)
+✔ shrimp fallback has finite bounded original geometry and no missing template (1.048825ms)
+✔ bee fallback has finite bounded original geometry and no missing template (0.820671ms)
+✔ hive fallback has finite bounded original geometry and no missing template (0.568039ms)
+✔ worm fallback has finite bounded original geometry and no missing template (1.319034ms)
+✔ declared10ha scale maps a400×250m property and nominal2.4m cow consistently (0.270098ms)
+✔ closed fence ring keeps all corners, bounded spacing and wraps last to first (0.636181ms)
+✔ explicit small-area positions remain in3D while tiny2D marks stay suppressed (0.580978ms)
+✔ all20 CPU-reviewed model thumbnails are bundled and the gallery states illustration limits (17.445998ms)
+✔ wire spans are clipped exactly at gate edges, never through partially overlapping openings (1.143539ms)
+✔ mobile scene bounds crop work and reuses static shadows during gestures (0.853199ms)
+✔ boundary-touching exact layouts tolerate roundoff without hiding genuine outside geometry (656.629456ms)
+✔ opening and closing dossier retains unchanged scene inputs (15.474147ms)
+✔ saved health, reproduction and dated weights do not rebuild scene or reset its camera (11.875468ms)
+✔ visible animal identity or position changes replace animal scene input (4.489776ms)
+✔ geometry, linked roster counts and boundary changes still reach the renderer (5.146469ms)
+✔ map passes retained geometry and a separate dialog block into masterplan (9.790106ms)
+✔ showcase always presents the complete current 10 ha fixture (11.153447ms)
+✔ showcase uses the existing exact layouts and canonical geometry adapter without fabricated placements (3.592009ms)
+✔ showcase instances cannot replace or mutate the canonical fixture or one another (10.292135ms)
+✔ all two draft product examples come from the fixture without claiming publication (7.512163ms)
+✔ route is noindex and the view is fixture-only without demo loading, resets, writes or cache clearing (1.171851ms)
+✔ real 360 and illustrated 2D share fixture data and readonly area details (1.335839ms)
+✔ account services exclude the readonly route before mounting any real workspace services (0.588951ms)
+✔ Mi Finca example entrypoints lead to current template without replacing saved practice (1.014524ms)
+✔ continuous opaque sky uses a longitude-periodic panorama with no external files (38.450774ms)
+✔ exterior planting is deterministic, capped, and entirely outside arbitrary concave farm and approaches (10.653141ms)
+✔ flat collar has an exact property hole; distant relief and plant ground contact are finite (61.169741ms)
+✔ draft keeps perimeter and context ground without adding vegetation to its proposal (4.464608ms)
+✔ far views skip sub-pixel grass/shrubs while keeping instanced trees (8.136077ms)
+✔ tap placement fits exact concave boundary, never writes source or inferred surface (2.78517ms)
+✔ touch scroll, cancellation and other pointer cannot become placement (0.154935ms)
+✔ actual animal appears only after explicit valid position with matching area, not textual assignment (2.790357ms)
+✔ tank wall includes curved base and sprite shadow shares calibrated footprint (0.546406ms)
+✔ explicitly cleared position never resurrects original demo coordinates on relink (0.265712ms)
+✔ animal point near an edge is rejected before save if the renderer would hide its sprite (0.226883ms)
+✔ area form cannot move its draft into a changed account or farm (0.319373ms)
+✔ area ownership guard is wired to area submission without blocking independent animal registration (3.535254ms)
+7:00:35 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ actual projected 10ha corners fit portrait and desktop without sphere excess (2.488962ms)
+✔ close-up targets saved coordinates, preserves scale and makes 2.4m animal discernible (0.829985ms)
+✔ far foliage retains solid crown LOD and loaded ground preserves land-use tint (6.667588ms)
+✔ floating launcher exclusion covers the common editor including fallback and 2D (2.213876ms)
+✔ automatic tour opens wide while manual-only detail presets and load status remain available (3.456774ms)
+✔ constant-radius aerial orbit frames every parcel corner at all headings on phones and desktop (24.539108ms)
+7:00:36 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ offline record numbers reject negative, NaN and overflowing values before creating mutations (1.496211ms)
+✔ production date range permits open-ended and same-day cycles, rejecting reversed dates (0.328777ms)
+✔ sync outcomes give distinct recovery guidance without claiming a central backup (0.245962ms)
+✔ onboarding is gated by local load and sync attempt, and storage errors offer safe retry (8.790095ms)
+✔ all seven entry dialogs protect unsaved edits and keep explicit cancel plus unload recovery (4.066025ms)
+✔ draft dismissal preserves edits on Cancel and never closes during a write (0.273743ms)
+✔ unknown empty account cannot offer creation; verified empty account and deliberate device workspace can (3.578628ms)
+✔ all twelve fictional samples have valid complete details and distinct optimized AI portraits (6.240392ms)
+✔ fictional details show disclosure and contact examples without operative contact links (77.087542ms)
+✔ real founder identity stays real and demo counts are separate from published professionals (5.182903ms)
+✔ clear floating glass has a neutral six-percent surface, quiet hover and bounded static blur (1.008574ms)
+✔ local text and icon backing retain AA contrast even over pure black (0.272201ms)
+✔ accessibility and unsupported-blur fallbacks stay opaque even during hover or press (0.247905ms)
+✔ all floating circles share one sizing, label, glass and focus family (5.506854ms)
+✔ shared geometry clears the header and keeps the two upper controls visible at normal and doubled root sizes (0.400535ms)
+✔ idea requires a verified session before queueing, preserves text, and saves the explicit login return (15.837988ms)
+✔ idea401 retains its account-bound operation and text without claiming receipt (5.468435ms)
+✔ returning to a queued idea opens the form, does not autosubmit, and reuses the exact operation (7.266223ms)
+✔ queued idea cannot be adopted by another account or replaced when status is unknown (12.288483ms)
+✔ feedback preflight blocks anonymous queueing and login preserves all unfinished fields (2.538597ms)
+✔ feedback401 never resets; an explicit retry checks the same account-bound operation (1.522681ms)
+✔ feedback login return opens panel and restores a pending operation without sending it (3.087326ms)
+✔ feedback never moves a resumed operation to another account and repeated checks never duplicate it (1.543984ms)
+✔ double submission while verifying login is locked synchronously (0.745447ms)
+✔ failed draft persistence does not navigate away with the user text (0.812308ms)
+✔ Sites keeps its anonymous feedback flow, while generic auth failures never reset professional or project forms (1.043116ms)
+✔ already-confirmed feedback and idea use their persisted receipts without another sync (5.280981ms)
+✔ all automatic sync entry points pause on a standalone formal-login return, while explicit sync remains available (1.026452ms)
+✔ automatic sync behavior is unchanged for Sites and ordinary standalone routes (0.627508ms)
+7:00:39 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ missing session stops before queueing and login restores fields/cart without auto-submit (37.976899ms)
+✔ sync401 keeps fields and exact pending operation; login with same account retries without duplicates (37.505007ms)
+✔ different account cannot adopt pending request and storage failure blocks navigation (38.642916ms)
+✔ tab draft has a one-hour limit and safe login return paths never expose payload in URL (1.013972ms)
+✔ home closes with an accessible invitation and two honest, unchanged destinations (1.357672ms)
+✔ approved Morochito is reused with intrinsic dimensions and a small lazy-load budget (2.712669ms)
+✔ closing layout is responsive, has clear keyboard focus and honors reduced motion (0.488027ms)
+7:00:40 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ anonymous and ordinary accounts cannot read, mutate or upload, and cross-site requests are blocked (8.407908ms)
+✔ strict validation rejects oversized, HTML, unknown fields, unsafe image paths and malformed requests (8.514299ms)
+✔ draft is persisted but public defaults remain until explicit publication; later drafts do not leak (15.420888ms)
+✔ first save and subsequent save use atomic compare-and-swap, including races (3.986355ms)
+✔ publish rejects stale revision and a concurrent edit between read and update (4.622376ms)
+✔ missing, malformed or unavailable public content falls back; admin never reports a successful save on outage (3.881427ms)
+✔ upload validates bytes and only the currently published image is public (19.496438ms)
+✔ publish refuses a nonexistent uploaded image and retains the prior public snapshot (3.60566ms)
+✔ preview and editor are explicitly protected, publication requires saved content and confirms its audience (0.597122ms)
+✔ shared homepage renderer uses saved text and image while keeping default responsive sources and route targets (640.706675ms)
+7:00:42 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ initial and offscreen home never load 3D; visible normal connection can load (1.095025ms)
+✔ save-data, slow connection and reduced motion require explicit opt-in for any 3D download (0.360234ms)
+✔ pause, offscreen and hidden tabs stop playback without unloading or rebuilding (0.23847ms)
+✔ banner reuses real scene and fixture through a lazy isolated entry, never editable workspace (4.903431ms)
+✔ static fallback is honest and bounded, generated from the 41 areas and 101 actual model animals (4.027287ms)
+✔ production bundle leaves the complete 3D scene and fixture behind the lazy boundary (1.36335ms)
+✔ poster fences do not cover the farm and gates are linear overlays above areas (0.962194ms)
+✔ poster URL is immutable content-hashed and included in the offline library (1.615311ms)
+✔ normal loading never shows a transient 2D plan, including server render and hydration preferences (51.882963ms)
+✔ preview reveal requires a rendered frame after assets or a bounded material budget; cleanup and failure remain available (1.61437ms)
+✔ Mi Finca demonstration is the next full section after the hero, before competing pathways (0.883265ms)
+✔ hero clearly describes the product and offers example before commitment, without prefetching 3D routes (0.291371ms)
+✔ all core routes remain visible and mobile header labels the farm destination (0.320585ms)
+✔ original image sources, production categories, provenance, footer and offline caveats survive (0.33111ms)
+✔ responsive demonstration precedes details on phones and keyboard targets have visible focus (0.188134ms)
+✔ mobile focus follows introduction, model, then primary actions; learning avoids doubled section padding (0.159521ms)
+✔ homepage banner has a real gallery CTA, named landmark and keyboard focus treatment (3.027937ms)
+✔ banner reuses just three small lazy thumbnails with intrinsic dimensions (1.493267ms)
+✔ banner follows Mi Finca and its onboarding steps without displacing the hero (1.345724ms)
+✔ offline idea stays pending without a receipt and is confirmed only after the exact acknowledgement (17.663847ms)
+✔ an unrelated accepted operation must not produce a received receipt for the pending idea (5.14742ms)
+✔ the idea can be confirmed even when a different operation was rejected and the batch is not fully synced (2.961046ms)
+✔ server failures and a different account scope never claim receipt (2.168658ms)
+✔ first invitation is eligible; exactly seven days must pass before it repeats (1.461969ms)
+✔ corrupt frequency records recover, while invalid current time cannot claim an invitation (0.152811ms)
+✔ a durable claim suppresses automatic repeats, including after a simulated reload (0.234234ms)
+✔ opening manually also starts the quiet period and stores only a timestamp (0.645065ms)
+✔ unavailable, quota-exceeded, or silently failing storage suppresses automatic opening safely (0.267534ms)
+✔ minimal feedback uses the existing backend schema and does not invent a visitor role (1.067343ms)
+✔ message limits and optional contact limits match server validation after trimming (0.932379ms)
+✔ only exact-operation confirmed state can say the idea was received (0.295567ms)
+✔ the approved invitation wording is preserved exactly (0.150738ms)
+✔ the image is an available licensed derivative with documented attribution (2.806491ms)
+✔ component contract retains text, allows explicit dismissal, and never trusts batch success (0.709372ms)
+✔ temporary installation interaction or hidden tab defers invitation then opens after interruption ends (0.272552ms)
+✔ prior dismissal and unavailable storage stop automatic retries; cleanup never opens later (0.13228ms)
+✔ ideas wait for completed installation introduction and retain a top-right manual orb (1.232673ms)
+✔ five-second idea auto-minimize only applies to untouched automatic invitation, never form or manual reopening (0.545785ms)
+✔ new visits can see ideas once while reloads, internal navigation and manual closure stay quiet in the session (0.288877ms)
+✔ live invitation reads session frequency and does not delete old browser choices (0.927181ms)
+7:00:44 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ placement pointerup then rerender consumes following click and does not open a second sheet (8.917717ms)
+✔ scroll gesture never invokes placement and near-edge footprints roundtrip unchanged through renderer (1.803696ms)
+✔ keyboard area choice proposes a contained point rather than opening its detail sheet (1.702053ms)
+7:00:45 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ oblique projection is reversible without changing irregular source vertices (2.828004ms)
+✔ adapter keeps custom outline vertices and exact explicit demo placements, never invents real animals (15.144167ms)
+✔ map and illustration are independent surfaces, with no generated fixture writes or default imagery provider call (1.341257ms)
+✔ an area crossing a concave property is flagged without hiding or changing the area (0.521438ms)
+✔ native payload contains the actual PNG only; invocation is synchronous within user activation (2.652859ms)
+✔ missing file support, canShare false/throws, empty files and unsupported types never call share (0.44316ms)
+✔ expired user activation cannot trigger sharing, and a fresh tap can retry (0.273704ms)
+✔ cancel does not invoke any fallback, copy a URL or reopen; repeated tap after cancellation works (0.257559ms)
+✔ double tap is locked until native sheet settles; failures release lock for retries (0.422469ms)
+✔ source selection does not fetch third-party, executable or arbitrary local data URLs (0.433034ms)
+✔ link-required photographs are not silently stripped of credits, while permitted photos export without credits (0.518163ms)
+✔ URL sanitizer removes links but preserves public phone, email, amounts and non-domain brand (5.464869ms)
+✔ text-only posts and profiles produce PNGs in all formats with demo disclosure and no sensitive extras (1.168135ms)
+✔ canvas export errors are reported and a later generation can succeed (0.621589ms)
+✔ preparation abort stops pending image load and late events cannot yield a shareable file (0.551153ms)
+✔ dialog keeps separate explicit link action, revokes previews, and invalidates old preparation on close/switch (6.308063ms)
+✔ a late canvas callback after close cannot finish image preparation (0.461457ms)
+✔ rendered pixels keep real public phone, name, value and description while stripping every URL field (1.302128ms)
+✔ long descriptions use a visible excerpt notice and never enlarge the chosen format or print demo phones (14.965367ms)
+✔ preview remains noindex while production taxonomy is a distinct unverified candidate (1.877047ms)
+✖ rendered preview headers and metadata keep public and private surfaces out of indexing (63.668896ms)
+✔ platform action forwards synchronously to the single banner controller (1.742634ms)
+✔ stale cleanup cannot unregister a newer controller and installed apps are not prompted again (0.14598ms)
+✔ manual iOS action remains guidance, preserving the original native event owner and timings (17.041484ms)
+✔ detects iPhone Safari and a desktop-user-agent iPad without treating a Mac as an iPad (2.319416ms)
+✔ detects Android phones/tablets and desktop Chrome/Edge (0.289127ms)
+✔ installed modes and appinstalled hide install guidance while ordinary browsing does not (0.215546ms)
+✔ native installation requires the actual prompt capability, not a Chrome-looking user agent (0.144138ms)
+✔ legacy session dismissal is preserved and is never reset when recording a quiet choice (0.278621ms)
+✔ a displayed intro stays quiet in this session but returns in a new session despite the old seven-day timestamp (0.139631ms)
+✔ broken browser storage and corrupt records do not throw or modify the old choice (0.274846ms)
+✔ fallback opens promptly without waiting for a native event (0.322487ms)
+✔ fallback waits for another dialog, then opens only once; cleanup prevents late appearance (0.297289ms)
+✔ a long background interruption preserves installation-first ordering until visible (0.425352ms)
+✔ five-second countdown pauses for reading/help/focus and resumes only the remaining quiet time (0.302918ms)
+✔ cancelled countdown cannot minimize a completed installation or an unmounted banner (0.248585ms)
+✔ guidance names the correct device and preserves truthful manual fallback (0.426795ms)
+✔ component exposes the coordinated circle and signals readiness only once after animation (122.810699ms)
+✔ a quiet-choice race between scheduling and claiming advances to compact readiness (2.608632ms)
+✔ five source-grounded guides are included once with dated primary references and exercises (1.93216ms)
+✔ online and downloaded guides show sources; library logo has an explicit cream-surface tone (3.591748ms)
+✖ all five built article routes render full text, source links, and private-preview metadata (70.116429ms)
+✔ first-access guide names every current primary destination and purpose group (1.921654ms)
+✔ offline and weighing instructions match header state and explicit animal selection (0.155224ms)
+✔ market guide preserves optional original price and qualifies visible conversions (0.213001ms)
+✔ professional and store guides explain real tariff controls and temporary request drafts (0.167263ms)
+✔ Finca Escuela guide describes the actual six separate fictional learning routes (2.081466ms)
+✔ every SVG is truthful, lightweight, accessible and ends with its own process outcome (11.869197ms)
+✔ article action invitation separates fictional practice, platform tasks and technical articles (0.929174ms)
+✔ Finca guide describes expanded cycles, distinct modes and repeat observation honestly (0.728231ms)
+✔ learning search ignores accents and casing, matches keywords and combines words and category (1.754592ms)
+✔ offline section and guide round-trip safely through a namespaced history hash (0.884557ms)
+✔ guide navigation supplies anchors and return actions without altering approved home (0.415999ms)
+✔ community detail does not infer a missing farm and empty store requests have an exit (0.363669ms)
+✔ requires only responsible name and phone in contact profile (3.889087ms)
+✔ rejects unsafe or wrong-platform social links (0.478373ms)
+✔ renders real contact actions and keeps demonstration anonymous (791.743675ms)
+✔ WhatsApp CTA stays visible in demos without creating a recipient or external action (1.631766ms)
+✔ real WhatsApp CTA uses only an opted-in valid registered number and encodes the product message (6.965267ms)
+✔ product detail leads with gallery, then compact title price and WhatsApp on every width (301.635481ms)
+7:00:50 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ photo presence is explicit, never supplied by a category icon (0.930797ms)
+✔ repair preserves structured contacts from hydrated rows and leaves invalid old data intact (3.320207ms)
+✔ photo errors remain explicit and photos are required in the authoring form (3.343063ms)
+✔ failed photo retries the same URL on request and after reconnection (10.263631ms)
+7:00:51 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ all 21 market roots retain distinct substantive fictional examples without prices or contacts (4.988511ms)
+✔ examples remain selectable alongside real listings without joining their offer counts (0.384011ms)
+✔ root matching includes both family names and child entries without unrelated matches (0.330109ms)
+✔ market graphics use their actual animal or category and original reusable paths (13.441203ms)
+✔ demo land covers every preset while all examples preserve declared-area arithmetic (284.591941ms)
+✔ public farm photos and project preview remain fictional and nonoperative (1.271943ms)
+✔ market photographs have complete source attribution and the icon only identifies the category (1.864168ms)
+✔ equipment examples retain their full photograph and omit unsupported old technical specifications (0.501007ms)
+✔ legacy category URLs normalize leading whitespace before filtering (1.276149ms)
+✔ all optional attributes are retained, bounded, and no private farm data is inferred (2.766973ms)
+✔ WhatsApp is prefilled safely and demos never produce actionable invented recipients (1.192443ms)
+✔ legacy contact and typed envelope survive together without accepting arbitrary gallery URLs (0.669472ms)
+✔ two initial demos are bovine and pig and published results are never collapsed (0.379694ms)
+✔ local saves and follows isolate owners, detect new real ads once, and reject failed writes (0.986331ms)
+✔ suggestions prioritize same-category other producers and never mix demos into real results (0.672337ms)
+✔ detail SSR exposes accessible real features, accurate empty values and demo isolation (607.684039ms)
+✔ image export has all requested formats and gestures include safe cancel/back behavior (5.92091ms)
+✔ community plain text cannot impersonate a validated listing attachment envelope (3.585459ms)
+✔ stored media keys must bind both owner and listing namespaces (0.703714ms)
+7:00:54 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ published market rejects malformed responses rather than replacing cached content (1.19787ms)
+✔ published market keeps only active non-demo correctly shaped rows (0.664054ms)
+✔ network and server errors remain distinct and never certify synchronization (0.236227ms)
+✔ real market supports abort-safe retry, reset and labelled counts (3.186587ms)
+✔ eight real areas have crawlable contextual next steps (6.780389ms)
+✔ result counts use singular and plural for examples and real offers (0.221515ms)
+✔ collapsed examples preserve every real listing and every fixture when expanded (0.195365ms)
+7:00:54 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ declared point is first and selected; satellite always responds without claiming missing coverage (10.312258ms)
+✔ expanded canvas is taller and declared administrative names remain honest (10.175041ms)
+✔ public context shares checksum-verified same-origin bytes without private storage (48.110826ms)
+✔ a failed cartography load is evicted so reopening can retry (10.175452ms)
+✔ farm geography starts expanded and satellite controls focus existing imagery only (1.475551ms)
+✔ state names appear on hover or keyboard focus without permanent crowded overlays (0.789163ms)
+✔ initial framing uses declared coordinates and actual available detail (1.050989ms)
+✔ optional satellite distinguishes sample from product and has a route back (0.860401ms)
+✔ gallery cards retain full title, seller and location and have a consistent bottom action (61.624844ms)
+✔ modal action selects the exact listing and has a unique accessible name (1.412325ms)
+✔ permanent cards keep real and demo navigation, with a same-ratio no-photo fallback (4.970023ms)
+✔ image-fit and responsive integration preserve product visibility and modal behavior (4.091404ms)
+✔ one touch orbits both axes without panning or zooming (4.00893ms)
+✔ two-finger translation pans in both axes without net dolly or orbit (5.291719ms)
+✔ synchronized symmetric pinch changes distance with exactly fixed target (0.822013ms)
+✔ sequential symmetric pinch keeps centroid drift below a quarter screen pixel (3.888779ms)
+✔ one two-touch update simultaneously pans and pinches without switching modes (1.208827ms)
+✔ native pointer sequence combines pan and pinch continuously (0.90617ms)
+✔ pointerup rebases a remaining finger and a later pinch without stale jumps (1.307737ms)
+✔ pointercancel rebases a remaining finger and a later pinch without stale jumps (0.672407ms)
+7:00:56 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ dedicated touch handling preserves one-finger orbit without native double integration (6.010967ms)
+✔ sequential two-finger twist genuinely rotates azimuth with fixed target, elevation and distance (6.189716ms)
+✔ twist continues through both angle wrap boundaries and a full turn without jumps (8.491566ms)
+✔ sequential centered pinch leaves exactly zero net pan or twist, even in large steps (0.666077ms)
+✔ two-finger translation has no zoom/orbit residue after sequential events (0.6415ms)
+✔ one gesture combines twist, translation and pinch without switching modes (0.507987ms)
+✔ pointerup safely rebases 2→1→2 contacts and ignores stale events (0.470211ms)
+✔ pointercancel safely rebases 2→1→2 contacts and ignores stale events (0.516681ms)
+✔ lostpointercapture safely rebases 2→1→2 contacts and ignores stale events (0.316508ms)
+✔ third finger pauses movement and rebases the surviving pair without a jump (0.420375ms)
+✔ coincident contacts rebase scale and orientation rather than exploding (0.2512ms)
+✔ near-horizon pan stays above terrain across repeated gestures (0.693858ms)
+✔ vertical one-finger orbit reaches the aerial view and cannot go underground (0.332843ms)
+✔ aerial preset preserves center and scale; initial preset restores exact opening viewpoint (0.282277ms)
+✔ blur and disposal release contacts, restore native controls and remove touch listeners (0.34384ms)
+✔ mouse orbit and wheel remain available after a completed touch gesture (1.057188ms)
+(!) Failed to run dependency scan. Skipping dependency pre-bundling. Error:   Failed to scan for dependencies from entries:
+  /workspace/scratch/1cce691d0fde/agro-approved-v131-release/learning/farm-learning.template.html
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/public/revision-precios.html
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/public/learning/finca-escuela.html
+/workspace/scratch/1cce691d0fde/agro-approved-v131-release/public/learning/revision-responsive.html
+
+  Build failed with 4 errors:
+
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30866:38)
+    at resolve (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30878:22)
+    at PluginContextImpl.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30999:29)
+    at plugin (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1092:30)
+    at plugin.<computed> (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1625:18)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30866:38)
+    at resolve (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30878:22)
+    at PluginContextImpl.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30999:29)
+    at plugin (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1092:30)
+    at plugin.<computed> (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1625:18)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30866:38)
+    at resolve (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30878:22)
+    at PluginContextImpl.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30999:29)
+    at plugin (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1092:30)
+    at plugin.<computed> (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1625:18)
+[plugin vite:dep-scan:resolve]
+Error: The server is being restarted or closed. Request is outdated
+    at throwClosedServerError (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30025:30)
+    at EnvironmentPluginContainer.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30160:65)
+    at resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30866:38)
+    at resolve (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30878:22)
+    at PluginContextImpl.resolveId (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30999:29)
+    at plugin (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1092:30)
+    at plugin.<computed> (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/bindingify-input-options-BnfFBV6b.mjs:1625:18)
+    at aggregateBindingErrorsIntoJsError (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/error-CkdMJ9ps.mjs:48:18)
+    at unwrapBindingResult (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/shared/error-CkdMJ9ps.mjs:18:128)
+    at scan (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/rolldown/dist/experimental-index.mjs:176:3)
+    at async Object.build (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30826:3)
+    at async scan (file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:30771:4)
+    at async file:///workspace/scratch/1cce691d0fde/venezuela-agro-auth/node_modules/vite/dist/node/chunks/node.js:23242:15
+✔ approved desktop closed controls remain byte-for-byte unchanged (22.486246ms)
+✔ mobile targets and social clearance fit 320, 390 and 430px including safe-area edges (0.494528ms)
+✔ opened surfaces share readable material while form content and focus are retained (4.537028ms)
+✔ technical empty states do not create an intrinsic-width table (5.966749ms)
+✔ mobile records retain every field while desktop table remains named and keyboard-scrollable (1.700621ms)
+✔ narrow editor and date constraints cover settings, records and store without hiding overflow globally (117.319038ms)
+✔ public controls retain viewport collision handling, wrapping, close clearance and store footer space (4.904144ms)
+✔ map browsing permits page scroll and changes require movement with synchronous single-flight protection (1.698317ms)
+✔ two mobile controls consolidate existing actions without substituting seller contact (1.227957ms)
+✔ popover delegates Escape/outside dismissal to Radix and explicitly restores focus (0.285562ms)
+✔ hero preserves complete CMS wording and only mobile receives typography overrides (4.410257ms)
+✔ compact labeled targets fit safe areas at 320/390/430 and avoid title/CTA intersections (0.613177ms)
+✔ closing installation returns keyboard focus to the visible mobile More control (6.631435ms)
+✔ desktop and mobile use the same two-control dock, menu and hero collision checks (12.330489ms)
+✔ branded action hierarchy uses readable labels, solid contrast and compact 48px targets (0.470572ms)
+✔ cross-tab logout hides and inerts the same mounted draft tree without writes, deletes or navigation (10.458228ms)
+✔ a different owner prop blocks synchronously and retains the original children rather than adopting the new tree (0.897446ms)
+✔ explicit device-only workspace ignores account boundaries; account data cannot claim that exemption (0.729172ms)
+✔ unrelated and stale storage events do not block; focus and visibility catch missed current changes (0.671876ms)
+✔ only explicit server verification of the original owner unblocks, preserving the identical draft element (4.82307ms)
+✔ wrong owner, HTTP failure, invalid response and network errors stay blocked without losing the draft (3.333228ms)
+✔ late matching response after another boundary or owner change cannot unlock and duplicate clicks share one request (2.129679ms)
+✔ boundary changes without an event during verification are still rejected; stale unmounted callbacks do nothing (1.176549ms)
+✔ a matching original-owner response cannot override a changed owner prop, and unavailable storage fails closed (1.654421ms)
+✔ boundary source contains no destructive record operations, automatic reload or forced dialog close (0.424692ms)
+✔ unresolved workspace stays hidden without blocking child initialization and captures the first actual owner (0.359564ms)
+✔ Select closes its transient portal under account lock without changing selected values or parent drafts (0.449299ms)
+✔ DropdownMenu closes its transient portal under account lock without changing selected values or parent drafts (0.234715ms)
+✔ Popover closes its transient portal under account lock without changing selected values or parent drafts (0.249918ms)
+✔ optional library download prepares static resources only and never requests a public-feed snapshot (1.28363ms)
+✔ failed static preparation never claims a finished library; cleanup only runs after explicit confirmation (1.000722ms)
+✔ offline copy explains account-owned scope, optional overlap, unavailable feeds and stored bookmarks honestly (0.269367ms)
+✔ already-aborted or aborted registration never starts resource preparation (1.273315ms)
+✔ active cancellation settles immediately, closes port and tells worker to cancel (0.404341ms)
+✔ timeout cancels download instead of silently leaving it running (0.162385ms)
+✔ public cleanup waits for explicit worker acknowledgement (0.243458ms)
+✔ old active worker is detected before it downloads a newer library manifest (1.00567ms)
+✔ waiting or installing update provides guidance without taking over or preparing old bundles (0.301856ms)
+✔ first installation without an active worker asks to wait and sends no preparation (0.250229ms)
+✔ new matching worker completes library preparation and preserves the generation (0.329489ms)
+✔ failed replies still reveal an explicit version mismatch (0.405192ms)
+✔ network failure and genuine same-version resource failure remain distinct from an update (0.360225ms)
+✔ cancelling during version preflight never starts a library download (0.579035ms)
+✔ offline library displays safe preparation guidance rather than replacing it with generic failure (5.832637ms)
+7:00:59 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ actual capture handler leaves Leaflet plus/minus hash controls untouched (1.549041ms)
+✔ real cross-route offline navigation remains a document navigation (0.260183ms)
+✔ authentication and external destinations remain outside offline interception (0.178019ms)
+✔ read-only model links use the cached document rather than an unavailable RSC request (0.153632ms)
+7:00:59 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ reviewed public map commits per owner and reopens without a network request (17.004845ms)
+✔ PMTiles reads real local ranges and a valid tile from Blob/FileSource without HTTP (11.331559ms)
+✔ quota failure, interruption and stale generations preserve the last complete map (12.457321ms)
+✔ fixed same-origin download validates bytes and cannot mark interrupted data ready (6.436259ms)
+✔ optional map bytes stay outside automatic downloads and use clipped noninteractive map panes (1.586008ms)
+✔ declared coverage stays hidden through intermediate zoom frames then clips before showing (6.980302ms)
+✔ readable labels keep source eligibility and do not invent administrative polygons (3.229952ms)
+✔ national context verifies actual bytes and local ranges without networking (38.40194ms)
+✔ national and pilot generations remain independent and owner scoped (48.717923ms)
+✔ map selection chooses regional detail only inside its coverage and never another owner (13.242197ms)
+✔ dynamic coverage changes update clipping without revealing a zooming layer (0.573387ms)
+✔ national buffered context clears crop and switching back restores pilot clipping even during zoom (0.510201ms)
+✔ wide-view regional context verifies known bytes and is included only by exact offline asset allowlist (7.544324ms)
+✔ first installation streams progress but cannot report ready before activation (6.027651ms)
+✔ failed initial installation never reports ready after becoming redundant (1.999285ms)
+✔ old active build asks to close every tab and reopen instead of claiming the new deployment ready (0.727461ms)
+✔ offline local verification needs neither version fetch nor account access (0.181104ms)
+✔ an explicit retry can register the first worker without waiting for account services (0.549371ms)
+✔ public package survives reopening and newer complete snapshots remove withdrawn records (12.528578ms)
+✔ quota failure atomically preserves previous complete public package (3.063916ms)
+✔ out-of-order download cannot replace newer public information (2.161972ms)
+✔ server outage and aborted request keep the older complete public copy (5.640955ms)
+✔ clear during in-flight refresh cannot repopulate the deleted public package (2.4454ms)
+✔ retention and strict schema reject stale/private snapshots before storing (1.498397ms)
+✔ one token protects the resource-to-snapshot boundary after public cleanup (0.729804ms)
+✔ public cleanup leaves owner-scoped farm records and outbox intact (1.03782ms)
+7:01:01 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ anonymous public projection includes only the explicit text allowlist and existing public routes (20.258262ms)
+✔ ownership, authentication, contacts, private records, raw JSON and personalized reactions never enter the snapshot (4.331304ms)
+✔ pending, rejected and deleted content is excluded in every category (4.384534ms)
+✔ posts require an active parent and post; missing, withdrawn or pending parents cannot leak posts (2.548817ms)
+✔ each category fetches at most 101 and returns its newest 100 with explicit truncation (24.931884ms)
+✔ exactly 100 rows are complete rather than incorrectly marked as truncated (5.674326ms)
+✔ long public text is bounded and malformed or nontext farm JSON never becomes raw text (2.541566ms)
+✔ a database failure reports 503 without partial or empty successful items (4.561252ms)
+✔ an actually empty public database returns a valid empty snapshot (2.08222ms)
+✔ shared parser refuses private fields, wrong or external hrefs, duplicate entries, unknown versions and excess content (34.164795ms)
+✔ new public snapshots omit missing-photo offers without deleting their records (2.5247ms)
+✔ offline community summary unwraps published text instead of exposing its storage envelope (2.211596ms)
+7:01:02 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ an edit or delete made during synchronization remains the latest local intent (2.302665ms)
+✔ one missing optional image does not prevent service-worker installation (13.48861ms)
+✔ missing essential fallback refuses activation rather than claiming offline readiness (2.901319ms)
+✔ a missing script refuses readiness and interrupted preparation can be retried (10.180484ms)
+✔ API, authentication, non-GET and external requests are never intercepted (1.218213ms)
+✔ offline /app navigation serves the local-only shell rather than authenticated cached HTML (7.059732ms)
+✔ activation drops old page/API caches and does not touch record storage (4.349051ms)
+✔ no-store and redirected responses cannot be added to offline preparation (1.106714ms)
+✔ account namespaces are distinct and legacy storage is never a new account namespace (0.194013ms)
+✔ production offline manifest contains only same-origin code resources and includes every emitted chunk (5.479922ms)
+✔ explicit legacy recovery preserves originals, current edits and pending deletions on repetition (0.270649ms)
+✔ offline public map fetch is served even with the empty fetch destination (4.543995ms)
+✔ runtime owner follows cross-mode navigation and a newer verified account wins late session reads (1.194117ms)
+✔ repeated readiness checks verify actual resources and detect cache eviction (12.466453ms)
+✔ production worker fingerprint matches its resource manifest and changes from v27 (4.212944ms)
+✔ account split requires connection and confirmed local source before authenticated request (0.749644ms)
+✔ public route cold-start falls back to neutral library, never private directory HTML (7.261027ms)
+✔ public library readiness requires every declared resource, rejects private paths and clears only library caches (23.620811ms)
+✔ activation retains coherent prior public library while private app always uses current shell (6.086669ms)
+✔ library readiness refuses evicted required application code even if public images remain (9.161613ms)
+✔ failed replacement leaves prior committed library and never serves unfinished staging (8.9289ms)
+✔ core repair stages missing files and refuses a mid-download deployment without replacing the existing shell (6.286152ms)
+✔ private app shows safe offline fallback instead of an incomplete cached shell (5.723911ms)
+✔ regional preparation deadline remains active through a stalled cache body (11.101908ms)
+✔ explicit preparation cancellation interrupts a stalled cache body without waiting for deadline (1.530175ms)
+✔ first preparation includes the read-only model and it reopens from its own document offline (4.888977ms)
+✔ an update waits instead of replacing the worker of open tabs and their lazy bundles (4.580651ms)
+✔ explicit preparation streams counted progress and never calls an incomplete shell ready (4.957211ms)
+✔ read-only model registers app resources without mounting account or sync services (2.150444ms)
+✔ a still-active worker serves exact immutable chunks from a committed newer build only (5.806045ms)
+✔ preparing an update reuses matching immutable code but downloads fresh neutral documents (4.023658ms)
+✔ full exported farm restores linked records and deletion intents locally without adopting source identity or transmitting (23.87127ms)
+✔ malformed acknowledgement preserves queued writes and retry resends the same idempotency IDs (8.007045ms)
+✔ verified-account mismatch sends neither account queue and preserves both owners separately (2.001168ms)
+✔ bootstrap outage, invalid JSON and wrong-owner responses preserve an existing local draft exactly (3.052869ms)
+✔ late bootstrap after account navigation writes only to its captured owner, never the newly active account (1.954758ms)
+✔ bootstrap reports offline, HTTP, JSON, malformed collection and account mismatch distinctly without claiming success (4.444575ms)
+✔ legacy nullable and empty revisions still hydrate without schema migration (1.121667ms)
+✔ an upstream rate-limit response preserves anonymous intent and retries the same id only after another sync call (3.987213ms)
+✔ public sample bytes match the registry and owner-scoped committed image survives reopening (13.438619ms)
+✔ quota failure preserves the previous complete copy (6.514958ms)
+✔ clear invalidates an in-flight generation and never recreates its removed image (9.614648ms)
+✔ a later download wins; cancellation leaves the last complete copy and other owners untouched (12.73583ms)
+✔ download uses only the fixed same-origin asset and reports exact bytes (5.118074ms)
+✔ interrupted network does not mutate committed storage (1.561112ms)
+✔ coverage requires the whole view inside the true crop and permits independent farm points (0.292522ms)
+✔ optional pack is excluded from core/library manifests and generic SW image cache (8.613032ms)
+✔ download prompt shows real size/date and disables uncovered views without moving to the sample automatically (47.476397ms)
+✔ clearing optional imagery does not alter the owner farm records or queued mutations (1.231143ms)
+✔ legacy export and explicit recovery preserve originals, edits, deletion intent and pending-only recovery visibility (13.976998ms)
+✔ route change during legacy recovery cannot copy data into an account database (1.719873ms)
+✔ route change during session verification sends only the captured account outbox (5.71656ms)
+✔ an edit made while sync is in flight remains visible, queued, and exportable (4.572399ms)
+✔ prepared account survives closing the session and reopens only after explicit offline choice (2.135522ms)
+✔ declining or interrupting offline workspace choice opens only the device workspace (0.407066ms)
+✔ new-origin import is local-only, idempotent, preserves current edits/deletions and never queues commercial sends (7.125582ms)
+✔ an interrupted import aborts its transaction and can be safely repeated (2.703331ms)
+✔ modeled complete offline loop preserves farm CRUD across close/reopen and interrupted reconnect (6.020249ms)
+✔ late acknowledgement from another tab cannot overwrite a newer confirmed revision (4.493078ms)
+✔ late bootstrap cannot replace a locally confirmed update or its conflict snapshot (2.749109ms)
+✔ queue drains past one hundred rejected records without starving later requests (50.186667ms)
+✔ stale bootstrap cannot resurrect a deletion acknowledged while cache remains missing (2.402385ms)
+✔ device-local area split commits both halves and pending intents atomically; stale repeat cannot split twice (2.178677ms)
+✔ failed second local split write rolls back source, child and outbox; account space is never used (1.464056ms)
+✔ account split readiness rejects pending source or parent and stale local cards (1.345987ms)
+✔ account offline split guard has no network calls or storage writes (0.586077ms)
+✔ old and newer concurrent hydrations cannot display only one half of a confirmed split (2.197556ms)
+✔ legacy empty revisions retain complete split under concurrent hydrations (1.463585ms)
+✔ photo repair rejects a stale local snapshot without replacing the newer record or its outbox (1.287889ms)
+✔ explicit local area links preserve old-client omission, reject foreign farms and retain records on unlink (2.242403ms)
+✔ online split preflight also blocks a locally pending area assignment (1.09042ms)
+✔ animal placement survives legacy local edit and rejects reposition into deleted area (2.094089ms)
+✔ animal placement target revision is checked inside the local transaction (1.431446ms)
+✔ malformed receipt: null response preserves the entire local write (16.356749ms)
+✔ malformed receipt: accepted is not an array preserves the entire local write (2.357487ms)
+✔ malformed receipt: accepted contains a non-string preserves the entire local write (1.852563ms)
+✔ malformed receipt: accepted contains a foreign operation preserves the entire local write (1.564247ms)
+✔ malformed receipt: accepted repeats an operation preserves the entire local write (1.824531ms)
+✔ malformed receipt: rejected is null preserves the entire local write (2.522246ms)
+✔ malformed receipt: rejected is not an array preserves the entire local write (1.765481ms)
+✔ malformed receipt: rejected contains null after accepted writes preserves the entire local write (1.473409ms)
+✔ malformed receipt: rejected lacks a reason preserves the entire local write (1.594152ms)
+✔ malformed receipt: rejected has an empty reason preserves the entire local write (1.882388ms)
+✔ malformed receipt: rejected contains a foreign operation preserves the entire local write (1.268139ms)
+✔ malformed receipt: accepted and rejected overlap preserves the entire local write (1.317704ms)
+✔ malformed receipt: rejected repeats an operation preserves the entire local write (1.040765ms)
+✔ malformed receipt: rejected has a malformed revision preserves the entire local write (1.803409ms)
+✔ malformed receipt: revisions is null preserves the entire local write (1.59323ms)
+✔ malformed receipt: revisions is an array preserves the entire local write (1.292886ms)
+✔ malformed receipt: revisions has an invalid value preserves the entire local write (1.155808ms)
+✔ malformed receipt: revisions names an unacknowledged operation preserves the entire local write (1.009137ms)
+✔ malformed receipt: syncedAt is not a string preserves the entire local write (1.153435ms)
+✔ malformed receipt: syncedAt is invalid preserves the entire local write (1.226215ms)
+✔ malformed receipt: syncedAt is an ambiguous numeric date preserves the entire local write (1.312095ms)
+✔ malformed receipt: syncedAt has an impossible calendar day preserves the entire local write (1.061526ms)
+✔ malformed receipt: syncedAt has an out-of-range hour preserves the entire local write (1.056349ms)
+✔ valid acknowledgement confirms once and remains compatible with legacy optional fields (5.413721ms)
+✔ valid conflict remains pending with a usable conflict reason and server revision (2.055229ms)
+✔ an operation ID matching an object property cannot inherit an unconfirmed revision (1.236331ms)
+✔ failure after starting acknowledgement writes aborts rather than partially deleting the outbox (2.595978ms)
+✔ session expiry between owner verification and sync preserves the complete pending operation (1.31538ms)
+✔ measured endpoint reaches the real orb bounds at every requested responsive width (3.043104ms)
+✔ aspect-ratio change keeps a circular endpoint and the destination glyph at natural size (0.616342ms)
+✔ bad or zero geometry falls back without NaN transforms (0.146381ms)
+✔ one live surface runs with content, glyph and backdrop; release restores inline styles exactly (1.087696ms)
+✔ reverse preserves the active animations and resolves without closing the original surface (0.43625ms)
+✔ cancel on unmount or installed state settles once and cleans all retained animations (0.358723ms)
+✔ reduced motion switches without scale animation or inline geometry mutation (0.20468ms)
+✔ animation setup failure restores the live element instead of leaving a frozen panel (0.356419ms)
+✔ component contracts hide destination orbs until close and retain drafts and interruption guards (5.453512ms)
+✔ mobile viewport updates cannot overwrite an active FLIP and resume after reversal or cancellation (0.702103ms)
+✔ popup transitions never animate a viewport backdrop or interpolate glass filters (0.863577ms)
+✔ terminal retirement never repaints the expanded card even when React removal is delayed (0.512205ms)
+✔ both close paths retire before a synchronous closed commit and automatic install offer cannot reenter (1.205403ms)
+7:01:05 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ private bootstrap requires a real session and returns only the authenticated owner in every publication collection (17.397947ms)
+✔ private bootstrap hydrates owned publications into separate account databases without using a public feed (18.682669ms)
+✔ private refresh preserves publication drafts, pending deletes, and new local publications exactly (25.468687ms)
+✔ logout closes access in this tab and another tab without deleting owned drafts or publications (3.306177ms)
+✔ account switch drops the saved access hint and rejects a stale publication form while preserving both namespaces (6.21192ms)
+✔ late owned-publication bootstrap after switching accounts or logout can only update its captured account (9.443854ms)
+✔ wrong-account bootstrap cannot add foreign publications or alter existing unsent drafts (4.351288ms)
+✔ mobile contribution shortcuts keep fixed circular geometry along the lower edge at every scroll position (3.617728ms)
+✔ both contribution actions remain reachable from the mobile navigation without losing the idea dialog (2.104847ms)
+✔ expanded rubric selections preserve old entries and group specific products in market filters (1.784648ms)
+✔ every platform guide has a lightweight accessible visual and direct action (4.751372ms)
+7:01:07 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ farm search tolerates accents, case and outer whitespace and includes activities (2.844041ms)
+✔ unmatched farm search has a recovery state and clears both filters without altering data (5.007754ms)
+✔ community empty search uses the same reset without discarding a typed post (4.123476ms)
+✔ offline refresh is unavailable and explains that public feeds are not downloaded (1.038049ms)
+✔ community fields retain labels and review instructions after typing (104.14886ms)
+✔ empty states offer reset only when filters are active (1.233275ms)
+✔ comment shortcut opens and focuses its conversation without creating data (1.68007ms)
+✔ sidebar controls use Spanish expanded-state labels and touch-sized targets (29.097803ms)
+✔ learning and professional card actions are specific and the dashboard marks its current view (1.910239ms)
+✔ new community participants get the prerequisite action instead of an unusable empty composer (2.91563ms)
+✔ guide actions keep their destination context and ignore unrecognized workspace views (16.327601ms)
+✔ offline preparation honestly shows its initial check and blocks silent repeat actions (16.249634ms)
+7:01:08 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ accepts a many-point concave ring in either winding without changing IDs, order or coordinates (3.219349ms)
+✔ only the exact explicit closing vertex is canonicalized; input stays untouched (0.439054ms)
+✔ bounds the canonical ring to 3–200 vertices and does not truncate oversized input (6.574022ms)
+✔ rejects wrong versions, coordinate spaces, unsupported geometry fields and non-object input (0.292122ms)
+✔ rejects every incomplete/non-numeric row instead of coercing, filtering or clamping it (0.762844ms)
+✔ rejects duplicate IDs even for different points and rejects duplicate points even with different IDs (0.22483ms)
+✔ rejects crossing, non-adjacent touching, overlapping and zero-area outlines (0.5359ms)
+✔ preserves valid straight boundary vertices and does not collapse extremely narrow finite geometry (0.369729ms)
+✔ survey validation uses metric coordinates separately and preserves original IDs/numbers/closure exactly (4.900742ms)
+✔ survey writes accept no coordinates but reject partial, coerced, duplicate and invalid populated rings (4.281754ms)
+✔ farm and area schemas retain declared area, legacy shapes, measurements and other record data (8.090956ms)
+✔ custom area outlines cannot fall through to rectangular division, even when malformed (0.840421ms)
+✔ legacy rectangle/oval layout division remains unchanged and preserves decimal declared areas (0.526796ms)
+✔ geometry round-trips in offline JSON entities and outbox without changing ownership or revisions (2.989591ms)
+✔ backup import retains 200 unique survey points and the explicit 201st closing row in entities and outbox (9.616263ms)
+✔ legacy partial survey backups preserve exact IDs, rows and coordinate representations without weakening new writes (1.410243ms)
+✔ server split rejects a stored custom outline before any SQL mutation or receipt (46.437335ms)
+✔ device-local split keeps custom geometry, ownership, revisions and pending intent unchanged (105.445701ms)
+✔ history is immutable, one commit can be undone, and cancellation restores the initial draft (3.024584ms)
+✔ stable vertex IDs are never reused after deletion, clear, or undo (0.285912ms)
+✔ drawing drafts allow one and two points, but geometry validation blocks their save (0.831187ms)
+✔ midpoint insertion handles the closing edge without changing any existing IDs or order (0.477833ms)
+✔ 200 points is a hard interaction ceiling and concave shapes retain their ordered outline (0.321717ms)
+✔ inverse screen CTM handles offsets and non-square scaling; failed and singular transforms are safe (0.266332ms)
+✔ scroll gestures cannot become taps by returning to the original position (0.149816ms)
+✔ keyboard movement is bounded and Shift uses five drawing units (0.217829ms)
+✔ rendered editor labels drawing units, exposes ordered numeric controls, and never implies measured area (29.847577ms)
+✔ empty, incomplete, invalid, and disabled drafts have explicit accessible states (22.412303ms)
+✔ actual drag handlers preview without callbacks and emit exactly one committed change at release (10.463263ms)
+✔ 200-point drag validates only the committed polygon, then revalidates at release and numeric commit (265.002852ms)
+✔ pointer cancel and unexpected capture loss restore before-drag coordinates without a commit (4.378331ms)
+✔ disabling or externally replacing a draft during drag prevents stale drag commits (4.994704ms)
+✔ touch first selects a point, only the selected handle disables scrolling, and a second gesture can drag (3.270486ms)
+✔ tap addition is explicit, scrolling never adds, and undo/clear/cancel are reversible (5.89219ms)
+✔ selected edge insertion, point deletion, keyboard movement, and undo use discrete callbacks (6.614052ms)
+✔ undo during an active drag cancels only its preview and leaves earlier history intact (3.790562ms)
+✔ cancelled, non-primary, and multi-pointer background gestures never append a vertex (0.933081ms)
+✔ component never queues records or imports persistence into drawing interactions (12.542828ms)
+✔ five-digit and negative sketch drafts retain fixed tracks and reserved error space without clamping values (1.237852ms)
+✔ configuration fails closed without exact HTTPS origin, secrets or private allowlist (2.203582ms)
+✔ CSRF is same origin, signed, cookie matched and bound to current session (6.896459ms)
+✔ Turnstile rejects failed, wrong host/action, oversized and unreachable verification (5.047554ms)
+✔ standalone edge strips Sites identity and protects mutation routes; standalone bootstrap does not provision (2.231034ms)
+✔ standalone denies implicit email admin grants and noncanonical route encodings (16.237475ms)
+✔ public production requires explicit mode and exact production origin; owner grant defaults empty (1.154266ms)
+7:01:11 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ staging compiled policy refuses a production runtime opt-in (61.888181ms)
+✔ offline document cache exemptions have no server identity imports (11.897211ms)
+✔ login creates S256 PKCE, nonce, safe return path and host-only bound cookie (7.59792ms)
+✔ transaction consumption is browser-bound, expiry checked, and exactly once (1.081516ms)
+✔ new identities use UUIDs, never email-link existing accounts, preserve old data (2.273869ms)
+✔ opaque sessions store only keyed hashes, expire, honor allowlist, and revoke (6.330153ms)
+✔ real signed callback validates, creates session, and rejects replay (16.049371ms)
+✔ callback rejects invalid signature, nonce, issuer, audience, expiry, unverified email and disallowed account (38.324516ms)
+✔ encrypted PKCE verifier is confidential and bound to secret plus transaction (2.277694ms)
+✔ callback accepts matching authorized party with single and multiple audiences (7.16124ms)
+✔ production accepts verified ordinary Google accounts but only a configured email/subject pair grants owner admin (4.229876ms)
+✔ public login never relaxes Google signature or verified-email checks and cannot claim owner through profile name (10.69904ms)
+7:01:12 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ Turnstile diagnostics accept only success on the exact origin and login action (9.703614ms)
+✔ provider failures map to fixed categories without echoing untrusted or sensitive values (1.459167ms)
+✔ missing/oversized tokens never reach the provider; network, HTTP and JSON failures remain closed (0.730836ms)
+✔ login POST exposes only bounded diagnostics, stays private and never creates OAuth state on challenge failure (9.884728ms)
+✔ failed browser navigation returns to a fresh challenge without tokens or unsafe return paths (4.404541ms)
+✔ CSRF rejection precedes verification; valid challenge preserves Google redirect and secure cookie (4.779789ms)
+✔ sign-in submit rejects stale tokens, delayed expiry timers, clock reversal, offline and double submit (38.80983ms)
+✔ provider HTTP failures remain distinct from valid internal-error responses without exposing raw bodies (1.277011ms)
+✔ HTTP400 parses only documented error codes and never accepts an error-status success envelope (1.783857ms)
+✔ provider body parsing is byte-bounded, preserves HTTP fallback, and rejects malformed successful responses (1.491706ms)
+7:01:12 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ client paths preserve Sites routes and select standalone Google entry and POST logout (237.092723ms)
+✔ return paths reject external destinations, parsing tricks and authentication loops (25.063853ms)
+✔ path helpers cannot import server-only identity, config, headers or cookies (4.461076ms)
+✔ Google UI has explicit login challenge, fail-closed POST form and navigation recovery (1.121957ms)
+✔ standalone logout only disables offline account access after a successful CSRF POST (0.85315ms)
+✔ logout execution preserves offline access on errors, requires CSRF and blocks repeated clicks (366.638893ms)
+✔ Worker refuses forged Sites headers and every unsafe unverified method (12.86156ms)
+✔ Worker keeps callback no-referrer and private pages no-store without breaking offline shell (2.656307ms)
+✔ standalone gates static documents and downloads before handing them to the asset service (1.386767ms)
+✔ production anonymous public browsing and local-only shell remain open; private routes stay gated (7.818614ms)
+✔ production owner grant is separate from login, applies to every admin method, and never bypasses CSRF (7.394763ms)
+✔ production account-bearing server responses stay private and noindex while local shell is cacheable (1.519287ms)
+✔ only exact public library manifest reads bypass login; staging, mutations and similar paths stay protected (1.976649ms)
+✔ audited HTML offline documents normalize framework no-store without normalizing private output (5.377362ms)
+✔ rate client is idle until requested, deduplicates fifty concurrent panels and reuses results after remount (15.741094ms)
+✔ shared rate freshness rolls over when an official source changes date, before hourly expiry (4.498303ms)
+✔ offline/error states preserve original official dates and cache; no synthetic rate on missing source (2.557167ms)
+✔ synchronous fetch/storage failures can be retried without stranding the shared promise (0.66126ms)
+✔ real and demo market amounts expose the converter; absent prices retain explicit quote-only state (67.685388ms)
+✔ professional cards use a declared modality rather than comparing different currencies (51.852413ms)
+✔ interactive conversion controls sit above stretched card actions, and closed quote calculators do not subscribe (1.217031ms)
+✔ all money-bearing commercial views and forms route through shared price or quote conversion (2.460951ms)
+✔ closing one of several open panels does not abort or duplicate the shared request (1.64042ms)
+7:01:14 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ optional tariffs preserve old profiles and survive the existing credential envelope (5.284281ms)
+✔ tariffs validate all six real modalities, four currencies and supported service units (2.953336ms)
+✔ published tariffs show the unchanged original amount and an optional converter; absent prices are explicit (57.818306ms)
+✔ farm sums never combine currencies and legacy records retain their original USD meaning (0.763765ms)
+✔ sync rejects invalid original financial currency and amounts without requiring migration (1.169619ms)
+✔ store calculator starts empty, has four source currencies and never invents a catalog price (2.183161ms)
+✔ legacy profile editor ignores invalid unrelated details and safely loads only valid tariffs (532.278899ms)
+✔ all twelve catalog categories have distinct verified small licensed photographs (6.121178ms)
+✔ product photos retain truthful stages and each card exposes a credits link (1.027118ms)
+7:01:16 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ anonymous and ordinary Google sessions cannot access administration despite owner headers (16.846886ms)
+✔ ordinary session writes and reads only its owned farm and cannot switch ownership through headers (25.26657ms)
+✔ configured owner has functional CMS save/publish but private farm ownership is unchanged (11.48258ms)
+✔ future production builds and promotion packaging preserve the approved verified owner pair without credentials (6.334299ms)
+7:01:18 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ preserves old professional credentials and accepts graduates with zero years (4.34688ms)
+✔ builds search metadata from declared profile content (0.901543ms)
+✔ demo profiles render full sections without fabricated phone contacts (606.842751ms)
+✔ expanded sync payload is validated while legacy queue entries still work (36.266294ms)
+✔ founder profession uses readable contrast on its dark card without altering ordinary cards (53.747836ms)
+✔ project shortcut uses an ordinary separate project-form anchor without auto-opening a third banner (4.36002ms)
+✔ project shortcut uses the same measured size and an explicit gap below idea (2.011069ms)
+✔ short landscape moves the store request away and social placement avoids the new shortcut (1.683134ms)
+✔ online public feeds are unchanged; offline only explicit demos survive without mutating source (1.321137ms)
+✔ feed consumers have no persistent broad-feed reads, writes, or cleanup (0.708601ms)
+✔ community keeps owner-checked drafts and isolates late account data from the current view (0.333094ms)
+✔ professional profiles and open real-profile dialogs disappear offline while demos remain (0.56927ms)
+✔ cold offline market neither reads old storage nor fetches a public list (55.421415ms)
+✔ live market renders online, drops public rows offline, and reloads on reconnect (41.944006ms)
+✔ a public request resolved after going offline cannot repopulate the market (41.121914ms)
+✔ error and local-save feedback have distinct accessible semantics (396.969171ms)
+✔ email mismatch and schema fields yield useful Spanish messages (115.98894ms)
+✔ real public farm form explains review and required activities (941.302863ms)
+✔ marketplace form shows required fields and accurate offline expectations (178.068527ms)
+✔ submission guards and own-operation receipts protect repeated clicks and pending results (2.042868ms)
+✔ store sharing preserves illustrative attribution, stage and product anchor (2.880043ms)
+✔ farm demos retain public description and photos without contact data (0.696153ms)
+✔ community cards keep text-only posts image-free and retain attached image credits (0.375658ms)
+✔ professional demo cards exclude contact and credentials while labeling AI portraits (3.08291ms)
+✔ company and product demo cards exclude contacts and distinguish documentary and AI samples (0.718846ms)
+✔ marketplace cards preserve the validated published phone, seller, price and product facts (5.930975ms)
+✔ marketplace sharing never recovers phones from legacy text, account fields or invalid profiles (1.337471ms)
+✔ real public farms, professionals, companies and products retain only their published contact fields (3.102659ms)
+✔ community contact is taken only from its matching public farm, never post or attached listing contacts (0.379093ms)
+✔ every demo suppresses a valid injected phone without inventing substitute contacts (1.663003ms)
+✔ all requested public surfaces use image sharing and community no longer exports bare-link share actions (6.856133ms)
+✔ documentary assets preserve original credit metadata while image text excludes URLs (22.111841ms)
+✔ rendered public cards expose styled image controls without mounting previews or changing their main action (757.523723ms)
+7:01:23 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ six examples cover the current farm-type enum and intentionally fail only missing real phone (4.634404ms)
+✔ expanded selection cards retain all six choices without registering public data (14.002955ms)
+✔ registration examples start collapsed to avoid a second sample gallery (1.129657ms)
+✔ each selected preview exposes full fields with no operational contact or submission control (7.478042ms)
+✔ preview source has no persistence, real-form mutation, automatic fill or network path (3.928708ms)
+✔ custom and legacy categories remain visible without rewriting records (1.420565ms)
+✔ offline navigation covers public sections but never authentication, administration or APIs (6.23191ms)
+7:01:24 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ market and business search accept accents, casing and outer whitespace without mutating data (1.670342ms)
+✔ empty market distinguishes loading, failure, offline, genuinely empty and filtered content (0.266843ms)
+✔ practice navigation is same-origin, whitelisted and preserves other query context (0.838776ms)
+✔ unavailable company catalogue provides retry rather than asserting a known empty directory (215.07413ms)
+✔ filter resets return focus and preserve first-class search controls across directories (1.197598ms)
+✔ demo navigation uses browser history and protects unsaved practice forms (0.886458ms)
+✔ canceling a main workspace navigation does not close the mobile menu or trigger synchronization (1.067192ms)
+✔ install guidance is dismissible with Escape and retains the automatic intro timing (6.129185ms)
+✔ phone install introduction is compact until a deliberate tap, with a permanent touch close (1.067422ms)
+✔ JSON reader validates type, stated length, actual UTF-8 bytes and broken input (10.186545ms)
+✔ chunked requests are cancelled at the byte limit rather than fully buffered (0.829774ms)
+✔ valid PNG and actual repository WebP decode with bounded raster dimensions (26.214509ms)
+✔ MIME spoofing, truncated images, SVG and excessive dimensions are rejected (0.535049ms)
+✔ legacy list parsing preserves strings and cannot throw through bootstrap (0.190368ms)
+✔ sync errors expose protocol codes rather than SQL or arbitrary internal messages (0.207794ms)
+✔ all non-media API responses are explicitly private and non-cacheable at the worker boundary (0.2849ms)
+✔ public projections are field allowlists, including server-to-client professional props (10.853814ms)
+✖ renders platform branding and production search metadata (63.710236ms)
+✖ opens Mi Finca in device-local mode when no account session is available (56.174407ms)
+✖ learning guides remain readable if the content database is temporarily unavailable (49.163482ms)
+✖ principal public pages and SEO endpoints stay available without a database connection (50.175041ms)
+✖ offline shell contains full farm controls and no authenticated account identity (1.155276ms)
+✖ downloaded library shell and every required reference page render without private identity or no-store responses (12.587163ms)
+✖ home market category links preserve exact labels independently of emoji width (56.198705ms)
+Official exchange rate unavailable { currency: 'VES', reason: 'request_failed' }
+Official exchange rate unavailable { currency: 'VES', reason: 'request_failed' }
+Official exchange rate unavailable { currency: 'VES', reason: 'Official source HTTP 502' }
+Official exchange rate unavailable { currency: 'COP', reason: 'Official source HTTP 502' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'Official source HTTP 502' }
+Official exchange rate unavailable {
+  currency: 'VES',
+  reason: 'bcv_unverified',
+  bcv: {
+    challengeLike: false,
+    dollarBlockFound: false,
+    numericPatternValid: false,
+    firstGlobalDate: null,
+    caracasDay: '2026-10-14',
+    matchingDateCountCappedAtFive: 0,
+    fechaValorAfterDollar: false,
+    nearbyDates: []
+  }
+}
+Official exchange rate unavailable { currency: 'COP', reason: 'invalid_json' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'ecb_unverified' }
+✔ official TRM selects effective local day, not the first future rate, including midnight and holidays (9.672899ms)
+✔ rates reject missing, zero, NaN, invalid calendar dates, invalid currency and malformed data (1.689083ms)
+✔ BCV parser requires USD block, exact effective date and safe numeric markup; never takes tomorrow or old data (2.67319ms)
+✔ all currency directions and cross-rates retain original price and need only the necessary official rates (0.288055ms)
+✔ offline cache retains successful timestamps on upstream failure and rejects invalid snapshots (1.413116ms)
+✔ official loader isolates BCV failure, limits endpoints, uses HTTPS and reuses successful hourly fetches (7.195586ms)
+✔ provider HTTP failures and changed documents return honest missing rates, with no numeric fallback (2.34864ms)
+✔ public rural reference is bounded and survives the existing envelope without a database migration (1.129237ms)
+✔ price UI explicitly labels seller currency, per-animal unit, update date and visible base references (46.572757ms)
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'VES', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'COP', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'redirect_refused' }
+Official exchange rate unavailable { currency: 'EUR', reason: 'Official source HTTP 503' }
+Official exchange rate unavailable { currency: 'VES', reason: 'Official source HTTP 502' }
+Official exchange rate unavailable { currency: 'COP', reason: 'Official source HTTP 502' }
+Official exchange rate unavailable {
+  currency: 'VES',
+  reason: 'bcv_unverified',
+  bcv: {
+    challengeLike: false,
+    dollarBlockFound: true,
+    numericPatternValid: true,
+    firstGlobalDate: '2026-10-15',
+    caracasDay: '2026-10-14',
+    matchingDateCountCappedAtFive: 1,
+    fechaValorAfterDollar: false,
+    nearbyDates: [ '2026-10-15' ]
+  }
+}
+✔ offline UX is essential-first and transparent about size and the existing bundled 3D engine (1.405735ms)
+✔ default loader resolves host fetch at request time with its global receiver and portable no-cache headers (1.705758ms)
+✔ edge-compatible manual redirect policy refuses every redirect without following its Location (3.609726ms)
+✔ even a successful response flagged as redirected cannot provide an official rate (1.074414ms)
+✔ BCV diagnostics distinguish a global date from the bounded currency-local date without accepting either (0.597914ms)
+✔ BCV diagnostics retain future dates as diagnostics, cap counts and never accept a future rate (0.779218ms)
+✔ ECB daily XML is normalized from USD per EUR with exact source date and rejects untrusted structure (1.06534ms)
+✔ ECB holiday reference keeps its publication date and remains visibly older rather than inventing validity (0.53597ms)
+✔ EUR supports all pair directions and previous USD/VES/COP caches remain valid (0.504503ms)
+✔ ECB errors remain isolated and do not prevent available COP or VES conversions (1.023918ms)
+✔ ECB prior-business-day publication uses hourly caching rather than repeated fetch on each view (1.051239ms)
+✔ conversion supports an initially open calculator and neutral cost/service language (1.849445ms)
+✔ changing original currency keeps the conversion target available in the selector (0.176837ms)
+✔ BCV next-day publication activates only at Caracas midnight and invalidates the hourly cache (2.542362ms)
+7:01:26 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ consent matches exact coordinates and cannot authorize a changed reference (3.182269ms)
+✔ pending removal from an unmounted farm cannot erase the newly mounted farm view (2.736316ms)
+7:01:27 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ geographic zones are bounded independently from sketches and preserve exact supplied center (2.012371ms)
+✔ range client uses sequential bounded HTTP206 without credentials or referrer (3.538598ms)
+✔ normal whole-file response is refused and cancellation never falls back to full download (0.652626ms)
+✔ oversized ranges are rejected before any request (0.279302ms)
+✔ generated known PNG stays isolated by owner and farm, and stale completion cannot restore removed imagery (29.428085ms)
+✔ normal bounded EOF ranges work with exposed or CORS-hidden range metadata (1.828714ms)
+✔ saved imagery fills the viewport while pre-download preview preserves the full rectangle (4.665521ms)
+✔ signout preparation preserves private pending records without network or cross-account adoption (10.618337ms)
+✔ another tab signout boundary drops cached account and tab access hints (0.825738ms)
+✔ menu uses server authorization and platform top-level signout, with no data deletion or sync (1.499556ms)
+✔ every existing public sample photo has a ready allowed export without changing its page photo (17.951661ms)
+✔ only known sample/stock paths substitute photos; uploaded private or public media is not silently replaced (0.33708ms)
+✔ every newly shipped alternative is selected and has a verified permission/provenance record (6.223366ms)
+✔ an export loads the permitted alternative, preserves public contact and never paints credits or URLs (4.741285ms)
+7:01:29 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ DialogContent preserves native focus restoration when a real trigger exists (6.716391ms)
+✔ DialogContent restores an ordinary button opener without scrolling (0.943726ms)
+✔ DialogContent preserves caller-managed focus and ignores disconnected or body openers (0.705446ms)
+✔ SheetContent preserves native focus restoration when a real trigger exists (0.701129ms)
+✔ SheetContent restores an ordinary button opener without scrolling (0.222857ms)
+✔ SheetContent preserves caller-managed focus and ignores disconnected or body openers (0.298962ms)
+✔ DialogContent keeps blocked modal drafts mounted and makes only account recovery controls available (0.483751ms)
+✔ SheetContent keeps blocked modal drafts mounted and makes only account recovery controls available (0.286162ms)
+✔ only approved exact Google hosts are eligible on public production section roots (2.658457ms)
+✔ preview, private and query routes retain self-only script connections (0.321205ms)
+✔ satellite worker and farm surfaces permit only two approved imagery origins (0.366064ms)
+7:01:30 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ primary tasks prioritize farm, market, professionals, learning and community (1.510623ms)
+✔ purpose groups preserve every prior destination without duplicating menu routes (0.320174ms)
+✔ keyboard-expandable menu preserves gated account, accessibility and social controls (6.933358ms)
+✔ replacement photographs are distinct, optimized and have complete licensing provenance (116.020019ms)
+✔ all formerly repeated brown-cow contexts use distinct scenes or an honest product placeholder (7.713418ms)
+✔ prefers lower-right and respects safe-area bottom (1.664226ms)
+✔ actual primary CTA collision lifts only the social control (0.782352ms)
+✔ non-colliding content does not unnecessarily move the lower-right button (0.176066ms)
+✔ overlapping CTA blockers are merged and the lower useful gap is chosen (0.163597ms)
+✔ open panel avoids store request and other compact orbs without moving them (0.26516ms)
+✔ short landscape windows cap the panel for internal scrolling (0.133071ms)
+✔ pinch zoom or a keyboard uses visual viewport offsets and never the old layout height (0.145199ms)
+✔ very narrow views use a bounded panel above the button (0.169806ms)
+✔ when every safe interval is covered the social control yields instead of covering a CTA (0.190137ms)
+✔ geometry is deterministic and does not mutate obstacle or viewport inputs (0.533266ms)
+✔ component preserves official links, Radix dismissal/focus, and observes viewport geometry (6.786166ms)
+✔ glass styling includes readable opaque fallback, proper transform origin, touch targets and reduced motion (0.753799ms)
+✔ a safe previous social location stays stable when lower content changes (0.282307ms)
+✔ scroll bursts hold placement and schedule one settled measurement; unmount cancels pending work (0.388407ms)
+✔ staging migration journal contains the exact ordered 0000–0009 chain (1.412615ms)
+✔ all ten migrations apply to an empty local SQLite database (10.685049ms)
+✔ 0008 CMS and 0009 auth are additive and preserve existing account, farm, record and ownership data (9.437503ms)
+✔ CMS 0008 and combined 0009 snapshots form an exact additive chain (2.565246ms)
+✔ auth 0009 preserves existing v127 CMS drafts and published snapshots (8.330641ms)
+✔ legacy v125-auth schema can add CMS without replaying auth or altering records (schema-only rehearsal) (10.762937ms)
+✔ all 76 reviewed stickers and both ZIPs have unique IDs, paths, correct bytes and content hashes (59.45134ms)
+✔ PNG pixels preserve transparency and padding; compact artwork is smaller; thumbnail headers match (1388.901703ms)
+✔ ZIP membership, CRCs and extracted PNG bytes match all 76 current catalog sources exactly (52.824677ms)
+✔ all 20 human pairs, including professionals, contain exactly one woman and one man (0.463941ms)
+✔ the eight new crop stickers have their exact reviewed identities and unique search aliases (0.513897ms)
+✔ the new 18 nonhuman illustrations match their reviewed composition manifest (5.185447ms)
+✔ published v124 and v125 ZIP links remain byte-identical for already-open pages (20.245804ms)
+7:01:33 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ sticker search supports accents, aliases, multiple words and independent family filters (1.861433ms)
+✔ every advertised sticker and pack has an actual same-origin file with matching bytes (9.877197ms)
+✔ sticker media is excluded from automatic offline copying while its public page remains available (1.020873ms)
+✔ preview close restores the exact opener and offline state removes actionable download links (391.434692ms)
+✔ character filtering preserves explicit woman/man pairs and separates nonhuman subjects (0.50916ms)
+✔ available human illustrations appear only as complete explicitly labelled pairs (0.283138ms)
+✔ WhatsApp help keeps downloads as images and explains the explicit in-app creation step (1.780011ms)
+✔ complete and compact previews use the matching file without changing either download (19.64904ms)
+✔ both collections cover the 76 reviewed entries and all human pairs (0.460727ms)
+✔ approved occupation names preserve IDs, image downloads and legacy search aliases (0.526386ms)
+✔ gallery explains complete and compact files, shows a small reference and names downloads accessibly (1.068405ms)
+✔ new animals, crops and tools can be found by Venezuelan aliases without hiding human counterparts (0.464773ms)
+✔ shared close controls precede content in an internal sticky rail with contrast and accessible names (4.70481ms)
+✔ card primary actions stretch without transformed containing blocks and secondary credits remain reachable (2.937821ms)
+7:01:34 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ cuts and crop presentations support common Venezuelan purchases (1.086843ms)
+✔ order processing preserves cuts and notes; requires business identity and whole plants (2.539869ms)
+✔ existing device carts and queued legacy orders retain their data (0.419964ms)
+Knowledge database unavailable; serving built-in educational content.
+Public sitemap database unavailable; returning principal pages and built-in guides.
+✔ sitemap remains available during database interruption and excludes private workspaces (503.364451ms)
+✔ document closure labelled0 is preserved but produces exactly one closing edge (3.142329ms)
+✔ repeated closures and interior reused labels are rejected without renumbering (0.302537ms)
+✔ five-plus-digit decimal projected coordinates keep their values and do not imply an unknown datum (3.93673ms)
+✔ offline administrative reference contains verified hierarchy and a manual Federal Dependencies option (3.806753ms)
+✔ survey input is distinct from optional normalized sketch and numeric error rows can grow on narrow screens (0.968914ms)
+✔ emits the catalog's animation and scrolling utilities (30.797085ms)
+✔ forwards progress semantics to the primitive (656.388478ms)
+✔ emits chart themes for the starter's media dark mode (188.647251ms)
+✔ renders sidebar skeletons deterministically (198.848017ms)
+✔ calculates a closed survey polygon, distances and bearings (4.873055ms)
+✔ store contact survives editing a cut, closing/reopening, channel switches and removing all products (85.172042ms)
+✔ store save failure retains the form; successful queueing clears contact only after confirmation (45.259523ms)
+✔ company clean add/switch/close needs no prompt; cancel protects restored fields, images and products (8.802984ms)
+✔ company product and image removal handlers mark dirty, and accepted close changes editor once (3.740945ms)
+✔ company submit synchronously blocks close/add/switch and preserves the form after a server error (3.564587ms)
+✔ general weighing opens without an animal even after filtering; row actions retain the right identity (3.02404ms)
+✔ company photo processing blocks a switch until the image is retained in the draft (3.36124ms)
+✔ company confirmed save closes once and stale callbacks cannot erase a newer dirty form (2.172323ms)
+✔ informational conversion changes keep company clean; original product currency still marks it dirty (3.031641ms)
+✔ USD and VES references are visible with original price and unchanged unit (13.160901ms)
+✔ EUR and COP originals derive both references through verified source pairs (1.961214ms)
+✔ missing rate never invents an equivalent and identity price remains visible (1.843506ms)
+✔ cached/offline, old dated, and failed refresh references carry explicit warnings (2.267437ms)
+✔ zero is valid; invalid inputs never become fake money and large figures can wrap (3.21585ms)
+✔ EUR/COP one-tap actions select and open conversion without replacing original currency (26.507101ms)
+ℹ tests 1320
+ℹ suites 0
+ℹ pass 1309
+ℹ fail 11
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 114629.475063
+
+✖ failing tests:
+
+test at tests/admin-navigation.test.mjs:46:1
+✖ only public promotional overlays are suppressed on admin, while connection and account services remain (2.131972ms)
+  AssertionError [ERR_ASSERTION]: The input did not match the regular expression /<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<\/PublicWorkspaceControls>/. Input:
+  
+  'import { MobilePublicActions } from "@/components/mobile-public-actions";\n' +
+    'import { PublicWorkspaceControls } from "@/components/public-workspace-controls";\n' +
+    'import { OfflineWorkerRegistration } from "@/components/offline-worker-registration";\n' +
+    'import { robotsPolicy } from "@/lib/indexing-policy";\n' +
+    'import { SITE_ORIGIN } from "@/lib/site-identity";\n' +
+    'import type { Metadata, Viewport } from "next";\n' +
+    'import { InstallAppBanner } from "@/components/install-app-banner";\n' +
+    'import { AccountServices } from "@/components/account-services";\n' +
+    'import {SocialFloatingMenu} from "@/components/social-links";\n' +
+    'import {OfflineNavigation} from "@/components/offline-navigation";\n' +
+    'import { Toaster } from "@/components/ui/sonner";\n' +
+    'import "./globals.css";\n' +
+    '\n' +
+    'export const metadata: Metadata = {\n' +
+    '  metadataBase: new URL(SITE_ORIGIN),\n' +
+    '  robots:robotsPolicy(),\n' +
+    '  title: {\n' +
+    '    default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",\n' +
+    '    template: "%s | VenezuelaAgro",\n' +
+    '  },\n' +
+    '  description:\n' +
+    '    "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",\n' +
+    '  applicationName: "Venezuela Agro",\n' +
+    '  appleWebApp: {\n' +
+    '    capable: true,\n' +
+    '    statusBarStyle: "black-translucent",\n' +
+    '    title: "Venezuela Agro",\n' +
+    '  },\n' +
+    '  formatDetection: { telephone: false },\n' +
+    '  manifest: "/manifest.webmanifest",\n' +
+    '  alternates: { canonical: "/" },\n' +
+    '  keywords: [\n' +
+    '    "finca Venezuela",\n' +
+    '    "agropecuaria Apure",\n' +
+    '    "ganadería Venezuela",\n' +
+    '    "Venezuela Agro",\n' +
+    '    "comprar y vender cosechas Venezuela",\n' +
+    '    "marketplace agropecuario",\n' +
+    '    "gestión de fincas",\n' +
+    '    "producción animal",\n' +
+    '  ],\n' +
+    '  icons: {\n' +
+    '    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/favicon.png", type: "image/png" }],\n' +
+    '    shortcut: "/favicon.ico",\n' +
+    '    apple: "/apple-touch-icon.png",\n' +
+    '  },\n' +
+    '  openGraph: {\n' +
+    '    type: "website",\n' +
+    '    locale: "es_VE",\n' +
+    '    siteName: "VenezuelaAgro",\n' +
+    '    title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",\n' +
+    '    description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",\n' +
+    '    images: [{ url: "/hero-apure.webp", width: 1536, height: 1024, alt: "Campo venezolano al amanecer" }],\n' +
+    '  },\n' +
+    '  twitter: {\n' +
+    '    card: "summary_large_image",\n' +
+    '    title: "Venezuela Agro",\n' +
+    '    description: "Campo, familia y tecnología para el productor venezolano.",\n' +
+    '    images: ["/hero-apure.webp"],\n' +
+    '  },\n' +
+    '};\n' +
+    '\n' +
+    'export const viewport: Viewport = {\n' +
+    '  themeColor: "#211d1a",\n' +
+    '  colorScheme: "light",\n' +
+    '  width: "device-width",\n' +
+    '  initialScale: 1,\n' +
+    '  viewportFit: "cover",\n' +
+    '};\n' +
+    '\n' +
+    'export default function RootLayout({\n' +
+    '  children,\n' +
+    '}: Readonly<{ children: React.ReactNode }>) {\n' +
+    '  return (\n' +
+    '    <html lang="es-VE">\n' +
+    '      <body className="min-w-0 overflow-x-clip antialiased">\n' +
+    '        {children}\n' +
+    '        <OfflineWorkerRegistration />\n' +
+    '        <AccountServices />\n' +
+    '        <PublicWorkspaceControls>\n' +
+    '          <InstallAppBanner />\n' +
+    '          <SocialFloatingMenu />\n' +
+    '          <MobilePublicActions />\n' +
+    '        </PublicWorkspaceControls>\n' +
+    '        <OfflineNavigation />\n' +
+    '        <Toaster theme="light" position="top-center" offset="6rem" mobileOffset="6rem" closeButton visibleToasts={2} />\n' +
+    '      </body>\n' +
+    '    </html>\n' +
+    '  );\n' +
+    '}\n'
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/admin-navigation.test.mjs:49:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 'import { MobilePublicActions } from "@/components/mobile-public-actions";\nimport { PublicWorkspaceControls } from "@/components/public-workspace-controls";\nimport { OfflineWorkerRegistration } from "@/components/offline-worker-registration";\nimport { robotsPolicy } from "@/lib/indexing-policy";\nimport { SITE_ORIGIN } from "@/lib/site-identity";\nimport type { Metadata, Viewport } from "next";\nimport { InstallAppBanner } from "@/components/install-app-banner";\nimport { AccountServices } from "@/components/account-services";\nimport {SocialFloatingMenu} from "@/components/social-links";\nimport {OfflineNavigation} from "@/components/offline-navigation";\nimport { Toaster } from "@/components/ui/sonner";\nimport "./globals.css";\n\nexport const metadata: Metadata = {\n  metadataBase: new URL(SITE_ORIGIN),\n  robots:robotsPolicy(),\n  title: {\n    default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",\n    template: "%s | VenezuelaAgro",\n  },\n  description:\n    "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",\n  applicationName: "Venezuela Agro",\n  appleWebApp: {\n    capable: true,\n    statusBarStyle: "black-translucent",\n    title: "Venezuela Agro",\n  },\n  formatDetection: { telephone: false },\n  manifest: "/manifest.webmanifest",\n  alternates: { canonical: "/" },\n  keywords: [\n    "finca Venezuela",\n    "agropecuaria Apure",\n    "ganadería Venezuela",\n    "Venezuela Agro",\n    "comprar y vender cosechas Venezuela",\n    "marketplace agropecuario",\n    "gestión de fincas",\n    "producción animal",\n  ],\n  icons: {\n    icon: [{ url: "/favicon.ico", sizes: "any" }, { url: "/favicon.png", type: "image/png" }],\n    shortcut: "/favicon.ico",\n    apple: "/apple-touch-icon.png",\n  },\n  openGraph: {\n    type: "website",\n    locale: "es_VE",\n    siteName: "VenezuelaAgro",\n    title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",\n    description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",\n    images: [{ url: "/hero-apure.webp", width: 1536, height: 1024, alt: "Campo venezolano al amanecer" }],\n  },\n  twitter: {\n    card: "summary_large_image",\n    title: "Venezuela Agro",\n    description: "Campo, familia y tecnología para el productor venezolano.",\n    images: ["/hero-apure.webp"],\n  },\n};\n\nexport const viewport: Viewport = {\n  themeColor: "#211d1a",\n  colorScheme: "light",\n  width: "device-width",\n  initialScale: 1,\n  viewportFit: "cover",\n};\n\nexport default function RootLayout({\n  children,\n}: Readonly<{ children: React.ReactNode }>) {\n  return (\n    <html lang="es-VE">\n      <body className="min-w-0 overflow-x-clip antialiased">\n        {children}\n        <OfflineWorkerRegistration />\n        <AccountServices />\n        <PublicWorkspaceControls>\n          <InstallAppBanner />\n          <SocialFloatingMenu />\n          <MobilePublicActions />\n        </PublicWorkspaceControls>\n        <OfflineNavigation />\n        <Toaster theme="light" position="top-center" offset="6rem" mobileOffset="6rem" closeButton visibleToasts={2} />\n      </body>\n    </html>\n  );\n}\n',
+    expected: /<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<\/PublicWorkspaceControls>/,
+    operator: 'match',
+    diff: 'simple'
+  }
+
+test at tests/client-preload-consistency.test.mjs:35:1
+✖ rendered routes preload only files present in the packaged client (83.974909ms)
+  AssertionError [ERR_ASSERTION]: /
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/client-preload-consistency.test.mjs:40:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/indexing-policy.test.mjs:10:1
+✖ rendered preview headers and metadata keep public and private surfaces out of indexing (63.668896ms)
+  AssertionError [ERR_ASSERTION]: /
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/indexing-policy.test.mjs:12:282)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/land-water-guides.test.mjs:30:1
+✖ all five built article routes render full text, source links, and private-preview metadata (70.116429ms)
+  AssertionError [ERR_ASSERTION]: preparar-terreno-cultivos-instalaciones
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/land-water-guides.test.mjs:34:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:7:1
+✖ renders platform branding and production search metadata (63.710236ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:27:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async startSubtestAfterBootstrap (node:internal/test_runner/harness:387:3) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:40:1
+✖ opens Mi Finca in device-local mode when no account session is available (56.174407ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:52:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:58:1
+✖ learning guides remain readable if the content database is temporarily unavailable (49.163482ms)
+  AssertionError [ERR_ASSERTION]: /aprende
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:64:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:74:1
+✖ principal public pages and SEO endpoints stay available without a database connection (50.175041ms)
+  AssertionError [ERR_ASSERTION]: /tienda
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:78:10)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:86:1
+✖ offline shell contains full farm controls and no authenticated account identity (1.155276ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:89:42)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:92:1
+✖ downloaded library shell and every required reference page render without private identity or no-store responses (12.587163ms)
+  AssertionError [ERR_ASSERTION]: /finca-modelo
+  
+  503 !== 200
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:95:341)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 503,
+    expected: 200,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+
+test at tests/rendered-html.test.mjs:99:1
+✖ home market category links preserve exact labels independently of emoji width (56.198705ms)
+  AssertionError [ERR_ASSERTION]: Expected values to be strictly equal:
+  
+  0 !== 12
+  
+      at TestContext.<anonymous> (file:///workspace/scratch/1cce691d0fde/agro-approved-v131-release/tests/rendered-html.test.mjs:104:9)
+      at async Test.run (node:internal/test_runner/test:1389:7)
+      at async Test.processPendingSubtests (node:internal/test_runner/test:960:7) {
+    generatedMessage: true,
+    code: 'ERR_ASSERTION',
+    actual: 0,
+    expected: 12,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

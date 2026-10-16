@@ -1,0 +1,172 @@
+diff --git a/app/globals.css b/app/globals.css
+index ccd3f06..1bfb38f 100644
+--- a/app/globals.css
++++ b/app/globals.css
+@@ -925,7 +925,6 @@ html { scroll-padding-top: 8rem; }
+ }
+ 
+ /* Mobile reading: full CMS wording, ordinary word wrapping and room below the hero. */
+-.mobile-public-actions, .mobile-public-menu { display: none; }
+ @media (max-width:767px) {
+   .home-hero-content { padding-top: calc(6.5rem + env(safe-area-inset-top)); padding-bottom: calc(5.5rem + env(safe-area-inset-bottom)); }
+   .home-hero-copy { min-width: 0; width: 100%; }
+@@ -938,36 +937,41 @@ html { scroll-padding-top: 8rem; }
+   .home-hero h1 > span { margin-top: .12em; }
+   .home-hero-copy > div { scroll-margin-block: 7rem 6rem; }
+   .home-hero-foot { flex-wrap: wrap; }
++}
++/* Compact brand action bar: one primary contact action and one navigation entry. */
+   body:has([data-mobile-public-actions]) .glass-action-orb { display: none !important; }
+-  .mobile-public-actions { position: fixed; z-index: 89; right: max(12px,env(safe-area-inset-right)); bottom: max(12px,env(safe-area-inset-bottom)); display: flex; gap: 12px; }
++  .mobile-public-actions { position: fixed; z-index: 89; right: max(12px,env(safe-area-inset-right)); bottom: max(12px,env(safe-area-inset-bottom)); display: flex; gap: 6px; max-width: calc(100vw - max(12px,env(safe-area-inset-left)) - max(12px,env(safe-area-inset-right))); padding: 6px; border: 1px solid #36502626; border-radius: 19px; background: #f8f3ea; box-shadow: 0 5px 20px #18251e1f,0 1px 3px #18251e0d; }
+   .mobile-public-actions[data-content-overlap="true"] { visibility: hidden; pointer-events: none; }
+-  .mobile-public-action { display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; width: 48px; height: 48px; min-width: 48px; min-height: 48px; border-radius: 50%; border: 1px solid rgba(255,255,255,.55); background: rgba(255,255,255,.08); color: #fff; font-size: 8px; font-weight: 750; line-height: 1.2; text-decoration: none; text-shadow: 0 1px 2px #18251e,1px 0 1px #18251e,-1px 0 1px #18251e; box-shadow: 0 2px 10px #18251e26,inset 0 1px 0 #ffffff55; backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px); }
+-  .mobile-public-action > svg { filter: drop-shadow(0 1px 1px #18251e); }
+-  .mobile-public-action:focus-visible { outline: 3px solid #18251e; outline-offset: 3px; box-shadow: 0 0 0 6px #fff; }
+-  .mobile-public-menu { display: block; z-index: 130; width: min(300px,calc(100vw - 24px)); max-height: min(440px,var(--radix-popover-content-available-height)); overflow-y: auto; overscroll-behavior: contain; padding: 12px; border: 1px solid var(--agro-panel-border); border-radius: 22px; background: var(--agro-panel-surface); color: var(--agro-panel-ink); box-shadow: 0 12px 36px #18251e29,inset 0 1px 0 #ffffffa6; backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px); }
++  .mobile-public-action { display: inline-flex; flex: 1 1 auto; align-items: center; justify-content: center; gap: 7px; min-width: 44px; min-height: 48px; padding: 10px 12px; border: 1px solid transparent; border-radius: 13px; color: #365026; background: #e8efdf; font-family: inherit; font-size: 12px; font-weight: 750; line-height: 1.25; white-space: nowrap; text-decoration: none; touch-action: manipulation; }
++  .mobile-public-action[data-action-tone="primary"] { background: #365026; color: #fff; border-color: #365026; }
++  .mobile-public-action[data-action-tone="primary"]:hover { background: #29401e; }
++  .mobile-public-action[data-action-tone="secondary"]:hover, .mobile-public-action[aria-expanded="true"] { background: #d9e5cd; }
++  .mobile-public-action > svg { flex: none; width: 18px; height: 18px; }
++  .mobile-public-action:focus-visible { outline: 3px solid #365026; outline-offset: 2px; box-shadow: 0 0 0 2px #fff; }
++  .mobile-public-menu { display: block; z-index: 130; width: min(300px,calc(100vw - 24px)); max-height: min(440px,var(--radix-popover-content-available-height)); overflow-y: auto; overscroll-behavior: contain; padding: 12px; border: 1px solid var(--agro-panel-border); border-radius: 20px; background: #f8f3ea; color: #3e2a19; box-shadow: 0 12px 36px #18251e24; }
+   .mobile-public-menu header { display: flex; align-items: center; justify-content: space-between; gap: 8px; }
+-  .mobile-public-menu h2 { padding-left: 8px; font-size: 15px; font-weight: 750; }
++  .mobile-public-menu h2 { padding-left: 8px; font-size: 15px; font-weight: 750; color: #365026; }
+   .mobile-public-menu :is(a,button) { display: flex; align-items: center; gap: 9px; min-height: 44px; padding: 10px 8px; border-radius: 12px; font-size: 13px; text-align: left; }
+   .mobile-public-menu > :is(a,button) { width: 100%; }
+   .mobile-public-menu header button { min-width: 44px; justify-content: center; }
+-  .mobile-public-menu :is(a,button):hover { background: #ffffff88; }
++  .mobile-public-menu :is(a,button):hover { background: #e8efdf; }
+   .mobile-public-menu :is(a,button):focus-visible { outline: 3px solid #4c6b3a; outline-offset: -2px; }
+   .mobile-public-menu button:disabled { opacity: .65; }
+   .mobile-public-menu-label { margin: 10px 8px 2px; padding-top: 10px; border-top: 1px solid #3e2a1920; font-size: 11px; font-weight: 750; }
+-  .mobile-public-menu nav { display: grid; grid-template-columns: 1fr 1fr; }
++  .mobile-public-menu nav { display: grid; grid-template-columns: 1fr 1fr; gap: 3px; }
+   body:has([data-masterplan-immersive], [role="dialog"][data-state="open"]:not([data-mobile-public-menu]), [role="alertdialog"], .brand-menu[data-state="open"], input:focus, textarea:focus, select:focus, [contenteditable="true"]:focus) .mobile-public-actions { visibility: hidden; pointer-events: none; }
+-}
+ @media (max-width:767px) and (max-height:480px) {
+   .home-hero-content { padding-top: calc(5.5rem + env(safe-area-inset-top)); }
+   .home-hero h1 { font-size: clamp(1.625rem,6.5vw,2rem); }
+ }
+ @media (prefers-reduced-transparency:reduce), (prefers-contrast:more) {
+-  .mobile-public-action, .mobile-public-menu { background: #f7f3ec; color: #18251e; text-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; border-color: #18251e; }
++  .mobile-public-actions, .mobile-public-menu { background: #f8f3ea; color: #18251e; border-color: #18251e; }
+   .mobile-public-action > svg { filter: none; }
+ }
+ @supports not ((backdrop-filter:blur(1px)) or (-webkit-backdrop-filter:blur(1px))) {
+-  .mobile-public-action, .mobile-public-menu { background: #f7f3ec; color: #18251e; text-shadow: none; }
++  .mobile-public-actions, .mobile-public-menu { background: #f8f3ea; }
+ }
+ @media (forced-colors:active) {
+-  .mobile-public-action, .mobile-public-menu { background: Canvas; color: CanvasText; border-color: CanvasText; text-shadow: none; box-shadow: none; backdrop-filter: none; -webkit-backdrop-filter: none; }
++  .mobile-public-actions, .mobile-public-action, .mobile-public-menu { background: Canvas; color: CanvasText; border-color: CanvasText; box-shadow: none; }
++  .mobile-public-action[data-action-tone="primary"] { background: ButtonFace; color: ButtonText; border-color: ButtonText; }
+ }
+diff --git a/components/install-app-banner.tsx b/components/install-app-banner.tsx
+index e7480c0..17fce52 100644
+--- a/components/install-app-banner.tsx
++++ b/components/install-app-banner.tsx
+@@ -84,7 +84,7 @@ export function InstallAppBanner() {
+       if (!aliveRef.current) return;
+       animation?.release(); if (animationRef.current === animation) animationRef.current = null;
+       if (restoreFocus) {
+-        const mobileMore = window.matchMedia("(max-width:767px)").matches ? document.querySelector<HTMLButtonElement>("[data-mobile-more]") : null;
++        const mobileMore = document.querySelector<HTMLButtonElement>("[data-mobile-more]");
+         (mobileMore ?? orbRef.current)?.focus();
+       }
+       completeIntro();
+diff --git a/components/mobile-public-actions.tsx b/components/mobile-public-actions.tsx
+index 5dd1129..03cadb9 100644
+--- a/components/mobile-public-actions.tsx
++++ b/components/mobile-public-actions.tsx
+@@ -3,11 +3,11 @@
+ import {useEffect, useId, useRef, useState, useSyncExternalStore} from "react";
+ import {usePathname} from "next/navigation";
+ import {Popover} from "radix-ui";
+-import {Ellipsis, MessageCircle, X, Lightbulb, Sprout, Download, ArrowUpRight} from "lucide-react";
++import {Compass, MessageCircle, X, Lightbulb, Sprout, Download, ArrowUpRight} from "lucide-react";
+ import {OFFICIAL_SOCIAL_LINKS} from "@/lib/official-links";
+ import {installActionSnapshot, installActionServerSnapshot, subscribeInstallAction, requestInstallAction} from "@/lib/install-action";
+ 
+-/** Mobile-only entry points; the existing dialogs and submission handlers own all work. */
++/** Shared responsive entry points; existing dialogs and submission handlers own all work. */
+ export function MobilePublicActions() {
+   const pathname=usePathname();
+   const [open,setOpen]=useState(false);
+@@ -19,16 +19,11 @@ export function MobilePublicActions() {
+   const titleId=useId();
+   const install=useSyncExternalStore(subscribeInstallAction,installActionSnapshot,installActionServerSnapshot);
+   useEffect(()=>{setOpen(false);},[pathname]);
+-  useEffect(()=>{
+-    const desktop=window.matchMedia("(min-width:768px)");
+-    const close=()=>{if(desktop.matches)setOpen(false);};
+-    desktop.addEventListener("change",close);return()=>desktop.removeEventListener("change",close);
+-  },[]);
+   useEffect(()=>{
+     let frame=0;
+     const measure=()=>{
+       frame=0;
+-      if(!dock.current||!window.matchMedia("(max-width:767px)").matches){setContentOverlap(false);return;}
++      if(!dock.current){setContentOverlap(false);return;}
+       const target=dock.current.getBoundingClientRect();
+       const overlaps=Array.from(document.querySelectorAll("#home-title, .home-hero .button-primary, .home-hero .button-glass")).some(element=>{
+         const rect=element.getBoundingClientRect();
+@@ -46,9 +41,9 @@ export function MobilePublicActions() {
+   if(excluded)return null;
+   const whatsapp="https://wa.me/584264263601?text="+encodeURIComponent("Hola, quisiera información sobre Venezuela Agro.");
+   return <div ref={dock} className="mobile-public-actions" data-mobile-public-actions data-content-overlap={contentOverlap&&!open}>
+-    <a className="mobile-public-action" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Contactar al equipo de Venezuela Agro por WhatsApp (abre otra pestaña)"><MessageCircle aria-hidden="true" size={21}/><span>WhatsApp</span></a>
++    <a className="mobile-public-action" data-action-tone="primary" href={whatsapp} target="_blank" rel="noopener noreferrer" aria-label="Contactar al equipo de Venezuela Agro por WhatsApp (abre otra pestaña)"><MessageCircle aria-hidden="true" size={21}/><span>WhatsApp</span></a>
+     <Popover.Root open={open} onOpenChange={setOpen}>
+-      <Popover.Trigger asChild><button ref={trigger} data-mobile-more type="button" className="mobile-public-action" aria-label="Más opciones de Venezuela Agro" aria-expanded={open}><Ellipsis aria-hidden="true" size={22}/><span>Más</span></button></Popover.Trigger>
++      <Popover.Trigger asChild><button ref={trigger} data-mobile-more type="button" className="mobile-public-action" data-action-tone="secondary" aria-label="Explorar opciones de Venezuela Agro" aria-expanded={open}><Compass aria-hidden="true" size={18}/><span>Explorar</span></button></Popover.Trigger>
+       <Popover.Portal><Popover.Content className="mobile-public-menu" data-mobile-public-menu side="top" align="end" sideOffset={12} collisionPadding={12} aria-labelledby={titleId}
+         onOpenAutoFocus={event=>{event.preventDefault();firstAction.current?.focus();}}
+         onCloseAutoFocus={event=>{event.preventDefault();trigger.current?.focus();if(pendingIdea.current){pendingIdea.current=false;setTimeout(()=>document.querySelector<HTMLButtonElement>(".idea-orb")?.click(),0);}}}>
+diff --git a/tests/mobile-public-actions.test.mjs b/tests/mobile-public-actions.test.mjs
+index bd05c7c..adfe90c 100644
+--- a/tests/mobile-public-actions.test.mjs
++++ b/tests/mobile-public-actions.test.mjs
+@@ -32,9 +32,9 @@ test('hero preserves complete CMS wording and only mobile receives typography ov
+  postcss.parse(additions).walkRules(rule=>{if(rule.selector.includes('.home-hero'))assert.ok(rule.parent.params?.includes('max-width:767px'));});
+  assert.doesNotMatch(additions,/line-clamp|text-overflow:\s*ellipsis/);
+ });
+-test('two 48px targets fit safe areas at 320/390/430 and avoid title/CTA intersections',()=>{
++test('compact labeled targets fit safe areas at 320/390/430 and avoid title/CTA intersections',()=>{
+  for(const width of [320,390,430])for(const inset of [12,34,44]){
+-  const left=width-inset-108;assert.ok(left>=inset);assert.ok(48>=44);
++  const barWidth=Math.min(228,width-inset*2);const left=width-inset-barWidth;assert.ok(left>=inset);assert.ok(48>=44);
+   for(const height of [320,480,568,844,932])assert.ok(height-inset-48>=0);
+  }
+  assert.match(ui,/#home-title, \.home-hero \.button-primary, \.home-hero \.button-glass/);
+@@ -47,5 +47,27 @@ test('closing installation returns keyboard focus to the visible mobile More con
+  const install=await read('components/install-app-banner.tsx');
+  assert.match(ui,/data-mobile-more/);
+  assert.match(install,/mobileMore \?\? orbRef.current/);
+- assert.match(install,/window.matchMedia\("\(max-width:767px\)"\)/);
++ assert.doesNotMatch(install,/const mobileMore = window.matchMedia/);
++});
++
++test('desktop and mobile use the same two-control dock, menu and hero collision checks',()=>{
++ const root=postcss.parse(css);const rules=[];root.walkRules(rule=>rules.push(rule));
++ for(const selector of ['.mobile-public-actions','.mobile-public-action','.mobile-public-menu','body:has([data-mobile-public-actions]) .glass-action-orb']){
++  const rule=rules.find(rule=>rule.selector===selector&&rule.parent.type==='root');assert.ok(rule,selector);
++ }
++ assert.doesNotMatch(ui,/min-width:768px|max-width:767px/);
++ for(const width of [320,390,430,1280,1440])for(const inset of [12,34,44]){
++  const barWidth=Math.min(228,width-inset*2);const left=width-inset-barWidth;assert.ok(left>=inset);assert.ok(left+barWidth<=width-inset);
++ }
++});
++
++test('branded action hierarchy uses readable labels, solid contrast and compact 48px targets',()=>{
++ assert.match(ui,/data-action-tone="primary"/);assert.match(ui,/data-action-tone="secondary"/);
++ assert.match(ui,/<span>WhatsApp<\/span>/);assert.match(ui,/<span>Explorar<\/span>/);
++ assert.match(css,/font-size: 12px; font-weight: 750/);
++ assert.match(css,/min-height: 48px; padding: 10px 12px/);
++ assert.match(css,/\.mobile-public-action\[data-action-tone="primary"\] \{ background: #365026; color: #fff/);
++ const luminance=rgb=>rgb.map(v=>{v/=255;return v<=.04045?v/12.92:((v+.055)/1.055)**2.4;}).reduce((sum,v,i)=>sum+v*[.2126,.7152,.0722][i],0);
++ assert.ok(1.05/(luminance([54,80,38])+.05)>4.5);
++ assert.ok((luminance([232,239,223])+.05)/(luminance([54,80,38])+.05)>4.5);
+ });
