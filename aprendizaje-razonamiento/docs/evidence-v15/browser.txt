@@ -1,0 +1,17 @@
+
+> aprendizaje-razonamiento-prototipo@0.10.0 test:browser
+> node tests/browser.cjs
+
+{
+  checks: 227,
+  viewports: [ 320, 375, 768, 1440 ],
+  browser: 'Chromium headless',
+  errors: [],
+  externalRequests: [],
+  scope: 'Functional browser, keyboard, names, states, reduced motion, mobile overflow and bounded local persistence. Not a full WCAG audit or device certification.'
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

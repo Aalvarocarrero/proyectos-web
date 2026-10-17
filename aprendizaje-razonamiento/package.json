@@ -1,6 +1,6 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.9.1",
+  "version": "0.10.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,6 +8,7 @@
     "test:static": "python3 tests/static_a11y.py",
     "test:dom": "node --test tests/dom.test.cjs",
     "test:browser": "node tests/browser.cjs",
-    "serve": "python3 -m http.server 4186 --bind 127.0.0.1 --directory dist"
+    "serve": "python3 -m http.server 4186 --bind 127.0.0.1 --directory dist",
+    "test:navigation": "node tests/navigation-browser.cjs"
   }
 }

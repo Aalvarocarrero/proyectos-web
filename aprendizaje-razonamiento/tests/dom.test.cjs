@@ -108,3 +108,31 @@ test('asynchronous coordinated saving announces completion and restores latest c
 test('returning to an active or paused focused game targets its visible session heading',async()=>{for(const game of ['garden','words']){const f=await fixture({setup(w){w.HTMLElement.prototype.scrollIntoView=function(){};}});f.click(game==='garden'?'#open-garden':'#open-words');f.click('#start-session');f.click('#garden-library');f.click('[data-stage="3y"]');f.click('[data-stage="5y"]');assert.equal(f.d.activeElement.id,'stage-title');f.click('#garden-library');f.click('#garden-library');f.click(game==='garden'?'#open-garden':'#open-words');assert.ok(f.d.body.classList.contains('garden-focus'));assert.equal(f.d.activeElement.id,'session-title');f.click('#pause-session');f.click('#paused-catalog');f.click('[data-stage="3y"]');f.click(game==='garden'?'#open-garden':'#open-words');assert.equal(f.d.activeElement.id,'session-title');assert.match(f.text('#activity'),/La pausa/);}});
 test('each extra question exposes the current scenario as its accessible description',async()=>{const {extraActivities}=await import('../dist/activities.mjs');for(const [id,a] of Object.entries(extraActivities)){const f=await fixture();f.click(`[data-stage="${id}"]`);f.click('[data-activity="extra"]');f.click('#start-session');for(const [i,q] of a.steps.entries()){const legend=f.d.querySelector('#extra-question');assert.equal(legend.getAttribute('aria-describedby'),'extra-context');assert.equal(legend.parentElement.getAttribute('aria-describedby'),'extra-context');assert.equal(f.text('#extra-context'),q.context);assert.equal(f.d.querySelectorAll('#extra-context').length,1);f.click(`[data-extra-answer="${q.answer}"]`);f.click('#check-extra');if(i===0)f.click('#next-extra');}assert.equal(f.d.activeElement.id,'extra-question');}});
 test('next extra idea scrolls its new premise into view while keeping question focus',async()=>{let scrolled=null;const f=await fixture({setup(w){w.HTMLElement.prototype.scrollIntoView=function(){scrolled=this.id;};}});f.click('[data-stage="3y"]');f.click('[data-activity="extra"]');f.click('#start-session');f.click('[data-extra-answer="circle"]');f.click('#check-extra');f.click('#next-extra');assert.equal(scrolled,'extra-context');assert.equal(f.d.activeElement.id,'extra-question');});
+
+test('v15 single inventory: 10 digital, 2 adult guides, 1 family unit; correct legacy labels',async()=>{
+ const {catalog,entriesFor}=await import('../dist/catalog.mjs');
+ assert.equal(new Set(catalog.map(a=>a.key)).size,13);
+ for(const [type,count] of [['digital',10],['guide',2],['unit',1]])assert.equal(catalog.filter(a=>a.type===type).length,count);
+ assert.deepEqual(entriesFor('5y','Lenguaje').map(a=>a.id),['words','original','extra']);
+ assert.equal(catalog.find(a=>a.key==='7y:unit').label,'9–12 años');
+ assert.equal(catalog.find(a=>a.key==='12y:original').label,'13–18 años');
+});
+test('v15 all 48 stage/area combinations expose exact inventory and honest empty recovery',async()=>{
+ const {areas,entriesFor}=await import('../dist/catalog.mjs');const f=await fixture();
+ for(const stage of ['18m','2y','3y','5y','7y','12y'])for(const area of ['all',...areas]){
+ f.click(`[data-stage="${stage}"]`);const select=f.d.querySelector('#area-select');select.value=area;select.dispatchEvent(new f.dom.window.Event('change',{bubbles:true}));
+ assert.deepEqual([...f.d.querySelectorAll('[data-activity]')].map(b=>b.dataset.activity),entriesFor(stage,area).map(a=>a.id));
+ if(!entriesFor(stage,area).length){assert.match(f.text('#stage-panel'),/Aún no hay propuestas/);assert.equal(f.d.querySelector('#start-session'),null);f.click('#all-areas');assert.equal(f.d.activeElement.id,'area-select');assert.equal(f.d.querySelectorAll('[data-activity]').length,entriesFor(stage).length);}
+ }
+});
+test('v15 all thirteen entries open through their area, without duplicate unit steps',async()=>{
+ const {catalog}=await import('../dist/catalog.mjs');
+ for(const a of catalog){const f=await fixture();f.click(`[data-stage="${a.stage}"]`);const select=f.d.querySelector('#area-select');select.value=a.area;select.dispatchEvent(new f.dom.window.Event('change',{bubbles:true}));f.click(`[data-activity="${a.id}"]`);assert.equal(f.d.activeElement.id,'session-title');assert.match(f.text('#stage-panel'),/Sin empezar/);f.click('#start-session');assert.ok(f.d.querySelector('#exercise'));f.click('#pause-session');assert.equal(f.d.querySelector('#exercise'),null);}
+});
+test('v15 filters and stage changes preserve paused game responses and persisted state',async()=>{
+ const f=await fixture();f.click('[data-stage="5y"]');f.click('#start-session');f.click('#garden-add-right');f.click('#pause-session');f.click('#paused-catalog');
+ const key='education-facilitation-guide:progress';const before=JSON.parse(f.dom.window.localStorage.getItem(key)).snapshot.states['5y:garden'];
+ const select=f.d.querySelector('#area-select');select.value='Ciencia';select.dispatchEvent(new f.dom.window.Event('change',{bubbles:true}));
+ assert.deepEqual(JSON.parse(f.dom.window.localStorage.getItem(key)).snapshot.states['5y:garden'],before);
+ f.click('[data-stage="7y"]');f.click('[data-stage="5y"]');f.click('#all-areas');f.click('[data-activity="garden"]');f.click('#resume-session');assert.equal(f.d.querySelectorAll('[data-garden-select]').length,1);
+});

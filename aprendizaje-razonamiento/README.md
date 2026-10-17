@@ -1,8 +1,10 @@
 # Aprendizaje y razonamiento
 
-Prototipo 0.8 · estudio de juego integrado · 17 de octubre de 2026
+Prototipo 0.10.0 · navegación multiarea v15 · 17 de octubre de 2026
 
 Una demostración original de la plataforma educativa de 18 meses a 18 años. Proyecto independiente de Finca Escuela. Esta revisión mejora la vista privada existente; no es un producto educativo validado.
+
+La navegación permite elegir etapa, área y propuesta. Inventario: 10 retos digitales, 2 guías de adulto y 1 unidad familiar, sin doble conteo. Ver [entrega v15](docs/ENTREGA_V15.md) para alcance, pruebas, referencias y límites. Candidato local pendiente de revisión; no publicado.
 
 ## Abrir y probar
 

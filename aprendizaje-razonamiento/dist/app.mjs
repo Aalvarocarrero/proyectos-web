@@ -1,3 +1,4 @@
+import {areas,catalog,entriesFor,statusLabel,typeLabel,stageCount} from './catalog.mjs';
 import {wordActivity} from './word-game.mjs';
 import {renderWordGame} from './word-game-ui.mjs';
 import {PROGRESS_KEY} from './local-progress.mjs';
@@ -11,21 +12,33 @@ import {extraActivities,checkActivityAnswer} from './activities.mjs';
 import {stages,shapes,checkGrouping,supplies,evaluatePlan,nextSessionPhase,storyCards,initialStoryOrder,moveStoryCard,checkStory,evidenceSources,evidenceQuestions,checkEvidence} from './logic.mjs';
 const stageButtons=document.querySelector('#stage-buttons');
 const panel=document.querySelector('#stage-panel');
-const states={};const selectedActivities={};let stage=null;
+const states={};const selectedActivities={};let stage=null;let selectedArea='all';
 const fresh=()=>({phase:'intro',unitPage:'connect',unitAnswers:{},unitFeedback:{},unitHints:{},extraStep:0,extraChoice:null,extraCorrect:false,hintLevel:0,rule:'color',shapes:new Set(),plan:new Set(),budget:8,challenge:false,story:[...initialStoryOrder],storyChecked:false,storyReason:false,storyChoice:null,evidenceStep:0,evidenceChoice:null,evidenceCorrect:false,evidenceDone:false,feedback:'',success:false});
 const stateKey=()=>`${stage}:${selectedActivities[stage]||'original'}`;
 const current=()=>states[stateKey()];
-const selectedStage=()=>{const base=stages.find(s=>s.id===stage);return selectedActivities[stage]==='words'?{...base,...wordActivity}:selectedActivities[stage]==='garden'?{...base,...gardenActivity}:selectedActivities[stage]==='unit'?{...base,...comparisonUnit}:selectedActivities[stage]==='extra'?{...base,...extraActivities[stage]}:base;};
+const selectedStage=()=>catalog.find(a=>a.key===stateKey());
 const on=(id,event,fn)=>document.getElementById(id)?.addEventListener(event,fn);
 const focus=(id)=>document.getElementById(id)?.focus();
 const focusStageEntry=()=>focus(document.body.classList.contains('garden-focus')?'session-title':'stage-title');
 function announce(text){document.querySelector('#app-status').textContent=text;}
 function feedback(text){current().feedback=text;const el=document.querySelector('#feedback');if(el)el.textContent=text;}
 function transition(action){current().phase=nextSessionPhase(current().phase,action);renderPanel();focus('session-title');}
-function renderStages(){stageButtons.innerHTML=stages.map(s=>`<button type="button" class="stage-button" data-stage="${s.id}" aria-pressed="${s.id===stage}" aria-controls="stage-panel"><strong>${s.label}</strong><span>${s.mode}</span></button>`).join('');stageButtons.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{stage=b.dataset.stage;if(stage==='5y')selectedActivities[stage]??='garden';states[stateKey()]??=fresh();renderStages();renderPanel();focusStageEntry();}));}
+function renderStages(){stageButtons.innerHTML=stages.map(s=>`<button type="button" class="stage-button" data-stage="${s.id}" aria-pressed="${s.id===stage}" aria-controls="stage-panel"><strong>${s.label}</strong><span>${stageCount(s.id)}</span></button>`).join('');stageButtons.querySelectorAll('button').forEach(b=>b.addEventListener('click',()=>{stage=b.dataset.stage;if(stage==='5y')selectedActivities[stage]??='garden';states[stateKey()]??=fresh();renderStages();renderPanel();focusStageEntry();}));}
+function renderAreas(){
+ const root=document.querySelector('#area-filter');
+ root.innerHTML=`<label for="area-select">02 · Elige un área</label><select id="area-select"><option value="all">Todas las áreas</option>${areas.map(a=>`<option value="${a}" ${selectedArea===a?'selected':''}>${a}</option>`).join('')}</select><p class="quiet">Acceso libre a todas las propuestas. Cambiar de etapa o área conserva tus respuestas.</p>`;
+ on('area-select','change',event=>{selectedArea=event.target.value;renderPanel();announce(stage?`${entriesFor(stage,selectedArea).length} propuestas en ${selectedArea==='all'?'todas las áreas':selectedArea}.`:'Elige una etapa para explorar esta área.');});
+}
 function renderPanel(){
  if(!stage){document.body.classList.remove('garden-focus');panel.innerHTML=`<div class="welcome"><span class="welcome-icon" aria-hidden="true">↗</span><div><h3 id="stage-title" tabindex="-1">Un pequeño paso empieza aquí.</h3><p>Elige una etapa para ver el objetivo, el acompañamiento y la propuesta antes de empezar. No necesitas crear una cuenta ni introducir datos.</p><p class="quiet">Las edades son orientativas. Puedes explorar otra etapa cuando lo necesites.</p></div></div>`;return;}
  const s=selectedStage(),state=current();
+ if(selectedArea!=='all'){
+ document.body.classList.remove('garden-focus');
+ const visible=entriesFor(stage,selectedArea);
+ if(!visible.some(a=>a.id===(selectedActivities[stage]||'original'))){
+ panel.innerHTML=`<h3 id="stage-title" tabindex="-1">${s.label} · ${selectedArea}</h3>${catalogMarkup()}<div id="activity"></div>`;bindCatalog();return;
+ }
+ }
  document.body.classList.toggle('garden-focus',['garden','words'].includes(selectedActivities[stage])&&state.phase!=='intro'&&state.gardenFocus!==false);
  panel.innerHTML=`<div class="panel-head"><div><span class="pill">${s.label} · ${s.kind==='offline'?'Fuera de pantalla':'Un objetivo por reto'}</span><h3 id="stage-title" tabindex="-1">${s.title}</h3><p class="panel-copy">${s.copy}</p></div><span class="privacy-label">Sin perfiles ni registros</span></div>${catalogMarkup()}<div id="activity" class="activity"></div>`;
  bindCatalog();
@@ -72,11 +85,10 @@ function renderEvidence(){const st=current(),q=evidenceQuestions[st.evidenceStep
 function renderCaregiver(){const toddler=stage==='18m';document.querySelector('#exercise').innerHTML=`<p class="eyebrow">FUERA DE PANTALLA · EL ADULTO ACOMPAÑA</p><p>${toddler?'Prepara una pelota grande y blanda adecuada a la edad, en un espacio despejado.':'Prepara un muñeco y una tela grande adecuada al juego, bajo supervisión directa.'}</p><ol class="steps"><li><strong>${toddler?'Invita':'Muestra'}</strong><p>${toddler?'Siéntate cerca y haz rodar la pelota suavemente.':'Haz una secuencia breve: saludar al muñeco y arroparlo.'}</p></li><li><strong>Espera</strong><p>${toddler?'Puede mirar, tocar, empujar o proponerte otra cosa. No hace falta devolver la pelota.':'Invita a imitar o cambiar la historia. Puedes mostrar un paso cada vez.'}</p></li><li><strong>Sigue su iniciativa</strong><p>${toddler?'Nombra lo que ocurre y deja que proponga el siguiente turno.':'Pregunta «¿y ahora qué?» y da tiempo para responder con gestos o palabras.'}</p></li></ol><p class="notice">Guarda la pantalla durante el juego. Usa materiales seguros, sin piezas pequeñas, y supervisión directa. Si aparece cansancio, frustración o pierde interés, simplifica o para.</p><div class="reflection"><h4>Para observar, sin examinar</h4><p>${toddler?'¿Qué captó su interés? ¿Cómo te invitó a continuar?':'¿Qué parte eligió repetir o cambiar? ¿Qué ayuda le resultó útil?'}</p><p>No hace falta registrar respuestas ni completar todos los pasos.</p></div><div class="controls"><button type="button" class="action primary" id="offline-start">Listo, vamos a jugar sin pantalla</button></div>`;on('offline-start','click',()=>transition('finish'));}
 
 function catalogMarkup(){
- const base=stages.find(s=>s.id===stage),extra=extraActivities[stage];
- if(!extra)return '';
- return `<nav class="activity-catalog" aria-label="Propuestas de ${base.label}"><p class="eyebrow">ELIGE UNA PROPUESTA · PUEDES HACER SOLO UNA</p><div class="catalog-grid">${[...(stage==='5y'?[['garden',gardenActivity],['words',wordActivity]]:[]),['original',base],['extra',extra],...(stage==='7y'?[['unit',comparisonUnit]]:[])].map(([id,a])=>`<button type="button" class="catalog-card" data-activity="${id}" aria-pressed="${(selectedActivities[stage]||'original')===id}" aria-controls="activity"><strong>${a.unit}</strong><span>${a.goal}</span><small>${a.duration||base.duration} · ${states[`${stage}:${id}`]?.phase==='paused'?'En pausa':states[`${stage}:${id}`]?.phase==='active'?'En curso':states[`${stage}:${id}`]?.phase==='finished'?'Cerrada por hoy':'Lista para explorar'}</small></button>`).join('')}</div><p class="quiet">Cambiar de propuesta conserva tus elecciones. El aviso superior indica si también se guardaron en este navegador.</p></nav>`;
+ const base=stages.find(s=>s.id===stage),rows=entriesFor(stage,selectedArea);
+ return `<nav class="activity-catalog" aria-label="Propuestas de ${base.label}"><p class="eyebrow">03 · ABRE UNA PROPUESTA</p><p class="catalog-count">${rows.length} ${rows.length===1?'propuesta disponible':'propuestas disponibles'} · ${selectedArea==='all'?'Todas las áreas':selectedArea}</p>${rows.length?`<div class="catalog-grid">${rows.map(a=>`<button type="button" class="catalog-card" data-activity="${a.id}" aria-pressed="${(selectedActivities[stage]||'original')===a.id}" aria-controls="activity"><span class="catalog-area">${a.area} · ${typeLabel(a.type)}</span><strong>${a.unit}</strong><span>${a.goal}</span><small>${a.id==='words'?'Piloto 7–8 años · ':''}${a.duration} · ${statusLabel(states[a.key]?.phase)}</small></button>`).join('')}</div>`:`<div class="empty-area"><h4>Aún no hay propuestas en esta combinación.</h4><p>Puedes ver las áreas disponibles para ${base.label} o elegir otra etapa. No hace falta completar nada para acceder.</p><button type="button" class="action secondary" id="all-areas">Ver todas las áreas de esta etapa</button></div>`}<p class="quiet">Orden editorial opcional, no currículo validado. Cambiar de propuesta conserva tus elecciones. El aviso superior indica si también se guardaron en este navegador.</p></nav>`;
 }
-function bindCatalog(){document.querySelectorAll('[data-activity]').forEach(b=>b.addEventListener('click',()=>{selectedActivities[stage]=b.dataset.activity;states[stateKey()]??=fresh();if(['garden','words'].includes(b.dataset.activity))current().gardenFocus=true;renderPanel();focus('session-title');}));}
+function bindCatalog(){on('all-areas','click',()=>{selectedArea='all';renderAreas();renderPanel();focus('area-select');});document.querySelectorAll('[data-activity]').forEach(b=>b.addEventListener('click',()=>{selectedActivities[stage]=b.dataset.activity;states[stateKey()]??=fresh();if(['garden','words'].includes(b.dataset.activity))current().gardenFocus=true;renderPanel();focus('session-title');}));}
 function renderExtra(){
  const st=current(),activity=extraActivities[stage],q=activity.steps[st.extraStep];
  document.querySelector('#exercise').innerHTML=`<div class="question-head"><span class="pill">Idea ${st.extraStep+1} de ${activity.steps.length}</span><span class="quiet">Puedes cerrar cuando quieras</span></div><div class="scenario"><p id="extra-context">${q.context}</p>${stage==='3y'?'<div class="pattern-row" aria-hidden="true">'+(st.extraStep===0?['●','▲','●','▲','?']:['👏','👏','🙌','👏','👏','?']).map(symbol=>`<span>${symbol}</span>`).join('')+'</div>':''}${stage==='5y'?'<div class="route-grid" role="img" aria-label="Cuadrícula: fila superior A1, B1, C1; fila central A2, B2, C2; fila inferior A3, B3, C3. Inicio A1 y destino C2.'+(st.extraStep===1?' B1 está bloqueada.':'')+'">'+['A1','B1','C1','A2','B2','C2','A3','B3','C3'].map(c=>`<span class="${c==='A1'?'route-start':c==='C2'?'route-end':''}">${c}${c==='A1'?' · Inicio':c==='C2'?' · Meta':c==='B1'&&st.extraStep===1?' · Bloqueada':''}</span>`).join('')+'</div>':''}</div><fieldset aria-describedby="extra-context"><legend id="extra-question" tabindex="-1" aria-describedby="extra-context">${q.title}</legend><div class="answer-options">${q.options.map(([id,label])=>`<button type="button" class="answer-option" data-extra-answer="${id}" aria-pressed="${st.extraChoice===id}">${label}</button>`).join('')}</div></fieldset><div class="controls"><button type="button" class="action primary" id="check-extra">Revisar mi idea</button><button type="button" class="action secondary" id="extra-hint">${st.hintLevel===q.hints.length?'Releer la pista':st.hintLevel?'Otra pista':'Una pista'}</button></div><div id="hint-feedback" class="hint-feedback" role="status" aria-live="polite" aria-atomic="true">${st.hintLevel?q.hints[st.hintLevel-1]:''}</div>${feedbackMarkup()}<div class="controls"><button type="button" class="action secondary" id="next-extra" ${st.extraCorrect&&st.extraStep<activity.steps.length-1?'':'hidden'}>Opcional: probar la siguiente idea →</button></div>${closeMarkup()}<p class="quiet">Puedes explicar tu idea hablando, señalando o dibujando. No grabamos explicaciones personales.</p>`;
@@ -93,9 +105,9 @@ function facilitationMarkup(){
  return `<details class="facilitation"><summary>Ideas para acompañar y ajustar la ayuda</summary><p>Guía opcional para quien acompaña; también puedes consultarla por tu cuenta. No hace falta completar estos pasos.</p><dl><dt>Un ejemplo antes de probar</dt><dd>${guide.model}</dd><dt>Si hace falta más apoyo</dt><dd>${guide.support}</dd><dt>Cuando puedes retirar ayuda</dt><dd>${guide.fade}</dd><dt>Para conversar, sin examinar</dt><dd>${guide.observe}</dd></dl><p>Adapta los gestos y usa la lengua y la forma de comunicación que les resulten cómodas. Puedes parar, cambiar de propuesta o continuar fuera de pantalla. Estas ideas no evalúan capacidades ni sustituyen apoyos individuales.</p></details>`;
 }
 
-on('open-garden','click',()=>{stage='5y';selectedActivities[stage]='garden';states[stateKey()]??=fresh();current().gardenFocus=true;renderStages();renderPanel();focusStageEntry();document.querySelector('#stage-panel').scrollIntoView({block:'start'});});
+on('open-garden','click',()=>{selectedArea='all';renderAreas();stage='5y';selectedActivities[stage]='garden';states[stateKey()]??=fresh();current().gardenFocus=true;renderStages();renderPanel();focusStageEntry();document.querySelector('#stage-panel').scrollIntoView({block:'start'});});
 
-on('open-words','click',()=>{stage='5y';selectedActivities[stage]='words';states[stateKey()]??=fresh();current().gardenFocus=true;renderStages();renderPanel();focus('session-title');});
+on('open-words','click',()=>{selectedArea='all';renderAreas();stage='5y';selectedActivities[stage]='words';states[stateKey()]??=fresh();current().gardenFocus=true;renderStages();renderPanel();focus('session-title');});
 
 // Local-only progress. No network, account, identifier or free-text child input.
 let progressStorage;
@@ -135,5 +147,6 @@ function settleProgress(result,done){if(result&&typeof result.then==='function')
 function persistProgress(){if(!stage)return;settleProgress(progressSession.save({stage,selectedActivities,states}),result=>{progressResult=result;renderProgress();});}
 document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_KEY||event.key===null){const result=progressSession.inspect();if(!result.ok&&result.status!=='empty'){progressResult=result;renderProgress();}}});
 
-renderStages();renderPanel();renderProgress();
+document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
+renderAreas();renderStages();renderPanel();renderProgress();
 for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}

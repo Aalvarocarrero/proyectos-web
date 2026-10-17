@@ -1,0 +1,287 @@
+{
+  "base_commit": "97eeaa1d233ced0b71b332dcb4fdfbb9d2077eab",
+  "candidate_commit": "43b6bbcc13cb8660521b2a01f06ffb403af9ed28",
+  "branch": "feat/education-multiarea-v15-source",
+  "exclusions": [
+    "generated PNG screenshots",
+    "generated PDF",
+    "delivery archives and bundles"
+  ],
+  "files": [
+    {
+      "path": "BACKUP-V14.json",
+      "bytes": 9028,
+      "sha256": "d690e1d844302d58b35e7e8bad1fcdd9ad5be72ddeb43f94e912133d7ad9d717"
+    },
+    {
+      "path": "CLOUD-HANDOFF.md",
+      "bytes": 1462,
+      "sha256": "e7313b22d8ff59dd2149370943736711c5c18dfefeebd6fccbb60d8e28ea173a"
+    },
+    {
+      "path": "README.md",
+      "bytes": 8906,
+      "sha256": "47483d3ebaf081ef61ebae623163e68262528dde624dc6ade76042f93cd124b5"
+    },
+    {
+      "path": "dist/activities.mjs",
+      "bytes": 8992,
+      "sha256": "9f226dc51f4f830a2ad023bfb2054ee0eac50d33e81e7ada2ee2d7f0b7167c75"
+    },
+    {
+      "path": "dist/app.mjs",
+      "bytes": 39571,
+      "sha256": "025971d3cf73a8f64f302932723e42e30029867fc930b6c3052524e5ef911932"
+    },
+    {
+      "path": "dist/catalog.mjs",
+      "bytes": 1869,
+      "sha256": "3db9ef99b48ecd76e4d329ee01541d343c72063213bbc45274ea165ac17b9026"
+    },
+    {
+      "path": "dist/comparar-en-familia.html",
+      "bytes": 2658,
+      "sha256": "8f5ccf8a73304ba8f3f4630ee8b2b3795eefb1a821d557d3d0fffe9a1b06d1ac"
+    },
+    {
+      "path": "dist/comparison-print.css",
+      "bytes": 1243,
+      "sha256": "63c6908f2ba360fab39c9332f5bec20a623b2825368b4926ef2efe65ccb6bc87"
+    },
+    {
+      "path": "dist/comparison-unit-ui.mjs",
+      "bytes": 7633,
+      "sha256": "402bae14148d547265a102b382624bab779b0d8f27011885bc42fe194601caa8"
+    },
+    {
+      "path": "dist/comparison-unit.mjs",
+      "bytes": 5765,
+      "sha256": "6d2a047b62ed7f5d7f36730abea633ea9fcd289f6465d1d3a15347ef7d01cea3"
+    },
+    {
+      "path": "dist/facilitation.mjs",
+      "bytes": 5998,
+      "sha256": "f57f98e11d5b997dd2653784411b942ffa5c25b835d24203965354ab1cbad690"
+    },
+    {
+      "path": "dist/garden-game-ui.mjs",
+      "bytes": 12681,
+      "sha256": "ed2e4876d68baeeedbb580e63e1404ecf8dbc41419eeb62c2556410c8ac5f3fa"
+    },
+    {
+      "path": "dist/garden-game.mjs",
+      "bytes": 7964,
+      "sha256": "5cc96405aea4061b6631a51586f519b58e8a49c624443c0c559f9a47e5bdef49"
+    },
+    {
+      "path": "dist/index.html",
+      "bytes": 7052,
+      "sha256": "3c05465e07fad357326f697ea3df03fcea950e2f3af602cc0606bde820894f1c"
+    },
+    {
+      "path": "dist/local-progress.mjs",
+      "bytes": 9759,
+      "sha256": "391cdd8d55d3d7dee3831ecc1a0dc0b6a7dd761d71caae1cd0eedce204e23c5f"
+    },
+    {
+      "path": "dist/logic.mjs",
+      "bytes": 9728,
+      "sha256": "301f5f5ea2713e434b247efff844acd93a0d1b3fcc51f4d4689dba57f794cf71"
+    },
+    {
+      "path": "dist/progress-session.mjs",
+      "bytes": 4830,
+      "sha256": "0ba7510404f8b1cf26cdce728adf84634d9914de27b65d249ea816f60f61f456"
+    },
+    {
+      "path": "dist/styles.css",
+      "bytes": 49044,
+      "sha256": "fa8d20bee9c392e957bf355cc3ab9dd34c86dc979e57920d015f01738d4d3b3f"
+    },
+    {
+      "path": "dist/word-game-ui.mjs",
+      "bytes": 13785,
+      "sha256": "6ce9f09ddcd57c9d914785c0757b5f9741980f72e1d593231aaaa8baaee18686"
+    },
+    {
+      "path": "dist/word-game.mjs",
+      "bytes": 10848,
+      "sha256": "10f99c9888fa214843f80a9ce17eff2ec4d2fac6d396b6d94a938490ab0633ab"
+    },
+    {
+      "path": "docs/AREA_AUDIT_V11.md",
+      "bytes": 2680,
+      "sha256": "5a41c04a78ca849740b415af6d4e323494da26a29f19171d0d11cc8372aece28"
+    },
+    {
+      "path": "docs/DECISIONES.md",
+      "bytes": 4288,
+      "sha256": "a351b2aef572dd26b17545387616a5c1949e619ff8fe8dd1f7260f6e920b08f6"
+    },
+    {
+      "path": "docs/ENTREGA_NOTION.md",
+      "bytes": 1314,
+      "sha256": "712158424f0b3797228ed77876ecc3b0c6962d648d54f112ba391863d3b582c0"
+    },
+    {
+      "path": "docs/ENTREGA_V15.md",
+      "bytes": 5976,
+      "sha256": "f57fe5146e2f8e67466748ea1c2b8f238a8c8f1804bebed1be953f2c38f1dc65"
+    },
+    {
+      "path": "docs/EXPANSION.md",
+      "bytes": 2179,
+      "sha256": "e9b426736ef5727631bc7ded67b5af1942016b5d4be8898b3b26343fa639b09c"
+    },
+    {
+      "path": "docs/GUIA_ACOMPANAMIENTO_Y_SIGUIENTE_HITO.md",
+      "bytes": 12696,
+      "sha256": "f1b037ea02fe6e728fc631e90a87f5f034bd3e48661489cc4ee0812e7bbdb9d2"
+    },
+    {
+      "path": "docs/INTERACCION_V7.md",
+      "bytes": 2156,
+      "sha256": "31ed94dc00394c01f4c5326bb9f19c97412583721ee76f842702eb391a8d01bb"
+    },
+    {
+      "path": "docs/JUEGO_JARDIN.md",
+      "bytes": 3714,
+      "sha256": "d54787fc36fbd85b5de50141e52e73fbc64d6b257abf2b0654829fa2a81e1a68"
+    },
+    {
+      "path": "docs/PALABRA_EVIDENCIA.md",
+      "bytes": 12808,
+      "sha256": "e3138cff1dfebfe760142fd699abc872244806c0fcc72737b7aaf6330fb9d1dd"
+    },
+    {
+      "path": "docs/RESPALDO_GITHUB_V15.md",
+      "bytes": 917,
+      "sha256": "5cb62f1af6c312ba3e0e71bd5a41ce838c5146218b58da7e8139c5bfb8aa784b"
+    },
+    {
+      "path": "docs/UNIDAD_COMPARAR_ENTREGA.md",
+      "bytes": 5653,
+      "sha256": "e81c5228a76fbf89ca0008b156fbe7e1501fe3cd64d0bf75a92d9cdd5a3405ff"
+    },
+    {
+      "path": "docs/VERIFICACION.md",
+      "bytes": 5434,
+      "sha256": "bf539b053a7db746d3cbba3836b44e3d4d5e7a9b014bb532d1cf77f642374ae3"
+    },
+    {
+      "path": "docs/VERIFICACION_ACOMPANAMIENTO.md",
+      "bytes": 1905,
+      "sha256": "ae9afe0f01b06ba9cc79959825ae957634e65ddeec5478bd2b8bbc2a7e9bb046"
+    },
+    {
+      "path": "docs/browser-report.json",
+      "bytes": 322,
+      "sha256": "fb7146b074f77153ccd8522ef2ac34ed0413f3869ebc617a7383358ca9361e85"
+    },
+    {
+      "path": "docs/evidence-v15/base-manifest.json",
+      "bytes": 96,
+      "sha256": "8ece4e6dfce5018dea609a7f0a0c32d0d570667d5819d5d229e09b74e8156600"
+    },
+    {
+      "path": "docs/evidence-v15/browser.txt",
+      "bytes": 585,
+      "sha256": "d1627a33fb81e69daad34f3b41fcc54b29be3041eb7cb86c34d20cb6d64a5c17"
+    },
+    {
+      "path": "docs/evidence-v15/dom.txt",
+      "bytes": 7143,
+      "sha256": "402ce1eebd1b98c89f48d54ef7b75bf9d8789f39596cbab03dc3b70949f67b3e"
+    },
+    {
+      "path": "docs/evidence-v15/logic.txt",
+      "bytes": 8827,
+      "sha256": "0d9a691a68b3ec8aee1970c3e0530d8cc50cfe2b6b9ec06e726ba56faf8005b1"
+    },
+    {
+      "path": "docs/evidence-v15/navigation.txt",
+      "bytes": 334,
+      "sha256": "34778e9e4fb15e74b5c7ec0a4b61d5dbe641fe60011dd70632219bdf6644b27d"
+    },
+    {
+      "path": "docs/evidence-v15/static.txt",
+      "bytes": 1581,
+      "sha256": "55fe618d3273bd71f89afa03def5d6d443ef0fb04450bc023c0e8fbcc9d96da9"
+    },
+    {
+      "path": "docs/static-a11y-report.json",
+      "bytes": 1491,
+      "sha256": "ecae4f821e7e4b208633bf82676a95b6d8ae7ee74eb2842ad0a33a7519372474"
+    },
+    {
+      "path": "docs/v15-navigation-browser.json",
+      "bytes": 178,
+      "sha256": "37428fbf7d85ecebc604a9203e3e85cd561b2d5021a518700cbe01434e321afd"
+    },
+    {
+      "path": "package.json",
+      "bytes": 659,
+      "sha256": "7b70b52436494f8ad3a14ba899dcf7e9d6de71d0ed03de866825f8080ce7c158"
+    },
+    {
+      "path": "tests/activities.test.mjs",
+      "bytes": 1651,
+      "sha256": "df51442bccb7a99e31c920bdecd28d0f6e120561627bec314e4b7fed76a266dd"
+    },
+    {
+      "path": "tests/browser.cjs",
+      "bytes": 11491,
+      "sha256": "0206e07d9d359e0275af1b8d6eaa59df915618f4a66b4acad1f4fa4493321d45"
+    },
+    {
+      "path": "tests/comparison-unit.test.mjs",
+      "bytes": 1810,
+      "sha256": "f4f6b3d74dc8d9383b7ae0677332ecd42e4357d428c82dde022720207b57a642"
+    },
+    {
+      "path": "tests/dom.test.cjs",
+      "bytes": 42528,
+      "sha256": "d3b6b4000ecdde1d7e5f420c3c06e9b235e11f1eed8b751632c4e05e3aa88ee5"
+    },
+    {
+      "path": "tests/facilitation.test.mjs",
+      "bytes": 1341,
+      "sha256": "90a33df699f23166e198dfab6e23ac843563de2ca69265e777f664421b8d84b1"
+    },
+    {
+      "path": "tests/garden.test.mjs",
+      "bytes": 11228,
+      "sha256": "04726b4f5fdd549fb0cd614c1ea04f92f4646d684739bbc9bd5090ebf410ce92"
+    },
+    {
+      "path": "tests/local-progress.test.mjs",
+      "bytes": 11861,
+      "sha256": "52adfd4e11062013b5d8c5fe7ccf2a009b89cb957fb54718d588e64fe2c400eb"
+    },
+    {
+      "path": "tests/logic.test.mjs",
+      "bytes": 6476,
+      "sha256": "a49571454db0ffc33cee5797aab40b6200a822234d8f5ac3be92df8a80a254fe"
+    },
+    {
+      "path": "tests/navigation-browser.cjs",
+      "bytes": 4688,
+      "sha256": "7126b3e27908480599cb6e8211afbae3281f3538ccff66cd9f8c18803b2d2cb1"
+    },
+    {
+      "path": "tests/progress-session.test.mjs",
+      "bytes": 14990,
+      "sha256": "cae9978f99f720740f2deae3434e526491a392b26604e00fc11a5c7e5bd7f346"
+    },
+    {
+      "path": "tests/static_a11y.py",
+      "bytes": 4155,
+      "sha256": "2e1798a76a4ca33df6ccae150e1346ff6f4d34ec19b6604a85f5713d0a8cb805"
+    },
+    {
+      "path": "tests/word-game.test.mjs",
+      "bytes": 4536,
+      "sha256": "152c05e3b8392a731332521a5adaa392eb158f5bc94a304f44b0acefbf93f18d"
+    }
+  ]
+}
