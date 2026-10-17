@@ -1,41 +1,31 @@
-# Expansión propuesta
+# Etapas disponibles y trabajo pendiente
 
-Las franjas son orientativas y no constituyen evaluación del desarrollo. Todos los módulos futuros requieren revisión experta y pruebas de comprensión y accesibilidad.
+Las franjas son orientativas. Las duraciones son hipótesis de producto aceptadas provisionalmente, ajustables y no clínicas. Una propuesta breve puede terminar mucho antes de la ventana; no se busca ocupar todo ese tiempo.
 
-| Etapa | Piloto / futuro | Papel del adulto | Aprendizaje observable propuesto |
+| Etapa | Disponible en 0.3 | Ventana | Acompañamiento |
 |---|---|---|---|
-| 18–24 meses | Guía presencial de turnos; ampliar atención compartida | Presencia directa, seguir iniciativa | Observar cómo participa y qué invita a repetir, sin puntuaciones |
-| 2–3 años | Guía de secuencia con muñeco; ampliar imitación y clasificación física | Modelar uno o dos pasos, aceptar variantes | Describir qué repite o cambia, sin imponer ritmo |
-| 3–5 años | Agrupación por dos reglas ya implementada; luego patrones y lenguaje | Leer, señalar y conversar | Explicar o mostrar una propiedad y transferir a objetos |
-| 5–7 años | Secuencias, causas/efectos y pequeñas historias pendientes | Apoyo lector y materiales | Ordenar, detectar un paso faltante, probar una variante |
-| 7–11 años | Plan con presupuesto implementado; luego proyectos y fuentes | Preguntas abiertas y apoyo cuando se pide | Explicar prioridades y revisar una restricción |
-| 12–18 años | Argumentación, proyectos y decisiones pendientes | Apoyo acordado, no clasificación vocacional | Justificar alternativas, evaluar evidencia y revisar metas |
+| 18–24 meses | Guía de turnos con pelota | 3–5 min sin pantalla | Adulto presente; seguir la iniciativa |
+| 2 años | Guía de imitación con muñeco | 3–8 min sin pantalla | Adulto modela uno o dos pasos |
+| 3–5 años | Agrupación por color/forma; secuencias de dos y tres elementos | 3–8 min | Adulto lee, señala y conversa |
+| 6–8 años | Historia ordenable; instrucciones y recorrido con obstáculo | 5–10 min | Apoyo lector si hace falta |
+| 9–12 años | Planificación y presupuesto; comparación justa y límites | 8–15 min | Preguntas abiertas y apoyo a demanda |
+| 13–18 años | Fuentes y causalidad; muestras y límites de generalización | 10–20 min | Conversación y papel opcionales |
 
-## Doce capacidades del plan
+## Todavía no implementado
 
-1. Comunicación y comprensión: narración, lectura y explicación; después idiomas y expresión oral.
-2. Pensar y aprender: comparar estrategias y pedir ayuda; después observar retención y transferencia.
-3. Problemas: agrupación y planificación del piloto; después cantidades, patrones, lógica y abstracción.
-4. Cuerpo y autocuidado: futuro contenido educativo por edad y revisión especialista, sin consejos clínicos.
-5. Emociones y relaciones: futuro turnos, límites, cooperación y autoaceptación sin exposición obligatoria.
-6. Mundo natural: futuras observaciones de fauna, flora y fenómenos; revisar exactitud y seguridad.
-7. Crear y construir: futuras historias, arte, música y proyectos con alternativas físicas.
-8. Recursos: presupuesto ficticio del piloto; después ahorro, tiempo y emprendimiento sin productos financieros.
-9. Autonomía cotidiana: planear con adulto; después organización y seguridad revisadas por contexto.
-10. Sociedad: futuros historia, geografía, culturas y dilemas con perspectivas plurales.
-11. Tecnología: futuros privacidad, fuentes, programación e IA sin recopilar datos innecesarios.
-12. Entorno: futuros agua, energía y biodiversidad con acciones locales observables.
+- Currículo progresivo completo de las doce capacidades del plan.
+- Variantes extensas por dificultad y una progresión curricular validada dentro de cada franja.
+- Audio accesible, apoyos visuales adicionales para prelectores y revisión de lengua.
+- Perfiles, panel familiar o recuperación entre dispositivos. No incorporarlos por defecto.
+- Evaluación de aprendizaje, retención o transferencia; terminar una actividad no prueba aprendizaje.
+- Adaptación individual, tutor por IA o recomendaciones vocacionales.
+- Instalación PWA o modo sin conexión garantizado.
 
-## Puertas de avance
+## Puertas antes de ampliar
 
-1. Usuario revisa el prototipo y selecciona un primer grupo y contexto de uso.
-2. Especialistas revisan objetivos, lenguaje, materiales, riesgo e inclusión.
-3. Verificar flujo en Safari/iPad, Chrome/Android y Mac; lector de pantalla, teclado, zoom 200–400 % y motricidad.
-4. Preparar protocolo de evaluación y consentimiento antes de trabajar con familias o datos reales.
-5. Definir recuperación del progreso, modo sin conexión y privacidad; no introducir perfiles por defecto.
-6. Ensayar explicación, retención y transferencia; no confundir rapidez o terminar con aprendizaje.
-7. Ampliar solo con evidencia del piloto y registro de cambios en Notion/GitHub.
-
-## Límites actuales
-
-Sin currículo completo, cuentas, panel familiar, sincronización, audio, descargas modulares, instalación PWA, modo sin conexión garantizado, adaptación inteligente, pruebas con familias ni certificación educativa. No determinar carreras o estilos de aprendizaje a partir de elecciones del juego.
+1. Revisar el prototipo y seleccionar contexto y grupo prioritario.
+2. Revisión pedagógica, del desarrollo, del lenguaje y de seguridad por especialistas.
+3. Probar teclado, lector de pantalla, zoom, Safari/iPad y Chrome/Android en un entorno permitido.
+4. Acordar un protocolo y consentimiento antes de trabajar con familias o datos reales.
+5. Evaluar comprensión y transferencia sin premiar rapidez o permanencia.
+6. Registrar decisiones y ampliar con evidencia del piloto.

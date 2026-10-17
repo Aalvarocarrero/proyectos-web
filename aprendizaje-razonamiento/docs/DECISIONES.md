@@ -1,34 +1,44 @@
-# Decisiones · 0.1
+# Decisiones · 0.2
 
-Fecha: 2026-10-15. Base canónica: [plan de Notion](https://app.notion.com/p/3fa30479a7368161b25df3732810491e?pvs=204).
+Fecha: 2026-10-15. Base del proyecto: [plan de Notion](https://app.notion.com/p/3fa30479a7368161b25df3732810491e?pvs=204). Esta revisión no escribe en Notion ni modifica otros proyectos.
 
-## Solicitud y alcance
+## Alcance
 
-Crear una plataforma para autonomía, curiosidad, razonamiento y habilidades para la vida de 18 meses a 18 años, con decisiones en Notion e historial técnico en GitHub. Esta entrega inicia un prototipo local aislado. No cambia otros proyectos, no publica ni crea repositorios remotos.
+Mejorar interfaz y sesiones breves para la plataforma educativa de 18 meses a 18 años. Se conservan las dos actividades existentes y se incorporan dos interacciones originales completas. Las ventanas de producto fueron aceptadas provisionalmente por el usuario el 15 de octubre de 2026. No se presentan como resultados clínicos ni evidencia de eficacia.
 
-El alcance general procede del plan documentado. La selección del primer piloto es una propuesta técnica concreta, todavía pendiente de revisión del usuario y de especialistas. Implementado no significa aprobado pedagógicamente.
+## Cambios
 
-## Registro
+- Elección explícita de etapa, sin cargar por defecto una actividad infantil.
+- Antes de empezar: objetivo, acompañamiento, ventana ajustable y posibilidad de terminar antes.
+- Etapas adaptadas a los rangos aprobados: 18–24 meses, 2 años, 3–5, 6–8, 9–12 y 13–18. Las edades orientan y no clasifican capacidades; el extremo de 24 meses puede entrar en cualquiera de las dos guías según el apoyo.
+- Menores de 3: guía para el adulto y juego presencial, sin bucle de interacción dirigido al niño. La duración indica juego sin pantalla.
+- Inicio, pausa, reanudación y cierre explícitos, sin reloj, castigo ni avance automático. Las elecciones se conservan solo en la pestaña.
+- Agrupación por color/forma y planificación con presupuesto conservadas. La ampliación de cada reto es opcional y puede cerrarse tras una primera solución.
+- Nuevo reto 6–8: tres momentos de una historia, reordenables con botones, feedback de secuencia y comprobación de la variable que cambió. Sin exigir arrastrar.
+- Nuevo reto 13–18: fuentes ficticias, conteos 120/200 y 84/140, media idéntica de 0,6, límites de inferencia causal y mejor comparación. No confunde satisfacción, conteo bruto y causalidad.
+- Mejor legibilidad, botones nativos y grandes, foco visible, estados de selección, regiones de estado, alternativa conversada/física y movimiento reducido.
+- Sin perfiles, respuestas persistentes, datos personales, analítica o llamadas de aplicación a la red.
+- Currículo, más niveles, audio y adaptación real siguen declarados como no implementados.
 
-| Decisión | Motivo | Estado | Evidencia | Pendiente |
-|---|---|---|---|---|
-| HTML/CSS/JavaScript sin framework ni API | Demostración pequeña, portable y sin dependencias de producción | Implementado | `dist/` | Navegadores reales |
-| Seis etapas del plan conservadas | Evitar una experiencia única desde bebés a adolescentes | Implementado | `logic.mjs`, pruebas | Revisar fronteras por habilidades |
-| Menores de 3: orientación al adulto y juego fuera de pantalla | Propósito aprobado de acompañamiento y bienestar | Implementado | `renderCaregiver` | Revisión de desarrollo infantil |
-| Dos pilotos funcionales, con etapas futuras marcadas | Entrega verificable sin simular currículo completo | Implementado y lógica probada | 16 pruebas | Revisión del recorrido visual |
-| Agrupación por color y luego forma | Explorar flexibilidad, observación y explicación | Implementado | `checkGrouping` | Accesibilidad prelectora y revisión experta |
-| Plan de salida con 8 y luego 5 fichas | Priorizar, comparar y revisar restricciones | Implementado | `evaluatePlan` | Variantes contextuales |
-| Respuestas incorrectas reconocidas sin castigo | Ofrecer pistas, reintentos y explicación | Implementado | Código de feedback | Observar comprensión con usuarios |
-| Estado en memoria, sin nombres ni perfiles | Evitar datos de menores en un piloto | Implementado, revisión estática | CSP y código | Diseño de privacidad antes de persistencia |
-| Sin generación ni perfilado por IA | No prometer un tutor validado ni estilos fijos de aprendizaje | Implementado | Sin llamadas externas | Evaluación antes de adaptación real |
-| Sin audio automático | Evitar dependencias y transmittal externo; mantener alcance | Limitación explícita | Interfaz textual con adulto | Lectura local accesible revisada |
-| Contraste del número de paso oscurecido | Prueba estática detectó 4,15:1 inicial | Corregido y probado | Informe de contraste | Auditoría visual completa |
-| No publicar ni crear repositorio | Alcance local de esta entrega | Conservado | No herramientas de publicación | Aprobación y coordinación del titular |
+## Estado de verificación
+
+28 pruebas de lógica, 10 recorridos DOM y 31 comprobaciones estáticas pasan. El navegador real está bloqueado por una restricción de sockets; no se ha hecho validación visual ni se ha afirmado conformidad WCAG. Véase `VERIFICACION.md`.
 
 ## Contenido y propiedad intelectual
 
-Textos, mecánicas y elementos visuales de esta entrega se redactaron para el proyecto. No se copiaron ejercicios, personajes, ilustraciones ni contenido propietario de los recursos comparados. El plan de Notion informa objetivos y precauciones, no se usa como prueba de eficacia del nuevo prototipo.
+Textos, mecánicas y geometría CSS son originales para el proyecto. Se mantiene una dirección cálida con crema y verde bosque, sin recursos gráficos remotos. No se copiaron ejercicios o personajes de otros productos.
 
-## Diseño
+## Puerta de publicación
 
-Dirección editorial cálida: fondo crema, verde bosque, geometría original en CSS, tipografías de sistema. Sin imágenes remotas, animaciones de presión, puntos acumulativos, rachas o rankings. Botones nativos, etiquetas textuales además del color, foco visible, regiones de estado, disposición flexible, movimientos reducidos y alternativa conversada/física.
+Preparado localmente para revisión. No hay push ni publicación en esta fase. Mantener la audiencia privada del sitio existente y no recopilar datos reales sin una decisión separada.
+
+
+## Hito 0.3 · 16 de octubre de 2026
+
+Se conserva íntegra la oferta anterior y se amplía a ocho retos y dos guías. Cada etapa interactiva tiene un catálogo de dos propuestas, con objetivo, duración estimada y estado de sesión. No es un itinerario obligatorio ni un registro de logros.
+
+Nuevas propuestas originales: patrones repetidos (3–5), instrucciones y recorrido con obstáculo (6–8), comparación controlada e interpretación limitada (9–12), selección de una muestra y límites de generalización (13–18). Cada una tiene dos situaciones, feedback explicativo, dos pistas graduadas y cierre disponible tras la primera respuesta correcta o en cualquier momento con “Terminar por hoy”.
+
+El estado se indexa por etapa y propuesta. Cambiar no borra ni mezcla respuestas; reiniciar afecta solo a la propuesta elegida. Ningún estado se escribe en almacenamiento ni se transmite. Las elecciones exponen aria-pressed y una marca visible; la elección en la reflexión del puente ahora se conserva. No se añaden afirmaciones de eficacia ni recomendaciones clínicas: son decisiones de diseño pendientes de revisión pedagógica.
+
+Resultado actual: 33 pruebas de lógica, 15 recorridos DOM y 31 controles estáticos. El navegador sigue bloqueado por sockets antes de cargar la app; no hay revisión visual real ni capturas de este hito. Sin publicación.

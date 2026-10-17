@@ -1,16 +1,19 @@
-## 🧪 Primer prototipo local · 15 de octubre de 2026
+# Plataforma educativa · hito 0.3
 
-**Estado: implementado localmente; lógica probada; revisión visual y pedagógica pendiente. No publicado.**
+16 de octubre de 2026. Candidato local pendiente de revisión y publicación privada.
 
-- Se construyó una demostración separada de Finca Escuela, con las seis etapas del plan.
-- 18–24 meses y 2–3 años: propuestas presenciales para el adulto; guardar la pantalla durante el juego.
-- 3–5 años: agrupación original por color y luego por forma, con pistas, reintentos y conversación fuera de pantalla.
-- 7–11 años: planificación de una salida ficticia con necesidades, extras y presupuesto que cambia de 8 a 5 fichas; admite distintas soluciones.
-- 5–7 y 12–18 años: módulos futuros marcados expresamente como no implementados.
-- Sin cuentas, datos reales de menores, rastreadores, almacenamiento de progreso ni APIs de pago. No se presenta como tutor personalizado o validado.
+## Entregado en código
 
-**Pruebas:** 16 casos unitarios aprobados, 128 combinaciones/presupuestos evaluados y 24 comprobaciones estáticas. La revisión en navegador quedó bloqueada por restricciones de sockets del entorno; aún no hay verificación visual ni de iPad/Android/Mac.
+- Ocho retos funcionales y dos guías presenciales; se conservan las propuestas anteriores.
+- Dos propuestas para elegir desde 3 años: secuencias, instrucciones, comparación justa y muestras amplían agrupación, historia, presupuesto y evidencia.
+- Nuevas actividades con dos pasos, pistas progresivas, explicación de cada revisión y cierre sin presión.
+- Catálogo con objetivos, tiempos orientativos y estado solo de esta sesión. Pausar o cambiar conserva elecciones independientes; recargar las elimina.
+- Señal de selección visible, estado accesible de botones y correcciones de foco/anuncios.
 
-**Decisiones propuestas:** primer piloto limitado a observación/cambio de regla y planificación de recursos; interfaz local ligera; revisión experta antes de ampliar. Pendiente revisión del usuario, destino del repositorio privado y pruebas de accesibilidad completas.
+## Verificación y límites
 
-**Registro técnico:** paquete local preparado con código, instrucciones, pruebas y plan de expansión. No se ha creado ni actualizado un repositorio GitHub en esta entrega. La publicación tampoco se ha realizado.
+33 pruebas de lógica, 15 recorridos DOM y 31 comprobaciones estáticas aprobadas. Chromium no puede iniciar por una restricción de sockets; no se ha verificado disposición visual, lector de pantalla ni dispositivos reales. No es un currículo validado ni una demostración de eficacia educativa.
+
+## Siguiente decisión
+
+Revisar el candidato en un navegador autorizado antes de actualizar la vista privada. Después, revisión pedagógica y selección de un piloto acotado. Sin publicación ni cambios de acceso en este hito.

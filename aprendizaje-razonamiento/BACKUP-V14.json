@@ -1,0 +1,247 @@
+{
+  "source_commit": "0135f4cda4c377bf210c898f26a3dcc91d607754",
+  "version": "0.9.1",
+  "sites_version": 14,
+  "files": [
+    {
+      "path": "README.md",
+      "size": 8617,
+      "sha256": "48b96ac929426d73f53302831e6d7f880b78a173a08dd6bb2cb53a49630f2dcf",
+      "git_blob_sha": "a72b5f2e6a7bd2e7d1afd59e2dc06941ec5002ef"
+    },
+    {
+      "path": "package.json",
+      "size": 598,
+      "sha256": "ebd1e5a900ba54db28ede5781e9a182e10b2585a4cc4c33eba0b8d60aed622ce",
+      "git_blob_sha": "c3909c4c11f0599064de59fcf3db4777100ce757"
+    },
+    {
+      "path": "dist/activities.mjs",
+      "size": 8992,
+      "sha256": "9f226dc51f4f830a2ad023bfb2054ee0eac50d33e81e7ada2ee2d7f0b7167c75",
+      "git_blob_sha": "4e5b6520482e12ce8917cbcbeff6da3d20a4b11f"
+    },
+    {
+      "path": "dist/app.mjs",
+      "size": 38039,
+      "sha256": "216f93cba461051ba8a16a9c7d17633fe4ef311ef138738afb115a05deee96a0",
+      "git_blob_sha": "fa219d9f47bb94a885be5e8c97ed6c0b441f187d"
+    },
+    {
+      "path": "dist/comparar-en-familia.html",
+      "size": 2658,
+      "sha256": "8f5ccf8a73304ba8f3f4630ee8b2b3795eefb1a821d557d3d0fffe9a1b06d1ac",
+      "git_blob_sha": "779f5322d5622595bdd1bb20602e9ef8333ab5b6"
+    },
+    {
+      "path": "dist/comparison-print.css",
+      "size": 1243,
+      "sha256": "63c6908f2ba360fab39c9332f5bec20a623b2825368b4926ef2efe65ccb6bc87",
+      "git_blob_sha": "97cad6e4ae71a66e515e741245cd386b0986d457"
+    },
+    {
+      "path": "dist/comparison-unit-ui.mjs",
+      "size": 7633,
+      "sha256": "402bae14148d547265a102b382624bab779b0d8f27011885bc42fe194601caa8",
+      "git_blob_sha": "d42adfaa187a284723e9477d1a0f4e69566a9cd7"
+    },
+    {
+      "path": "dist/comparison-unit.mjs",
+      "size": 5765,
+      "sha256": "6d2a047b62ed7f5d7f36730abea633ea9fcd289f6465d1d3a15347ef7d01cea3",
+      "git_blob_sha": "d85cd6bdcb64509ff810fa4b79e5360512b98d33"
+    },
+    {
+      "path": "dist/facilitation.mjs",
+      "size": 5998,
+      "sha256": "f57f98e11d5b997dd2653784411b942ffa5c25b835d24203965354ab1cbad690",
+      "git_blob_sha": "c6eb90a6af1169fec1771329b220791e40534a2d"
+    },
+    {
+      "path": "dist/garden-game-ui.mjs",
+      "size": 12681,
+      "sha256": "ed2e4876d68baeeedbb580e63e1404ecf8dbc41419eeb62c2556410c8ac5f3fa",
+      "git_blob_sha": "bf95950c69ad031e552ec73cf50cbd40ef66c620"
+    },
+    {
+      "path": "dist/garden-game.mjs",
+      "size": 7964,
+      "sha256": "5cc96405aea4061b6631a51586f519b58e8a49c624443c0c559f9a47e5bdef49",
+      "git_blob_sha": "54cd5b4193a86a100e26ff86a20dd8f13f84fd02"
+    },
+    {
+      "path": "dist/index.html",
+      "size": 7303,
+      "sha256": "5aff0a936536e0fe59bbd06595df23794b276873297e220f5ff6ba32e5527425",
+      "git_blob_sha": "9a7fe12e8b1472b880658e3d349cb92009a7e1ae"
+    },
+    {
+      "path": "dist/local-progress.mjs",
+      "size": 9759,
+      "sha256": "391cdd8d55d3d7dee3831ecc1a0dc0b6a7dd761d71caae1cd0eedce204e23c5f",
+      "git_blob_sha": "4197146bc16044a98f5ba65fe494c369efaf326e"
+    },
+    {
+      "path": "dist/logic.mjs",
+      "size": 9728,
+      "sha256": "301f5f5ea2713e434b247efff844acd93a0d1b3fcc51f4d4689dba57f794cf71",
+      "git_blob_sha": "b58ceaabdc743caedcb99385909441992cc41e07"
+    },
+    {
+      "path": "dist/progress-session.mjs",
+      "size": 4830,
+      "sha256": "0ba7510404f8b1cf26cdce728adf84634d9914de27b65d249ea816f60f61f456",
+      "git_blob_sha": "81821cd5bd3c966a049f46518b8567dfc4457a1d"
+    },
+    {
+      "path": "dist/styles.css",
+      "size": 47801,
+      "sha256": "ce1ce48102aa526020ba6f1eee07a85d5be92b35b473777cb164a13c422a0c8b",
+      "git_blob_sha": "49e923d9d525b9cf25b0e274a5a14b56da4704b5"
+    },
+    {
+      "path": "dist/word-game-ui.mjs",
+      "size": 13785,
+      "sha256": "6ce9f09ddcd57c9d914785c0757b5f9741980f72e1d593231aaaa8baaee18686",
+      "git_blob_sha": "c40bc59850f3f995dc56fb35a6b89b0558e6bb9d"
+    },
+    {
+      "path": "dist/word-game.mjs",
+      "size": 10848,
+      "sha256": "10f99c9888fa214843f80a9ce17eff2ec4d2fac6d396b6d94a938490ab0633ab",
+      "git_blob_sha": "aab1a078155ce70e83a4afc9c0d82f92480c7169"
+    },
+    {
+      "path": "tests/activities.test.mjs",
+      "size": 1651,
+      "sha256": "df51442bccb7a99e31c920bdecd28d0f6e120561627bec314e4b7fed76a266dd",
+      "git_blob_sha": "9dcebe9543715b34580a9945c336547de7ddade3"
+    },
+    {
+      "path": "tests/browser.cjs",
+      "size": 9657,
+      "sha256": "9ef45948e0c90b2671c75bd752f491cba2b3a145bb97abc9e5da3fa2951977c5",
+      "git_blob_sha": "01f3b7b88da3b975d6d47e495d1520dc4f16d66d"
+    },
+    {
+      "path": "tests/comparison-unit.test.mjs",
+      "size": 1810,
+      "sha256": "f4f6b3d74dc8d9383b7ae0677332ecd42e4357d428c82dde022720207b57a642",
+      "git_blob_sha": "33cfed5de22cb064d595265df8a6b0af56f26bce"
+    },
+    {
+      "path": "tests/dom.test.cjs",
+      "size": 39495,
+      "sha256": "1d53219872403650d6b7676fd547cf646178623f8728c8ef3191c99f6bcaed0d",
+      "git_blob_sha": "d4ed95a08ecae402389ec8e1c2d17990fd7cdf5c"
+    },
+    {
+      "path": "tests/facilitation.test.mjs",
+      "size": 1341,
+      "sha256": "90a33df699f23166e198dfab6e23ac843563de2ca69265e777f664421b8d84b1",
+      "git_blob_sha": "da795aa0df504614f396ff585d087b1e8624163b"
+    },
+    {
+      "path": "tests/garden.test.mjs",
+      "size": 11228,
+      "sha256": "04726b4f5fdd549fb0cd614c1ea04f92f4646d684739bbc9bd5090ebf410ce92",
+      "git_blob_sha": "3e4ac5f87ba1e14842c6e6946b77ed6b4116b2e0"
+    },
+    {
+      "path": "tests/local-progress.test.mjs",
+      "size": 11861,
+      "sha256": "52adfd4e11062013b5d8c5fe7ccf2a009b89cb957fb54718d588e64fe2c400eb",
+      "git_blob_sha": "7ea49de6bccd25a80dea5ed32784f795819a1935"
+    },
+    {
+      "path": "tests/logic.test.mjs",
+      "size": 6476,
+      "sha256": "a49571454db0ffc33cee5797aab40b6200a822234d8f5ac3be92df8a80a254fe",
+      "git_blob_sha": "1edf903294833a2766897e8c4acb8af88175dc50"
+    },
+    {
+      "path": "tests/progress-session.test.mjs",
+      "size": 14990,
+      "sha256": "cae9978f99f720740f2deae3434e526491a392b26604e00fc11a5c7e5bd7f346",
+      "git_blob_sha": "08a1517c771b285064ba70c22be1bcf2daf578ea"
+    },
+    {
+      "path": "tests/static_a11y.py",
+      "size": 4155,
+      "sha256": "2e1798a76a4ca33df6ccae150e1346ff6f4d34ec19b6604a85f5713d0a8cb805",
+      "git_blob_sha": "f96bbef813cb9700dc0ac3fa6a0003308361472c"
+    },
+    {
+      "path": "tests/word-game.test.mjs",
+      "size": 4536,
+      "sha256": "152c05e3b8392a731332521a5adaa392eb158f5bc94a304f44b0acefbf93f18d",
+      "git_blob_sha": "d9d3d4f6a150bb2c27c5f343941b813ae7538f6b"
+    },
+    {
+      "path": "docs/AREA_AUDIT_V11.md",
+      "size": 2680,
+      "sha256": "5a41c04a78ca849740b415af6d4e323494da26a29f19171d0d11cc8372aece28",
+      "git_blob_sha": "54575b23ae2b8ca83dafacb69fe0598a0c396409"
+    },
+    {
+      "path": "docs/DECISIONES.md",
+      "size": 4288,
+      "sha256": "a351b2aef572dd26b17545387616a5c1949e619ff8fe8dd1f7260f6e920b08f6",
+      "git_blob_sha": "4036dfb501f2829b0fc8720ca8ffce0b11df1eab"
+    },
+    {
+      "path": "docs/ENTREGA_NOTION.md",
+      "size": 1314,
+      "sha256": "712158424f0b3797228ed77876ecc3b0c6962d648d54f112ba391863d3b582c0",
+      "git_blob_sha": "167909211f7e1bdaf68a8247f191063797835ded"
+    },
+    {
+      "path": "docs/EXPANSION.md",
+      "size": 2179,
+      "sha256": "e9b426736ef5727631bc7ded67b5af1942016b5d4be8898b3b26343fa639b09c",
+      "git_blob_sha": "57a60da67d9c7ca31aacef368d7f5a41bcd86365"
+    },
+    {
+      "path": "docs/GUIA_ACOMPANAMIENTO_Y_SIGUIENTE_HITO.md",
+      "size": 12696,
+      "sha256": "f1b037ea02fe6e728fc631e90a87f5f034bd3e48661489cc4ee0812e7bbdb9d2",
+      "git_blob_sha": "8062ba07e46cd8bd461562e8db9a02da1abe19f5"
+    },
+    {
+      "path": "docs/INTERACCION_V7.md",
+      "size": 2156,
+      "sha256": "31ed94dc00394c01f4c5326bb9f19c97412583721ee76f842702eb391a8d01bb",
+      "git_blob_sha": "6bd2afe7ccff0e8e407051024a767733f9ce310b"
+    },
+    {
+      "path": "docs/JUEGO_JARDIN.md",
+      "size": 3714,
+      "sha256": "d54787fc36fbd85b5de50141e52e73fbc64d6b257abf2b0654829fa2a81e1a68",
+      "git_blob_sha": "041870d408f01945a8114b264f1c27134a8be56d"
+    },
+    {
+      "path": "docs/PALABRA_EVIDENCIA.md",
+      "size": 12808,
+      "sha256": "e3138cff1dfebfe760142fd699abc872244806c0fcc72737b7aaf6330fb9d1dd",
+      "git_blob_sha": "1682d678b888dfbafb57fa66000eb7e3a848fcbd"
+    },
+    {
+      "path": "docs/UNIDAD_COMPARAR_ENTREGA.md",
+      "size": 5653,
+      "sha256": "e81c5228a76fbf89ca0008b156fbe7e1501fe3cd64d0bf75a92d9cdd5a3405ff",
+      "git_blob_sha": "22c8e97803ae6845ad829df9a0eca1aac0ce19bf"
+    },
+    {
+      "path": "docs/VERIFICACION.md",
+      "size": 5434,
+      "sha256": "bf539b053a7db746d3cbba3836b44e3d4d5e7a9b014bb532d1cf77f642374ae3",
+      "git_blob_sha": "e668492c81b94d28875c42dba0132dc1f8cce376"
+    },
+    {
+      "path": "docs/VERIFICACION_ACOMPANAMIENTO.md",
+      "size": 1905,
+      "sha256": "ae9afe0f01b06ba9cc79959825ae957634e65ddeec5478bd2b8bbc2a7e9bb046",
+      "git_blob_sha": "2408df41186565ac9b33bc321b28fffd84a73cee"
+    }
+  ]
+}
