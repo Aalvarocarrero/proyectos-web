@@ -1,0 +1,66 @@
+{
+  "checks": 110,
+  "errors": [],
+  "positions": [
+    {
+      "language": "es",
+      "positions": [
+        2,
+        0,
+        1
+      ]
+    },
+    {
+      "language": "en",
+      "positions": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "language": "pt",
+      "positions": [
+        1,
+        2,
+        0
+      ]
+    },
+    {
+      "language": "zh",
+      "positions": [
+        1,
+        0,
+        2
+      ]
+    },
+    {
+      "language": "it",
+      "positions": [
+        2,
+        1,
+        0
+      ]
+    },
+    {
+      "language": "fr",
+      "positions": [
+        0,
+        1,
+        2
+      ]
+    }
+  ],
+  "firstAttemptPositionCounts": [
+    6,
+    6,
+    6
+  ],
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "scope": "18 first-attempt items balance six per position; stable interaction and retry; IDs survive reload; language names visible and accessible; honest Dani pause and discarded narrative choices."
+}

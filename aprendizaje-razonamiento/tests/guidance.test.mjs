@@ -1,0 +1,3 @@
+import test from 'node:test';import assert from 'node:assert/strict';import {executeRoute} from '../dist/route-execution.mjs';
+test('route interpreter executes directions, not answer labels',()=>{assert.deepEqual(executeRoute('reverse').path,['A1','A2','A3','B3']);assert.equal(executeRoute('reverse').arrived,false);assert.equal(executeRoute('clear').arrived,true);assert.deepEqual(executeRoute('clear',false,1).path,['A1','B1']);});
+test('obstacles stop execution and alternative route arrives',()=>{assert.deepEqual(executeRoute('blocked',true).path,['A1']);assert.equal(executeRoute('around',true).arrived,true);assert.deepEqual(executeRoute('short',true).path,['A1','A2','B2']);assert.deepEqual(executeRoute('vague').path,['A1']);});
