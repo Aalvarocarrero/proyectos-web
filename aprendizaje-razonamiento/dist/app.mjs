@@ -1,3 +1,4 @@
+import {stopLanguageAudio} from './language-audio.mjs';
 import {mountWelcome} from './welcome.mjs';
 import {scienceGames} from './science-games.mjs';
 import {renderScience} from './science-games-ui.mjs';
@@ -40,6 +41,7 @@ function renderAreas(){
  on('area-select','change',event=>{selectedArea=event.target.value;renderPanel();announce(stage?`${entriesFor(stage,selectedArea).length} propuestas en ${selectedArea==='all'?'todas las áreas':selectedArea}.`:'Elige una etapa para explorar esta área.');});
 }
 function renderPanel(){
+ stopLanguageAudio(document);
  companionHome.append(companionRoot);companionRoot.classList.remove('in-game');companionController?.refresh();
  if(!stage){document.body.classList.remove('garden-focus');panel.innerHTML=`<div class="welcome"><span class="welcome-icon" aria-hidden="true">↗</span><div><h3 id="stage-title" tabindex="-1">Un pequeño paso empieza aquí.</h3><p>Elige una etapa para ver el objetivo, el acompañamiento y la propuesta antes de empezar. No necesitas crear una cuenta ni introducir datos.</p><p class="quiet">Las edades son orientativas. Puedes explorar otra etapa cuando lo necesites.</p></div></div>`;return;}
  const s=selectedStage(),state=current();
@@ -166,7 +168,7 @@ document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_
 
 document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
 renderAreas();renderStages();renderPanel();renderProgress();
-for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home, .language-audio');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
 
 function openRoute(key){
  const entry=catalog.find(a=>a.key===key);if(!entry)return;

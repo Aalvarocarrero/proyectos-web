@@ -21,7 +21,7 @@
     "Color always supplemented with label",
     "Explicit unvalidated prototype disclosure",
     "No real child data inputs",
-    "No timers, autoplay or automatic progression",
+    "No activity timers or autoplay; bounded audio watchdogs only",
     "No dragging required",
     "Empty feedback live regions are not display-none",
     "Explicit session pause, resume, finish and restart",

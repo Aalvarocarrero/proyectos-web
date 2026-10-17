@@ -1,0 +1,18 @@
+✔ strict local language matching rejects remote, unknown, wrong and malformed voices (1.623342ms)
+✔ Mandarin accepts only explicit CN/TW tags, never Cantonese or unspecified Chinese (0.381687ms)
+✔ all 18 reviewed words use explicit matching local voices; Mandarin uses characters (1.170727ms)
+✔ absent API, empty voices, thrown discovery and remote-only lists never speak (0.324533ms)
+✔ no arbitrary text, unknown language, invalid indices or default voice fallback (0.166669ms)
+✔ repeated gestures cancel previous utterance and ignore its late events (0.247616ms)
+✔ start timeout and missing-end timeout stop speech without retries (0.211896ms)
+✔ error events and thrown speak fail closed without voice substitution (0.572511ms)
+✔ stop, reset and refresh cancel current speech; late completion does not revive it (0.45256ms)
+✔ cancel failure, paused engine or rejected explicit voice never call speak (0.612955ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 85.104562

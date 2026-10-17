@@ -1,0 +1,16 @@
+
+> aprendizaje-razonamiento-prototipo@0.15.0 test:speech
+> node tests/speech-browser.cjs
+
+{
+  checks: 186,
+  errors: [],
+  native: { api: true, voices: 0, localEnglish: false },
+  audioHeard: false,
+  scope: 'UI and lifecycle using explicit API stubs, native capability discovery only. No acoustic validation, no Safari/iOS hardware.'
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
