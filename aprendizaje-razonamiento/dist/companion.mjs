@@ -32,7 +32,7 @@ export function mountCompanion(root,getHint,storage){
   on('companion-gesture',()=>{root.querySelector('#companion-message').textContent='Puedes reconocer una estrategia que probaste: observar, comparar o pedir ayuda. No hace falta acertar. En las historias no hay emociones correctas.';if(!document.defaultView.matchMedia?.('(prefers-reduced-motion: reduce)').matches)root.querySelector('.companion-figure')?.animate?.([{transform:'rotate(-4deg)'},{transform:'rotate(0deg)'}],{duration:250});});
   on('companion-hint',()=>{root.querySelector('#companion-message').textContent=getHint();});
   const close=()=>{const dock=root.closest('#activity-companion');if(dock){dock.open=false;dock.querySelector('summary').focus();}};
-  on('companion-close',close);root.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();close();}};
+  on('companion-close',close);root.onkeydown=null;const dock=root.closest('#activity-companion');if(dock)dock.onkeydown=e=>{if(e.key==='Escape'){e.preventDefault();close();}};
   on('companion-forget',()=>{const current=read();if(current.ok&&current.raw===baseline&&decodeCompanion(current.raw).ok){try{storage.removeItem(COMPANION_KEY);baseline=null;pref=null;message='Apariencia olvidada. El progreso de las actividades se conserva.';}catch{message='No se pudo borrar la apariencia.';}}else message='No se ha borrado: el guardado cambió o no está disponible. Recarga para revisar.';redraw();});
  };
  draw();

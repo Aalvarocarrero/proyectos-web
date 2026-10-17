@@ -39,7 +39,7 @@ function renderAreas(){
  on('area-select','change',event=>{selectedArea=event.target.value;renderPanel();announce(stage?`${entriesFor(stage,selectedArea).length} propuestas en ${selectedArea==='all'?'todas las áreas':selectedArea}.`:'Elige una etapa para explorar esta área.');});
 }
 function renderPanel(){
- companionHome.append(companionRoot);companionRoot.classList.remove('in-game');
+ companionHome.append(companionRoot);companionRoot.classList.remove('in-game');companionController?.refresh();
  if(!stage){document.body.classList.remove('garden-focus');panel.innerHTML=`<div class="welcome"><span class="welcome-icon" aria-hidden="true">↗</span><div><h3 id="stage-title" tabindex="-1">Un pequeño paso empieza aquí.</h3><p>Elige una etapa para ver el objetivo, el acompañamiento y la propuesta antes de empezar. No necesitas crear una cuenta ni introducir datos.</p><p class="quiet">Las edades son orientativas. Puedes explorar otra etapa cuando lo necesites.</p></div></div>`;return;}
  const s=selectedStage(),state=current();
  if(selectedArea!=='all'){

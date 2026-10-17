@@ -7,16 +7,16 @@
       "sha256": "9f226dc51f4f830a2ad023bfb2054ee0eac50d33e81e7ada2ee2d7f0b7167c75"
     },
     "dist/app.mjs": {
-      "bytes": 46279,
-      "sha256": "c6e59fb4b551dc579796e6a026c0458534bab269fe4db19d47936be65d72dfac"
+      "bytes": 46310,
+      "sha256": "af389309cdc9cb1db48e927f1d43dcd3873a23f116cd5c9e77ef594cab8f8b13"
     },
     "dist/catalog.mjs": {
       "bytes": 2116,
       "sha256": "9a442cfe4ae2f14cc08cbaa58dbd612b1223bd8ab3bbfe5f6dafc91abc37de47"
     },
     "dist/companion.mjs": {
-      "bytes": 6579,
-      "sha256": "f7fb075b8ab2b919f5984104500aaf6649bff5dd105fd9ec7aaabe01f2875847"
+      "bytes": 6654,
+      "sha256": "3c8ea09c95e8c55503d54e46aa1aac2ec81c0e92b82348a1a96a4ed413b8d3d1"
     },
     "dist/comparar-en-familia.html": {
       "bytes": 2658,
@@ -51,8 +51,8 @@
       "sha256": "5cc96405aea4061b6631a51586f519b58e8a49c624443c0c559f9a47e5bdef49"
     },
     "dist/index.html": {
-      "bytes": 9777,
-      "sha256": "76abb776fbaa1e8a10b4d57eb948a4ff89ff0a131517294f1f7123667622a0d6"
+      "bytes": 9782,
+      "sha256": "314323d1d801e325a40e2bf7f70315f930f47473bf6c6a02b08cb177c6f1b717"
     },
     "dist/language-order.mjs": {
       "bytes": 1079,
@@ -87,8 +87,8 @@
       "sha256": "2c711ca493da3c329720d885b1ea26007d2673b3dda97c7b8b8e486abbd1620f"
     },
     "dist/route-execution.mjs": {
-      "bytes": 3420,
-      "sha256": "1047a436a2f9e8fa5696895a15d77f2044a22ef002e469aeae3a0b13d29c969f"
+      "bytes": 3926,
+      "sha256": "ce4c477d64b9ad5e25f98c1991dfd95c1295ec44cd4ef8e93ff4ab774e3a07dd"
     },
     "dist/science-art.mjs": {
       "bytes": 3782,
