@@ -55,8 +55,8 @@
       "sha256": "df9e9a3758d3b14a6fbe94648fbf0b3c900600fa10c065f0d83a4276840c9081"
     },
     "dist/language-audio.mjs": {
-      "bytes": 4335,
-      "sha256": "05c9db5310ddc4541d01cfdc747e1192df373f6df6dc5cb2355005bee6a4a49b"
+      "bytes": 4693,
+      "sha256": "df0a57220a1f3158694c2d4c422d30fe2d1e0179077afc90363b108922c63a30"
     },
     "dist/language-order.mjs": {
       "bytes": 1079,
@@ -75,8 +75,8 @@
       "sha256": "7a5b5e833b9bf195806f6e6eb70de8e61c5a243278bb35e5b551fea17d88bbd4"
     },
     "dist/local-speech.mjs": {
-      "bytes": 4317,
-      "sha256": "61d606834398fa35c34e86809bbbcb92eec2118fbe5b05e9387a9591ac675181"
+      "bytes": 4436,
+      "sha256": "e430f7f27965ebeaad6b121f89cbdb91ae47a451c86ad85380997c80c4c07f46"
     },
     "dist/logic.mjs": {
       "bytes": 9734,

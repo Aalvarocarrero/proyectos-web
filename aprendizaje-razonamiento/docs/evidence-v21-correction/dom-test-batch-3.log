@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: optional companion has separate bounded visual preferences, contextual hints and hide/forget
+ok 1 - optional companion has separate bounded visual preferences, contextual hints and hide/forget
+  ---
+  duration_ms: 313.726077
+  type: 'test'
+  ...
+# Subtest: companion preserves corrupt or rival preferences rather than overwriting them
+ok 2 - companion preserves corrupt or rival preferences rather than overwriting them
+  ---
+  duration_ms: 87.88458
+  type: 'test'
+  ...
+# Subtest: science tutorials, both connections, explanations, retry and mission navigation
+ok 3 - science tutorials, both connections, explanations, retry and mission navigation
+  ---
+  duration_ms: 750.241812
+  type: 'test'
+  ...
+# Subtest: science preserves selections through pause, guide, reload and a different subject
+ok 4 - science preserves selections through pause, guide, reload and a different subject
+  ---
+  duration_ms: 166.195421
+  type: 'test'
+  ...
+# Subtest: science can skip every unanswered mission and close without a score
+ok 5 - science can skip every unanswered mission and close without a score
+  ---
+  duration_ms: 97.434109
+  type: 'test'
+  ...
+# Subtest: science companion hint follows selected mission and does not change the answer
+ok 6 - science companion hint follows selected mission and does not change the answer
+  ---
+  duration_ms: 66.315158
+  type: 'test'
+  ...
+# Subtest: Dani branches, backtracking and all twelve endings leave no story choices in storage
+ok 7 - Dani branches, backtracking and all twelve endings leave no story choices in storage
+  ---
+  duration_ms: 1182.834722
+  type: 'test'
+  ...
+# Subtest: Dani optional other path, pause and exit clear transient decisions
+ok 8 - Dani optional other path, pause and exit clear transient decisions
+  ---
+  duration_ms: 105.502162
+  type: 'test'
+  ...
+# Subtest: companion is visible initially without a write, and hidden preference is respected in game
+ok 9 - companion is visible initially without a write, and hidden preference is respected in game
+  ---
+  duration_ms: 57.766325
+  type: 'test'
+  ...
+# Subtest: companion is reachable inside both concentrated games without leaving or losing choices
+ok 10 - companion is reachable inside both concentrated games without leaving or losing choices
+  ---
+  duration_ms: 110.418376
+  type: 'test'
+  ...
+# Subtest: language catalog shows six distinct visible language names
+ok 11 - language catalog shows six distinct visible language names
+  ---
+  duration_ms: 35.9374
+  type: 'test'
+  ...
+# Subtest: language order survives selection, feedback and pause but retry changes position
+ok 12 - language order survives selection, feedback and pause but retry changes position
+  ---
+  duration_ms: 114.614644
+  type: 'test'
+  ...
+# Subtest: Dani pause accurately describes discarded choices while other activities keep their promise
+ok 13 - Dani pause accurately describes discarded choices while other activities keep their promise
+  ---
+  duration_ms: 105.514451
+  type: 'test'
+  ...
+# Subtest: companion Escape closes from launcher and all internal controls, returning focus
+ok 14 - companion Escape closes from launcher and all internal controls, returning focus
+  ---
+  duration_ms: 137.282034
+  type: 'test'
+  ...
+# Subtest: companion return action is hidden outside an active activity and restored on resume
+ok 15 - companion return action is hidden outside an active activity and restored on resume
+  ---
+  duration_ms: 83.595109
+  type: 'test'
+  ...
+# Subtest: guided welcome stages do not write or change educational progress before launch
+ok 16 - guided welcome stages do not write or change educational progress before launch
+  ---
+  duration_ms: 67.099189
+  type: 'test'
+  ...
+# Subtest: remembering and forgetting welcome preferences preserves games and companion
+ok 17 - remembering and forgetting welcome preferences preserves games and companion
+  ---
+  duration_ms: 57.720506
+  type: 'test'
+  ...
+# Subtest: returning v19 user can continue without choosing a band or altering saved answers
+ok 18 - returning v19 user can continue without choosing a band or altering saved answers
+  ---
+  duration_ms: 91.066974
+  type: 'test'
+  ...
+# Subtest: welcome storage failure and external preference changes never overwrite progress or preferences
+ok 19 - welcome storage failure and external preference changes never overwrite progress or preferences
+  ---
+  duration_ms: 86.802784
+  type: 'test'
+  ...
+# Subtest: toddler demo is optional and launch opens adult guidance without a child screen game
+ok 20 - toddler demo is optional and launch opens adult guidance without a child screen game
+  ---
+  duration_ms: 113.405047
+  type: 'test'
+  ...
+# Subtest: guided activity can open its catalog and return home without trapping controls
+ok 21 - guided activity can open its catalog and return home without trapping controls
+  ---
+  duration_ms: 114.996811
+  type: 'test'
+  ...
+# Subtest: welcome keeps the honest paused story screen and rejects invalid saved progress
+ok 22 - welcome keeps the honest paused story screen and rejects invalid saved progress
+  ---
+  duration_ms: 106.984722
+  type: 'test'
+  ...
+# Subtest: finished guided activities open visible stage selection in every band without resetting games or welcome
+ok 23 - finished guided activities open visible stage selection in every band without resetting games or welcome
+  ---
+  duration_ms: 568.73046
+  type: 'test'
+  ...
+# Subtest: guided language cards display six distinct language names in their button labels
+ok 24 - guided language cards display six distinct language names in their button labels
+  ---
+  duration_ms: 37.686121
+  type: 'test'
+  ...
+# Subtest: Continue identifies each language after returning home and reloading v4 progress
+ok 25 - Continue identifies each language after returning home and reloading v4 progress
+  ---
+  duration_ms: 507.381845
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 7713.690666

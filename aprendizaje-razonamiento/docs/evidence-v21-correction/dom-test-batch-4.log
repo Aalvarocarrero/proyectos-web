@@ -1,0 +1,22 @@
+TAP version 13
+# Subtest: speech cancellation failure remains visible after leaving or replacing the language panel
+ok 1 - speech cancellation failure remains visible after leaving or replacing the language panel
+  ---
+  duration_ms: 124.040327
+  type: 'test'
+  ...
+# Subtest: failed Repeat exposes the cancellation warning and sends no additional utterance
+ok 2 - failed Repeat exposes the cancellation warning and sends no additional utterance
+  ---
+  duration_ms: 21.17055
+  type: 'test'
+  ...
+1..2
+# tests 2
+# suites 0
+# pass 2
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 672.191966

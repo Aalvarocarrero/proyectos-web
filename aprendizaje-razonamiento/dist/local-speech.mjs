@@ -10,10 +10,10 @@ export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clear
  const voices=()=>{try{return supported()?Array.from(synthesis.getVoices()):[];}catch{return [];}};
  const emit=()=>listener({phase,message,last});
  const clear=()=>{clearTimer(startTimer);clearTimer(endTimer);startTimer=endTimer=null;};
- function stop(notify=true){serial++;clear();const had=!!current;current=null;let ok=true;try{if(supported()&&(had||synthesis.speaking||synthesis.pending))synthesis.cancel();}catch{ok=false;}phase=ok?'idle':'error';message=ok?'Audio detenido.':'No se pudo confirmar la detención. Cierra esta página si el audio continúa.';if(notify)emit();return ok;}
+ function stop(notify=true){serial++;clear();const had=!!current;let ok=true;try{const canStop=supported();if(had&&!canStop)ok=false;else if(canStop&&(had||synthesis.speaking||synthesis.pending))synthesis.cancel();}catch{ok=false;}if(ok)current=null;phase=ok?'idle':'error';message=ok?'Audio detenido.':'No se pudo confirmar la detención. Cierra esta página si el audio continúa.';if(notify)emit();return ok;}
  function availability(id){const voice=localVoice(voices(),id);return {voice,available:!!voice,reason:!supported()?'Este navegador no ofrece la síntesis necesaria. La actividad sigue disponible sin audio.':voice?'Voz local identificada por el navegador.':'No hay una voz local identificable para este idioma. Puedes completar la actividad sin audio.'};}
  function play(id,index){
-  if(!stop(false))return false;
+  if(!stop(false)){emit();return false;}
   const language=languageFor(id);if(!language||!Number.isInteger(index)||index<0||index>=language.words.length){phase='error';message='Palabra no disponible para audio.';emit();return false;}
   const {voice,reason}=availability(id);if(!voice){phase='unavailable';message=reason;emit();return false;}
   const token=++serial;const fail=text=>{if(token!==serial)return;const stopped=stop(false);phase='error';message=stopped?text:'No se pudo confirmar la detención. Cierra esta página si el audio continúa.';emit();};
@@ -24,12 +24,12 @@ export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clear
    if(utterance.voice!==voice||voice.localService!==true){phase='error';message='No se pudo fijar una voz local. Audio desactivado para este intento.';emit();return false;}
    current=utterance;last={id,index};phase='starting';message='Preparando la voz…';
    utterance.onstart=()=>{if(token!==serial)return;clearTimer(startTimer);phase='speaking';message='Reproduciendo la palabra.';emit();};
-   utterance.onend=()=>{if(token!==serial)return;clear();current=null;phase='idle';message='Reproducción terminada. Puedes repetir si quieres.';emit();};
+   utterance.onend=()=>{if(token!==serial)return;serial++;clear();current=null;phase='idle';message='Reproducción terminada. Puedes repetir si quieres.';emit();};
    utterance.onerror=()=>fail('No se pudo reproducir con esa voz local. No se ha buscado otra voz ni un servicio externo.');
    startTimer=setTimer(()=>fail('La voz no comenzó a tiempo. Puedes volver a pulsar Escuchar o continuar sin audio.'),4000);
    endTimer=setTimer(()=>fail('La reproducción no terminó a tiempo y se ha solicitado detenerla.'),12000);
    emit();synthesis.speak(utterance);return true;
   }catch{fail('No se pudo iniciar la voz local. Puedes continuar sin audio.');return false;}
  }
- return {availability,play,stop,reset(){stop(false);last=null;phase='idle';message='';},subscribe(fn){listener=fn;emit();return ()=>{listener=()=>{};};},get state(){return {phase,message,last};},refresh(){const active=!!current;stop(false);if(phase!=='error')message=active?'La lista de voces cambió. Audio detenido.':'';emit();},get synthesis(){return synthesis;}};
+ return {availability,play,stop,reset(){const stopped=stop(false);last=null;if(stopped){phase='idle';message='';}return stopped;},subscribe(fn){listener=fn;emit();return ()=>{listener=()=>{};};},get state(){return {phase,message,last};},refresh(){const active=!!current;stop(false);if(phase!=='error')message=active?'La lista de voces cambió. Audio detenido.':'';emit();},get synthesis(){return synthesis;}};
 }

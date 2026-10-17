@@ -10,7 +10,7 @@ function session(doc){
  doc.addEventListener('visibilitychange',()=>{if(doc.hidden)engine.stop();});win.addEventListener('pagehide',()=>engine.stop());win.addEventListener('hashchange',()=>engine.stop());
  return value;
 }
-export function stopLanguageAudio(doc){const active=sessions.get(doc);if(active){active.dispose?.();active.dispose=null;active.engine.reset();}}
+export function stopLanguageAudio(doc){const active=sessions.get(doc);if(active){active.dispose?.();active.dispose=null;const stopped=active.engine.reset();let warning=doc.querySelector('#speech-stop-warning');if(stopped){warning?.remove();}else{if(!warning){warning=doc.createElement('p');warning.id='speech-stop-warning';warning.className='section notice';warning.setAttribute('role','alert');(doc.querySelector('main')||doc.body).prepend(warning);}warning.textContent=active.engine.state.message;}}}
 export function mountLanguageAudio(root,id,indices){
  const doc=root.ownerDocument,{engine}=session(doc),language=languageFor(id),win=doc.defaultView;
  const panel=doc.createElement('section');panel.className='language-audio';panel.setAttribute('aria-label','Escuchar palabras · '+language.name);

@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: onboarding starts with no child stage or activity selected
+ok 1 - onboarding starts with no child stage or activity selected
+  ---
+  duration_ms: 205.526635
+  type: 'test'
+  ...
+# Subtest: approved time estimates appear before starting every stage
+ok 2 - approved time estimates appear before starting every stage
+  ---
+  duration_ms: 267.260687
+  type: 'test'
+  ...
+# Subtest: both under-three routes contain only adult offline guides
+ok 3 - both under-three routes contain only adult offline guides
+  ---
+  duration_ms: 172.17021
+  type: 'test'
+  ...
+# Subtest: grouping checks errors, exact sets and optional second rule
+ok 4 - grouping checks errors, exact sets and optional second rule
+  ---
+  duration_ms: 149.995303
+  type: 'test'
+  ...
+# Subtest: pause and changing stages preserve grouping decisions only in memory
+ok 5 - pause and changing stages preserve grouping decisions only in memory
+  ---
+  duration_ms: 134.365475
+  type: 'test'
+  ...
+# Subtest: unfinished and paused sessions can finish without a penalty or automatic next
+ok 6 - unfinished and paused sessions can finish without a penalty or automatic next
+  ---
+  duration_ms: 145.642256
+  type: 'test'
+  ...
+# Subtest: planning preserves original solution, reduced budget and revised solution
+ok 7 - planning preserves original solution, reduced budget and revised solution
+  ---
+  duration_ms: 158.463117
+  type: 'test'
+  ...
+# Subtest: story can be reordered, checked and explained with buttons
+ok 8 - story can be reordered, checked and explained with buttons
+  ---
+  duration_ms: 161.19577
+  type: 'test'
+  ...
+# Subtest: evidence requires explicit choices and transitions and handles wrong answers
+ok 9 - evidence requires explicit choices and transitions and handles wrong answers
+  ---
+  duration_ms: 140.242492
+  type: 'test'
+  ...
+# Subtest: dynamic DOM has unique IDs, explicit buttons and accessible names in every state
+ok 10 - dynamic DOM has unique IDs, explicit buttons and accessible names in every state
+  ---
+  duration_ms: 288.16227
+  type: 'test'
+  ...
+# Subtest: new activity catalog preserves independent choices and phase in both directions
+ok 11 - new activity catalog preserves independent choices and phase in both directions
+  ---
+  duration_ms: 132.611907
+  type: 'test'
+  ...
+# Subtest: all four new activities support hints, correction, optional continuation and natural closure
+ok 12 - all four new activities support hints, correction, optional continuation and natural closure
+  ---
+  duration_ms: 609.785674
+  type: 'test'
+  ...
+# Subtest: changing a new answer invalidates previous success and hides next step
+ok 13 - changing a new answer invalidates previous success and hides next step
+  ---
+  duration_ms: 76.939992
+  type: 'test'
+  ...
+# Subtest: story choices expose selection and preserve it through pause
+ok 14 - story choices expose selection and preserve it through pause
+  ---
+  duration_ms: 120.530769
+  type: 'test'
+  ...
+# Subtest: new activity states have unique IDs, clear selected names and valid native buttons
+ok 15 - new activity states have unique IDs, clear selected names and valid native buttons
+  ---
+  duration_ms: 329.72904
+  type: 'test'
+  ...
+# Subtest: exhausted hint label and blocked-route description survive rerendering
+ok 16 - exhausted hint label and blocked-route description survive rerendering
+  ---
+  duration_ms: 100.647403
+  type: 'test'
+  ...
+# Subtest: optional facilitation matches every proposal before and during activity
+ok 17 - optional facilitation matches every proposal before and during activity
+  ---
+  duration_ms: 749.776466
+  type: 'test'
+  ...
+# Subtest: opening the support guide preserves selected answers and does not start another round
+ok 18 - opening the support guide preserves selected answers and does not start another round
+  ---
+  duration_ms: 62.366883
+  type: 'test'
+  ...
+# Subtest: pilot can skip directly to transfer and offscreen guidance without answering
+ok 19 - pilot can skip directly to transfer and offscreen guidance without answering
+  ---
+  duration_ms: 71.635424
+  type: 'test'
+  ...
+# Subtest: pilot feedback and hints survive backward navigation, pause and other activities
+ok 20 - pilot feedback and hints survive backward navigation, pause and other activities
+  ---
+  duration_ms: 170.412203
+  type: 'test'
+  ...
+# Subtest: every pilot option has explanatory feedback and no gated navigation or persisted answers
+ok 21 - every pilot option has explanatory feedback and no gated navigation or persisted answers
+  ---
+  duration_ms: 269.852848
+  type: 'test'
+  ...
+# Subtest: answer-specific feedback survives pause and changes correctly when the choice is revised
+ok 22 - answer-specific feedback survives pause and changes correctly when the choice is revised
+  ---
+  duration_ms: 606.249104
+  type: 'test'
+  ...
+# Subtest: garden is featured and default for 6–8 but preserves existing story separately
+ok 23 - garden is featured and default for 6–8 but preserves existing story separately
+  ---
+  duration_ms: 126.078445
+  type: 'test'
+  ...
+# Subtest: garden keyboard buttons, pause, correction, optional sequence and offscreen closure
+ok 24 - garden keyboard buttons, pause, correction, optional sequence and offscreen closure
+  ---
+  duration_ms: 359.958803
+  type: 'test'
+  ...
+# Subtest: garden pages keep unique IDs, accessible controls and ephemeral independent state
+ok 25 - garden pages keep unique IDs, accessible controls and ephemeral independent state
+  ---
+  duration_ms: 115.41056
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 6277.633224
