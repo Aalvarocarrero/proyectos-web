@@ -1,0 +1,101 @@
+
+> aprendizaje-razonamiento-prototipo@0.12.1 test:dom
+> node --test tests/dom.test.cjs
+
+Error: Uncaught [TypeError: document.querySelector(...).scrollIntoView is not a function]
+    at reportException (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+    at invokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLButtonElementImpl._dispatch (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at fireAnEvent (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+    at HTMLButtonElementImpl.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:85:5)
+    at HTMLButtonElement.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:108:34)
+    at Object.click (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:4:638)
+    at TestContext.<anonymous> (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:104:154)
+    at async Test.run (node:internal/test_runner/test:1389:7) TypeError: document.querySelector(...).scrollIntoView is not a function
+    at HTMLButtonElement.<anonymous> (file:///workspace/proyectos-web/aprendizaje-razonamiento/dist/app.mjs?dom=60:121:252)
+    at HTMLButtonElement.callTheUserObjectsOperation (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+    at innerInvokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:350:25)
+    at invokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLButtonElementImpl._dispatch (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at fireAnEvent (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+    at HTMLButtonElementImpl.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:85:5)
+    at HTMLButtonElement.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:108:34)
+    at Object.click (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:4:638)
+    at TestContext.<anonymous> (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:104:154)
+✔ onboarding starts with no child stage or activity selected (127.226732ms)
+✔ approved time estimates appear before starting every stage (111.111329ms)
+✔ both under-three routes contain only adult offline guides (118.760357ms)
+✔ grouping checks errors, exact sets and optional second rule (72.493174ms)
+✔ pause and changing stages preserve grouping decisions only in memory (60.66891ms)
+✔ unfinished and paused sessions can finish without a penalty or automatic next (76.602665ms)
+✔ planning preserves original solution, reduced budget and revised solution (93.465925ms)
+✔ story can be reordered, checked and explained with buttons (127.688186ms)
+✔ evidence requires explicit choices and transitions and handles wrong answers (123.392165ms)
+✔ dynamic DOM has unique IDs, explicit buttons and accessible names in every state (231.582249ms)
+✔ new activity catalog preserves independent choices and phase in both directions (91.839319ms)
+✔ all four new activities support hints, correction, optional continuation and natural closure (416.624843ms)
+✔ changing a new answer invalidates previous success and hides next step (48.553851ms)
+✔ story choices expose selection and preserve it through pause (80.647937ms)
+✔ new activity states have unique IDs, clear selected names and valid native buttons (223.183762ms)
+✔ exhausted hint label and blocked-route description survive rerendering (60.177203ms)
+✔ optional facilitation matches every proposal before and during activity (524.762298ms)
+✔ opening the support guide preserves selected answers and does not start another round (52.351562ms)
+✔ pilot can skip directly to transfer and offscreen guidance without answering (41.804939ms)
+✔ pilot feedback and hints survive backward navigation, pause and other activities (124.020972ms)
+✔ every pilot option has explanatory feedback and no gated navigation or persisted answers (157.849006ms)
+✔ answer-specific feedback survives pause and changes correctly when the choice is revised (409.491339ms)
+✔ garden is featured and default for 6–8 but preserves existing story separately (81.403596ms)
+✔ garden keyboard buttons, pause, correction, optional sequence and offscreen closure (243.131504ms)
+✔ garden pages keep unique IDs, accessible controls and ephemeral independent state (58.420706ms)
+✔ focused garden catalog roundtrip preserves route and selected edit (83.022082ms)
+✔ garden inline demonstration is optional and does not edit the child route (75.603143ms)
+✔ garden replacement and undo recover position and accessible selection (94.3414ms)
+✔ garden collision action selects the blocked arrow for correction (63.005872ms)
+✔ local garden progress restores after a new document and preserves pause (99.417513ms)
+✔ local grouping and story choices survive independent reloads (89.120587ms)
+✔ corrupt and future local progress is protected until voluntary confirmed reset (105.32685ms)
+✔ storage failure remains visible while game works and deletion failure preserves current state (34.643689ms)
+✔ word journey contains six scenes with contextual choices, feedback and fresh hints (331.848743ms)
+✔ word journey pause, catalog and reload preserve only bounded local state (151.072836ms)
+✔ word recall and offscreen are optional, distinct and do not imply mastery (77.382467ms)
+✔ both focused games can leave pause and return with their choices intact (160.652459ms)
+✔ external save blocks overwrites and requires explicit confirmation before loading (42.82467ms)
+✔ external deletion is not resurrected by an old tab (31.776358ms)
+✔ asynchronous coordinated saving announces completion and restores latest click (69.586243ms)
+✔ returning to an active or paused focused game targets its visible session heading (231.665231ms)
+✔ each extra question exposes the current scenario as its accessible description (193.439941ms)
+✔ next extra idea scrolls its new premise into view while keeping question focus (36.936458ms)
+✔ v17 inventory: 19 digital, 2 adult guides, 1 family unit; correct legacy labels (0.445762ms)
+✔ v16 all 54 stage/area combinations expose exact inventory and honest empty recovery (582.538178ms)
+✔ v15 all thirteen entries open through their area, without duplicate unit steps (998.195441ms)
+✔ v15 filters and stage changes preserve paused game responses and persisted state (82.336636ms)
+✔ six language entries support guide, wrong answer, retry, pause and reload (524.406822ms)
+✔ reflection allows every perspective but never serializes emotional choices (61.049678ms)
+✔ science disciplines expose only their implemented pilot (16.105759ms)
+✔ optional companion has separate bounded visual preferences, contextual hints and hide/forget (38.53791ms)
+✔ companion preserves corrupt or rival preferences rather than overwriting them (37.216387ms)
+✔ science tutorials, both connections, explanations, retry and mission navigation (346.22344ms)
+✔ science preserves selections through pause, guide, reload and a different subject (111.721821ms)
+✔ science can skip every unanswered mission and close without a score (50.342043ms)
+✔ science companion hint follows selected mission and does not change the answer (40.336928ms)
+✔ Dani branches, backtracking and all twelve endings leave no story choices in storage (764.670899ms)
+✔ Dani optional other path, pause and exit clear transient decisions (62.725177ms)
+✔ companion is visible initially without a write, and hidden preference is respected in game (52.091304ms)
+✔ companion is reachable inside both concentrated games without leaving or losing choices (73.811288ms)
+✔ language catalog shows six distinct visible language names (38.264281ms)
+✔ language order survives selection, feedback and pause but retry changes position (53.681098ms)
+✔ Dani pause accurately describes discarded choices while other activities keep their promise (78.692049ms)
+ℹ tests 63
+ℹ suites 0
+ℹ pass 63
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10154.696204
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

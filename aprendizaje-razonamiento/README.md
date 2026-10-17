@@ -105,3 +105,7 @@ Ver [informe y capturas](docs/ENTREGA_V16.md), [fuentes](docs/FUENTES_V16.md) y 
 Dani tiene caminos y finales narrativos; el acompañante aparece desde el inicio y dentro de los juegos. Dos pilotos visuales nuevos completan las primeras actividades de Biología y Química, con cuatro misiones cada uno. Se conserva la fuente v16 y su progreso compatible.
 
 Ver [entrega, pruebas y capturas](docs/ENTREGA_V17.md), [fuentes científicas](docs/FUENTES_V17.md) y [arquitectura y privacidad](docs/ARQUITECTURA_V17.md). Baterías adicionales: `npm run test:science` y `npm run test:story`. No publicado ni subido a rama remota.
+
+## Corrección local v18
+
+Orden equilibrado de respuestas en idiomas, nombres de lengua explícitos en catálogo y pausa de Dani coherente con el descarte de decisiones narrativas. Sin cambio de datos ni contenido pedagógico. [Informe y evidencias](docs/ENTREGA_V18.md). Batería específica: `npm run test:corrections`. No subida ni publicada.
