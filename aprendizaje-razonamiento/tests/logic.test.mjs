@@ -18,7 +18,7 @@ test('exhaustive 64 combinations obey invariant',()=>{for(let mask=0;mask<64;mas
 
 import {nextSessionPhase,sessionPhases,storyCards,initialStoryOrder,moveStoryCard,checkStory,evidenceQuestions,checkEvidence} from '../dist/logic.mjs';
 test('approved product duration windows and age labels',()=>{
- assert.deepEqual(stages.map(s=>s.label),['18–24 meses','2 años','3–5 años','6–8 años','9–12 años','13–18 años']);
+ assert.deepEqual(stages.map(s=>s.label),['18–23 meses','24–35 meses','3–5 años','6–8 años','9–12 años','13–18 años']);
  assert.deepEqual(stages.map(s=>s.duration),['3–5 min de juego sin pantalla','3–8 min de juego sin pantalla','3–8 min orientativos','5–10 min orientativos','8–15 min orientativos','10–20 min orientativos']);
 });
 test('under-three stages are adult guides with offscreen duration',()=>{for(const stage of stages.slice(0,2)){assert.equal(stage.kind,'offline');assert.match(stage.mode,/adulto/);assert.match(stage.duration,/sin pantalla/);}});

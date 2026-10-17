@@ -1,10 +1,10 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.13.0",
+  "version": "0.14.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs",
+    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs tests/welcome.test.mjs",
     "test:static": "python3 tests/static_a11y.py",
     "test:dom": "node --test tests/dom.test.cjs",
     "test:browser": "node tests/browser.cjs",
@@ -14,6 +14,7 @@
     "test:science": "node tests/science-browser.cjs",
     "test:story": "node tests/story-companion-browser.cjs",
     "test:corrections": "node tests/corrections-browser.cjs",
-    "test:guidance": "node tests/guidance-browser.cjs"
+    "test:guidance": "node tests/guidance-browser.cjs",
+    "test:welcome": "node tests/welcome-browser.cjs"
   }
 }

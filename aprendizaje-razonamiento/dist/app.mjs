@@ -1,3 +1,4 @@
+import {mountWelcome} from './welcome.mjs';
 import {scienceGames} from './science-games.mjs';
 import {renderScience} from './science-games-ui.mjs';
 import {mountRouteExecution} from './route-execution.mjs';
@@ -18,7 +19,7 @@ import {renderComparisonUnit} from './comparison-unit-ui.mjs';
 import {getFacilitation} from './facilitation.mjs';
 import {extraActivities,checkActivityAnswer} from './activities.mjs';
 import {stages,shapes,checkGrouping,supplies,evaluatePlan,nextSessionPhase,storyCards,initialStoryOrder,moveStoryCard,checkStory,evidenceSources,evidenceQuestions,checkEvidence} from './logic.mjs';
-const companionRoot=document.querySelector('#companion'),companionHome=document.querySelector('#companion-home');let companionController;
+const companionRoot=document.querySelector('#companion'),companionHome=document.querySelector('#companion-home');let companionController;let welcomeController;
 const stageButtons=document.querySelector('#stage-buttons');
 const panel=document.querySelector('#stage-panel');
 const states={};const selectedActivities={};let stage=null;let selectedArea='all';
@@ -157,6 +158,7 @@ function renderProgress(){
  on('progress-load-cancel','click',()=>{progressReloadConfirm=false;renderProgress();focus('progress-load');});
  on('progress-load-confirm','click',()=>{const result=progressSession.reload();progressResult=result;progressReloadConfirm=false;if(result.ok||result.status==='empty'){Object.keys(states).forEach(k=>delete states[k]);Object.keys(selectedActivities).forEach(k=>delete selectedActivities[k]);stage=result.ok?result.snapshot.stage:null;if(result.ok){Object.assign(states,result.snapshot.states);Object.assign(selectedActivities,result.snapshot.selectedActivities);}renderStages();renderPanel();}renderProgress();focus('progress-status');});
  on('progress-retry','click',()=>{if(stage)persistProgress();else{progressResult=progressSession.inspect();renderProgress();}focus('progress-status');});
+ welcomeController?.refresh();
 }
 function settleProgress(result,done){if(result&&typeof result.then==='function'){progressResult={ok:false,status:'saving'};renderProgress();result.then(value=>{if(value.status!=='superseded')done(value);}).catch(()=>{progressResult={ok:false,status:'unavailable'};renderProgress();});}else done(result);}
 function persistProgress(){if(!stage)return;settleProgress(progressSession.save({stage,selectedActivities,states}),result=>{progressResult=result;renderProgress();});}
@@ -164,7 +166,7 @@ document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_
 
 document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
 renderAreas();renderStages();renderPanel();renderProgress();
-for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
 
 function openRoute(key){
  const entry=catalog.find(a=>a.key===key);if(!entry)return;
@@ -191,3 +193,12 @@ companionController=mountCompanion(companionRoot,()=>{
  if(id==='unit')return 'Al comparar, cambia una sola condición y observa qué mantienes igual. Puedes consultar el ejemplo de la unidad.';
  return 'En «'+selectedStage().unit+'», relee la pregunta y busca la pista dentro del reto. Explica una razón, hablando o señalando; no hace falta acertar a la primera.';
 },progressStorage);
+
+welcomeController=mountWelcome(document.querySelector('#guided-home'),{
+ storage:progressStorage,
+ getResume:()=>{const keys=stage?[stateKey(),...Object.keys(states).filter(k=>k!==stateKey())]:Object.keys(states);const key=keys.find(k=>['active','paused'].includes(states[k]?.phase)&&catalog.some(a=>a.key===k));const entry=catalog.find(a=>a.key===key);return entry?{...entry,phase:states[key].phase}:null;},
+ openActivity:key=>{openRoute(key);if(current().phase==='intro')transition('start');persistProgress();},
+ onHome:()=>{renderPanel();}
+});
+// A restored game remains available through Continue; the initial view is the welcome.
+document.body.classList.remove('garden-focus');

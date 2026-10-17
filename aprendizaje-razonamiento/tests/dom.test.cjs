@@ -171,3 +171,31 @@ test('companion return action is hidden outside an active activity and restored 
  f.click('#pause-session');assert.equal(f.d.querySelector('#companion-close').hidden,true);assert.equal(f.d.querySelector('#activity-companion'),null);
  f.click('#resume-session');assert.equal(f.d.querySelector('#companion-close').hidden,false);f.click('#finish-session');assert.equal(f.d.querySelector('#companion-close').hidden,true);f.click('#restart-session');assert.equal(f.d.querySelector('#companion-close').hidden,true);
 });
+
+test('guided welcome stages do not write or change educational progress before launch',async()=>{
+ const f=await fixture();assert.equal(f.d.querySelector('#all-proposals').open,false);f.click('#welcome-begin');f.click('[data-role="student"]');
+ for(const band of ['18m','2y','3y','5y','7y','12y']){f.click(`[data-band="${band}"]`);assert.ok([...f.d.querySelectorAll('[data-welcome-route]')].every(b=>b.dataset.welcomeRoute.startsWith(band+':')));if(['18m','2y','3y','5y'].includes(band))assert.match(f.text('#guided-home'),/CON ADULTO/);assert.equal(f.dom.window.localStorage.length,0);assert.equal(f.d.querySelectorAll('.stage-button[aria-pressed=true]').length,0);f.click('#welcome-band');}
+});
+test('remembering and forgetting welcome preferences preserves games and companion',async()=>{
+ const f=await fixture();f.start('3y');f.click('[data-shape="a"]');const before=f.dom.window.localStorage.getItem('education-facilitation-guide:progress');f.dom.window.localStorage.setItem('education-facilitation-guide:companion',JSON.stringify({version:1,shape:'leaf',color:'ocean',visible:false}));const avatar=f.dom.window.localStorage.getItem('education-facilitation-guide:companion');
+ f.click('#welcome-begin');f.click('[data-role="adult"]');f.click('[data-band="18m"]');f.click('#welcome-remember');assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:progress'),before);f.click('#welcome-reset');assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:welcome'),null);assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:progress'),before);assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:companion'),avatar);
+});
+test('returning v19 user can continue without choosing a band or altering saved answers',async()=>{
+ const first=await fixture();first.start('3y');first.click('[data-shape="a"]');const saved=first.dom.window.localStorage.getItem('education-facilitation-guide:progress');const f=await fixture({saved});assert.ok(f.d.querySelector('#welcome-continue'));assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:progress'),saved);f.click('#welcome-continue');assert.equal(f.d.querySelector('[data-shape="a"]').getAttribute('aria-pressed'),'true');f.click('#back-home');assert.equal(f.d.body.classList.contains('guided-session'),false);assert.ok(f.d.querySelector('#welcome-continue'));assert.equal(f.d.querySelector('#all-proposals').contains(f.d.querySelector('#etapas')),true);
+});
+test('welcome storage failure and external preference changes never overwrite progress or preferences',async()=>{
+ const f=await fixture();f.click('#welcome-begin');f.click('[data-role="adult"]');f.click('[data-band="3y"]');const rival=JSON.stringify({version:1,stage:'12y',role:'student'});f.dom.window.localStorage.setItem('education-facilitation-guide:welcome',rival);f.click('#welcome-remember');assert.match(f.text('#welcome-status'),/otra pestaña/);assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:welcome'),rival);assert.equal(f.dom.window.localStorage.getItem('education-facilitation-guide:progress'),null);
+ const g=await fixture({setup:w=>{w.Storage.prototype.setItem=()=>{throw Error('unavailable')};}});g.click('#welcome-begin');g.click('[data-role="adult"]');g.click('[data-band="2y"]');g.click('#welcome-remember');assert.match(g.text('#welcome-status'),/No se pudo guardar/);g.click('[data-welcome-route="2y:original"]');assert.match(g.text('#exercise'),/FUERA DE PANTALLA/);
+});
+test('toddler demo is optional and launch opens adult guidance without a child screen game',async()=>{
+ for(const band of ['18m','2y']){const f=await fixture();f.click('#welcome-begin');f.click('[data-role="adult"]');f.click(`[data-band="${band}"]`);f.click('#welcome-demo');assert.match(f.text('#guided-home'),/Aparta la pantalla/);f.click(`[data-welcome-route="${band}:original"]`);assert.match(f.text('#exercise'),/EL ADULTO ACOMPAÑA/);assert.equal(f.d.querySelectorAll('#exercise [data-shape],#exercise [data-answer],#exercise input').length,0);f.click('#back-home');assert.ok(f.d.querySelector('#welcome-continue'));}
+});
+
+test('guided activity can open its catalog and return home without trapping controls',async()=>{
+ const f=await fixture();f.click('#welcome-begin');f.click('[data-role="adult"]');f.click('[data-band="5y"]');f.click('[data-welcome-route="5y:garden"]');assert.equal(f.d.body.classList.contains('guided-session'),true);f.click('#garden-library');assert.equal(f.d.body.classList.contains('guided-session'),false);assert.equal(f.d.querySelector('#all-proposals').open,true);assert.equal(f.d.querySelector('#all-proposals').contains(f.d.querySelector('#etapas')),true);
+ f.click('.brand');f.click('#welcome-continue');f.click('#pause-session');f.click('#paused-catalog');assert.equal(f.d.body.classList.contains('guided-session'),false);assert.equal(f.d.querySelector('#all-proposals').open,true);
+});
+test('welcome keeps the honest paused story screen and rejects invalid saved progress',async()=>{
+ const first=await fixture();first.click('[data-route="5y:reflection"]');first.click('#start-session');first.click('#reflection-continue');first.click('[data-story-branch="help"]');first.click('#pause-session');const saved=first.dom.window.localStorage.getItem('education-facilitation-guide:progress');const f=await fixture({saved});f.click('#welcome-continue');assert.match(f.text('#activity'),/decisiones de esta historia se han descartado/);assert.match(f.text('#resume-session'),/Empezar otra versión/);
+ const g=await fixture({saved:'{"version":999}'});assert.equal(g.d.querySelector('#welcome-continue'),null);assert.equal(g.dom.window.localStorage.getItem('education-facilitation-guide:progress'),'{"version":999}');
+});
