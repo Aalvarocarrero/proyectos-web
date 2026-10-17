@@ -1,0 +1,51 @@
+import assert from 'node:assert/strict';
+import test, {after} from 'node:test';
+import {readFile} from 'node:fs/promises';
+import {createServer} from 'vite';
+import {fileURLToPath} from 'node:url';
+import {indexedDB, IDBKeyRange} from 'fake-indexeddb';
+const root=fileURLToPath(new URL('..',import.meta.url));
+const storage=()=>{const values=new Map();return {getItem:key=>values.get(key)??null,setItem:(key,value)=>values.set(key,value),removeItem:key=>values.delete(key)};};
+let requests=0;
+const globals={indexedDB,IDBKeyRange,location:{pathname:'/app',origin:'https://synthetic.invalid'},navigator:{onLine:false},localStorage:storage(),sessionStorage:storage(),window:new EventTarget(),fetch:async()=>{requests++;throw new Error('Unexpected network call');}};
+const originals=new Map(Object.keys(globals).map(key=>[key,Object.getOwnPropertyDescriptor(globalThis,key)]));
+for(const [key,value] of Object.entries(globals))Object.defineProperty(globalThis,key,{configurable:true,writable:true,value});
+const vite=await createServer({root,configFile:false,appType:'custom',resolve:{alias:{'@':root}},server:{middlewareMode:true,hmr:false,ws:false,watch:null}});
+const owner=await vite.ssrLoadModule('/lib/offline-owner.ts'),db=await vite.ssrLoadModule('/lib/offline-db.ts');
+after(async()=>{await vite.close();for(const [key,value] of originals){if(value)Object.defineProperty(globalThis,key,value);else delete globalThis[key];}});
+
+test('signout preparation preserves private pending records without network or cross-account adoption',async()=>{
+ owner.selectVerifiedDashboardOwner('account_a');
+ await db.queueMutation({entityType:'farm-record',entityId:'pending_a',action:'upsert',payload:{farmId:'farm_a',recordType:'task',category:'Campo',title:'Guardado localmente',data:{}}});
+ localStorage.setItem('venezuela-agro-trusted-offline-workspace',JSON.stringify({version:1,owner:'account_a'}));
+ assert.equal(await db.getPendingCount('account_a'),1);
+ const before=await db.exportLocalBackup();
+ owner.prepareOfflineSignOut();
+ assert.equal(localStorage.getItem('venezuela-agro-trusted-offline-workspace'),null);
+ assert.equal(sessionStorage.getItem('venezuela-agro-last-local-owner'),null);
+ assert.equal(await owner.localOwner(),'device-local');
+ owner.selectVerifiedDashboardOwner('account_b');
+ assert.equal(await db.getPendingCount(),0);
+ assert.equal(await db.getCachedEntity('farm-record','pending_a'),undefined);
+ owner.selectVerifiedDashboardOwner('account_a');
+ const after=await db.exportLocalBackup();
+ assert.deepEqual(after.entities,before.entities);assert.deepEqual(after.outbox,before.outbox);
+ assert.equal(requests,0);
+});
+test('another tab signout boundary drops cached account and tab access hints',async()=>{
+ owner.selectVerifiedDashboardOwner('account_a');
+ localStorage.setItem('venezuela-agro-session-boundary','other_tab_logout');
+ assert.equal(await owner.localOwner(),'device-local');
+ assert.equal(sessionStorage.getItem('venezuela-agro-last-local-owner'),null);
+ assert.equal(await db.getPendingCount('account_a'),1);
+});
+test('menu uses server authorization and platform top-level signout, with no data deletion or sync',async()=>{
+ const menu=await readFile(new URL('../components/session-menu.tsx',import.meta.url),'utf8');
+ const api=await readFile(new URL('../app/api/account-menu/route.ts',import.meta.url),'utf8');
+ assert.match(api,/getChatGPTUser\(\)/);assert.match(api,/canAdmin: isAdminIdentity\(user\)/);
+ assert.match(api,/chatGPTSignOutPath\("\/"\)/);assert.match(api,/private, no-store/);
+ assert.match(menu,/session.canAdmin &&/);assert.match(menu,/href=\{session.signOutPath\} target="_top"/);
+ assert.match(menu,/getPendingCount\(session.owner\)/);assert.match(menu,/getPendingCount\("device-local"\)/);
+ assert.match(menu,/event.preventDefault\(\)/);assert.match(menu,/Cancelar y seguir aquí/);
+ assert.doesNotMatch(menu,/syncNow|deleteDatabase|localStorage.clear|router.push/);
+});

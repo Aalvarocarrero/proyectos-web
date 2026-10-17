@@ -1,0 +1,15 @@
+export type ZoneBounds=[number,number,number,number];
+export const EARTH_SEARCH_ORIGIN='https://earth-search.aws.element84.com';
+export const SENTINEL_ASSET_ORIGIN='https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com';
+export const ZONE_LIMITS={sideM:11000,outputSize:1024,transferBytes:15*1024*1024,rangeBytes:5*1024*1024,sourcePixels:4_000_000,decodedTileBytes:48*1024*1024,timeoutMs:180000} as const;
+export type ZoneScene={id:string;assetUrl:string;sourceUrl:string;acquiredAt:string;cloudPercent:number|null;bounds:ZoneBounds;epsg:number};
+export function validateZoneBounds(value:unknown):ZoneBounds{
+ if(!Array.isArray(value)||value.length!==4||!value.every(v=>typeof v==='number'&&Number.isFinite(v)))throw new Error('zone_invalid');
+ const [w,s,e,n]=value;if(w>=e||s>=n||w< -74||e> -59||s<0||n>16)throw new Error('zone_outside_supported_region');
+ const height=(n-s)*111320,width=(e-w)*111320*Math.cos((s+n)/2*Math.PI/180);
+ if(width>ZONE_LIMITS.sideM||height>ZONE_LIMITS.sideM||width<100||height<100)throw new Error('zone_size');return [w,s,e,n];
+}
+export function zoneAroundPoint(longitude:number,latitude:number,sideKm=5):ZoneBounds{if(!Number.isFinite(sideKm)||sideKm<.1||sideKm>10)throw new Error('zone_size');const dy=sideKm*1000/111320/2,dx=dy/Math.cos(latitude*Math.PI/180);return validateZoneBounds([longitude-dx,latitude-dy,longitude+dx,latitude+dy]);}
+export function validateSentinelUrl(value:unknown){if(typeof value!=='string')throw new Error('scene_asset');const u=new URL(value);if(u.origin!==SENTINEL_ASSET_ORIGIN||u.username||u.password||u.search||u.hash||!/^\/sentinel-2-c1-l2a\/(?:17|18|19|20|21)\/[A-Z]\/[A-Z]{2}\/\d{4}\/\d{1,2}\/S2[ABC]_[A-Z0-9_]+\/TCI\.tif$/.test(u.pathname))throw new Error('scene_asset');return u.href;}
+export function sceneFromFeature(value:unknown,zone:ZoneBounds):ZoneScene|null{try{if(!value||typeof value!=='object')return null;const f=value as Record<string,unknown>,p=f.properties as Record<string,unknown>,assets=f.assets as Record<string,Record<string,unknown>>;if(f.collection!=='sentinel-2-c1-l2a'||typeof f.id!=='string'||!/^S2[ABC]_[A-Z0-9_]+$/.test(f.id)||!p||!assets)return null;const bbox=f.bbox;if(!Array.isArray(bbox)||bbox.length!==4||!bbox.every(Number.isFinite))return null;const [w,s,e,n]=bbox;if(w>zone[0]||s>zone[1]||e<zone[2]||n<zone[3])return null;const epsg=Number(p['proj:epsg']??String(p['proj:code']??'').replace('EPSG:',''));if(!Number.isInteger(epsg)||epsg<32617||epsg>32621)return null;const acquiredAt=String(p.datetime??'');if(!Number.isFinite(Date.parse(acquiredAt)))return null;const asset=assets.visual??assets.tci;if(!asset)return null;const assetUrl=validateSentinelUrl(asset.href);const cloud=p['eo:cloud_cover'];return {id:f.id,assetUrl,sourceUrl:`${EARTH_SEARCH_ORIGIN}/v1/collections/sentinel-2-c1-l2a/items/${f.id}`,acquiredAt,cloudPercent:typeof cloud==='number'&&cloud>=0&&cloud<=100?cloud:null,bounds:[w,s,e,n],epsg};}catch{return null;}}
+export function zoneLabel(bounds:ZoneBounds){return `${bounds[1].toFixed(4)}, ${bounds[0].toFixed(4)} a ${bounds[3].toFixed(4)}, ${bounds[2].toFixed(4)}`;}

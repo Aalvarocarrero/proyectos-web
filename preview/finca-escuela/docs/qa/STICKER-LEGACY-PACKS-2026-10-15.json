@@ -1,0 +1,22 @@
+[
+  {
+    "src": "/sticker-packs/coleccion-compacta-b5fc3e45fe.zip",
+    "bytes": 2976139,
+    "sha256": "b5fc3e45fef7d8add5af72b234b63fd7e815f8d7b0e761de80a1fb595482fc4e"
+  },
+  {
+    "src": "/sticker-packs/coleccion-compacta-de4ceaf2a0.zip",
+    "bytes": 2812731,
+    "sha256": "d8e04dcc492c7302ee075c1525f0a5d6dc3ac309ad23d58d930a0cf852b0e18d"
+  },
+  {
+    "src": "/sticker-packs/coleccion-completa-12235e6a44.zip",
+    "bytes": 2052020,
+    "sha256": "12235e6a4412a630d7e1462fe7871783b17aba4bb1a98941aa346a9989e8634d"
+  },
+  {
+    "src": "/sticker-packs/coleccion-completa-d89799ef2a.zip",
+    "bytes": 1751970,
+    "sha256": "6e3d9979751911cad43c5774b355a6b1ebc29d559d7ce513dec458a1dd92bc92"
+  }
+]

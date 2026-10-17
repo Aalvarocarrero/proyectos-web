@@ -1,0 +1,10 @@
+import {DirectoryReturnLink} from "@/components/directory-return-link";
+import {LockKeyhole} from 'lucide-react';
+import {getChatGPTUser,chatGPTSignInPath} from '@/app/chatgpt-auth';
+import {SiteHeader} from '@/components/site-header';
+import {PublicFooter} from '@/components/public-footer';
+import {SecurityCenter} from '@/components/security-center';
+import {CompanyManager} from '@/components/company-manager';
+export const dynamic='force-dynamic';
+export const metadata={title:'Mi panel de empresa · Venezuela Agro',robots:{index:false,follow:false}};
+export default async function CompanyRegistration(){const user=await getChatGPTUser();return <main className="interior-page min-h-screen bg-[#f3ebdd]"><SiteHeader/>{user&&<SecurityCenter mode="gate" requirePublic/>}<section className="mx-auto max-w-6xl px-5 pb-20 pt-32 sm:px-8"><DirectoryReturnLink href="/empresas" className="inline-flex min-h-11 items-center text-sm font-semibold text-[#4c6b3a]">← Volver al directorio de empresas</DirectoryReturnLink><p className="section-kicker mt-8">UN ESPACIO PROPIO PARA TU NEGOCIO</p><h1 className="font-display mt-4 text-5xl leading-none sm:text-7xl">Tu empresa, conectada al campo.</h1><p className="mt-5 max-w-2xl text-lg leading-8 text-[#71685f]">Una ficha comercial completa, un catálogo claro y un panel para mantener todo al día.</p><div className="mt-10">{user?<CompanyManager userId={user.id}/>:<div className="rounded-[2rem] border bg-white px-6 py-12 text-center"><LockKeyhole className="mx-auto text-[#4c6b3a]" size={36}/><h2 className="font-display mt-5 text-3xl">Entra para registrar o editar tu empresa.</h2><p className="mx-auto mt-4 max-w-lg text-sm leading-7 text-[#71685f]">Tu cuenta protege tus datos y el acceso al panel. Si interrumpes el inicio de sesión, vuelve a este botón para continuar. El registro empieza después de entrar.</p><a href={chatGPTSignInPath('/empresas/registro')} target="_top" className="button-dark mt-7">Continuar con mi cuenta</a></div>}</div></section><PublicFooter/></main>;}

@@ -1,0 +1,7 @@
+"use client";
+import {useMemo} from 'react';
+import {PrivateFarmLocator} from '@/components/private-farm-locator';
+import {demoFarmSurvey} from '@/lib/demo-farm-geography';
+import type {FarmPayload} from '@/lib/farm-types';
+const reference={version:1 as const,source:'regven-utm19n-survey' as const};
+export function DemoGeographicMap({farm,mode="map",onModeChange}:{farm:FarmPayload;mode?:"map"|"satellite";onModeChange?:(mode:"map"|"satellite")=>void}){const plan=useMemo(()=>demoFarmSurvey(farm),[farm]);return <section><PrivateFarmLocator farmId="fictional-practice" demonstration imageryMode={mode} onModeChange={onModeChange} workspaceOwner="demonstration-public-imagery" reference={reference} surveyPlan={plan}/><details className="mt-3 rounded-xl border p-3"><summary className="min-h-11 cursor-pointer font-semibold">Ver coordenadas ficticias del ejemplo</summary><div className="mt-3 overflow-x-auto"><table className="w-full text-left text-sm"><thead><tr><th>Lote</th><th>Vértice</th><th>Este simulado</th><th>Norte simulado</th></tr></thead><tbody>{plan.vertices.map(p=><tr key={p.id}><td>DEMO</td><td>{p.id}</td><td>{p.easting.toFixed(2)}</td><td>{p.northing.toFixed(2)}</td></tr>)}</tbody></table></div><p className="mt-3 text-xs leading-6">Estos valores se calculan solo para esta vista. No se guardan en tu cuenta ni sustituyen los datos originales del croquis.</p></details></section>;}

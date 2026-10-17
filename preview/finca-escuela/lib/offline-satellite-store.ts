@@ -1,0 +1,24 @@
+/** Optional, owner-partitioned storage. It never opens farm records or the sync outbox. */
+export type SatellitePack={id:string;revision:string;title:string;path:string;bytes:number;sha256:string;width:number;height:number;bounds:[number,number,number,number];acquiredAt:string;sourceUrl:string;attribution:string;resolutionM:number;qualityNote:string};
+export type SavedSatellitePack={pack:SatellitePack;blob:Blob;downloadedAt:string};
+const MAX_BYTES=8*1024*1024;
+export function satelliteDatabaseName(owner:string){if(!owner||owner.length>220)throw new Error('workspace_required');return `venezuela-agro-satellite-v1:${encodeURIComponent(owner)}`;}
+function open(owner:string){return new Promise<IDBDatabase>((resolve,reject)=>{const r=indexedDB.open(satelliteDatabaseName(owner),1);r.onupgradeneeded=()=>r.result.createObjectStore('packs');r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
+function request<T>(r:IDBRequest<T>){return new Promise<T>((resolve,reject)=>{r.onsuccess=()=>resolve(r.result);r.onerror=()=>reject(r.error);});}
+function done(tx:IDBTransaction){return new Promise<void>((resolve,reject)=>{tx.oncomplete=()=>resolve();tx.onabort=()=>reject(tx.error??new Error('storage_aborted'));tx.onerror=()=>reject(tx.error??new Error('storage_failed'));});}
+export function packCoversBounds(pack:Pick<SatellitePack,"bounds">,bounds:[number,number,number,number]){const [w,s,e,n]=bounds;return bounds.every(Number.isFinite)&&w<=e&&s<=n&&w>=pack.bounds[0]&&s>=pack.bounds[1]&&e<=pack.bounds[2]&&n<=pack.bounds[3];}
+export async function beginSatelliteDownload(owner:string){const db=await open(owner);try{const tx=db.transaction('packs','readwrite'),finished=done(tx);const n=(await request(tx.objectStore('packs').get('generation')) as number|undefined??0)+1;tx.objectStore('packs').put(n,'generation');await finished;return n;}finally{db.close();}}
+export async function readSatellitePack(owner:string,expected:SatellitePack):Promise<SavedSatellitePack|null>{const db=await open(owner);try{const tx=db.transaction('packs','readonly'),finished=done(tx);const value=await request(tx.objectStore('packs').get(expected.id)) as SavedSatellitePack|undefined;await finished;if(!value||value.pack.revision!==expected.revision||value.pack.sha256!==expected.sha256||!(value.blob instanceof Blob)||value.blob.size!==expected.bytes)return null;return {...value,pack:expected};}finally{db.close();}}
+export async function clearSatellitePack(owner:string,id:string){const db=await open(owner);try{const tx=db.transaction('packs','readwrite'),finished=done(tx);const n=(await request(tx.objectStore('packs').get('generation')) as number|undefined??0)+1;tx.objectStore('packs').put(n,'generation');tx.objectStore('packs').delete(id);await finished;}finally{db.close();}}
+export async function commitSatellitePack(owner:string,pack:SatellitePack,blob:Blob,generation:number,signal?:AbortSignal){
+ if(blob.size!==pack.bytes||blob.size>MAX_BYTES||pack.width*pack.height>2048*2048)throw new Error('pack_size_mismatch');
+ const hash=Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',await blob.arrayBuffer())),b=>b.toString(16).padStart(2,'0')).join('');if(hash!==pack.sha256)throw new Error('pack_hash_mismatch');
+ const db=await open(owner),tx=db.transaction('packs','readwrite'),finished=done(tx);const cancel=()=>{try{tx.abort();}catch{}};signal?.addEventListener('abort',cancel,{once:true});
+ try{const current=await request(tx.objectStore('packs').get('generation'));if(signal?.aborted||current!==generation)throw new Error('download_cancelled');const saved={pack,blob,downloadedAt:new Date().toISOString()};tx.objectStore('packs').put(saved,pack.id);await finished;return saved;}catch(error){cancel();await finished.catch(()=>undefined);throw error;}finally{signal?.removeEventListener('abort',cancel);db.close();}
+}
+export async function fetchSatellitePack(pack:SatellitePack,signal:AbortSignal,onProgress:(bytes:number)=>void){
+ if(!/^\/satellite-packs\/[a-z0-9-]+\.(png|jpg)$/.test(pack.path)||pack.bytes<=0||pack.bytes>MAX_BYTES)throw new Error('pack_not_available');
+ const response=await fetch(pack.path,{cache:'no-store',signal,redirect:'error'});if(!response.ok||!response.body||!/^image\/(png|jpeg)(;|$)/i.test(response.headers.get('content-type')??''))throw new Error('download_unavailable');
+ const reader=response.body.getReader(),chunks:Uint8Array<ArrayBuffer>[]=[];let total=0;
+ try{while(true){if(signal.aborted)throw new Error('download_cancelled');const {done,value}=await reader.read();if(done)break;total+=value.byteLength;if(total>pack.bytes||total>MAX_BYTES)throw new Error('download_too_large');chunks.push(new Uint8Array(value));onProgress(total);}if(total!==pack.bytes)throw new Error('download_incomplete');return new Blob(chunks,{type:response.headers.get('content-type')!.split(';')[0]});}finally{await reader.cancel().catch(()=>undefined);}
+}
