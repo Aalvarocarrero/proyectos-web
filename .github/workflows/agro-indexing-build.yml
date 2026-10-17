@@ -12,7 +12,7 @@ concurrency:
   cancel-in-progress: false
 jobs:
   build:
-    if: github.repository == 'Aalvarocarrero/proyectos-web' && github.ref == 'refs/heads/build/agro-indexing-f6b3b5e-20261017' && github.run_attempt == 1 && github.event.head_commit.message == 'Build Agro indexing once 20261017 authorized attempt'
+    if: github.repository == 'Aalvarocarrero/proyectos-web' && github.ref == 'refs/heads/build/agro-indexing-f6b3b5e-20261017' && github.run_attempt == 1 && github.event.head_commit.message == 'Build Agro indexing second 20261017 authorized attempt'
     runs-on: ubuntu-24.04
     timeout-minutes: 20
     defaults:
@@ -39,11 +39,10 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: '22'
-          package-manager-cache: false
       - name: Verify source snapshot
         run: python3 ci/verify-source.py
       - name: Install locked dependencies
-        run: mkdir -p .ci-output; ulimit -f 131072; npm run install:ci > .ci-output/install.log 2>&1
+        run: mkdir -p .ci-output; ulimit -f 131072; npm run install:ci 2>&1 | tee .ci-output/install.log
       - name: Compile and verify without deployment
         run: bash ci/build-only.sh
       - name: Enforce output cost bound
@@ -58,4 +57,5 @@ jobs:
           path: build-inputs/agro-indexing/.ci-output/*
           retention-days: 1
           compression-level: 0
-          if-no-files-found: ignore
+          if-no-files-found: error
+          include-hidden-files: true

@@ -10,6 +10,10 @@ import {installActionSnapshot, installActionServerSnapshot, subscribeInstallActi
 /** Shared responsive entry points; existing dialogs and submission handlers own all work. */
 export function MobilePublicActions() {
   const pathname=usePathname();
+  return <MobilePublicActionsForRoute key={pathname} pathname={pathname}/>;
+}
+
+function MobilePublicActionsForRoute({pathname}:{pathname:string}) {
   const [open,setOpen]=useState(false);
   const trigger=useRef<HTMLButtonElement>(null);
   const dock=useRef<HTMLDivElement>(null);
@@ -18,7 +22,6 @@ export function MobilePublicActions() {
   const pendingIdea=useRef(false);
   const titleId=useId();
   const install=useSyncExternalStore(subscribeInstallAction,installActionSnapshot,installActionServerSnapshot);
-  useEffect(()=>{setOpen(false);},[pathname]);
   useEffect(()=>{
     let frame=0;
     const measure=()=>{
