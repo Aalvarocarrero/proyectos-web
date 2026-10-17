@@ -1,1 +1,0 @@
-import{c as e}from"./index-BW131GXA.js";function t({children:t}){let n=e();return n===`/admin`||n.startsWith(`/admin/`)||n===`/juego-finca`||n.startsWith(`/juego-finca/`)?null:t}export{t as PublicWorkspaceControls};

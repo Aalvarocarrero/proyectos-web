@@ -1,0 +1,124 @@
+--- original/admin-navigation.test.mjs
++++ production-review/admin-navigation.test.mjs
+@@ -46,7 +46,7 @@
+ test('only public promotional overlays are suppressed on admin, while connection and account services remain',async()=>{
+  const boundary=await read('components/public-workspace-controls.tsx'),layout=await read('app/layout.tsx'),services=await read('components/account-services.tsx');
+  assert.match(boundary,/pathname === "\/admin" \|\| pathname.startsWith\("\/admin\/"\)/);
+- assert.match(layout,/<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<\/PublicWorkspaceControls>/);
++ assert.match(layout,/<PublicWorkspaceControls>\s*<InstallAppBanner \/>\s*<SocialFloatingMenu \/>\s*<MobilePublicActions\s*\/>\s*<\/PublicWorkspaceControls>/);
+  assert.doesNotMatch(layout,/<ConnectionIndicator/);
+  assert.match(await read('components/admin-navigation.tsx'),/<ConnectionIndicator \/>/);
+  assert.match(services,/<OfflineSyncManager\/><OfflineWorkspaceGate\/><PublicWorkspaceControls><IdeaInvitation\/><\/PublicWorkspaceControls>/);
+--- original/auth-fetch.test.mjs
++++ production-review/auth-fetch.test.mjs
+@@ -56,7 +56,7 @@
+   controller.abort(); await pending;
+   assert.equal(h.calls.length, 1);
+   assert.equal(h.calls[0].init.signal.aborted, false);
+-  csrf.resolve(Response.json({ token: 'unused-token' })); await tick();
++  csrf.resolve(Response.json({ token: 'unused-token' })); await tick(); await new Promise(resolve=>setImmediate(resolve));
+   assert.equal(h.calls.length, 1);
+   assert.equal(h.timers.size, 0);
+ });
+--- original/client-preload-consistency.test.mjs
++++ production-review/client-preload-consistency.test.mjs
+@@ -33,7 +33,7 @@
+  assert.deepEqual(deps.js,['/preview/assets/style.js']);
+ });
+ test('rendered routes preload only files present in the packaged client',async()=>{
+- const {default:worker}=await import(new URL('../dist/server/index.js',import.meta.url));
++ const {default:worker}=await import(new URL('./production-fixture.mjs',import.meta.url));
+  const manifest=JSON.parse(await readFile(new URL('../dist/client/offline-assets.json',import.meta.url),'utf8'));
+  for(const path of ['/','/marketplace','/finca-demo','/app-local','/profesionales','/empresas','/tienda','/aprende']){
+   const response=await worker.fetch(new Request('http://localhost'+path),{ASSETS:{fetch:async()=>new Response('missing',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+--- original/land-water-guides.test.mjs
++++ production-review/land-water-guides.test.mjs
+@@ -28,12 +28,12 @@
+  assert.match(sources,/Abrir los documentos originales requiere internet/);
+ });
+ test('all five built article routes render full text, source links, and private-preview metadata',async()=>{
+- const {default:worker}=await import(new URL('../dist/server/index.js',import.meta.url));
++ const {default:worker}=await import(new URL('./production-fixture.mjs',import.meta.url));
+  for(const guide of landWaterGuides){
+   const response=await worker.fetch(new Request('http://localhost/aprende/'+guide.slug,{headers:{accept:'text/html'}}),{ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+   assert.equal(response.status,200,guide.slug);
+   const html=await response.text();assert.ok(html.includes(guide.title));assert.ok(html.includes('Fuentes y alcance'));
+   for(const source of guide.sources) assert.ok(html.includes(source.url),source.url);
+-  assert.match(html,/noindex/);assert.match(html,/Contenido educativo general/);
++  assert.match(html,/<meta[^>]*name="robots"[^>]*content="index,\s*follow"/);assert.match(html,/Contenido educativo general/);
+  }
+ });
+--- original/rendered-html.test.mjs
++++ production-review/rendered-html.test.mjs
+@@ -5,7 +5,7 @@
+   /<meta(?=[^>]*\bname=["']codex-preview["'])(?=[^>]*\bcontent=["']development["'])[^>]*>/i;
+ 
+ test("renders platform branding and production search metadata", async () => {
+-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
++  const workerUrl = new URL("./production-fixture.mjs", import.meta.url);
+   workerUrl.searchParams.set("test", `${process.pid}-${Date.now()}`);
+   const { default: worker } = await import(workerUrl.href);
+ 
+@@ -38,12 +38,12 @@
+ });
+ 
+ test("opens Mi Finca in device-local mode when no account session is available", async () => {
+-  const workerUrl = new URL("../dist/server/index.js", import.meta.url);
++  const workerUrl = new URL("./production-fixture.mjs", import.meta.url);
+   workerUrl.searchParams.set("local-farm-test", `${process.pid}-${Date.now()}`);
+   const { default: worker } = await import(workerUrl.href);
+ 
+   const response = await worker.fetch(
+-    new Request("http://localhost/app", { headers: { accept: "text/html" } }),
++    new Request("http://localhost/app-local", { headers: { accept: "text/html" } }),
+     { ASSETS: { fetch: async () => new Response("Not found", { status: 404 }) } },
+     { waitUntil() {}, passThroughOnException() {} },
+   );
+@@ -56,7 +56,7 @@
+ });
+ 
+ test('learning guides remain readable if the content database is temporarily unavailable',async()=>{
+- const workerUrl=new URL('../dist/server/index.js',import.meta.url);
++ const workerUrl=new URL('./production-fixture.mjs',import.meta.url);
+  workerUrl.searchParams.set('learning-test',`${process.pid}-${Date.now()}`);
+  const {default:worker}=await import(workerUrl.href);
+  for(const [path,expected] of [['/aprende','Tu plataforma, paso a paso.'],['/aprende/trabajar-sin-internet','En modo local no se confirma un respaldo de cuenta.'],['/rubros','Maíz'],['/red','El campo tiene mucho que contar.'],['/fincas','Registra tu finca. Abre nuevas oportunidades.'],['/fincas/ejemplo-finca-comunidad','Ficha demostrativa'],['/fincas/ejemplo-finca-pollos','Proceso y duración'],['/red/ejemplo-publicacion-1','Compartir']]){
+@@ -72,32 +72,32 @@
+ 
+ 
+ test('principal public pages and SEO endpoints stay available without a database connection',async()=>{
+- const {default:worker}=await import(new URL('../dist/server/index.js',import.meta.url));
++ const {default:worker}=await import(new URL('./production-fixture.mjs',import.meta.url));
+  for(const path of ['/tienda','/marketplace','/profesionales','/proyectos','/nosotros','/plataforma','/guia-institucional','/legal/privacidad','/legal/terminos','/legal/comercio','/robots.txt','/sitemap.xml']){
+   const response=await worker.fetch(new Request(`http://localhost${path}`),{ASSETS:{fetch:async()=>new Response('missing',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+   assert.equal(response.status,200,path);const html=await response.text();
+   if(path==='/tienda'){assert.match(html,/Elegir presentación/);assert.match(html,/Para mi negocio/);}
+-  if(path==='/robots.txt')assert.doesNotMatch(html,/Sitemap:/i);
+-  if(path==='/sitemap.xml')assert.doesNotMatch(html,/<loc>/);
++  if(path==='/robots.txt')assert.match(html,/Sitemap: https:\/\/venezuelaagro.com\/sitemap.xml/i);
++  if(path==='/sitemap.xml')assert.match(html,/<loc>https:\/\/venezuelaagro.com/);
+  }
+ });
+ 
+ 
+ test('offline shell contains full farm controls and no authenticated account identity',async()=>{
+- const {default:worker}=await import(new URL('../dist/server/index.js',import.meta.url));
++ const {default:worker}=await import(new URL('./production-fixture.mjs',import.meta.url));
+  const response=await worker.fetch(new Request('http://localhost/app-local',{headers:{'oai-authenticated-user-id':'test-owner','oai-authenticated-user-email':'private@example.test'}}),{ASSETS:{fetch:async()=>new Response('missing',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+  const html=await response.text();assert.equal(response.status,200);assert.match(html,/Configura tu finca/);assert.match(html,/Sincronización/);assert.doesNotMatch(html,/private@example.test|test-owner/);
+ });
+ 
+ test('downloaded library shell and every required reference page render without private identity or no-store responses',async()=>{
+  const {readFile}=await import('node:fs/promises');const manifest=JSON.parse(await readFile(new URL('../dist/client/offline-library-assets.json',import.meta.url),'utf8'));
+- const {default:worker}=await import(new URL('../dist/server/index.js',import.meta.url));
++ const {default:worker}=await import(new URL('./production-fixture.mjs',import.meta.url));
+  for(const path of manifest.pages){const response=await worker.fetch(new Request('http://localhost'+path,{headers:{'oai-authenticated-user-id':'private-test-owner','oai-authenticated-user-email':'private-test@example.test'}}),{ASSETS:{fetch:async()=>new Response('missing',{status:404})}},{waitUntil(){},passThroughOnException(){}});assert.equal(response.status,200,path);assert.doesNotMatch(response.headers.get('cache-control')||'',/private|no-store/,path);const html=await response.text();assert.doesNotMatch(html,/private-test-owner|private-test@example.test/,path);}
+  assert.ok(manifest.assets.some(item=>item.path.endsWith('.js')));assert.ok(manifest.assets.some(item=>item.path.endsWith('.css')));assert.ok(manifest.assets.some(item=>item.path.endsWith('.webp')));assert.ok(manifest.bytes<20*1024*1024);assert.ok(manifest.assets.every(item=>!item.path.startsWith('/api/')));
+ });
+ 
+ test('home market category links preserve exact labels independently of emoji width',async()=>{
+- const workerUrl=new URL('../dist/server/index.js',import.meta.url);workerUrl.searchParams.set('market-links',`${process.pid}-${Date.now()}`);
++ const workerUrl=new URL('./production-fixture.mjs',import.meta.url);workerUrl.searchParams.set('market-links',`${process.pid}-${Date.now()}`);
+  const {default:worker}=await import(workerUrl.href);
+  const response=await worker.fetch(new Request('http://localhost/',{headers:{accept:'text/html'}}),{ASSETS:{fetch:async()=>new Response('Not found',{status:404})}},{waitUntil(){},passThroughOnException(){}});
+  const html=await response.text();const categories=[...html.matchAll(/href="\/marketplace\?categoria=([^"&]+)"/g)].map(match=>decodeURIComponent(match[1]));

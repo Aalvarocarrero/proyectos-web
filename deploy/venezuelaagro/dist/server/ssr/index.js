@@ -33,7 +33,7 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 	enumerable: true
 }) : target, mod));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/http-error-responses.js
+//#region node_modules/vinext/dist/server/http-error-responses.js
 /**
 * Build a 404 Not Found plain-text response.
 *
@@ -48,7 +48,7 @@ function notFoundResponse(init) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/base-path.js
+//#region node_modules/vinext/dist/utils/base-path.js
 /**
 * Shared basePath helpers.
 *
@@ -72,7 +72,7 @@ function stripBasePath(pathname, basePath) {
 	return pathname.slice(basePath.length) || "/";
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/headers.js
+//#region node_modules/vinext/dist/server/headers.js
 /** URL-encoded JSON route params carried on RSC responses. */
 var VINEXT_PARAMS_HEADER = "X-Vinext-Params";
 /** Deduplicated, sorted list of mounted layout slots for cache keying. */
@@ -86,7 +86,7 @@ var NEXT_ROUTER_PREFETCH_HEADER = "Next-Router-Prefetch";
 var NEXT_ROUTER_SEGMENT_PREFETCH_HEADER = "Next-Router-Segment-Prefetch";
 var NEXT_URL_HEADER = "Next-Url";
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/request-pipeline.js
+//#region node_modules/vinext/dist/server/request-pipeline.js
 /**
 * Returns true if a request pathname looks like a protocol-relative open
 * redirect, in either literal or percent-encoded form.
@@ -121,7 +121,7 @@ function isOpenRedirectShaped(rawPathname) {
 	return false;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/artifact-compatibility.js
+//#region node_modules/vinext/dist/server/artifact-compatibility.js
 function createArtifactCompatibilityEnvelope(input = {}) {
 	return {
 		schemaVersion: 1,
@@ -160,7 +160,7 @@ function parseArtifactCompatibilityEnvelope(value) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/cjs/react.production.js
+//#region node_modules/react/cjs/react.production.js
 /**
 * @license React
 * react.production.js
@@ -520,12 +520,12 @@ var require_react_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/index.js
+//#region node_modules/react/index.js
 var require_react = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_production();
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-elements-wire.js
+//#region node_modules/vinext/dist/server/app-elements-wire.js
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var APP_INTERCEPTION_SEPARATOR = "\0";
 var APP_ARTIFACT_COMPATIBILITY_KEY = "__artifactCompatibility";
@@ -742,7 +742,7 @@ var AppElementsWire = {
 	withLayoutFlags
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/url-safety.js
+//#region node_modules/vinext/dist/shims/url-safety.js
 /**
 * Shared URL safety utilities for Link, Form, and navigation shims.
 *
@@ -784,7 +784,7 @@ function assertSafeNavigationUrl(url) {
 	if (isDangerousScheme(url)) throw new Error(DANGEROUS_URL_BLOCK_MESSAGE);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/url-utils.js
+//#region node_modules/vinext/dist/shims/url-utils.js
 /**
 * Shared URL utilities for same-origin detection.
 *
@@ -863,13 +863,13 @@ function isHashOnlyBrowserUrlChange(href, currentHref, basePath = "") {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/client/instrumentation-client-state.js
+//#region node_modules/vinext/dist/client/instrumentation-client-state.js
 var clientInstrumentationHooks = null;
 function notifyAppRouterTransitionStart(href, navigationType) {
 	clientInstrumentationHooks?.onRouterTransitionStart?.(href, navigationType);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-render-mode.js
+//#region node_modules/vinext/dist/server/app-rsc-render-mode.js
 var APP_RSC_RENDER_MODE_NAVIGATION = "navigation";
 var APP_RSC_RENDER_MODE_REFRESH_PRESERVE_UI = "refresh-preserve-ui";
 var APP_RSC_RENDER_MODE_ACTION_RERENDER_PRESERVE_UI = "action-rerender-preserve-ui";
@@ -881,7 +881,7 @@ function parseAppRscRenderMode(value) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-cache-busting.js
+//#region node_modules/vinext/dist/server/app-rsc-cache-busting.js
 /**
 * RSC cache-busting hashes cover the headers that make a `.rsc` payload vary.
 * Client-side variant headers must survive transit through CDNs and reverse
@@ -979,7 +979,7 @@ async function createRscRequestUrl(href, headers) {
 	return `${url.pathname}${url.search}`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/readonly-url-search-params.js
+//#region node_modules/vinext/dist/shims/readonly-url-search-params.js
 var ReadonlyURLSearchParamsError = class extends Error {
 	constructor() {
 		super("Method unavailable on `ReadonlyURLSearchParams`. Read more: https://nextjs.org/docs/app/api-reference/functions/use-search-params#updating-searchparams");
@@ -1004,7 +1004,7 @@ var ReadonlyURLSearchParams = class extends URLSearchParams {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/navigation.js
+//#region node_modules/vinext/dist/shims/navigation.js
 /**
 * next/navigation shim
 *
@@ -1604,7 +1604,7 @@ if (!isServer) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/internal/als-registry.js
+//#region node_modules/vinext/dist/shims/internal/als-registry.js
 /**
 * Shared helper for registering AsyncLocalStorage instances on `globalThis`
 * via `Symbol.for(...)` so that they survive multiple module instances.
@@ -1655,7 +1655,7 @@ function getOrCreateAls(key) {
 	return _g$2[sym] ??= new AsyncLocalStorage$1();
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/unified-request-context.js
+//#region node_modules/vinext/dist/shims/unified-request-context.js
 var _REQUEST_CONTEXT_ALS_KEY = Symbol.for("vinext.requestContext.als");
 var _g$1 = globalThis;
 var _als$1 = getOrCreateAls("vinext.unifiedRequestContext.als");
@@ -1729,7 +1729,7 @@ function isInsideUnifiedScope() {
 	return _als$1.getStore() != null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/navigation-state.js
+//#region node_modules/vinext/dist/shims/navigation-state.js
 /**
 * Server-only navigation state backed by AsyncLocalStorage.
 *
@@ -1780,7 +1780,7 @@ var _accessors = {
 _registerStateAccessors(_accessors);
 globalThis[GLOBAL_ACCESSORS_KEY] = _accessors;
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/script-nonce-context.js
+//#region node_modules/vinext/dist/shims/script-nonce-context.js
 var ScriptNonceContext = import_react.createContext(void 0);
 function ScriptNonceProvider(props) {
 	return import_react.createElement(ScriptNonceContext.Provider, { value: props.nonce }, props.children);
@@ -1790,7 +1790,7 @@ function withScriptNonce(element, nonce) {
 	return import_react.createElement(ScriptNonceProvider, { nonce }, element);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/html.js
+//#region node_modules/vinext/dist/server/html.js
 /**
 * HTML-safe JSON serialization for embedding data in <script> tags.
 *
@@ -1825,7 +1825,7 @@ function createInlineScriptTag(content, nonce) {
 	return `<script${createNonceAttribute(nonce)}>${content}<\/script>`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/cjs/react-jsx-runtime.production.js
+//#region node_modules/react/cjs/react-jsx-runtime.production.js
 /**
 * @license React
 * react-jsx-runtime.production.js
@@ -1859,12 +1859,12 @@ var require_react_jsx_runtime_production = /* @__PURE__ */ __commonJSMin(((expor
 	exports.jsxs = jsxProd;
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/jsx-runtime.js
+//#region node_modules/react/jsx-runtime.js
 var require_jsx_runtime = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_jsx_runtime_production();
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/slot.js
+//#region node_modules/vinext/dist/shims/slot.js
 var slot_exports = /* @__PURE__ */ __exportAll({
 	Children: () => Children,
 	ChildrenContext: () => ChildrenContext,
@@ -1904,10 +1904,10 @@ function ParallelSlot({ name }) {
 	return import_react.useContext(ParallelSlotsContext)?.[name] ?? null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-browser-hydration.js
+//#region node_modules/vinext/dist/server/app-browser-hydration.js
 var RSC_FORM_STATE_GLOBAL = "__VINEXT_RSC_FORM_STATE__";
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-client-reference-preloader.js
+//#region node_modules/vinext/dist/server/app-client-reference-preloader.js
 var resolvedPreload = Promise.resolve();
 function createClientReferencePreloader(options) {
 	let allReferencesPreloaded = false;
@@ -1950,7 +1950,7 @@ function createClientReferencePreloader(options) {
 	} };
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-stream.js
+//#region node_modules/vinext/dist/server/app-page-stream.js
 /**
 * Wraps a stream so that `onFlush` is called when the last byte has been read
 * by the downstream consumer (i.e. when the HTTP layer finishes draining the
@@ -1987,7 +1987,7 @@ function deferUntilStreamConsumed(stream, onFlush) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-ssr-stream.js
+//#region node_modules/vinext/dist/server/app-ssr-stream.js
 /**
 * Fix invalid preload "as" values in RSC Flight hint lines before they reach
 * the client. React Flight emits HL hints with as="stylesheet" for CSS, but
@@ -2125,7 +2125,7 @@ function createTickBufferedTransform(rscEmbed, injectHTML = "") {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/cjs/react-dom.production.js
+//#region node_modules/react-dom/cjs/react-dom.production.js
 /**
 * @license React
 * react-dom.production.js
@@ -2266,7 +2266,7 @@ var require_react_dom_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/index.js
+//#region node_modules/react-dom/index.js
 var require_react_dom = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	function checkDCE() {
 		if (typeof __REACT_DEVTOOLS_GLOBAL_HOOK__ === "undefined" || typeof __REACT_DEVTOOLS_GLOBAL_HOOK__.checkDCE !== "function") return;
@@ -2280,7 +2280,7 @@ var require_react_dom = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_dom_production();
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/cjs/react-dom-server.edge.production.js
+//#region node_modules/react-dom/cjs/react-dom-server.edge.production.js
 var require_react_dom_server_edge_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	globalThis.AsyncLocalStorage = __viteRscAsyncHooks.AsyncLocalStorage;
 	/**
@@ -6402,7 +6402,7 @@ var require_react_dom_server_edge_production = /* @__PURE__ */ __commonJSMin(((e
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js
+//#region node_modules/react-dom/cjs/react-dom-server-legacy.browser.production.js
 /**
 * @license React
 * react-dom-server-legacy.browser.production.js
@@ -10245,7 +10245,7 @@ var require_react_dom_server_legacy_browser_production = /* @__PURE__ */ __commo
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/dist-rz-Bnebz.js
+//#region node_modules/@vitejs/plugin-rsc/dist/dist-rz-Bnebz.js
 var import_server_edge = (/* @__PURE__ */ __commonJSMin(((exports) => {
 	var b;
 	var l;
@@ -10273,7 +10273,7 @@ function memoize(f, options) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/shared-BViDMJTQ.js
+//#region node_modules/@vitejs/plugin-rsc/dist/shared-BViDMJTQ.js
 function removeReferenceCacheTag(id) {
 	return id.split("$$cache=")[0];
 }
@@ -10287,7 +10287,7 @@ function setInternalRequire() {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/core/ssr.js
+//#region node_modules/@vitejs/plugin-rsc/dist/core/ssr.js
 var init = false;
 function setRequireModule(options) {
 	if (init) return;
@@ -10302,7 +10302,7 @@ function createServerConsumerManifest() {
 	return {};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-client.edge.production.js
+//#region node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-client.edge.production.js
 /**
 * @license React
 * react-server-dom-webpack-client.edge.production.js
@@ -11615,7 +11615,7 @@ var require_react_server_dom_webpack_client_edge_production = /* @__PURE__ */ __
 	};
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/react/ssr.js
+//#region node_modules/@vitejs/plugin-rsc/dist/react/ssr.js
 var import_client_edge = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_server_dom_webpack_client_edge_production();
 })))(), 1);
@@ -11629,7 +11629,7 @@ function createFromReadableStream(stream, options = {}) {
 //#region \0virtual:vite-rsc/client-references
 var client_references_default = {
 	"09fc9adaf05c": async () => {
-		const m = await import("./assets/professional-manager-DPaOYKO-.js");
+		const m = await import("./assets/professional-manager-Bsak0Fd8.js");
 		return { get "ProfessionalManager"() {
 			return m["ProfessionalManager"];
 		} };
@@ -11640,14 +11640,20 @@ var client_references_default = {
 			return m["GoogleSignIn"];
 		} };
 	},
+	"15c18cfaeeff": async () => {
+		const m = await import("./assets/layout-segment-context-9Ti8peeK.js");
+		return { get "LayoutSegmentProvider"() {
+			return m["LayoutSegmentProvider"];
+		} };
+	},
 	"199f4d77cada": async () => {
-		const m = await import("./assets/home-farm-preview-B7yXFn1n.js");
+		const m = await import("./assets/home-farm-preview-DMrvaJMG.js");
 		return { get "HomeFarmPreview"() {
 			return m["HomeFarmPreview"];
 		} };
 	},
 	"2539b36d5ba8": async () => {
-		const m = await import("./assets/sticker-gallery-E5n4tOp4.js");
+		const m = await import("./assets/sticker-gallery-9VFrzrhZ.js");
 		return { get "StickerGallery"() {
 			return m["StickerGallery"];
 		} };
@@ -11659,213 +11665,85 @@ var client_references_default = {
 		} };
 	},
 	"279d0f991188": async () => {
-		const m = await import("./assets/install-app-banner-CrwgN44c.js");
+		const m = await import("./assets/install-app-banner-eaeSdfM_.js");
 		return { get "InstallAppBanner"() {
 			return m["InstallAppBanner"];
 		} };
 	},
 	"2ccefe7d0c30": async () => {
-		const m = await import("./assets/price-conversion-RjpQe0IX.js").then((n) => n.n);
+		const m = await import("./assets/price-conversion-B7Racnth.js").then((n) => n.n);
 		return { get "PriceConversion"() {
 			return m["PriceConversion"];
 		} };
 	},
 	"2f85510e405b": async () => {
-		const m = await import("./assets/community-forms-DQzipyaL.js").then((n) => n.r);
+		const m = await import("./assets/community-forms-BPlzoo5F.js").then((n) => n.r);
 		return { get "ProjectForm"() {
 			return m["ProjectForm"];
 		} };
 	},
+	"339f946bc456": async () => {
+		const m = await import("./assets/Icon-BvuDsbrP.js").then((n) => n.n);
+		return { get "default"() {
+			return m["default"];
+		} };
+	},
 	"3af98a1f25b8": async () => {
-		const m = await import("./assets/mobile-public-actions-CsJWa6jD.js");
+		const m = await import("./assets/mobile-public-actions-BpvJdUvx.js");
 		return { get "MobilePublicActions"() {
 			return m["MobilePublicActions"];
 		} };
 	},
 	"3ba088f042c1": async () => {
-		const m = await import("./assets/farm-demo-workspace-CvxzDyim.js");
+		const m = await import("./assets/farm-demo-workspace-cDxHvOCo.js");
 		return { get "FarmDemoWorkspace"() {
 			return m["FarmDemoWorkspace"];
 		} };
 	},
 	"3c139a3f260e": async () => {
-		const m = await import("./assets/marketplace-browser-BBwBc5Vm.js");
+		const m = await import("./assets/marketplace-browser-1LmPyrDv.js");
 		return { get "MarketplaceBrowser"() {
 			return m["MarketplaceBrowser"];
 		} };
 	},
 	"3ca9f01c3cef": async () => {
-		const m = await import("./assets/professional-directory-_xp7Jo0S.js");
+		const m = await import("./assets/professional-directory-qdJgXe7g.js");
 		return { get "ProfessionalDirectory"() {
 			return m["ProfessionalDirectory"];
 		} };
 	},
 	"3f1ea4e38412": async () => {
-		const m = await import("./assets/connectivity-pill-CiKsYyOS.js");
+		const m = await import("./assets/connectivity-pill-BzGt3z1j.js");
 		return { get "ConnectivityPill"() {
 			return m["ConnectivityPill"];
 		} };
 	},
 	"41d92230403e": async () => {
-		const m = await import("./assets/quote-conversion-Bk1UoxEX.js").then((n) => n.n);
+		const m = await import("./assets/quote-conversion-CU6_PsGb.js").then((n) => n.n);
 		return { get "QuoteConversion"() {
 			return m["QuoteConversion"];
 		} };
 	},
 	"4474f0bac7db": async () => {
-		const m = await import("./assets/company-manager-CwXNOpRW.js");
+		const m = await import("./assets/company-manager-ZY1rZcQz.js");
 		return { get "CompanyManager"() {
 			return m["CompanyManager"];
 		} };
 	},
 	"4dab3d7211a4": async () => {
-		const m = await import("./assets/learning-catalog-DS0d1zFy.js");
+		const m = await import("./assets/learning-catalog-CptmNqH2.js");
 		return { get "LearningCatalog"() {
 			return m["LearningCatalog"];
 		} };
 	},
 	"538e5a29f7e3": async () => {
-		const m = await import("./assets/store-catalog-6FFK-fJf.js");
+		const m = await import("./assets/store-catalog-jG_M0IDF.js");
 		return { get "StoreCatalog"() {
 			return m["StoreCatalog"];
 		} };
 	},
-	"59563bc54910": async () => {
-		const m = await import("./assets/Icon-DsC9kmMg.js").then((n) => n.n);
-		return { get "default"() {
-			return m["default"];
-		} };
-	},
-	"5e7c24cab2a8": async () => {
-		const m = await import("./assets/farm-dashboard-Cz3tUlFc.js");
-		return { get "FarmDashboard"() {
-			return m["FarmDashboard"];
-		} };
-	},
-	"5efab927655b": async () => {
-		const m = await import("./assets/listing-form-jy8c_mFj.js").then((n) => n.n);
-		return { get "ListingForm"() {
-			return m["ListingForm"];
-		} };
-	},
-	"6b65d8a8f8a7": async () => {
-		const m = await import("./assets/contextual-whatsapp-contact-CuE8E_7S.js").then((n) => n.n);
-		return { get "ContextualWhatsAppContact"() {
-			return m["ContextualWhatsAppContact"];
-		} };
-	},
-	"7da621e2ac18": async () => {
-		const m = await import("./assets/image-share-OFqHbnpR.js").then((n) => n.r);
-		return { get "ImageShareButton"() {
-			return m["ImageShareButton"];
-		} };
-	},
-	"7ecdd2b4218c": async () => {
-		const m = await Promise.resolve().then(() => slot_exports);
-		return {
-			get "Children"() {
-				return m["Children"];
-			},
-			get "ParallelSlot"() {
-				return m["ParallelSlot"];
-			},
-			get "Slot"() {
-				return m["Slot"];
-			}
-		};
-	},
-	"8039ebe65124": async () => {
-		const m = await import("./assets/layout-segment-context-hvtXd_Ya.js");
-		return { get "LayoutSegmentProvider"() {
-			return m["LayoutSegmentProvider"];
-		} };
-	},
-	"843e0ed398b5": async () => {
-		const m = await import("./assets/home-content-editor-Bz6WUMOO.js");
-		return { get "HomeContentEditor"() {
-			return m["HomeContentEditor"];
-		} };
-	},
-	"89729c0813f7": async () => {
-		const m = await import("./assets/project-example-DpJp98Qm.js");
-		return { get "ProjectExample"() {
-			return m["ProjectExample"];
-		} };
-	},
-	"8dfb0fa01780": async () => {
-		const m = await import("./assets/session-menu-CN6OlFhc.js");
-		return { get "SessionMenu"() {
-			return m["SessionMenu"];
-		} };
-	},
-	"91ead71c14ab": async () => {
-		const m = await import("./assets/site-header-OvNO9HSg.js");
-		return { get "SiteHeader"() {
-			return m["SiteHeader"];
-		} };
-	},
-	"9fb86276be8f": async () => {
-		const m = await import("./assets/image-qVpohnYm.js").then((n) => n.n);
-		return { get "default"() {
-			return m["default"];
-		} };
-	},
-	"a0eaa9441d6c": async () => {
-		const m = await import("./assets/marketplace-detail-B0hA2QGM.js");
-		return { get "MarketplaceDetail"() {
-			return m["MarketplaceDetail"];
-		} };
-	},
-	"a182403a0cbe": async () => {
-		const m = await import("./assets/connection-indicator-DpEs-ntT.js");
-		return { get "ConnectionIndicator"() {
-			return m["ConnectionIndicator"];
-		} };
-	},
-	"a63b07b9e880": async () => {
-		const m = await import("./assets/offline-worker-registration-BSgQQTz5.js");
-		return { get "OfflineWorkerRegistration"() {
-			return m["OfflineWorkerRegistration"];
-		} };
-	},
-	"b4dcde380ce3": async () => {
-		const m = await import("./assets/professional-tariffs-CK20DPxg.js").then((n) => n.i);
-		return { get "ProfessionalTariffs"() {
-			return m["ProfessionalTariffs"];
-		} };
-	},
-	"b67c45c8de33": async () => {
-		const m = await import("./assets/social-links-BPHQj6B6.js");
-		return { get "SocialFloatingMenu"() {
-			return m["SocialFloatingMenu"];
-		} };
-	},
-	"bc2d6ca4e09c": async () => {
-		const m = await import("./assets/directory-return-link-CMY2wqSM.js");
-		return { get "DirectoryReturnLink"() {
-			return m["DirectoryReturnLink"];
-		} };
-	},
-	"bc47afd51a73": async () => {
-		const m = await import("./assets/design-form-example-C_2Wgnlj.js");
-		return { get "DesignFormExample"() {
-			return m["DesignFormExample"];
-		} };
-	},
-	"c1353d7b3209": async () => {
-		const m = await import("./assets/farm-showcase-nSYmrAKf.js");
-		return { get "FarmShowcase"() {
-			return m["FarmShowcase"];
-		} };
-	},
-	"c2747888630f": async () => {
-		const m = await import("./assets/link-CTsUsqTe.js").then((n) => n.n);
-		return { get "default"() {
-			return m["default"];
-		} };
-	},
-	"c46eacf74403": async () => {
-		const m = await import("./assets/error-boundary-08QyFU2L.js");
+	"593f344dc510": async () => {
+		const m = await import("./assets/error-boundary-BtKpKR9j.js");
 		return {
 			get "ErrorBoundary"() {
 				return m["ErrorBoundary"];
@@ -11884,32 +11762,154 @@ var client_references_default = {
 			}
 		};
 	},
+	"5e7c24cab2a8": async () => {
+		const m = await import("./assets/farm-dashboard-Cqmco87F.js");
+		return { get "FarmDashboard"() {
+			return m["FarmDashboard"];
+		} };
+	},
+	"5efab927655b": async () => {
+		const m = await import("./assets/listing-form-QYPx0P4V.js").then((n) => n.n);
+		return { get "ListingForm"() {
+			return m["ListingForm"];
+		} };
+	},
+	"6b65d8a8f8a7": async () => {
+		const m = await import("./assets/contextual-whatsapp-contact-CQpLkS3Q.js").then((n) => n.n);
+		return { get "ContextualWhatsAppContact"() {
+			return m["ContextualWhatsAppContact"];
+		} };
+	},
+	"7da621e2ac18": async () => {
+		const m = await import("./assets/image-share-CADXed1d.js").then((n) => n.r);
+		return { get "ImageShareButton"() {
+			return m["ImageShareButton"];
+		} };
+	},
+	"843e0ed398b5": async () => {
+		const m = await import("./assets/home-content-editor-CaRAwgSc.js");
+		return { get "HomeContentEditor"() {
+			return m["HomeContentEditor"];
+		} };
+	},
+	"89729c0813f7": async () => {
+		const m = await import("./assets/project-example-BiPZyMlD.js");
+		return { get "ProjectExample"() {
+			return m["ProjectExample"];
+		} };
+	},
+	"8c0f216c4604": async () => {
+		const m = await Promise.resolve().then(() => slot_exports);
+		return {
+			get "Children"() {
+				return m["Children"];
+			},
+			get "ParallelSlot"() {
+				return m["ParallelSlot"];
+			},
+			get "Slot"() {
+				return m["Slot"];
+			}
+		};
+	},
+	"8dfb0fa01780": async () => {
+		const m = await import("./assets/session-menu-BA1Lanuz.js");
+		return { get "SessionMenu"() {
+			return m["SessionMenu"];
+		} };
+	},
+	"91ead71c14ab": async () => {
+		const m = await import("./assets/site-header-BtK3LmAu.js");
+		return { get "SiteHeader"() {
+			return m["SiteHeader"];
+		} };
+	},
+	"9fb86276be8f": async () => {
+		const m = await import("./assets/image-t1ScfuA_.js").then((n) => n.n);
+		return { get "default"() {
+			return m["default"];
+		} };
+	},
+	"a0eaa9441d6c": async () => {
+		const m = await import("./assets/marketplace-detail-tQS5kfIf.js");
+		return { get "MarketplaceDetail"() {
+			return m["MarketplaceDetail"];
+		} };
+	},
+	"a182403a0cbe": async () => {
+		const m = await import("./assets/connection-indicator-CTUOm752.js");
+		return { get "ConnectionIndicator"() {
+			return m["ConnectionIndicator"];
+		} };
+	},
+	"a63b07b9e880": async () => {
+		const m = await import("./assets/offline-worker-registration-BSgQQTz5.js");
+		return { get "OfflineWorkerRegistration"() {
+			return m["OfflineWorkerRegistration"];
+		} };
+	},
+	"b4dcde380ce3": async () => {
+		const m = await import("./assets/professional-tariffs-Dfa9yaHh.js").then((n) => n.i);
+		return { get "ProfessionalTariffs"() {
+			return m["ProfessionalTariffs"];
+		} };
+	},
+	"b67c45c8de33": async () => {
+		const m = await import("./assets/social-links-BGdmWwIT.js");
+		return { get "SocialFloatingMenu"() {
+			return m["SocialFloatingMenu"];
+		} };
+	},
+	"bc2d6ca4e09c": async () => {
+		const m = await import("./assets/directory-return-link-CFtN_r0B.js");
+		return { get "DirectoryReturnLink"() {
+			return m["DirectoryReturnLink"];
+		} };
+	},
+	"bc47afd51a73": async () => {
+		const m = await import("./assets/design-form-example-G7DgpmKe.js");
+		return { get "DesignFormExample"() {
+			return m["DesignFormExample"];
+		} };
+	},
+	"c1353d7b3209": async () => {
+		const m = await import("./assets/farm-showcase-CYaX1vbF.js");
+		return { get "FarmShowcase"() {
+			return m["FarmShowcase"];
+		} };
+	},
+	"c2747888630f": async () => {
+		const m = await import("./assets/link-BIjyqzpN.js").then((n) => n.n);
+		return { get "default"() {
+			return m["default"];
+		} };
+	},
 	"dad22f25fb46": async () => {
-		const m = await import("./assets/learning-form-preview-D8zusb2v.js");
+		const m = await import("./assets/learning-form-preview-Cu2Qo1aL.js");
 		return { get "LearningFormPreview"() {
 			return m["LearningFormPreview"];
 		} };
 	},
 	"db2f0ab6401a": async () => {
-		const m = await import("./assets/admin-dashboard-Cdh8DWr_.js");
+		const m = await import("./assets/admin-dashboard-1wa5cwUE.js");
 		return { get "AdminDashboard"() {
 			return m["AdminDashboard"];
 		} };
 	},
 	"dcaf4a0c48d6": async () => {
-		const m = await import("./assets/company-directory-Djrjh1lL.js");
+		const m = await import("./assets/company-directory-PnyKEr1N.js");
 		return { get "CompanyDirectory"() {
 			return m["CompanyDirectory"];
 		} };
 	},
 	"e884762df39d": async () => {
-		const m = await import("./assets/account-services-121VucMA.js");
+		const m = await import("./assets/account-services-b0co66ic.js");
 		return { get "AccountServices"() {
 			return m["AccountServices"];
 		} };
 	},
 	"e89d6a3ac301": async () => {
-		const m = await import("./assets/offline-library-Dxe7VQtd.js");
+		const m = await import("./assets/offline-library-nwXk9xTR.js");
 		return { get "OfflineLibrary"() {
 			return m["OfflineLibrary"];
 		} };
@@ -11921,13 +11921,13 @@ var client_references_default = {
 		} };
 	},
 	"ef0baee48737": async () => {
-		const m = await import("./assets/security-center-CM8-IZsL.js").then((n) => n.n);
+		const m = await import("./assets/security-center-BivcfP1j.js").then((n) => n.n);
 		return { get "SecurityCenter"() {
 			return m["SecurityCenter"];
 		} };
 	},
 	"f101c4e63a93": async () => {
-		const m = await import("./assets/sonner-DB8KwmXB.js");
+		const m = await import("./assets/sonner-C4X4fBt3.js");
 		return { get "Toaster"() {
 			return m["Toaster"];
 		} };
@@ -11939,14 +11939,14 @@ var client_references_default = {
 		} };
 	},
 	"fb6c50751a9b": async () => {
-		const m = await import("./assets/agro-network-Cj1LW5xk.js").then((n) => n.n);
+		const m = await import("./assets/agro-network-CFZPzqEc.js").then((n) => n.n);
 		return { get "AgroNetwork"() {
 			return m["AgroNetwork"];
 		} };
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/ssr.js
+//#region node_modules/@vitejs/plugin-rsc/dist/ssr.js
 var import_react_dom = /* @__PURE__ */ __toESM(require_react_dom(), 1);
 var onClientReference;
 initialize();
@@ -11991,7 +11991,7 @@ function preloadDeps(deps) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-ssr-entry.js
+//#region node_modules/vinext/dist/server/app-ssr-entry.js
 var clientReferencePreloader = createClientReferencePreloader({
 	getReferences() {
 		return client_references_default;

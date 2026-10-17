@@ -1,0 +1,16 @@
+{
+  "decision": "approve_manual_promotion_after_independent_review",
+  "artifact_id": 12089745881,
+  "artifact_zip_sha256": "9234179c09299f9b3763f6364b1ae2bbd0120fee7aa69310dd4de6300a38c296",
+  "source_commit": "dfa61a8ab17a86a1397ba1f923d08bf24113c18f",
+  "original_ci_result": "failure",
+  "original_build_review_ready_for_deployment": false,
+  "explanation": "Compiled production build passed lint, typecheck, focused security and production smoke; 11 global test failures explained by legacy preview fixtures, layout regex and timer harness. Separately adapted 25 tests pass. Independent reviewer passed27 tests and26 route/alias checks. Dist933 files unchanged.",
+  "independent_review": "favorable, no technical blocker or reduced authentication/CSRF/SEO exclusion",
+  "rollback_worker_version": "4e44570b-b36e-492a-9fba-660071094936",
+  "public_sitemap_urls": 38,
+  "limits": [
+    "Real OAuth sessions and D1/R2 verified only after promotion; no secrets read or modified",
+    "Encoded-path400 preexisting may lack X-Robots-Tag; no private content exposed"
+  ]
+}

@@ -1,0 +1,19 @@
+2:16:52 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ authorized admin header renders explicit home and logout controls before any client fetch (21.010329ms)
+✔ each shortcut targets an offset section and headings wrap at narrow widths (2.542462ms)
+✔ admin signout reuses offline safety and a cancellable focus-managed dialog (0.84674ms)
+✔ only public promotional overlays are suppressed on admin, while connection and account services remain (1.187815ms)
+✔ a stalled shared preflight times out for all callers and the next attempt can recover (4.406569ms)
+✔ the preflight deadline also bounds a stalled response body (0.633578ms)
+✔ canceling a single waiter promptly rejects without canceling its shared preflight (3.11716ms)
+✔ a concurrent surviving waiter uses the same CSRF response after another caller cancels (1.201836ms)
+✔ Request signal cancellation is honored and an already aborted caller starts no preflight (1.214385ms)
+✔ Sites, safe methods and external requests remain direct fetches (0.783033ms)
+ℹ tests 10
+ℹ suites 0
+ℹ pass 10
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1190.882081

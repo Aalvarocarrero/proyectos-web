@@ -1,4 +1,4 @@
-globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/leaflet-src-BDulQfl8.js","assets/dist-BTGf5tSh.js","assets/esm-CVQV7vd2.js","assets/layout-segment-context-Bpc_TNIw.js","assets/router-CIJ1Gxx_.js","assets/Icon-BJEC1M7G.js","assets/agro-catalog-B7qn02kT.js","assets/agro-category-icon-2GkMvB4D.js","assets/agro-network-Bxkdl2cE.js","assets/arrow-right-B_rdtoO7.js","assets/arrow-up-right-KNzriIhG.js","assets/auth-fetch-B0Sz0Oie.js","assets/auth-paths-B-VxzyUX.js","assets/backup-import-D87Cppx0.js","assets/book-open-BlaCJr95.js","assets/brand-icons-CsW0tl2I.js","assets/building-2-CAaiUICq.js","assets/button-mbafAg5c.js","assets/check-BI6S8aTq.js","assets/chevron-down-CZShy5QM.js","assets/chevron-right-DjKClnEv.js","assets/circle-check-DuYusqjf.js","assets/clock-3-DKqnrPlt.js","assets/cloud-1iRIrr-q.js","assets/cloud-off-797ZMMNo.js","assets/community-forms-B9sU7cGx.js","assets/company-DLgxbf5i.js","assets/company-profile-view-CNCqKLj4.js","assets/compass-v5-GFXi4.js","assets/contextual-whatsapp-contact-Dz6sCQj6.js","assets/createLucideIcon-DsGqHFL7.js","assets/dialog-BTTQkP5A.js","assets/directory-filters-D19122j-.js","assets/directory-search-B-ZCGBiN.js","assets/dist-A6jz3xf3.js","assets/dist-BlCvuUeW.js","assets/dist-D02U1ZSF.js","assets/dist-Vu7OQT5_.js","assets/dist-o65Rxcqt.js","assets/download-CR7p2Qa1.js","assets/es2015-8qoacUFW.js","assets/exchange-rates-ClMnO-Lm.js","assets/farm-asset-pack-CfP7TV65.js","assets/farm-demo-fixture-CYCqO1KH.js","assets/farm-demo-navigation-BHTIm80Q.js","assets/farm-illustrated-scene-C4JNL70r.js","assets/farm-plan-catalog-BGV3o0_C.js","assets/farm-showcase-B3Z833so.js","assets/form-feedback-BpwgOJzN.js","assets/formal-submission-notice-fYx6jLZX.js","assets/heart-DXOtA8dM.js","assets/illustrated-plan-adapter-DWiWY_gK.js","assets/image-CwgptN7L.js","assets/image-share-DQosnZTm.js","assets/info-BPpCl3Qb.js","assets/input-a45IPNCW.js","assets/install-action-sThTH7PN.js","assets/install-guidance-DGooOryk.js","assets/inventory-example-photos-Cf2xNpxi.js","assets/leaflet-DkBrfjv-.js","assets/lightbulb-G5uhCyn3.js","assets/link-DR1l1MT6.js","assets/listing-form-Ckr8hTkZ.js","assets/loader-circle-Do5rLFtH.js","assets/mail--r88BnEM.js","assets/map-pin-B3wicebP.js","assets/marketplace-categories-4v0Z72Fj.js","assets/marketplace-details-0FGnqveL.js","assets/marketplace-location-BqyS89gp.js","assets/marketplace-photo-UwABMphA.js","assets/message-circle-BYRevbtn.js","assets/official-links-Xt_E_7J4.js","assets/offline-account-boundary-DtwxSPaI.js","assets/offline-db-BgcUL19Z.js","assets/offline-download-size-D6kugFZY.js","assets/offline-preparation-EjII1FqQ.js","assets/orb-morph-BgrAM9xk.js","assets/phone-BojWTBlC.js","assets/plus-CC8MZoTY.js","assets/price-conversion-CxqFUFoC.js","assets/product-photos-CZIYhqSE.js","assets/professional-profile-DXc5Yrxu.js","assets/professional-profile-view-DuF9oQQz.js","assets/professional-tariffs-DtULU_eR.js","assets/profile-socials-CyKg7F6D.js","assets/public-form-errors-D78jWe1M.js","assets/public-image-content-CD6zV0II.js","assets/quote-conversion-D5wp7tDL.js","assets/refresh-cw-v23_x7f5.js","assets/rotate-ccw-DO2xn1nW.js","assets/search-C3Xmvdne.js","assets/security-center-CtaCESKJ.js","assets/share-2-B61k_0Gw.js","assets/sheet-BbviR2vk.js","assets/site-image-vNvjnZcC.js","assets/smartphone-DQ1_5Wm0.js","assets/sprout-LC288rtC.js","assets/textarea-CxAgNTaY.js","assets/tractor-CSLKxE7X.js","assets/types-BfTeLzKl.js","assets/use-directory-filters-BULADiGM.js","assets/use-offline-snapshot-CH85MaMW.js","assets/user-round-BnSsUPif.js","assets/utils-BHJHmrpA.js","assets/venezuela-BOnEjsqy.js","assets/venezuelaagro-logo-5AQUWEv0.js","assets/whatsapp-contact-MWnHfkf2.js","assets/wifi-off-AQ1QsWIl.js","assets/x-BMd_cQNi.js","assets/zoom-out-Bf_KkglM.js","assets/account-services-DwdOXlJk.js","assets/admin-dashboard-CGfLrq8M.js","assets/company-directory-B4pWB0iY.js","assets/company-manager-MogQUsQG.js","assets/connection-indicator-U-wDDOp5.js","assets/connectivity-pill-CR_ibPbr.js","assets/design-form-example-DE-iHIYZ.js","assets/device-install-action-Cm-g2bn0.js","assets/directory-return-link-DQaKIpXX.js","assets/farm-aerial-proposal-C2e2OPQG.js","assets/farm-dashboard-hLkz4gVj.js","assets/farm-demo-workspace-BactWPif.js","assets/farm-masterplan-scene-CGf8H7Jd.js","assets/farm-masterplan-webgl-DlW4ahXO.js","assets/farm-showcase-Dpuq22pI.js","assets/google-signin-t5pa7B-y.js","assets/home-content-editor-dlyiCnIW.js","assets/home-farm-preview-DQyO2T4e.js","assets/home-farm-scene-OmlBhpgt.js","assets/install-app-banner-Cz95UaH7.js","assets/learning-catalog-Dk-HZkbM.js","assets/learning-form-preview-BDEHJMOC.js","assets/marketplace-browser-BVO10BXT.js","assets/marketplace-detail-CxX3DC7E.js","assets/mobile-public-actions-Bsg5wziO.js","assets/offline-library--g4eHgL6.js","assets/offline-navigation-mAg61OQm.js","assets/offline-worker-registration-CP3n9xIz.js","assets/professional-directory-RNDJtXt5.js","assets/professional-manager-BwT26ijR.js","assets/project-example-1mCrSgQb.js","assets/public-workspace-controls-CXXAi16Q.js","assets/session-menu-D1e_vA-G.js","assets/site-header-DsO7DxoD.js","assets/social-links-BElgtp5O.js","assets/sticker-gallery-CMQ-aewM.js","assets/store-catalog-kfLcNjmu.js","assets/sonner-C0-d5pkl.js"];
+globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/Icon-BJEC1M7G.js","assets/agro-catalog-B7qn02kT.js","assets/agro-category-icon-2GkMvB4D.js","assets/agro-network-B2DY_9wS.js","assets/arrow-right-B_rdtoO7.js","assets/arrow-up-right-KNzriIhG.js","assets/auth-fetch-B0Sz0Oie.js","assets/auth-paths-B-VxzyUX.js","assets/backup-import-DMcQ4Tha.js","assets/book-open-BlaCJr95.js","assets/brand-icons-CsW0tl2I.js","assets/building-2-CAaiUICq.js","assets/button-mbafAg5c.js","assets/check-BI6S8aTq.js","assets/chevron-down-CZShy5QM.js","assets/chevron-right-DjKClnEv.js","assets/circle-check-DuYusqjf.js","assets/clock-3-DKqnrPlt.js","assets/cloud-1iRIrr-q.js","assets/cloud-off-797ZMMNo.js","assets/community-forms-IV1DR7ED.js","assets/company-DLgxbf5i.js","assets/company-profile-view-CuPLtNhD.js","assets/compass-v5-GFXi4.js","assets/contextual-whatsapp-contact-Dz6sCQj6.js","assets/createLucideIcon-DsGqHFL7.js","assets/dialog-BTTQkP5A.js","assets/directory-filters-D19122j-.js","assets/directory-search-B-ZCGBiN.js","assets/dist-A6jz3xf3.js","assets/dist-BlCvuUeW.js","assets/dist-D02U1ZSF.js","assets/dist-Vu7OQT5_.js","assets/dist-o65Rxcqt.js","assets/download-CR7p2Qa1.js","assets/es2015-8qoacUFW.js","assets/exchange-rates-ClMnO-Lm.js","assets/farm-asset-pack-CfP7TV65.js","assets/farm-demo-fixture-CYCqO1KH.js","assets/farm-demo-navigation-DSXeI7M0.js","assets/farm-illustrated-scene-DzvRQcWz.js","assets/farm-plan-catalog-BGV3o0_C.js","assets/farm-showcase-B3Z833so.js","assets/form-feedback-BpwgOJzN.js","assets/formal-submission-notice-fYx6jLZX.js","assets/heart-DXOtA8dM.js","assets/illustrated-plan-adapter-DWiWY_gK.js","assets/image-CwgptN7L.js","assets/image-share-DQosnZTm.js","assets/info-BPpCl3Qb.js","assets/input-a45IPNCW.js","assets/install-action-sThTH7PN.js","assets/install-guidance-DGooOryk.js","assets/inventory-example-photos-Cf2xNpxi.js","assets/leaflet-DkBrfjv-.js","assets/lightbulb-G5uhCyn3.js","assets/link-BdfWHMt7.js","assets/listing-form-DXERaPgi.js","assets/loader-circle-Do5rLFtH.js","assets/mail--r88BnEM.js","assets/map-pin-B3wicebP.js","assets/marketplace-categories-4v0Z72Fj.js","assets/marketplace-details-0FGnqveL.js","assets/marketplace-location-BBK0v3S1.js","assets/marketplace-photo-UwABMphA.js","assets/message-circle-BYRevbtn.js","assets/official-links-Xt_E_7J4.js","assets/offline-account-boundary-DtwxSPaI.js","assets/offline-db-BBawtJ-7.js","assets/offline-download-size-D6kugFZY.js","assets/offline-preparation-EjII1FqQ.js","assets/orb-morph-BgrAM9xk.js","assets/phone-BojWTBlC.js","assets/plus-CC8MZoTY.js","assets/price-conversion-CxqFUFoC.js","assets/product-photos-CZIYhqSE.js","assets/professional-profile-DXc5Yrxu.js","assets/professional-profile-view-DuF9oQQz.js","assets/professional-tariffs-DtULU_eR.js","assets/profile-socials-CyKg7F6D.js","assets/public-form-errors-D78jWe1M.js","assets/public-image-content-CD6zV0II.js","assets/quote-conversion-D5wp7tDL.js","assets/refresh-cw-v23_x7f5.js","assets/rotate-ccw-DO2xn1nW.js","assets/search-C3Xmvdne.js","assets/security-center-CtaCESKJ.js","assets/share-2-B61k_0Gw.js","assets/sheet-BbviR2vk.js","assets/site-image-vNvjnZcC.js","assets/smartphone-DQ1_5Wm0.js","assets/sprout-LC288rtC.js","assets/textarea-CxAgNTaY.js","assets/tractor-CSLKxE7X.js","assets/types-BfTeLzKl.js","assets/use-directory-filters-BULADiGM.js","assets/use-offline-snapshot-CH85MaMW.js","assets/user-round-BnSsUPif.js","assets/utils-BHJHmrpA.js","assets/venezuela-BOnEjsqy.js","assets/venezuelaagro-logo-5AQUWEv0.js","assets/whatsapp-contact-MWnHfkf2.js","assets/wifi-off-AQ1QsWIl.js","assets/x-BMd_cQNi.js","assets/zoom-out-Bf_KkglM.js","assets/account-services-tlgC-HBZ.js","assets/admin-dashboard-C1DuHHfM.js","assets/company-directory-DL11Ejz_.js","assets/company-manager-BXHvQnAx.js","assets/connection-indicator-CKJl8otS.js","assets/connectivity-pill-CR_ibPbr.js","assets/design-form-example-DE-iHIYZ.js","assets/device-install-action-Cm-g2bn0.js","assets/directory-return-link-CSde0WTQ.js","assets/farm-aerial-proposal-COu2HDN0.js","assets/farm-dashboard-ALcddOXc.js","assets/farm-demo-workspace-CP8KPiCX.js","assets/farm-masterplan-scene-CpSQ89tT.js","assets/farm-masterplan-webgl-DlW4ahXO.js","assets/farm-showcase-YKac0SAe.js","assets/google-signin-t5pa7B-y.js","assets/home-content-editor-dlyiCnIW.js","assets/home-farm-preview-88G8Unn8.js","assets/home-farm-scene-OmlBhpgt.js","assets/install-app-banner-Cz95UaH7.js","assets/learning-catalog-BO7lseeO.js","assets/learning-form-preview-IbZs-yQt.js","assets/marketplace-browser-BA_14Ltt.js","assets/marketplace-detail-ComvLu2Z.js","assets/mobile-public-actions-zwndTLGv.js","assets/offline-library-DMBJLyNy.js","assets/offline-navigation-mAg61OQm.js","assets/offline-worker-registration-C37gX-Fq.js","assets/professional-directory-BXYz11H6.js","assets/professional-manager-D14xY31O.js","assets/project-example-1mCrSgQb.js","assets/public-workspace-controls-ByzBvOSf.js","assets/session-menu-CrG9sJ9u.js","assets/site-header-CvsM6Pk3.js","assets/social-links-DHRYQmLQ.js","assets/sticker-gallery-CMQ-aewM.js","assets/store-catalog-CYadw4kW.js","assets/sonner-C0-d5pkl.js","assets/leaflet-src-BDulQfl8.js","assets/dist-BTGf5tSh.js","assets/esm-CVQV7vd2.js","assets/layout-segment-context--zI2Yq1F.js","assets/router-hECHN2OF.js"];
 import * as __viteRscAsyncHooks from "node:async_hooks";
 import { AsyncLocalStorage as AsyncLocalStorage$1 } from "node:async_hooks";
 import assetsManifest from "./__vite_rsc_assets_manifest.js";
@@ -390,6 +390,9 @@ var SITE_ORIGIN = "https://venezuelaagro.com";
 var PLATFORM_NAME = "VenezuelaAgro";
 var PRIVATE_PATHS = [
 	"/finca-demo",
+	"/finca-modelo",
+	"/modelos-finca",
+	"/juego-finca",
 	"/biblioteca-local",
 	"/app",
 	"/app-local",
@@ -405,6 +408,14 @@ var PRIVATE_PATHS = [
 function isPrivatePath(path) {
 	return PRIVATE_PATHS.some((prefix) => path === prefix || path.startsWith(prefix + "/")) || path.startsWith("/api/") && !path.startsWith("/api/media/");
 }
+/** These render account controls and are private/no-store in the Worker today. */
+function isPersonalizedPublicRoute(path) {
+	return /^\/(?:profesionales|proyectos|red|fincas)(?:\/|$)/.test(path);
+}
+/** Public builds remain non-indexable on aliases, errors and personalized responses. */
+function responseMustRemainNoindex(url, status, cacheControl, enabled = true) {
+	return !enabled || url.origin !== "https://venezuelaagro.com" || status < 200 || status >= 300 || isPrivatePath(url.pathname) || /(?:^|,)\s*(?:private|no-store)(?:\s|,|$)/i.test(cacheControl || "");
+}
 function indexingRobots(enabled, publicContent = true, demo = false) {
 	const allowed = enabled && publicContent && !demo;
 	return {
@@ -413,7 +424,7 @@ function indexingRobots(enabled, publicContent = true, demo = false) {
 	};
 }
 function robotsPolicy(publicContent = true, demo = false) {
-	return indexingRobots(false, publicContent, demo);
+	return indexingRobots(true, publicContent, demo);
 }
 function pageMetadata(path, title, description) {
 	return {
@@ -454,7 +465,7 @@ function decoratePublicMetadata(path, metadata) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/http-error-responses.js
+//#region node_modules/vinext/dist/server/http-error-responses.js
 /**
 * Build a 400 Bad Request plain-text response.
 *
@@ -528,7 +539,7 @@ function internalServerErrorResponse(message, init) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/image-optimization.js
+//#region node_modules/vinext/dist/server/image-optimization.js
 /**
 * Next.js default device sizes and image sizes.
 * These are the allowed widths for image optimization when no custom
@@ -703,7 +714,7 @@ async function handleImageOptimization(request, handlers, allowedWidths, imageCo
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/internal/als-registry.js
+//#region node_modules/vinext/dist/shims/internal/als-registry.js
 /**
 * Shared helper for registering AsyncLocalStorage instances on `globalThis`
 * via `Symbol.for(...)` so that they survive multiple module instances.
@@ -754,7 +765,7 @@ function getOrCreateAls(key) {
 	return _g$8[sym] ??= new AsyncLocalStorage$1();
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/unified-request-context.js
+//#region node_modules/vinext/dist/shims/unified-request-context.js
 var _REQUEST_CONTEXT_ALS_KEY = Symbol.for("vinext.requestContext.als");
 var _g$7 = globalThis;
 var _als$4 = getOrCreateAls("vinext.unifiedRequestContext.als");
@@ -831,7 +842,7 @@ function isInsideUnifiedScope() {
 	return _als$4.getStore() != null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/request-context.js
+//#region node_modules/vinext/dist/shims/request-context.js
 /**
 * Request ExecutionContext — AsyncLocalStorage-backed accessor.
 *
@@ -873,7 +884,7 @@ function getRequestExecutionContext() {
 	return _als$3.getStore() ?? null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/base-path.js
+//#region node_modules/vinext/dist/utils/base-path.js
 /**
 * Shared basePath helpers.
 *
@@ -908,7 +919,7 @@ function removeTrailingSlash(pathname) {
 	return end === 0 ? "/" : pathname.slice(0, end);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/headers.js
+//#region node_modules/vinext/dist/server/headers.js
 /**
 * Internal HTTP header name constants used throughout vinext.
 *
@@ -994,7 +1005,7 @@ var INTERNAL_HEADERS = [
 	"x-next-resume-state-length"
 ];
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/middleware-request-headers.js
+//#region node_modules/vinext/dist/server/middleware-request-headers.js
 var CREDENTIAL_REQUEST_HEADERS = ["authorization", "cookie"];
 function getMiddlewareHeaderValue(source, key) {
 	if (source instanceof Headers) return source.get(key);
@@ -1057,7 +1068,7 @@ function shouldKeepMiddlewareHeader(key) {
 	return key === "x-middleware-override-headers" || key === "x-middleware-set-cookie" || key.startsWith("x-middleware-request-");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/config/config-matchers.js
+//#region node_modules/vinext/dist/config/config-matchers.js
 /**
 * Cache for compiled regex patterns in matchConfigPattern.
 *
@@ -1815,7 +1826,7 @@ function matchHeaders(pathname, headers, ctx) {
 	return result;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/request-pipeline.js
+//#region node_modules/vinext/dist/server/request-pipeline.js
 /**
 * Shared request pipeline utilities.
 *
@@ -2177,7 +2188,7 @@ function cloneRequestWithHeaders(request, headers) {
 	return cloned;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/worker-utils.js
+//#region node_modules/vinext/dist/server/worker-utils.js
 /**
 * Shared utilities for Cloudflare Worker entries.
 *
@@ -2275,7 +2286,7 @@ async function resolveStaticAssetSignal(signalResponse, options) {
 	return mergeHeaders(assetResponse, extraHeaders, assetResponse.ok && signalResponse.status !== 200 ? signalResponse.status : void 0);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/dist-rz-Bnebz.js
+//#region node_modules/@vitejs/plugin-rsc/dist/dist-rz-Bnebz.js
 function tinyassert(value, message) {
 	if (value) return;
 	if (message instanceof Error) throw message;
@@ -2303,7 +2314,7 @@ function memoize(f, options) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/shared-BViDMJTQ.js
+//#region node_modules/@vitejs/plugin-rsc/dist/shared-BViDMJTQ.js
 var SERVER_REFERENCE_PREFIX = "$$server:";
 var SERVER_DECODE_CLIENT_PREFIX = "$$decode-client:";
 function removeReferenceCacheTag(id) {
@@ -2319,7 +2330,7 @@ function setInternalRequire() {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/cjs/react.react-server.production.js
+//#region node_modules/react/cjs/react.react-server.production.js
 /**
 * @license React
 * react.react-server.production.js
@@ -2593,12 +2604,12 @@ var require_react_react_server_production = /* @__PURE__ */ __commonJSMin(((expo
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/react.react-server.js
+//#region node_modules/react/react.react-server.js
 var require_react_react_server = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_react_server_production();
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/cjs/react-dom.react-server.production.js
+//#region node_modules/react-dom/cjs/react-dom.react-server.production.js
 /**
 * @license React
 * react-dom.react-server.production.js
@@ -2696,12 +2707,12 @@ var require_react_dom_react_server_production = /* @__PURE__ */ __commonJSMin(((
 	exports.version = "19.2.6";
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-dom/react-dom.react-server.js
+//#region node_modules/react-dom/react-dom.react-server.js
 var require_react_dom_react_server = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_dom_react_server_production();
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-server.edge.production.js
+//#region node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-server.edge.production.js
 var require_react_server_dom_webpack_server_edge_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	globalThis.AsyncLocalStorage = __viteRscAsyncHooks.AsyncLocalStorage;
 	/**
@@ -4770,7 +4781,7 @@ var require_react_server_dom_webpack_server_edge_production = /* @__PURE__ */ __
 	};
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/core/rsc.js
+//#region node_modules/@vitejs/plugin-rsc/dist/core/rsc.js
 var import_server_edge = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((exports) => {
 	var s = require_react_server_dom_webpack_server_edge_production();
 	exports.renderToReadableStream = s.renderToReadableStream;
@@ -4850,7 +4861,7 @@ function createClientManifest(options) {
 	} });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-client.edge.production.js
+//#region node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-client.edge.production.js
 /**
 * @license React
 * react-server-dom-webpack-client.edge.production.js
@@ -5067,7 +5078,7 @@ var createTemporaryReferenceSet = import_server_edge.createTemporaryReferenceSet
 //#region \0virtual:vite-rsc/server-references
 var server_references_default = {};
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/@vitejs/plugin-rsc/dist/rsc.js
+//#region node_modules/@vitejs/plugin-rsc/dist/rsc.js
 initialize();
 function initialize() {
 	setRequireModule({ load: async (id) => {
@@ -5092,7 +5103,7 @@ function renderToReadableStream$1(data, options, extraOptions) {
 	} });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/rsc-stream-hints.js
+//#region node_modules/vinext/dist/server/rsc-stream-hints.js
 var REACT_FLIGHT_STYLESHEET_PRELOAD_HINT = /(\d*:HL\[.*?),"stylesheet"(\]|,)/g;
 /**
 * React Flight emits HL hints with "stylesheet" for CSS preloads, but the
@@ -5127,7 +5138,7 @@ function createRscRenderer(render) {
 	return (model, options) => normalizeReactFlightPreloadHints(render(model, options));
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/readonly-url-search-params.js
+//#region node_modules/vinext/dist/shims/readonly-url-search-params.js
 var import_react_react_server = /* @__PURE__ */ __toESM(require_react_react_server(), 1);
 var ReadonlyURLSearchParamsError = class extends Error {
 	constructor() {
@@ -5153,7 +5164,7 @@ var ReadonlyURLSearchParams = class extends URLSearchParams {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/url-safety.js
+//#region node_modules/vinext/dist/shims/url-safety.js
 /**
 * Shared URL safety utilities for Link, Form, and navigation shims.
 *
@@ -5195,7 +5206,7 @@ function assertSafeNavigationUrl(url) {
 	if (isDangerousScheme(url)) throw new Error(DANGEROUS_URL_BLOCK_MESSAGE);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/hash.js
+//#region node_modules/vinext/dist/utils/hash.js
 /**
 * FNV-1a hash producing a 64-bit result (two 32-bit rounds with different seeds).
 * Used for deterministic key generation where collisions must be rare.
@@ -5214,7 +5225,7 @@ function fnv1a64(input) {
 	return h1.toString(36) + h2.toString(36);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/artifact-compatibility.js
+//#region node_modules/vinext/dist/server/artifact-compatibility.js
 function createArtifactCompatibilityEnvelope(input = {}) {
 	return {
 		schemaVersion: 1,
@@ -5256,7 +5267,7 @@ function parseArtifactCompatibilityEnvelope(value) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-elements-wire.js
+//#region node_modules/vinext/dist/server/app-elements-wire.js
 var APP_INTERCEPTION_SEPARATOR = "\0";
 var APP_ARTIFACT_COMPATIBILITY_KEY = "__artifactCompatibility";
 var APP_INTERCEPTION_CONTEXT_KEY = "__interceptionContext";
@@ -5472,7 +5483,7 @@ var AppElementsWire = {
 	withLayoutFlags
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-mounted-slots-header.js
+//#region node_modules/vinext/dist/server/app-mounted-slots-header.js
 /**
 * Normalize the `x-vinext-mounted-slots` header for request handling and cache keying.
 *
@@ -5490,7 +5501,7 @@ function normalizeMountedSlotsHeader(raw) {
 	return Array.from(new Set(raw.split(/\s+/).filter(Boolean))).sort().join(" ") || null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-render-mode.js
+//#region node_modules/vinext/dist/server/app-rsc-render-mode.js
 var APP_RSC_RENDER_MODE_NAVIGATION = "navigation";
 var APP_RSC_RENDER_MODE_REFRESH_PRESERVE_UI = "refresh-preserve-ui";
 var APP_RSC_RENDER_MODE_ACTION_RERENDER_PRESERVE_UI = "action-rerender-preserve-ui";
@@ -5508,7 +5519,7 @@ function parseAppRscRenderMode(value) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-cache-busting.js
+//#region node_modules/vinext/dist/server/app-rsc-cache-busting.js
 /**
 * RSC cache-busting hashes cover the headers that make a `.rsc` payload vary.
 * Client-side variant headers must survive transit through CDNs and reverse
@@ -5648,7 +5659,7 @@ async function resolveInvalidRscCacheBustingRequest(options) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/navigation.js
+//#region node_modules/vinext/dist/shims/navigation.js
 var _SERVER_INSERTED_HTML_CTX_KEY = Symbol.for("vinext.serverInsertedHTMLContext");
 function getServerInsertedHTMLContext() {
 	if (typeof import_react_react_server.createContext !== "function") return null;
@@ -5880,7 +5891,7 @@ if (!isServer) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/client-hook-error.js
+//#region node_modules/vinext/dist/shims/client-hook-error.js
 /**
 * Shared error helper for client-only hooks called in Server Components.
 *
@@ -5893,7 +5904,7 @@ function buildClientHookErrorMessage(hookName) {
 	return `${hookName} only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/internal/cookie-serialize.js
+//#region node_modules/vinext/dist/shims/internal/cookie-serialize.js
 /**
 * RFC 6265 §4.1.1: cookie-name is a token (RFC 2616 §2.2).
 * Allowed: any visible ASCII (0x21-0x7E) except separators: ()<>@,;:\"/[]?={}
@@ -5941,7 +5952,7 @@ function serializeSetCookie(name, value, options) {
 	return parts.join("; ");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/internal/parse-cookie-header.js
+//#region node_modules/vinext/dist/shims/internal/parse-cookie-header.js
 /**
 * Port of the current Next.js/@edge-runtime request cookie parser semantics.
 *
@@ -5970,7 +5981,7 @@ function parseCookieHeader(cookieHeader) {
 	return cookies;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/headers.js
+//#region node_modules/vinext/dist/shims/headers.js
 var _FALLBACK_KEY$4 = Symbol.for("vinext.nextHeadersShim.fallback");
 var _g$6 = globalThis;
 var _als$2 = getOrCreateAls("vinext.nextHeadersShim.als");
@@ -6402,7 +6413,7 @@ function getAndClearPendingCookies() {
 var DRAFT_MODE_COOKIE = "__prerender_bypass";
 (/* @__PURE__ */ new Date(0)).toUTCString();
 function getDraftSecret() {
-	return "cbd88571-5391-4c1f-aa9e-27091b555f2c";
+	return "d25a0a0b-969a-469d-bb2b-50773ce64c68";
 }
 /**
 * Get any Set-Cookie header generated by draftMode().enable()/disable().
@@ -6517,7 +6528,7 @@ var RequestCookies$1 = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/thenable-params.js
+//#region node_modules/vinext/dist/shims/thenable-params.js
 function hasParamProperty(obj, prop) {
 	return Object.prototype.hasOwnProperty.call(obj, prop);
 }
@@ -6571,7 +6582,7 @@ function makeThenableParams(obj) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/react/cjs/react-jsx-runtime.react-server.production.js
+//#region node_modules/react/cjs/react-jsx-runtime.react-server.production.js
 /**
 * @license React
 * react-jsx-runtime.react-server.production.js
@@ -6606,7 +6617,7 @@ var require_react_jsx_runtime_react_server_production = /* @__PURE__ */ __common
 	exports.jsxs = jsxProd;
 }));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/metadata.js
+//#region node_modules/vinext/dist/shims/metadata.js
 var import_jsx_runtime_react_server = (/* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_jsx_runtime_react_server_production();
 })))();
@@ -7268,7 +7279,7 @@ function MetadataHead({ metadata }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(import_jsx_runtime_react_server.Fragment, { children: elements });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/encode-cache-tag.js
+//#region node_modules/vinext/dist/utils/encode-cache-tag.js
 /**
 * Cache-tag canonicalisation.
 *
@@ -7303,7 +7314,7 @@ function encodeCacheTags(tags) {
 	return tags.map(encodeCacheTag);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/internal/work-unit-async-storage.js
+//#region node_modules/vinext/dist/shims/internal/work-unit-async-storage.js
 /**
 * Shim for next/dist/server/app-render/work-unit-async-storage.external
 * and next/dist/client/components/request-async-storage.external
@@ -7317,7 +7328,7 @@ function encodeCacheTags(tags) {
 */
 var workUnitAsyncStorage = new AsyncLocalStorage$1();
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/cache-control-metadata.js
+//#region node_modules/vinext/dist/utils/cache-control-metadata.js
 function isUnknownRecord(value) {
 	return value !== null && typeof value === "object" && !Array.isArray(value);
 }
@@ -7330,7 +7341,7 @@ function readCacheControlNumberField(ctx, field) {
 	return typeof value === "number" ? value : void 0;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/cache.js
+//#region node_modules/vinext/dist/shims/cache.js
 function readStringArrayField(ctx, field) {
 	const value = ctx?.[field];
 	if (!Array.isArray(value)) return [];
@@ -7465,7 +7476,7 @@ function _consumeRequestScopedCacheLife() {
 }
 getOrCreateAls("vinext.unstableCache.als");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/fetch-cache.js
+//#region node_modules/vinext/dist/shims/fetch-cache.js
 /**
 * Extended fetch() with Next.js caching semantics.
 *
@@ -8066,7 +8077,7 @@ function ensureFetchPatch() {
 	_ensurePatchInstalled();
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/csp.js
+//#region node_modules/vinext/dist/server/csp.js
 var ESCAPE_REGEX = /[&><\u2028\u2029]/;
 function matchesDirectiveName(directive, name) {
 	return directive === name || directive.startsWith(`${name} `);
@@ -8092,7 +8103,7 @@ function getScriptNonceFromHeaderSources(...headersList) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/middleware-response-headers.js
+//#region node_modules/vinext/dist/server/middleware-response-headers.js
 var ADDITIVE_RESPONSE_HEADER_NAMES = new Set(["set-cookie", "vary"]);
 function mergeVaryHeader(target, value) {
 	const existing = target.get("Vary");
@@ -8133,7 +8144,7 @@ function mergeMiddlewareResponseHeaders(target, middlewareHeaders) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/routing/utils.js
+//#region node_modules/vinext/dist/routing/utils.js
 var PATH_DELIMITER_REGEX = /([/#?\\]|%(2f|23|3f|5c))/gi;
 function encodePathDelimiters(segment) {
 	return segment.replace(PATH_DELIMITER_REGEX, (char) => encodeURIComponent(char));
@@ -8190,7 +8201,7 @@ function decodeMatchedParams(params) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/server.js
+//#region node_modules/vinext/dist/shims/server.js
 var NextRequest = class extends Request {
 	_nextUrl;
 	_url;
@@ -8488,7 +8499,7 @@ var NextURL = class NextURL {
 	* Matches the Next.js API: `request.nextUrl.buildId`.
 	*/
 	get buildId() {
-		return "209ccb50-ef00-4ccd-971e-5fdc4896352a";
+		return "c4923dcf-d97e-42d1-8803-8508fab0ff84";
 	}
 };
 var RequestCookies = class {
@@ -8743,7 +8754,7 @@ var NextFetchEvent = class {
 };
 globalThis.URLPattern;
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/normalize-path.js
+//#region node_modules/vinext/dist/server/normalize-path.js
 /**
 * Path normalization utility for request handling.
 *
@@ -8776,7 +8787,7 @@ function normalizePath(pathname) {
 	return "/" + resolved.join("/");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/middleware-matcher.js
+//#region node_modules/vinext/dist/server/middleware-matcher.js
 var EMPTY_MIDDLEWARE_REQUEST_CONTEXT = {
 	headers: new Headers(),
 	cookies: {},
@@ -8873,7 +8884,7 @@ function compileMatcherPattern(pattern) {
 	return safeRegExp("^" + regexStr + "$");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/middleware-runtime.js
+//#region node_modules/vinext/dist/server/middleware-runtime.js
 function isMiddlewareHandler(value) {
 	return typeof value === "function";
 }
@@ -9019,7 +9030,7 @@ async function executeMiddleware(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-middleware.js
+//#region node_modules/vinext/dist/server/app-middleware.js
 var FLIGHT_HEADER_SET = new Set(FLIGHT_HEADERS);
 function requestWithoutFlightHeaders(request) {
 	let hasFlightHeader = false;
@@ -9144,7 +9155,7 @@ async function applyAppMiddleware(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/cache-control.js
+//#region node_modules/vinext/dist/server/cache-control.js
 var NEVER_CACHE_CONTROL = "private, no-cache, no-store, max-age=0, must-revalidate";
 var STATIC_CACHE_CONTROL = "s-maxage=31536000, stale-while-revalidate";
 var STALE_REVALIDATE_CACHE_CONTROL = "s-maxage=0, stale-while-revalidate";
@@ -9175,7 +9186,7 @@ function buildCachedRevalidateCacheControl(cacheState, revalidateSeconds, expire
 	return buildRevalidateCacheControl(revalidateSeconds, expireSeconds);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-response.js
+//#region node_modules/vinext/dist/server/app-page-response.js
 function applyTimingHeader(headers, timing) {
 	if (!timing) return;
 	const handlerStart = Math.round(timing.handlerStart);
@@ -9272,7 +9283,7 @@ function buildAppPageHtmlResponse(body, options) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/implicit-tags.js
+//#region node_modules/vinext/dist/server/implicit-tags.js
 var NEXT_CACHE_IMPLICIT_TAG_ID = "_N_T_";
 function appendUnique(tags, tag) {
 	if (!tags.includes(tag)) tags.push(tag);
@@ -9311,7 +9322,7 @@ function buildPageCacheTags(pathname, extraTags, routeSegments, leafKind) {
 	return tags.map(encodeCacheTag);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-post-middleware-context.js
+//#region node_modules/vinext/dist/server/app-post-middleware-context.js
 /**
 * Build a request context from the live ALS HeadersContext, which reflects
 * any x-middleware-request-* header mutations applied by middleware.
@@ -9334,7 +9345,7 @@ function buildPostMwRequestContext(request) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/root-params.js
+//#region node_modules/vinext/dist/shims/root-params.js
 var _FALLBACK_KEY$1 = Symbol.for("vinext.rootParams.fallback");
 var _g$3 = globalThis;
 var _fallbackState$1 = _g$3[_FALLBACK_KEY$1] ??= { rootParams: null };
@@ -9351,7 +9362,7 @@ function setRootParams(params) {
 	getState().rootParams = params;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-prerender-static-params.js
+//#region node_modules/vinext/dist/server/app-prerender-static-params.js
 async function callAppPrerenderStaticParams(options) {
 	setRootParams(pickRootParams(options.params, options.rootParamNamesByPattern[options.pattern]));
 	try {
@@ -9361,7 +9372,7 @@ async function callAppPrerenderStaticParams(options) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-prerender-endpoints.js
+//#region node_modules/vinext/dist/server/app-prerender-endpoints.js
 var STATIC_PARAMS_ENDPOINT = "/__vinext/prerender/static-params";
 var PAGES_STATIC_PATHS_ENDPOINT = "/__vinext/prerender/pages-static-paths";
 var JSON_HEADERS = { "content-type": "application/json" };
@@ -9453,7 +9464,7 @@ function isStringArray(value) {
 	return Array.isArray(value) && value.every((item) => typeof item === "string");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-response-finalizer.js
+//#region node_modules/vinext/dist/server/app-rsc-response-finalizer.js
 /**
 * Apply App Router response finalization that must happen outside individual
 * route dispatchers.
@@ -9486,7 +9497,7 @@ function finalizeAppRscResponse(response, request, options) {
 	return response;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-request-normalization.js
+//#region node_modules/vinext/dist/server/app-rsc-request-normalization.js
 /**
 * Normalize an App Router RSC request.
 *
@@ -9546,7 +9557,7 @@ function normalizeRscRequest(request, basePath) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/routing/route-pattern.js
+//#region node_modules/vinext/dist/routing/route-pattern.js
 function routePatternPart(segment) {
 	if (segment.startsWith("[[...") && segment.endsWith("]]")) return `:${segment.slice(5, -2)}*`;
 	if (segment.startsWith("[...") && segment.endsWith("]")) return `:${segment.slice(4, -1)}+`;
@@ -9635,7 +9646,7 @@ function matchRoutePattern(urlParts, patternParts) {
 	return params;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/metadata-routes.js
+//#region node_modules/vinext/dist/server/metadata-routes.js
 /** Escape the five XML special characters in text content and attribute values. */
 function escapeXml(s) {
 	return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
@@ -9756,7 +9767,7 @@ function matchMetadataRoutePattern(urlParts, patternParts) {
 	return matchRoutePattern(urlParts, patternParts);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/metadata-route-response.js
+//#region node_modules/vinext/dist/server/metadata-route-response.js
 var routeFunctionCache = /* @__PURE__ */ new WeakMap();
 function isObject$1(value) {
 	return typeof value === "object" && value !== null;
@@ -9939,7 +9950,7 @@ async function handleMetadataRouteRequest(options) {
 	return null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/prerender-work-unit-setup.js
+//#region node_modules/vinext/dist/server/prerender-work-unit-setup.js
 /**
 * Sets up the work unit async storage for prerendering.
 *
@@ -9965,7 +9976,7 @@ function runWithPrerenderWorkUnit(fn, options) {
 	return fn();
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-handler.js
+//#region node_modules/vinext/dist/server/app-rsc-handler.js
 function hasProperty(value, key) {
 	return key in value;
 }
@@ -10239,7 +10250,7 @@ function createAppRscHandler(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/instrumentation.js
+//#region node_modules/vinext/dist/server/instrumentation.js
 /**
 * Get the registered onRequestError handler (if any).
 *
@@ -10270,7 +10281,7 @@ function reportRequestError(error, request, context) {
 	return promise;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-runtime.js
+//#region node_modules/vinext/dist/server/app-route-handler-runtime.js
 var ROUTE_HANDLER_HTTP_METHODS = [
 	"GET",
 	"HEAD",
@@ -10505,7 +10516,7 @@ function createTrackedAppRouteRequest(request, options = {}) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/next-error-digest.js
+//#region node_modules/vinext/dist/server/next-error-digest.js
 /**
 * Pulls a stringified `digest` off an unknown thrown value, or returns null
 * when the value is not a digest-bearing error.
@@ -10544,7 +10555,7 @@ function parseNextHttpErrorDigest(digest) {
 	return null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-policy.js
+//#region node_modules/vinext/dist/server/app-route-handler-policy.js
 function isPossibleAppRouteActionRequest(request) {
 	if (request.method.toUpperCase() !== "POST") return false;
 	const contentType = request.headers.get("content-type");
@@ -10603,7 +10614,7 @@ function resolveAppRouteHandlerSpecialError(error, requestUrl, options) {
 	return null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-static-generation.js
+//#region node_modules/vinext/dist/server/app-static-generation.js
 function getAppPageStaticGenerationErrorMessage() {
 	return "Page with `dynamic = \"error\"` used a dynamic API. This page was expected to be fully static, but headers(), cookies(), or searchParams was accessed. Remove the dynamic API usage or change the dynamic config to \"auto\" or \"force-dynamic\".";
 }
@@ -10620,7 +10631,7 @@ function createStaticGenerationHeadersContext(options) {
 	return context;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-response.js
+//#region node_modules/vinext/dist/server/app-route-handler-response.js
 var APP_ROUTE_REWRITE_ERROR = "NextResponse.rewrite() was used in a app route handler, this is not currently supported. Please remove the invocation to continue.";
 var APP_ROUTE_NEXT_ERROR = "NextResponse.next() was used in a app route handler, this is not supported. See here for more info: https://nextjs.org/docs/messages/next-response-next-in-app-route-handler";
 function hasMiddlewareHeader(headers) {
@@ -10723,7 +10734,7 @@ function finalizeRouteHandlerResponse(response, options) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-execution.js
+//#region node_modules/vinext/dist/server/app-route-handler-execution.js
 function configureAppRouteStaticGenerationContext(options) {
 	if (options.dynamicConfig === "force-static" || options.dynamicConfig === "error") {
 		setHeadersContext(createStaticGenerationHeadersContext({
@@ -10842,7 +10853,7 @@ async function executeAppRouteHandler(options) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-cache.js
+//#region node_modules/vinext/dist/server/app-route-handler-cache.js
 function getCachedAppRouteValue(entry) {
 	return entry?.value.value && entry.value.value.kind === "APP_ROUTE" ? entry.value.value : null;
 }
@@ -10913,7 +10924,7 @@ async function readAppRouteHandlerCacheResponse(options) {
 	return null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-route-handler-dispatch.js
+//#region node_modules/vinext/dist/server/app-route-handler-dispatch.js
 function isAppRouteHandlerFunction(value) {
 	return typeof value === "function";
 }
@@ -11048,7 +11059,7 @@ async function dispatchAppRouteHandler(options) {
 	return applyRouteHandlerMiddlewareContext(new Response(null, { status: 405 }), options.middlewareContext);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/utils/text-stream.js
+//#region node_modules/vinext/dist/utils/text-stream.js
 /**
 * Helpers for the repeated `new TextDecoder()` + `ReadableStream` chunk-loop
 * pattern used across the server. Each helper handles the streaming-decode
@@ -11111,7 +11122,7 @@ async function readStreamAsTextWithLimit(stream, maxBytes, onLimitExceeded) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/server-action-not-found.js
+//#region node_modules/vinext/dist/server/server-action-not-found.js
 var SERVER_ACTION_NOT_FOUND_DOCS = "https://nextjs.org/docs/messages/failed-to-find-server-action";
 var SERVER_ACTION_NOT_FOUND_BODY = "Server action not found.";
 function getServerActionNotFoundPrefix(actionId) {
@@ -11141,7 +11152,7 @@ function createServerActionNotFoundResponse() {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-params.js
+//#region node_modules/vinext/dist/server/app-page-params.js
 function getAppPageSegmentParamName(segment) {
 	if (segment.startsWith("[[...") && segment.endsWith("]]") && segment.length > 7) return segment.slice(5, -2);
 	if (segment.startsWith("[...") && segment.endsWith("]") && segment.length > 5) return segment.slice(4, -1);
@@ -11166,7 +11177,7 @@ function resolveAppPageSegmentParams(routeSegments, treePosition, matchedParams)
 	return segmentParams;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-request.js
+//#region node_modules/vinext/dist/server/app-page-request.js
 function pickRouteParams(matchedParams, routeParamNames) {
 	const params = {};
 	for (const paramName of routeParamNames) {
@@ -11326,7 +11337,7 @@ async function buildAppPageElement(options) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-server-action-execution.js
+//#region node_modules/vinext/dist/server/app-server-action-execution.js
 /**
 * Matches Next.js' server action argument cap to prevent stack overflow in
 * Function.prototype.apply when decoding hostile action payloads.
@@ -11713,7 +11724,7 @@ async function handleServerActionRscRequest(options) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-execution.js
+//#region node_modules/vinext/dist/server/app-page-execution.js
 function isPromiseLike$1(value) {
 	return Boolean(value && (typeof value === "object" || typeof value === "function") && "then" in value && typeof value.then === "function");
 }
@@ -11882,7 +11893,7 @@ function buildAppPageFontLinkHeader(preloads) {
 	return preloads.map((preload) => `<${preload.href}>; rel=preload; as=font; type=${preload.type}; crossorigin`).join(", ");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-errors.js
+//#region node_modules/vinext/dist/server/app-rsc-errors.js
 function hasDigest(error) {
 	return Boolean(error && typeof error === "object" && "digest" in error);
 }
@@ -11920,7 +11931,7 @@ function createRscOnErrorHandler$1(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-error-handler.js
+//#region node_modules/vinext/dist/server/app-rsc-error-handler.js
 /**
 * Build a per-request RSC error handler that extracts request metadata from
 * the incoming Web `Request`, wires it into a `createRscOnErrorHandler` call,
@@ -11946,24 +11957,24 @@ function createAppRscOnErrorHandler(reportRequestError, request, pathname, route
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/error-boundary.js
+//#region node_modules/vinext/dist/shims/error-boundary.js
 var ErrorBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ErrorBoundary' is called on server");
-}, "c46eacf74403", "ErrorBoundary");
+}, "593f344dc510", "ErrorBoundary");
 var ForbiddenBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ForbiddenBoundary' is called on server");
-}, "c46eacf74403", "ForbiddenBoundary");
+}, "593f344dc510", "ForbiddenBoundary");
 var NotFoundBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'NotFoundBoundary' is called on server");
-}, "c46eacf74403", "NotFoundBoundary");
+}, "593f344dc510", "NotFoundBoundary");
 var RedirectBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'RedirectBoundary' is called on server");
-}, "c46eacf74403", "RedirectBoundary");
+}, "593f344dc510", "RedirectBoundary");
 var UnauthorizedBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'UnauthorizedBoundary' is called on server");
-}, "c46eacf74403", "UnauthorizedBoundary");
+}, "593f344dc510", "UnauthorizedBoundary");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/layout-segment-context.js
+//#region node_modules/vinext/dist/shims/layout-segment-context.js
 /**
 * Layout segment context provider.
 *
@@ -11993,9 +12004,9 @@ var UnauthorizedBoundary = /* @__PURE__ */ registerClientReference(() => {
 */
 var LayoutSegmentProvider = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'LayoutSegmentProvider' is called on server");
-}, "8039ebe65124", "LayoutSegmentProvider");
+}, "15c18cfaeeff", "LayoutSegmentProvider");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/slot.js
+//#region node_modules/vinext/dist/shims/slot.js
 /**
 * Holds resolved AppElements (not a Promise). React 19's use(Promise) during
 * hydration triggers "async Client Component" for native Promises that lack
@@ -12003,15 +12014,15 @@ var LayoutSegmentProvider = /* @__PURE__ */ registerClientReference(() => {
 */
 var Children = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'Children' is called on server");
-}, "7ecdd2b4218c", "Children");
+}, "8c0f216c4604", "Children");
 var ParallelSlot = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ParallelSlot' is called on server");
-}, "7ecdd2b4218c", "ParallelSlot");
+}, "8c0f216c4604", "ParallelSlot");
 var Slot$1 = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'Slot' is called on server");
-}, "7ecdd2b4218c", "Slot");
+}, "8c0f216c4604", "Slot");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-render-dependency.js
+//#region node_modules/vinext/dist/server/app-render-dependency.js
 function createAppRenderDependency() {
 	let released = false;
 	let resolve;
@@ -12042,7 +12053,7 @@ function renderWithAppDependencyBarrier(children, dependency) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(import_jsx_runtime_react_server.Fragment, { children: [children, /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ReleaseAppRenderDependency, {})] });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-segment-state.js
+//#region node_modules/vinext/dist/server/app-page-segment-state.js
 function isOptionalCatchAllSegment(segment) {
 	return segment.startsWith("[[...") && segment.endsWith("]]") && segment.length > 7;
 }
@@ -12119,7 +12130,7 @@ function resolveAppPageRouteStateKey(routeSegments, params) {
 	return statePath.length > 0 ? JSON.stringify(statePath) : "";
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-route-wiring.js
+//#region node_modules/vinext/dist/server/app-page-route-wiring.js
 function getDefaultExport$1(module) {
 	return module?.default ?? null;
 }
@@ -12443,7 +12454,7 @@ function buildAppPageElements(options) {
 	return elements;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/file-based-metadata.js
+//#region node_modules/vinext/dist/server/file-based-metadata.js
 function routeApplies(routePath, routePrefix) {
 	if (!routePrefix) return true;
 	return routePath === routePrefix || routePath.startsWith(`${routePrefix}/`);
@@ -12793,7 +12804,7 @@ async function applyFileBasedMetadata(metadata, routePath, params, metadataRoute
 	return nextMetadata;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-head.js
+//#region node_modules/vinext/dist/server/app-page-head.js
 function resolveActiveParallelRouteHeadInputs(options) {
 	return Object.entries(options.slots ?? {}).map(([slotKey, slot]) => {
 		if (options.interceptSlotKey === slotKey && options.interceptPage) return {
@@ -12987,7 +12998,7 @@ async function resolveAppPageHeadInner(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-boundary.js
+//#region node_modules/vinext/dist/server/app-page-boundary.js
 function resolveAppPageHttpAccessBoundaryComponent(options) {
 	let boundaryModule;
 	if (options.statusCode === 403) boundaryModule = options.routeForbiddenModule ?? options.rootForbiddenModule;
@@ -13063,7 +13074,7 @@ async function renderAppPageBoundaryResponse(options) {
 	return options.createHtmlResponse(rscStream, options.status);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-stream.js
+//#region node_modules/vinext/dist/server/app-page-stream.js
 function createAppPageFontData(options) {
 	return {
 		links: options.getLinks(),
@@ -13175,7 +13186,7 @@ function shouldRerenderAppPageWithGlobalError(options) {
 	return Boolean(options.capturedError) && !options.hasLocalBoundary;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-boundary-render.js
+//#region node_modules/vinext/dist/server/app-page-boundary-render.js
 function getDefaultExport(module) {
 	return module?.default ?? null;
 }
@@ -13409,7 +13420,7 @@ function rewriteClientHookError(error) {
 	if (match) error.message = buildClientHookErrorMessage(`${match[1]}()`);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-fallback-renderer.js
+//#region node_modules/vinext/dist/server/app-fallback-renderer.js
 var EMPTY_MW_CTX = {
 	headers: null,
 	status: null
@@ -13484,7 +13495,7 @@ function createAppFallbackRenderer(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-element-builder.js
+//#region node_modules/vinext/dist/server/app-page-element-builder.js
 /**
 * Build the App Router element tree for a matched route.
 *
@@ -13618,7 +13629,7 @@ function collectParamNameSet(params) {
 	return set;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/isr-cache.js
+//#region node_modules/vinext/dist/server/isr-cache.js
 /**
 * ISR (Incremental Static Regeneration) cache layer.
 *
@@ -13729,7 +13740,7 @@ function buildCacheKey(prefix, pathname, suffix) {
 * The suffix mirrors Next.js's separate on-disk app artifacts while keeping the
 * Cloudflare KV key under its 512-byte limit for long pathnames.
 */
-function appIsrCacheKey(pathname, suffix, buildId = "209ccb50-ef00-4ccd-971e-5fdc4896352a") {
+function appIsrCacheKey(pathname, suffix, buildId = "c4923dcf-d97e-42d1-8803-8508fab0ff84") {
 	return buildCacheKey(buildId ? `app:${buildId}` : "app", pathname, suffix);
 }
 function appIsrHtmlKey(pathname) {
@@ -13754,7 +13765,7 @@ function appIsrRouteKey(pathname) {
 var _REVALIDATE_KEY = Symbol.for("vinext.isrCache.revalidateDurations");
 _g$1[_REVALIDATE_KEY] ??= /* @__PURE__ */ new Map();
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-cache.js
+//#region node_modules/vinext/dist/server/app-page-cache.js
 var NO_STORE_CACHE_CONTROL = "no-store, must-revalidate";
 function buildAppPageCacheControl(cacheState, revalidateSeconds, expireSeconds) {
 	return buildCachedRevalidateCacheControl(cacheState, revalidateSeconds, expireSeconds);
@@ -13957,7 +13968,7 @@ function scheduleAppPageRscCacheWrite(options) {
 	return true;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-method.js
+//#region node_modules/vinext/dist/server/app-page-method.js
 function isNonGetOrHead(method) {
 	const normalizedMethod = method.toUpperCase();
 	return normalizedMethod !== "GET" && normalizedMethod !== "HEAD";
@@ -13978,7 +13989,7 @@ function resolveAppPageMethodResponse(options) {
 	return methodNotAllowedResponse("GET, HEAD", { headers });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-probe.js
+//#region node_modules/vinext/dist/server/app-page-probe.js
 async function probeAppPageBeforeRender(options) {
 	let layoutFlags = {};
 	if (options.layoutCount > 0) {
@@ -14022,7 +14033,7 @@ async function probeAppPageBeforeRender(options) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-render.js
+//#region node_modules/vinext/dist/server/app-page-render.js
 function buildResponseTiming(options) {
 	if (options.isProduction) return;
 	return {
@@ -14058,7 +14069,7 @@ function createAppPageArtifactCompatibility(element, routePattern) {
 			routePattern,
 			rootBoundaryId
 		}),
-		deploymentVersion: "209ccb50-ef00-4ccd-971e-5fdc4896352a",
+		deploymentVersion: "c4923dcf-d97e-42d1-8803-8508fab0ff84",
 		rootBoundaryId
 	});
 }
@@ -14338,7 +14349,7 @@ async function settleCapturedRscRenderForCacheMetadata(capturedRscDataPromise) {
 	} catch {}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-page-dispatch.js
+//#region node_modules/vinext/dist/server/app-page-dispatch.js
 function shouldReadAppPageCache(options) {
 	return options.isProduction && !options.isProgressiveActionRender && !options.isDraftMode && !options.isForceDynamic && (options.isRscRequest || !options.scriptNonce) && (options.revalidateSeconds === null || options.revalidateSeconds > 0);
 }
@@ -14684,7 +14695,7 @@ async function renderPageSpecialError(options, specialError) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-segment-config.js
+//#region node_modules/vinext/dist/server/app-segment-config.js
 var DYNAMIC_VALUES = new Set([
 	"auto",
 	"error",
@@ -14771,7 +14782,7 @@ function resolveAppPageFetchCacheMode(options) {
 	return resolveAppPageSegmentConfig(options).fetchCache ?? null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/routing/route-trie.js
+//#region node_modules/vinext/dist/routing/route-trie.js
 function createNode() {
 	return {
 		staticChildren: /* @__PURE__ */ new Map(),
@@ -14917,7 +14928,7 @@ function match(node, urlParts, index) {
 	return null;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-rsc-route-matching.js
+//#region node_modules/vinext/dist/server/app-rsc-route-matching.js
 function createRouteParams() {
 	return Object.create(null);
 }
@@ -14981,7 +14992,7 @@ function mergeMatchedParams(sourceParams, targetParams) {
 	return Object.assign(createRouteParams(), sourceParams, targetParams);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/navigation-state.js
+//#region node_modules/vinext/dist/shims/navigation-state.js
 /**
 * Server-only navigation state backed by AsyncLocalStorage.
 *
@@ -15022,7 +15033,7 @@ var _accessors = {
 _registerStateAccessors(_accessors);
 globalThis[GLOBAL_ACCESSORS_KEY] = _accessors;
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/build/google-fonts/sort-variants.js
+//#region node_modules/vinext/dist/build/google-fonts/sort-variants.js
 function sortFontsVariantValues(valA, valB) {
 	if (valA.includes(",") && valB.includes(",")) {
 		const [aPrefix, aSuffix] = valA.split(",", 2);
@@ -15033,7 +15044,7 @@ function sortFontsVariantValues(valA, valB) {
 	return parseInt(valA) - parseInt(valB);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/build/google-fonts/build-url.js
+//#region node_modules/vinext/dist/build/google-fonts/build-url.js
 function buildGoogleFontsUrl$1(fontFamily, axes, display) {
 	const variants = [];
 	if (axes.wght) for (const wght of axes.wght) if (!axes.ital) variants.push([["wght", wght], ...axes.variableAxes ?? []]);
@@ -15059,7 +15070,7 @@ function buildGoogleFontsUrl$1(fontFamily, axes, display) {
 	return `${url}&display=${display}`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/font-google-base.js
+//#region node_modules/vinext/dist/shims/font-google-base.js
 /**
 * next/font/google shim
 *
@@ -15402,7 +15413,7 @@ var googleFonts = new Proxy({}, { get(_target, prop) {
 	return createFontLoader(prop.replace(/_/g, " ").replace(/([a-z])([A-Z])/g, "$1 $2"));
 } });
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/font-local.js
+//#region node_modules/vinext/dist/shims/font-local.js
 var ssrFontStyles = [];
 var ssrFontPreloads = [];
 /**
@@ -15422,7 +15433,7 @@ function getSSRFontPreloads() {
 	return [...ssrFontPreloads];
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-hook-warning-suppression.js
+//#region node_modules/vinext/dist/server/app-hook-warning-suppression.js
 var suppressHookWarningAls = new AsyncLocalStorage$1();
 var _origConsoleError = console.error;
 console.error = (...args) => {
@@ -15430,7 +15441,7 @@ console.error = (...args) => {
 	_origConsoleError.apply(console, args);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-request-context.js
+//#region node_modules/vinext/dist/server/app-request-context.js
 /**
 * Set navigation context in the ALS-backed store. "use client" components
 * rendered during SSR need the pathname/searchParams/params but the SSR
@@ -15454,12 +15465,12 @@ function clearAppRequestContext() {
 	setAppNavigationContext(null);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/link.js
+//#region node_modules/vinext/dist/shims/link.js
 var link_default = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'default' is called on server");
 }, "c2747888630f", "default");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/shared/src/utils/mergeClasses.mjs
+//#region node_modules/lucide-react/dist/esm/shared/src/utils/mergeClasses.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15470,7 +15481,7 @@ var mergeClasses = (...classes) => classes.filter((className, index, array) => {
 	return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
 }).join(" ").trim();
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/shared/src/utils/toKebabCase.mjs
+//#region node_modules/lucide-react/dist/esm/shared/src/utils/toKebabCase.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15479,7 +15490,7 @@ var mergeClasses = (...classes) => classes.filter((className, index, array) => {
 */
 var toKebabCase = (string) => string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/shared/src/utils/toCamelCase.mjs
+//#region node_modules/lucide-react/dist/esm/shared/src/utils/toCamelCase.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15488,7 +15499,7 @@ var toKebabCase = (string) => string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLo
 */
 var toCamelCase$1 = (string) => string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) => p2 ? p2.toUpperCase() : p1.toLowerCase());
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/shared/src/utils/toPascalCase.mjs
+//#region node_modules/lucide-react/dist/esm/shared/src/utils/toPascalCase.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15500,7 +15511,7 @@ var toPascalCase = (string) => {
 	return camelCase.charAt(0).toUpperCase() + camelCase.slice(1);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/Icon.mjs
+//#region node_modules/lucide-react/dist/esm/Icon.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15509,9 +15520,9 @@ var toPascalCase = (string) => {
 */
 var Icon_default = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'default' is called on server");
-}, "59563bc54910", "default");
+}, "339f946bc456", "default");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/lucide-react/dist/esm/createLucideIcon.mjs
+//#region node_modules/lucide-react/dist/esm/createLucideIcon.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15542,7 +15553,7 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 	key: "xquz4c"
 }]]);
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/shims/image.js
+//#region node_modules/vinext/dist/shims/image.js
 /**
 * next/image shim
 *
@@ -20319,7 +20330,7 @@ function HomePageContent({ content }) {
 	});
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/entity.js
+//#region node_modules/drizzle-orm/entity.js
 var entityKind = Symbol.for("drizzle:entityKind");
 function is(value, type) {
 	if (!value || typeof value !== "object") return false;
@@ -20333,7 +20344,7 @@ function is(value, type) {
 	return false;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/column.js
+//#region node_modules/drizzle-orm/column.js
 var Column = class {
 	constructor(table, config) {
 		this.table = table;
@@ -20383,7 +20394,7 @@ var Column = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/column-builder.js
+//#region node_modules/drizzle-orm/column-builder.js
 var ColumnBuilder = class {
 	static [entityKind] = "ColumnBuilder";
 	config;
@@ -20486,16 +20497,16 @@ var ColumnBuilder = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/table.utils.js
+//#region node_modules/drizzle-orm/table.utils.js
 var TableName = Symbol.for("drizzle:Name");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/pg-core/columns/enum.js
+//#region node_modules/drizzle-orm/pg-core/columns/enum.js
 var isPgEnumSym = Symbol.for("drizzle:isPgEnum");
 function isPgEnum(obj) {
 	return !!obj && typeof obj === "function" && isPgEnumSym in obj && obj[isPgEnumSym] === true;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/subquery.js
+//#region node_modules/drizzle-orm/subquery.js
 var Subquery = class {
 	static [entityKind] = "Subquery";
 	constructor(sql, fields, alias, isWith = false, usedTables = []) {
@@ -20513,15 +20524,15 @@ var WithSubquery = class extends Subquery {
 	static [entityKind] = "WithSubquery";
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/tracing.js
+//#region node_modules/drizzle-orm/tracing.js
 var tracer = { startActiveSpan(name, fn) {
 	return fn();
 } };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/view-common.js
+//#region node_modules/drizzle-orm/view-common.js
 var ViewBaseConfig = Symbol.for("drizzle:ViewBaseConfig");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/table.js
+//#region node_modules/drizzle-orm/table.js
 var Schema = Symbol.for("drizzle:Schema");
 var Columns = Symbol.for("drizzle:Columns");
 var ExtraConfigColumns = Symbol.for("drizzle:ExtraConfigColumns");
@@ -20583,7 +20594,7 @@ function getTableUniqueName(table) {
 	return `${table[Schema] ?? "public"}.${table[TableName]}`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sql/sql.js
+//#region node_modules/drizzle-orm/sql/sql.js
 function isSQLWrapper(value) {
 	return value !== null && value !== void 0 && typeof value.getSQL === "function";
 }
@@ -20954,7 +20965,7 @@ Subquery.prototype.getSQL = function() {
 	return new SQL([this]);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/alias.js
+//#region node_modules/drizzle-orm/alias.js
 var ColumnAliasProxyHandler = class {
 	constructor(table) {
 		this.table = table;
@@ -21012,7 +21023,7 @@ function mapColumnsInSQLToAlias(query, alias) {
 	}));
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/errors.js
+//#region node_modules/drizzle-orm/errors.js
 var DrizzleError = class extends Error {
 	static [entityKind] = "DrizzleError";
 	constructor({ message, cause }) {
@@ -21039,7 +21050,7 @@ var TransactionRollbackError = class extends DrizzleError {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/logger.js
+//#region node_modules/drizzle-orm/logger.js
 var ConsoleLogWriter = class {
 	static [entityKind] = "ConsoleLogWriter";
 	write(message) {
@@ -21069,7 +21080,7 @@ var NoopLogger = class {
 	logQuery() {}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/query-promise.js
+//#region node_modules/drizzle-orm/query-promise.js
 var QueryPromise = class {
 	static [entityKind] = "QueryPromise";
 	[Symbol.toStringTag] = "QueryPromise";
@@ -21090,7 +21101,7 @@ var QueryPromise = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/utils.js
+//#region node_modules/drizzle-orm/utils.js
 function mapResultRow(columns, row, joinsNotNullableMap) {
 	const nullifyMap = {};
 	const result = columns.reduce((result2, { path, field }, columnIndex) => {
@@ -21167,7 +21178,7 @@ function getColumnNameAndConfig(a, b) {
 }
 var textDecoder = typeof TextDecoder === "undefined" ? null : new TextDecoder();
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/pg-core/table.js
+//#region node_modules/drizzle-orm/pg-core/table.js
 var InlineForeignKeys$1 = Symbol.for("drizzle:PgInlineForeignKeys");
 var EnableRLS = Symbol.for("drizzle:EnableRLS");
 var PgTable = class extends Table {
@@ -21187,7 +21198,7 @@ var PgTable = class extends Table {
 	[Table.Symbol.ExtraConfigColumns] = {};
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/pg-core/primary-keys.js
+//#region node_modules/drizzle-orm/pg-core/primary-keys.js
 var PrimaryKeyBuilder = class {
 	static [entityKind] = "PgPrimaryKeyBuilder";
 	/** @internal */
@@ -21217,7 +21228,7 @@ var PrimaryKey = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sql/expressions/conditions.js
+//#region node_modules/drizzle-orm/sql/expressions/conditions.js
 function bindIfParam(value, column) {
 	if (isDriverValueEncoder(column) && !isSQLWrapper(value) && !is(value, Param) && !is(value, Placeholder) && !is(value, Column) && !is(value, Table) && !is(value, View)) return new Param(value, column);
 	return value;
@@ -21308,7 +21319,7 @@ function notIlike(column, value) {
 	return sql`${column} not ilike ${value}`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sql/expressions/select.js
+//#region node_modules/drizzle-orm/sql/expressions/select.js
 function asc(column) {
 	return sql`${column} asc`;
 }
@@ -21316,7 +21327,7 @@ function desc(column) {
 	return sql`${column} desc`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/relations.js
+//#region node_modules/drizzle-orm/relations.js
 var Relation = class {
 	constructor(sourceTable, referencedTable, relationName) {
 		this.sourceTable = sourceTable;
@@ -21492,7 +21503,7 @@ function mapRelationalRow(tablesConfig, tableConfig, row, buildQueryResultSelect
 	return result;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/selection-proxy.js
+//#region node_modules/drizzle-orm/selection-proxy.js
 var SelectionProxyHandler = class SelectionProxyHandler {
 	static [entityKind] = "SelectionProxyHandler";
 	config;
@@ -21529,7 +21540,7 @@ var SelectionProxyHandler = class SelectionProxyHandler {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/foreign-keys.js
+//#region node_modules/drizzle-orm/sqlite-core/foreign-keys.js
 var ForeignKeyBuilder = class {
 	static [entityKind] = "SQLiteForeignKeyBuilder";
 	/** @internal */
@@ -21591,12 +21602,12 @@ var ForeignKey = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/unique-constraint.js
+//#region node_modules/drizzle-orm/sqlite-core/unique-constraint.js
 function uniqueKeyName(table, columns) {
 	return `${table[TableName]}_${columns.join("_")}_unique`;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/common.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/common.js
 var SQLiteColumnBuilder = class extends ColumnBuilder {
 	static [entityKind] = "SQLiteColumnBuilder";
 	foreignKeyConfigs = [];
@@ -21647,7 +21658,7 @@ var SQLiteColumn = class extends Column {
 	static [entityKind] = "SQLiteColumn";
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/blob.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/blob.js
 var SQLiteBigIntBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteBigIntBuilder";
 	constructor(name) {
@@ -21727,7 +21738,7 @@ function blob(a, b) {
 	return new SQLiteBlobBufferBuilder(name);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/custom.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/custom.js
 var SQLiteCustomColumnBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteCustomColumnBuilder";
 	constructor(name, fieldConfig, customTypeParams) {
@@ -21768,7 +21779,7 @@ function customType(customTypeParams) {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/integer.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/integer.js
 var SQLiteBaseIntegerBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteBaseIntegerBuilder";
 	constructor(name, dataType, columnType) {
@@ -21858,7 +21869,7 @@ function integer(a, b) {
 	return new SQLiteIntegerBuilder(name);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/numeric.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/numeric.js
 var SQLiteNumericBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteNumericBuilder";
 	constructor(name) {
@@ -21924,7 +21935,7 @@ function numeric(a, b) {
 	return mode === "number" ? new SQLiteNumericNumberBuilder(name) : mode === "bigint" ? new SQLiteNumericBigIntBuilder(name) : new SQLiteNumericBuilder(name);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/real.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/real.js
 var SQLiteRealBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteRealBuilder";
 	constructor(name) {
@@ -21945,7 +21956,7 @@ function real(name) {
 	return new SQLiteRealBuilder(name ?? "");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/text.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/text.js
 var SQLiteTextBuilder = class extends SQLiteColumnBuilder {
 	static [entityKind] = "SQLiteTextBuilder";
 	constructor(name, config) {
@@ -21997,7 +22008,7 @@ function text$1(a, b = {}) {
 	return new SQLiteTextBuilder(name, config);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/columns/all.js
+//#region node_modules/drizzle-orm/sqlite-core/columns/all.js
 function getSQLiteColumnBuilders() {
 	return {
 		blob,
@@ -22009,7 +22020,7 @@ function getSQLiteColumnBuilders() {
 	};
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/table.js
+//#region node_modules/drizzle-orm/sqlite-core/table.js
 var InlineForeignKeys = Symbol.for("drizzle:SQLiteInlineForeignKeys");
 var SQLiteTable = class extends Table {
 	static [entityKind] = "SQLiteTable";
@@ -22042,7 +22053,7 @@ var sqliteTable = (name, columns, extraConfig) => {
 	return sqliteTableBase(name, columns, extraConfig);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/indexes.js
+//#region node_modules/drizzle-orm/sqlite-core/indexes.js
 var IndexBuilderOn = class {
 	constructor(name, unique) {
 		this.name = name;
@@ -22094,7 +22105,7 @@ function uniqueIndex(name) {
 	return new IndexBuilderOn(name, true);
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/utils.js
+//#region node_modules/drizzle-orm/sqlite-core/utils.js
 function extractUsedTable(table) {
 	if (is(table, SQLiteTable)) return [`${table[Table.Symbol.BaseName]}`];
 	if (is(table, Subquery)) return table._.usedTables ?? [];
@@ -22102,7 +22113,7 @@ function extractUsedTable(table) {
 	return [];
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/delete.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/delete.js
 var SQLiteDeleteBase = class extends QueryPromise {
 	constructor(table, session, dialect, withList) {
 		super();
@@ -22210,7 +22221,7 @@ var SQLiteDeleteBase = class extends QueryPromise {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/casing.js
+//#region node_modules/drizzle-orm/casing.js
 function toSnakeCase(input) {
 	return (input.replace(/['\u2019]/g, "").match(/[\da-z]+|[A-Z]+(?![a-z])|[A-Z][\da-z]+/g) ?? []).map((word) => word.toLowerCase()).join("_");
 }
@@ -22253,12 +22264,12 @@ var CasingCache = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/view-base.js
+//#region node_modules/drizzle-orm/sqlite-core/view-base.js
 var SQLiteViewBase = class extends View {
 	static [entityKind] = "SQLiteViewBase";
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/dialect.js
+//#region node_modules/drizzle-orm/sqlite-core/dialect.js
 var SQLiteDialect = class {
 	static [entityKind] = "SQLiteDialect";
 	/** @internal */
@@ -22705,7 +22716,7 @@ var SQLiteAsyncDialect = class extends SQLiteDialect {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/query-builders/query-builder.js
+//#region node_modules/drizzle-orm/query-builders/query-builder.js
 var TypedQueryBuilder = class {
 	static [entityKind] = "TypedQueryBuilder";
 	/** @internal */
@@ -22714,7 +22725,7 @@ var TypedQueryBuilder = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/select.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/select.js
 var SQLiteSelectBuilder = class {
 	static [entityKind] = "SQLiteSelectBuilder";
 	fields;
@@ -23320,7 +23331,7 @@ var unionAll = createSetOperator("union", true);
 var intersect = createSetOperator("intersect", false);
 var except = createSetOperator("except", false);
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/query-builder.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/query-builder.js
 var QueryBuilder = class {
 	static [entityKind] = "SQLiteQueryBuilder";
 	dialect;
@@ -23386,7 +23397,7 @@ var QueryBuilder = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/insert.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/insert.js
 var SQLiteInsertBuilder = class {
 	constructor(table, session, dialect, withList) {
 		this.table = table;
@@ -23544,7 +23555,7 @@ var SQLiteInsertBase = class extends QueryPromise {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/update.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/update.js
 var SQLiteUpdateBuilder = class {
 	constructor(table, session, dialect, withList) {
 		this.table = table;
@@ -23700,7 +23711,7 @@ var SQLiteUpdateBase = class extends QueryPromise {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/count.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/count.js
 var SQLiteCountBuilder = class SQLiteCountBuilder extends SQL {
 	constructor(params) {
 		super(SQLiteCountBuilder.buildEmbeddedCount(params.source, params.filters).queryChunks);
@@ -23735,7 +23746,7 @@ var SQLiteCountBuilder = class SQLiteCountBuilder extends SQL {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/query.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/query.js
 var RelationalQueryBuilder = class {
 	constructor(mode, fullSchema, schema, tableNamesMap, table, tableConfig, dialect, session) {
 		this.mode = mode;
@@ -23835,7 +23846,7 @@ var SQLiteSyncRelationalQuery = class extends SQLiteRelationalQuery {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/query-builders/raw.js
+//#region node_modules/drizzle-orm/sqlite-core/query-builders/raw.js
 var SQLiteRaw = class extends QueryPromise {
 	constructor(execute, getSQL, action, dialect, mapBatchResult) {
 		super();
@@ -23866,7 +23877,7 @@ var SQLiteRaw = class extends QueryPromise {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/db.js
+//#region node_modules/drizzle-orm/sqlite-core/db.js
 var BaseSQLiteDatabase = class {
 	constructor(resultKind, dialect, session, schema) {
 		this.resultKind = resultKind;
@@ -24119,7 +24130,7 @@ var BaseSQLiteDatabase = class {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/cache/core/cache.js
+//#region node_modules/drizzle-orm/cache/core/cache.js
 var Cache = class {
 	static [entityKind] = "Cache";
 };
@@ -24139,7 +24150,7 @@ async function hashQuery(sql, params) {
 	return [...new Uint8Array(hashBuffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/sqlite-core/session.js
+//#region node_modules/drizzle-orm/sqlite-core/session.js
 var ExecuteResultSync = class extends QueryPromise {
 	constructor(resultCb) {
 		super();
@@ -24297,7 +24308,7 @@ var SQLiteTransaction = class extends BaseSQLiteDatabase {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/d1/session.js
+//#region node_modules/drizzle-orm/d1/session.js
 var SQLiteD1Session = class extends SQLiteSession {
 	constructor(client, dialect, schema, options = {}) {
 		super(dialect);
@@ -24448,7 +24459,7 @@ var D1PreparedQuery = class extends SQLitePreparedQuery {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/drizzle-orm/d1/driver.js
+//#region node_modules/drizzle-orm/d1/driver.js
 var DrizzleD1Database = class extends BaseSQLiteDatabase {
 	static [entityKind] = "D1Database";
 	async batch(batch) {
@@ -24818,7 +24829,7 @@ async function getDb() {
 	return drizzle(env.DB, { schema: schema_exports });
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/helpers/util.js
+//#region node_modules/zod/v3/helpers/util.js
 var util;
 (function(util) {
 	util.assertEqual = (_) => {};
@@ -24914,7 +24925,7 @@ var getParsedType = (data) => {
 	}
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/ZodError.js
+//#region node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
 	"invalid_type",
 	"invalid_literal",
@@ -25013,7 +25024,7 @@ ZodError.create = (issues) => {
 	return new ZodError(issues);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/locales/en.js
+//#region node_modules/zod/v3/locales/en.js
 var errorMap = (issue, _ctx) => {
 	let message;
 	switch (issue.code) {
@@ -25090,13 +25101,13 @@ var errorMap = (issue, _ctx) => {
 	return { message };
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/errors.js
+//#region node_modules/zod/v3/errors.js
 var overrideErrorMap = errorMap;
 function getErrorMap() {
 	return overrideErrorMap;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/helpers/parseUtil.js
+//#region node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
 	const { data, path, errorMaps, issueData } = params;
 	const fullPath = [...path, ...issueData.path || []];
@@ -25200,14 +25211,14 @@ var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/helpers/errorUtil.js
+//#region node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil) {
 	errorUtil.errToObj = (message) => typeof message === "string" ? { message } : message || {};
 	errorUtil.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/zod/v3/types.js
+//#region node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
 	constructor(parent, value, path, key) {
 		this._cachedPath = [];
@@ -30051,7 +30062,7 @@ async function GET$16(request) {
 	}
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/oauth4webapi/build/index.js
+//#region node_modules/oauth4webapi/build/index.js
 var USER_AGENT;
 if (typeof navigator === "undefined" || !navigator.userAgent?.startsWith?.("Mozilla/5.0 ")) USER_AGENT = `oauth4webapi/v3.8.8`;
 function looseInstanceOf(input, expected) {
@@ -37984,7 +37995,7 @@ var DesignFormExample = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'DesignFormExample' is called on server");
 }, "bc47afd51a73", "DesignFormExample");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/clsx/dist/clsx.mjs
+//#region node_modules/clsx/dist/clsx.mjs
 function r(e) {
 	var t, f, n = "";
 	if ("string" == typeof e || "number" == typeof e) n += e;
@@ -37999,7 +38010,7 @@ function clsx() {
 	return n;
 }
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/class-variance-authority/dist/index.mjs
+//#region node_modules/class-variance-authority/dist/index.mjs
 /**
 * Copyright 2022 Joe Bell. All rights reserved.
 *
@@ -38052,7 +38063,7 @@ var cva = (base, config) => (props) => {
 	}, []), props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
 };
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/radix-ui/node_modules/@radix-ui/react-compose-refs/dist/index.mjs
+//#region node_modules/radix-ui/node_modules/@radix-ui/react-compose-refs/dist/index.mjs
 var __defProp$1 = Object.defineProperty;
 var __name$1 = (target, value) => __defProp$1(target, "name", {
 	value,
@@ -38086,7 +38097,7 @@ function useComposedRefs(...refs) {
 }
 __name$1(useComposedRefs, "useComposedRefs");
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/radix-ui/node_modules/@radix-ui/react-slot/dist/index.mjs
+//#region node_modules/radix-ui/node_modules/@radix-ui/react-slot/dist/index.mjs
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", {
 	value,
@@ -38199,7 +38210,7 @@ var createSlottableError = /* @__PURE__ */ __name((ownerName) => {
 }, "createSlottableError");
 var use = import_react_react_server[" use ".trim().toString()];
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/tailwind-merge/dist/bundle-mjs.mjs
+//#region node_modules/tailwind-merge/dist/bundle-mjs.mjs
 /**
 * Concatenates two arrays faster than the array spread operator.
 */
@@ -46981,10 +46992,14 @@ async function GET(_request, context) {
 //#region app/robots.ts
 var robots_exports = /* @__PURE__ */ __exportAll({ default: () => robots });
 function robots() {
-	return { rules: [{
-		userAgent: "*",
-		allow: "/"
-	}] };
+	return {
+		rules: [{
+			userAgent: "*",
+			allow: ["/", "/api/media/"],
+			disallow: [...PRIVATE_PATHS, "/api/"]
+		}],
+		sitemap: SITE_ORIGIN + "/sitemap.xml"
+	};
 }
 //#endregion
 //#region app/sitemap.ts
@@ -47146,10 +47161,13 @@ async function publicSitemapCandidates() {
 			changeFrequency: "monthly",
 			priority: .75
 		}))
-	];
+	].filter((entry) => {
+		const path = new URL(entry.url).pathname;
+		return !isPrivatePath(path) && !isPersonalizedPublicRoute(path);
+	});
 }
 async function sitemap() {
-	return [];
+	return publicSitemapCandidates();
 }
 //#endregion
 //#region \0virtual:vinext-rsc-entry
@@ -49815,7 +49833,7 @@ var metadataRoutes = [{
 	routeSegments: [],
 	servedUrl: "/sitemap.xml",
 	contentType: "application/xml",
-	contentHash: "5cf60739a1524beb",
+	contentHash: "b88d85584fefcb80",
 	module: sitemap_exports
 }];
 var rootNotFoundModule = null;
@@ -50779,7 +50797,7 @@ var _virtual_vinext_rsc_entry_default = createAppRscHandler({
 	validateDevRequestOrigin: __validateDevRequestOrigin
 });
 //#endregion
-//#region ../venezuela-agro-auth/node_modules/vinext/dist/server/app-router-entry.js
+//#region node_modules/vinext/dist/server/app-router-entry.js
 /**
 * Default Cloudflare Worker entry point for vinext App Router.
 *
@@ -50906,7 +50924,6 @@ var worker = { async fetch(request, env, ctx) {
 function secureResponse(source, url) {
 	const pathname = url.pathname;
 	const response = new Response(source.body, source);
-	response.headers.set("x-robots-tag", "noindex, nofollow");
 	response.headers.set("x-content-type-options", "nosniff");
 	if (!response.headers.has("referrer-policy")) response.headers.set("referrer-policy", "strict-origin-when-cross-origin");
 	response.headers.set("x-frame-options", "DENY");
@@ -50918,6 +50935,7 @@ function secureResponse(source, url) {
 	if (/^\/(?:app|admin|marketplace\/publicar|empresas\/registro|profesionales|proyectos|red|fincas)(?:\/|$)/.test(pathname)) response.headers.set("cache-control", "private, no-store");
 	if (pathname.startsWith("/auth/")) response.headers.set("cache-control", "private, no-store");
 	if (pathname.startsWith("/api/") && !pathname.startsWith("/api/media/")) response.headers.set("cache-control", "private, no-store");
+	if (responseMustRemainNoindex(url, response.status, response.headers.get("cache-control"))) response.headers.set("x-robots-tag", "noindex, nofollow");
 	return response;
 }
 //#endregion

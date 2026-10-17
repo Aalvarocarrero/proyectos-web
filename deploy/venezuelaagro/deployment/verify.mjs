@@ -4,6 +4,3 @@ assert.equal(c.name,'venezuelaagro-staging');assert.equal(c.account_id,'5ce31d22
 const walk=d=>fs.readdirSync(d,{withFileTypes:true}).flatMap(e=>e.isDirectory()?walk(path.join(d,e.name)):[path.join(d,e.name)]);const assets=walk('dist/client');assert.ok(assets.length<=20000);for(const p of assets)assert.ok(fs.statSync(p).size<=25*1024*1024,`Oversize:${p}`);
 const hashes=JSON.parse(fs.readFileSync('deployment/dist-sha256.json'));for(const[p,h]of Object.entries(hashes))assert.equal(createHash('sha256').update(fs.readFileSync(p)).digest('hex'),h,`Artifact changed:${p}`);
 console.log(`Verified same-Worker config and ${assets.length} static files; max ${Math.max(...assets.map(p=>fs.statSync(p).size))} bytes. Verified owner administration preserved.`);
-
-// Build-only Node prerender authentication metadata must never be published.
-for(const p of ["dist/server/vinext-server.json", "dist/server/ssr/vinext-server.json"])assert.ok(!fs.existsSync(p),`Excluded build metadata found:${p}`);

@@ -1,4 +1,4 @@
-const VERSION = "morochos-v33800833767489";
+const VERSION = "morochos-v8684680958431";
 const STATIC_CACHE = VERSION + "-static";
 const PAGE_CACHE = VERSION + "-pages";
 const API_CACHE = VERSION + "-api";

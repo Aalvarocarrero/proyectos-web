@@ -1,0 +1,1 @@
+import{r as e}from"./rolldown-runtime-S-ySWqyJ.js";import{i as t}from"./framework-CXnKph_e.js";import{c as n}from"./index-BLkX0tqb.js";var r=e(t(),1);function i(){let e=n(),t=e===`/juego-finca`||e.startsWith(`/juego-finca/`);return(0,r.useEffect)(()=>{t||navigator.serviceWorker?.register(`/sw.js`).catch(()=>void 0)},[t]),null}export{i as OfflineWorkerRegistration};

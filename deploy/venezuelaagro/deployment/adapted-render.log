@@ -1,0 +1,65 @@
+✔ only CSS-only placeholders with preserved styles are eligible for reconciliation (2.245212ms)
+✔ deleted CSS placeholder preload is removed while its stylesheet remains (0.306994ms)
+✔ missing real JavaScript or missing CSS makes the build fail closed (0.346204ms)
+✔ existing placeholders and subpath bases retain valid dependencies (0.149516ms)
+Public profesionales records temporarily unavailable.
+Public profesionales records temporarily unavailable.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+✔ rendered routes preload only files present in the packaged client (563.367787ms)
+✔ five source-grounded guides are included once with dated primary references and exercises (1.344381ms)
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+✔ online and downloaded guides show sources; library logo has an explicit cream-surface tone (2.059261ms)
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+✔ all five built article routes render full text, source links, and private-preview metadata (396.825388ms)
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+✔ renders platform branding and production search metadata (328.506657ms)
+✔ opens Mi Finca in device-local mode when no account session is available (43.520964ms)
+Public profesionales records temporarily unavailable.
+Public profesionales records temporarily unavailable.
+Public proyectos records temporarily unavailable.
+Public proyectos records temporarily unavailable.
+✔ learning guides remain readable if the content database is temporarily unavailable (132.669196ms)
+Knowledge database unavailable; serving built-in educational content.
+Public sitemap database unavailable; returning principal pages and built-in guides.
+✔ principal public pages and SEO endpoints stay available without a database connection (144.453136ms)
+✔ offline shell contains full farm controls and no authenticated account identity (8.476467ms)
+✔ downloaded library shell and every required reference page render without private identity or no-store responses (203.073298ms)
+✔ home market category links preserve exact labels independently of emoji width (18.668676ms)
+ℹ tests 15
+ℹ suites 0
+ℹ pass 15
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2532.542317
