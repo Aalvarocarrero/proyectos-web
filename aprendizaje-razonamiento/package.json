@@ -1,10 +1,10 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.17.0",
+  "version": "0.18.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs tests/welcome.test.mjs tests/local-speech.test.mjs tests/construction.test.mjs",
+    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs tests/welcome.test.mjs tests/local-speech.test.mjs tests/construction.test.mjs tests/exploration.test.mjs",
     "test:static": "python3 tests/static_a11y.py",
     "test:dom": "node --test tests/dom.test.cjs",
     "test:browser": "node tests/browser.cjs",
@@ -19,6 +19,7 @@
     "test:welcome-fixes": "node tests/welcome-fixes-browser.cjs",
     "test:speech": "node tests/speech-browser.cjs",
     "test:dashboard": "node tests/dashboard-browser.cjs",
-    "test:construction": "node tests/construction-browser.cjs"
+    "test:construction": "node tests/construction-browser.cjs",
+    "test:exploration": "node tests/exploration-browser.cjs"
   }
 }

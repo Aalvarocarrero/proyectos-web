@@ -1,0 +1,5 @@
+
+> aprendizaje-razonamiento-prototipo@0.18.0 test:navigation
+> node tests/navigation-browser.cjs
+
+{ checks: 219, errors: [] }

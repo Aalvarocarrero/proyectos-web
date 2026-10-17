@@ -1,0 +1,10 @@
+
+> aprendizaje-razonamiento-prototipo@0.18.0 test:exploration
+> node tests/exploration-browser.cjs
+
+{
+  checks: 155,
+  errors: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: 'Visible studio entries; original construction discovery; science confounds, changed question, records, results; adult story alternatives and offscreen boundary; pause/reload, focus, touch/keyboard, 200% text and CSP.'
+}

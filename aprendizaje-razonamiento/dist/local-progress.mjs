@@ -1,3 +1,4 @@
+import {validateExploration} from './exploration.mjs';
 import {validateConstruction} from './construction.mjs';
 import {scienceIds,scienceGames} from './science-games.mjs';
 import {languageIds,concepts} from './languages.mjs';
@@ -44,7 +45,7 @@ function wordState(raw){
  return out;
 }
 function state(raw,id,activity,runtime){
- keys(raw,[...stateFields,'garden','gardenFocus','words','language','science','construction',...(runtime?['feedback','unitFeedback']:[])]);
+ keys(raw,[...stateFields,'garden','gardenFocus','words','language','science','construction','exploration',...(runtime?['feedback','unitFeedback']:[])]);
  const defaults=fresh(),s={};for(const k of stateFields)s[k]=Object.hasOwn(raw,k)?raw[k]:defaults[k];
  choice(s.phase,sessionPhases);choice(s.unitPage,unitPages.map(([id])=>id));
  keys(s.unitAnswers,Object.keys(unitQuestions));keys(s.unitHints,Object.keys(unitQuestions));
@@ -59,6 +60,7 @@ function state(raw,id,activity,runtime){
  s.story=list(s.story,storyCards.map(c=>c.id),3,true);if(s.story.length!==3)fail();choice(s.storyChoice,[null,'paper','car']);
  integer(s.evidenceStep,0,evidenceQuestions.length-1);choice(s.evidenceChoice,[null,...evidenceQuestions[s.evidenceStep].options.map(o=>o.id)]);
  for(const k of ['extraCorrect','challenge','storyChecked','storyReason','evidenceCorrect','evidenceDone','success'])bool(s[k]);
+ if(Object.hasOwn(raw,'exploration')){if(!((id==='7y'&&activity==='extra')||(id==='2y'&&activity==='original')))fail();s.exploration=validateExploration(raw.exploration,id);}
  if(Object.hasOwn(raw,'construction')){if(activity!=='extra')fail();s.construction=validateConstruction(raw.construction,id);}
  if(Object.hasOwn(raw,'science')){if(id!=='5y'||!scienceIds.includes(activity))fail();const g=raw.science,steps=scienceGames[activity].steps;keys(g,['page','step','answers']);choice(g.page,['guide','play']);integer(g.step,0,steps.length-1);if(!Array.isArray(g.answers)||g.answers.length!==steps.length)fail();s.science={page:g.page,step:g.step,answers:g.answers.map((a,i)=>{keys(a,['choice','reason','checked']);choice(a.choice,[null,...steps[i].options.map(o=>o.id)]);choice(a.reason,[null,...steps[i].reasons.map(r=>r.id)]);bool(a.checked);if(a.checked&&(!a.choice||!a.reason))fail();return {...a};})};}
  if(Object.hasOwn(raw,'language')){if(id!=='5y'||!languageIds.includes(activity))fail();const l=raw.language;keys(l,['page','step','choice','checked']);s.language={page:choice(l.page,['guide','practice']),step:integer(l.step,0,concepts.length-1),choice:choice(l.choice,[null,...concepts.map(c=>c.id)]),checked:bool(l.checked)};if(l.checked&&!l.choice)fail();}
