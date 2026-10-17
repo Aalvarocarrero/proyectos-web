@@ -1,0 +1,15 @@
+{
+  "base": "8d4da886c73b4aa483cdf37a1d39cfd8fe7c4755",
+  "byteIdentical": {
+    "local-speech.mjs": true,
+    "language-audio.mjs": true,
+    "progress-session.mjs": true,
+    "welcome.mjs": true,
+    "dashboard.mjs": true,
+    "companion.mjs": true,
+    "languages.mjs": true,
+    "science-games.mjs": true,
+    "reflection.mjs": true,
+    "logic.mjs": true
+  }
+}

@@ -108,3 +108,8 @@ body.garden-focus{background:#f4f6f0}.garden-focus .hero,.garden-focus .values-s
 
 /* Native selectors must shrink with enlarged text in narrow grids. */
 .dashboard-stage>div,.dashboard-columns>div{min-width:0}.dashboard-stage select{width:100%;min-width:0}.dashboard h2,.dashboard-stage label{overflow-wrap:anywhere}
+
+/* Construction studios: no drag, timers or motion; equivalent text for symbols. */
+.construction-entry{padding:20px;margin-bottom:28px;background:#edf2e5;border:1px solid #a4b39a;border-radius:18px}.construction{max-width:900px;margin:auto;overflow-wrap:anywhere}.construction h4{font:normal 30px/1.2 Georgia,serif}.construction-steps{display:flex;flex-wrap:wrap;gap:12px 30px;padding:18px 18px 18px 38px;background:#e9eedf;border-radius:16px}.construction-steps [aria-current]{font-weight:800;text-decoration:underline}.construction-items{display:flex;flex-wrap:wrap;gap:10px;padding:12px 12px 12px 30px}.construction-items li{margin:8px 12px;padding:12px;border:1px solid #9aaa90;border-radius:12px;background:#fffdf7}.construction-rule{padding:16px;border-left:4px solid #215747;background:#e9eedf}.construction button{white-space:normal;min-height:44px;max-width:100%}.construction button[aria-pressed=true]{background:#215747;color:#fffdf7}.construction-grid{margin-block:18px}.construction-grid span{overflow-wrap:anywhere}#construction-feedback:focus{outline:3px solid #8d3e15;outline-offset:4px}
+
+.construction button:disabled{opacity:1;background:#e9ede3;color:#596553;border-color:#a4b39a;cursor:not-allowed}
