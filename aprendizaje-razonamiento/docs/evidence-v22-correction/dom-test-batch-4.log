@@ -1,0 +1,52 @@
+TAP version 13
+# Subtest: speech cancellation failure remains visible after leaving or replacing the language panel
+ok 1 - speech cancellation failure remains visible after leaving or replacing the language panel
+  ---
+  duration_ms: 112.634052
+  type: 'test'
+  ...
+# Subtest: failed Repeat exposes the cancellation warning and sends no additional utterance
+ok 2 - failed Repeat exposes the cancellation warning and sends no additional utterance
+  ---
+  duration_ms: 17.956272
+  type: 'test'
+  ...
+# Subtest: dashboard exposes all areas, languages and utilities without onboarding or writes
+ok 3 - dashboard exposes all areas, languages and utilities without onboarding or writes
+  ---
+  duration_ms: 212.118154
+  type: 'test'
+  ...
+# Subtest: dashboard band does not alter progress; adult guides and exact destinations remain reachable
+ok 4 - dashboard band does not alter progress; adult guides and exact destinations remain reachable
+  ---
+  duration_ms: 157.78136
+  type: 'test'
+  ...
+# Subtest: brand return keeps focus on the dashboard heading without rewriting saved progress
+ok 5 - brand return keeps focus on the dashboard heading without rewriting saved progress
+  ---
+  duration_ms: 164.227106
+  type: 'test'
+  ...
+# Subtest: catalog collapse keeps a failed speech cancellation warning outside closed details
+ok 6 - catalog collapse keeps a failed speech cancellation warning outside closed details
+  ---
+  duration_ms: 29.861561
+  type: 'test'
+  ...
+# Subtest: successful explicit speech after a failed stop clears the stale global warning
+ok 7 - successful explicit speech after a failed stop clears the stale global warning
+  ---
+  duration_ms: 12.763987
+  type: 'test'
+  ...
+1..7
+# tests 7
+# suites 0
+# pass 7
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 1215.632172

@@ -1,0 +1,26 @@
+[
+  {
+    "batch": 1,
+    "selected": 25,
+    "exit": 0,
+    "summary": "den pages keep unique IDs, accessible controls and ephemeral independent state\n  ---\n  duration_ms: 135.387672\n  type: 'test'\n  ...\n1..25\n# tests 25\n# suites 0\n# pass 25\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 9639.712561\n"
+  },
+  {
+    "batch": 2,
+    "selected": 25,
+    "exit": 0,
+    "summary": "lemented pilot\nok 25 - science disciplines expose only their implemented pilot\n  ---\n  duration_ms: 40.239092\n  type: 'test'\n  ...\n1..25\n# tests 25\n# suites 0\n# pass 25\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 12305.696107\n"
+  },
+  {
+    "batch": 3,
+    "selected": 25,
+    "exit": 0,
+    "summary": "ntinue identifies each language after returning home and reloading v4 progress\n  ---\n  duration_ms: 605.267457\n  type: 'test'\n  ...\n1..25\n# tests 25\n# suites 0\n# pass 25\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 10195.98073\n"
+  },
+  {
+    "batch": 4,
+    "selected": 7,
+    "exit": 0,
+    "summary": "7 - successful explicit speech after a failed stop clears the stale global warning\n  ---\n  duration_ms: 12.763987\n  type: 'test'\n  ...\n1..7\n# tests 7\n# suites 0\n# pass 7\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 1215.632172\n"
+  }
+]

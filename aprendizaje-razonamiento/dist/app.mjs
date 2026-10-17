@@ -168,7 +168,7 @@ document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_
 
 document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
 renderAreas();renderStages();renderPanel();renderProgress();
-for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home, .language-audio');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home, .language-audio, .brand');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
 
 function openRoute(key){
  const entry=catalog.find(a=>a.key===key);if(!entry)return;
