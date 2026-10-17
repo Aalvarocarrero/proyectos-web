@@ -1,0 +1,11 @@
+
+> aprendizaje-razonamiento-prototipo@0.16.0 test:welcome
+> node tests/welcome-browser.cjs
+
+{
+  checks: 196,
+  errors: [],
+  external: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: 'Guided entry, six bands, adult guides, native touch and keyboard, opt-in preferences, unchanged game data, legacy return, reload and storage failure. Chromium, not Safari/device certification.'
+}

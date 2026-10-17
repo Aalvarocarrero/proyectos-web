@@ -1,0 +1,11 @@
+
+> aprendizaje-razonamiento-prototipo@0.16.0 test:speech
+> node tests/speech-browser.cjs
+
+{
+  checks: 186,
+  errors: [],
+  native: { api: true, voices: 0, localEnglish: false },
+  audioHeard: false,
+  scope: 'UI and lifecycle using explicit API stubs, native capability discovery only. No acoustic validation, no Safari/iOS hardware.'
+}

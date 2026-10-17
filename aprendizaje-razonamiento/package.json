@@ -1,6 +1,6 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.15.0",
+  "version": "0.16.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -17,6 +17,7 @@
     "test:guidance": "node tests/guidance-browser.cjs",
     "test:welcome": "node tests/welcome-browser.cjs",
     "test:welcome-fixes": "node tests/welcome-fixes-browser.cjs",
-    "test:speech": "node tests/speech-browser.cjs"
+    "test:speech": "node tests/speech-browser.cjs",
+    "test:dashboard": "node tests/dashboard-browser.cjs"
   }
 }

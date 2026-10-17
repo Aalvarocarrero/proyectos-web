@@ -1,0 +1,10 @@
+
+> aprendizaje-razonamiento-prototipo@0.16.0 test:dashboard
+> node tests/dashboard-browser.cjs
+
+{
+  checks: 245,
+  errors: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: 'Direct visible areas, subjects, languages, games and tools; keyboard/touch, exact destinations and focus, adult guide, reload and unchanged progress. Semantic accessibility checks, not a screen-reader user test.'
+}
