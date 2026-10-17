@@ -1,5 +1,5 @@
 const {chromium}=require('playwright'),assert=require('node:assert/strict'),fs=require('node:fs');
-(async()=>{let checks=0;const errors=[],check=(value,label)=>{assert.ok(value,label);checks++},b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});const dir='docs/evidence-v24';try{
+(async()=>{let checks=0;const errors=[],check=(value,label)=>{assert.ok(value,label);checks++},b=await chromium.launch({executablePath:'/usr/bin/chromium',args:['--no-sandbox']});const dir='docs/evidence-v25';try{
 for(const width of [320,375,768,1440]){const c=await b.newContext({viewport:{width,height:1000},hasTouch:true,reducedMotion:'reduce'}),p=await c.newPage();p.on('pageerror',e=>errors.push(e.message));await p.goto('http://127.0.0.1:4186');
  const start=async(stage,area)=>{await p.locator(`[data-dashboard-area="${area}"]`).click();await p.locator(`[data-dashboard-result="${stage}:extra"]`).click();await p.locator('#open-construction').click();check(await p.locator('#construction-title').evaluate(e=>e===document.activeElement),'title focus');};
  const add=async(items)=>{for(const item of items)await p.locator(`[data-construction-add="${item}"]`).tap();};

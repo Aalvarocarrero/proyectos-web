@@ -1,0 +1,14 @@
+{
+  "checks": 118,
+  "errors": [],
+  "external": [],
+  "endings": 12,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "privacy": "Exact localStorage progress unchanged through all twelve narrative paths; pause resets transient choices.",
+  "avatar": "Clean state, explicit hidden state, show/personalize, focused garden and word game, no automatic progress reset."
+}

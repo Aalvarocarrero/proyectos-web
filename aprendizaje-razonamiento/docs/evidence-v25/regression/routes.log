@@ -1,0 +1,5 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:routes
+> node tests/routes-browser.cjs
+
+{ checks: 77, errors: [], external: [] }

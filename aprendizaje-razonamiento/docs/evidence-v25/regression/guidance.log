@@ -1,0 +1,5 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:guidance
+> node tests/guidance-browser.cjs
+
+{ checks: 59, errors: [] }

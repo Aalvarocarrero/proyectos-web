@@ -1,0 +1,19 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:corrections
+> node tests/corrections-browser.cjs
+
+{
+  checks: 110,
+  errors: [],
+  positions: [
+    { language: 'es', positions: [Array] },
+    { language: 'en', positions: [Array] },
+    { language: 'pt', positions: [Array] },
+    { language: 'zh', positions: [Array] },
+    { language: 'it', positions: [Array] },
+    { language: 'fr', positions: [Array] }
+  ],
+  firstAttemptPositionCounts: [ 6, 6, 6 ],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: '18 first-attempt items balance six per position; stable interaction and retry; IDs survive reload; language names visible and accessible; honest Dani pause and discarded narrative choices.'
+}

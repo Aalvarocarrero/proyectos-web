@@ -1,3 +1,4 @@
+import {ownRecord} from './state-validation.mjs';
 // Original fictional records and adult facilitation choices, not empirical predictions.
 export const comparisonRecords=[
  {id:'a',shape:'Plano',paper:'Fino',gap:'Dos marcas',load:3},
@@ -13,6 +14,7 @@ export function compareRecords(s){
 }
 export function validateExploration(raw,stage){
  const science=stage==='7y',keys=science?['open','page','left','right','revealed','hint']:['open','page','start','ending','original','hint'];
+ ownRecord(raw,keys);
  if(!['7y','2y'].includes(stage)||!raw||typeof raw!=='object'||Array.isArray(raw)||Object.keys(raw).some(k=>!keys.includes(k))||typeof raw.open!=='boolean'||typeof raw.hint!=='boolean'||!Number.isInteger(raw.page)||raw.page<0||raw.page>2)throw Error('Invalid exploration');
  if(science){if(typeof raw.revealed!=='boolean'||![raw.left,raw.right].every(x=>comparisonRecords.some(r=>r.id===x))||raw.page===2&&(!raw.revealed||!compareRecords(raw).focused))throw Error('Invalid comparison');}
  else if(!['wave','peek'].includes(raw.start)||![raw.ending,raw.original].every(x=>['rest','walk','stop'].includes(x)))throw Error('Invalid adult story');

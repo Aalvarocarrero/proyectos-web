@@ -1,0 +1,150 @@
+{
+  "base": "3886d442273df2ffebcc9d72af2815b9d3d67947",
+  "branch": "feat/education-creative-studio-v25-local",
+  "files": {
+    "dist/activities.mjs": {
+      "bytes": 9019,
+      "sha256": "0e554f1cd71e909be99e880a832f28738c9f78de01deaa18ed2f0221b490a840"
+    },
+    "dist/app.mjs": {
+      "bytes": 50329,
+      "sha256": "1893cdd1c20f62e9678e21679b1e8ef2f2c91543440fcf299afec2ffe518dc83"
+    },
+    "dist/catalog.mjs": {
+      "bytes": 2342,
+      "sha256": "376d5d5f9fbb0c235d516d6f4f166292e3b3d87afb5ed2a9494fd512a28eec42"
+    },
+    "dist/companion.mjs": {
+      "bytes": 6654,
+      "sha256": "3c8ea09c95e8c55503d54e46aa1aac2ec81c0e92b82348a1a96a4ed413b8d3d1"
+    },
+    "dist/comparar-en-familia.html": {
+      "bytes": 2658,
+      "sha256": "8f5ccf8a73304ba8f3f4630ee8b2b3795eefb1a821d557d3d0fffe9a1b06d1ac"
+    },
+    "dist/comparison-print.css": {
+      "bytes": 1243,
+      "sha256": "63c6908f2ba360fab39c9332f5bec20a623b2825368b4926ef2efe65ccb6bc87"
+    },
+    "dist/comparison-unit-ui.mjs": {
+      "bytes": 7633,
+      "sha256": "402bae14148d547265a102b382624bab779b0d8f27011885bc42fe194601caa8"
+    },
+    "dist/comparison-unit.mjs": {
+      "bytes": 5765,
+      "sha256": "6d2a047b62ed7f5d7f36730abea633ea9fcd289f6465d1d3a15347ef7d01cea3"
+    },
+    "dist/composition.mjs": {
+      "bytes": 9735,
+      "sha256": "8a6004ccc38f2103ea1b403d84eb53bcac08a19e1d36f6fd1ea0835850192a5d"
+    },
+    "dist/construction.mjs": {
+      "bytes": 9659,
+      "sha256": "84f24f4c6bbb6e1403bde265b2b47704f7b084a3395472411656f8cf4d54ed70"
+    },
+    "dist/dashboard.mjs": {
+      "bytes": 7782,
+      "sha256": "96bc82c759ca74c8a291fb1dfa5dae85e10c5a68f4a0f15106f0f4d80635c4b4"
+    },
+    "dist/disciplines.mjs": {
+      "bytes": 2313,
+      "sha256": "f63a2549ece2f890faf6a61cf29cf9b51312ece0605a97a9196e0385f6ca9b99"
+    },
+    "dist/exploration.mjs": {
+      "bytes": 11757,
+      "sha256": "80da1b226d7419926f619c110b50a754d94d46f1c54ce71753332117329eabbf"
+    },
+    "dist/facilitation.mjs": {
+      "bytes": 6494,
+      "sha256": "d50f1ba743fc9096728eae1c20af9549d80d65cb15dd66d0d107a7be8a8bf884"
+    },
+    "dist/garden-game-ui.mjs": {
+      "bytes": 12681,
+      "sha256": "ed2e4876d68baeeedbb580e63e1404ecf8dbc41419eeb62c2556410c8ac5f3fa"
+    },
+    "dist/garden-game.mjs": {
+      "bytes": 7964,
+      "sha256": "5cc96405aea4061b6631a51586f519b58e8a49c624443c0c559f9a47e5bdef49"
+    },
+    "dist/index.html": {
+      "bytes": 9205,
+      "sha256": "df9e9a3758d3b14a6fbe94648fbf0b3c900600fa10c065f0d83a4276840c9081"
+    },
+    "dist/language-audio.mjs": {
+      "bytes": 4999,
+      "sha256": "ff56a706afa8679ef55c9108914077997ce7e449249eff4474be5eb4af9d8944"
+    },
+    "dist/language-order.mjs": {
+      "bytes": 1079,
+      "sha256": "94b7c44387da0b70d2250bb7e484c8e11be167619e38d26f6f21e5db738d3ef4"
+    },
+    "dist/languages-ui.mjs": {
+      "bytes": 3960,
+      "sha256": "01910f13873c32627022e6cd1d0e71d6d9acbcb8a43a41e70795608040de8799"
+    },
+    "dist/languages.mjs": {
+      "bytes": 2720,
+      "sha256": "e41cfdbcc3c95d796971b05ca742737248a74ff7acc8259804a24ad8868d2ab7"
+    },
+    "dist/local-progress.mjs": {
+      "bytes": 11574,
+      "sha256": "ec78b6ca50038c1e2469801493981cc14a582e64af16c70ccf10e65f5a68c2ec"
+    },
+    "dist/local-speech.mjs": {
+      "bytes": 4436,
+      "sha256": "e430f7f27965ebeaad6b121f89cbdb91ae47a451c86ad85380997c80c4c07f46"
+    },
+    "dist/logic.mjs": {
+      "bytes": 9734,
+      "sha256": "482fb9f329efdc70b948fde96eadaf0603868b7d22ce2dade755185f4208ec84"
+    },
+    "dist/progress-session.mjs": {
+      "bytes": 4830,
+      "sha256": "0ba7510404f8b1cf26cdce728adf84634d9914de27b65d249ea816f60f61f456"
+    },
+    "dist/reflection-ui.mjs": {
+      "bytes": 5716,
+      "sha256": "c9c2bcd291b341a6982ad7dbcf28f08324933e995c8488de56c02414b4b833b3"
+    },
+    "dist/reflection.mjs": {
+      "bytes": 4265,
+      "sha256": "2c711ca493da3c329720d885b1ea26007d2673b3dda97c7b8b8e486abbd1620f"
+    },
+    "dist/route-execution.mjs": {
+      "bytes": 3926,
+      "sha256": "ce4c477d64b9ad5e25f98c1991dfd95c1295ec44cd4ef8e93ff4ab774e3a07dd"
+    },
+    "dist/science-art.mjs": {
+      "bytes": 3782,
+      "sha256": "c41ad03b4ed70b05f042d48003acf01fcb079493abc57a29c1da614ef8570e83"
+    },
+    "dist/science-games-ui.mjs": {
+      "bytes": 5238,
+      "sha256": "16242ffd4af166e091f5cbc406f435c61862a3a82521ad7f60e8c222a25a57b9"
+    },
+    "dist/science-games.mjs": {
+      "bytes": 9685,
+      "sha256": "7a38f496fc6a1c4b87d385e46c72a0dbc0c057cbaaed476a2332535f4bdc48e6"
+    },
+    "dist/state-validation.mjs": {
+      "bytes": 986,
+      "sha256": "c53e081eef4671580a02a2b527ff66ed603ced2e7edbbcd673a7d85ff5e5b3d3"
+    },
+    "dist/styles.css": {
+      "bytes": 67224,
+      "sha256": "970db99e53586d08893178b651bdd2d1f6766ae039d652665cb49e0b273cd90d"
+    },
+    "dist/welcome.mjs": {
+      "bytes": 13105,
+      "sha256": "463d35d7ff879e9cecebe80bcfaa82e05b072730a46fd038804ac585093ba214"
+    },
+    "dist/word-game-ui.mjs": {
+      "bytes": 13785,
+      "sha256": "6ce9f09ddcd57c9d914785c0757b5f9741980f72e1d593231aaaa8baaee18686"
+    },
+    "dist/word-game.mjs": {
+      "bytes": 10848,
+      "sha256": "10f99c9888fa214843f80a9ce17eff2ec4d2fac6d396b6d94a938490ab0633ab"
+    }
+  }
+}

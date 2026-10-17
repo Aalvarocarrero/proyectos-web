@@ -1,0 +1,13 @@
+{
+  "checks": 227,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "browser": "Chromium headless",
+  "errors": [],
+  "externalRequests": [],
+  "scope": "Functional browser, keyboard, names, states, reduced motion, mobile overflow and bounded local persistence. Not a full WCAG audit or device certification."
+}

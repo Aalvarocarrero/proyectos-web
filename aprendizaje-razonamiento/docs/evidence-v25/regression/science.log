@@ -1,0 +1,13 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:science
+> node tests/science-browser.cjs
+
+{
+  checks: 110,
+  errors: [],
+  external: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  touch: 'Chromium simulated touchscreen 768×1024',
+  textScale: '200%',
+  scope: 'Eight missions; choice and evidence; retries; skip; keyboard; pause/reload; stale tabs; native touch API. Not Safari/iPad hardware or a full WCAG audit.'
+}

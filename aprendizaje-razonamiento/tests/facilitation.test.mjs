@@ -3,8 +3,8 @@ import assert from 'node:assert/strict';
 import {stages} from '../dist/logic.mjs';
 import {extraActivities} from '../dist/activities.mjs';
 import {facilitation,getFacilitation} from '../dist/facilitation.mjs';
-test('all ten existing proposals have specific adult support without adding activities',()=>{
- const keys=stages.flatMap(s=>[`${s.id}:original`,...(extraActivities[s.id]?[`${s.id}:extra`]:[])]);
+test('original proposals and the new composition have specific adult support',()=>{
+ const keys=[...stages.flatMap(s=>[`${s.id}:original`,...(extraActivities[s.id]?[`${s.id}:extra`]:[])]),'7y:composition'];
  assert.deepEqual(Object.keys(facilitation).sort(),keys.sort());
  for(const key of keys){const [stage,activity]=key.split(':');const g=getFacilitation(stage,activity);assert.deepEqual(Object.keys(g),['model','support','fade','observe']);for(const text of Object.values(g)){assert.equal(typeof text,'string');assert.ok(text.length>30);assert.doesNotMatch(text,/[<>]/);}}
 });

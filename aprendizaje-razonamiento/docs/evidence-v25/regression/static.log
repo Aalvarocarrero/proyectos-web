@@ -1,0 +1,42 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:static
+> python3 tests/static_a11y.py
+
+{
+  "passed": 32,
+  "checks": [
+    "Spanish document language",
+    "Single main and h1",
+    "Skip link targets main",
+    "Viewport metadata",
+    "Unique static IDs",
+    "Network blocked by CSP",
+    "No remote asset dependencies",
+    "No remote telemetry or secondary persistence APIs",
+    "Local progress has explicit clear and failure status",
+    "Native buttons with explicit type",
+    "Selection state exposed",
+    "Grouped activities",
+    "Polite atomic feedback regions",
+    "Checkbox labels wrap inputs",
+    "Visible keyboard focus",
+    "Reduced motion honored",
+    "Mobile breakpoint present",
+    "Color always supplemented with label",
+    "Explicit unvalidated prototype disclosure",
+    "No real child data inputs",
+    "No activity timers or autoplay; bounded audio watchdogs only",
+    "No dragging required",
+    "Empty feedback live regions are not display-none",
+    "Explicit session pause, resume, finish and restart",
+    "Readable small interface labels",
+    "Clinical limitations visible before start",
+    "Honest curriculum gaps disclosed",
+    "Text contrast body at least 4.5:1 (11.21)",
+    "Text contrast secondary at least 4.5:1 (5.84)",
+    "Text contrast button at least 4.5:1 (8.43)",
+    "Text contrast selection at least 4.5:1 (9.78)",
+    "Text contrast step number at least 4.5:1 (5.41)"
+  ],
+  "limit": "Static inspection only. Does not establish WCAG conformance, real layout, keyboard behavior, assistive technology support or device compatibility."
+}

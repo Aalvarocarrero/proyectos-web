@@ -1,5 +1,6 @@
 // Original facilitation examples, not a validated curriculum or assessment.
 export const facilitation = {
+ '7y:composition': {model:'Muestra dos posiciones posibles para la misma figura y describe qué cambia, sin presentar una como la mejor.',support:'Lee las etiquetas si hace falta. La persona puede señalar y otra pulsar; no hace falta arrastrar ni distinguir colores.',fade:'Deja que pruebe una alternativa y decida si la conserva. Evita completar el cartel por ella.',observe:'Pregunta qué quiso destacar o qué espacio dejó. La composición no permite deducir capacidades ni personalidad.'},
  '18m:original': {
   model:'El adulto hace rodar la pelota una vez y dice «va hacia ti». Después espera, sin pedir una respuesta concreta.',
   support:'Acerca la pelota si hace falta. Mirar, tocar o elegir otro objeto también puede formar parte del juego; no exijas hablar, moverse de una manera concreta ni mirar a los ojos.',

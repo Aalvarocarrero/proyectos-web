@@ -1,0 +1,10 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:construction
+> node tests/construction-browser.cjs
+
+{
+  checks: 127,
+  errors: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: 'Both studios: build, retry, changed condition, contextual help, closure, touch, keyboard/focus, pause/reload, return/home, 200% text. Chromium emulation only.'
+}

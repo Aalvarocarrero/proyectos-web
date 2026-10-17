@@ -1,3 +1,4 @@
+import {ownRecord,denseValues} from './state-validation.mjs';
 // Bounded original construction tasks. Only symbolic choices are persisted.
 export const newConstruction=()=>({open:true,page:0,variant:0,items:[],tested:false,hint:false});
 const tokens={circle:'Círculo',triangle:'Triángulo',right:'Derecha',down:'Abajo',left:'Izquierda',up:'Arriba'};
@@ -20,7 +21,7 @@ export function evaluateConstruction(stage,s){
  return {correct,trace,message:correct?'El mensaje lleva de A1 a C2. Otra persona puede seguirlo sin adivinar. Puede haber más de un camino.':`El mensaje termina en ${trace.at(-1)}. La meta es C2. Mira qué dirección o paso falta; puedes revisar el plan.`};
 }
 export function validateConstruction(raw,stage){
- const keys=['open','page','variant','items','tested','hint'];
+ const keys=['open','page','variant','items','tested','hint'];ownRecord(raw,keys);denseValues(raw.items,stage==='3y'?['circle','triangle']:['right','down','left','up'],constructionLimit(stage,raw.page));
  if(!raw||typeof raw!=='object'||Array.isArray(raw)||Object.keys(raw).some(k=>!keys.includes(k))||!['3y','5y'].includes(stage)||!Number.isInteger(raw.page)||raw.page<0||raw.page>2||![0,1].includes(raw.variant)||['open','tested','hint'].some(k=>typeof raw[k]!=='boolean')||!Array.isArray(raw.items)||raw.items.length>constructionLimit(stage,raw.page)||raw.items.some(x=>!(stage==='3y'?['circle','triangle']:['right','down','left','up']).includes(x)))throw new Error('Invalid construction');
  const copy={...raw,items:[...raw.items]};
  if(copy.page===2&&(!copy.tested||!evaluateConstruction(stage,copy).correct))throw new Error('Invalid construction closure');

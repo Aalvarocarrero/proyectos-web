@@ -1,0 +1,14 @@
+{
+  "checks": 218,
+  "combinations": 54,
+  "entries": 23,
+  "completeRoutes": 2,
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "textScale": "200%",
+  "errors": []
+}

@@ -1,0 +1,10 @@
+
+> aprendizaje-razonamiento-prototipo@0.19.0 test:composition
+> node tests/composition-browser.cjs
+
+{
+  checks: 183,
+  errors: [],
+  viewports: [ 320, 375, 768, 1440 ],
+  scope: 'Creative editor and two versions, undo/reload, safe intention, alternate solutions, 200% text, keyboard/touch, all five studios help/pause/home, stale-tab protection. Chromium only.'
+}
