@@ -1,0 +1,15 @@
+# Satellite imagery prepared locally by zone
+
+Explicit owner approval on8October2026 permits two exact connection origins: https://earth-search.aws.element84.com and https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com . Only farm routes and the bundled same-origin satellite worker allow them in connect-src. No wildcard, script origin, credential or permission expansion was added. Existing analytics exclusions remain unchanged.
+
+Each user must check a consent tied to owner/farm/exact bounding rectangle and press Download. The catalog receives that rectangle; the provider receives requested scene ranges and the connection IP. Names, records and the complete farm polygon are not sent. Browser credentials and referrer are omitted; redirects are rejected. Mount, preview, changing size and offline reading make no provider requests. The demonstration queries a fixed public Llanos point, not the simulated property location.
+
+The client supports2/5/10km rectangles near a valid WGS84 reference. It searches at most12 Sentinel2 Collection1 L2A candidates from the last2years, checks complete bbox coverage and actual TIFF window coverage, verifies northern WGS84 UTM17–21, and inverse-warps a densified bounded window to Web Mercator. Selection favors low scene-wide cloud percentage; this does not guarantee cloud-free AOI or a recent capture.
+
+Processing runs in one bundled worker. Limits:15MiB total network budget including reserved catalog bytes,5MiB per requested range,4million source pixels,48MiB estimated decoded tiles,1024² output and180seconds. HTTP206 is mandatory; no whole-file200 fallback. Exposed Content-Range is validated; when CORS hides it, a short response requires an exact positive Content-Length. This verifies the HTTP body, not independently the file EOF. Cancellation terminates the worker and aborts any pending storage transaction.
+
+Generated PNG plus source/date/bounds/hash metadata is saved atomically to a device-local owner/farm store. One current copy per farm is replaced only after successful generation/validation; failed, cancelled or superseded attempts preserve the prior copy. Farm records, sync outbox and the fixed public sample remain independent. This is not an arbitrary user-upload decoder and does not alter the held upload-validation work.
+
+Dependencies: geotiff3.0.5 (MIT), existing proj4 2.22.0 (MIT), native OffscreenCanvas. No account/API key/payment is required for these open datasets. Free source access does not guarantee availability, a cloud-free scene, unlimited device storage or fence-level detail. Native source resolution is10m. Copernicus attribution and terms remain visible.
+
+Verification includes known public source prototype, synthetic normal transport/status/size/cancellation cases, owner/farm storage isolation, exact-consent changes and delayed-removal UI regressions. No malformed-image exercise was run. Browser public-zone completion and physical iOS/Android lifecycle must be recorded separately; a Node prototype is not a browser pass.

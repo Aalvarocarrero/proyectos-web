@@ -1,0 +1,21 @@
+{
+  "verified_packaged_files": 933,
+  "artifacts": [
+    {
+      "path": "agro-review-build.tar.gz",
+      "bytes": 54765457,
+      "sha256": "1e5e6cc25bed5b77740173dddac7479249a5db1e27dd87f468be9f2eb7a31007"
+    },
+    {
+      "path": "integration.patch",
+      "bytes": 403662,
+      "sha256": "ca73e7eb1e6c722311b05e92f87b913a2070fd92df0bd5caea3bad600209d4a2"
+    },
+    {
+      "path": "INTEGRATION-DIFF.json",
+      "bytes": 3949,
+      "sha256": "a1b0225073c18ad8beb19b3d8bfec1eb45c01c3af47b82267e5cd93ed3777a8a"
+    }
+  ],
+  "html_sha256": "ea0ae1b24d9dc49536635128ea3d4de2b303ca5865e556f2087059c4cc9113fb"
+}

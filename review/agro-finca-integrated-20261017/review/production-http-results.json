@@ -1,0 +1,121 @@
+[
+  {
+    "path": "/",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 168105
+  },
+  {
+    "path": "/tienda",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 111059
+  },
+  {
+    "path": "/plataforma",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 75578
+  },
+  {
+    "path": "/rubros",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 205874
+  },
+  {
+    "path": "/nosotros",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 62085
+  },
+  {
+    "path": "/admin",
+    "origin": "https://venezuelaagro.com",
+    "status": 302,
+    "robots": "noindex, nofollow",
+    "bytes": 0
+  },
+  {
+    "path": "/app",
+    "origin": "https://venezuelaagro.com",
+    "status": 302,
+    "robots": "noindex, nofollow",
+    "bytes": 0
+  },
+  {
+    "path": "/app-local",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "bytes": 47460
+  },
+  {
+    "path": "/api/bootstrap",
+    "origin": "https://venezuelaagro.com",
+    "status": 401,
+    "robots": "noindex, nofollow",
+    "bytes": 35
+  },
+  {
+    "path": "/auth/signin",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "bytes": 20240
+  },
+  {
+    "path": "/finca-modelo",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "bytes": 140370
+  },
+  {
+    "path": "/juego-finca",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": "noindex, nofollow",
+    "bytes": 13211
+  },
+  {
+    "path": "/",
+    "origin": "https://preview.invalid",
+    "status": 403,
+    "robots": "noindex, nofollow",
+    "bytes": 11
+  },
+  {
+    "path": "/",
+    "origin": "https://www.venezuelaagro.com",
+    "status": 403,
+    "robots": "noindex, nofollow",
+    "bytes": 11
+  },
+  {
+    "path": "/",
+    "origin": "https://venezuelaagro.aalvarocarrero.chatgpt.site",
+    "status": 403,
+    "robots": "noindex, nofollow",
+    "bytes": 11
+  },
+  {
+    "path": "/robots.txt",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 460
+  },
+  {
+    "path": "/sitemap.xml",
+    "origin": "https://venezuelaagro.com",
+    "status": 200,
+    "robots": null,
+    "bytes": 6445
+  }
+]

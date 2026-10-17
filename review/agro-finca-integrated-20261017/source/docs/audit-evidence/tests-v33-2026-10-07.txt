@@ -1,0 +1,154 @@
+✔ registration contact requires email and valid phone; matching a different account is refused (6.314424ms)
+✔ disabled biometric routes refuse credential registration and authentication (115.372956ms)
+WebSocket server error: Port 24678 is already in use
+✔ split derives two owned areas from saved geometry and commits both revisions plus receipt in one transaction (19.082702ms)
+✔ identical operation replays without another transaction or a second division (4.177748ms)
+✔ operation ID cannot be reused with any altered source, child or revision (8.266362ms)
+✔ a later edit cannot be overwritten or divided again by the old operation (4.100061ms)
+✔ replay never resurrects a deleted child or source, or a deleted parent (4.430258ms)
+✔ stale source and parent revisions leave all rows unchanged (2.201614ms)
+✔ owner mismatch, missing login, and cross-site requests cannot mutate private records (1.881341ms)
+✔ a foreign parent, deleted parent, and source tombstone are rejected (2.908188ms)
+✔ source changing after preflight makes CAS and both dependent inserts change zero rows (1.829483ms)
+✔ parent deletion, edit or ownership change after preflight blocks the source CAS itself (3.792468ms)
+✔ an existing child ID triggers constraint failure and rolls back the source update (1.766108ms)
+✔ injected failure after the source or child write rolls back every write and permits a safe retry (4.390619ms)
+✔ concurrent identical attempts converge to one persisted split (2.193302ms)
+✔ two different split intents for the same source cannot both succeed (1.938408ms)
+✔ concurrent reuse of an operation ID with a different child is rejected (1.714761ms)
+✔ an operation ID claimed by ordinary sync before or during preflight cannot be claimed by a split (1.979109ms)
+✔ a different owner cannot replay an accepted split or read its records (2.206962ms)
+✔ malformed IDs, untrusted geometry, missing revisions, and oversized JSON are rejected (3.734651ms)
+✔ non-area records and invalid or too-small area payloads cannot be divided (7.677165ms)
+✔ legacy empty revisions remain valid CAS values and titles stay within sync limits (1.64765ms)
+WebSocket server error: Port 24678 is already in use
+3:16:25 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ private farm creates, conflicts preserve newer data, and last-operation replay survives receipt interruption (65.265323ms)
+✔ tombstones block stale resurrection and bootstrap returns deletion evidence (23.579591ms)
+✔ concurrent cross-owner creation cannot transfer ownership and receipt collisions mutate nothing (11.874963ms)
+✔ image namespaces are independent and unapproved/withdrawn media is not public (13.343694ms)
+✔ older public consent cannot override current refusal (2.87059ms)
+✔ business quote survives submission to administrative view with every requested detail (6.737581ms)
+✔ moderation rejects withdrawn content and stale reviewed revisions (17.377916ms)
+✔ JSON-LD safely contains hostile closing tags without executing markup (0.421995ms)
+✔ only the two expressly approved server identities have administrative access (4.673815ms)
+✔ professional photo-free details and current immutable media paths survive bootstrap/validation (14.550165ms)
+✔ idea feedback is durably acknowledged once and visible to the approved administrator (8.440514ms)
+WebSocket server error: Port 24678 is already in use
+✔ accepts the versioned backup format without executing embedded text (4.553714ms)
+✔ rejects unknown formats, versions, types, dates, keys and duplicate entities before writes (4.296617ms)
+✔ rejects prototype pollution keys recursively and leaves object prototypes untouched (0.859234ms)
+✔ bounds bytes, depth, array sizes and malformed JSON (40.905688ms)
+✔ rejects malformed render-critical entity and upsert payloads before persistence (1.476622ms)
+WebSocket server error: Port 24678 is already in use
+✔ legacy professionals remain valid; companies require corporate identity; unsafe links are rejected (4.535436ms)
+✔ private registration fields never appear in the published farm; ownership and review are enforced (31.824665ms)
+✔ retries do not multiply likes and a stale retry cannot restore a removed like (26.201407ms)
+✔ offline idea stays pending without a receipt and is confirmed only after the exact acknowledgement (24.862406ms)
+✔ an unrelated accepted operation must not produce a received receipt for the pending idea (5.170362ms)
+✔ the idea can be confirmed even when a different operation was rejected and the batch is not fully synced (4.134773ms)
+✔ server failures and a different account scope never claim receipt (2.439512ms)
+✔ first invitation is eligible; exactly seven days must pass before it repeats (2.252ms)
+✔ corrupt frequency records recover, while invalid current time cannot claim an invitation (0.237467ms)
+✔ a durable claim suppresses automatic repeats, including after a simulated reload (0.345069ms)
+✔ opening manually also starts the quiet period and stores only a timestamp (0.982249ms)
+✔ unavailable, quota-exceeded, or silently failing storage suppresses automatic opening safely (2.049766ms)
+✔ minimal feedback uses the existing backend schema and does not invent a visitor role (1.688571ms)
+✔ message limits and optional contact limits match server validation after trimming (1.324173ms)
+✔ only exact-operation confirmed state can say the idea was received (0.41899ms)
+✔ the approved invitation wording is preserved exactly (0.235755ms)
+✔ the image is an available licensed derivative with documented attribution (4.15187ms)
+✔ component contract retains text, allows explicit dismissal, and never trusts batch success (0.918382ms)
+✔ temporary installation interaction or hidden tab defers invitation then opens after interruption ends (0.293662ms)
+✔ prior dismissal and unavailable storage stop automatic retries; cleanup never opens later (0.187492ms)
+✔ iOS install banner retains a reachable manual ideas control and passive banner does not block automatic invitation (1.778988ms)
+WebSocket server error: Port 24678 is already in use
+✔ preview remains noindex while production taxonomy is a distinct unverified candidate (2.448786ms)
+✔ rendered preview headers and metadata keep public and private surfaces out of indexing (393.986851ms)
+WebSocket server error: Port 24678 is already in use
+✔ requires only responsible name and phone in contact profile (4.785293ms)
+✔ rejects unsafe or wrong-platform social links (0.848036ms)
+✔ renders real contact actions and keeps demonstration anonymous (407.356249ms)
+3:16:26 PM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ an edit or delete made during synchronization remains the latest local intent (3.376633ms)
+✔ one missing optional image does not prevent service-worker installation (10.786715ms)
+✔ missing essential fallback refuses activation rather than claiming offline readiness (1.774621ms)
+✔ a missing script refuses readiness and interrupted preparation can be retried (3.304714ms)
+✔ API, authentication, non-GET and external requests are never intercepted (1.333076ms)
+✔ offline /app navigation serves the local-only shell rather than authenticated cached HTML (5.239245ms)
+✔ activation drops old page/API caches and does not touch record storage (3.405165ms)
+✔ no-store and redirected responses cannot be added to offline preparation (1.399456ms)
+✔ account namespaces are distinct and legacy storage is never a new account namespace (0.221964ms)
+✔ production offline manifest contains only same-origin code resources and includes every emitted chunk (9.076942ms)
+✔ explicit legacy recovery preserves originals, current edits and pending deletions on repetition (1.004242ms)
+✔ offline public map fetch is served even with the empty fetch destination (3.64777ms)
+✔ runtime owner follows cross-mode navigation and a newer verified account wins late session reads (1.59425ms)
+✔ repeated readiness checks verify actual resources and detect cache eviction (4.281314ms)
+✔ production worker fingerprint matches its resource manifest and changes from v27 (10.667886ms)
+✔ account split requires connection and confirmed local source before authenticated request (0.928438ms)
+WebSocket server error: Port 24678 is already in use
+✔ legacy export and explicit recovery preserve originals, edits, deletion intent and pending-only recovery visibility (16.114985ms)
+✔ route change during legacy recovery cannot copy data into an account database (2.439903ms)
+✔ route change during session verification sends only the captured account outbox (6.441366ms)
+✔ an edit made while sync is in flight remains visible, queued, and exportable (3.93961ms)
+✔ prepared account survives closing the session and reopens only after explicit offline choice (2.360443ms)
+✔ declining or interrupting offline workspace choice opens only the device workspace (0.397008ms)
+✔ new-origin import is local-only, idempotent, preserves current edits/deletions and never queues commercial sends (8.193592ms)
+✔ an interrupted import aborts its transaction and can be safely repeated (4.121624ms)
+✔ modeled complete offline loop preserves farm CRUD across close/reopen and interrupted reconnect (11.00269ms)
+✔ late acknowledgement from another tab cannot overwrite a newer confirmed revision (7.466027ms)
+✔ late bootstrap cannot replace a locally confirmed update or its conflict snapshot (4.156697ms)
+✔ queue drains past one hundred rejected records without starving later requests (67.348539ms)
+✔ stale bootstrap cannot resurrect a deletion acknowledged while cache remains missing (3.047758ms)
+✔ device-local area split commits both halves and pending intents atomically; stale repeat cannot split twice (3.717505ms)
+✔ failed second local split write rolls back source, child and outbox; account space is never used (2.297959ms)
+✔ account split readiness rejects pending source or parent and stale local cards (2.247212ms)
+✔ account offline split guard has no network calls or storage writes (0.944872ms)
+✔ old and newer concurrent hydrations cannot display only one half of a confirmed split (3.719248ms)
+✔ legacy empty revisions retain complete split under concurrent hydrations (2.58445ms)
+WebSocket server error: Port 24678 is already in use
+✔ expanded rubric selections preserve old entries and group specific products in market filters (1.64107ms)
+✔ every platform guide has a lightweight accessible visual and direct action (7.057203ms)
+WebSocket server error: Port 24678 is already in use
+✔ preserves old professional credentials and accepts graduates with zero years (4.261394ms)
+✔ builds search metadata from declared profile content (0.844311ms)
+✔ demo profiles render full sections without fabricated phone contacts (438.810543ms)
+✔ expanded sync payload is validated while legacy queue entries still work (16.087214ms)
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+Knowledge database unavailable; serving built-in educational content.
+✔ renders platform branding and production search metadata (399.069757ms)
+✔ opens Mi Finca in device-local mode when no account session is available (136.298196ms)
+Public profesionales records temporarily unavailable.
+Public profesionales records temporarily unavailable.
+✔ learning guides remain readable if the content database is temporarily unavailable (327.686453ms)
+Public proyectos records temporarily unavailable.
+Public proyectos records temporarily unavailable.
+✔ principal public pages and SEO endpoints stay available without a database connection (240.733529ms)
+✔ offline shell contains full farm controls and no authenticated account identity (41.632127ms)
+✔ replacement photographs are distinct, optimized and have complete licensing provenance (4.547314ms)
+✔ all formerly repeated brown-cow contexts use distinct scenes or an honest product placeholder (6.927292ms)
+WebSocket server error: Port 24678 is already in use
+✔ cuts and crop presentations support common Venezuelan purchases (1.154417ms)
+✔ order processing preserves cuts and notes; requires business identity and whole plants (16.919392ms)
+✔ existing device carts and queued legacy orders retain their data (0.361253ms)
+Knowledge database unavailable; serving built-in educational content.
+Public sitemap database unavailable; returning principal pages and built-in guides.
+✔ sitemap remains available during database interruption and excludes private workspaces (1102.901457ms)
+✔ emits the catalog's animation and scrolling utilities (35.44507ms)
+✔ forwards progress semantics to the primitive (812.236909ms)
+✔ emits chart themes for the starter's media dark mode (502.530581ms)
+✔ renders sidebar skeletons deterministically (487.836825ms)
+✔ calculates a closed survey polygon, distances and bearings (4.822969ms)
+ℹ tests 121
+ℹ suites 0
+ℹ pass 121
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 3964.437848

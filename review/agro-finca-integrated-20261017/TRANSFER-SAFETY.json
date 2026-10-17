@@ -1,0 +1,8 @@
+{
+  "files_scanned": 1375,
+  "disallowed_paths_found": 0,
+  "recognized_credential_patterns_found": 0,
+  "package_contents_scanned": true,
+  "max_file_limit_bytes": 104857600,
+  "scope": "Tracked source and final review artifacts only; runtime credentials, caches, dependencies and user databases excluded. Existing technical configuration/admin identifiers explicitly authorized. Pattern scan is not a proof against every possible secret format."
+}

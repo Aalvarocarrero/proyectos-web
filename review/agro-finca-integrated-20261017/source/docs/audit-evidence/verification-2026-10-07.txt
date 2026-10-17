@@ -1,0 +1,10 @@
+Venezuela Agro — reproducible local verification, 2026-10-07
+npm run build: PASS. 73 offline scripts/styles/fonts in generated manifest.
+node --test tests/*.test.mjs: 92 passed, 0 failed/cancelled/skipped.
+npx tsc --noEmit: PASS.
+Independent security review: 32 focused tests passed, subsequent split safety guard reviewed and its regression passed.
+Test data: in-memory SQLite/D1 adapter and fake IndexedDB; no live customer submissions or records were written.
+Limitations: automated compound area split is visibly paused; no physical Android/iOS install/airplane-mode lifecycle test. Browser rendering is separate evidence. No outbound email/SMS or payment provider is configured by this work. Requests and ideas persist to the site's administrator database only upon exact operation acknowledgement.
+Current origin remains Sites private URL. venezuelaagro.com is an unverified candidate, public indexing is disabled.
+
+ESLint: 0 errors, 28 warnings (non-blocking unused variables/dependencies).

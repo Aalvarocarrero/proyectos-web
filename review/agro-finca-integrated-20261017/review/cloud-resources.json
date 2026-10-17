@@ -1,0 +1,13 @@
+{
+  "command": "bash ci/build-only.sh",
+  "build_command": "npm run build",
+  "git_commit": "b4ce89ca2806c095f0b9e3c8f3f261efa4f1cbf0",
+  "elapsed_seconds": 171.11,
+  "exit_code": 0,
+  "cgroup_memory_limit_bytes": "17179869184",
+  "cgroup_cpu_max": "400000 100000",
+  "sampled_container_peak_bytes": 7248814080,
+  "max_child_rss_kib": 2291668,
+  "memory_events_before": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0",
+  "memory_events_after": "low 0\nhigh 0\nmax 0\noom 0\noom_kill 0\noom_group_kill 0"
+}

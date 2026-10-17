@@ -1,0 +1,44 @@
+✔ canonical public response can be indexed only with explicit build switch (1.225396ms)
+✔ preview and alternate host remain excluded even in public build (0.247759ms)
+✔ private, API, authentication and demo routes remain excluded (0.322581ms)
+✔ errors, redirects and personalized/no-store responses remain excluded (0.291234ms)
+✔ security headers derive indexing only after final privacy headers (0.27486ms)
+✔ personalized directory routes stay out of the candidate sitemap until their anonymous output is separated (0.333487ms)
+4:55:43 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ configuration fails closed without exact HTTPS origin, secrets or private allowlist (1.376681ms)
+✔ CSRF is same origin, signed, cookie matched and bound to current session (5.894242ms)
+✔ Turnstile rejects failed, wrong host/action, oversized and unreachable verification (5.693593ms)
+✔ standalone edge strips Sites identity and protects mutation routes; standalone bootstrap does not provision (1.777628ms)
+✔ standalone denies implicit email admin grants and noncanonical route encodings (24.330463ms)
+✔ public production requires explicit mode and exact production origin; owner grant defaults empty (1.184294ms)
+4:55:43 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ staging compiled policy refuses a production runtime opt-in (36.826746ms)
+✔ offline document cache exemptions have no server identity imports (12.594113ms)
+✔ login creates S256 PKCE, nonce, safe return path and host-only bound cookie (9.532532ms)
+✔ transaction consumption is browser-bound, expiry checked, and exactly once (1.045647ms)
+✔ new identities use UUIDs, never email-link existing accounts, preserve old data (2.023114ms)
+✔ opaque sessions store only keyed hashes, expire, honor allowlist, and revoke (5.021611ms)
+✔ real signed callback validates, creates session, and rejects replay (16.945431ms)
+✔ callback rejects invalid signature, nonce, issuer, audience, expiry, unverified email and disallowed account (42.141363ms)
+✔ encrypted PKCE verifier is confidential and bound to secret plus transaction (1.558071ms)
+✔ callback accepts matching authorized party with single and multiple audiences (6.502037ms)
+✔ production accepts verified ordinary Google accounts but only a configured email/subject pair grants owner admin (4.089673ms)
+✔ public login never relaxes Google signature or verified-email checks and cannot claim owner through profile name (9.3501ms)
+4:55:44 AM [vite] (client) Re-optimizing dependencies because vite config has changed
+✔ Worker refuses forged Sites headers and every unsafe unverified method (9.495697ms)
+✔ Worker keeps callback no-referrer and private pages no-store without breaking offline shell (3.257783ms)
+✔ standalone gates static documents and downloads before handing them to the asset service (1.233738ms)
+✔ production anonymous public browsing and local-only shell remain open; private routes stay gated (10.376559ms)
+✔ production owner grant is separate from login, applies to every admin method, and never bypasses CSRF (4.005698ms)
+✔ production account-bearing server responses stay private and noindex while local shell is cacheable (1.250012ms)
+✔ only exact public library manifest reads bypass login; staging, mutations and similar paths stay protected (1.885619ms)
+✔ audited HTML offline documents normalize framework no-store without normalizing private output (4.842875ms)
+✔ future production builds and promotion packaging preserve the approved verified owner pair without credentials (6.301758ms)
+ℹ tests 33
+ℹ suites 0
+ℹ pass 33
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 2481.938438

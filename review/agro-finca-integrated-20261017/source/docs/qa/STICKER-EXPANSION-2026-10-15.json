@@ -1,0 +1,550 @@
+{
+  "operation": "18 new original illustrations created with built-in imagegen. Authorized deterministic transparency cleanup, size normalization and official logo composition. No human variants in this batch.",
+  "sourceLogo": "Logo_Principal.png",
+  "sourceLogoSha256": "5b82d1a2fda6762d6fdacb98e3f2d1073d07bc129a3dc03650da8abaa9a50244",
+  "logoColorVariant": "Site green #1e7e1a; brown lettering mapped to warm white #f8f7f2. Original geometry and alpha retained.",
+  "items": [
+    {
+      "id": "animales-cerdo",
+      "name": "Cerdo",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "cochino",
+        "porcino",
+        "puerco"
+      ],
+      "sourceFile": "animales-cerdo-v2.png",
+      "sourceSha256": "62b63f9c79de96a89187ded5ce316a568d6e8631a82bd0c56f8bc50b81709eba",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-cerdo-80c60dcdd1.png",
+          "sha256": "80c60dcdd19b88ba277957fe67e785b768098bfdcdf9d9cf97d922b94c48f387",
+          "bytes": 39910
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-cerdo-25918df624.png",
+          "sha256": "25918df624836c313eb4ada9e133faa7dc5cb374e46358ed57c99bee9f00dcca",
+          "bytes": 22949
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-cerdo-c41589b85f.webp",
+          "sha256": "c41589b85f6441b98a6ebe02d8650f38a8961e700064eaeb86fdabf4475a01f2",
+          "bytes": 14412
+        }
+      }
+    },
+    {
+      "id": "animales-cabra",
+      "name": "Cabra",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "caprino",
+        "chivo"
+      ],
+      "sourceFile": "animales-cabra-v2.png",
+      "sourceSha256": "0d2a01ec4a83f1829cf8c54d9674ba5b08863c7e2e3097e96ef8a8330e30ea85",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-cabra-77a990e8ee.png",
+          "sha256": "77a990e8eece83fddd531af1b8df5ce400fba61ec1f335ca23465b7b235adccd",
+          "bytes": 37843
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-cabra-04c119cb2e.png",
+          "sha256": "04c119cb2e6cfde49f19bb4c8bb6c88262fdade367cbd9dc6239a4a923680e4b",
+          "bytes": 21299
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-cabra-b82b114be0.webp",
+          "sha256": "b82b114be08a386de14ac5c4f91895a7647cadc04b0a56108e51a326b06ce6c3",
+          "bytes": 14886
+        }
+      }
+    },
+    {
+      "id": "animales-conejo",
+      "name": "Conejo",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "cunicultura"
+      ],
+      "sourceFile": "animales-conejo-v2.png",
+      "sourceSha256": "ef97fc7c2f6f8bc36ad00bd9c15509746a297f1244644b6271957a74048c131a",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-conejo-c77d786a38.png",
+          "sha256": "c77d786a38cf7d9174e64212570492ce9e287ecfd221e34163d79b622a65182e",
+          "bytes": 36388
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-conejo-a908c9d5e5.png",
+          "sha256": "a908c9d5e51d9d6ed4997e458eb6359e1d894544a9b418fa7f1df88c0c11b3e0",
+          "bytes": 20266
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-conejo-f145ec5f0b.webp",
+          "sha256": "f145ec5f0b1b16d2f2ffb57e3a66070b5ba127aaa621730c05132cc21a55a96f",
+          "bytes": 12184
+        }
+      }
+    },
+    {
+      "id": "animales-pato",
+      "name": "Pato",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "aves",
+        "avicultura"
+      ],
+      "sourceFile": "animales-pato-v2.png",
+      "sourceSha256": "9af075c38b9477cefbbb486a728a6eb8327049bf65310f7994a86a25783b90a0",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-pato-f7915d2aac.png",
+          "sha256": "f7915d2aac0caf9023ea05fa2ef1ddeeb59ed281b4611cd77048e13b6005ffc3",
+          "bytes": 28692
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-pato-0c9af4f5c1.png",
+          "sha256": "0c9af4f5c1a2f8b97ab2d9319af2a6a251077ab8c43ce7bd7ed0e3a97c5c028e",
+          "bytes": 16820
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-pato-60e61e607f.webp",
+          "sha256": "60e61e607fc1751bb294b1d2d11350e0c09c3093d52664d0206c2a23116b8c20",
+          "bytes": 11208
+        }
+      }
+    },
+    {
+      "id": "animales-tilapia",
+      "name": "Tilapia",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "pez",
+        "peces",
+        "acuicultura"
+      ],
+      "sourceFile": "animales-tilapia-v2.png",
+      "sourceSha256": "97782275d9529fcd5a8aadab6f2ef083f6b976f1d16009aaee162427263b0f33",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-tilapia-e95104788c.png",
+          "sha256": "e95104788ce53dacc307a6eb767c13a9b633b3c41f70ac7f0a6dc075b0d45bb6",
+          "bytes": 63581
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-tilapia-7e49319b2c.png",
+          "sha256": "7e49319b2cdba343fed4b2e4262c8f75e1f509c8679ee90302cf08f5427dde18",
+          "bytes": 36470
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-tilapia-d1c5d3ad91.webp",
+          "sha256": "d1c5d3ad9173e1a99b7c4cdda1f3fac51c1f72abf62f2d5a789fbe488ef28bfd",
+          "bytes": 18908
+        }
+      }
+    },
+    {
+      "id": "animales-abeja",
+      "name": "Abeja",
+      "familyId": "animales",
+      "familyName": "Animales de finca",
+      "aliases": [
+        "apicultura",
+        "polinizador",
+        "miel"
+      ],
+      "sourceFile": "animales-abeja-v3.png",
+      "sourceSha256": "d65e19cd3b865464f142ea06b83e7eca75ce02c99a3c9e0ffc81b7674169f9d3",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/animales-abeja-0f0375eb2e.png",
+          "sha256": "0f0375eb2e003f22fcc2b609864b94a8c04a05d3773c8d2a233de8a32ae3805b",
+          "bytes": 60122
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/animales-abeja-95baae63e6.png",
+          "sha256": "95baae63e624c03151407d7a6a9aafb4f715842aa6f9e7c5b495d6f6832d32de",
+          "bytes": 35139
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/animales-abeja-6e2d27e20f.webp",
+          "sha256": "6e2d27e20f4d82eedf34e91ec96063c22c2e518da66b16c6b3ce0c8e0c8e673f",
+          "bytes": 24122
+        }
+      }
+    },
+    {
+      "id": "cultivos-maiz",
+      "name": "Maíz",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "mazorca",
+        "granos"
+      ],
+      "sourceFile": "cultivos-maiz.png",
+      "sourceSha256": "04800854ee382c7da5858f86a7faa8c88134cbe64542a3a6a17fd11b5c9e5ca9",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-maiz-5f5dca2b55.png",
+          "sha256": "5f5dca2b55c22e3151b70402531c6c62c3c3b062d9163e6ef915867bba677d26",
+          "bytes": 43700
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-maiz-cde87084fa.png",
+          "sha256": "cde87084fa2ac4d21639ecb9c738254e6e9297517a89eeb684effa253de2f7e8",
+          "bytes": 24567
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-maiz-cd2574625c.webp",
+          "sha256": "cd2574625ca9b3efa4687d8581a5755f5c710251f124cfe0a8c813f029ef235c",
+          "bytes": 13150
+        }
+      }
+    },
+    {
+      "id": "cultivos-yuca",
+      "name": "Yuca",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "casava",
+        "mandioca",
+        "raíz"
+      ],
+      "sourceFile": "cultivos-yuca.png",
+      "sourceSha256": "46668c66ab0d4c4c0d11c30f1f373add0eda170528216b1d47350621a1d963ca",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-yuca-99d7cf7b3f.png",
+          "sha256": "99d7cf7b3f268606fc87dd5583f0b8189e03227beea65eb2f5f794283050dcae",
+          "bytes": 54188
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-yuca-aa7388d3fb.png",
+          "sha256": "aa7388d3fb78bbc1c113769498093b3c3037d4dfb889eb62b830f5d0fb42a33d",
+          "bytes": 30580
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-yuca-21e68054a2.webp",
+          "sha256": "21e68054a2f58925b5e23d8c35a83c50df21e79166b930e27b9c9caef38311fe",
+          "bytes": 19724
+        }
+      }
+    },
+    {
+      "id": "cultivos-cacao",
+      "name": "Cacao",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "chocolate",
+        "mazorca de cacao"
+      ],
+      "sourceFile": "cultivos-cacao.png",
+      "sourceSha256": "a94bd25e51536b5bba908e55e04c134dd0758e4295a54b8d5599d5adfeb7b7d6",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-cacao-0a00976a65.png",
+          "sha256": "0a00976a6550924f7bea668ed46bbf35060c86205912743e1ef42d887e522e06",
+          "bytes": 68561
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-cacao-7a856278eb.png",
+          "sha256": "7a856278eb85a3ab1bf7f250d8cd2649fbe6145a8932068ca2fe51a6499d9cfa",
+          "bytes": 36284
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-cacao-ded2443125.webp",
+          "sha256": "ded24431251d74d635003e82fc0e8ff69c8bb818625aba6847db390037a2e654",
+          "bytes": 19348
+        }
+      }
+    },
+    {
+      "id": "cultivos-cafe",
+      "name": "Café",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "cafeto",
+        "cereza de café",
+        "granos"
+      ],
+      "sourceFile": "cultivos-cafe.png",
+      "sourceSha256": "7ca84296e2c6b5f176fb0c62cff2783203867aab34d0726873b66d4d9df81299",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-cafe-a499ef1a97.png",
+          "sha256": "a499ef1a979640318d4273ba053efefa529e6329e4c3b8ee7407fb21c9e8850d",
+          "bytes": 42885
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-cafe-6ea6339527.png",
+          "sha256": "6ea63395278f85f0c65983ed269b1818cd3d9bf6c632fbaf83e59b659a000962",
+          "bytes": 24403
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-cafe-7f42745feb.webp",
+          "sha256": "7f42745feba94a1a1ff7c8e85da5debf6fe0a8ea003dd13950cf8eb0f944012c",
+          "bytes": 14706
+        }
+      }
+    },
+    {
+      "id": "cultivos-platano",
+      "name": "Plátano",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "platanera",
+        "musáceas"
+      ],
+      "sourceFile": "cultivos-platano.png",
+      "sourceSha256": "8fd749ecee2bc5b2bd36c368091a5fcc44868fc1dc1907fd33e87474bd38496a",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-platano-b6e6fb3c33.png",
+          "sha256": "b6e6fb3c33183039be997b13e41c632312973a611cc48ea7c2b0c85eb27443bd",
+          "bytes": 42143
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-platano-763afad164.png",
+          "sha256": "763afad16403684159a8ef1274521ac25df94e9ae2aed3f3d4f8fb052e649674",
+          "bytes": 23337
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-platano-5db9b67c7a.webp",
+          "sha256": "5db9b67c7aafce9deb1a78b42baeff214ba13e63547e56ef141464a9c833823c",
+          "bytes": 12868
+        }
+      }
+    },
+    {
+      "id": "cultivos-aguacate",
+      "name": "Aguacate",
+      "familyId": "cultivos",
+      "familyName": "Cultivos del campo",
+      "aliases": [
+        "palta",
+        "fruta"
+      ],
+      "sourceFile": "cultivos-aguacate.png",
+      "sourceSha256": "1774953d0abcc4923adc021c003b41e00c063c8c5484e9737af899736cbfd723",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/cultivos-aguacate-0b33833ad3.png",
+          "sha256": "0b33833ad3cd0d3e464d5f8071c898bdf7aa620ad4475dc709bc2467dca71c99",
+          "bytes": 67727
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/cultivos-aguacate-daa7d20cf3.png",
+          "sha256": "daa7d20cf37683e7b0b6445fcc3511a44ef22728a0fb170f416248383164b8c5",
+          "bytes": 35356
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/cultivos-aguacate-d237fc82b6.webp",
+          "sha256": "d237fc82b6040359ed1805c67d4c7ad99b758b2e78f3abf886c7b2b0ec0d087a",
+          "bytes": 19162
+        }
+      }
+    },
+    {
+      "id": "herramientas-machete",
+      "name": "Machete",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "herramienta",
+        "desmonte"
+      ],
+      "sourceFile": "herramientas-machete.png",
+      "sourceSha256": "57974b2f55ab0fdb4ab91427ac319cb943f764b4ab9d0cc83d63508f358576d3",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-machete-a1af26aa10.png",
+          "sha256": "a1af26aa105d0cc9e5e010daa4011dbb8e5344ce04b24e0c1d0924e1c3f19259",
+          "bytes": 22354
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-machete-dc8659ebb8.png",
+          "sha256": "dc8659ebb84caf4cafe21f6630e43453e42a2fa720334dc65c7bcbc17ba4c66a",
+          "bytes": 13169
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-machete-96dd2415d4.webp",
+          "sha256": "96dd2415d481214c85285bf8a83bf3e2c06c459b2e88dfa6043f1d09f838df73",
+          "bytes": 9048
+        }
+      }
+    },
+    {
+      "id": "herramientas-pala",
+      "name": "Pala",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "cavar",
+        "siembra"
+      ],
+      "sourceFile": "herramientas-pala.png",
+      "sourceSha256": "a1781a8367ca7db5028836eb0acf20994dec25861038a996d58d52b858c802b3",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-pala-fdf7bfa2f0.png",
+          "sha256": "fdf7bfa2f0d042a0072a554509a8ceb704e2b62ff9bbdee6f0a252df79214add",
+          "bytes": 19527
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-pala-dfc5459174.png",
+          "sha256": "dfc5459174c59bb79359d9689965ec479346594918dd750a8488658ef50cfebd",
+          "bytes": 12240
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-pala-edb9547cbe.webp",
+          "sha256": "edb9547cbe5746eab775324d41ed07b54e6d7fae309e9a61f18d338f9a4273f0",
+          "bytes": 9228
+        }
+      }
+    },
+    {
+      "id": "herramientas-rastrillo",
+      "name": "Rastrillo",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "jardinería",
+        "suelo"
+      ],
+      "sourceFile": "herramientas-rastrillo.png",
+      "sourceSha256": "29f22e8be10123d9a75619d54da43e61345bd0af2c0ea97be38054d9d0454d3e",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-rastrillo-4e1ee37251.png",
+          "sha256": "4e1ee37251ac59c217e2d1d39da9a9d98a3efa61d2db0a12b65fa197aacab632",
+          "bytes": 20939
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-rastrillo-f6054f071c.png",
+          "sha256": "f6054f071c970f265ec4b75d1112666a775e5a7698d1adb0c36f8e549122269e",
+          "bytes": 12992
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-rastrillo-441c8912da.webp",
+          "sha256": "441c8912da9306c5ed029da5189e13258277d7afdea273583f93d65b12b220b4",
+          "bytes": 10948
+        }
+      }
+    },
+    {
+      "id": "herramientas-regadera",
+      "name": "Regadera",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "riego",
+        "agua"
+      ],
+      "sourceFile": "herramientas-regadera.png",
+      "sourceSha256": "a011cff1f63f49b1ee5076d3a0358d41132f1bb9acf6f968580a7779477dc2bb",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-regadera-1366e89e58.png",
+          "sha256": "1366e89e58793422364b3ed78a17f0fcf40c869cefec0930995626d9402f83f8",
+          "bytes": 41464
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-regadera-94dfd67385.png",
+          "sha256": "94dfd67385e2f73d7064833d17573e95bc07c7b79afc79192fb5f5b51d8c9271",
+          "bytes": 23147
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-regadera-13cd50ee57.webp",
+          "sha256": "13cd50ee57990bea46e28af4320ed7f34f50e6e61f877e4b38dc7f64a7f34c4b",
+          "bytes": 16222
+        }
+      }
+    },
+    {
+      "id": "herramientas-carretilla",
+      "name": "Carretilla",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "carga",
+        "transporte"
+      ],
+      "sourceFile": "herramientas-carretilla.png",
+      "sourceSha256": "6e62e52e973b4357e8d11a7ec6b2b76a255078c32f8acf8a497716e2653e993b",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-carretilla-27c733b261.png",
+          "sha256": "27c733b2612a254e5d82caa1f81068e4de0bb5748f6f809127199236d6e1108c",
+          "bytes": 37359
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-carretilla-080d5ca927.png",
+          "sha256": "080d5ca9275d035d09caac4d5d2cd0eb171bbc367160e73741347e24908a1c14",
+          "bytes": 23131
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-carretilla-f73c7ce94c.webp",
+          "sha256": "f73c7ce94cd7e2eb74966408bf29170a5b359a486914bc33cac6dfb8fa583880",
+          "bytes": 16584
+        }
+      }
+    },
+    {
+      "id": "herramientas-botas-de-trabajo",
+      "name": "Botas de trabajo",
+      "familyId": "herramientas",
+      "familyName": "Herramientas y equipos",
+      "aliases": [
+        "botas",
+        "goma",
+        "caucho",
+        "calzado"
+      ],
+      "sourceFile": "herramientas-botas-de-trabajo.png",
+      "sourceSha256": "ee305e44eaf8cc5d4e021b1051cf6bc047210c6aae32ddd8565419c2e4607843",
+      "outputs": {
+        "download": {
+          "src": "/sticker-packs/png/herramientas-botas-de-trabajo-c0acb41640.png",
+          "sha256": "c0acb41640c0348371aaa2fa5a27e1adccb88ace6177f7984f3d1c936067f538",
+          "bytes": 35070
+        },
+        "compactDownload": {
+          "src": "/sticker-packs/compact/herramientas-botas-de-trabajo-d9d824ae3d.png",
+          "sha256": "d9d824ae3df2967695db85cc6f22bfcc518b45fcc16b48faa2beb6cdbfeabb9d",
+          "bytes": 20171
+        },
+        "thumbnail": {
+          "src": "/sticker-packs/thumbs/herramientas-botas-de-trabajo-9754ea8114.webp",
+          "sha256": "9754ea8114a27df424362084d68c043f67d6e77e2ea85569ef1193307a402f2c",
+          "bytes": 11938
+        }
+      }
+    }
+  ],
+  "composition": {
+    "canvas": 512,
+    "completeVisibleBox": 480,
+    "compactVisibleBox": 312,
+    "illustrationFit": [
+      448,
+      366
+    ],
+    "plaque": [
+      444,
+      98
+    ],
+    "cleanup": "Discard disconnected alpha components below 64 source pixels; retain original antialiasing within two pixels of retained components."
+  }
+}

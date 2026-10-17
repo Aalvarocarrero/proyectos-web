@@ -1,0 +1,118 @@
+{
+  "production_base_commit": "dfa61a8ab17a86a1397ba1f923d08bf24113c18f",
+  "candidate_commit": "aa264375a9d6628340714b8a24af6e0af17fed95",
+  "integration_commit": "b4ce89ca2806c095f0b9e3c8f3f261efa4f1cbf0",
+  "unchanged_production_manifest_files": 1329,
+  "changed_files": [
+    {
+      "path": "ci/check-production-build.mjs",
+      "bytes": 2878,
+      "sha256": "eb0cf3393e3859c8fc1ed974779e0c300ded16413074609ea9fbdff0ddd56c95"
+    },
+    {
+      "path": "ci/package-build.py",
+      "bytes": 1975,
+      "sha256": "82c2800b1e1cb19dde36b8077c473cb3fe11e576596807c4af819ab8ab309e60"
+    },
+    {
+      "path": "ci/source-manifest.json",
+      "bytes": 153249,
+      "sha256": "db0bb2ef584f3fd22c38778c4ec6d7396eb2beac3f829aef017508582aca40e6"
+    },
+    {
+      "path": "learning/farm-learning-depth.js",
+      "bytes": 9232,
+      "sha256": "b40238c31e0ccc201027044140daace78db4fb93d4f83cb1e108e774a147b437"
+    },
+    {
+      "path": "learning/farm-learning-sessions.js",
+      "bytes": 13024,
+      "sha256": "34db2add36d124e3605d9f0e6cafdcfa540d9062e18899e78cae7331dac3ea1f"
+    },
+    {
+      "path": "learning/farm-learning-species.js",
+      "bytes": 29976,
+      "sha256": "4076189d5e337c3a9caf9c3aba0df2ef77cb322a898409c6c2c0a77dbc4331a3"
+    },
+    {
+      "path": "learning/farm-learning-ui.js",
+      "bytes": 27141,
+      "sha256": "6e5476cba57cf4eb0c3e696fa3efecd0290fed76cc82fab09c01199769983d08"
+    },
+    {
+      "path": "learning/farm-learning.template.html",
+      "bytes": 89197,
+      "sha256": "bc6500c64f2c1d18d2cbc7c384709f657f6a54485854f20cd0148dc5af073dd8"
+    },
+    {
+      "path": "lib/farm-learning-engine.mjs",
+      "bytes": 43457,
+      "sha256": "ffea23ec02a60587c5ce7a97cb24005f27560acc591dde2256defe6349d0ef62"
+    },
+    {
+      "path": "public/learning/finca-escuela.html",
+      "bytes": 209930,
+      "sha256": "ea0ae1b24d9dc49536635128ea3d4de2b303ca5865e556f2087059c4cc9113fb"
+    },
+    {
+      "path": "scripts/build-farm-learning.mjs",
+      "bytes": 1614,
+      "sha256": "e966fd2a47ec58f62ddbbebbea901f596ee7abd3acbd225da49d576954024d1c"
+    },
+    {
+      "path": "tests/admin-navigation.test.mjs",
+      "bytes": 3995,
+      "sha256": "34e0db69e454d89c4de657ae395a192a83bd9a80010175cd921179e44cf42884"
+    },
+    {
+      "path": "tests/auth-fetch.test.mjs",
+      "bytes": 6042,
+      "sha256": "0f0b1174f8c1ea62b71ca645548a82a53b7e3137a53128e8c29a33150c9c9801"
+    },
+    {
+      "path": "tests/client-preload-consistency.test.mjs",
+      "bytes": 3574,
+      "sha256": "a3f023b072e55639a9f497c981fa544c89f46c77bf5dfdb1bf4e71ad0d84264f"
+    },
+    {
+      "path": "tests/farm-learning-recovery.test.mjs",
+      "bytes": 5342,
+      "sha256": "2797c15e1d2afeaa47f98655201c5b5f43e1f835d826c879b3edb860c37eaccb"
+    },
+    {
+      "path": "tests/farm-learning-sessions.test.mjs",
+      "bytes": 5973,
+      "sha256": "cab1597d26d8b2123f4a3292177faa6a50ca72dd2097e2eed6b299c7f7a70b86"
+    },
+    {
+      "path": "tests/farm-learning-transfer.test.mjs",
+      "bytes": 3199,
+      "sha256": "64c140208a1454f1f6a58a4d1e945c7b495837d4e0e0bffc7cadf7f7758daaa5"
+    },
+    {
+      "path": "tests/farm-learning.test.mjs",
+      "bytes": 31796,
+      "sha256": "8b10f7cd635c00522c1b10fd9bc094acc0fa35e645ef14f98986e27fe4d5eb6d"
+    },
+    {
+      "path": "tests/fixtures/production-worker.mjs",
+      "bytes": 1536,
+      "sha256": "e6ca14bfc42ebc2026213891fb903a2edc062b523f5b8c9355bca072c19cd749"
+    },
+    {
+      "path": "tests/indexing-policy.test.mjs",
+      "bytes": 2153,
+      "sha256": "3c5d247297ad53faf6bf024bd192771d62530da9ab027c7881c54fc740639a85"
+    },
+    {
+      "path": "tests/land-water-guides.test.mjs",
+      "bytes": 2991,
+      "sha256": "4a85b7bcec469e9bea4a58f734694e2a9d23638efafdaf282763c231d80f02a0"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "bytes": 7888,
+      "sha256": "ba9521636c0b98b6c5dea969a26c71cab0c8b471f06c66f22e33166d79207a04"
+    }
+  ]
+}
