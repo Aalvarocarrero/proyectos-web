@@ -107,8 +107,8 @@
       "sha256": "aa766b3a99e2d78bae575d05ae8537e038106d13deeb5b8a03abc3d6564c8c09"
     },
     "dist/welcome.mjs": {
-      "bytes": 11767,
-      "sha256": "cc1a61a78e664b39a8e46522ad9d13bd98c777d6d98033cba4eb618be45364f7"
+      "bytes": 12043,
+      "sha256": "d28e0a159983491e16d56644d913b8d3dc1d7d02165c699781a0b719bb58a149"
     },
     "dist/word-game-ui.mjs": {
       "bytes": 13785,
