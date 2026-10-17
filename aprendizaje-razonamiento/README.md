@@ -99,3 +99,9 @@ El controlador compara el guardado que esta pestaña conoce con el actual antes 
 Inicio centrado en emociones, imaginación y preguntas; seis pilotos escritos de idiomas, disciplinas con disponibilidad explícita y acompañante visual opcional. Se mantienen todas las actividades v15 y el progreso compatible. No publicada.
 
 Ver [informe y capturas](docs/ENTREGA_V16.md), [fuentes](docs/FUENTES_V16.md) y [arquitectura, privacidad y pruebas](docs/ARQUITECTURA_V16.md). Nueva batería: `npm run test:routes` (requiere el servidor local y Chromium, como las demás pruebas de navegador).
+
+## Entrega local v17
+
+Dani tiene caminos y finales narrativos; el acompañante aparece desde el inicio y dentro de los juegos. Dos pilotos visuales nuevos completan las primeras actividades de Biología y Química, con cuatro misiones cada uno. Se conserva la fuente v16 y su progreso compatible.
+
+Ver [entrega, pruebas y capturas](docs/ENTREGA_V17.md), [fuentes científicas](docs/FUENTES_V17.md) y [arquitectura y privacidad](docs/ARQUITECTURA_V17.md). Baterías adicionales: `npm run test:science` y `npm run test:story`. No publicado ni subido a rama remota.

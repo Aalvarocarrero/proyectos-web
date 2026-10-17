@@ -1,0 +1,18 @@
+
+> aprendizaje-razonamiento-prototipo@0.12.0 test:story
+> node tests/story-companion-browser.cjs
+
+{
+  checks: 118,
+  errors: [],
+  external: [],
+  endings: 12,
+  viewports: [ 320, 375, 768, 1440 ],
+  privacy: 'Exact localStorage progress unchanged through all twelve narrative paths; pause resets transient choices.',
+  avatar: 'Clean state, explicit hidden state, show/personalize, focused garden and word game, no automatic progress reset.'
+}
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
