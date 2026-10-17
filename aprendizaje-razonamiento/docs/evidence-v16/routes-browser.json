@@ -1,0 +1,12 @@
+{
+  "checks": 77,
+  "errors": [],
+  "external": [],
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "scope": "6 complete language routes; retry; keyboard; pause/reload; fictional reflection; bounded storage; stale tabs; mobile overflow and 44px buttons. Not an iOS or full WCAG certification."
+}

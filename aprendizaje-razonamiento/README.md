@@ -93,3 +93,9 @@ Piloto original para 7–8 dentro de la etapa 6–8. Seis escenas con banco, cop
 ## Coordinación de pestañas (v11)
 
 El controlador compara el guardado que esta pestaña conoce con el actual antes de escribir o borrar. Un cambio externo detiene el guardado y ofrece cargar el último estado con confirmación; no mezcla ni sobrescribe en silencio. Con Web Locks, escrituras y borrados de pestañas actualizadas se serializan. Sin esa API la comparación es de mejor esfuerzo: conviene usar una sola pestaña y no se garantiza exclusión ante escrituras exactamente simultáneas. Una pestaña con código antiguo abierto debe recargarse. No se añaden identificadores, relojes, cuentas o datos personales.
+
+## Entrega local v16
+
+Inicio centrado en emociones, imaginación y preguntas; seis pilotos escritos de idiomas, disciplinas con disponibilidad explícita y acompañante visual opcional. Se mantienen todas las actividades v15 y el progreso compatible. No publicada.
+
+Ver [informe y capturas](docs/ENTREGA_V16.md), [fuentes](docs/FUENTES_V16.md) y [arquitectura, privacidad y pruebas](docs/ARQUITECTURA_V16.md). Nueva batería: `npm run test:routes` (requiere el servidor local y Chromium, como las demás pruebas de navegador).

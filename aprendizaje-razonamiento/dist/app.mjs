@@ -1,3 +1,8 @@
+import {mountCompanion} from './companion.mjs';
+import {renderReflection} from './reflection-ui.mjs';
+import {languages,languageFor} from './languages.mjs';
+import {renderLanguage} from './languages-ui.mjs';
+import {disciplines} from './disciplines.mjs';
 import {areas,catalog,entriesFor,statusLabel,typeLabel,stageCount} from './catalog.mjs';
 import {wordActivity} from './word-game.mjs';
 import {renderWordGame} from './word-game-ui.mjs';
@@ -48,7 +53,7 @@ function renderIntro(s){document.querySelector('#activity').innerHTML=`<div clas
 function renderActive(s){document.querySelector('#activity').innerHTML=`<div class="session-toolbar"><div><p class="eyebrow">${s.kind==='offline'?'GUÍA DEL ADULTO':'TU PEQUEÑO RETO'}</p><h4 id="session-title" tabindex="-1">${s.unit}</h4></div><div class="session-actions">${['garden','words'].includes(selectedActivities[stage])?`<button type="button" class="action secondary garden-library-toggle" id="garden-library">${current().gardenFocus===false?'Volver al juego':'Ver catálogo'}</button>`:''}<button type="button" class="action secondary" id="pause-session">Pausar</button><button type="button" class="action secondary" id="finish-session">${s.kind==='offline'?'Guardar la pantalla':'Terminar por hoy'}</button></div></div><div id="exercise"></div>${facilitationMarkup()}`;
  on('garden-library','click',()=>{current().gardenFocus=current().gardenFocus===false;renderPanel();focus(current().gardenFocus?'session-title':'stage-title');});
  on('pause-session','click',()=>transition('pause'));on('finish-session','click',()=>transition('finish'));
- if(selectedActivities[stage]==='words')renderWordGame(document.querySelector('#exercise'),current(),()=>transition('finish'));else if(selectedActivities[stage]==='garden')renderGarden(document.querySelector('#exercise'),current(),()=>transition('finish'));else if(selectedActivities[stage]==='unit')renderComparisonUnit(document.querySelector('#exercise'),current());else if(selectedActivities[stage]==='extra')renderExtra();else if(stage==='3y')renderShapes();else if(stage==='7y')renderPlan();else if(stage==='5y')renderStory();else if(stage==='12y')renderEvidence();else renderCaregiver();
+ if(selectedActivities[stage]==='reflection')renderReflection(document.querySelector('#exercise'),()=>transition('finish'));else if(languageFor(selectedActivities[stage]))renderLanguage(document.querySelector('#exercise'),current(),selectedActivities[stage],()=>transition('finish'));else if(selectedActivities[stage]==='words')renderWordGame(document.querySelector('#exercise'),current(),()=>transition('finish'));else if(selectedActivities[stage]==='garden')renderGarden(document.querySelector('#exercise'),current(),()=>transition('finish'));else if(selectedActivities[stage]==='unit')renderComparisonUnit(document.querySelector('#exercise'),current());else if(selectedActivities[stage]==='extra')renderExtra();else if(stage==='3y')renderShapes();else if(stage==='7y')renderPlan();else if(stage==='5y')renderStory();else if(stage==='12y')renderEvidence();else renderCaregiver();
 }
 function renderPause(s){document.querySelector('#activity').innerHTML=`<div class="rest-panel"><span class="rest-icon" aria-hidden="true">☁</span><p class="eyebrow">A TU RITMO</p><h4 id="session-title" tabindex="-1">La pausa también tiene sitio.</h4><p>Puedes moverte, mirar a tu alrededor o hacer otra cosa. No hay una cuenta atrás.</p><p class="quiet">Tus elecciones siguen aquí. Consulta el aviso de guardado de arriba: si indica «Guardado en este navegador», podrás volver incluso después de recargar. No se guardan en una cuenta.</p><div class="controls"><button type="button" class="action primary" id="resume-session">Volver al reto</button><button type="button" class="action secondary" id="finish-paused">Terminar por hoy</button><button type="button" class="action secondary" id="paused-catalog">Ver otras propuestas</button></div></div>`;on('paused-catalog','click',()=>{current().gardenFocus=false;renderPanel();focus('stage-title');announce('El reto sigue en pausa. Puedes elegir otra propuesta o etapa.');});on('resume-session','click',()=>transition('resume'));on('finish-paused','click',()=>transition('finish'));}
 function renderFinish(s){document.querySelector('#activity').innerHTML=`<div class="rest-panel"><span class="rest-icon" aria-hidden="true">✳</span><p class="eyebrow">UN BUEN LUGAR PARA PARAR</p><h4 id="session-title" tabindex="-1">Por hoy está bien.</h4><p>No hace falta completar todos los pasos. Si te apetece, lleva una idea fuera de la pantalla:</p><div class="offline-idea"><strong>${s.kind==='offline'?'Juego acompañado':'Una idea para explorar'}</strong><p>${s.transfer}</p></div><p class="quiet">${s.kind==='offline'?'Usa materiales seguros, sin piezas pequeñas, y supervisión directa. Sigue su interés y para si aparece cansancio o frustración.':'Puedes contarlo hablando, señalando o dibujando. No pedimos datos personales ni evaluamos capacidades.'}</p><div class="controls"><button type="button" class="action secondary" id="restart-session">Volver a la propuesta</button><a class="button secondary" id="finished-catalog" href="#etapas">Ver otras etapas</a></div></div>`;on('finished-catalog','click',()=>{current().gardenFocus=false;document.body.classList.remove('garden-focus');});on('restart-session','click',()=>{states[stateKey()]=fresh();renderPanel();focus('session-title');});}
@@ -99,6 +104,8 @@ function renderExtra(){
 }
 
 function facilitationMarkup(){
+ if(selectedActivities[stage]==='reflection')return '<p class="quiet">Con adulto acompañante. Puedes explorar sin responder; no pedimos ni guardamos sentimientos personales.</p>';
+ if(languageFor(selectedActivities[stage]))return '<p class="quiet">Piloto escrito acompañado para 6–8 años, también explorable por lectores principiantes mayores. Para menores, el adulto puede nombrar objetos reales fuera de pantalla; no se ofrece una sesión digital infantil de idiomas.</p>';
  if(selectedActivities[stage]==='words')return current().phase==='intro'?'<p class="quiet">Piloto 7–8 años. Lectura acompañada disponible; la adaptación a seis años está pendiente de probar. Puedes tocar pistas y explicar con gestos, sin grabación.</p>':'';
  if(selectedActivities[stage]==='garden')return current().phase==='intro'?'<p class="quiet">Acompañamiento opcional dentro del juego: una ayuda breve para cada parte. Puedes señalar y otra persona pulsar.</p>':'';
  const guide=getFacilitation(stage,selectedActivities[stage]==='unit'?'extra':selectedActivities[stage]||'original');
@@ -149,4 +156,28 @@ document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_
 
 document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
 renderAreas();renderStages();renderPanel();renderProgress();
-for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+
+function openRoute(key){
+ const entry=catalog.find(a=>a.key===key);if(!entry)return;
+ stage=entry.stage;selectedArea='all';selectedActivities[stage]=entry.id;states[key]??=fresh();
+ renderAreas();renderStages();renderPanel();focus('session-title');document.querySelector('#activity')?.scrollIntoView?.({block:'start'});
+}
+document.querySelector('#language-routes').innerHTML=languages.map(l=>`<article class="route-card"><p class="eyebrow" lang="${l.id}">${l.native}</p><h3>${l.name}</h3><p>Palabras cercanas</p><p class="quiet">Piloto escrito · 3 palabras · 6–8 años con acompañamiento</p><button type="button" class="action secondary" data-route="5y:language-${l.id}">Explorar ${l.name}</button></article>`).join('');
+document.querySelector('#discipline-routes').innerHTML=disciplines.map(d=>`<article class="route-card" id="discipline-${d.id}"><p class="eyebrow">${d.area}</p><h3>${d.name}</h3><span class="pill">${d.status}</span><p>${d.scope}</p><p class="quiet">${d.note}</p>${d.entries.map(([key,label])=>`<button type="button" class="action secondary" data-route="${key}">${label}</button>`).join('')}</article>`).join('');
+document.querySelectorAll('[data-route]').forEach(b=>b.addEventListener('click',()=>openRoute(b.dataset.route)));
+document.querySelectorAll('.explore-nav a').forEach(a=>a.addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');document.querySelector(a.getAttribute('href')+' h2')?.focus();}));
+
+mountCompanion(document.querySelector('#companion'),()=>{
+ if(!stage)return 'Elige una historia o un idioma. Puedes mirar primero y pedir ayuda a un adulto.';
+ if(current().phase==='paused')return 'La actividad está en pausa. Puedes descansar o volver cuando quieras; no hay nada que recuperar.';
+ if(current().phase==='finished')return 'La sesión ya está cerrada. Puedes llevar la idea al papel o dejarlo aquí por hoy.';
+ const id=selectedActivities[stage];
+ if(id==='reflection')return 'La torre de Dani: no sabemos con certeza qué siente. Piensa en dos posibilidades y qué parte de la historia las apoya. También puedes pasar.';
+ const lang=languageFor(id);if(lang)return lang.name+': consulta las tres palabras antes de elegir. '+lang.words[0]+' significa gato. Las etiquetas españolas junto a los dibujos también ayudan. No hace falta pronunciarlas.';
+ if(selectedStage().kind==='offline')return 'Esta guía es para el adulto. Lee la propuesta y aparta la pantalla; sigue el interés del pequeño con objetos seguros.';
+ if(id==='garden')return 'En el jardín, sigue las flechas una por una. Mira dónde termina cada paso; puedes deshacerlo y volver a probar.';
+ if(id==='words')return 'En La palabra escondida, busca qué palabras de la escena aclaran el significado. Una pista del texto puede cambiar tu primera idea.';
+ if(id==='unit')return 'Al comparar, cambia una sola condición y observa qué mantienes igual. Puedes consultar el ejemplo de la unidad.';
+ return 'En «'+selectedStage().unit+'», relee la pregunta y busca la pista dentro del reto. Explica una razón, hablando o señalando; no hace falta acertar a la primera.';
+},progressStorage);

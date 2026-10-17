@@ -1,0 +1,90 @@
+
+> aprendizaje-razonamiento-prototipo@0.11.0 test:dom
+> node --test tests/dom.test.cjs
+
+Error: Uncaught [TypeError: document.querySelector(...).scrollIntoView is not a function]
+    at reportException (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+    at invokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLButtonElementImpl._dispatch (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at fireAnEvent (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+    at HTMLButtonElementImpl.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:85:5)
+    at HTMLButtonElement.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:108:34)
+    at Object.click (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:4:638)
+    at TestContext.<anonymous> (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:104:154)
+    at async Test.run (node:internal/test_runner/test:1389:7) TypeError: document.querySelector(...).scrollIntoView is not a function
+    at HTMLButtonElement.<anonymous> (file:///workspace/proyectos-web/aprendizaje-razonamiento/dist/app.mjs?dom=60:115:252)
+    at HTMLButtonElement.callTheUserObjectsOperation (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+    at innerInvokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:350:25)
+    at invokeEventListeners (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLButtonElementImpl._dispatch (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at fireAnEvent (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/helpers/events.js:18:36)
+    at HTMLButtonElementImpl.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/nodes/HTMLElement-impl.js:85:5)
+    at HTMLButtonElement.click (/tmp/education-test-deps/node_modules/jsdom/lib/jsdom/living/generated/HTMLElement.js:108:34)
+    at Object.click (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:4:638)
+    at TestContext.<anonymous> (/workspace/proyectos-web/aprendizaje-razonamiento/tests/dom.test.cjs:104:154)
+✔ onboarding starts with no child stage or activity selected (112.44069ms)
+✔ approved time estimates appear before starting every stage (84.893821ms)
+✔ both under-three routes contain only adult offline guides (90.922751ms)
+✔ grouping checks errors, exact sets and optional second rule (62.892373ms)
+✔ pause and changing stages preserve grouping decisions only in memory (52.912701ms)
+✔ unfinished and paused sessions can finish without a penalty or automatic next (69.554958ms)
+✔ planning preserves original solution, reduced budget and revised solution (98.358224ms)
+✔ story can be reordered, checked and explained with buttons (123.180136ms)
+✔ evidence requires explicit choices and transitions and handles wrong answers (78.506812ms)
+✔ dynamic DOM has unique IDs, explicit buttons and accessible names in every state (207.653258ms)
+✔ new activity catalog preserves independent choices and phase in both directions (79.941574ms)
+✔ all four new activities support hints, correction, optional continuation and natural closure (382.456879ms)
+✔ changing a new answer invalidates previous success and hides next step (41.323564ms)
+✔ story choices expose selection and preserve it through pause (76.316114ms)
+✔ new activity states have unique IDs, clear selected names and valid native buttons (200.004267ms)
+✔ exhausted hint label and blocked-route description survive rerendering (101.902454ms)
+✔ optional facilitation matches every proposal before and during activity (657.941985ms)
+✔ opening the support guide preserves selected answers and does not start another round (39.724923ms)
+✔ pilot can skip directly to transfer and offscreen guidance without answering (51.519504ms)
+✔ pilot feedback and hints survive backward navigation, pause and other activities (118.860632ms)
+✔ every pilot option has explanatory feedback and no gated navigation or persisted answers (148.779296ms)
+✔ answer-specific feedback survives pause and changes correctly when the choice is revised (378.169674ms)
+✔ garden is featured and default for 6–8 but preserves existing story separately (91.056306ms)
+✔ garden keyboard buttons, pause, correction, optional sequence and offscreen closure (230.386903ms)
+✔ garden pages keep unique IDs, accessible controls and ephemeral independent state (58.960453ms)
+✔ focused garden catalog roundtrip preserves route and selected edit (68.232287ms)
+✔ garden inline demonstration is optional and does not edit the child route (69.416909ms)
+✔ garden replacement and undo recover position and accessible selection (100.832746ms)
+✔ garden collision action selects the blocked arrow for correction (68.706931ms)
+✔ local garden progress restores after a new document and preserves pause (92.730032ms)
+✔ local grouping and story choices survive independent reloads (74.931888ms)
+✔ corrupt and future local progress is protected until voluntary confirmed reset (91.611394ms)
+✔ storage failure remains visible while game works and deletion failure preserves current state (46.839856ms)
+✔ word journey contains six scenes with contextual choices, feedback and fresh hints (384.530653ms)
+✔ word journey pause, catalog and reload preserve only bounded local state (134.010986ms)
+✔ word recall and offscreen are optional, distinct and do not imply mastery (75.786029ms)
+✔ both focused games can leave pause and return with their choices intact (154.122823ms)
+✔ external save blocks overwrites and requires explicit confirmation before loading (46.95945ms)
+✔ external deletion is not resurrected by an old tab (31.669892ms)
+✔ asynchronous coordinated saving announces completion and restores latest click (67.94909ms)
+✔ returning to an active or paused focused game targets its visible session heading (262.371816ms)
+✔ each extra question exposes the current scenario as its accessible description (303.600098ms)
+✔ next extra idea scrolls its new premise into view while keeping question focus (41.626456ms)
+✔ v16 inventory: 17 digital, 2 adult guides, 1 family unit; correct legacy labels (0.454107ms)
+✔ v16 all 54 stage/area combinations expose exact inventory and honest empty recovery (758.245639ms)
+✔ v15 all thirteen entries open through their area, without duplicate unit steps (934.118767ms)
+✔ v15 filters and stage changes preserve paused game responses and persisted state (168.479852ms)
+✔ six language entries support guide, wrong answer, retry, pause and reload (578.769711ms)
+✔ reflection allows every perspective but never serializes emotional choices (69.261225ms)
+✔ disciplines awaiting activities never expose empty launch buttons (16.836242ms)
+✔ optional companion has separate bounded visual preferences, contextual hints and hide/forget (38.860548ms)
+✔ companion preserves corrupt or rival preferences rather than overwriting them (76.010408ms)
+ℹ tests 52
+ℹ suites 0
+ℹ pass 52
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8793.410237
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

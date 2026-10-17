@@ -1,0 +1,7 @@
+export const reflectionActivity={id:'reflection',stage:'5y',key:'5y:reflection',area:'Convivir y emociones',type:'digital',label:'6–8 años · con adulto',kind:'interactive',title:'Una historia, muchas miradas',copy:'Imagina qué podría sentir un personaje y conversa sobre sus razones, sin una respuesta emocional correcta.',unit:'La torre de Dani',goal:'Explorar emociones posibles, imaginar alternativas y dar razones con una historia ficticia. No interpreta lo que tú sientes.',duration:'Una escena breve, sin tiempo obligatorio',support:'Un adulto lee y acompaña sin pedir experiencias íntimas',transfer:'Aparta la pantalla. Dibuja dos finales distintos para una torre de bloques imaginaria. Cada persona puede inventar un final o pasar. No hace falta explicar vivencias personales.'};
+export const perspectives=[
+ {id:'sad',label:'Tal vez tristeza',why:'Dani había dedicado tiempo a la torre. Podría sentir tristeza por lo que cambió; otra persona podría vivirlo de otra manera.'},
+ {id:'angry',label:'Tal vez enfado',why:'Dani quería que la torre siguiera en pie. Podría enfadarse al caer. Sentir enfado y hacer daño son cosas distintas; puede parar y pedir compañía.'},
+ {id:'curious',label:'Tal vez curiosidad',why:'Dani podría preguntarse por qué cayó e imaginar otra construcción. La curiosidad puede aparecer junto a tristeza o enfado.'},
+ {id:'unknown',label:'No lo sabemos todavía',why:'No podemos saber con certeza qué siente Dani solo por lo ocurrido. Podemos preguntar con respeto y aceptar que no quiera responder.'}
+];

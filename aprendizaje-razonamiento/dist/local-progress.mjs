@@ -1,3 +1,4 @@
+import {languageIds,concepts} from './languages.mjs';
 // Anonymous, local-only progress. No clocks, identifiers, accounts or network.
 import {stages,sessionPhases,shapes,supplies,initialStoryOrder,storyCards,evidenceQuestions} from './logic.mjs';
 import {wordScenes} from './word-game.mjs';
@@ -5,10 +6,10 @@ import {extraActivities} from './activities.mjs';
 import {unitPages,unitQuestions} from './comparison-unit.mjs';
 import {directions,gardenLessons,newRoute,moveOne} from './garden-game.mjs';
 export const PROGRESS_KEY='education-facilitation-guide:progress';
-export const PROGRESS_VERSION=2;
+export const PROGRESS_VERSION=3;
 export const MAX_PROGRESS_BYTES=32768;
 const stageIds=stages.map(s=>s.id);
-const activities=id=>['original',...(extraActivities[id]?['extra']:[]),...(id==='5y'?['garden','words']:[]),...(id==='7y'?['unit']:[])];
+const activities=id=>['original',...(extraActivities[id]?['extra']:[]),...(id==='5y'?['garden','words','reflection',...languageIds]:[]),...(id==='7y'?['unit']:[])];
 const fail=()=>{throw new Error('Invalid progress');};
 const object=x=>x!==null&&typeof x==='object'&&!Array.isArray(x)&&(Object.getPrototypeOf(x)===Object.prototype||Object.getPrototypeOf(x)===null);
 function keys(x,allowed){if(!object(x)||Object.keys(x).some(k=>!allowed.includes(k)))fail();return x;}
@@ -41,7 +42,7 @@ function wordState(raw){
  return out;
 }
 function state(raw,id,activity,runtime){
- keys(raw,[...stateFields,'garden','gardenFocus','words',...(runtime?['feedback','unitFeedback']:[])]);
+ keys(raw,[...stateFields,'garden','gardenFocus','words','language',...(runtime?['feedback','unitFeedback']:[])]);
  const defaults=fresh(),s={};for(const k of stateFields)s[k]=Object.hasOwn(raw,k)?raw[k]:defaults[k];
  choice(s.phase,sessionPhases);choice(s.unitPage,unitPages.map(([id])=>id));
  keys(s.unitAnswers,Object.keys(unitQuestions));keys(s.unitHints,Object.keys(unitQuestions));
@@ -56,6 +57,7 @@ function state(raw,id,activity,runtime){
  s.story=list(s.story,storyCards.map(c=>c.id),3,true);if(s.story.length!==3)fail();choice(s.storyChoice,[null,'paper','car']);
  integer(s.evidenceStep,0,evidenceQuestions.length-1);choice(s.evidenceChoice,[null,...evidenceQuestions[s.evidenceStep].options.map(o=>o.id)]);
  for(const k of ['extraCorrect','challenge','storyChecked','storyReason','evidenceCorrect','evidenceDone','success'])bool(s[k]);
+ if(Object.hasOwn(raw,'language')){if(id!=='5y'||!languageIds.includes(activity))fail();const l=raw.language;keys(l,['page','step','choice','checked']);s.language={page:choice(l.page,['guide','practice']),step:integer(l.step,0,concepts.length-1),choice:choice(l.choice,[null,...concepts.map(c=>c.id)]),checked:bool(l.checked)};if(l.checked&&!l.choice)fail();}
  if(Object.hasOwn(raw,'words')){if(id!=='5y'||activity!=='words')fail();s.words=wordState(raw.words);}
  if(Object.hasOwn(raw,'gardenFocus'))s.gardenFocus=bool(raw.gardenFocus);
  if(Object.hasOwn(raw,'garden')){if(id!=='5y'||activity!=='garden')fail();s.garden=garden(raw.garden,runtime);}
@@ -75,7 +77,7 @@ function decode(text){
  if(text===null)return result('empty');
  if(typeof text!=='string')return result('corrupt');
  if(text.length>MAX_PROGRESS_BYTES||new TextEncoder().encode(text).length>MAX_PROGRESS_BYTES)return result('too-large');
- try{const doc=JSON.parse(text);if(!object(doc))return result('corrupt');if(Object.hasOwn(doc,'version')&&![1,PROGRESS_VERSION].includes(doc.version))return result('unsupported-version');keys(doc,['version','snapshot']);if(![1,PROGRESS_VERSION].includes(doc.version))return result('corrupt');return {ok:true,status:'loaded',snapshot:restore(snapshot(doc.snapshot))};}catch{return result('corrupt');}
+ try{const doc=JSON.parse(text);if(!object(doc))return result('corrupt');if(Object.hasOwn(doc,'version')&&![1,2,PROGRESS_VERSION].includes(doc.version))return result('unsupported-version');keys(doc,['version','snapshot']);if(![1,2,PROGRESS_VERSION].includes(doc.version))return result('corrupt');return {ok:true,status:'loaded',snapshot:restore(snapshot(doc.snapshot))};}catch{return result('corrupt');}
 }
 /** Reads only our key. Never repairs, deletes or writes while loading. */
 export function loadProgress(storage){try{if(!storage||typeof storage.getItem!=='function')return result('unavailable');return decode(storage.getItem(PROGRESS_KEY));}catch{return result('unavailable');}}

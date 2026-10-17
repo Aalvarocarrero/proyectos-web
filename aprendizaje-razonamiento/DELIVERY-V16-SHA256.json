@@ -1,0 +1,99 @@
+{
+  "base": "d673ead2dd9b5c9a279f83d3d9395b68fdebe604",
+  "branch": "feat/education-languages-v16-local",
+  "files": {
+    "dist/activities.mjs": {
+      "bytes": 8992,
+      "sha256": "9f226dc51f4f830a2ad023bfb2054ee0eac50d33e81e7ada2ee2d7f0b7167c75"
+    },
+    "dist/app.mjs": {
+      "bytes": 43771,
+      "sha256": "3ee759409c7718d961ececc8680f24aaa6aa8eeefd5b025962c6c5f0c125e47d"
+    },
+    "dist/catalog.mjs": {
+      "bytes": 2040,
+      "sha256": "a064c9cc3dc02de45ca5ee6529c5f12b709ec242a4dbc63cf1517ce9fa87f8b1"
+    },
+    "dist/companion.mjs": {
+      "bytes": 5361,
+      "sha256": "7cf53570c9d88b8404c6d6110d7fa31f989b97cbf0fb87aabeb35754698a92fe"
+    },
+    "dist/comparar-en-familia.html": {
+      "bytes": 2658,
+      "sha256": "8f5ccf8a73304ba8f3f4630ee8b2b3795eefb1a821d557d3d0fffe9a1b06d1ac"
+    },
+    "dist/comparison-print.css": {
+      "bytes": 1243,
+      "sha256": "63c6908f2ba360fab39c9332f5bec20a623b2825368b4926ef2efe65ccb6bc87"
+    },
+    "dist/comparison-unit-ui.mjs": {
+      "bytes": 7633,
+      "sha256": "402bae14148d547265a102b382624bab779b0d8f27011885bc42fe194601caa8"
+    },
+    "dist/comparison-unit.mjs": {
+      "bytes": 5765,
+      "sha256": "6d2a047b62ed7f5d7f36730abea633ea9fcd289f6465d1d3a15347ef7d01cea3"
+    },
+    "dist/disciplines.mjs": {
+      "bytes": 2082,
+      "sha256": "7b89080ac1f57047323c46b277fdb8af7b753f6b9af86449d485234a200ee429"
+    },
+    "dist/facilitation.mjs": {
+      "bytes": 5998,
+      "sha256": "f57f98e11d5b997dd2653784411b942ffa5c25b835d24203965354ab1cbad690"
+    },
+    "dist/garden-game-ui.mjs": {
+      "bytes": 12681,
+      "sha256": "ed2e4876d68baeeedbb580e63e1404ecf8dbc41419eeb62c2556410c8ac5f3fa"
+    },
+    "dist/garden-game.mjs": {
+      "bytes": 7964,
+      "sha256": "5cc96405aea4061b6631a51586f519b58e8a49c624443c0c559f9a47e5bdef49"
+    },
+    "dist/index.html": {
+      "bytes": 9517,
+      "sha256": "312a7f4cb743e2a4f3a8b453a5bb63018df30a0fa5f50a116d9f20ee0967f4a1"
+    },
+    "dist/languages-ui.mjs": {
+      "bytes": 3214,
+      "sha256": "ab9ef8d020d92af954680639648fcaa86868ecc6ae8f655f0122b2a265ee1427"
+    },
+    "dist/languages.mjs": {
+      "bytes": 2720,
+      "sha256": "e41cfdbcc3c95d796971b05ca742737248a74ff7acc8259804a24ad8868d2ab7"
+    },
+    "dist/local-progress.mjs": {
+      "bytes": 10216,
+      "sha256": "1da4f152fb38ed021f5c0b1fd57c5e5f70af96daa93cd5a249a4d78769eb052f"
+    },
+    "dist/logic.mjs": {
+      "bytes": 9728,
+      "sha256": "301f5f5ea2713e434b247efff844acd93a0d1b3fcc51f4d4689dba57f794cf71"
+    },
+    "dist/progress-session.mjs": {
+      "bytes": 4830,
+      "sha256": "0ba7510404f8b1cf26cdce728adf84634d9914de27b65d249ea816f60f61f456"
+    },
+    "dist/reflection-ui.mjs": {
+      "bytes": 2417,
+      "sha256": "9aad64176d5d6044bd7d9aba1fb6c7950d44492a2e603a52e8bdea1744e7cd10"
+    },
+    "dist/reflection.mjs": {
+      "bytes": 1559,
+      "sha256": "555b8807c7cb4376fe4d4665bc48b99079aee2b526714a784c154aae284bad49"
+    },
+    "dist/styles.css": {
+      "bytes": 52334,
+      "sha256": "7d0e32d5418ab516f267b2ffaef7eb58fbd34a71e37ab59368b7f2cfff2af003"
+    },
+    "dist/word-game-ui.mjs": {
+      "bytes": 13785,
+      "sha256": "6ce9f09ddcd57c9d914785c0757b5f9741980f72e1d593231aaaa8baaee18686"
+    },
+    "dist/word-game.mjs": {
+      "bytes": 10848,
+      "sha256": "10f99c9888fa214843f80a9ce17eff2ec4d2fac6d396b6d94a938490ab0633ab"
+    }
+  },
+  "total_dist_bytes": 227356
+}

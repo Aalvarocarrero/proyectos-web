@@ -1,10 +1,12 @@
+import {reflectionActivity} from './reflection.mjs';
 // Editorial classification only; legacy IDs are persistence keys, not ages.
+import {languageActivities} from './languages.mjs';
 import {stages} from './logic.mjs';
 import {extraActivities} from './activities.mjs';
 import {gardenActivity} from './garden-game.mjs';
 import {wordActivity} from './word-game.mjs';
 import {comparisonUnit} from './comparison-unit.mjs';
-export const areas=['Lenguaje','Matemáticas','Ciencia','Creatividad','Pensamiento crítico','Convivir y emociones','Desarrollo personal'];
+export const areas=['Lenguaje','Matemáticas','Ciencia','Creatividad','Pensamiento crítico','Convivir y emociones','Desarrollo personal','Idiomas'];
 const rows=[
  ['18m','original',5,'guide'],['2y','original',3,'guide'],
  ['3y','original',1,'digital'],['3y','extra',1,'digital'],
@@ -17,6 +19,7 @@ export const catalog=rows.map(([stage,id,area,type])=>{
  const activity=id==='original'?base:id==='extra'?extraActivities[stage]:id==='garden'?gardenActivity:id==='words'?wordActivity:comparisonUnit;
  return Object.freeze({...base,...activity,stage,id,key:`${stage}:${id}`,area:areas[area],type});
 });
+catalog.push(reflectionActivity,...languageActivities);
 export const entriesFor=(stage,area='all')=>catalog.filter(a=>a.stage===stage&&(area==='all'||a.area===area));
 export const statusLabel=phase=>({active:'En curso',paused:'En pausa',finished:'Cerrada por hoy'}[phase]||'Sin empezar');
 export const typeLabel=type=>({guide:'Guía de adulto · fuera de pantalla',digital:'Reto digital',unit:'Unidad familiar'}[type]);
