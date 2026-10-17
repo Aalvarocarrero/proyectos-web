@@ -1,0 +1,192 @@
+{
+  "verifiedAt": "2026-10-07T04:50:39Z",
+  "project": "appgprj_6a9e40d2e7108191bee6e53452208ac7",
+  "version": 31,
+  "method": "Sites live D1 read-only overview and table schema, row values omitted",
+  "tables": [
+    {
+      "table": "farms",
+      "columns": [
+        "id",
+        "owner_id",
+        "name",
+        "location",
+        "area_sq_m",
+        "objective",
+        "client_updated_at",
+        "server_updated_at",
+        "deleted",
+        "boundary_shape",
+        "boundary_json",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "farm_records",
+      "columns": [
+        "id",
+        "owner_id",
+        "farm_id",
+        "record_type",
+        "category",
+        "title",
+        "data_json",
+        "client_updated_at",
+        "server_updated_at",
+        "deleted",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "marketplace_listings",
+      "columns": [
+        "id",
+        "owner_id",
+        "seller_name",
+        "title",
+        "description",
+        "category",
+        "price_cents",
+        "currency",
+        "location",
+        "contact",
+        "image_key",
+        "status",
+        "client_updated_at",
+        "server_updated_at",
+        "deleted",
+        "state",
+        "municipality",
+        "short_intro",
+        "photo_context",
+        "seo_title",
+        "seo_description",
+        "image_alt",
+        "sale_format",
+        "supply_unit",
+        "minimum_order",
+        "buyer_type",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "professionals",
+      "columns": [
+        "id",
+        "owner_id",
+        "name",
+        "profession",
+        "specialties",
+        "state",
+        "municipality",
+        "service_mode",
+        "introduction",
+        "contact",
+        "credential_note",
+        "status",
+        "created_at",
+        "updated_at",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "project_proposals",
+      "columns": [
+        "id",
+        "owner_id",
+        "title",
+        "sector",
+        "state",
+        "summary",
+        "has_json",
+        "needs_json",
+        "impact",
+        "requested_support",
+        "contact",
+        "status",
+        "created_at",
+        "updated_at",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "public_farm_profiles",
+      "columns": [
+        "id",
+        "owner_id",
+        "name",
+        "state",
+        "profile_json",
+        "status",
+        "created_at",
+        "updated_at",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "community_posts",
+      "columns": [
+        "id",
+        "owner_id",
+        "farm_id",
+        "body",
+        "status",
+        "created_at",
+        "updated_at",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "community_comments",
+      "columns": [
+        "id",
+        "owner_id",
+        "post_id",
+        "author_name",
+        "body",
+        "status",
+        "created_at",
+        "updated_at",
+        "revision",
+        "last_operation_id",
+        "last_operation_hash"
+      ],
+      "error": false
+    },
+    {
+      "table": "sync_receipts",
+      "columns": [
+        "id",
+        "owner_key",
+        "entity_type",
+        "entity_id",
+        "created_at",
+        "operation_hash",
+        "receipt_status",
+        "server_revision"
+      ],
+      "error": false
+    }
+  ]
+}

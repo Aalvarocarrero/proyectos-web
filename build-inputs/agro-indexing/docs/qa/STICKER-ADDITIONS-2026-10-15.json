@@ -1,0 +1,158 @@
+{
+  "operation": "Deterministic resize and official logo composition; no image generation. Original characters preserved.",
+  "sourceLogo": "Logo_Principal.png",
+  "sourceLogoSha256": "5b82d1a2fda6762d6fdacb98e3f2d1073d07bc129a3dc03650da8abaa9a50244",
+  "logoColorVariant": "Site green #1e7e1a; brown lettering mapped to warm white #f8f7f2. Original geometry and alpha retained.",
+  "canvas": 512,
+  "completeVisibleBox": 480,
+  "compactVisibleBox": 312,
+  "items": [
+    {
+      "id": "agricultores-cosecha-agricultor-con-apio--mujer",
+      "sourceFile": "cosechadora-apio.png",
+      "sourceSha256": "b18a5ab9ca16c85ce31526a8e8ff3588d484b69caa3d0b9c34ead1f9d7c5a1d0",
+      "logoReplacementInterior": [
+        260,
+        1040,
+        995,
+        1202
+      ],
+      "logoCleanupInteriors": [
+        [
+          914,
+          1034,
+          965,
+          1040
+        ]
+      ],
+      "downloadSha256": "1ab021b53e46d986e1f8de303ed4e78d4ad32c4c354168ab92db85e370cff69c",
+      "compactSha256": "799afea99bbd82eb8d92b1983761dae07bd724c2d5ef963914157b6e5b8f82e2"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-apio--hombre",
+      "sourceFile": "cosechador-apio.png",
+      "sourceSha256": "bffc3f5bbe6f9c064bbafc5e21fe535533d24dfc3b1ea9483c812402551a108d",
+      "logoReplacementInterior": [
+        240,
+        1028,
+        1018,
+        1201
+      ],
+      "logoCleanupInteriors": [],
+      "downloadSha256": "b35893fada36a42550b61d2f7768c9b9ccdaa7bc8b99957a1e54c7311e480640",
+      "compactSha256": "ae89cd864f74c2cad665c63aafbab2ae25f20c99b7f7ecaa6f6084c262ef8903"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-perejil--mujer",
+      "sourceFile": "cosechadora-perejil.png",
+      "sourceSha256": "dafb19df8173b87a8acbe1405783558afc895790fb02755e5c1a8ee6c41c5282",
+      "logoReplacementInterior": [
+        212,
+        1018,
+        1052,
+        1205
+      ],
+      "logoCleanupInteriors": [],
+      "downloadSha256": "71d34ba59c6d410b7c22d067caba78a6d5daf4b72e3812641adb2e170e7810fa",
+      "compactSha256": "2f2b7edd409d75ed14cf96b553b7565c1e386ff26d7e1996480fdc17762e25bf"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-perejil--hombre",
+      "sourceFile": "cosechador-perejil.png",
+      "sourceSha256": "7d337c6f2d440e014118c1392de46ee0b0eaa2e60a30334ea979f3f98a151075",
+      "logoReplacementInterior": [
+        190,
+        1004,
+        1068,
+        1201
+      ],
+      "logoCleanupInteriors": [],
+      "downloadSha256": "48a32293337d4abb3c4d5b53269220fdeccb178a754bc089e721ba7c31802dde",
+      "compactSha256": "953cd865b71c513ba32e4d50ad4fae102aff4d523ebbf634e99e303fc6347cc3"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cilantro--mujer",
+      "sourceFile": "cosechadora-cilantro.png",
+      "sourceSha256": "c3a183ee275c88a43c5b51502455a348333546b86a5a9fabf6c4f251107df907",
+      "logoReplacementInterior": [
+        190,
+        1036,
+        1071,
+        1205
+      ],
+      "logoCleanupInteriors": [
+        [
+          930,
+          1028,
+          1020,
+          1037
+        ]
+      ],
+      "downloadSha256": "c204094d1f127cd9daf1043d2ce5c2387e83c1bd43304bbb2b18f8fd4b87c046",
+      "compactSha256": "2c014c9801ba944447c60d4d77b2cddc3ffd4405ac63a5f4972dc24a99529a00"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-cilantro--hombre",
+      "sourceFile": "cosechador-cilantro.png",
+      "sourceSha256": "83c9b279f5efc024218c9c994078e685043096741877b4b4b76589fd79cf4d9f",
+      "logoReplacementInterior": [
+        208,
+        1009,
+        1055,
+        1205
+      ],
+      "logoCleanupInteriors": [
+        [
+          920,
+          1003,
+          1030,
+          1013
+        ]
+      ],
+      "downloadSha256": "747814555376163ca91e8330e2def031251772b9c0f71ae1d664c8b5ee3ab0a3",
+      "compactSha256": "bd1c6ce9912d45b9e98d185d768b5e7a6158a0cf63fd3df20dbec8de67d14dd6"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-fresa--mujer",
+      "sourceFile": "cosechadora-fresa.png",
+      "sourceSha256": "66870277524f55dd2e8d0002c9cfee2df9d5c73383f9e6194821381123b1b2ea",
+      "logoReplacementInterior": [
+        240,
+        1028,
+        1019,
+        1203
+      ],
+      "logoCleanupInteriors": [
+        [
+          930,
+          1020,
+          987,
+          1036
+        ]
+      ],
+      "downloadSha256": "56a971b062e2a2430265e7e6585033069d13369e588c32d0afd7ed984b40f378",
+      "compactSha256": "8762c9d546f810f4261a2eec99cac61efcdf4166d6cbdb0d9b91f5478cfa8b79"
+    },
+    {
+      "id": "agricultores-cosecha-agricultor-con-fresa--hombre",
+      "sourceFile": "cosechador-fresa.png",
+      "sourceSha256": "8a9045b83483d971fea047fef27ca9216c743f1433094273066dffa7270601e9",
+      "logoReplacementInterior": [
+        230,
+        1011,
+        1030,
+        1197
+      ],
+      "logoCleanupInteriors": [
+        [
+          925,
+          1004,
+          991,
+          1016
+        ]
+      ],
+      "downloadSha256": "08da701a940a2661062e9896992ded3afb8fef2fc339e5c148e45d5cec7f8d74",
+      "compactSha256": "9b4a6bc571e5dd710745d2f67649463be8d4c8e7f3c363b3cdce0a8babce9d81"
+    }
+  ]
+}

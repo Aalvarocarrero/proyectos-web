@@ -1,0 +1,122 @@
+{
+  "verifiedAt": "2026-10-13",
+  "scope": "Export-only replacement stock photography. Existing page images unchanged. These are illustrative photographs, not verified inventory photographs. No attribution-required photographs selected.",
+  "processing": "Static downloaded raster bytes resized proportionally, max dimension 1080px (rural fence 720px), WebP q72; no upscaling; metadata stripped by Sharp. Rice supplied at 1080px by companion sourcing worker and then visually/license verified.",
+  "assets": [
+    {
+      "subject": "Ripe rice paddy field",
+      "source": "https://commons.wikimedia.org/wiki/File:Paddy_field_image.jpg",
+      "author": "Maina Tudu",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "File-specific permission section dedicates this photograph to CC0. Source described as own work.",
+      "inspection": "Golden ripe rice panicles in a paddy field. Suitable as rice-growing context, not proof of a particular Venezuelan plot or harvesting activity.",
+      "localPath": "/share-photos/rice-cc0.webp",
+      "bytes": 69474,
+      "sha256": "382ff9b96e485fc4c8d127e4cf568e1505ae79c1e8ee66067aa7701498c67476",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    },
+    {
+      "subject": "Dry yellow maize kernels",
+      "source": "https://commons.wikimedia.org/wiki/File:Corn_grains.JPG",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/0/07/Corn_grains.JPG",
+      "author": "Miansari66",
+      "license": "CC0 1.0",
+      "licenseUrl": "https://creativecommons.org/publicdomain/zero/1.0/",
+      "evidence": "File-specific permission section dedicates this photograph to CC0. Source described as own work.",
+      "inspection": "Loose dry yellow maize kernels on white dish. No corn ears and no prepared cooked corn.",
+      "localPath": "/share-photos/maize-grains-cc0.webp",
+      "bytes": 31720,
+      "sha256": "b1803a0bfafb2e3d6c3d586b2846d53254ca856a0eff0a3b31e3a669ba039288",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    },
+    {
+      "subject": "Liquid nitrogen tank for genetics preservation",
+      "source": "https://commons.wikimedia.org/wiki/File:Agriculture_Secretary_Vilsack_tours_Genetic_Resources_Preservation_(20131106-OSEC-LSC-0432).jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a2/Agriculture_Secretary_Vilsack_tours_Genetic_Resources_Preservation_%2820131106-OSEC-LSC-0432%29.jpg",
+      "author": "USDA / Lance Cheung",
+      "license": "Public domain: United States government / USDA",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-USGov-USDA",
+      "evidence": "File-specific licensing states USDA employee official-duty work is public domain. Flickr review confirms source public-domain mark; photographer and official institution identified.",
+      "inspection": "Photographic close-up of double-walled metal tank, marked NITROGEN REFRIGERATED LIQUID UN1977. No person and no source credit or URL in image. Generic preservation-tank context, not proof of exact inventory size/model.",
+      "localPath": "/share-photos/nitrogen-tank-pd.webp",
+      "bytes": 52246,
+      "sha256": "cf3b88b1cd8744689b51c4734c3a15a12d601353b7fa8451373ad8c8c02b50ef",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    },
+    {
+      "subject": "Rural wire fence and wooden post",
+      "source": "https://commons.wikimedia.org/wiki/File:SmoothWire.jpg",
+      "downloadUrl": "https://upload.wikimedia.org/wikipedia/commons/8/88/SmoothWire.jpg",
+      "author": "BLW / Montanabw",
+      "license": "Public domain dedication by copyright holder",
+      "licenseUrl": "https://commons.wikimedia.org/wiki/Template:PD-self",
+      "evidence": "File-specific licensing states copyright holder releases work worldwide and grants use without conditions where release is legally impossible.",
+      "inspection": "Close-up of two smooth twisted-wire fence strands stapled to wooden rural post. Suitable fence-inspection context, not fencing roll or tools.",
+      "localPath": "/share-photos/rural-fence-pd.webp",
+      "bytes": 94464,
+      "sha256": "4b0e46429ca979b9c3e568cee72a8cbac849f914d5406f16c37cadfe7a3b4963",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    },
+    {
+      "subject": "Shovel, rake and wheelbarrow",
+      "source": "https://www.pexels.com/photo/gardening-tools-in-a-wheelbarrow-16680733/",
+      "downloadUrl": "https://images.pexels.com/photos/16680733/pexels-photo-16680733.jpeg?auto=compress&cs=tinysrgb&w=1080",
+      "author": "8 K",
+      "license": "Pexels License: no attribution required",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "evidence": "Exact photo page says Free and links Pexels License. License permits website, promotional and social media use; attribution is not required. Do not imply endorsement by brands shown.",
+      "inspection": "Real gardening shovel, metal rake and another long-handled tool resting in wheelbarrow. Dark image but subjects visible. Inherent tool branding visible; no endorsement claim permitted.",
+      "localPath": "/share-photos/farm-tools-free.webp",
+      "bytes": 53686,
+      "sha256": "f392c642b11f39bbbfaef452a7abb5a627bbdecf71ce696dd5e952aac9e587b8",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    },
+    {
+      "subject": "Dark finished compost held in hands",
+      "source": "https://www.pexels.com/photo/hands-holding-rich-organic-compost-in-garden-33995853/",
+      "downloadUrl": "https://images.pexels.com/photos/33995853/pexels-photo-33995853.jpeg?auto=compress&cs=tinysrgb&w=1080",
+      "author": "Silva Montanis",
+      "license": "Pexels License: no attribution required",
+      "licenseUrl": "https://www.pexels.com/license/",
+      "evidence": "Exact photo page says Free and links Pexels License. License permits website, promotional and social media use; attribution is not required.",
+      "inspection": "Hands holding dark granular compost beside garden plant; no face, no labels, no source credit. Suitable compost/soil context.",
+      "localPath": "/share-photos/compost-free.webp",
+      "bytes": 47082,
+      "sha256": "eb8933ef6f2b396ac207ababb35b4dae74ebf8859e355f5b40c65445bfca4982",
+      "attributionRequired": false,
+      "pixelsInspected": true
+    }
+  ],
+  "rejectedOrNotUsed": [
+    {
+      "source": "https://www.pexels.com/photo/orange-chisel-plow-on-brown-hayfield-7940478/",
+      "reason": "Actual pixels depict hay rake with spoked tine wheels, not disk harrow, despite inaccurate search tags."
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:PelletRation.jpg",
+      "reason": "Public domain but source is specifically horse ration; not selected for bovine pellets."
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:A_view_of_cattle_feed.JPG",
+      "reason": "Exact bovine feed but requires attribution/share-alike."
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Honey_extractor_-_National_museum_of_Udmurt_Republic.jpg",
+      "reason": "CC0 historical museum extractor; download rate-limited. Not selected for modern product."
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:Hay_bales.JPG",
+      "reason": "CC0 and visually valid round hay bales, but not a replacement for pellet feed. Moved out of public assets."
+    },
+    {
+      "source": "https://commons.wikimedia.org/wiki/File:A_tractor_in_a_farm.jpg",
+      "reason": "CC0 and visually valid tractor field context, but not disk harrow. Moved out of public assets."
+    }
+  ]
+}

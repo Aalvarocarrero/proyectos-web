@@ -1,0 +1,21 @@
+// Local packaging only: never invokes Wrangler or changes remote state.
+import fs from 'node:fs';
+import path from 'node:path';
+import assert from 'node:assert/strict';
+const root=path.resolve(import.meta.dirname,'..');
+const config=JSON.parse(fs.readFileSync(path.join(root,'deployment/wrangler.promotion.json'),'utf8'));
+assert.equal(config.name,'venezuelaagro-staging');
+assert.equal(config.account_id,'5ce31d22b086645c67dab913699edd3f');
+assert.equal(config.vars.AUTH_ACCESS_POLICY,'public-production');
+assert.equal(config.vars.APP_ORIGIN,'https://venezuelaagro.com');
+assert.equal(config.vars.OWNER_ADMIN_EMAIL,'alvarojuniorcarrerovasquez@gmail.com');
+assert.equal(config.vars.OWNER_GOOGLE_SUBJECT,'113186509837584939227');
+assert.equal(config.keep_vars,true);
+for(const key of ['GOOGLE_CLIENT_ID','GOOGLE_CLIENT_SECRET','AUTH_SESSION_SECRET','TURNSTILE_SECRET_KEY'])assert.ok(!(key in config.vars),`Credential binding must not be embedded: ${key}`);
+assert.ok(fs.existsSync(path.join(root,'dist/server/index.js')),'Build matching production output before staging config');
+const built=JSON.parse(fs.readFileSync(path.join(root,'dist/server/wrangler.json'),'utf8'));
+assert.equal(built.vars?.AUTH_MODE,'google','Refuse to stage production bindings onto a non-production build');
+assert.equal(built.vars?.AUTH_ACCESS_POLICY,'public-production');
+assert.equal(built.vars?.APP_ORIGIN,'https://venezuelaagro.com');
+for(const name of ['wrangler.json','wrangler.promotion.json'])fs.writeFileSync(path.join(root,'dist/server',name),JSON.stringify(config,null,2)+'\n');
+console.log('Staged reviewed same-Worker config with verified owner pair and no credential values. No remote operation.');

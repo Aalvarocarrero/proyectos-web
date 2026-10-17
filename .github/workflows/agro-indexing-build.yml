@@ -1,0 +1,61 @@
+name: Agro indexing build only
+on:
+  push:
+    branches: [build/agro-indexing-f6b3b5e-20261017]
+    paths:
+      - build-inputs/agro-indexing/**
+      - .github/workflows/agro-indexing-build.yml
+permissions:
+  contents: read
+concurrency:
+  group: agro-indexing-f6b3b5e-20261017
+  cancel-in-progress: false
+jobs:
+  build:
+    if: github.repository == 'Aalvarocarrero/proyectos-web' && github.ref == 'refs/heads/build/agro-indexing-f6b3b5e-20261017' && github.run_attempt == 1 && github.event.head_commit.message == 'Build Agro indexing once 20261017 authorized attempt'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 20
+    defaults:
+      run:
+        working-directory: build-inputs/agro-indexing
+        shell: bash
+    env:
+      CI: true
+      NODE_OPTIONS: --max-old-space-size=4096
+      RAYON_NUM_THREADS: 2
+      SITES_BUILD_TIMEOUT: 8m
+      SITES_INSTALL_TIMEOUT: 8m
+      AUTH_DEPLOYMENT_TARGET: standalone
+      AUTH_RELEASE_MODE: production
+      PUBLIC_SITE_ORIGIN: https://venezuelaagro.com
+      PUBLIC_INDEXING_ENABLED: 'true'
+      CLOUDFLARE_LOAD_DEV_VARS_FROM_DOT_ENV: 'false'
+      WRANGLER_SEND_METRICS: 'false'
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: false
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          package-manager-cache: false
+      - name: Verify source snapshot
+        run: python3 ci/verify-source.py
+      - name: Install locked dependencies
+        run: mkdir -p .ci-output; ulimit -f 131072; npm run install:ci > .ci-output/install.log 2>&1
+      - name: Compile and verify without deployment
+        run: bash ci/build-only.sh
+      - name: Enforce output cost bound
+        if: always()
+        id: budget
+        run: python3 ci/check-output-budget.py
+      - name: Retain complete output and diagnostics for one day
+        if: always() && steps.budget.outcome == 'success'
+        uses: actions/upload-artifact@v4
+        with:
+          name: agro-indexing-review-${{ github.run_id }}
+          path: build-inputs/agro-indexing/.ci-output/*
+          retention-days: 1
+          compression-level: 0
+          if-no-files-found: ignore

@@ -1,0 +1,47 @@
+// Approved production configuration. Local builds do not deploy. Preserve the verified owner pair.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "venezuelaagro-staging",
+  "account_id": "5ce31d22b086645c67dab913699edd3f",
+  "main": "./worker/index.ts",
+  "compatibility_date": "2026-10-14",
+  "compatibility_flags": [
+    "nodejs_compat"
+  ],
+  "workers_dev": false,
+  "preview_urls": false,
+  "keep_vars": true,
+  "routes": [
+    {
+      "pattern": "venezuelaagro.com",
+      "custom_domain": true
+    }
+  ],
+  "assets": {
+    "binding": "ASSETS",
+    "run_worker_first": true
+  },
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "venezuelaagro-production",
+      "database_id": "366a6aa3-454c-4f7e-96f6-e0586290811c",
+      "migrations_dir": "drizzle"
+    }
+  ],
+  "r2_buckets": [
+    {
+      "binding": "BUCKET",
+      "bucket_name": "venezuelaagro-production-files"
+    }
+  ],
+  "vars": {
+    "AUTH_MODE": "google",
+    "AUTH_ACCESS_POLICY": "public-production",
+    "APP_ORIGIN": "https://venezuelaagro.com",
+    "TURNSTILE_SITE_KEY": "0x4AAAAAAFWfwMwzdORVkoDe",
+    "OWNER_ADMIN_EMAIL": "alvarojuniorcarrerovasquez@gmail.com",
+    "OWNER_GOOGLE_SUBJECT": "113186509837584939227"
+  }
+}
+// Existing credential bindings, including GOOGLE_CLIENT_ID stored as secret_text, remain absent.
