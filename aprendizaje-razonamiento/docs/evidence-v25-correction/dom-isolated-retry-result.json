@@ -1,0 +1,5 @@
+{
+  "selected": 25,
+  "exit": 0,
+  "summary": "flection allows every perspective but never serializes emotional choices\nok 24 - reflection allows every perspective but never serializes emotional choices\n  ---\n  duration_ms: 139.26258\n  type: 'test'\n  ...\n# Subtest: science disciplines expose only their implemented pilot\nok 25 - science disciplines expose only their implemented pilot\n  ---\n  duration_ms: 20.597612\n  type: 'test'\n  ...\n1..25\n# tests 25\n# suites 0\n# pass 25\n# fail 0\n# cancelled 0\n# skipped 0\n# todo 0\n# duration_ms 11390.486234\n"
+}

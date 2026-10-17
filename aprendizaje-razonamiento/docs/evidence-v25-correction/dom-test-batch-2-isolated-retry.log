@@ -1,0 +1,160 @@
+TAP version 13
+# Subtest: focused garden catalog roundtrip preserves route and selected edit
+ok 1 - focused garden catalog roundtrip preserves route and selected edit
+  ---
+  duration_ms: 404.0113
+  type: 'test'
+  ...
+# Subtest: garden inline demonstration is optional and does not edit the child route
+ok 2 - garden inline demonstration is optional and does not edit the child route
+  ---
+  duration_ms: 171.79147
+  type: 'test'
+  ...
+# Subtest: garden replacement and undo recover position and accessible selection
+ok 3 - garden replacement and undo recover position and accessible selection
+  ---
+  duration_ms: 227.222805
+  type: 'test'
+  ...
+# Subtest: garden collision action selects the blocked arrow for correction
+ok 4 - garden collision action selects the blocked arrow for correction
+  ---
+  duration_ms: 132.054508
+  type: 'test'
+  ...
+# Subtest: local garden progress restores after a new document and preserves pause
+ok 5 - local garden progress restores after a new document and preserves pause
+  ---
+  duration_ms: 176.401961
+  type: 'test'
+  ...
+# Subtest: local grouping and story choices survive independent reloads
+ok 6 - local grouping and story choices survive independent reloads
+  ---
+  duration_ms: 155.410627
+  type: 'test'
+  ...
+# Subtest: corrupt and future local progress is protected until voluntary confirmed reset
+ok 7 - corrupt and future local progress is protected until voluntary confirmed reset
+  ---
+  duration_ms: 267.337043
+  type: 'test'
+  ...
+# Subtest: storage failure remains visible while game works and deletion failure preserves current state
+ok 8 - storage failure remains visible while game works and deletion failure preserves current state
+  ---
+  duration_ms: 101.306682
+  type: 'test'
+  ...
+# Subtest: word journey contains six scenes with contextual choices, feedback and fresh hints
+ok 9 - word journey contains six scenes with contextual choices, feedback and fresh hints
+  ---
+  duration_ms: 825.415689
+  type: 'test'
+  ...
+# Subtest: word journey pause, catalog and reload preserve only bounded local state
+ok 10 - word journey pause, catalog and reload preserve only bounded local state
+  ---
+  duration_ms: 264.678326
+  type: 'test'
+  ...
+# Subtest: word recall and offscreen are optional, distinct and do not imply mastery
+ok 11 - word recall and offscreen are optional, distinct and do not imply mastery
+  ---
+  duration_ms: 179.393131
+  type: 'test'
+  ...
+# Subtest: both focused games can leave pause and return with their choices intact
+ok 12 - both focused games can leave pause and return with their choices intact
+  ---
+  duration_ms: 278.07042
+  type: 'test'
+  ...
+# Subtest: external save blocks overwrites and requires explicit confirmation before loading
+ok 13 - external save blocks overwrites and requires explicit confirmation before loading
+  ---
+  duration_ms: 110.227509
+  type: 'test'
+  ...
+# Subtest: external deletion is not resurrected by an old tab
+ok 14 - external deletion is not resurrected by an old tab
+  ---
+  duration_ms: 77.580264
+  type: 'test'
+  ...
+# Subtest: asynchronous coordinated saving announces completion and restores latest click
+ok 15 - asynchronous coordinated saving announces completion and restores latest click
+  ---
+  duration_ms: 95.214547
+  type: 'test'
+  ...
+# Subtest: returning to an active or paused focused game targets its visible session heading
+ok 16 - returning to an active or paused focused game targets its visible session heading
+  ---
+  duration_ms: 380.737838
+  type: 'test'
+  ...
+# Subtest: each extra question exposes the current scenario as its accessible description
+ok 17 - each extra question exposes the current scenario as its accessible description
+  ---
+  duration_ms: 434.469448
+  type: 'test'
+  ...
+# Subtest: next extra idea scrolls its new premise into view while keeping question focus
+ok 18 - next extra idea scrolls its new premise into view while keeping question focus
+  ---
+  duration_ms: 89.00804
+  type: 'test'
+  ...
+# Subtest: v25 inventory: 20 digital, 2 adult guides, 1 family unit; correct legacy labels
+ok 19 - v25 inventory: 20 digital, 2 adult guides, 1 family unit; correct legacy labels
+  ---
+  duration_ms: 0.552305
+  type: 'test'
+  ...
+# Subtest: v16 all 54 stage/area combinations expose exact inventory and honest empty recovery
+ok 20 - v16 all 54 stage/area combinations expose exact inventory and honest empty recovery
+  ---
+  duration_ms: 1468.079216
+  type: 'test'
+  ...
+# Subtest: v15 all thirteen entries open through their area, without duplicate unit steps
+ok 21 - v15 all thirteen entries open through their area, without duplicate unit steps
+  ---
+  duration_ms: 1814.582939
+  type: 'test'
+  ...
+# Subtest: v15 filters and stage changes preserve paused game responses and persisted state
+ok 22 - v15 filters and stage changes preserve paused game responses and persisted state
+  ---
+  duration_ms: 155.225721
+  type: 'test'
+  ...
+# Subtest: six language entries support guide, wrong answer, retry, pause and reload
+ok 23 - six language entries support guide, wrong answer, retry, pause and reload
+  ---
+  duration_ms: 1057.760416
+  type: 'test'
+  ...
+# Subtest: reflection allows every perspective but never serializes emotional choices
+ok 24 - reflection allows every perspective but never serializes emotional choices
+  ---
+  duration_ms: 139.26258
+  type: 'test'
+  ...
+# Subtest: science disciplines expose only their implemented pilot
+ok 25 - science disciplines expose only their implemented pilot
+  ---
+  duration_ms: 20.597612
+  type: 'test'
+  ...
+1..25
+# tests 25
+# suites 0
+# pass 25
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 11390.486234

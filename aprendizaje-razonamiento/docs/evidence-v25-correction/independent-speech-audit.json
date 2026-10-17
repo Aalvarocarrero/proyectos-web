@@ -1,0 +1,94 @@
+{
+  "source": "/workspace/shared/education-v25-corrected-prepared/source",
+  "providedRemoteCommit": "7f80cee3c408a276d89ca9f2ae27bca592ee9cc9 plus bounded validator correction",
+  "remoteProvenance": "Provided by parent; this audit made no network requests.",
+  "generatedAt": "2026-10-17T10:20:14.258Z",
+  "scope": "Independent pure JavaScript / JSDOM API-mock audit. No browser, server, socket, deployment, source edits or acoustic verification.",
+  "realAudioHeard": false,
+  "nativeContext": "Parent states cloud Chromium has zero voices. This audit does not change that limitation.",
+  "passed": 14,
+  "failed": 0,
+  "records": [
+    {
+      "name": "Source files match v25 delivery manifest; unchanged coordination and language modules match v20",
+      "pass": true,
+      "detail": {
+        "manifestFiles": 36
+      }
+    },
+    {
+      "name": "Only primitive true and matching, valid locale can be selected",
+      "pass": true
+    },
+    {
+      "name": "All 18 fixed words select matching local voice despite earlier remote/wrong voices",
+      "pass": true,
+      "detail": {
+        "words": 18,
+        "acousticVerification": false
+      }
+    },
+    {
+      "name": "Absent or remote-only voices fail closed and discovery never autoplays",
+      "pass": true
+    },
+    {
+      "name": "Twenty rapid repeat/word requests cancel old work and stale events cannot change current request",
+      "pass": true
+    },
+    {
+      "name": "No-start timeout, no-end timeout, synchronous speak error and late errors never retry or substitute voices",
+      "pass": true
+    },
+    {
+      "name": "Visibility, pagehide, hash navigation and outside clicks cancel pending/speaking and ignore old callbacks",
+      "pass": true
+    },
+    {
+      "name": "Voice removal cancels and disables without default fallback; detached controls do not speak",
+      "pass": true
+    },
+    {
+      "name": "App word, choice, retry, language, activity, stage, pause, finish and home transitions cancel",
+      "pass": true,
+      "detail": {
+        "transitions": [
+          "practice",
+          "word",
+          "choice",
+          "retry",
+          "language",
+          "activity",
+          "stage",
+          "pause",
+          "finish",
+          "home"
+        ]
+      }
+    },
+    {
+      "name": "Audio clicks/events preserve exact saved progress and create no extra storage key",
+      "pass": true
+    },
+    {
+      "name": "FINDING 1: reset must preserve a cancellation failure warning",
+      "pass": true
+    },
+    {
+      "name": "FINDING 1 integration: word rerender must not erase cancellation warning",
+      "pass": true
+    },
+    {
+      "name": "FINDING 2: completed utterance must ignore later start/error callbacks",
+      "pass": true
+    },
+    {
+      "name": "No network, microphone or recognition calls; speech source contains no such API",
+      "pass": true,
+      "detail": {
+        "blockedApiCalls": []
+      }
+    }
+  ],
+  "blockedCalls": []
+}

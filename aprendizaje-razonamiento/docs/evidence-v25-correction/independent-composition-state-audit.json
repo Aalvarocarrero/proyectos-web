@@ -1,0 +1,102 @@
+{
+  "scope": "Independent JS and JSDOM only; no browser, server, socket, network, source edits, layout, or native keyboard behavior claimed.",
+  "source": "GitHub 7f80cee3c408a276d89ca9f2ae27bca592ee9cc9 plus parent-approved local denseValues fix",
+  "checks": [
+    {
+      "name": "Composition definition and finite nine-cell/four-piece design are correctly scoped",
+      "result": "pass"
+    },
+    {
+      "name": "Every field rejects own getters and inherited fields without accessor invocation or writes",
+      "result": "pass"
+    },
+    {
+      "name": "Dense-array guards reject sparse, inherited index, own accessors, extra and symbol keys before writes",
+      "result": "pass"
+    },
+    {
+      "name": "Inherited iterator accessors in composition cells, original and undo are rejected without calls or saved-data mutation",
+      "result": "pass"
+    },
+    {
+      "name": "Both construction stages reject inherited iterator and some accessors without calls or saved-data mutation",
+      "result": "pass"
+    },
+    {
+      "name": "Ordinary invalid closures and cross-route composition placement cannot overwrite saved progress",
+      "result": "pass"
+    },
+    {
+      "name": "Reachable edit/reason/undo/revise transitions, original copy and cloned snapshot isolation",
+      "result": "pass"
+    },
+    {
+      "name": "Ordinary v24 construction and exploration states retain their exact semantics under v25",
+      "result": "pass"
+    },
+    {
+      "name": "Version 1–4 old ordinary snapshots load/save without deleting old proposal fields",
+      "result": "pass"
+    },
+    {
+      "name": "v24 rollback cannot interpret composition but preserves raw bytes; v25 recovers it",
+      "result": "pass"
+    },
+    {
+      "name": "Two stale composition sessions block overwrite/deletion until explicit reload",
+      "result": "pass"
+    },
+    {
+      "name": "Queued coordinated save captures isolated composition arrays before lock acquisition",
+      "result": "pass"
+    },
+    {
+      "name": "UI direct studio route has scoped labels, native controls, stable focus and optional no-edit close",
+      "result": "pass"
+    },
+    {
+      "name": "UI pause/reload restores undo, original, edit, intent clearing and finish/restart boundaries",
+      "result": "pass"
+    },
+    {
+      "name": "Original, composition and exploration routes retain independent content and pause state",
+      "result": "pass"
+    },
+    {
+      "name": "UI v24 rollback protects current v25 record and upgraded reload restores composition",
+      "result": "pass"
+    },
+    {
+      "name": "UI stale tab conflict preserves rival composition until explicit reload",
+      "result": "pass"
+    }
+  ],
+  "findings": [],
+  "metrics": {
+    "recordMalformedCases": 50,
+    "arrayMalformedCases": 15,
+    "inheritedIteratorCompositionCases": 3,
+    "inheritedArrayConstructionCases": 4,
+    "reachableTransitionChecks": 16000,
+    "legacyValidStatesPreserved": 48792,
+    "legacyInvalidStatesStillRejected": 26032
+  },
+  "observations": [
+    {
+      "id": "COMPOSITION_REACHABILITY_NOT_EXHAUSTIVE",
+      "severity": "low",
+      "blocking": false,
+      "summary": "Composition validation enforces closure prerequisites but does not reject every UI-unreachable combination: page 0 with a non-null reason, or page 2 with non-null undo and hint=true are accepted.",
+      "boundary": "Shipped UI transitions never produce these combinations. This concerns malformed-snapshot completeness, not an observed normal-flow failure."
+    }
+  ],
+  "sourceHashes": {
+    "composition.mjs": "8a6004ccc38f2103ea1b403d84eb53bcac08a19e1d36f6fd1ea0835850192a5d",
+    "state-validation.mjs": "b332626853bc2da8c8f4a4071d99d4e5de18e7ed188377c7c715cb852797c779"
+  },
+  "summary": {
+    "passed": 17,
+    "failed": 0,
+    "findings": 0
+  }
+}

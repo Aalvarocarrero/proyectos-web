@@ -1,0 +1,76 @@
+{
+  "source": "/workspace/shared/education-v25-corrected-prepared/source",
+  "providedCommit": "7f80cee3c408a276d89ca9f2ae27bca592ee9cc9 plus bounded validator correction",
+  "generatedAt": "2026-10-17T10:22:29.197Z",
+  "scope": "Independent targeted JSDOM and source inspection; no source edits, servers, sockets, browser, network or deployment. No visual/layout, native keyboard or acoustic certification.",
+  "checks": 1329,
+  "passed": 12,
+  "failed": 0,
+  "results": [
+    {
+      "name": "Initial dashboard exposes 8 areas, 6 disciplines, 6 languages, 3 utilities and real games without welcome completion or storage",
+      "pass": true,
+      "checks": 149,
+      "detail": {
+        "catalog": 23,
+        "digitalGames": 20
+      }
+    },
+    {
+      "name": "All 23 catalog entries launch from their real area and return with focus",
+      "pass": true,
+      "checks": 351
+    },
+    {
+      "name": "All six bands offer matching real entry; every area prioritizes band and honestly labels age gaps",
+      "pass": true,
+      "checks": 400
+    },
+    {
+      "name": "Six disciplines focus their actual section, disclose readiness and offer only real functional route keys",
+      "pass": true,
+      "checks": 132
+    },
+    {
+      "name": "Six language cards reach the exact three-word pilot, keep fixed age/synthetic voice scope and return",
+      "pass": true,
+      "checks": 101
+    },
+    {
+      "name": "Jump buttons focus and scroll exact headings; Luma/family/progress expose and focus exact destinations with working return",
+      "pass": true,
+      "checks": 43
+    },
+    {
+      "name": "Answered game survives band changes, areas, all utilities, alternate route, home, Continue and reload; welcome preference unchanged",
+      "pass": true,
+      "checks": 84
+    },
+    {
+      "name": "Speech failure on return home remains outside closed catalog and survives dashboard destinations",
+      "pass": true,
+      "checks": 32
+    },
+    {
+      "name": "Unavailable storage remains explicit; dashboard actions neither erase data nor create navigation exceptions",
+      "pass": true,
+      "checks": 11
+    },
+    {
+      "name": "Brand return preserves keyboard focus after an activity has progress",
+      "pass": true,
+      "checks": 11
+    },
+    {
+      "name": "Unconfirmed speech cancellation is not hidden when expanded catalog is collapsed",
+      "pass": true,
+      "checks": 14
+    },
+    {
+      "name": "Audit made no network, microphone or recognition calls",
+      "pass": true,
+      "checks": 1
+    }
+  ],
+  "blockedCalls": []
+}

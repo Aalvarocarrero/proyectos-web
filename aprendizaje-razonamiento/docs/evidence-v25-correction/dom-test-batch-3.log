@@ -1,0 +1,33 @@
+✔ optional companion has separate bounded visual preferences, contextual hints and hide/forget (414.05549ms)
+✔ companion preserves corrupt or rival preferences rather than overwriting them (115.535158ms)
+✔ science tutorials, both connections, explanations, retry and mission navigation (1178.828909ms)
+✔ science preserves selections through pause, guide, reload and a different subject (250.456104ms)
+✔ science can skip every unanswered mission and close without a score (114.282765ms)
+✔ science companion hint follows selected mission and does not change the answer (87.623642ms)
+✔ Dani branches, backtracking and all twelve endings leave no story choices in storage (1957.57091ms)
+✔ Dani optional other path, pause and exit clear transient decisions (166.87324ms)
+✔ companion is visible initially without a write, and hidden preference is respected in game (67.912638ms)
+✔ companion is reachable inside both concentrated games without leaving or losing choices (138.8057ms)
+✔ language catalog shows six distinct visible language names (48.531964ms)
+✔ language order survives selection, feedback and pause but retry changes position (151.365217ms)
+✔ Dani pause accurately describes discarded choices while other activities keep their promise (174.638494ms)
+✔ companion Escape closes from launcher and all internal controls, returning focus (172.932758ms)
+✔ companion return action is hidden outside an active activity and restored on resume (122.480442ms)
+✔ guided welcome stages do not write or change educational progress before launch (75.752825ms)
+✔ remembering and forgetting welcome preferences preserves games and companion (82.853675ms)
+✔ returning v19 user can continue without choosing a band or altering saved answers (107.974542ms)
+✔ welcome storage failure and external preference changes never overwrite progress or preferences (97.671645ms)
+✔ toddler demo is optional and launch opens adult guidance without a child screen game (136.579035ms)
+✔ guided activity can open its catalog and return home without trapping controls (133.212208ms)
+✔ welcome keeps the honest paused story screen and rejects invalid saved progress (143.700496ms)
+✔ finished guided activities open visible stage selection in every band without resetting games or welcome (637.621103ms)
+✔ guided language cards display six distinct language names in their button labels (35.478414ms)
+✔ Continue identifies each language after returning home and reloading v4 progress (592.426799ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 10081.114891

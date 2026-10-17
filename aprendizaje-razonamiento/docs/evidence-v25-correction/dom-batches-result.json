@@ -1,0 +1,26 @@
+[
+  {
+    "batch": 1,
+    "selected": 25,
+    "exit": 0,
+    "summary": "serves existing story separately (130.171823ms)\n\u2714 garden keyboard buttons, pause, correction, optional sequence and offscreen closure (421.801195ms)\n\u2714 garden pages keep unique IDs, accessible controls and ephemeral independent state (118.461537ms)\n\u2139 tests 25\n\u2139 suites 0\n\u2139 pass 25\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 8623.888244\n"
+  },
+  {
+    "batch": 2,
+    "selected": 25,
+    "exit": 1,
+    "summary": "64.779097ms)\n\u2714 science disciplines expose only their implemented pilot (25.02216ms)\n\u2716 source/tests/dom.test.cjs (11437.720801ms)\n\u2139 tests 26\n\u2139 suites 0\n\u2139 pass 25\n\u2139 fail 1\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 11444.362417\n\n\u2716 failing tests:\n\ntest at source/tests/dom.test.cjs:1:1\n\u2716 source/tests/dom.test.cjs (11437.720801ms)\n  'test failed'\n"
+  },
+  {
+    "batch": 3,
+    "selected": 25,
+    "exit": 0,
+    "summary": "d without resetting games or welcome (637.621103ms)\n\u2714 guided language cards display six distinct language names in their button labels (35.478414ms)\n\u2714 Continue identifies each language after returning home and reloading v4 progress (592.426799ms)\n\u2139 tests 25\n\u2139 suites 0\n\u2139 pass 25\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 10081.114891\n"
+  },
+  {
+    "batch": 4,
+    "selected": 9,
+    "exit": 0,
+    "summary": "stop clears the stale global warning (12.127322ms)\n\u2714 composition opens directly, supports keyboard-native buttons, undo and independent versions (134.999086ms)\n\u2714 composition help describes design rather than the original budget exercise (75.38747ms)\n\u2139 tests 9\n\u2139 suites 0\n\u2139 pass 9\n\u2139 fail 0\n\u2139 cancelled 0\n\u2139 skipped 0\n\u2139 todo 0\n\u2139 duration_ms 1427.043328\n"
+  }
+]

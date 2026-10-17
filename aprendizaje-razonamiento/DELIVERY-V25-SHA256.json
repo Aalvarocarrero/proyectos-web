@@ -127,8 +127,8 @@
       "sha256": "7a38f496fc6a1c4b87d385e46c72a0dbc0c057cbaaed476a2332535f4bdc48e6"
     },
     "dist/state-validation.mjs": {
-      "bytes": 986,
-      "sha256": "c53e081eef4671580a02a2b527ff66ed603ced2e7edbbcd673a7d85ff5e5b3d3"
+      "bytes": 1069,
+      "sha256": "b332626853bc2da8c8f4a4071d99d4e5de18e7ed188377c7c715cb852797c779"
     },
     "dist/styles.css": {
       "bytes": 67224,

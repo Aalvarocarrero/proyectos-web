@@ -6,7 +6,8 @@ export function ownRecord(value,fields){
  return value;
 }
 export function denseValues(value,allowed,max,exact=false){
- if(!Array.isArray(value)||value.length>max||(exact&&value.length!==max)||Reflect.ownKeys(value).length!==value.length+1)throw Error('Invalid array');
- for(let i=0;i<value.length;i++){const descriptor=Object.getOwnPropertyDescriptor(value,String(i));if(!descriptor||!Object.hasOwn(descriptor,'value')||!allowed.includes(descriptor.value))throw Error('Invalid item');}
- return [...value];
+ if(!Array.isArray(value)||Object.getPrototypeOf(value)!==Array.prototype||value.length>max||(exact&&value.length!==max)||Reflect.ownKeys(value).length!==value.length+1)throw Error('Invalid array');
+ const copy=[];
+ for(let i=0;i<value.length;i++){const descriptor=Object.getOwnPropertyDescriptor(value,String(i));if(!descriptor||!Object.hasOwn(descriptor,'value')||!allowed.includes(descriptor.value))throw Error('Invalid item');copy[i]=descriptor.value;}
+ return copy;
 }

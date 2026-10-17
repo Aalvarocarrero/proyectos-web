@@ -1,0 +1,33 @@
+✔ onboarding starts with no child stage or activity selected (150.714381ms)
+✔ approved time estimates appear before starting every stage (261.526677ms)
+✔ both under-three routes contain only adult offline guides (186.527369ms)
+✔ grouping checks errors, exact sets and optional second rule (212.006791ms)
+✔ pause and changing stages preserve grouping decisions only in memory (141.523932ms)
+✔ unfinished and paused sessions can finish without a penalty or automatic next (173.752524ms)
+✔ planning preserves original solution, reduced budget and revised solution (246.19613ms)
+✔ story can be reordered, checked and explained with buttons (193.49007ms)
+✔ evidence requires explicit choices and transitions and handles wrong answers (201.044556ms)
+✔ dynamic DOM has unique IDs, explicit buttons and accessible names in every state (434.643951ms)
+✔ new activity catalog preserves independent choices and phase in both directions (210.736532ms)
+✔ all four new activities support hints, correction, optional continuation and natural closure (1017.675499ms)
+✔ changing a new answer invalidates previous success and hides next step (113.042379ms)
+✔ story choices expose selection and preserve it through pause (148.75237ms)
+✔ new activity states have unique IDs, clear selected names and valid native buttons (482.783735ms)
+✔ exhausted hint label and blocked-route description survive rerendering (156.513568ms)
+✔ optional facilitation matches every proposal before and during activity (1174.550567ms)
+✔ opening the support guide preserves selected answers and does not start another round (100.664734ms)
+✔ pilot can skip directly to transfer and offscreen guidance without answering (108.434305ms)
+✔ pilot feedback and hints survive backward navigation, pause and other activities (313.633803ms)
+✔ every pilot option has explanatory feedback and no gated navigation or persisted answers (455.442215ms)
+✔ answer-specific feedback survives pause and changes correctly when the choice is revised (935.309929ms)
+✔ garden is featured and default for 6–8 but preserves existing story separately (130.171823ms)
+✔ garden keyboard buttons, pause, correction, optional sequence and offscreen closure (421.801195ms)
+✔ garden pages keep unique IDs, accessible controls and ephemeral independent state (118.461537ms)
+ℹ tests 25
+ℹ suites 0
+ℹ pass 25
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 8623.888244

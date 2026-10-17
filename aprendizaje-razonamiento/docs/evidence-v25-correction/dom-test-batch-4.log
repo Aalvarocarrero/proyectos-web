@@ -1,0 +1,17 @@
+✔ speech cancellation failure remains visible after leaving or replacing the language panel (108.304153ms)
+✔ failed Repeat exposes the cancellation warning and sends no additional utterance (14.623334ms)
+✔ dashboard exposes all areas, languages and utilities without onboarding or writes (225.403636ms)
+✔ dashboard band does not alter progress; adult guides and exact destinations remain reachable (162.85343ms)
+✔ brand return keeps focus on the dashboard heading without rewriting saved progress (132.692802ms)
+✔ catalog collapse keeps a failed speech cancellation warning outside closed details (13.228487ms)
+✔ successful explicit speech after a failed stop clears the stale global warning (12.127322ms)
+✔ composition opens directly, supports keyboard-native buttons, undo and independent versions (134.999086ms)
+✔ composition help describes design rather than the original budget exercise (75.38747ms)
+ℹ tests 9
+ℹ suites 0
+ℹ pass 9
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 1427.043328
