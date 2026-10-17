@@ -5,25 +5,25 @@
     {
       "language": "es",
       "positions": [
+        1,
         2,
-        0,
-        1
+        0
       ]
     },
     {
       "language": "en",
       "positions": [
+        1,
         2,
-        0,
-        1
+        0
       ]
     },
     {
       "language": "pt",
       "positions": [
+        2,
         0,
-        1,
-        2
+        1
       ]
     },
     {
@@ -37,17 +37,17 @@
     {
       "language": "it",
       "positions": [
-        0,
         2,
+        0,
         1
       ]
     },
     {
       "language": "fr",
       "positions": [
-        2,
+        0,
         1,
-        0
+        2
       ]
     }
   ],

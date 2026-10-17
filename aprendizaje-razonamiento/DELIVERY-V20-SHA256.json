@@ -7,12 +7,12 @@
       "sha256": "9f226dc51f4f830a2ad023bfb2054ee0eac50d33e81e7ada2ee2d7f0b7167c75"
     },
     "dist/app.mjs": {
-      "bytes": 47117,
-      "sha256": "1cc61d0a030c579c13cf3c8ed111db7ba068316eefe3c01f27426cd1bde4bf8b"
+      "bytes": 47088,
+      "sha256": "6fd1fbef4b15d231d52c1989ad28486fabc1b7900bbbf020bf34868f072656f6"
     },
     "dist/catalog.mjs": {
-      "bytes": 2116,
-      "sha256": "9a442cfe4ae2f14cc08cbaa58dbd612b1223bd8ab3bbfe5f6dafc91abc37de47"
+      "bytes": 2267,
+      "sha256": "3272132fce19b2ea7ba0e49ab703d2a1d44dd8ea456869f37133f00a0810de28"
     },
     "dist/companion.mjs": {
       "bytes": 6654,
@@ -107,8 +107,8 @@
       "sha256": "aa766b3a99e2d78bae575d05ae8537e038106d13deeb5b8a03abc3d6564c8c09"
     },
     "dist/welcome.mjs": {
-      "bytes": 12043,
-      "sha256": "d28e0a159983491e16d56644d913b8d3dc1d7d02165c699781a0b719bb58a149"
+      "bytes": 11971,
+      "sha256": "45287386dae779292c6cb841186263425ff7b1f78cb9a4c2daf75b731f53d64b"
     },
     "dist/word-game-ui.mjs": {
       "bytes": 13785,

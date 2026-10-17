@@ -1,7 +1,7 @@
 import {scienceActivities} from './science-games.mjs';
 import {reflectionActivity} from './reflection.mjs';
 // Editorial classification only; legacy IDs are persistence keys, not ages.
-import {languageActivities} from './languages.mjs';
+import {languageActivities,languageFor} from './languages.mjs';
 import {stages} from './logic.mjs';
 import {extraActivities} from './activities.mjs';
 import {gardenActivity} from './garden-game.mjs';
@@ -25,3 +25,5 @@ export const entriesFor=(stage,area='all')=>catalog.filter(a=>a.stage===stage&&(
 export const statusLabel=phase=>({active:'En curso',paused:'En pausa',finished:'Cerrada por hoy'}[phase]||'Sin empezar');
 export const typeLabel=type=>({guide:'Guía de adulto · fuera de pantalla',digital:'Reto digital',unit:'Unidad familiar'}[type]);
 export function stageCount(stage){const rows=entriesFor(stage);return ['digital','guide','unit'].map(type=>{const n=rows.filter(a=>a.type===type).length;return n?`${n} ${type==='digital'?(n===1?'reto digital':'retos digitales'):type==='guide'?'guía de adulto':'unidad familiar'}`:'';}).filter(Boolean).join(' · ');}
+
+export function activityTitle(activity){const language=languageFor(activity.id);return (language?language.name+' · ':'')+activity.unit;}
