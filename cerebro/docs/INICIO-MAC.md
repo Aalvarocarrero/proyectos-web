@@ -4,8 +4,10 @@
 2. Abre Terminal y entra en esa carpeta.
 3. Ejecuta `python3 app/server.py`.
 4. Visita `http://127.0.0.1:8765`.
-5. Pulsa **Importar** para cargar tu exportación JSON validada. Esta distribución no contiene datos. Si hay una configuración diferente, haz respaldo y resuelve el conflicto; también puedes iniciar un almacén vacío con `--data-dir "$HOME/Documents/CerebroDatos"`.
-6. Crea un respaldo antes de mover o reemplazar archivos.
-7. Detén el servidor con Control-C. El almacén permanece en `~/.cerebro-portable`.
+5. La pantalla **Red de proyectos** muestra solo los proyectos guardados en este almacén. Elige un nodo con clic o teclado; también puedes usar la lista accesible. Dentro verás la memoria filtrada a ese proyecto y su cronología.
+6. Los mensajes escritos en **Conversación local** se guardan ligados al proyecto y sobreviven al reinicio. No hay asistente que responda, ejecución de tareas, captura de voz ni transcripción.
+7. Pulsa **Importar** para cargar tu exportación JSON validada. Esta distribución no contiene datos. Si hay una configuración diferente, haz respaldo y resuelve el conflicto; también puedes iniciar un almacén vacío con `--data-dir "$HOME/Documents/CerebroDatos"`.
+8. Crea un respaldo antes de mover o reemplazar archivos.
+9. Detén el servidor con Control-C. El almacén permanece en `~/.cerebro-portable`.
 
 Requiere Python 3.10 o posterior. No instala herramientas ni pide claves.

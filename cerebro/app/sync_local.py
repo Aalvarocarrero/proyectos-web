@@ -3,7 +3,7 @@ import argparse,copy,fcntl,json,os,tempfile
 from pathlib import Path
 from server import Store,now,require
 
-def ids(doc):return [key+':'+x['id'] for key in ['events','transcripts','actions'] for x in doc[key]]
+def ids(doc):return [key+':'+x['id'] for key in ['events','transcripts','actions','messages'] for x in doc.get(key,[])]
 def status(store):
  p=store.path/'sync.json'; metadata=json.loads(p.read_text()) if p.exists() else {'lastSync':None,'acknowledged':[]}
  return {**metadata,'outbox':[i for i in ids(store.doc) if i not in metadata['acknowledged']]}

@@ -1,6 +1,6 @@
 # Cerebro de proyectos
 
-Aplicación local con interfaz española, historial durable, diario de transcripciones, cola de acciones, búsqueda e intercambio de datos JSON/Markdown. Requiere Python 3.10 o posterior y usa biblioteca estándar. Escucha exclusivamente en `127.0.0.1`.
+Aplicación local con interfaz española, red interactiva de proyectos basada en el almacén local, memoria por proyecto, mensajes de texto durables, historial, diario de transcripciones, cola de acciones, búsqueda e intercambio JSON/Markdown. Requiere Python 3.10 o posterior y usa biblioteca estándar. Escucha exclusivamente en `127.0.0.1`.
 
 ## Inicio
 
@@ -9,6 +9,10 @@ python3 app/server.py
 ```
 
 Abre `http://127.0.0.1:8765`. Los datos se guardan localmente en `~/.cerebro-portable`; usa `--data-dir PATH` para otro almacén. Cierra el proceso con Control-C. El servidor solo vive mientras corre el proceso. En un entorno de desarrollo, usa un directorio persistente y la vista previa local cuando esté disponible. Esto no proporciona hosting 24/7 ni ejecución continua.
+
+## Red, memoria y mensajes
+
+La pantalla inicial dibuja un nodo central con los proyectos que existen en el almacén, más una lista accesible equivalente. Los nodos se pueden seleccionar con teclado; la vista se ajusta a móvil. Cada memoria filtra registros y cronología por el proyecto seleccionado. Los mensajes escritos se guardan como datos locales por proyecto y sobreviven reinicios. No existe respuesta automática. El panel explica que no hay motor ni transcripción de voz; no enciende el micrófono.
 
 ## Diario y cola
 
@@ -26,4 +30,6 @@ Dos almacenes pueden intercambiarse manualmente cuando ambos servidores están d
 
 Los datos locales, respaldos, claves y capturas están excluidos por `.gitignore`. Esta distribución no contiene contenido de proyectos ni datos reales.
 
-Vista de recuperación con tareas ficticias: [captura-recuperacion-fixture.png](docs/captura-recuperacion-fixture.png).
+Capturas con datos ficticios: [red](docs/captura-red-fixture.png), [memoria de proyecto](docs/captura-memoria-fixture.png) y [recuperación](docs/captura-recuperacion-fixture.png).
+
+La voz está pendiente de conectar/configurar. La app no promete procesamiento local, véase [docs/VOZ.md](docs/VOZ.md).

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Cerebro portable: local event journal, no external services or dependencies."""
-import argparse, datetime as dt, hashlib, json, os, secrets, threading, uuid
+import argparse, copy, datetime as dt, hashlib, json, os, secrets, threading, uuid
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -53,7 +53,8 @@ def validate_config(c):
         require(text(s['label'],4000) and (s['windowHours'] is None or (type(s['windowHours']) is int and 1<=s['windowHours']<=24)) and type(s['flexible']) is bool, 'Franja inválida')
 
 def validate_document(d):
-    require(isinstance(d,dict) and set(d)=={'schemaVersion','config','events','transcripts','actions'}, 'Documento: campos incorrectos')
+    root_fields={'schemaVersion','config','events','transcripts','actions'}
+    require(isinstance(d,dict) and root_fields<=set(d)<=root_fields|{'messages'}, 'Documento: campos incorrectos')
     require(type(d['schemaVersion']) is int and d['schemaVersion']==1, 'Versión no compatible')
     validate_config(d['config']); require(isinstance(d['events'],list), 'events debe ser una lista')
     require(isinstance(d['transcripts'],list), 'transcripts debe ser lista')
@@ -97,6 +98,17 @@ def validate_document(d):
     for a in d['actions']:
         require(a['projectId'] in entities and entities[a['projectId']]['kind']=='project','Proyecto de cola inexistente')
         require(all((dep in action_states and dep!=a['actionId']) or dep=='legacy:review-dependencies' for dep in a['dependsOn']), 'Dependencia inexistente o cíclica')
+    messages=d.get('messages',[]); require(isinstance(messages,list),'messages debe ser lista')
+    message_ids=set()
+    for m in messages:
+        require(isinstance(m,dict) and set(m)=={'id','at','projectId','role','text','channel','persistence'},'Mensaje local inválido')
+        require(all(text(m[k]) for k in ['id','at','projectId','role','text','channel','persistence']),'Campos de mensaje inválidos')
+        require(m['id'] and len(m['id'])<=100 and m['id'] not in message_ids and m['text'].strip() and len(m['text'])<=12000,'ID o texto de mensaje inválido')
+        require(m['role']=='user' and m['channel']=='text' and m['persistence']=='persistido','Tipo de mensaje no compatible')
+        try: require(timestamp(m['at']).utcoffset() is not None,'Zona requerida')
+        except (TypeError,ValueError): raise ValueError('Fecha de mensaje inválida')
+        require(m['projectId'] in entities and entities[m['projectId']]['kind']=='project','El mensaje debe pertenecer a un proyecto')
+        message_ids.add(m['id'])
     return entities
 
 def upgrade_legacy_actions(d):
@@ -117,7 +129,7 @@ class Store:
     def __init__(self,path):
         self.path=Path(path); self.path.mkdir(parents=True,exist_ok=True,mode=0o700)
         self.log=self.path/'journal.jsonl'; self.lock=threading.RLock(); self.write_uncertain=False
-        self.doc={'schemaVersion':1,'config':{'timezone':'Etc/UTC','source':'','schedule':[], 'executionNote':'Esta aplicación registra trabajo. No ejecuta agentes. El motor actual requiere activaciones verificadas de dot.'},'events':[],'transcripts':[],'actions':[]}
+        self.doc={'schemaVersion':1,'config':{'timezone':'Etc/UTC','source':'','schedule':[], 'executionNote':'Esta aplicación registra trabajo. No ejecuta agentes. El motor actual requiere activaciones verificadas de dot.'},'events':[],'transcripts':[],'actions':[],'messages':[]}
         if self.log.exists():
             raw=self.log.read_bytes()
             if raw and not raw.endswith(b'\n'):
@@ -132,15 +144,16 @@ class Store:
                 self.doc['events'].extend(t['events'])
                 self.doc['transcripts'].extend(t.get('transcripts',[]))
                 self.doc['actions'].extend(t.get('actions',[]))
+                self.doc['messages'].extend(t.get('messages',[]))
         upgrade_legacy_actions(self.doc)
         validate_document(self.doc)
     def revision(self): return hashlib.sha256(json.dumps(self.doc,sort_keys=True).encode()).hexdigest()
     def snapshot(self):
         with self.lock: return {'document':json.loads(json.dumps(self.doc)), 'revision':self.revision(), 'entities':list(validate_document(self.doc).values()), 'storageWarning':'Escritura anterior incierta. Reinicie y revise el diario antes de reintentar.' if self.write_uncertain else ''}
-    def commit(self,events,config=None,transcripts=None,actions=None):
-        candidate={'schemaVersion':1,'config':config if config is not None else self.doc['config'],'events':self.doc['events']+events,'transcripts':self.doc['transcripts']+(transcripts or []),'actions':self.doc['actions']+(actions or [])}
+    def commit(self,events,config=None,transcripts=None,actions=None,messages=None):
+        candidate={'schemaVersion':1,'config':config if config is not None else self.doc['config'],'events':self.doc['events']+events,'transcripts':self.doc['transcripts']+(transcripts or []),'actions':self.doc['actions']+(actions or []),'messages':self.doc.get('messages',[])+(messages or [])}
         validate_document(candidate)
-        transaction={'events':events,'transcripts':transcripts or [],'actions':actions or []}
+        transaction={'events':events,'transcripts':transcripts or [],'actions':actions or [],'messages':messages or []}
         if config is not None: transaction['config']=config
         payload=json.dumps(transaction,ensure_ascii=False)+'\n'
         require(len(json.dumps(candidate,ensure_ascii=False,indent=2).encode())<=MAX_BYTES-1024,'Capacidad exportable de 8 MiB alcanzada: archive antes de añadir registros')
@@ -168,8 +181,15 @@ class Store:
         with self.lock:
             require(isinstance(body,dict),'Solicitud debe ser objeto JSON')
             if self.write_uncertain: raise OSError('Escritura anterior incierta: reinicie y verifique antes de reintentar')
-            require(body.get('revision')==self.revision(),'Conflicto de versión: recargue antes de reintentar')
             action=body.get('action')
+            if action=='message':
+                msg=body.get('message')
+                require(isinstance(msg,dict) and set(msg)=={'id','projectId','text'},'Campos de mensaje incorrectos')
+                prior=next((m for m in self.doc.get('messages',[]) if m['id']==msg['id']),None)
+                if prior:
+                    require(all(prior[k]==msg[k] for k in ['id','projectId','text']),'Colisión de ID de mensaje')
+                    return {'message':prior,'duplicate':True}
+            require(body.get('revision')==self.revision(),'Conflicto de versión: recargue antes de reintentar')
             if action=='backup': return {'backup':self.backup()}
             if action=='queue':
                 require(isinstance(body['entry'],dict),'Entrada debe ser objeto'); a=dict(body['entry'])
@@ -186,8 +206,12 @@ class Store:
                     return {'fragment':prior,'duplicate':True}
                 saved={**t,'order':len(self.doc['transcripts'])+1,'persistence':'persistido'}
                 self.commit([],transcripts=[saved]); return {'fragment':saved,'duplicate':False}
+            if action=='message':
+                msg=body['message']
+                saved={'id':msg['id'],'at':now(),'projectId':msg['projectId'],'role':'user','text':msg['text'],'channel':'text','persistence':'persistido'}
+                self.commit([],messages=[saved]); return {'message':saved,'duplicate':False}
             if action=='import':
-                incoming=body['document']; upgrade_legacy_actions(incoming); validate_document(incoming)
+                incoming=copy.deepcopy(body['document']); incoming.setdefault('messages',[]); upgrade_legacy_actions(incoming); validate_document(incoming)
                 known={e['id']:e for e in self.doc['events']}; additions=[]
                 for e in incoming['events']:
                     if e['id'] in known: require(e==known[e['id']], 'Colisión: evento existente modificado')
@@ -205,6 +229,10 @@ class Store:
                 for a in incoming['actions']:
                     if a['id'] in actions_known: require(a==actions_known[a['id']], 'Colisión de acción')
                     else: action_additions.append(a)
+                messages_known={m['id']:m for m in self.doc.get('messages',[])}; message_additions=[]
+                for m in incoming.get('messages',[]):
+                    if m['id'] in messages_known: require(m==messages_known[m['id']],'Colisión de mensaje importado')
+                    else: message_additions.append(m)
                 # New updates may extend only a complete known per-entity history.
                 for key,items,new_items in [('events',incoming['events'],additions),('actions',incoming['actions'],action_additions)]:
                     identity=(lambda x:x['entity']['id']) if key=='events' else (lambda x:x['actionId'])
@@ -212,10 +240,10 @@ class Store:
                         local=[x['id'] for x in self.doc[key] if identity(x)==entity_id]
                         remote=[x['id'] for x in items if identity(x)==entity_id]
                         require(remote[:len(local)]==local,'Historial divergente: conflicto sin sobrescritura')
-                candidate={'schemaVersion':1,'config':config,'events':self.doc['events']+additions,'transcripts':self.doc['transcripts']+transcript_additions,'actions':self.doc['actions']+action_additions}; validate_document(candidate)
-                if additions or transcript_additions or action_additions or config!=self.doc['config']:
-                    self.backup(); self.commit(additions,config,transcript_additions,action_additions)
-                return {'imported':len(additions),'transcriptsImported':len(transcript_additions),'actionsImported':len(action_additions)}
+                candidate={'schemaVersion':1,'config':config,'events':self.doc['events']+additions,'transcripts':self.doc['transcripts']+transcript_additions,'actions':self.doc['actions']+action_additions,'messages':self.doc.get('messages',[])+message_additions}; validate_document(candidate)
+                if additions or transcript_additions or action_additions or message_additions or config!=self.doc['config']:
+                    self.backup(); self.commit(additions,config,transcript_additions,action_additions,message_additions)
+                return {'imported':len(additions),'transcriptsImported':len(transcript_additions),'actionsImported':len(action_additions),'messagesImported':len(message_additions)}
             require(action in ['create','update'], 'Acción desconocida')
             event={'id':str(uuid.uuid4()),'at':now(),'op':action,'entity':body['entity'],'evidence':body.get('evidence',[])}
             self.commit([event]); return {'eventId':event['id']}
@@ -227,6 +255,8 @@ def markdown(doc):
     lines += ['', '## Transcripciones originales']
     for t in doc['transcripts']: lines += ['',f"### {t['order']} · {t['at']} · {t['speaker']} · {t['source']}",t['original']]
     lines += ['', '## Ledger de acciones', '```json',json.dumps(doc['actions'],ensure_ascii=False,indent=2),'```']
+    lines += ['', '## Mensajes de texto guardados por proyecto']
+    for m in doc.get('messages',[]): lines += ['',f"### {m['at']} · proyecto {m['projectId']} · mensaje del usuario",m['text']]
     # Canonical payload enables exact Markdown round trip, regardless of text formatting.
     import base64
     lines += ['', '<!-- CEREBRO_JSON_BASE64:'+base64.b64encode(json.dumps(doc,ensure_ascii=False).encode()).decode()+' -->']

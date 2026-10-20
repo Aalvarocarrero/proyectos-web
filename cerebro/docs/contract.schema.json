@@ -297,6 +297,51 @@
           }
         }
       }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "at",
+          "projectId",
+          "role",
+          "text",
+          "channel",
+          "persistence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "projectId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "const": "user"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "channel": {
+            "const": "text"
+          },
+          "persistence": {
+            "const": "persistido"
+          }
+        }
+      }
     }
   }
 }

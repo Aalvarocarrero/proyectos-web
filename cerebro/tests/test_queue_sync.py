@@ -35,6 +35,17 @@ class QueueSyncTests(unittest.TestCase):
   with self.a.log.open('a') as f:f.write(__import__('json').dumps({'events':[],'transcripts':[],'actions':[legacy]},ensure_ascii=False)+'\n')
   recovered=Store(self.a.path);entry=recovered.doc['actions'][0]
   self.assertIn('no registrada',entry['intent']);self.assertEqual(entry['dependsOn'],['legacy:review-dependencies']);self.assertIsNone(resumable_action(recovered.doc['actions']))
+ def test_project_messages_are_isolated_durable_and_deduplicated_after_interruption(self):
+  self.project(self.a,'p');self.project(self.a,'q');first={'id':'msg-fixture-1','projectId':'p','text':'Texto ficticio exclusivo de P'};second={'id':'msg-fixture-2','projectId':'q','text':'Texto ficticio exclusivo de Q'}
+  self.act(self.a,action='message',message=first);self.act(self.a,action='message',message=second)
+  result=self.a.mutate({'revision':'stale-after-lost-response','action':'message','message':first});self.assertTrue(result['duplicate'])
+  with self.assertRaisesRegex(ValueError,'Colisión de ID'):
+   self.act(self.a,action='message',message={**first,'text':'mutación no válida'})
+  restored=Store(self.a.path);by_project={pid:[m['text'] for m in restored.doc['messages'] if m['projectId']==pid] for pid in ['p','q']}
+  self.assertEqual(by_project,{'p':['Texto ficticio exclusivo de P'],'q':['Texto ficticio exclusivo de Q']})
+ def test_project_messages_follow_manual_local_store_exchange(self):
+  self.project(self.a,'p');self.project(self.b,'q');self.act(self.a,action='message',message={'id':'sync-message','projectId':'p','text':'Fixture de intercambio local'})
+  sync(self.a.path,self.b.path);self.assertEqual(Store(self.b.path).doc['messages'][0]['text'],'Fixture de intercambio local')
   e=self.entry();self.act(self.a,action='queue',entry=e);e['intent']='changed';e['state']='in_progress';e['outcome']='unknown'
   with self.assertRaises(ValueError):self.act(self.a,action='queue',entry=e)
  def test_sync_disjoint_projects_and_ack(self):

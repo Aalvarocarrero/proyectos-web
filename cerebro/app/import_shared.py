@@ -39,7 +39,7 @@ def adapt(d,received_at,original_text=None,priority_ids=()):
     digest=hashlib.sha256(original_text.encode()).hexdigest()
     def stable(label): return str(uuid.uuid5(uuid.NAMESPACE_URL,digest+':'+label))
     config={'timezone':d['schedule']['timezone'],'source':d['source_url'],'schedule':[{'startDate':d['schedule']['starts_on'],'time':s['time'],'label':s['focus'],'windowHours':2 if i<3 else None,'flexible':True} for i,s in enumerate(d['schedule']['slots'])], 'executionNote':'Corte parcial recibido por conversación; no procede de la descarga de Library. Corte fuente: '+d['exported_at']+'. No contiene transcripción total ni actualizaciones posteriores. La fecha de cada evento es la incorporación, no la hora de la cita o de ejecución. Los estados importados no se verificaron en vivo. La rutina es informativa: no instala programadores y depende de activaciones verificadas de dot. Sin conexión automática de voz ni runner de correo. Las primeras tres ventanas objetivo duran 2h, las restantes no tienen duración acreditada. Sin cómputo garantizado.'}
-    doc={'schemaVersion':1,'config':config,'events':[],'transcripts':[],'actions':[]}
+    doc={'schemaVersion':1,'config':config,'events':[],'transcripts':[],'actions':[],'messages':[]}
     def add(label,kind,title,body,project='',priority='sin asignar',status='sin verificar',next_action='',evidence=None):
         doc['events'].append({'id':stable('event:'+label),'at':received_at,'op':'create','entity':{'id':stable('entity:'+label),'kind':kind,'projectId':project,'title':title,'body':body,'status':status,'priority':priority,'nextAction':next_action},'evidence':evidence if evidence is not None else [d['source_url']]})
         return doc['events'][-1]['entity']['id']
