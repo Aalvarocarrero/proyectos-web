@@ -12,3 +12,11 @@
 **/.next/
 **/.test-vite-cache/
 **/*.tsbuildinfo
+
+# Cerebro user data stays local and out of Git.
+/cerebro/data/
+/cerebro/backups/
+/cerebro/*.jsonl
+/cerebro/*.bin
+/cerebro/.env*
+/cerebro/docs/captura-fixture.png
