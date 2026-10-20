@@ -12,3 +12,6 @@ docs/captura-fixture.png
 *.bin
 docs/captura-fixture.png
 .env*
+
+# Capturas de verificacion: se entregan en el ZIP/Library, no en el repositorio.
+docs/captura*-fixture.png

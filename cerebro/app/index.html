@@ -1,8 +1,92 @@
 <!doctype html>
-<html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Cerebro · Proyectos</title><link rel="stylesheet" href="/style.css"></head>
-<body><header><div class="brand">◈ CEREBRO <span>LOCAL · PORTABLE</span></div><div class="tools"><button id="backup">Crear respaldo</button><button id="export-json">Exportar JSON</button><button id="export-md">Exportar Markdown</button><label class="button">Importar<input type="file" id="import" accept=".json,.md" hidden></label></div></header>
-<main><section class="hero"><p class="eyebrow">CONTINUIDAD DEL TRABAJO</p><h1>Todo proyecto.<br>Cada decisión, conservada.</h1><p>Instrucciones originales, próximos pasos y evidencias en un registro local persistente.</p><aside>Registra trabajo; no ejecuta agentes. La ejecución depende de activaciones verificadas de dot. Integración automática con llamadas: pendiente.</aside></section>
-<div id="notice" role="status" aria-live="polite"></div><div class="toolbar"><input id="search" type="search" placeholder="Buscar proyectos, instrucciones o transcripciones…" aria-label="Buscar"><button id="refresh">Recargar</button><button class="primary" id="new-project">+ Proyecto</button></div>
-<div class="layout"><nav><h2>Proyectos <span id="count"></span></h2><button id="show-network" class="selected" aria-current="page">Red de proyectos</button><div id="projects"></div><button id="show-shared">Instrucciones compartidas</button><button id="show-sources">Fuentes y cortes</button><button id="show-queue">Cola de ejecución</button><button id="show-transcripts">Diario de transcripciones</button><button id="show-history">Historial íntegro</button><button id="show-config">Fuente y rutina</button><p class="muted">Sin sincronización automática.<br>JSON y Markdown son intercambios manuales.</p></nav><section id="content" aria-live="polite"></section></div></main>
-<dialog id="editor"><form id="entity-form"><h2 id="editor-title">Nuevo registro</h2><label>Tipo<select name="kind" id="kind"><option value="project">Proyecto</option><option value="instruction">Instrucción original (inmutable)</option><option value="decision">Decisión (inmutable)</option><option value="task">Tarea</option><option value="checkpoint">Checkpoint (inmutable)</option><option value="blocker">Bloqueo</option></select></label><label>Título<input name="title" required maxlength="500"></label><label>Texto original / detalle<textarea name="body" rows="6"></textarea></label><div class="row"><label>Estado<select name="status" id="status"></select></label><label>Prioridad<select name="priority"><option>sin asignar</option><option>muy alta</option><option>alta</option><option>media</option><option>baja</option></select></label></div><label>Siguiente acción<input name="nextAction"></label><label>Evidencias o enlaces (uno por línea)<textarea name="evidence" rows="2"></textarea></label><p>Solo registre estados respaldados por trabajo real. Las instrucciones, decisiones y checkpoints no se sobrescriben.</p><div class="row"><button type="button" id="cancel">Cancelar</button><button class="primary">Guardar en disco</button></div></form></dialog>
-<script src="/app.js"></script></body></html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f5f0">
+  <title>Cerebro · Proyectos</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Saltar a la vista actual</a>
+  <header class="app-header">
+    <div class="brand" aria-label="Cerebro, local y portable">
+      <span class="brand-symbol" aria-hidden="true">◈</span>
+      <span class="brand-name">CEREBRO<span>LOCAL · PORTABLE</span></span>
+    </div>
+    <div class="tools" role="group" aria-label="Importar, exportar y respaldar">
+      <button id="backup" type="button">Crear respaldo</button>
+      <button id="export-json" type="button">Exportar JSON</button>
+      <button id="export-md" type="button">Exportar Markdown</button>
+      <label class="button file-trigger">Importar
+        <input type="file" id="import" accept=".json,.md" aria-label="Importar archivo JSON o Markdown">
+      </label>
+    </div>
+  </header>
+
+  <main class="app-main">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow">CONTINUIDAD DEL TRABAJO</p>
+        <h1 id="hero-title">Cada proyecto.<br><span>Su memoria, conectada.</span></h1>
+        <p class="hero-description">Instrucciones originales, decisiones y siguientes pasos en un espacio local que puedes revisar y respaldar.</p>
+      </div>
+      <aside class="runtime-note">
+        <span class="runtime-dot" aria-hidden="true"></span>
+        <span>Registra y recupera trabajo; no ejecuta agentes. La ejecución depende de activaciones verificadas de dot.</span>
+      </aside>
+    </section>
+
+    <div id="notice" role="status" aria-live="polite" aria-atomic="true"></div>
+
+    <div class="toolbar" role="search">
+      <label class="search-field">
+        <span class="search-icon" aria-hidden="true">⌕</span>
+        <input id="search" type="search" placeholder="Buscar proyectos, instrucciones o transcripciones…" aria-label="Buscar en el cerebro">
+      </label>
+      <button id="refresh" type="button">Recargar</button>
+      <button class="primary" id="new-project" type="button"><span aria-hidden="true">＋</span> Nuevo proyecto</button>
+    </div>
+
+    <div class="layout">
+      <nav class="sidebar" aria-label="Navegación del cerebro">
+        <div class="sidebar-heading">
+          <h2>Tu espacio</h2>
+          <span class="project-count"><span id="count">0</span> proyectos</span>
+        </div>
+        <button id="show-network" class="nav-button" type="button" aria-current="page"><span class="nav-icon" aria-hidden="true">◎</span>Red de proyectos</button>
+        <div id="projects" class="project-nav" aria-label="Memorias de proyectos"></div>
+        <div class="nav-divider" aria-hidden="true"></div>
+        <div class="nav-links" role="group" aria-label="Otras vistas">
+          <button id="show-shared" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">≋</span>Instrucciones compartidas</button>
+          <button id="show-sources" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">↗</span>Fuentes y cortes</button>
+          <button id="show-queue" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">◷</span>Cola de ejecución</button>
+          <button id="show-transcripts" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">≡</span>Diario de transcripciones</button>
+          <button id="show-history" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">⌁</span>Historial íntegro</button>
+          <button id="show-config" class="nav-button" type="button"><span class="nav-icon" aria-hidden="true">⚙</span>Fuente y rutina</button>
+        </div>
+        <p class="sidebar-note">Sin sincronización automática.<br>JSON y Markdown son intercambios manuales.</p>
+      </nav>
+      <section id="content" class="content-view" aria-label="Vista actual"></section>
+    </div>
+  </main>
+
+  <dialog id="editor" aria-labelledby="editor-title">
+    <form id="entity-form">
+      <div class="dialog-heading">
+        <p class="eyebrow">MEMORIA DEL PROYECTO</p>
+        <h2 id="editor-title">Nuevo registro</h2>
+      </div>
+      <label>Tipo<select name="kind" id="kind"><option value="project">Proyecto</option><option value="instruction">Instrucción original (inmutable)</option><option value="decision">Decisión (inmutable)</option><option value="task">Tarea</option><option value="checkpoint">Checkpoint (inmutable)</option><option value="blocker">Bloqueo</option></select></label>
+      <label>Título<input name="title" required maxlength="500"></label>
+      <label>Texto original o detalle<textarea name="body" rows="6"></textarea></label>
+      <div class="row"><label>Estado<select name="status" id="status"></select></label><label>Prioridad<select name="priority"><option>sin asignar</option><option>muy alta</option><option>alta</option><option>media</option><option>baja</option></select></label></div>
+      <label>Siguiente acción<input name="nextAction"></label>
+      <label>Evidencias o enlaces (uno por línea)<textarea name="evidence" rows="2"></textarea></label>
+      <p class="form-note">Solo registra estados respaldados por trabajo real. Las instrucciones, decisiones y checkpoints no se sobrescriben.</p>
+      <div class="dialog-actions"><button type="button" id="cancel">Cancelar</button><button class="primary">Guardar en disco</button></div>
+    </form>
+  </dialog>
+  <script src="/app.js"></script>
+</body>
+</html>

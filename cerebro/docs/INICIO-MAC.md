@@ -12,3 +12,5 @@
 10. Detén el servidor con Control-C. El almacén permanece en `~/.cerebro-portable`.
 
 Requiere Python 3.10 o posterior. No instala herramientas ni pide claves.
+
+La interfaz incorpora navegación de teclado, foco visible, controles táctiles amplios, una lista accesible alternativa al gráfico, diseño móvil y respeto a **Reducir movimiento**. Consulta [criterios UX y accesibilidad](DISEÑO-UX.md); el ZIP incluye capturas con proyectos de demostración ficticios.
