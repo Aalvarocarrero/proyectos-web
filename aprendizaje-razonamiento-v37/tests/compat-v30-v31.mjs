@@ -1,0 +1,11 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import {pathToFileURL} from 'node:url';import {loadProgress,saveProgress} from '../dist/local-progress.mjs';import {progressRows} from '../dist/progress-summary.mjs';
+const base=process.env.V30_DIST||'/tmp/persistence-v31/base/aprendizaje-razonamiento/dist';
+const old=await import(pathToFileURL(base+'/local-progress.mjs')),bio=await import(pathToFileURL(base+'/biology-lab.mjs')),chem=await import(pathToFileURL(base+'/chemistry-lab.mjs'));
+let raw=fs.readFileSync('docs/evidence-v30/v29-synthetic-fixture.json','utf8');const storage={getItem:()=>raw,setItem:(_k,v)=>raw=v};const snapshot=old.loadProgress(storage).snapshot;
+const b=bio.newBiologyLab();b.page='edit';b.prediction='unknown';bio.testBiology(b);b.reason='bounded';b.reviewed=true;bio.closeBiology(b);
+const c=chem.newChemistryLab();c.page='build';chem.placeChemistry(c,0);c.prediction='single';chem.testChemistry(c);c.page='revise';c.tool='B';chem.placeChemistry(c,1);c.prediction='mixture';chem.testChemistry(c);c.reason='identities';c.reviewed=true;c.page='close';
+snapshot.states['7y:biology-lab']={phase:'finished',biologyLab:b};snapshot.states['7y:chemistry-lab']={phase:'paused',chemistryLab:c};
+assert.equal(old.saveProgress(storage,snapshot).ok,true);const initial=raw;
+assert.equal(loadProgress(storage).ok,true);const current=loadProgress(storage).snapshot;assert.equal(Object.keys(current.states).length,33);assert.equal(progressRows(current.states).length,33);assert.equal(saveProgress(storage,current).ok,true);assert.equal(raw,initial);
+assert.equal(old.loadProgress(storage).ok,true);assert.equal(old.saveProgress(storage,old.loadProgress(storage).snapshot).ok,true);assert.equal(raw,initial);
+fs.writeFileSync('docs/evidence-v31/v30-synthetic-fixture.json',initial);fs.writeFileSync('docs/evidence-v31/compat-v30-v31.json',JSON.stringify({base:'05b3a86a2657ba64fb467527912cbb77c7dd8390',routes:33,bytes:Buffer.byteLength(initial),twoWayExactByteRoundtrip:true,summaryDidNotMutate:true,scope:'Synthetic v30 snapshot: all routes, six scene comparisons, two balance series, closed biology and revised chemistry. No personal data.'},null,2)+'\n');console.log('v30 ↔ v31 exact-byte compatibility passed');

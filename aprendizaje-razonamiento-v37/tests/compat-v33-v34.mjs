@@ -1,0 +1,17 @@
+import assert from 'node:assert/strict';
+import fs from 'node:fs';
+import {pathToFileURL} from 'node:url';
+import {loadProgress,saveProgress,PROGRESS_KEY,PROGRESS_VERSION} from '../dist/local-progress.mjs';
+import {newParts,editParts,keepParts,visitParts} from '../dist/number-parts.mjs';
+const oldDist=process.env.V33_DIST||'/tmp/v33-baseline/aprendizaje-razonamiento/dist';
+const old=await import(pathToFileURL(`${oldDist}/local-progress.mjs`));
+const fixture=fs.readFileSync('docs/evidence-v32/v32-synthetic-fixture.json','utf8');
+let raw=fixture;const legacyStore={getItem:()=>raw,setItem:(_k,v)=>{raw=v;}};
+const current=loadProgress(legacyStore);assert.equal(current.ok,true);assert.equal(saveProgress(legacyStore,current.snapshot).ok,true);assert.equal(raw,fixture);
+const s=newParts();s.page='play';for(let i=0;i<2;i++)editParts(s,0,1);for(let i=0;i<4;i++)editParts(s,1,1);keepParts(s);visitParts(s,1);editParts(s,0,1);
+const value={stage:'5y',selectedActivities:{'5y':'number-parts'},states:{'5y:number-parts':{phase:'active',numberParts:s}}};
+const currentStore={getItem:()=>raw,setItem:(_k,v)=>{raw=v;}};assert.equal(saveProgress(currentStore,value).status,'saved');const v34=raw;assert.equal(PROGRESS_VERSION,old.PROGRESS_VERSION);assert.equal(PROGRESS_KEY,old.PROGRESS_KEY);
+const oldRead=old.loadProgress(currentStore);assert.equal(oldRead.status,'corrupt');const oldWrite=old.saveProgress(currentStore,{stage:null,selectedActivities:{},states:{}});assert.equal(oldWrite.status,'corrupt');assert.equal(raw,v34);
+const decoded=loadProgress(currentStore);assert.equal(decoded.ok,true);assert.deepEqual(decoded.snapshot.states['5y:number-parts'].numberParts.rounds[0].reference,[2,4]);assert.deepEqual(decoded.snapshot.states['5y:number-parts'].numberParts.rounds[1].counts,[1,0]);
+fs.writeFileSync('docs/evidence-v34/compat-v33-v34.json',JSON.stringify({base:'362f13cc9e0f1f3fa28f96f6b047d1b99e917cff',sameKey:true,sameVersion:true,legacyRecordAccepted:true,oldReaderRejectsNewRoute:true,oldWriterPreservesNewBytes:true,currentReaderPreservesBothRounds:true,bytes:Buffer.byteLength(v34),limit:'v33 cannot read number-parts route; it reports corrupt and preserves the bytes rather than overwriting them.'},null,2)+'\n');
+console.log('v33 fixture remains byte-identical; v33 rejects and preserves the v34 route; v34 roundtrip passed');
