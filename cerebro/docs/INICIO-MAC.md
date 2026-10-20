@@ -14,3 +14,5 @@
 Requiere Python 3.10 o posterior. No instala herramientas ni pide claves.
 
 La interfaz incorpora navegación de teclado, foco visible, controles táctiles amplios, una lista accesible alternativa al gráfico, diseño móvil y respeto a **Reducir movimiento**. Consulta [criterios UX y accesibilidad](DISEÑO-UX.md); el ZIP incluye capturas con proyectos de demostración ficticios.
+
+Los adaptadores documentados para Ollama, Cloudflare Workers AI y Groq están apagados y no se conectan a la conversación. No descubren modelos ni comprueban disponibilidad; no se crearon claves ni se llamó a esos servicios. Sus pruebas usan transporte simulado. La voz y la transcripción continúan pendientes. Consulta [estado y límites](PROVEEDORES.md).
