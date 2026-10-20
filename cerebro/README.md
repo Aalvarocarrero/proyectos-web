@@ -12,11 +12,11 @@ Abre `http://127.0.0.1:8765`. Los datos se guardan localmente en `~/.cerebro-por
 
 ## Red, memoria y mensajes
 
-La pantalla inicial dibuja un nodo central con los proyectos que existen en el almacén, más una lista accesible equivalente. Los nodos se pueden seleccionar con teclado; la vista se ajusta a móvil. Cada memoria filtra registros y cronología por el proyecto seleccionado. Los mensajes escritos se guardan como datos locales por proyecto y sobreviven reinicios. No existe respuesta automática. El panel explica que no hay motor ni transcripción de voz; no enciende el micrófono.
+La pantalla inicial dibuja un nodo central con los proyectos que existen en el almacén, más una lista accesible equivalente. Los nodos se pueden seleccionar con teclado; la vista se ajusta a móvil. Cada memoria filtra registros y cronología por el proyecto seleccionado. Los mensajes escritos se guardan como datos locales por proyecto y sobreviven reinicios. Si se pierde una respuesta, la interfaz conserva localmente el ID y borrador del intento por proyecto; al volver, comprueba si el almacén ya lo recibió. Si lo encuentra, confirma el registro sin reenviarlo; si no, permite reintentar con el mismo ID. La misma protección cubre la cola. No se deduplica por título o texto: una nueva tarea o mensaje intencional recibe otro ID. El panel explica que no hay motor ni transcripción de voz; no enciende el micrófono.
 
 ## Diario y cola
 
-`POST /api/action` recibe eventos locales con IDs y conserva su contenido original. La cola registra intención antes de iniciar, historial fechado de estados, dependencias, checkpoint y evidencia. En un reinicio se recupera del diario; la interfaz recomienda la tarea pendiente más antigua con dependencias completadas. Si el resultado externo queda incierto, no se reintenta automáticamente y hace falta verificación humana. Los elementos de colas antiguas sin dependencias explícitas quedan marcados para revisión manual. La cola registra trabajo; no ejecuta agentes, código o envíos de correo. La captura automática de voz tampoco está conectada.
+`POST /api/action` recibe eventos locales con IDs y conserva su contenido original. La cola registra intención antes de iniciar, historial fechado de estados, dependencias, checkpoint y evidencia. En un reinicio se recupera del diario; la interfaz recomienda la tarea pendiente más antigua con dependencias completadas. Si el resultado externo queda incierto, no se reintenta automáticamente y hace falta verificación humana. El reenvío manual de la misma intención local usa su mismo ID y la API devuelve el registro ya existente antes de aplicar la revisión; las transiciones posteriores conservan el historial. Los elementos de colas antiguas sin dependencias explícitas quedan marcados para revisión manual. La cola registra trabajo; no ejecuta agentes, código o envíos de correo. La captura automática de voz tampoco está conectada.
 
 ## Importación y exportación
 
@@ -26,7 +26,7 @@ Dos almacenes pueden intercambiarse manualmente cuando ambos servidores están d
 
 ## Pruebas
 
-`python3 -m unittest discover -s tests -v`. Si Chromium y Playwright ya están instalados, `python3 tests/browser_smoke.py` añade una comprobación visual. Las pruebas usan únicamente fixtures sintéticos.
+`python3 -m unittest discover -s tests -v`. Si Chromium y Playwright ya están instalados, `python3 tests/browser_smoke.py` prueba la interfaz y `python3 tests/browser_retry_smoke.py` simula ACK perdido después de persistir, error antes de guardar, recarga, reintento, doble envío y creación explícita de intentos idénticos. Las pruebas usan únicamente fixtures sintéticos.
 
 Los datos locales, respaldos, claves y capturas están excluidos por `.gitignore`. Esta distribución no contiene contenido de proyectos ni datos reales.
 

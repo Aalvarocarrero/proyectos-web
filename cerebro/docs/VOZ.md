@@ -4,7 +4,7 @@ La vista de conversación guarda únicamente los mensajes de texto que la person
 
 La Web Speech API no ofrece una garantía universal de procesamiento local: `SpeechRecognition.processLocally` es experimental y el valor predeterminado `false` permite que el navegador elija procesamiento local o remoto. El modo local requiere soporte del navegador y un paquete de idioma local instalado; `available()` e `install()` gestionan disponibilidad y descarga del paquete. No se habilitó reconocimiento porque no hay un motor local comprobado en el dispositivo de la persona ni una elección explícita de proveedor conectado.
 
-Para lectura en voz alta, `speechSynthesis.getVoices()` informa las voces disponibles en ese dispositivo y `SpeechSynthesisVoice.localService` indica si una voz se sirve localmente. La lista y su propiedad dependen del dispositivo; no se comprobó una voz local concreta en el Mac/iPhone de Álvaro, por lo que la app no afirma que la lectura sea local u offline y no la activa.
+Para lectura en voz alta, `speechSynthesis.getVoices()` informa las voces disponibles en ese dispositivo y `SpeechSynthesisVoice.localService` indica si una voz se sirve localmente. La lista y su propiedad dependen del dispositivo; no se comprobó una voz local concreta en el dispositivo de destino, por lo que la app no afirma que la lectura sea local u offline y no la activa.
 
 Referencias oficiales consultadas:
 

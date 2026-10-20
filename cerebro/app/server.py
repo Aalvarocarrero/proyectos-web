@@ -189,12 +189,15 @@ class Store:
                 if prior:
                     require(all(prior[k]==msg[k] for k in ['id','projectId','text']),'Colisión de ID de mensaje')
                     return {'message':prior,'duplicate':True}
+            if action=='queue':
+                require(isinstance(body.get('entry'),dict),'Entrada debe ser objeto'); proposed=dict(body['entry'])
+                prior=next((x for x in reversed(self.doc['actions']) if x['actionId']==proposed.get('actionId')),None)
+                if prior and proposed=={k:v for k,v in prior.items() if k not in ['id','at']}:
+                    return {'entry':prior,'duplicate':True}
             require(body.get('revision')==self.revision(),'Conflicto de versión: recargue antes de reintentar')
             if action=='backup': return {'backup':self.backup()}
             if action=='queue':
-                require(isinstance(body['entry'],dict),'Entrada debe ser objeto'); a=dict(body['entry'])
-                prior=next((x for x in reversed(self.doc['actions']) if x['actionId']==a.get('actionId')),None)
-                if prior and a=={k:v for k,v in prior.items() if k not in ['id','at']}: return {'entry':prior,'duplicate':True}
+                a=dict(body['entry'])
                 a['id']=str(uuid.uuid4()); a['at']=now()
                 self.commit([],actions=[a]); return {'entry':a}
             if action=='transcript':

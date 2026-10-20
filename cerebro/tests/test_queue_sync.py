@@ -19,6 +19,10 @@ class QueueSyncTests(unittest.TestCase):
   e['evidence']='fixture: comprobación de proveedor ficticio';self.act(self.a,action='queue',entry=e)
  def test_queue_idempotent(self):
   self.project(self.a,'p');e=self.entry();self.act(self.a,action='queue',entry=e);self.assertTrue(self.act(self.a,action='queue',entry=e)['duplicate']);self.assertEqual(len(self.a.doc['actions']),1)
+  replay=self.a.mutate({'revision':'lost-response-stale-revision','action':'queue','entry':e});self.assertTrue(replay['duplicate']);self.assertEqual(len(self.a.doc['actions']),1)
+ def test_identical_intent_can_be_created_as_a_new_action(self):
+  self.project(self.a,'p');e=self.entry();self.act(self.a,action='queue',entry=e);another=dict(e,actionId='a2',idempotencyKey='mail-fixture-2')
+  self.act(self.a,action='queue',entry=another);self.assertEqual([a['actionId'] for a in self.a.doc['actions']],['a1','a2'])
  def test_resume_skips_blocked_dependency_and_recovers_after_restart(self):
   self.project(self.a,'p')
   blocked=self.entry();self.act(self.a,action='queue',entry=blocked);blocked.update(state='blocked',outcome='failed',checkpoint='Bloqueo documentado',evidence='fixture: requisito externo ausente');self.act(self.a,action='queue',entry=blocked)
