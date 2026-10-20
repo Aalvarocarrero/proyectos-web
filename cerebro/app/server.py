@@ -69,31 +69,49 @@ def validate_document(d):
     require(isinstance(d['actions'],list),'actions debe ser lista')
     action_states={}; action_ids=set(); keys={}
     for a in d['actions']:
-        require(isinstance(a,dict) and set(a)=={'id','at','actionId','type','state','outcome','checkpoint','idempotencyKey','title','projectId','evidence'}, 'Entrada de cola inválida')
-        require(all(text(v) for v in a.values()), 'Los campos de cola deben ser texto')
-        require(a['id'] and a['id'] not in action_ids and a['actionId'] and a['title'].strip() and a['idempotencyKey'], 'IDs o título de cola inválidos')
+        require(isinstance(a,dict) and set(a)=={'id','at','actionId','type','state','outcome','intent','checkpoint','dependsOn','idempotencyKey','title','projectId','evidence'}, 'Entrada de cola inválida')
+        require(all(text(a[k]) for k in ['id','at','actionId','type','state','outcome','intent','checkpoint','idempotencyKey','title','projectId','evidence']), 'Los campos de cola deben ser texto')
+        require(isinstance(a['dependsOn'],list) and all(text(x,100) and x for x in a['dependsOn']) and len(a['dependsOn'])==len(set(a['dependsOn'])), 'Dependencias inválidas')
+        require(a['id'] and a['id'] not in action_ids and a['actionId'] and a['title'].strip() and a['intent'].strip() and a['idempotencyKey'], 'IDs, intención o título de cola inválidos')
         try: require(timestamp(a['at']).utcoffset() is not None,'Zona requerida')
         except (ValueError,TypeError): raise ValueError('Fecha de cola inválida')
-        require(a['type'] in ['task','code','external_send'] and a['state'] in ['pending','in_progress','blocked','completed'] and a['outcome'] in ['not_started','unknown','succeeded','failed'], 'Estado de cola inválido')
+        require(a['type'] in ['task','code','external_send'] and a['state'] in ['pending','in_progress','blocked','uncertain','completed'] and a['outcome'] in ['not_started','unknown','succeeded','failed'], 'Estado de cola inválido')
         require(keys.get(a['idempotencyKey'],a['actionId'])==a['actionId'],'Clave de idempotencia ya usada')
         previous=action_states.get(a['actionId'])
         if previous:
-            require(all(a[k]==previous[k] for k in ['type','idempotencyKey','title','projectId']), 'Identidad de acción inmutable')
+            require(all(a[k]==previous[k] for k in ['type','idempotencyKey','title','projectId','intent','dependsOn']), 'Intención, dependencias e identidad de acción son inmutables')
             require(previous['state']!='completed','Acción completada inmutable')
             require(not(previous['outcome']=='unknown' and a['state']=='in_progress'),'Resultado incierto: verificar antes de reintentar')
             if previous['outcome']=='unknown' and a['outcome']!='unknown': require(bool(a['evidence'].strip()),'Resolución de incertidumbre requiere evidencia')
         else: require(a['state']=='pending' and a['outcome']=='not_started','Una acción nueva comienza pendiente')
         require(a['state']!='completed' or (a['outcome']=='succeeded' and bool(a['evidence'].strip())), 'Completar requiere resultado y evidencia')
         require(a['state']!='in_progress' or a['outcome']=='unknown','En ejecución implica resultado aún incierto')
-        require(a['outcome']!='unknown' or a['state'] in ['in_progress','blocked'],'Resultado incierto requiere revisión')
+        require(a['outcome']!='unknown' or a['state'] in ['in_progress','blocked','uncertain'],'Resultado incierto requiere revisión')
+        require(a['state']!='uncertain' or a['outcome']=='unknown','Estado incierto requiere outcome unknown')
         action_ids.add(a['id']); keys[a['idempotencyKey']]=a['actionId']; action_states[a['actionId']]=a
     entities={}; ids=set()
     for e in d['events']:
         validate_event(e,entities); require(e['id'] not in ids,'ID de evento duplicado'); ids.add(e['id'])
         for evidence in e['evidence']:
             if evidence.startswith('transcript:'): require(evidence[11:] in tids,'Referencia a fragmento inexistente')
-    for a in d['actions']: require(a['projectId'] in entities and entities[a['projectId']]['kind']=='project','Proyecto de cola inexistente')
+    for a in d['actions']:
+        require(a['projectId'] in entities and entities[a['projectId']]['kind']=='project','Proyecto de cola inexistente')
+        require(all((dep in action_states and dep!=a['actionId']) or dep=='legacy:review-dependencies' for dep in a['dependsOn']), 'Dependencia inexistente o cíclica')
     return entities
+
+def upgrade_legacy_actions(d):
+    """Preserve v1 queue entries created before intent/dependency tracking existed."""
+    for a in d.get('actions',[]):
+        if 'intent' not in a: a['intent']='Intención histórica no registrada; revisar antes de iniciar.'
+        if 'dependsOn' not in a: a['dependsOn']=['legacy:review-dependencies']
+
+def resumable_action(actions):
+    """Pick the oldest pending item whose declared dependencies are complete."""
+    latest={}
+    for entry in actions: latest[entry['actionId']]=entry
+    for entry in latest.values():
+        if entry['state']=='pending' and all(latest.get(dep,{}).get('state')=='completed' for dep in entry['dependsOn']): return entry
+    return None
 
 class Store:
     def __init__(self,path):
@@ -114,6 +132,7 @@ class Store:
                 self.doc['events'].extend(t['events'])
                 self.doc['transcripts'].extend(t.get('transcripts',[]))
                 self.doc['actions'].extend(t.get('actions',[]))
+        upgrade_legacy_actions(self.doc)
         validate_document(self.doc)
     def revision(self): return hashlib.sha256(json.dumps(self.doc,sort_keys=True).encode()).hexdigest()
     def snapshot(self):
@@ -168,7 +187,7 @@ class Store:
                 saved={**t,'order':len(self.doc['transcripts'])+1,'persistence':'persistido'}
                 self.commit([],transcripts=[saved]); return {'fragment':saved,'duplicate':False}
             if action=='import':
-                incoming=body['document']; validate_document(incoming)
+                incoming=body['document']; upgrade_legacy_actions(incoming); validate_document(incoming)
                 known={e['id']:e for e in self.doc['events']}; additions=[]
                 for e in incoming['events']:
                     if e['id'] in known: require(e==known[e['id']], 'Colisión: evento existente modificado')

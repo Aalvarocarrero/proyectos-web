@@ -16,7 +16,7 @@ class FirstLoop(unittest.TestCase):
    self.assertTrue(act(action='transcript',fragment=fragment)['duplicate'])
    task={'id':'fixture-task','kind':'task','projectId':project['id'],'title':'Procesar fragmento de ejemplo','body':'Registrar seguimiento manual.','status':'pendiente','priority':'muy alta','nextAction':'Consultar fuente de prueba'}
    act(action='create',entity=task,evidence=['transcript:'+fragment['id']])
-   q={'actionId':'fixture-action','type':'task','state':'pending','outcome':'not_started','checkpoint':'','idempotencyKey':'fixture-idem-001','title':task['title'],'projectId':project['id'],'evidence':''}
+   q={'actionId':'fixture-action','type':'task','state':'pending','outcome':'not_started','intent':'Registrar y validar una evidencia ficticia','checkpoint':'','dependsOn':[],'idempotencyKey':'fixture-idem-001','title':task['title'],'projectId':project['id'],'evidence':''}
    act(action='queue',entry=q)
    q.update(state='in_progress',outcome='unknown',checkpoint='Checkpoint 1: fragmento revisado; continuar desde la consulta de evidencia')
    act(action='queue',entry=q)

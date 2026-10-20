@@ -225,7 +225,9 @@
           "type",
           "state",
           "outcome",
+          "intent",
           "checkpoint",
+          "dependsOn",
           "idempotencyKey",
           "title",
           "projectId",
@@ -254,6 +256,7 @@
               "pending",
               "in_progress",
               "blocked",
+              "uncertain",
               "completed"
             ]
           },
@@ -279,6 +282,18 @@
           },
           "evidence": {
             "type": "string"
+          },
+          "intent": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dependsOn": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
           }
         }
       }
