@@ -1,0 +1,13 @@
+{
+  "name": "aprendizaje-razonamiento-v34-portable",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/number-parts.test.mjs",
+    "serve": "python3 -m http.server 4186 --bind 127.0.0.1 --directory dist",
+    "test:browser": "node tests/number-parts-browser.cjs"
+  },
+  "devDependencies": {
+    "playwright": "1.62.1"
+  }
+}

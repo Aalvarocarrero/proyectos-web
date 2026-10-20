@@ -1,0 +1,11 @@
+{
+  "checks": 88,
+  "errors": [],
+  "viewports": [
+    320,
+    375,
+    768,
+    1440
+  ],
+  "scope": "Integrated route, six-token uneven split, prior drawing vs active set, compensated transfer, delayed comparison feedback, incomplete nearby counterexample, non-answer hint, unsolved eight-token transfer, keyboard, local persistence and responsive overflow. Screenshots are browser captures, not accessibility user testing."
+}
