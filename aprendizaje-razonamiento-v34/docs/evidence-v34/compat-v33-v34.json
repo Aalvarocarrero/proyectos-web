@@ -1,0 +1,11 @@
+{
+  "base": "362f13cc9e0f1f3fa28f96f6b047d1b99e917cff",
+  "sameKey": true,
+  "sameVersion": true,
+  "legacyRecordAccepted": true,
+  "oldReaderRejectsNewRoute": true,
+  "oldWriterPreservesNewBytes": true,
+  "currentReaderPreservesBothRounds": true,
+  "bytes": 777,
+  "limit": "v33 cannot read number-parts route; it reports corrupt and preserves the bytes rather than overwriting them."
+}
