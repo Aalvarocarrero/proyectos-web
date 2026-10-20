@@ -1,0 +1,17 @@
+{
+  "name": "aprendizaje-razonamiento-v36-portable",
+  "version": "0.36.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/local-progress.test.mjs",
+    "test:dom": "node --test tests/dom.test.cjs",
+    "test:browser": "node tests/plan-comparison-browser.cjs",
+    "serve": "python3 -m http.server 4194 --bind 127.0.0.1 --directory dist",
+    "test:static": "python3 tests/static_a11y.py"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2",
+    "playwright": "1.62.1"
+  }
+}

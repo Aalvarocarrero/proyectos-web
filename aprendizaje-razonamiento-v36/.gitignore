@@ -1,0 +1,5 @@
+node_modules/
+docs/evidence-v36/
+.DS_Store
+
+docs/static-a11y-report.json
