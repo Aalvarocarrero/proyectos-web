@@ -1,0 +1,65 @@
+{
+  "build_sha256": "88c88c2fe440c2c19f80a2b70977c8e52321f8822a58c8f663dadaf487f336e2",
+  "fixture": "AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO",
+  "tested_at": "2026-10-20T21:27:13.060Z",
+  "browser": "Chromium headless · Playwright",
+  "external_services": false,
+  "external_actions": 0,
+  "cases": [
+    {
+      "id": "C0-checkpoint-v1",
+      "result": "aprobado",
+      "detail": "Brief y plan persistidos; v1 tiene mission_id y origen local."
+    },
+    {
+      "id": "C0-checkpoint-v2",
+      "result": "aprobado",
+      "detail": "Comentario guardado ligado exactamente a v1; v1 y v2 conservadas."
+    },
+    {
+      "id": "C0",
+      "result": "aprobado",
+      "detail": "Recorrido completo recuperado tras recarga; aprobación exacta; cero acciones externas."
+    },
+    {
+      "id": "C3",
+      "result": "aprobado",
+      "detail": "v1 conservada, comentario apuntado a v1, aprobación apuntada al ID exacto de v2; sin publicación."
+    },
+    {
+      "id": "C1",
+      "result": "aprobado",
+      "detail": "Campo bloqueante y opcional diferenciados por decisión explícita; no se inventó valor ni regla."
+    },
+    {
+      "id": "C2",
+      "result": "aprobado",
+      "detail": "La instrucción hostil queda como contenido; espacio, permisos implícitos y alcance no cambian; cero publicación."
+    },
+    {
+      "id": "C4",
+      "result": "aprobado",
+      "detail": "Marcador y datos de Aeterna no aparecen en el espacio hermano ni General; fixtures vacíos."
+    },
+    {
+      "id": "C5-blocked",
+      "result": "aprobado",
+      "detail": "Por verificar persiste tras recarga y el reintento está deshabilitado hasta revisión."
+    },
+    {
+      "id": "C5-review-before-retry",
+      "result": "aprobado",
+      "detail": "La inspección local precede al reintento."
+    },
+    {
+      "id": "C5",
+      "result": "aprobado",
+      "detail": "Recuperación local inspeccionada sin duplicar misión; nuevo intento local y cero acción externa."
+    },
+    {
+      "id": "Browser console",
+      "result": "aprobado",
+      "detail": "Sin excepciones JavaScript."
+    }
+  ]
+}
