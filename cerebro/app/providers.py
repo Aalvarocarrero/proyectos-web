@@ -173,3 +173,54 @@ def chat_completion(
     if not isinstance(content, str) or not content:
         raise ProviderError("invalid_response", "El proveedor no devolvió texto de respuesta.")
     return {"provider": config.provider, "model": config.model, "content": content}
+
+
+def simulate_provider(provider: str) -> dict[str, str | bool]:
+    """Exercise request construction with fixed synthetic data and a non-network fake transport."""
+    if provider not in PROVIDERS:
+        raise ProviderError("invalid_selection", "Proveedor de simulación no reconocido.")
+    fixture_model = f"fixture-{provider}-chat"
+    capabilities = (Capability(provider, fixture_model, frozenset({"chat"}), True,
+                               "fixture sintético; no es una verificación real"),)
+    config = ProviderConfig(
+        provider=provider,
+        model=fixture_model,
+        enabled=True,
+        account_id="0" * 32 if provider == "cloudflare" else "",
+        credential_env="FIXTURE_PROVIDER_TOKEN" if provider in {"cloudflare", "groq"} else "",
+    )
+    synthetic_messages = [{"role": "user", "content": "Pregunta sintética de comprobación; no contiene memoria."}]
+    fixture_response = {"message": {"content": "Respuesta sintética del transporte simulado."}} if provider == "ollama" else {"choices": [{"message": {"content": "Respuesta sintética del transporte simulado."}}]}
+    body = json.dumps(fixture_response, ensure_ascii=False).encode("utf-8")
+
+    def fake_transport(request: Request, timeout: float, response_limit: int) -> HttpReply:
+        # Reject unexpected destinations even inside the fixture: this code never performs I/O.
+        expected_hosts = {
+            "ollama": "127.0.0.1:11434",
+            "cloudflare": "api.cloudflare.com",
+            "groq": "api.groq.com",
+        }
+        from urllib.parse import urlparse
+        parsed = urlparse(request.full_url)
+        if parsed.hostname is None or (parsed.hostname + (f":{parsed.port}" if parsed.port else "")) != expected_hosts[provider]:
+            raise ProviderError("simulation_rejected", "La simulación rechazó un destino inesperado.")
+        payload = json.loads(request.data or b"{}")
+        if payload.get("model") != fixture_model or payload.get("messages") != synthetic_messages:
+            raise ProviderError("simulation_rejected", "La simulación rechazó contenido que no era sintético.")
+        return HttpReply(200, body)
+
+    result = chat_completion(
+        config,
+        capabilities,
+        synthetic_messages,
+        environ={"FIXTURE_PROVIDER_TOKEN": "synthetic-token-not-a-credential"},
+        transport=fake_transport,
+    )
+    return {
+        "provider": provider,
+        "model": fixture_model,
+        "providerStatus": "desactivado",
+        "simulation": True,
+        "realConnectionVerified": False,
+        "result": result["content"],
+    }

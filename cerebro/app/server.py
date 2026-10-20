@@ -288,6 +288,17 @@ def handler(store,token):
             filename,ctype=files[path]; return self.send(200,(ROOT/filename).read_bytes(),ctype+'; charset=utf-8')
         def do_POST(self):
             if not self.permitted() or self.headers.get('X-Cerebro-Token')!=token:return self.send(403,{'error':'Origen o token no permitido'})
+            if self.path=='/api/providers/simulate':
+                from providers import ProviderError, simulate_provider
+                try:
+                    require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','Content-Type application/json requerido')
+                    require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
+                    size=int(self.headers.get('Content-Length','0')); require(0<size<=1024,'Carga vacía o superior a 1 KiB')
+                    body=json.loads(self.rfile.read(size))
+                    require(isinstance(body,dict) and set(body)=={'provider'} and text(body['provider'],20),'Solo se admite el identificador del proveedor')
+                    return self.send(200,simulate_provider(body['provider']))
+                except ProviderError as e:return self.send(400,{'error':str(e)})
+                except (ValueError,KeyError,TypeError) as e:return self.send(400,{'error':str(e)})
             if self.path!='/api/action':return self.send(404,{'error':'No encontrado'})
             try:
                 require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','Content-Type application/json requerido')

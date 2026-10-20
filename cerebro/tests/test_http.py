@@ -22,4 +22,13 @@ class HttpTests(unittest.TestCase):
   req=urllib.request.Request(self.url+'/api/action',data=b'[]',headers={'Content-Type':'application/json','X-Cerebro-Token':'test-token'})
   with self.assertRaises(urllib.error.HTTPError) as ctx:urllib.request.urlopen(req)
   self.assertEqual(ctx.exception.code,400)
+ def test_provider_simulation_accepts_only_provider_name_and_does_not_mutate_store(self):
+  before=self.s.snapshot()['document']
+  request=urllib.request.Request(self.url+'/api/providers/simulate',data=json.dumps({'provider':'ollama'}).encode(),headers={'Content-Type':'application/json','X-Cerebro-Token':'test-token'})
+  result=json.load(urllib.request.urlopen(request))
+  self.assertEqual(result['providerStatus'],'desactivado');self.assertTrue(result['simulation']);self.assertFalse(result['realConnectionVerified'])
+  self.assertEqual(self.s.snapshot()['document'],before)
+  request=urllib.request.Request(self.url+'/api/providers/simulate',data=json.dumps({'provider':'groq','messages':[{'role':'user','content':'private'}]}).encode(),headers={'Content-Type':'application/json','X-Cerebro-Token':'test-token'})
+  with self.assertRaises(urllib.error.HTTPError) as ctx:urllib.request.urlopen(request)
+  self.assertEqual(ctx.exception.code,400);self.assertEqual(self.s.snapshot()['document'],before)
 if __name__=='__main__':unittest.main()

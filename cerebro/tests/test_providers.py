@@ -4,7 +4,7 @@ import unittest
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app"))
-from providers import Capability, HttpReply, ProviderConfig, ProviderError, chat_completion, status
+from providers import Capability, HttpReply, ProviderConfig, ProviderError, chat_completion, simulate_provider, status
 
 
 class ProviderAdapterTests(unittest.TestCase):
@@ -27,6 +27,18 @@ class ProviderAdapterTests(unittest.TestCase):
                             self.messages, transport=lambda *args: calls.append(args))
         self.assertEqual(ctx.exception.code, "capability_unverified")
         self.assertEqual(calls, [])
+
+    def test_simulation_is_synthetic_and_never_marks_real_connection_verified(self):
+        for provider in ("ollama", "cloudflare", "groq"):
+            with self.subTest(provider=provider):
+                result = simulate_provider(provider)
+                self.assertEqual(result["providerStatus"], "desactivado")
+                self.assertTrue(result["simulation"])
+                self.assertFalse(result["realConnectionVerified"])
+                self.assertEqual(result["model"], f"fixture-{provider}-chat")
+                self.assertIn("sintética", result["result"])
+        with self.assertRaises(ProviderError):
+            simulate_provider("unknown-provider")
 
     def test_ollama_chat_uses_loopback_and_explicit_bounded_payload(self):
         seen = []

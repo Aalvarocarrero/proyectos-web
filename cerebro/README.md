@@ -26,10 +26,12 @@ Dos almacenes pueden intercambiarse manualmente cuando ambos servidores están d
 
 ## Pruebas
 
-`python3 -m unittest discover -s tests -v`. Si Chromium y Playwright ya están instalados, `python3 tests/browser_smoke.py` prueba la interfaz, teclado, contraste, áreas táctiles, movimiento reducido, móvil, memoria aislada, exportación y reinicio; `python3 tests/browser_retry_smoke.py` simula ACK perdido después de persistir, error antes de guardar, recarga, reintento, doble envío y creación explícita de intentos idénticos. Las pruebas usan únicamente fixtures sintéticos.
+`python3 -m unittest discover -s tests -v`. Si Chromium y Playwright ya están instalados, `python3 tests/browser_smoke.py` prueba la interfaz, teclado, contraste, áreas táctiles, movimiento reducido, móvil, memoria aislada, exportación y reinicio; `python3 tests/browser_retry_smoke.py` simula ACK perdido después de persistir, error antes de guardar, recarga, reintento, doble envío y creación explícita de intentos idénticos; `python3 tests/browser_providers_smoke.py` prueba el panel accesible y su comprobación sintética sin claves, memoria ni llamadas externas. Las pruebas usan únicamente fixtures sintéticos.
 
 Los datos locales, respaldos, claves y capturas están excluidos por `.gitignore`. Esta distribución no contiene contenido de proyectos ni datos reales.
 
 El ZIP portable incluye capturas reales de la interfaz con proyectos ficticios, incluida una vista móvil; las imágenes se excluyen del repositorio.
 
 La voz está pendiente de conectar/configurar. La app no promete procesamiento local, véase [docs/VOZ.md](docs/VOZ.md). El módulo opcional de proveedores está apagado y fuera de la conversación; requiere configurar selección y verificar modelos de forma explícita. Su transporte solo se prueba con fixtures falsos; no se han llamado proveedores ni enviado memoria. Véase [docs/PROVEEDORES.md](docs/PROVEEDORES.md).
+
+La vista **Proveedores IA** lista Ollama, Workers AI y Groq, requisitos pendientes y la diferencia entre Desactivado, Preparado y Verificado realmente. Su único botón ejecuta una simulación local con un transporte falso y datos sintéticos; no prueba conexión ni modelo real. Antes de usar Cloudflare de forma real, falta confirmar el plan y saldo diario. La aplicación no consulta facturación.
