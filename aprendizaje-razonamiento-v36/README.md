@@ -7,7 +7,7 @@ Este directorio contiene el snapshot estático completo de la aplicación educat
 Requiere Node.js 20 o posterior y Python 3. Desde este directorio:
 
 ```sh
-npm ci
+PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm ci
 npm test
 npm run test:dom
 npm run test:static
@@ -20,6 +20,6 @@ En otra terminal, con el servidor activo:
 npm run test:browser
 ```
 
-La prueba usa Chromium instalado en `/usr/bin/chromium` y verifica 320, 390 y 1024 px. Las capturas y resultados que genere la prueba se guardan en `docs/evidence-v36/`, ignorado por Git. El código de navegador puede usar `BASE_URL` para otra dirección local.
+La prueba usa Chromium instalado en `/usr/bin/chromium` y verifica 320, 390 y 1024 px. La revisión estática escribe un resumen ignorado en `docs/static-a11y-report.json`; las capturas y resultados de navegador van a `docs/evidence-v36/`, también ignorado por Git. El código de navegador puede usar `BASE_URL` para otra dirección local.
 
 El flujo conserva A y permite construir B con el mismo presupuesto de ocho fichas; solo muestra comparación cuando ambos planes cumplen las reglas del juego. No registra explicaciones. Los precios son ficticios. Este prototipo no se ha validado con estudiantes, cuidadores ni docentes. El módulo de Matemáticas está fuera de este snapshot incremental.
