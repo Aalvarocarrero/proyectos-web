@@ -32,4 +32,4 @@ Los datos locales, respaldos, claves y capturas están excluidos por `.gitignore
 
 El ZIP portable incluye capturas reales de la interfaz con proyectos ficticios, incluida una vista móvil; las imágenes se excluyen del repositorio.
 
-La voz está pendiente de conectar/configurar. La app no promete procesamiento local, véase [docs/VOZ.md](docs/VOZ.md).
+La voz está pendiente de conectar/configurar. La app no promete procesamiento local, véase [docs/VOZ.md](docs/VOZ.md). El módulo opcional de proveedores está apagado y fuera de la conversación; requiere configurar selección y verificar modelos de forma explícita. Su transporte solo se prueba con fixtures falsos; no se han llamado proveedores ni enviado memoria. Véase [docs/PROVEEDORES.md](docs/PROVEEDORES.md).
