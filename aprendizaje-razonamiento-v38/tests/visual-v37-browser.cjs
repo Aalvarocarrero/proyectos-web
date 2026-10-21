@@ -13,7 +13,7 @@ const evidence=process.env.V37_EVIDENCE_DIR||fs.mkdtempSync(path.join(os.tmpdir(
    const context=await browser.newContext({viewport:{width,height:1000},hasTouch:true,reducedMotion:'reduce'});
    const page=await context.newPage();await page.goto(base);await page.locator('#welcome-begin').waitFor();
    await page.locator('#welcome-begin').focus();await page.keyboard.press('Enter');
-   await page.locator('[data-role="adult"]').focus();await page.keyboard.press('Enter');
+   check(await page.locator('[data-role]').count()===0,'age chooser comes first');
    check(await page.locator('.welcome-stage-art').count()===6,'six illustrated age bands '+width);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no age-selector overflow '+width);
    check(await page.locator('#guided-home button:visible').evaluateAll(es=>es.every(e=>e.getBoundingClientRect().height>=44)),'touch target size '+width);
@@ -35,7 +35,7 @@ const evidence=process.env.V37_EVIDENCE_DIR||fs.mkdtempSync(path.join(os.tmpdir(
    check(await page.locator('.welcome-more summary').isVisible(),'other offers remain accessible '+width);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no 3–5 overflow '+width);
    if(width===390)await page.locator('#guided-home').screenshot({path:path.join(evidence,'02-3-5-entry.png')});
-   await page.locator('#welcome-band').click();await page.locator('[data-band="12y"]').click();
+   await page.locator('#welcome-band').click();await page.locator('[data-band="12y"]').click();await page.locator('[data-role="adult"]').click();
    check((await page.locator('#guided-home h1').innerText()).includes('¿Qué te apetece'),'older-stage headline '+width);
    check(await page.locator('[data-welcome-route]:visible').count()===1,'one main older-stage offer '+width);
    check(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth),'no older-stage overflow '+width);

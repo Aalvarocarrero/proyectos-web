@@ -1,6 +1,6 @@
 {
-  "name": "aprendizaje-razonamiento-v37-portable",
-  "version": "0.37.0",
+  "name": "aprendizaje-razonamiento-prototipo",
+  "version": "0.27.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -8,7 +8,7 @@
     "test:static": "python3 tests/static_a11y.py",
     "test:dom": "node --test tests/dom.test.cjs",
     "test:browser": "node tests/browser.cjs",
-    "serve": "python3 -m http.server 4200 --bind 127.0.0.1 --directory dist",
+    "serve": "python3 -m http.server 4186 --bind 127.0.0.1 --directory dist",
     "test:navigation": "node tests/navigation-browser.cjs",
     "test:routes": "node tests/routes-browser.cjs",
     "test:science": "node tests/science-browser.cjs",
@@ -43,10 +43,7 @@
     "test:compat-v33": "node tests/compat-v33-v34.mjs",
     "test:personal-preview": "node tests/personal-preview-browser.cjs",
     "test:plan-comparison": "node tests/plan-comparison-browser.cjs",
-    "test:visual-v37": "node tests/visual-v37-browser.cjs"
-  },
-  "devDependencies": {
-    "jsdom": "30.1.2",
-    "playwright": "1.62.1"
+    "test:visual-v37": "node tests/visual-v37-browser.cjs",
+    "test:usability-v38": "node tests/usability-v38-browser.cjs"
   }
 }
