@@ -15,10 +15,25 @@ import threading
 import time
 from typing import Any, Callable, Mapping, Protocol
 
+DENY_ESCALATIONS = {"granular": {"mcp_elicitations": False, "request_permissions": False,
+    "rules": False, "sandbox_approval": False, "skill_approval": False}}
+PERMISSION_PROFILE = "jarvis_read_fixture"
+
+def restricted_thread_params(cwd):
+    return {"cwd": cwd, "approvalPolicy": DENY_ESCALATIONS,
+            "permissions": PERMISSION_PROFILE, "runtimeWorkspaceRoots": [cwd],
+            "selectedCapabilityRoots": [], "environments": [],
+            "config": {"permissions": {PERMISSION_PROFILE: {
+                "filesystem": {":minimal": "read", cwd: "read"},
+                "network": {"enabled": False}}}}}
+
 MAX_PROMPT_CHARS = 6_000
 MAX_EVENT_CHARS = 20_000
 PROCESS_OVERRIDES = (
     ("features.shell_tool", "false"),
+    ("approval_policy", '{granular={mcp_elicitations=false,request_permissions=false,rules=false,sandbox_approval=false,skill_approval=false}}'),
+    ("features.hooks", "false"),
+    ("notify", "[]"),
     ("features.plugins", "false"),
     ("features.skill_mcp_dependency_install", "false"),
     ("apps._default.enabled", "false"),
@@ -442,7 +457,7 @@ class CodexAppServerAdapter:
             if thread_id:
                 rpc.request("thread/resume", {"threadId": thread_id, "excludeTurns": True})
             else:
-                created = rpc.request("thread/start", {"cwd": cwd, "approvalPolicy": "onRequest", "sandbox": "readOnly"})
+                created = rpc.request("thread/start", restricted_thread_params(cwd))
                 if not isinstance(created, dict) or not isinstance(created.get("thread"), dict) or not isinstance(created["thread"].get("id"), str):
                     raise AppServerError("invalid_response", "App Server no devolvió un hilo válido.")
                 thread_id = created["thread"]["id"]
@@ -451,9 +466,8 @@ class CodexAppServerAdapter:
             begun = True
             started = rpc.request("turn/start", {"threadId": thread_id,
                 "input": [{"type": "text", "text": text}], "cwd": cwd,
-                "approvalPolicy": "onRequest",
-                "sandboxPolicy": {"type": "readOnly", "access": {"type": "restricted",
-                    "includePlatformDefaults": False, "readableRoots": [cwd]}}}, timeout=30)
+                "approvalPolicy": DENY_ESCALATIONS,
+                "permissions": PERMISSION_PROFILE}, timeout=30)
             if not isinstance(started, dict) or not isinstance(started.get("turn"), dict) or not isinstance(started["turn"].get("id"), str):
                 raise AppServerError("invalid_response", "App Server no devolvió un turno válido.")
             turn_id = started["turn"]["id"]
@@ -534,3 +548,4 @@ class CodexAppServerAdapter:
             self._active_turn.clear()
         if transport is not None:
             transport.close()
+

@@ -24,3 +24,10 @@ This App Server path is not a cloud adapter. OpenAI's [official App Server docum
 ## Local model compatibility
 
 The adapter is separate from the local-model runtime and does not replace project history, chat, speech, or recovery. It is not connected to Jarvis conversation; the capability catalog reports its disabled state. Synthetic transport tests do not establish a real connection or inference.
+
+
+## Compatibility checkpoint: installed macOS CLI 0.163.0-alpha.10.2
+
+The Mac installation replaces the simulated `onRequest` policy with a granular policy rejecting all five approval/escalation categories. It uses a named filesystem permission profile (minimal runtime reads plus the exact project root, no command network), rather than the unsupported `sandboxPolicy.access` object. `thread/start` defines the profile; `turn/start` selects it. Filesystem behavior was verified using the official CLI sandbox with managed requirements: inside read allowed; outside read, write and symlink escape denied. This does not verify App Server startup or inference. The adapter remains disabled and real turns remain disabled. Runtime state/log writes and effective App Server capabilities still require verification before connection. No new authentication is performed.
+
+The macOS test fixtures resolve temporary paths before comparing roots, preserving canonical project isolation across `/var` and `/private/var` aliases. All 89 Python tests and three Node suites passed on this Mac; transport tests remain synthetic.

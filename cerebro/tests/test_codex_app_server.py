@@ -8,6 +8,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / "app"))
 from codex_app_server import (  # noqa: E402
     AppServerConfig,
+    DENY_ESCALATIONS,
+    PERMISSION_PROFILE,
     AppServerError,
     CodexAppServerAdapter,
     JsonlProcessTransport,
@@ -56,7 +58,7 @@ class FakeRpc:
 class CodexAppServerTests(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
-        self.root = Path(self.tmp.name) / "project-a"
+        self.root = Path(self.tmp.name).resolve() / "project-a"
         self.root.mkdir()
         self.profile = Path(self.tmp.name) / "isolated-profile"
         self.profile.mkdir()
@@ -138,8 +140,12 @@ class CodexAppServerTests(unittest.TestCase):
         self.assertEqual(params["input"], [{"type": "text", "text": "Texto sintético; sin memoria"}])
         self.assertNotIn("memory", params)
         self.assertEqual(params["cwd"], str(self.root))
-        self.assertEqual(params["sandboxPolicy"], {"type": "readOnly", "access": {
-            "type": "restricted", "includePlatformDefaults": False, "readableRoots": [str(self.root)]}})
+        self.assertEqual(params["permissions"], PERMISSION_PROFILE)
+        self.assertEqual(params["approvalPolicy"], DENY_ESCALATIONS)
+        self.assertNotIn("sandboxPolicy",params)
+        thread_params=next(p for method,p in self.fake.calls if method=="thread/start")
+        self.assertEqual(thread_params["config"]["permissions"][PERMISSION_PROFILE]["filesystem"],{":minimal":"read",str(self.root):"read"})
+        self.assertFalse(thread_params["config"]["permissions"][PERMISSION_PROFILE]["network"]["enabled"])
         self.assertEqual(self.sessions.get("project-a"), "thread-a")
         self.assertEqual(self.fake.responses, [("server-approval", {"decision": "decline"})])
 
@@ -225,3 +231,4 @@ class CodexAppServerTests(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
