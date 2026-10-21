@@ -396,9 +396,9 @@ def handler(store,token,local_chat=None):
                     size=int(self.headers.get('Content-Length','0'));require(0<size<=32768,'Carga inválida')
                     body=json.loads(self.rfile.read(size))
                     if self.path.endswith('/speak'):
-                        require(isinstance(body,dict) and set(body)=={'projectId','text'},'Campos incorrectos')
+                        require(isinstance(body,dict) and set(body) in ({'projectId','text'},{'projectId','text','voice'}),'Campos incorrectos')
                         local_chat.project(body['projectId']);require(local_chat.speech is not None,'Voz local no configurada')
-                        return self.send(200,local_chat.speech.synthesize(body['text']),'audio/wav')
+                        return self.send(200,local_chat.speech.synthesize(body['text'],voice=body.get('voice')),'audio/wav')
                     elif self.path.endswith('/session-start'):
                         require(isinstance(body,dict) and set(body)=={'projectId'},'Campos incorrectos');result=local_chat.start_session(body['projectId'])
                     elif self.path.endswith('/session-stop'):

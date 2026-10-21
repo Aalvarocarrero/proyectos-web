@@ -1,3 +1,4 @@
+import {selectedVoice} from './voicePreference.js'
 // One bounded playback at a time. Cancel always clears queued browser speech too.
 export function createNativeSpeech({projectId,onState,fetcher=fetch,AudioClass=Audio,urlAPI=URL,synthesis=globalThis.speechSynthesis,timers=globalThis}){
  let generation=0,active=null
@@ -8,7 +9,7 @@ export function createNativeSpeech({projectId,onState,fetcher=fetch,AudioClass=A
    if(typeof text!=='string'||!text.trim()||text.length>1200)throw Error('La respuesta excede el límite de lectura; usa el texto.')
    onState?.({state:'preparing'})
    const token=(await(await fetcher('/api/session',{signal:s.controller.signal})).json()).token
-   const r=await fetcher('/api/local-chat/speak',{method:'POST',signal:s.controller.signal,headers:{'Content-Type':'application/json','X-Cerebro-Token':token},body:JSON.stringify({projectId,text})})
+   const r=await fetcher('/api/local-chat/speak',{method:'POST',signal:s.controller.signal,headers:{'Content-Type':'application/json','X-Cerebro-Token':token},body:JSON.stringify({projectId,text,voice:selectedVoice()})})
    if(!r.ok)throw Error((await r.json()).error||'Falló la voz local')
    const blob=await r.blob();if(id!==generation)return false
    s.url=urlAPI.createObjectURL(blob);s.audio=new AudioClass(s.url)

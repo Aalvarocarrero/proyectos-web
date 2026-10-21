@@ -46,7 +46,7 @@ export default function ConversationSession({projectId,enabled,useMemory,onRunti
   const epoch=++serial.current,s={turn:0,speaking:false,lastSpoken:'',token:'',sid:null,repeat:new RepeatGuard()};current.current=s
   setActive(true);callbacks.current.onActive?.(true);report('requesting','Solicitando micrófono para esta sesión…')
   try{
-   s.output=createNativeSpeech({projectId,onState:event=>{if(current.current!==s)return;if(event.state==='speaking'){s.speaking=true;s.lastAudioAt=performance.now();report('speaking','Jarvis responde con Reed. Puedes interrumpir con otra frase.')}else if(event.state==='ended'){s.speaking=false;s.lastAudioAt=performance.now();report('listening','Escuchando. Habla cuando quieras.')}else if(event.state==='error'){stop('Sesión detenida: '+event.message)}}})
+   s.output=createNativeSpeech({projectId,onState:event=>{if(current.current!==s)return;if(event.state==='speaking'){s.speaking=true;s.lastAudioAt=performance.now();report('speaking','Jarvis responde con la voz seleccionada. Puedes interrumpir con otra frase.')}else if(event.state==='ended'){s.speaking=false;s.lastAudioAt=performance.now();report('listening','Escuchando. Habla cuando quieras.')}else if(event.state==='error'){stop('Sesión detenida: '+event.message)}}})
    s.token=(await(await fetch('/api/session')).json()).token
    if(serial.current!==epoch)return
    const session=await json('/api/local-chat/session-start',{projectId},s);s.sid=session.sessionId

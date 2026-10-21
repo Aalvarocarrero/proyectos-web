@@ -1,3 +1,4 @@
+import {installedVoices,selectedVoice,chooseVoice} from './voicePreference.js'
 import React, {useEffect, useRef, useState} from 'react'
 
 import ConversationSession from './ConversationSession.jsx'
@@ -13,6 +14,7 @@ async function api(path, body) {
 }
 
 export default function LocalChat({project,onRuntime}) {
+  const [voice,setVoice]=useState(selectedVoice)
   const [sessionActive,setSessionActive]=useState(false)
   const [data, setData] = useState(null)
   const [text, setText] = useState('')
@@ -24,7 +26,7 @@ export default function LocalChat({project,onRuntime}) {
   const speech=useRef(null)
   useEffect(()=>{if(!sessionActive)onRuntime?.({phase:busy?'thinking':'idle',level:0})},[busy,sessionActive,onRuntime])
   useEffect(()=>{if(!busy&&!sessionActive)return;let active=true;const tick=setInterval(()=>api(`/api/local-chat/${encodeURIComponent(project.id)}`).then(r=>{if(active)setData(r)}).catch(()=>{}),600);return()=>{active=false;clearInterval(tick)}},[busy,sessionActive,project.id])
-  useEffect(()=>{const output=createNativeSpeech({projectId:project.id,onState:s=>{setSpeechNotice(s.message||({preparing:'Preparando Reed en este Mac…',speaking:'Leyendo con Reed, español de España.',ended:'Lectura finalizada.'}[s.state]||''));onRuntime?.({phase:s.state==='speaking'?'speaking':'idle',level:0})}});speech.current=output;const stop=()=>output.stop();window.addEventListener('cerebro-stop-audio',stop);const hidden=()=>{if(document.hidden)stop()};document.addEventListener('visibilitychange',hidden);return()=>{output.dispose();window.removeEventListener('cerebro-stop-audio',stop);document.removeEventListener('visibilitychange',hidden)}},[project.id])
+  useEffect(()=>{const output=createNativeSpeech({projectId:project.id,onState:s=>{setSpeechNotice(s.message||({preparing:'Preparando voz en este Mac…',speaking:'Leyendo con la voz seleccionada.',ended:'Lectura finalizada.'}[s.state]||''));onRuntime?.({phase:s.state==='speaking'?'speaking':'idle',level:0})}});speech.current=output;const stop=()=>output.stop();window.addEventListener('cerebro-stop-audio',stop);const hidden=()=>{if(document.hidden)stop()};document.addEventListener('visibilitychange',hidden);return()=>{output.dispose();window.removeEventListener('cerebro-stop-audio',stop);document.removeEventListener('visibilitychange',hidden)}},[project.id])
   function readReply(text){window.dispatchEvent(new Event('cerebro-stop-audio'));speech.current?.speak(text.split('</think>').at(-1).trim())}
   const key = `cerebro.localChat.pending:${project.id}`
   async function refresh() {setData(await api(`/api/local-chat/${encodeURIComponent(project.id)}`))}
@@ -88,7 +90,8 @@ export default function LocalChat({project,onRuntime}) {
         {turn.state!=='completed' && <p role="status">{turn.error || 'Intento registrado; respuesta pendiente o interrumpida.'}</p>}
       </li>)}
     </ol>
-    <p>Salida: {data?.nativeVoice || 'Voz masculina local no configurada'}. Velocidad y tono normales.</p>
+    <label>Voz española de este Mac <select value={voice} disabled={busy||sessionActive} onChange={e=>{window.dispatchEvent(new Event('cerebro-stop-audio'));try{chooseVoice(e.target.value);setVoice(e.target.value);setSpeechNotice('Voz seleccionada. Se usará en la próxima lectura; no se reproduce una muestra.')}catch{setError('No se pudo guardar la selección de voz.')}}}>{installedVoices.map(v=><option key={v} value={v}>{v}</option>)}</select></label>
+    <p>Velocidad y tono normales. Paulina conserva la opción femenina anterior.</p>
     {data?.voiceAvailable && <button type="button" disabled={busy||sessionActive} onClick={voicePermission}>{data.voiceInputAllowed?'Desautorizar voz en este proyecto':'Autorizar voz local en este proyecto'}</button>}
     <ConversationSession projectId={project.id} enabled={Boolean(data?.enabled&&data?.voiceInputAllowed&&data?.voiceAvailable&&data?.nativeVoice&&!busy)} useMemory={useMemory} onRuntime={onRuntime} onUpdate={refresh} onActive={value=>{if(value)speech.current?.stop();setSessionActive(value)}}/>
     <details><summary>Captura puntual con revisión</summary><VoiceInput projectId={project.id} available={Boolean(data?.voiceAvailable)} enabled={Boolean(data?.voiceInputAllowed)} disabled={busy||sessionActive} onDraft={draft=>{setText(draft);setSource('confirmed_transcript')}} /></details>
