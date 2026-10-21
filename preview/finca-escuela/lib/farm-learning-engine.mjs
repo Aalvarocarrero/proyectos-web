@@ -11,8 +11,12 @@ export function newGame() {
   return { version: GAME_VERSION, stage: 0, mode: 'explore', record: null, challenges: freshChallenges(), modules: freshModules(), cycles: freshCycles(), sessions: freshSessions(), drafts: freshLearningDrafts(), decisions: {} };
 }
 
+export function validProgress(value) {
+  return value !== null && typeof value === 'object' && !Array.isArray(value) && [1, 2, 3, GAME_VERSION].includes(value.version) && Number.isInteger(value.stage) && value.stage >= 0 && value.stage <= 7;
+}
+
 export function restoreGame(value) {
-  if (!value || ![1, 2, 3, GAME_VERSION].includes(value.version) || !Number.isInteger(value.stage) || value.stage < 0 || value.stage > 7) return newGame();
+  if (!validProgress(value)) return newGame();
   const mode = value.mode === 'deepen' ? 'deepen' : 'explore';
   const record = value.stage === 7 && value.record?.crop === 'Cilantro' && value.record?.quantity === 3 && value.record?.unit === 'manojos' && ['cocina', 'compartir'].includes(value.record?.destination)
     ? { crop: 'Cilantro', quantity: 3, unit: 'manojos', destination: value.record.destination, simulated: true }
@@ -52,19 +56,21 @@ export function transition(state, action, payload = {}) {
 }
 
 export function writeProgress(storage, state) {
+  const existing = storage.getItem(SAVE_KEY);
+  if (existing != null && !validProgress(JSON.parse(existing))) throw new Error('Guardado local incompatible.');
   const serialized = JSON.stringify(restoreGame(state));
   storage.setItem(SAVE_KEY, serialized);
   if (storage.getItem(SAVE_KEY) !== serialized) throw new Error('No se pudo verificar el guardado local.');
 }
 
-export function readProgress(storage) {
+export function readProgress(storage, fallback) {
   for (const key of [SAVE_KEY, PREVIOUS_SAVE_KEY, V2_SAVE_KEY, LEGACY_SAVE_KEY]) {
     try {
       const parsed = JSON.parse(storage.getItem(key));
-      if (parsed && [1,2,3,GAME_VERSION].includes(parsed.version) && Number.isInteger(parsed.stage) && parsed.stage >= 0 && parsed.stage <= 7) return restoreGame(parsed);
+      if (validProgress(parsed)) return restoreGame(parsed);
     } catch { /* Try the untouched earlier save. */ }
   }
-  return newGame();
+  return restoreGame(fallback);
 }
 
 

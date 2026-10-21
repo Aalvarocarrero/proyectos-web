@@ -29,9 +29,7 @@ const storage = {
   getItem: (key) => localStorage.getItem(embeddedId ? `${key}:copy:${embeddedId}` : key),
   setItem: (key, value) => localStorage.setItem(embeddedId ? `${key}:copy:${embeddedId}` : key, value),
 };
-let state;
-try { state = (storage.getItem(SAVE_KEY) || storage.getItem(PREVIOUS_SAVE_KEY) || storage.getItem(V2_SAVE_KEY) || storage.getItem(LEGACY_SAVE_KEY)) ? readProgress(storage) : restoreGame(embedded?.state); }
-catch { state = restoreGame(embedded?.state); }
+let state = readProgress(storage, embedded?.state);
 let selectedTool = toolForStage(state.stage);
 let lastInvoker = null;
 let activePage = 'inicio';
