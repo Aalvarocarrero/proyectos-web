@@ -181,13 +181,14 @@ Fuentes y hashes detallados: [catálogo conservado](catalog.json). Son 13 guías
 
 ### J.A.R.V.I.S
 - Fuente: https://github.com/adewaskar/jarvis
-- Commit upstream previsto: 1c4016afdf86f7043efc6882ceffef84ad0d8783.
+- Commit upstream fijado: 1c4016afdf86f7043efc6882ceffef84ad0d8783.
 - Tema: asistente visual con escena React/Three.js, interacción por voz y puente de tareas.
 - Tarea/ejemplo: estudiar controles de conversación y adaptar una interfaz propia con memoria por proyecto.
 - Dependencias: Node y navegador; el puente original depende de Claude Code/SDK. STT/TTS pueden depender de navegador o proveedores opcionales. No equivale a funcionamiento offline sin adaptación.
-- Licencia de código: MIT; conservar CREDITS y condiciones propias de audio/recursos.
-- Destino previsto: skill/jarvis en research/jarvis-local-adaptation-2026-10-21.
-- Estado de archivo: pendiente de comprobante remoto; no marcado instalado o probado. No usar cuentas ni secretos del autor.
+- Licencia de código: MIT; tres MP3 bajo CC BY 4.0, con AUDIO-CREDITS conservado. Archivarlos no los activa ni elimina su atribución.
+- Archivo verificado: [skill/jarvis](https://github.com/Aalvarocarrero/proyectos-web/tree/8be660bf9191910e7963c2eed0a4e7d16d5da327/skill/jarvis), rama research/jarvis-local-adaptation-2026-10-21. Tar.gz de 2.906.372 bytes, 64 archivos fuente incluidos tres MP3, manifiesto SHA-256 y documentación; seis archivos visibles en el directorio de archivo.
+- Estado: archivado y cotejado; upstream no instalado ni ejecutado; sin fusión ni despliegue. No incluye historial Git, node_modules o pesos descargables. No usar cuentas ni secretos del autor.
+- Adaptación separada: interfaz propia del cerebro respaldada en [commit 08dcc6664e601d30787cf1d8b8698d4ae8a6508a](https://github.com/Aalvarocarrero/proyectos-web/commit/08dcc6664e601d30787cf1d8b8698d4ae8a6508a), con build, 55 pruebas y siete suites de navegador reportadas. Esa evidencia corresponde a la adaptación, no a una instalación o prueba de todo el upstream. No prueba conversación real de voz ni autonomía completa.
 
 ### REA, Reverse Engineer Anything
 - Fuente: https://github.com/morluto/rea
