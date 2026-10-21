@@ -46,7 +46,19 @@ with tempfile.TemporaryDirectory() as data:
             page=browser.new_page(viewport={"width":1440,"height":1200}); page_errors=[]; requests=[]
             page.on("pageerror",lambda error:page_errors.append(str(error)))
             page.on("request",lambda req:requests.append(req.url))
-            page.add_init_script("""(()=>{window.__mediaCalls=0;const md=navigator.mediaDevices||{};try{Object.defineProperty(navigator,'mediaDevices',{configurable:true,value:{...md,getUserMedia:()=>{window.__mediaCalls++;return Promise.reject(Error('unexpected'))}}})}catch{}})()""")
+            page.add_init_script("""(()=>{
+              window.__mediaCalls=0;window.__recognitionCalls=0;window.__utterances=[];window.__cancelCalls=0;window.__voiceEvents={};
+              function FakeUtterance(text){this.text=text;window.__utterances.push(this)}
+              Object.defineProperty(window,'SpeechSynthesisUtterance',{configurable:true,value:FakeUtterance});
+              window.__testVoices=[
+                {name:'Española local sintética',lang:'es-ES',localService:true,voiceURI:'es-local-fixture'},
+                {name:'Voz remota excluida',lang:'es-ES',localService:false,voiceURI:'es-remote-fixture'},
+                {name:'English local excluded',lang:'en-US',localService:true,voiceURI:'en-local-fixture'}
+              ];
+              Object.defineProperty(window,'speechSynthesis',{configurable:true,value:{getVoices:()=>window.__testVoices.slice(),speak:utterance=>window.__spoken=utterance,cancel:()=>{window.__cancelCalls++},addEventListener:(name,handler)=>window.__voiceEvents[name]=handler,removeEventListener:()=>{}}});
+              const md=navigator.mediaDevices||{};try{Object.defineProperty(navigator,'mediaDevices',{configurable:true,value:{...md,getUserMedia:()=>{window.__mediaCalls++;return Promise.reject(Error('unexpected capture'))}}})}catch{}
+              window.SpeechRecognition=function(){window.__recognitionCalls++;throw Error('recognition must remain off')};window.webkitSpeechRecognition=window.SpeechRecognition;
+            })()""")
             page.goto(f"http://127.0.0.1:{PORT}/")
             page.get_by_role("link",name="Interfaz Jarvis").click()
             page.get_by_text("ALMACÉN LOCAL · 2 PROYECTOS",exact=True).wait_for()
@@ -56,16 +68,55 @@ with tempfile.TemporaryDirectory() as data:
             assert page.locator(".network-project").count()==2
             assert page.get_by_text("ALMACÉN REAL",exact=True).count()==1
             assert page.get_by_text("Sin modelo conectado",exact=True).count()==1
-            assert page.locator(".voice-controls button:disabled").count()==2
+            assert page.get_by_text("Entrada STT",exact=True).count()==1
+            assert "Sin escucha activa" in page.locator(".speech-panel").inner_text()
+            assert "no hay respuesta de Jarvis que leer" in page.locator(".speech-panel").inner_text()
+            assert page.locator("#jarvis-local-voice option").count()==1
+            assert "Voz remota excluida" not in page.locator("#jarvis-local-voice").inner_text()
+            assert "English local excluded" not in page.locator("#jarvis-local-voice").inner_text()
+            assert page.get_by_role("button",name="Leer selección").is_disabled()
+            assert page.evaluate("window.__utterances.length===0"),"no debe empezar TTS automáticamente"
             assert "Siguiente acción: Revisar fixture A" in page.locator(".memory-panel").inner_text()
-            page.evaluate("""()=>{const label=document.createElement('div');label.textContent='PRUEBA DE NAVEGADOR · DATOS FICTICIOS';label.setAttribute('aria-label',label.textContent);label.style.cssText='position:fixed;right:16px;bottom:16px;z-index:9999;padding:8px 12px;border:1px solid #a88239;border-radius:8px;background:#241f16;color:#f0d69c;font:700 12px system-ui;letter-spacing:.08em';document.body.append(label)}""")
+            page.evaluate("""()=>{const label=document.createElement('div');label.textContent='PRUEBA DE NAVEGADOR · DATOS FICTICIOS · TTS SIMULADO';label.setAttribute('aria-label',label.textContent);label.style.cssText='position:fixed;right:16px;bottom:16px;z-index:9999;padding:8px 12px;border:1px solid #a88239;border-radius:8px;background:#241f16;color:#f0d69c;font:700 12px system-ui;letter-spacing:.08em';document.body.append(label)}""")
             page.screenshot(path=str(ROOT/"docs/captura-jarvis-ui-fixture.png"),full_page=True)
+
+            def select_text(selector):
+                page.locator(selector).evaluate("""element=>{const range=document.createRange();range.selectNodeContents(element);const selection=window.getSelection();selection.removeAllRanges();selection.addRange(range)}""")
+            read=page.get_by_role("button",name="Leer selección");stop=page.get_by_role("button",name="Detener lectura")
+            page.evaluate("window.__testVoices=window.__testVoices.filter(v=>v.voiceURI!=='es-local-fixture');window.__voiceEvents.voiceschanged()")
+            assert read.is_disabled() and "Bloqueado" in page.locator(".speech-output-status").inner_text()
+            page.evaluate("window.__testVoices=[{name:'Española local sintética',lang:'es-ES',localService:true,voiceURI:'es-local-fixture'},{name:'Voz remota excluida',lang:'es-ES',localService:false,voiceURI:'es-remote-fixture'},{name:'English local excluded',lang:'en-US',localService:true,voiceURI:'en-local-fixture'}];window.__voiceEvents.voiceschanged()")
+            select_text("[data-record-id='instruction-fixture-a'] .record-content")
+            page.wait_for_function("document.querySelector('#jarvis-local-voice option')?.value === '0'")
+            assert not read.is_disabled() and stop.is_disabled()
+            read.focus();page.keyboard.press("Enter")
+            assert page.evaluate("window.__spoken && window.__spoken.text==='Original sintético exclusivo del proyecto Alfa.'")
+            assert page.evaluate("window.__spoken.voice.voiceURI==='es-local-fixture'")
+            page.evaluate("window.__spoken.onstart()")
+            assert page.locator(".speech-output-status").get_attribute("data-state")=="speaking"
+            before_cancel=page.evaluate("window.__cancelCalls")
+            stop.click()
+            assert page.evaluate("n=>window.__cancelCalls===n+1",before_cancel)
+            assert "Lectura detenida por la persona" in page.locator(".speech-output-status").inner_text()
+            select_text("[data-record-id='instruction-fixture-a'] .record-content")
+            read.click();page.evaluate("window.__spoken.onstart();window.__spoken.onend()")
+            assert page.locator(".speech-output-status").get_attribute("data-state")=="ended"
+            assert "No se ha verificado" in page.locator(".speech-output-status").inner_text()
+            select_text("[data-record-id='instruction-fixture-a'] .record-content")
+            read.click();page.evaluate("window.__spoken.onerror({error:'synthesis-failed'})")
+            assert page.locator(".speech-output-status").get_attribute("data-state")=="error"
+            select_text("#page-title")
+            assert read.is_disabled(),"no se deben leer selecciones fuera de un registro del proyecto"
+            select_text("[data-record-id='instruction-fixture-a'] .record-content")
+            read.click();page.evaluate("window.__spoken.onstart()")
+            before_cancel=page.evaluate("window.__cancelCalls")
 
             response=page.evaluate("async()=>await (await fetch('/api/projects/project-fixture-a/memory?limit=200')).json()")
             assert response["projectId"]=="project-fixture-a"
             assert all("Boreal" not in row["content"] and row["recordId"]!="decision-fixture-b" for row in response["records"])
 
             node=page.locator('[data-project-id="project-fixture-b"]');node.focus();node.press("Enter")
+            assert page.evaluate("n=>window.__cancelCalls===n+1",before_cancel),"cambiar proyecto debe detener la lectura"
             assert node.get_attribute("aria-pressed")=="true"
             assert "Secreto ficticio de aislamiento Boreal." in page.locator(".memory-records").inner_text()
             assert "Original sintético exclusivo del proyecto Alfa." not in page.locator(".memory-records").inner_text()
@@ -131,9 +182,11 @@ with tempfile.TemporaryDirectory() as data:
             assert page.evaluate("document.documentElement.scrollWidth<=window.innerWidth")
             assert page.locator(".network-map").evaluate("e=>getComputedStyle(e).display")=="none"
             assert page.locator(".project-choice").first.evaluate("e=>e.getBoundingClientRect().height")>=44
+            assert page.get_by_role("button",name="Leer selección").evaluate("e=>e.getBoundingClientRect().height")>=44
             page.emulate_media(reduced_motion="reduce")
             assert page.locator(".project-choice").first.evaluate("e=>parseFloat(getComputedStyle(e).transitionDuration)")<=0.00001
             assert page.evaluate("window.__mediaCalls")==0
+            assert page.evaluate("window.__recognitionCalls")==0
             assert all(url.startswith(f"http://127.0.0.1:{PORT}/") for url in requests),requests
             assert not page_errors,page_errors
 

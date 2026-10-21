@@ -1,5 +1,6 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import { Scene } from './scene/Scene.tsx'
+import { createLocalSpeechOutput, getSelectedProjectText, getSpanishLocalVoices } from './localSpeech.js'
 
 const TYPE_NAMES = {
   project: 'Proyecto', instruction: 'Instrucción original', decision: 'Decisión',
@@ -124,7 +125,7 @@ function MemoryPanel({ project, memory, loading, query, setQuery, type, setType,
         <div className="memory-records" aria-live="polite">
           {memory.records.length === 0 && <p className="memory-empty">No hay registros que coincidan en este proyecto.</p>}
           {memory.records.map(record => (
-            <article className="memory-record" key={`${record.type}:${record.id}`} data-record-id={record.recordId}>
+            <article className="memory-record" key={`${record.type}:${record.id}`} data-record-id={record.recordId} data-project-id={project.id}>
               <div className="record-heading"><span>{TYPE_NAMES[record.type] || record.type}</span><time dateTime={record.at}>{new Date(record.at).toLocaleString()}</time></div>
               <h3>{record.title}</h3>
               {record.content && <p className="record-content">{record.content}</p>}
@@ -141,13 +142,78 @@ function MemoryPanel({ project, memory, loading, query, setQuery, type, setType,
   )
 }
 
+function LocalSpeechPanel({ projectId }) {
+  const [voices, setVoices] = useState([])
+  const [voiceId, setVoiceId] = useState('')
+  const [selection, setSelection] = useState('')
+  const [state, setState] = useState({ state: 'idle', message: 'Selecciona texto de un mensaje o registro y pulsa Leer selección.' })
+  const outputRef = useRef(null)
+  const voiceKey = voice => voice.voiceURI || `${voice.name}:${voice.lang}`
+  const selectedVoice = voices.find(voice => voiceKey(voice) === voiceId) || voices[0] || null
+
+  useEffect(() => {
+    const synthesis = window.speechSynthesis
+    const Utterance = window.SpeechSynthesisUtterance
+    setState(synthesis && typeof Utterance === 'function'
+      ? { state: 'idle', message: 'Selecciona texto de un mensaje o registro y pulsa Leer selección.' }
+      : { state: 'unavailable', message: 'Este navegador no ofrece SpeechSynthesis.' })
+    const output = createLocalSpeechOutput({ synthesis, Utterance, onState: setState })
+    outputRef.current = output
+    const refreshVoices = () => {
+      const next = getSpanishLocalVoices(synthesis)
+      setVoices(next)
+      setVoiceId(current => next.some(voice => voiceKey(voice) === current) ? current : (next[0] ? voiceKey(next[0]) : ''))
+    }
+    const refreshSelection = () => setSelection(getSelectedProjectText(window.getSelection(), projectId))
+    const onPageHide = () => output.stop('Lectura cancelada al cerrar la vista.')
+    refreshVoices()
+    refreshSelection()
+    document.addEventListener('selectionchange', refreshSelection)
+    synthesis?.addEventListener?.('voiceschanged', refreshVoices)
+    window.addEventListener('pagehide', onPageHide)
+    return () => {
+      document.removeEventListener('selectionchange', refreshSelection)
+      synthesis?.removeEventListener?.('voiceschanged', refreshVoices)
+      window.removeEventListener('pagehide', onPageHide)
+      output.dispose()
+      if (outputRef.current === output) outputRef.current = null
+    }
+  }, [projectId])
+
+  const supported = typeof window !== 'undefined' && Boolean(window.speechSynthesis) && typeof window.SpeechSynthesisUtterance === 'function'
+  const canRead = supported && voices.length > 0 && Boolean(selection) && state.state !== 'queued' && state.state !== 'speaking'
+  const voiceIndex = selectedVoice ? voices.indexOf(selectedVoice) : -1
+  return (
+    <section className="speech-panel" aria-labelledby="speech-title">
+      <div className="panel-heading"><div><p className="eyebrow">SALIDA TTS · SELECCIÓN EXPLÍCITA</p><h3 id="speech-title">Lectura en voz alta</h3></div><span className="quiet-indicator">NO GENERA RESPUESTAS</span></div>
+      <div className="voice-state-grid" aria-label="Estados independientes de voz y modelo">
+        <p><strong>Entrada STT</strong><span>No disponible · micrófono apagado; no se llama reconocimiento.</span></p>
+        <p><strong>Modelo</strong><span>Desconectado · no hay respuesta de Jarvis que leer.</span></p>
+        <p><strong>Interrupción</strong><span>Sin escucha activa · Detener cancela solo la lectura.</span></p>
+      </div>
+      <p className="speech-note">Solo leerá el fragmento que selecciones dentro de un registro de este proyecto. Se listan voces españolas que el navegador declara locales (`localService=true`); esa etiqueta no verifica por sí sola el procesamiento sin conexión.</p>
+      <label className="speech-voice-label" htmlFor="jarvis-local-voice">Voz española reportada local por el navegador</label>
+      <select id="jarvis-local-voice" className="speech-voice-select" value={voiceIndex < 0 ? '' : String(voiceIndex)} onChange={event => setVoiceId(voices[Number(event.target.value)] ? voiceKey(voices[Number(event.target.value)]) : '')} disabled={!supported || !voices.length}>
+        {!voices.length && <option value="">No hay voz española local disponible</option>}
+        {voices.map((voice, index) => <option key={`${voiceKey(voice)}:${index}`} value={String(index)}>{voice.name} · {voice.lang}</option>)}
+      </select>
+      <div className="speech-actions">
+        <button type="button" className="primary" disabled={!canRead} onClick={() => outputRef.current?.speak(getSelectedProjectText(window.getSelection(), projectId), selectedVoice)}>Leer selección</button>
+        <button type="button" disabled={!outputRef.current?.active()} onClick={() => outputRef.current?.stop('Lectura detenida por la persona.')}>Detener lectura</button>
+      </div>
+      <p className="speech-output-status" data-state={state.state} role="status" aria-live="polite">{!voices.length && supported ? 'Bloqueado: el navegador no ofrece voces españolas con localService=true.' : state.message}</p>
+      <p className="speech-note">La entrada por voz requiere autorización del micrófono y una ruta STT local comprobada. No se solicita permiso ni se captura audio en esta versión.</p>
+    </section>
+  )
+}
+
 function ConversationPanel({ project, messages, attempts, busy, onSend, onRetry, messageText, setMessageText, notice }) {
   return (
     <section className="conversation-panel" aria-labelledby="conversation-title">
       <div className="panel-heading"><div><p className="eyebrow">CONVERSACIÓN LOCAL · TEXTO</p><h2 id="conversation-title">{project.title}</h2></div><span className="quiet-indicator">SIN MODELO</span></div>
       <p>Los mensajes se guardan en el almacén local y quedan vinculados al ID de este proyecto. Jarvis todavía no genera respuestas.</p>
       <ol className="message-list" aria-label={`Mensajes guardados de ${project.title}`} aria-live="polite">
-        {messages.map(message => <li key={message.recordId} className="stored-message"><span className="message-meta">Tú · {new Date(message.at).toLocaleString()}</span><p>{message.content}</p></li>)}
+        {messages.map(message => <li key={message.recordId} className="stored-message" data-project-id={project.id}><span className="message-meta">Tú · {new Date(message.at).toLocaleString()}</span><p>{message.content}</p></li>)}
         {!messages.length && <li className="message-empty">Aún no hay mensajes guardados en este proyecto.</li>}
       </ol>
       {attempts.length > 0 && <section className="pending-attempts" aria-labelledby="pending-attempts-title">
@@ -164,11 +230,7 @@ function ConversationPanel({ project, messages, attempts, busy, onSend, onRetry,
         <button className="primary" type="submit" disabled={Boolean(busy) || !messageText.trim()}>Guardar mensaje nuevo</button>
       </form>
       {notice && <p className="message-notice" role="status" aria-live="polite">{notice}</p>}
-      <div className="voice-controls" aria-label="Voz aún no conectada">
-        <button type="button" disabled aria-describedby="voice-status">Pulsar para hablar</button>
-        <button type="button" disabled aria-describedby="voice-status">Detener</button>
-      </div>
-      <p id="voice-status" className="voice-status" role="status">Micrófono apagado · transcripción no disponible · sin audio real verificado.</p>
+      <LocalSpeechPanel projectId={project.id} />
     </section>
   )
 }
