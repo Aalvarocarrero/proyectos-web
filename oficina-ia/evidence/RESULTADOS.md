@@ -1,9 +1,9 @@
 # Ejecución del piloto local Aeterna
 
-- Build probado: SHA-256 de `index.html`, `6b2d1dec49d9e58164b1d5f7dc584a600eb2bf2d569ae12f2d9bde4487bab0c0`.
+- Build probado: SHA-256 de `index.html`, `d292687df8ed46c15f0045b0e083c447c68b74f1e164ee05c9ef6d57d629e86c`.
 - Fixture: `AET-DEMO-001`, `CLIENTE-FICTICIO-001`, `PRODUCTO-DEMO-001`, `AUDIENCIA-FICTICIA-001`, `CANAL-SIMULADO`.
 - Registro automatizado: [`results.json`](results.json).
-- Capturas reales del navegador: [`aeterna-revision-aprobada.png`](aeterna-revision-aprobada.png), [`aprobacion-no-heredada.png`](aprobacion-no-heredada.png), [`fixture-hermano-vacio.png`](fixture-hermano-vacio.png), [`general-vacio.png`](general-vacio.png), [`recuperacion-local.png`](recuperacion-local.png).
+- Capturas reales del navegador: [`espacios-grid.png`](espacios-grid.png), [`plantilla-agente.png`](plantilla-agente.png), [`te-toca-mobile.png`](te-toca-mobile.png), [`fixture-levia-vacio.png`](fixture-levia-vacio.png), [`general-vacio.png`](general-vacio.png), [`aeterna-revision-aprobada.png`](aeterna-revision-aprobada.png), [`aprobacion-no-heredada.png`](aprobacion-no-heredada.png), [`recuperacion-local.png`](recuperacion-local.png).
 - Fecha UTC: registrada en `results.json`.
 - Runtime: Chromium headless mediante Playwright; sin excepciones JavaScript.
 - Ejecución: pruebas locales end-to-end; CI no ejecutada.
@@ -23,5 +23,9 @@
 | Misiones distintas | Aprobado | Artefactos y aprobación permanecen asociados a su propia misión Aeterna. |
 | Almacenamiento corrupto/incompatible | Aprobado | El contenido original queda intacto, la escritura se bloquea y se ofrece exportación local. |
 | Formato legado válido | Aprobado | Carga sin reescritura automática y migra sólo en un guardado explícito, conservando misión/artefacto/relaciones. |
+| C11 · grilla y navegación por teclado | Aprobado | Nueve tarjetas accesibles; General vacío; selección por Enter; cambio de espacio con regreso a Oficina; otros espacios sin contenido de Aeterna. |
+| C12 · Te toca y regreso a decisión | Aprobado | La bandeja abre la misión seleccionada y devuelve a la revisión de la versión exacta. |
+| C13 · Te toca móvil | Aprobado | Viewport de 390 px, acción accesible y sin desbordamiento horizontal. |
+| C14 · plantilla de agente | Aprobado | Configuración, prueba y ejecución se muestran como estados distintos; plantilla ficticia sin conexión. |
 
-**Resultado:** C0–C5 y los nuevos casos de recuperación/aprobación y migración legada ejecutados y aprobados para esta build local y estos fixtures. Esto valida el recorrido del prototipo local, no agentes, integraciones, publicación, seguridad multiusuario ni uso con datos reales. El antes/después está en [`RECUPERACION.md`](RECUPERACION.md).
+**Resultado:** C0–C5, C6–C14 y los casos de recuperación/aprobación y migración legada ejecutados y aprobados para esta build local y estos fixtures. Capturas de interfaz base crema/verde; la escena conceptual está pendiente de transferencia y la fidelidad visual frente a las referencias no está verificada. Esto valida la preparación funcional local, no agentes, integraciones, publicación, seguridad multiusuario ni uso con datos reales. El bloqueo de transporte está en [`REFERENCIAS_VISUALES_BLOQUEO.md`](REFERENCIAS_VISUALES_BLOQUEO.md); recuperación y aprobación en [`RECUPERACION.md`](RECUPERACION.md).

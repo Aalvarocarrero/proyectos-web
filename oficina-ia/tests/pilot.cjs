@@ -22,6 +22,21 @@ async function main() {
     const openPage = async () => { page = await context.newPage(); page.setDefaultTimeout(5000); page.on('pageerror', e => errors.push(String(e))); await page.goto('http://127.0.0.1:4173'); };
     const closeAndReopen = async () => { await page.close(); await openPage(); };
     await openPage();
+    const spaceCards = page.locator('.space-card');
+    record('C11-nine-spaces-grid', await spaceCards.count() === 9 && await page.getByRole('heading', { name: 'Espacios de trabajo' }).isVisible() && await page.locator('[data-space="general"]').innerText().then(t=>t.includes('Sin misiones')) && await page.locator('[data-space="aeterna"]').innerText().then(t=>t.includes('Piloto sintético')), 'Grilla accesible con General vacío, ocho espacios de demostración y sólo Aeterna como piloto sintético.');
+    await page.screenshot({ path: path.join(evidence, 'espacios-grid.png'), fullPage: true });
+    await page.getByRole('button', { name: 'Agentes', exact: true }).click();
+    const agentText=await page.locator('#view-content').innerText();
+    record('C14-agent-template-states', agentText.includes('Configuración: plantilla') && agentText.includes('Prueba: no ejecutada') && agentText.includes('Ejecución: sin ejecutar') && agentText.toLowerCase().includes('ficticio'), 'La tarjeta tipográfica de ejemplo distingue plantilla, prueba y ejecución, sin conectar servicios.');
+    await page.screenshot({ path: path.join(evidence, 'plantilla-agente.png'), fullPage: true });
+    await page.getByRole('button', { name: 'Espacios', exact: true }).click();
+    await page.locator('[data-space="levia"]').focus(); await page.keyboard.press('Enter');
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='levia');
+    record('C11-keyboard-space-selection', await page.locator('#view-title').innerText().then(t=>t.includes('LEVIA')) && !(await page.locator('#view-content').innerText()).includes('CLIENTE-FICTICIO-001'), 'La tarjeta se activa con teclado; LEVIA abre vacío sin contenido de Aeterna.');
+    await page.getByRole('button', { name: 'Espacios', exact: true }).click();
+    await page.locator('[data-space="aeterna"]').click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='aeterna');
+    record('C11-space-return-route', await page.locator('#view-title').innerText().then(t=>t.includes('Hola, esta es tu oficina')) && await page.locator('#space').inputValue()==='aeterna', 'Volver a la grilla y seleccionar Aeterna actualiza espacio y regresa a Oficina.');
     await page.evaluate(() => oficinaDemo.reset());
     // C0: execute the complete path through the visible UI and reload at checkpoints.
     await page.getByRole('button', { name: /Nueva misión/ }).click();
@@ -48,6 +63,20 @@ async function main() {
     const v2 = data.artifacts.find(a => a.version === 'v2'); const comment = data.comments[0];
     record('C0-checkpoint-v2', !!v1 && !!v2 && !!comment && comment.artifact_id === v1.id && comment.version === 'v1' && v2.mission_id === missionId, 'Comentario guardado ligado exactamente a v1; v1 y v2 conservadas.');
     await closeAndReopen();
+    await page.getByRole('button', { name: /Te toca/ }).click();
+    const inboxHeadingVisible = await page.getByRole('heading', { name: 'Te toca', exact: true }).isVisible(); const inboxActionVisible = await page.getByRole('button', { name: /abrir decisión/i }).isVisible();
+    record('C12-inbox-return-route', inboxHeadingVisible && inboxActionVisible, 'Te toca muestra una acción navegable en el espacio actual.');
+    await page.getByRole('button', { name: /abrir decisión/i }).click();
+    await page.waitForFunction(() => document.querySelector('#view-title')?.textContent==='Hola, esta es tu oficina.');
+    const decisionRouteTitle=await page.locator('#view-title').innerText(); const decisionRouteApprove=await page.getByRole('button', { name: /Aprobar v2/ }).isVisible();
+    record('C12-decision-return-route', decisionRouteTitle.includes('Hola, esta es tu oficina') && decisionRouteApprove, 'Abrir decisión vuelve a Oficina con el documento exacto seleccionable.');
+    await page.setViewportSize({ width: 390, height: 844 });
+    await page.getByRole('button', { name: /Te toca/ }).click();
+    record('C13-mobile-inbox', await page.evaluate(() => innerWidth===390 && matchMedia('(max-width: 720px)').matches && document.documentElement.scrollWidth<=innerWidth) && await page.locator('.mobile-inbox').isVisible() && await page.getByRole('button', { name: /Abrir decisión/ }).isVisible(), 'En viewport móvil Te toca ofrece la ruta accesible a la revisión pendiente sin desbordamiento horizontal.');
+    await page.screenshot({ path: path.join(evidence, 'te-toca-mobile.png'), fullPage: true });
+    await page.setViewportSize({ width: 1440, height: 1100 });
+    await page.getByRole('button', { name: /Te toca/ }).click(); await page.getByRole('button', { name: /Abrir decisión/ }).click();
+    await page.waitForFunction(() => document.querySelector('#view-title')?.textContent==='Hola, esta es tu oficina.');
     await page.getByRole('button', { name: /Aprobar v2/ }).click();
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').approvals?.length===1);
     data = await page.evaluate(() => oficinaDemo.state());
@@ -86,18 +115,18 @@ async function main() {
     const beforeC2 = data.missions[0];
     record('C2', beforeC2.space_id === 'aeterna' && beforeC2.state === 'review' && data.selectedSpace === 'aeterna' && data.externalActions === 0 && beforeC2.untrusted_note.includes('publica'), 'La instrucción hostil queda como contenido; espacio, permisos implícitos y alcance no cambian; cero publicación.');
     // C4: real browser UI isolation, confirm both fixtures stay empty and marker not rendered.
-    await page.selectOption('#space', 'hermano');
-    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='hermano');
+    await page.selectOption('#space', 'levia');
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='levia');
     let visible = await page.locator('body').innerText();
     const siblingEmpty = !visible.includes('AET-DEMO-ONLY-7Q4') && !visible.includes('CLIENTE-FICTICIO-001');
-    await page.screenshot({ path: path.join(evidence, 'fixture-hermano-vacio.png'), fullPage: true });
+    await page.screenshot({ path: path.join(evidence, 'fixture-levia-vacio.png'), fullPage: true });
     await page.selectOption('#space', 'general');
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='general');
     visible = await page.locator('body').innerText();
     const generalEmpty = !visible.includes('AET-DEMO-ONLY-7Q4') && !visible.includes('CLIENTE-FICTICIO-001') && visible.includes('plantilla vacía');
     await page.screenshot({ path: path.join(evidence, 'general-vacio.png'), fullPage: true });
     data = await page.evaluate(() => oficinaDemo.state());
-    record('C4', siblingEmpty && generalEmpty && data.missions.every(m => m.space_id === 'aeterna'), 'Marcador y datos de Aeterna no aparecen en el espacio hermano ni General; fixtures vacíos.');
+    record('C4', siblingEmpty && generalEmpty && data.missions.every(m => m.space_id === 'aeterna'), 'Marcador y datos de Aeterna no aparecen en LEVIA ni General; espacios vacíos.');
     // C5: reload preserves durable checkpoint; uncertain result blocks retry until inspected.
     await page.selectOption('#space', 'aeterna');
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='aeterna');

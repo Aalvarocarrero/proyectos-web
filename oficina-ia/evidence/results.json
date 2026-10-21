@@ -1,12 +1,32 @@
 {
-  "build_sha256": "6b2d1dec49d9e58164b1d5f7dc584a600eb2bf2d569ae12f2d9bde4487bab0c0",
+  "build_sha256": "d292687df8ed46c15f0045b0e083c447c68b74f1e164ee05c9ef6d57d629e86c",
   "fixture": "AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO",
-  "tested_at": "2026-10-21T00:08:49.771Z",
+  "tested_at": "2026-10-21T00:35:12.996Z",
   "browser": "Chromium headless · Playwright",
   "test_execution": "local e2e; CI not run",
   "external_services": false,
   "external_actions": 0,
   "cases": [
+    {
+      "id": "C11-nine-spaces-grid",
+      "result": "aprobado",
+      "detail": "Grilla accesible con General vacío, ocho espacios de demostración y sólo Aeterna como piloto sintético."
+    },
+    {
+      "id": "C14-agent-template-states",
+      "result": "aprobado",
+      "detail": "La tarjeta tipográfica de ejemplo distingue plantilla, prueba y ejecución, sin conectar servicios."
+    },
+    {
+      "id": "C11-keyboard-space-selection",
+      "result": "aprobado",
+      "detail": "La tarjeta se activa con teclado; LEVIA abre vacío sin contenido de Aeterna."
+    },
+    {
+      "id": "C11-space-return-route",
+      "result": "aprobado",
+      "detail": "Volver a la grilla y seleccionar Aeterna actualiza espacio y regresa a Oficina."
+    },
     {
       "id": "reopen-brief-plan-draft",
       "result": "aprobado",
@@ -21,6 +41,21 @@
       "id": "C0-checkpoint-v2",
       "result": "aprobado",
       "detail": "Comentario guardado ligado exactamente a v1; v1 y v2 conservadas."
+    },
+    {
+      "id": "C12-inbox-return-route",
+      "result": "aprobado",
+      "detail": "Te toca muestra una acción navegable en el espacio actual."
+    },
+    {
+      "id": "C12-decision-return-route",
+      "result": "aprobado",
+      "detail": "Abrir decisión vuelve a Oficina con el documento exacto seleccionable."
+    },
+    {
+      "id": "C13-mobile-inbox",
+      "result": "aprobado",
+      "detail": "En viewport móvil Te toca ofrece la ruta accesible a la revisión pendiente sin desbordamiento horizontal."
     },
     {
       "id": "C0",
@@ -60,7 +95,7 @@
     {
       "id": "C4",
       "result": "aprobado",
-      "detail": "Marcador y datos de Aeterna no aparecen en el espacio hermano ni General; fixtures vacíos."
+      "detail": "Marcador y datos de Aeterna no aparecen en LEVIA ni General; espacios vacíos."
     },
     {
       "id": "C5-blocked",
