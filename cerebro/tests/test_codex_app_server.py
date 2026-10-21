@@ -183,7 +183,7 @@ class CodexAppServerTests(unittest.TestCase):
     def test_invalid_or_unconfirmed_prompt_never_reaches_transport(self):
         self.adapter.connect(user_confirmed=True)
         for args in [("project-a", "hola", False), ("project-a", "", True),
-                     ("missing", "hola", True), ("project-a", "x" * 6001, True)]:
+                     ("missing", "hola", True), ("project-a", "x" * 12001, True)]:
             with self.subTest(args=args), self.assertRaises(AppServerError):
                 list(self.adapter.turn(args[0], args[1], operation_id="op-bad", user_confirmed=args[2]))
         self.assertNotIn("turn/start", [method for method, _ in self.fake.calls])

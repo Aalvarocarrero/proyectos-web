@@ -27,7 +27,7 @@ def restricted_thread_params(cwd):
                 "filesystem": {":minimal": "read", cwd: "read"},
                 "network": {"enabled": False}}}}}
 
-MAX_PROMPT_CHARS = 6_000
+MAX_PROMPT_CHARS = 12_000
 MAX_EVENT_CHARS = 20_000
 PROCESS_OVERRIDES = (
     ("features.shell_tool", "false"),
@@ -55,6 +55,7 @@ class AppServerError(ValueError):
 
 @dataclass(frozen=True)
 class AppServerConfig:
+    ephemeral_turns: bool = False
     enabled: bool = False
     turns_enabled: bool = False
     executable: str = ""
@@ -408,8 +409,14 @@ class CodexAppServerAdapter:
                 self._transport = self._transport_factory(self.config, True)
             if not self._initialized:
                 try:
-                    self._transport.request("initialize", {"clientInfo": {"name": "cerebro-local", "title": "Cerebro local", "version": "0.1.0"}, "capabilities": {}})
+                    self._transport.request("initialize", {"clientInfo": {"name": "cerebro-local", "title": "Cerebro local", "version": "0.1.0"}, "capabilities": {"experimentalApi": True}})
                     self._transport.notify("initialized", {})
+                    if self.config.ephemeral_turns:
+                        effective=self._transport.request("config/read", {"includeLayers":False}).get("config",{})
+                        if (effective.get("mcp_servers") or effective.get("plugins") or effective.get("notify") or effective.get("features",{}).get("shell_tool") is not False or effective.get("features",{}).get("hooks") is not False):
+                            raise AppServerError("unsafe_config","El perfil efectivo no cumple el aislamiento esperado.")
+                        account=self._transport.request("account/read", {"refreshToken":False}).get("account") or {}
+                        if account.get("type")!="chatgpt":raise AppServerError("login_required","Inicia sesión oficial en el perfil exclusivo de Jarvis.")
                 except AppServerError:
                     self._transport.close()
                     self._transport = None
@@ -448,16 +455,16 @@ class CodexAppServerAdapter:
             raise AppServerError("turns_disabled", "Los turnos reales siguen bloqueados hasta autorizar conexión y activar controles de aprobación.")
         cwd = self._require_project(project_id)
         if not isinstance(text, str) or not text.strip() or len(text) > MAX_PROMPT_CHARS:
-            raise AppServerError("invalid_prompt", "El mensaje debe contener entre 1 y 6.000 caracteres.")
+            raise AppServerError("invalid_prompt", "El mensaje debe contener entre 1 y 12.000 caracteres.")
         rpc = self._rpc()
-        thread_id = self.sessions.get_for_project(project_id, cwd)
+        thread_id = None if self.config.ephemeral_turns else self.sessions.get_for_project(project_id, cwd)
         terminal = False
         begun = False
         try:
             if thread_id:
                 rpc.request("thread/resume", {"threadId": thread_id, "excludeTurns": True})
             else:
-                created = rpc.request("thread/start", restricted_thread_params(cwd))
+                created = rpc.request("thread/start", {**restricted_thread_params(cwd), **({"ephemeral": True} if self.config.ephemeral_turns else {})})
                 if not isinstance(created, dict) or not isinstance(created.get("thread"), dict) or not isinstance(created["thread"].get("id"), str):
                     raise AppServerError("invalid_response", "App Server no devolvió un hilo válido.")
                 thread_id = created["thread"]["id"]
@@ -501,6 +508,10 @@ class CodexAppServerAdapter:
                         delta = params.get("delta")
                         if isinstance(delta, str) and delta and len(delta) <= MAX_EVENT_CHARS:
                             yield AssistantEvent("delta", delta, turn_id, simulated)
+                    elif method == "item/completed" and params.get("turnId") == turn_id:
+                        item = params.get("item", {})
+                        if item.get("type") == "agentMessage" and isinstance(item.get("text"), str):
+                            yield AssistantEvent("final_text", item["text"], turn_id, simulated)
                     elif method == "turn/completed" and (params.get("turn", {}).get("id") == turn_id):
                         status = params.get("turn", {}).get("status")
                         self.ledger.mark(operation_id, "completed" if status == "completed" else

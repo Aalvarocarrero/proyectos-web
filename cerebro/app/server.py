@@ -317,7 +317,9 @@ def markdown(doc):
     lines += ['', '<!-- CEREBRO_JSON_BASE64:'+base64.b64encode(json.dumps(doc,ensure_ascii=False).encode()).decode()+' -->']
     return '\n'.join(lines)
 
-def handler(store,token,local_chat=None):
+def handler(store,token,local_chat=None,codex_adapter=None):
+    from codex_preview import CodexPreview
+    codex_preview=CodexPreview(store,codex_adapter)
     class Handler(BaseHTTPRequestHandler):
         def log_message(self,*args): pass
         def send(self,status,data,ctype='application/json; charset=utf-8'):
@@ -336,6 +338,9 @@ def handler(store,token,local_chat=None):
                 if local_chat is None:return self.send(503,{'error':'Modelo local no habilitado en este servidor'})
                 try:return self.send(200,local_chat.view(unquote(chat_route.group(1))))
                 except ValueError as e:return self.send(400,{'error':str(e)})
+            if path.startswith('/api/codex/result/'):
+                return self.send(200,codex_preview.result(unquote(path[len('/api/codex/result/'):])) )
+            if path=='/api/codex/status': return self.send(200,codex_preview.status())
             if path=='/api/session':
                 return self.send(200,{'token':token})
             if path=='/api/projects':
@@ -374,6 +379,19 @@ def handler(store,token,local_chat=None):
         def do_POST(self):
             if not self.permitted() or self.headers.get('X-Cerebro-Token')!=token:return self.send(403,{'error':'Origen o token no permitido'})
             from urllib.parse import urlsplit,unquote
+            if self.path in ['/api/codex/preview','/api/codex/send','/api/codex/cancel','/api/codex/reset']:
+                try:
+                    require(self.headers.get('Content-Type','').split(';')[0].strip()=='application/json','JSON requerido')
+                    require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
+                    size=int(self.headers.get('Content-Length','0'));require(0<size<=32768,'Carga inválida')
+                    body=json.loads(self.rfile.read(size))
+                    if self.path.endswith('/preview'): result=codex_preview.preview(body)
+                    elif self.path.endswith('/send'): result=codex_preview.send(body)
+                    else:
+                        require(isinstance(body,dict) and set(body)=={'projectId'},'Campos incorrectos')
+                        result=(codex_preview.reset if self.path.endswith('/reset') else codex_preview.cancel)(body['projectId'])
+                    return self.send(200,result)
+                except (ValueError,TypeError,KeyError) as e:return self.send(400,{'error':str(e),'code':getattr(e,'code','invalid_preview')})
             voice_route=re.fullmatch(r'/api/local-chat/([^/]+)/transcribe',urlsplit(self.path).path)
             if voice_route:
                 if local_chat is None:return self.send(503,{'error':'Asistente local no habilitado'})
@@ -447,7 +465,7 @@ def handler(store,token,local_chat=None):
     return Handler
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); p.add_argument('--local-model',action='store_true'); p.add_argument('--whisper-cli'); p.add_argument('--whisper-model'); p.add_argument('--tts-voice'); args=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); p.add_argument('--local-model',action='store_true'); p.add_argument('--whisper-cli'); p.add_argument('--whisper-model'); p.add_argument('--tts-voice'); p.add_argument('--codex-bin'); p.add_argument('--codex-profile'); p.add_argument('--codex-fixture'); args=p.parse_args()
     data_path=Path(args.data_dir); data_path.mkdir(parents=True,exist_ok=True,mode=0o700)
     # A process lock prevents two independent writers sharing this data directory.
     import fcntl
@@ -467,7 +485,11 @@ def main():
             from local_speech import MacSpeech
             speech=MacSpeech(args.tts_voice)
         local_chat=LocalChat(store,transcriber=transcriber,speech=speech)
-    server=ThreadingHTTPServer(('127.0.0.1',args.port),handler(store,secrets.token_urlsafe(32),local_chat))
+    codex_adapter=None
+    if args.codex_bin and args.codex_profile and args.codex_fixture:
+        from codex_runtime import create_adapter
+        codex_adapter=create_adapter(store,args.codex_bin,args.codex_profile,args.codex_fixture)
+    server=ThreadingHTTPServer(('127.0.0.1',args.port),handler(store,secrets.token_urlsafe(32),local_chat,codex_adapter))
     print(f'Cerebro disponible en http://127.0.0.1:{server.server_port} · datos: {store.path}',flush=True)
     try: server.serve_forever()
     except KeyboardInterrupt: pass

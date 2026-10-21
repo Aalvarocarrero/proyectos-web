@@ -1,3 +1,4 @@
+import CodexPreview from './CodexPreview.jsx'
 import {installedVoices,selectedVoice,chooseVoice} from './voicePreference.js'
 import React, {useEffect, useRef, useState} from 'react'
 
@@ -82,6 +83,7 @@ export default function LocalChat({project,onRuntime}) {
     <p>Qwen3 4B responde a cada texto que envías. Sin servicios de pago ni ejecución de herramientas. La voz se inicia con Conversar o Hablar y requiere permiso del proyecto. No recibe automáticamente la memoria ni las notas del proyecto.</p>
     <details><summary>Persistencia y límites</summary><p>Los turnos y permisos se conservan en un diario local del asistente, separado de las notas y vinculado al ID de este proyecto. {data?.realConnectionVerified?'Hay respuestas reales verificadas en este proyecto.':'Aún no hay una respuesta real verificada en este proyecto.'}</p></details>
     {data && <button type="button" disabled={busy||sessionActive} onClick={permission}>{data.enabled?'Desactivar IA en este proyecto':'Autorizar IA local en este proyecto'}</button>}
+    <CodexPreview key={project.id} project={project} voiceAvailable={Boolean(data?.voiceAvailable)} voiceAllowed={Boolean(data?.voiceInputAllowed)} localSessionActive={sessionActive} onRead={readReply}/>
     <ol className="message-list" aria-label={`Conversación IA de ${project.title}`}>
       {data?.turns.map(turn=><li key={turn.id}>
         <article className="stored-message" data-project-id={project.id}><span className="message-meta">Tú · {new Date(turn.at).toLocaleString()}</span><p>{turn.user.text}</p></article>

@@ -13,8 +13,8 @@ export default function VoiceInput({projectId,enabled,available,onDraft,disabled
   }
   function cancel(){generation.current++;release(current.current);current.current=null;request.current?.abort();request.current=null}
   useEffect(()=>{
-    setStage('idle');setNotice('Micrófono apagado. Pulsa Hablar para una captura puntual de hasta 30 segundos.');const leave=()=>cancel();window.addEventListener('pagehide',leave)
-    return ()=>{window.removeEventListener('pagehide',leave);cancel()}
+    setStage('idle');setNotice('Micrófono apagado. Pulsa Hablar para una captura puntual de hasta 30 segundos.');const leave=()=>{cancel();setStage('idle');setNotice('Captura detenida; micrófono liberado.')};const hidden=()=>{if(document.hidden)leave()};window.addEventListener('pagehide',leave);window.addEventListener('cerebro-stop-audio',leave);document.addEventListener('visibilitychange',hidden)
+    return ()=>{window.removeEventListener('pagehide',leave);window.removeEventListener('cerebro-stop-audio',leave);document.removeEventListener('visibilitychange',hidden);cancel()}
   },[projectId,enabled])
   useEffect(()=>{if(!enabled){setStage('idle');setNotice('Micrófono apagado; autoriza voz para este proyecto.')}},[enabled])
   async function finish(transcribe=true){
@@ -31,12 +31,13 @@ export default function VoiceInput({projectId,enabled,available,onDraft,disabled
       const result=await response.json();if(!response.ok)throw new Error(result.error||'Falló la transcripción local.')
       if(id!==generation.current)return
       if(result.projectId!==projectId)throw new Error('La transcripción pertenece a otro proyecto.')
-      onDraft(result.transcript);setNotice('Transcripción local lista. Revisa el texto y pulsa Preguntar a Jarvis para confirmarlo. Audio descartado.')
+      onDraft(result.transcript);setNotice('Transcripción local lista. Revisa el texto y usa el envío explícito del motor seleccionado para confirmarlo. Audio descartado.')
     }catch(e){if(id===generation.current)setNotice(e.name==='AbortError'?'Transcripción cancelada.':e.message)}
     finally{if(id===generation.current){request.current=null;setStage('idle')}}
   }
   async function begin(){
     if(!enabled||!available||disabled||stage!=='idle')return
+    window.dispatchEvent(new Event('cerebro-stop-audio'))
     const id=++generation.current;setStage('requesting');setNotice('Solicitando permiso puntual al micrófono…')
     const session={chunks:[]};current.current=session
     try{
