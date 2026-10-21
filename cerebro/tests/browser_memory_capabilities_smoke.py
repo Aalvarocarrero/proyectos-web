@@ -32,7 +32,7 @@ with tempfile.TemporaryDirectory() as data:
             assert page.get_by_text('No debe aparecer en Atlas',exact=True).count()==0
             assert page.locator('.memory-result-count').inner_text().startswith('1 coincidencias')
             page.evaluate("()=>{const b=document.createElement('div');b.className='badge';b.textContent='PREVISUALIZACIÓN · DATOS FICTICIOS';document.querySelector('.hero-copy').append(b)}")
-            page.evaluate("()=>{document.activeElement?.blur();document.querySelector('.skip-link')?.remove()}");page.mouse.move(1,1)
+            page.evaluate("document.activeElement?.blur();document.querySelector('.skip-link')?.remove()");page.mouse.move(1,1)
             page.screenshot(path=str(ROOT/'docs/captura-memoria-consulta-fixture.png'),full_page=True)
             page.locator('#show-tools').focus();page.keyboard.press('Enter')
             page.get_by_role('heading',name='Herramientas multidisciplinares').wait_for()
@@ -42,7 +42,7 @@ with tempfile.TemporaryDirectory() as data:
             assert page.get_by_text('no_integrado',exact=True).count()==0
             assert page.get_by_text('PR en borrador',exact=False).count()==1
             assert page.get_by_role('button',name='Ejecutar simulación con datos sintéticos').count()==0
-            page.evaluate("()=>{document.activeElement?.blur();document.querySelector('.skip-link')?.remove()}");page.mouse.move(1,1)
+            page.evaluate("document.activeElement?.blur();document.querySelector('.skip-link')?.remove()");page.mouse.move(1,1)
             page.screenshot(path=str(ROOT/'docs/captura-capacidades-fixture.png'),full_page=True)
             page.set_viewport_size({'width':390,'height':844})
             assert page.evaluate('document.documentElement.scrollWidth<=window.innerWidth')
