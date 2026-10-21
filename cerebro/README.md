@@ -20,6 +20,8 @@ La conversación no genera respuestas. Jarvis permite leer una selección acotad
 
 El puerto para un futuro asistente local está preparado pero desconectado. Parte sin modelo, endpoint o credencial, no tiene conexión a la memoria y deniega por defecto el acceso por proyecto. El contrato de voz `es-ES` solo valida una transcripción textual confirmada; no captura ni procesa audio. Únicamente las pruebas inyectan un proveedor sintético. Véase [ASISTENTE-LOCAL.md](docs/ASISTENTE-LOCAL.md).
 
+El adaptador opcional de Codex App Server local aparece como **Desactivado · sesión aislada pendiente** en Herramientas y capacidades. Pruebas sintéticas cubren protocolo, sesiones separadas por proyecto, cancelación y bloqueo de reintentos inciertos. Esta implementación no inicia sesión ni hace inferencias reales. Consulta [CODEX-APP-SERVER.md](docs/CODEX-APP-SERVER.md) para los requisitos de aislamiento.
+
 ## Diario y cola
 
 `POST /api/action` recibe eventos locales con IDs y conserva su contenido original. La cola registra intención antes de iniciar, historial fechado de estados, dependencias, checkpoint y evidencia. En un reinicio se recupera del diario; la interfaz recomienda la tarea pendiente más antigua con dependencias completadas. Si el resultado externo queda incierto, no se reintenta automáticamente y hace falta verificación humana. El reenvío manual de la misma intención local usa su mismo ID y la API devuelve el registro ya existente antes de aplicar la revisión; las transiciones posteriores conservan el historial. Los elementos de colas antiguas sin dependencias explícitas quedan marcados para revisión manual. La cola registra trabajo; no ejecuta agentes, código o envíos de correo. La captura automática de voz tampoco está conectada.

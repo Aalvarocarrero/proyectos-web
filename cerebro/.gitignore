@@ -1,5 +1,7 @@
 /data/
 /backups/
+/codex-app-server-sessions.json
+/codex-app-server-operations.json
 *.jsonl
 *.bin
 __pycache__/

@@ -1,6 +1,6 @@
 """Public, local-only inventory of features in the portable Cerebro build."""
 
-BUILD_LABEL = "v15 · voz TTS seleccionada"
+BUILD_LABEL = "v15 · voz TTS seleccionada · App Server opcional"
 
 _AREAS = [
     {"id": "programacion", "label": "Programación e ingeniería", "supports": ["instrucciones originales", "tareas y checkpoints", "bloqueos, evidencia y cronología"], "limit": "No ejecuta comandos, tests ni agentes."},
@@ -17,6 +17,7 @@ _TOOLS = [
     {"id": "work-queue", "name": "Cola, recuperación y checkpoints", "state": "probado_localmente", "label": "Probado localmente", "scope": "Registro local", "evidence": "Intención, estado incierto, evidencia y reanudación; no lanza agentes ni tareas."},
     {"id": "provider-adapters", "name": "Adaptadores Ollama / Workers AI / Groq", "state": "preparado_sin_configurar", "label": "Preparado · código desacoplado", "scope": "No conectado a conversación", "evidence": "Adaptadores estándar con llamadas reales deshabilitadas en la app; el panel actual solo admite transporte simulado."},
     {"id": "local-assistant-port", "name": "Puerto para modelo local", "state": "preparado_sin_configurar", "label": "Preparado · desconectado", "scope": "Local · permisos por proyecto · sin endpoint ni credenciales", "evidence": "Contrato inyectable y pruebas con proveedor sintético; config apagada por defecto. No está conectado a conversación, voz, memoria ni ejecución."},
+    {"id": "codex-app-server", "name": "Codex App Server (local)", "state": "desactivado", "label": "Desactivado · sesión aislada pendiente", "scope": "Texto explícito · perfil local dedicado · sin memoria de Cerebro", "evidence": "Adaptador y pruebas de protocolo con transporte sintético. No se inició App Server, no se conectó una cuenta ni se hizo inferencia. Los turnos reales siguen desactivados hasta comprobar aislamiento de herramientas, MCP, plugins y configuración."},
     {"id": "provider-simulation", "name": "Comprobación de proveedores", "state": "simulado", "label": "Simulado · no verificado", "scope": "Fixture local sintético", "evidence": "No comprueba conexión, disponibilidad, modelo, plan ni cuota."},
     {"id": "provider-live", "name": "Conexiones reales de modelos", "state": "desactivado", "label": "Desactivado", "scope": "Sin llamadas externas", "evidence": "No hay credenciales ni modelos verificados; Cloudflare requiere confirmar plan/cuota antes de cualquier conexión."},
     {"id": "voice", "name": "Voz conversacional y lectura seleccionada", "state": "pendiente", "label": "STT pendiente · TTS condicional sin audio verificado", "scope": "Micrófono apagado · texto seleccionado por ID de proyecto · voces es-* con localService=true reportadas", "evidence": "Jarvis lee explícitamente una selección de un solo registro con una voz española declarada local por el navegador; estados de inicio/fin/error y cancelación, incluso al cambiar proyecto. Pruebas usan sintetizador falso. No se comprobó audio real ni offline, no hay micrófono, STT o respuestas de IA."},

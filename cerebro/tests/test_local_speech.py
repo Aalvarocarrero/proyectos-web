@@ -18,7 +18,7 @@ class SpeechTests(unittest.TestCase):
  def test_voice_is_fixed(self):
   with self.assertRaises(ValueError):MacSpeech('untrusted')
  def test_selected_voice_and_invalid_rejected_without_synthesis(self):
-  speech=MacSpeech('Reed (Español (España))')
+  with patch('local_speech.Path.is_file',return_value=True):speech=MacSpeech('Reed (Español (España))')
   def run(args,**kwargs):
    self.assertEqual(args[2],'Paulina (Español (México))')
    Path(args[args.index('-o')+1]).write_bytes(b'RIFFfixture')
