@@ -177,7 +177,7 @@ Fuentes y hashes detallados: [catálogo conservado](catalog.json). Son 13 guías
 - Licencia: no verificada en esta indexación; revisar upstream antes de redistribuirlo. No se copia su código aquí.
 - Estado: informe archivado en rama research/free-llm-api-resources-2026-10-21, no snapshot completo; ninguna API queda instalada, conectada o probada por este índice. Revalidar cuotas y condiciones antes de usar.
 
-## Archivos en preparación por separado
+## Recursos conservados o en preparación en ramas separadas
 
 ### J.A.R.V.I.S
 - Fuente: https://github.com/adewaskar/jarvis
@@ -196,8 +196,8 @@ Fuentes y hashes detallados: [catálogo conservado](catalog.json). Son 13 guías
 - Tarea/ejemplo: observar comportamiento y estructura de una interfaz autorizada para preparar una implementación propia.
 - Dependencias: entorno Node compatible y herramientas del proyecto; configuración MCP separada. No instala ni copia automáticamente cualquier aplicación.
 - Licencia de código: MIT; revisar recursos de terceros.
-- Destino previsto: skill/rea en research/rea-source-2026-10-21.
-- Estado: archivo pendiente de comprobante remoto; no instalado ni ejecutado.
+- Archivo verificado: [skill/rea](https://github.com/Aalvarocarrero/proyectos-web/tree/4a35420ce5cafe4b113fb0325e9332d5ec8fdd4c/skill/rea), en rama research/rea-source-2026-10-21.
+- Estado: 5.007 archivos fuente archivados en snapshot dividido en dos partes; cinco submódulos referenciados pero no incluidos. Manifiesto y licencia conservados. No instalado ni ejecutado; sin fusión ni despliegue.
 
 ## Pendiente de localizar sin inventar archivos
 
