@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Cerebro portable: local event journal, no external services or dependencies."""
-import argparse, copy, datetime as dt, hashlib, json, os, secrets, threading, uuid
+import argparse, copy, datetime as dt, hashlib, json, os, re, secrets, threading, unicodedata, uuid
 from pathlib import Path
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
@@ -14,6 +14,9 @@ def timestamp(value): return dt.datetime.fromisoformat(value[:-1]+'+00:00' if is
 def require(ok, message):
     if not ok: raise ValueError(message)
 def text(value, limit=100000): return isinstance(value,str) and len(value)<=limit
+def search_normalize(value):
+    folded=unicodedata.normalize('NFKD',value).casefold()
+    return ''.join(c for c in folded if not unicodedata.combining(c))
 
 def validate_event(e, entities):
     require(isinstance(e,dict) and set(e)=={'id','at','op','entity','evidence'}, 'Evento: campos incorrectos')
@@ -150,6 +153,41 @@ class Store:
     def revision(self): return hashlib.sha256(json.dumps(self.doc,sort_keys=True).encode()).hexdigest()
     def snapshot(self):
         with self.lock: return {'document':json.loads(json.dumps(self.doc)), 'revision':self.revision(), 'entities':list(validate_document(self.doc).values()), 'storageWarning':'Escritura anterior incierta. Reinicie y revise el diario antes de reintentar.' if self.write_uncertain else ''}
+    def project_memory(self,project_id,query='',kind='all',limit=100):
+        """Search the append-only memory tied to exactly one project, without AI or remote access."""
+        with self.lock:
+            require(text(project_id,100) and bool(project_id),'ID de proyecto inválido')
+            require(text(query,300),'La búsqueda admite hasta 300 caracteres')
+            allowed={'all',*KINDS,'action','message','transcript'}
+            require(kind in allowed,'Tipo de memoria no admitido')
+            require(type(limit) is int and 1<=limit<=200,'El límite debe estar entre 1 y 200')
+            entities=validate_document(self.doc); project=entities.get(project_id)
+            if not project or project['kind']!='project': raise KeyError('Proyecto inexistente')
+            rows=[]; transcript_ids=set()
+            related_events=[event for event in self.doc['events'] if event['entity']['id']==project_id or event['entity']['projectId']==project_id]
+            for event in related_events:
+                entity=event['entity']
+                rows.append({'id':event['id'],'recordId':entity['id'],'type':entity['kind'],'source':'historial append-only','at':event['at'],'title':entity['title'],'content':entity['body'],'status':entity['status'],'priority':entity['priority'],'nextAction':entity['nextAction'],'operation':event['op'],'evidence':list(event['evidence'])})
+                for evidence in event['evidence']:
+                    if evidence.startswith('transcript:'): transcript_ids.add(evidence[11:])
+            for entry in self.doc['actions']:
+                if entry['projectId']==project_id:
+                    content='\n'.join(value for value in [entry['intent'],entry['checkpoint']] if value)
+                    rows.append({'id':entry['id'],'recordId':entry['actionId'],'type':'action','source':'cola local','at':entry['at'],'title':entry['title'],'content':content,'status':entry['state'],'outcome':entry['outcome'],'priority':'sin asignar','nextAction':entry['checkpoint'],'evidence':[entry['evidence']] if entry['evidence'] else []})
+            for message in self.doc.get('messages',[]):
+                if message['projectId']==project_id:
+                    rows.append({'id':message['id'],'recordId':message['id'],'type':'message','source':'conversación local de texto','at':message['at'],'title':'Mensaje de texto','content':message['text'],'status':message['persistence'],'priority':'sin asignar','nextAction':'','evidence':[]})
+            for transcript in self.doc['transcripts']:
+                if transcript['id'] in transcript_ids:
+                    rows.append({'id':transcript['id'],'recordId':transcript['id'],'type':'transcript','source':transcript['source'],'at':transcript['at'],'title':'Transcripción original · '+transcript['speaker'],'content':transcript['original'],'status':transcript['persistence'],'priority':'sin asignar','nextAction':'','evidence':[]})
+            query_norm=search_normalize(query.strip())
+            filtered=[]
+            for row in rows:
+                if kind!='all' and row['type']!=kind: continue
+                haystack=search_normalize(' '.join([row['title'],row['content'],row['status'],row.get('outcome',''),row['priority'],row['nextAction'],' '.join(row['evidence'])]))
+                if not query_norm or query_norm in haystack: filtered.append(row)
+            filtered.sort(key=lambda row:timestamp(row['at']),reverse=True)
+            return {'projectId':project_id,'query':query,'type':kind,'total':len(filtered),'limit':limit,'hasMore':len(filtered)>limit,'records':filtered[:limit]}
     def commit(self,events,config=None,transcripts=None,actions=None,messages=None):
         candidate={'schemaVersion':1,'config':config if config is not None else self.doc['config'],'events':self.doc['events']+events,'transcripts':self.doc['transcripts']+(transcripts or []),'actions':self.doc['actions']+(actions or []),'messages':self.doc.get('messages',[])+(messages or [])}
         validate_document(candidate)
@@ -277,10 +315,25 @@ def handler(store,token):
             return self.headers.get('Host') in hosts and (origin is None or origin in ['http://'+h for h in hosts]) and self.headers.get('Sec-Fetch-Site') not in ['cross-site']
         def do_GET(self):
             if not self.permitted(): return self.send(403,{'error':'Host no permitido'})
-            path=self.path.split('?')[0]
+            from urllib.parse import parse_qs,unquote,urlsplit
+            parsed=urlsplit(self.path); path=parsed.path
             if path=='/api/state':
                 from sync_local import status
                 with store.lock: return self.send(200,{**store.snapshot(),'token':token,'sync':status(store)})
+            if path=='/api/capabilities':
+                from capabilities import catalog
+                return self.send(200,catalog())
+            memory_route=re.fullmatch(r'/api/projects/([^/]+)/memory',path)
+            if memory_route:
+                try:
+                    params=parse_qs(parsed.query,keep_blank_values=True)
+                    require(set(params)<={'q','type','limit'} and all(len(values)==1 for values in params.values()),'Parámetros de búsqueda no admitidos')
+                    kind=params.get('type',['all'])[0]
+                    limit=int(params.get('limit',['100'])[0])
+                    result=store.project_memory(unquote(memory_route.group(1)),params.get('q',[''])[0],kind,limit)
+                    return self.send(200,result)
+                except KeyError:return self.send(404,{'error':'Proyecto inexistente'})
+                except (ValueError,TypeError) as e:return self.send(400,{'error':str(e)})
             if path=='/api/export.json': return self.send(200,store.snapshot()['document'])
             if path=='/api/export.md': return self.send(200,markdown(store.snapshot()['document']),'text/markdown; charset=utf-8')
             files={'/':('index.html','text/html'),'/app.js':('app.js','application/javascript'),'/style.css':('style.css','text/css')}
