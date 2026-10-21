@@ -54,8 +54,14 @@ async function main() {
     await page.getByRole('button', { name: 'Confirmar plan' }).click();
     await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.[0]?.plan_confirmed===true);
     await closeAndReopen();
-    await page.getByRole('button', { name: /Abrir inspector y revisión/ }).click();
-    await page.evaluate(() => oficinaDemo.produce());
+    await page.getByRole('button', { name: /Contenido/ }).first().focus(); await page.keyboard.press('Enter');
+    record('C17-selectable-office-scene', await page.locator('.office-seat').count()===3 && await page.locator('.office-seat[aria-pressed=true]').getAttribute('data-agent')==='contenido' && await page.locator('#run-local-content').isVisible() && (await page.locator('.office-scene').innerText()).includes('no es 3D'), 'Puestos seleccionables por teclado, panel de tarea ligado al estado y escena marcada como esquema 2D.');
+    await page.screenshot({ path: path.join(evidence, 'oficina-2d-tarea-local.png'), fullPage: true });
+    await page.getByRole('button', { name: /Iniciar paso local · crear v1/ }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').artifacts?.some(a=>a.version==='v1'));
+    data = await page.evaluate(() => oficinaDemo.state());
+    const starts=data.events.filter(e=>e.kind==='Paso local iniciado'); const finished=data.events.find(e=>e.kind==='v1 guardado');
+    record('C17-local-run-evidence', starts.length===1 && !!finished && starts[0].runId===finished.runId && starts[0].taskId===finished.taskId && starts[0].status==='running' && finished.status==='completed' && finished.executionMode==='deterministic_local' && finished.agentId==='contenido' && finished.artifactVersion==='v1' && data.artifacts.find(a=>a.version==='v1').runId===finished.runId && data.artifacts.find(a=>a.version==='v1').taskId===finished.taskId && data.externalActions===0, 'La acción manual crea v1 real en almacenamiento local; inicio/fin y artefacto comparten run_id, modo determinístico y cero servicios externos.');
     data = await page.evaluate(() => oficinaDemo.state());
     const v1 = data.artifacts.find(a => a.version === 'v1');
     record('C0-checkpoint-v1', !!v1 && v1.mission_id === missionId && !!data.missions.find(m => m.id === missionId).plan_confirmed, 'Brief y plan persistidos; v1 tiene mission_id y origen local.');
@@ -169,6 +175,13 @@ async function main() {
     data = await page.evaluate(() => oficinaDemo.state());
     record('C5', data.missions.length === 1 && data.missions[0].id === sameMission && data.missions[0].run_attempt === 1 && data.artifacts.filter(a => a.mission_id === sameMission).length === 3 && data.artifacts.some(a => a.version === 'v2') && data.externalActions === 0, 'Recuperación local inspeccionada sin duplicar misión; nuevo intento local y cero acción externa.');
     await page.screenshot({ path: path.join(evidence, 'recuperacion-local.png'), fullPage: true });
+    // Interrupted local work must recover as uncertain and require review before any retry.
+    const interruptedContext=await browser.newContext();const interrupted=await interruptedContext.newPage();interrupted.setDefaultTimeout(5000);await interrupted.goto('http://127.0.0.1:4173');
+    await interrupted.evaluate(async()=>{await oficinaDemo.reset();await oficinaDemo.seed();const d=JSON.parse(localStorage.getItem('oficina-ia-piloto-v1'));d.missions[0].state='working';d.missions[0].current_run_id='run-interrupted-fixture';d.missions[0].current_run_agent='contenido';localStorage.setItem('oficina-ia-piloto-v1',JSON.stringify(d))});
+    await interrupted.reload();
+    const recovered=await interrupted.evaluate(()=>oficinaDemo.state());
+    record('C18-interrupted-step-recovery', recovered.missions[0].state==='uncertain' && recovered.events.some(e=>e.kind==='Paso local interrumpido y recuperado'&&e.runId==='run-interrupted-fixture' && e.status==='uncertain' && !!e.timestamp) && await interrupted.locator('#retry').isDisabled() && (await interrupted.locator('#storage-notice').innerText()).includes('paso local interrumpido'), 'Cierre durante Trabajando se recupera Por verificar, agrega evento ligado al run_id y bloquea retry hasta revisión.');
+    await interruptedContext.close();
     record('Browser console', errors.length === 0, errors.join('; ') || 'Sin excepciones JavaScript.');
     // Two independent tabs load the same revision; the stale tab must not overwrite the accepted write.
     await page.evaluate(async()=>{await oficinaDemo.reset();await oficinaDemo.seed();await oficinaDemo.produce()});

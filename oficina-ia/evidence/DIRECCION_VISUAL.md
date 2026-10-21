@@ -1,4 +1,4 @@
-# Dirección visual pendiente de materialización
+# Dirección visual y estado de la escena interactiva
 
 ## Intención
 
@@ -8,9 +8,9 @@ La grilla mantiene General más ocho espacios. General permanece vacío; Aeterna
 
 ## Estado actual
 
-Está implementada la jerarquía funcional de «Te toca» y la selección contextual de tres plantillas locales. El marcador de documento indica explícitamente que no hay miniatura. No es una representación de la escena de madera, vidrio negro y plantas.
+La vista Oficina tiene una escena 2D propia hecha con CSS (madera esquemática, vidrio oscuro, planta y tres puestos). Cada puesto se selecciona con ratón o teclado y actualiza el panel de tarea/estado ligado a la misión local. Los avatares son marcas tipográficas, no retratos. El panel permite iniciar explícitamente un paso determinístico local en Contenido; guarda artefacto y eventos reales con `run_id`, además de registrar la modalidad `deterministic_local`. Coordinación y Revisión no ejecutan trabajo autónomo.
 
-La escena completa y su integración siguen pendientes porque los archivos de referencia no se pueden transferir a este executor. No se incorporan fondos alternativos, capturas como interfaz, retratos ni solicitudes externas. Las plantillas no conectan modelos o servicios, y sus estados de configuración, prueba y ejecución se muestran por separado.
+Esta composición no es 3D ni pretende fidelidad a las maquetas cuyo transporte se bloqueó. El recurso conceptual original sigue pendiente y la interfaz lo declara, sin descargas externas, fondos alternativos o capturas pegadas como UI. Los estados indican por separado configuración de plantilla, cobertura local y ejecución del paso.
 
 ## Nota de referencia
 

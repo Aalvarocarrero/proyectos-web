@@ -1,7 +1,7 @@
 {
-  "build_sha256": "80fe95f8098a2991eb0fb396355d02e30f00b2b59d22b62ba365cfe618f4a9bb",
+  "build_sha256": "aec9a0d829d746bef26d70c56013278cc3f4a468647cc37f978f80b5710d2036",
   "fixture": "AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO",
-  "tested_at": "2026-10-21T02:42:22.727Z",
+  "tested_at": "2026-10-21T02:53:12.312Z",
   "browser": "Chromium headless · Playwright",
   "test_execution": "local e2e; CI not run",
   "external_services": false,
@@ -36,6 +36,16 @@
       "id": "reopen-brief-plan-draft",
       "result": "aprobado",
       "detail": "Brief y borrador de plan recuperados antes de confirmación."
+    },
+    {
+      "id": "C17-selectable-office-scene",
+      "result": "aprobado",
+      "detail": "Puestos seleccionables por teclado, panel de tarea ligado al estado y escena marcada como esquema 2D."
+    },
+    {
+      "id": "C17-local-run-evidence",
+      "result": "aprobado",
+      "detail": "La acción manual crea v1 real en almacenamiento local; inicio/fin y artefacto comparten run_id, modo determinístico y cero servicios externos."
     },
     {
       "id": "C0-checkpoint-v1",
@@ -126,6 +136,11 @@
       "id": "C5",
       "result": "aprobado",
       "detail": "Recuperación local inspeccionada sin duplicar misión; nuevo intento local y cero acción externa."
+    },
+    {
+      "id": "C18-interrupted-step-recovery",
+      "result": "aprobado",
+      "detail": "Cierre durante Trabajando se recupera Por verificar, agrega evento ligado al run_id y bloquea retry hasta revisión."
     },
     {
       "id": "Browser console",
