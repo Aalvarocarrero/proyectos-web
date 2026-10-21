@@ -1,0 +1,347 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://local.invalid/cerebro/schema-v1.json",
+  "title": "Cerebro portable export",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schemaVersion",
+    "config",
+    "events",
+    "transcripts",
+    "actions"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "const": 1
+    },
+    "config": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "timezone",
+        "source",
+        "schedule",
+        "executionNote"
+      ],
+      "properties": {
+        "timezone": {
+          "type": "string"
+        },
+        "source": {
+          "type": "string"
+        },
+        "executionNote": {
+          "type": "string"
+        },
+        "schedule": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": [
+              "startDate",
+              "time",
+              "label",
+              "windowHours",
+              "flexible"
+            ],
+            "properties": {
+              "startDate": {
+                "type": "string",
+                "format": "date"
+              },
+              "time": {
+                "type": "string",
+                "pattern": "^(?:[01][0-9]|2[0-3]):[0-5][0-9]$"
+              },
+              "label": {
+                "type": "string"
+              },
+              "windowHours": {
+                "type": [
+                  "integer",
+                  "null"
+                ],
+                "minimum": 1,
+                "maximum": 24
+              },
+              "flexible": {
+                "type": "boolean"
+              }
+            }
+          }
+        }
+      }
+    },
+    "events": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "at",
+          "op",
+          "entity",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "op": {
+            "enum": [
+              "create",
+              "update"
+            ]
+          },
+          "entity": {
+            "type": "object",
+            "required": [
+              "id",
+              "kind",
+              "projectId",
+              "title",
+              "body",
+              "status",
+              "priority",
+              "nextAction"
+            ],
+            "properties": {
+              "id": {
+                "type": "string"
+              },
+              "kind": {
+                "enum": [
+                  "project",
+                  "instruction",
+                  "decision",
+                  "task",
+                  "checkpoint",
+                  "blocker",
+                  "source"
+                ]
+              },
+              "projectId": {
+                "type": "string"
+              },
+              "title": {
+                "type": "string"
+              },
+              "body": {
+                "type": "string"
+              },
+              "status": {
+                "enum": [
+                  "pendiente",
+                  "en curso",
+                  "bloqueado",
+                  "preparado",
+                  "probado",
+                  "publicado",
+                  "completado",
+                  "sin verificar"
+                ]
+              },
+              "priority": {
+                "enum": [
+                  "muy alta",
+                  "alta",
+                  "media",
+                  "baja",
+                  "sin asignar"
+                ]
+              },
+              "nextAction": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "transcripts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "at",
+          "original",
+          "source",
+          "speaker",
+          "order",
+          "persistence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "original": {
+            "type": "string"
+          },
+          "source": {
+            "type": "string"
+          },
+          "speaker": {
+            "type": "string"
+          },
+          "order": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "persistence": {
+            "const": "persistido"
+          }
+        }
+      }
+    },
+    "actions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "at",
+          "actionId",
+          "type",
+          "state",
+          "outcome",
+          "intent",
+          "checkpoint",
+          "dependsOn",
+          "idempotencyKey",
+          "title",
+          "projectId",
+          "evidence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "actionId": {
+            "type": "string"
+          },
+          "type": {
+            "enum": [
+              "task",
+              "code",
+              "external_send"
+            ]
+          },
+          "state": {
+            "enum": [
+              "pending",
+              "in_progress",
+              "blocked",
+              "uncertain",
+              "completed"
+            ]
+          },
+          "outcome": {
+            "enum": [
+              "not_started",
+              "unknown",
+              "succeeded",
+              "failed"
+            ]
+          },
+          "checkpoint": {
+            "type": "string"
+          },
+          "idempotencyKey": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "projectId": {
+            "type": "string"
+          },
+          "evidence": {
+            "type": "string"
+          },
+          "intent": {
+            "type": "string",
+            "minLength": 1
+          },
+          "dependsOn": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": {
+              "type": "string",
+              "minLength": 1
+            }
+          }
+        }
+      }
+    },
+    "messages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "id",
+          "at",
+          "projectId",
+          "role",
+          "text",
+          "channel",
+          "persistence"
+        ],
+        "properties": {
+          "id": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 100
+          },
+          "at": {
+            "type": "string",
+            "format": "date-time"
+          },
+          "projectId": {
+            "type": "string",
+            "minLength": 1
+          },
+          "role": {
+            "const": "user"
+          },
+          "text": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 12000
+          },
+          "channel": {
+            "const": "text"
+          },
+          "persistence": {
+            "const": "persistido"
+          }
+        }
+      }
+    }
+  }
+}

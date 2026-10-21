@@ -1,0 +1,66 @@
+import copy,sys,tempfile,unittest
+from pathlib import Path
+sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'app'))
+from server import Store, resumable_action
+from sync_local import sync,status
+class QueueSyncTests(unittest.TestCase):
+ def setUp(self):
+  self.tmp=tempfile.TemporaryDirectory();self.a=Store(Path(self.tmp.name)/'a');self.b=Store(Path(self.tmp.name)/'b')
+ def tearDown(self):self.tmp.cleanup()
+ def act(self,s,**kw):return s.mutate({'revision':s.revision(),**kw})
+ def project(self,s,id):self.act(s,action='create',entity={'id':id,'kind':'project','projectId':'','title':'Ficción '+id,'body':'','status':'pendiente','priority':'media','nextAction':''})
+ def entry(self):return dict(actionId='a1',type='external_send',state='pending',outcome='not_started',intent='Comprobar flujo ficticio; no enviar nada',checkpoint='',dependsOn=[],idempotencyKey='mail-fixture-1',title='Envío ficticio, no ejecutar',projectId='p',evidence='')
+ def test_queue_restart_and_unknown_guard(self):
+  self.project(self.a,'p');e=self.entry();self.act(self.a,action='queue',entry=e);e.update(state='in_progress',outcome='unknown',checkpoint='Punto guardado antes de la interrupción');self.act(self.a,action='queue',entry=e);e.update(state='uncertain');self.act(self.a,action='queue',entry=e);reloaded=Store(self.a.path);self.assertEqual(reloaded.doc,self.a.doc)
+  e.update(state='in_progress',checkpoint='Reintento ciego')
+  with self.assertRaises(ValueError):self.act(self.a,action='queue',entry=e)
+  e.update(state='blocked');self.act(self.a,action='queue',entry=e);e.update(state='completed',outcome='succeeded')
+  with self.assertRaises(ValueError):self.act(self.a,action='queue',entry=e)
+  e['evidence']='fixture: comprobación de proveedor ficticio';self.act(self.a,action='queue',entry=e)
+ def test_queue_idempotent(self):
+  self.project(self.a,'p');e=self.entry();self.act(self.a,action='queue',entry=e);self.assertTrue(self.act(self.a,action='queue',entry=e)['duplicate']);self.assertEqual(len(self.a.doc['actions']),1)
+  replay=self.a.mutate({'revision':'lost-response-stale-revision','action':'queue','entry':e});self.assertTrue(replay['duplicate']);self.assertEqual(len(self.a.doc['actions']),1)
+ def test_identical_intent_can_be_created_as_a_new_action(self):
+  self.project(self.a,'p');e=self.entry();self.act(self.a,action='queue',entry=e);another=dict(e,actionId='a2',idempotencyKey='mail-fixture-2')
+  self.act(self.a,action='queue',entry=another);self.assertEqual([a['actionId'] for a in self.a.doc['actions']],['a1','a2'])
+ def test_resume_skips_blocked_dependency_and_recovers_after_restart(self):
+  self.project(self.a,'p')
+  blocked=self.entry();self.act(self.a,action='queue',entry=blocked);blocked.update(state='blocked',outcome='failed',checkpoint='Bloqueo documentado',evidence='fixture: requisito externo ausente');self.act(self.a,action='queue',entry=blocked)
+  dependent=dict(self.entry(),actionId='a2',title='Dependiente',idempotencyKey='fixture-2',dependsOn=['a1'])
+  independent=dict(self.entry(),actionId='a3',title='Independiente',idempotencyKey='fixture-3')
+  self.act(self.a,action='queue',entry=dependent);self.act(self.a,action='queue',entry=independent)
+  self.assertEqual(resumable_action(self.a.doc['actions'])['actionId'],'a3')
+  reloaded=Store(self.a.path);self.assertEqual(resumable_action(reloaded.doc['actions'])['actionId'],'a3')
+ def test_intent_and_dependencies_are_immutable(self):
+  self.project(self.a,'p');e=self.entry();e['intent']='';
+  with self.assertRaises(ValueError):self.act(self.a,action='queue',entry=e)
+ def test_legacy_queue_is_preserved_but_not_assumed_independent(self):
+  self.project(self.a,'p');legacy={'id':'old-entry','at':'2026-10-19T09:00:00+00:00','actionId':'old-action','type':'task','state':'pending','outcome':'not_started','checkpoint':'','idempotencyKey':'old-key','title':'Tarea anterior','projectId':'p','evidence':''}
+  with self.a.log.open('a') as f:f.write(__import__('json').dumps({'events':[],'transcripts':[],'actions':[legacy]},ensure_ascii=False)+'\n')
+  recovered=Store(self.a.path);entry=recovered.doc['actions'][0]
+  self.assertIn('no registrada',entry['intent']);self.assertEqual(entry['dependsOn'],['legacy:review-dependencies']);self.assertIsNone(resumable_action(recovered.doc['actions']))
+ def test_project_messages_are_isolated_durable_and_deduplicated_after_interruption(self):
+  self.project(self.a,'p');self.project(self.a,'q');first={'id':'msg-fixture-1','projectId':'p','text':'Texto ficticio exclusivo de P'};second={'id':'msg-fixture-2','projectId':'q','text':'Texto ficticio exclusivo de Q'}
+  self.act(self.a,action='message',message=first);self.act(self.a,action='message',message=second)
+  result=self.a.mutate({'revision':'stale-after-lost-response','action':'message','message':first});self.assertTrue(result['duplicate'])
+  with self.assertRaisesRegex(ValueError,'Colisión de ID'):
+   self.act(self.a,action='message',message={**first,'text':'mutación no válida'})
+  restored=Store(self.a.path);by_project={pid:[m['text'] for m in restored.doc['messages'] if m['projectId']==pid] for pid in ['p','q']}
+  self.assertEqual(by_project,{'p':['Texto ficticio exclusivo de P'],'q':['Texto ficticio exclusivo de Q']})
+ def test_project_messages_follow_manual_local_store_exchange(self):
+  self.project(self.a,'p');self.project(self.b,'q');self.act(self.a,action='message',message={'id':'sync-message','projectId':'p','text':'Fixture de intercambio local'})
+  sync(self.a.path,self.b.path);self.assertEqual(Store(self.b.path).doc['messages'][0]['text'],'Fixture de intercambio local')
+  e=self.entry();self.act(self.a,action='queue',entry=e);e['intent']='changed';e['state']='in_progress';e['outcome']='unknown'
+  with self.assertRaises(ValueError):self.act(self.a,action='queue',entry=e)
+ def test_sync_disjoint_projects_and_ack(self):
+  self.project(self.a,'p');self.project(self.b,'q');self.assertTrue(status(self.a)['outbox']);result=sync(self.a.path,self.b.path);self.assertFalse(result['left']['outbox']);self.assertTrue(result['left']['lastSync']);self.assertEqual({e['id']:e for e in Store(self.a.path).doc['events']},{e['id']:e for e in Store(self.b.path).doc['events']});sync(self.a.path,self.b.path)
+ def test_divergent_updates_rejected_before_writes(self):
+  self.project(self.a,'p');sync(self.a.path,self.b.path);self.a=Store(self.a.path);self.b=Store(self.b.path)
+  for s,label in [(self.a,'uno'),(self.b,'dos')]:
+   e=copy.deepcopy(s.doc['events'][0]['entity']);e['title']=label;self.act(s,action='update',entity=e)
+  before=[s.log.read_bytes() for s in [self.a,self.b]]
+  with self.assertRaises(ValueError):sync(self.a.path,self.b.path)
+  self.assertEqual(before,[s.log.read_bytes() for s in [self.a,self.b]])
+ def test_ledger_sync_does_not_execute_or_duplicate(self):
+  self.project(self.a,'p');self.act(self.a,action='queue',entry=self.entry());sync(self.a.path,self.b.path);sync(self.a.path,self.b.path);self.assertEqual(len(Store(self.b.path).doc['actions']),1);self.assertEqual(Store(self.b.path).doc['actions'][0]['state'],'pending')
+if __name__=='__main__':unittest.main()
