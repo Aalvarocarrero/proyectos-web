@@ -53,7 +53,7 @@ with tempfile.TemporaryDirectory() as data:
             assert page.locator('.conversation-project-name').inner_text()=='Observatorio · Proyecto ficticio'
             assert page.get_by_text('Sin modelo conectado',exact=True).count()==1
             assert page.get_by_role('button',name='Pulsar para hablar').is_disabled()
-            assert page.get_by_role('button',name='Detener').is_disabled()
+            assert page.get_by_role('button',name='Detener',exact=True).is_disabled()
             assert page.get_by_label('Transcripción de voz pendiente').evaluate('e=>e.readOnly')
             assert 'Micrófono apagado' in page.locator('.voice-console').inner_text()
             assert page.get_by_label('Transcripción de voz pendiente').get_attribute('placeholder').startswith('No disponible:')

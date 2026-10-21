@@ -1,23 +1,29 @@
 # Estado de voz y conversación
 
-La vista de conversación guarda únicamente los mensajes de texto que la persona envía y los vincula al ID del proyecto seleccionado. No produce respuestas de asistente, no ejecuta tareas y no captura audio. El micrófono permanece apagado y no hay transcripción disponible.
+La conversación conserva mensajes de texto bajo el proyecto seleccionado. No hay un asistente conectado, respuestas generadas, entrada por micrófono, reconocimiento de voz ni transcripción de audio. El micrófono permanece apagado.
 
-La Web Speech API no ofrece una garantía universal de procesamiento local: `SpeechRecognition.processLocally` es experimental y el valor predeterminado `false` permite que el navegador elija procesamiento local o remoto. El modo local requiere soporte del navegador y un paquete de idioma local instalado; `available()` e `install()` gestionan disponibilidad y descarga del paquete. No se habilitó reconocimiento porque no hay un motor local comprobado en el dispositivo de la persona ni una elección explícita de proveedor conectado.
+## Lectura explícita de selección
 
-Para lectura en voz alta, `speechSynthesis.getVoices()` informa las voces disponibles en ese dispositivo y `SpeechSynthesisVoice.localService` indica si una voz se sirve localmente. La lista y su propiedad dependen del dispositivo; no se comprobó una voz local concreta en el dispositivo de destino, por lo que la app no afirma que la lectura sea local u offline y no la activa.
+La interfaz permite leer en voz alta solo el texto que la persona seleccione dentro de un mensaje guardado de la conversación del proyecto abierto y después pulse **Leer selección**. No se leen mensajes completos, instrucciones u otras partes de la memoria automáticamente. La selección está limitada a 6.000 caracteres. **Detener lectura** cancela la reproducción; cambiar de proyecto, cambiar de vista o cerrar la página también cancela cualquier lectura activa.
 
-## Interfaz preparada y ruta de habilitación
+El control ofrece únicamente voces que el navegador devuelve en `speechSynthesis.getVoices()` con `SpeechSynthesisVoice.localService === true`. La app muestra las voces disponibles en ese dispositivo, su estado de inicio, fin o error y bloquea la función si el navegador no ofrece ese tipo de voz. `localService` es una declaración del navegador, no una auditoría independiente del tráfico del sistema operativo o del motor de voz; por eso no afirmamos confidencialidad verificada ni funcionamiento offline. La persona puede optar por no usar la lectura.
 
-La interfaz muestra controles **Pulsar para hablar** y **Detener**, una zona de transcripción y un aviso de micrófono apagado; los botones permanecen deshabilitados. Esta vista es solo una preparación visual: el código no solicita permiso, no abre el micrófono, no llama `SpeechRecognition` y no produce transcripciones. No se marca «Analizando» ni «Respondiendo» porque no existe procesamiento de voz o modelo conectado.
+La prueba automatizada usa un sintetizador falso para verificar selección, voz permitida, estados de ciclo de vida, cancelación y bloqueo. No se escuchó ni se grabó audio real, por lo que la reproducción en un dispositivo sigue pendiente de verificación práctica.
 
-La ruta recomendada es incremental: (1) confirmar el dispositivo y navegador objetivo; (2) comprobar si el navegador soporta `SpeechRecognition.processLocally=true` y `available({langs:['es-ES'],processLocally:true})`; no instalar paquetes de idioma sin autorización; (3) tras aprobación explícita, hacer una prueba local de una sola pulsación con indicador visible, botón de parada, cancelación y transcripción visible, y comprobar que el micrófono cesa al parar; (4) guardar el texto transcrito como mensaje local bajo el proyecto seleccionado, conservando su identidad de intento; (5) solo después integrar un modelo de texto aprobado y una lectura en voz alta que se compruebe realmente. La prueba debe demostrar entrada de audio, texto transcrito, salida de voz y tratamiento de interrupción; el clip de referencia demuestra chat escrito con respuesta hablada, pero no micrófono, memoria, herramientas o interrupciones.
+## Entrada bidireccional pendiente
 
-En el clip compartido se observaron una esfera de partículas y anillos cian, estados de análisis/respuesta, una pregunta escrita y respuesta contextual hablada. El cerebro usa un orb propio dibujado con CSS, estados reales del almacenamiento y controles originales. No copia marca, assets ni mecánicas de regalos o pagos.
+Los controles **Pulsar para hablar** y **Detener** para entrada siguen deshabilitados. No se solicita permiso, no se abre el micrófono ni se llama `SpeechRecognition`. La transcripción está marcada como no disponible. Esta lectura de texto seleccionado es salida local condicional; no es conversación por voz, no genera respuesta y no activa tareas.
 
-Referencias oficiales consultadas:
+La Web Speech API no ofrece una garantía universal de procesamiento local: `SpeechRecognition.processLocally` es experimental y el valor predeterminado `false` permite que el navegador elija procesamiento local o remoto. El modo local requiere soporte del navegador y un paquete de idioma local instalado. No se habilitó reconocimiento porque no hay un motor local comprobado en el dispositivo ni una elección explícita de proveedor conectado. No instalamos paquetes de idioma.
 
+La ruta siguiente para voz conversacional requiere elegir dispositivo/navegador, probar entrada local de una sola pulsación con indicador y parada explícita, guardar únicamente la transcripción confirmada bajo el proyecto actual y después aprobar un motor de texto. La verificación debe cubrir entrada, salida, cancelación y si el audio permanece en el dispositivo antes de describir la función como operativa.
+
+En el clip de referencia se observaron una esfera de partículas, una pregunta escrita y respuesta contextual hablada. Eso demuestra escritura y salida hablada en aquel producto, no micrófono, memoria, herramientas o interrupciones. Cerebro usa una interfaz propia y no copia marca, assets o mecánicas de terceros.
+
+Referencias primarias:
+
+- [SpeechSynthesis.getVoices](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices)
+- [SpeechSynthesisVoice.localService](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisVoice/localService)
 - [SpeechRecognition.processLocally](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/processLocally)
 - [Using the Web Speech API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Speech_API/Using_the_Web_Speech_API)
-- [SpeechSynthesisVoice.localService](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisVoice/localService)
-- [SpeechSynthesis.getVoices](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis/getVoices)
 - [SpeechRecognition.available()](https://developer.mozilla.org/en-US/docs/Web/API/SpeechRecognition/available_static)

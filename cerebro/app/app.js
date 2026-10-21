@@ -1,17 +1,73 @@
 'use strict';
-let state,selected=null,view='network',editing=null,query='';
+let state,selected=null,view='network',editing=null,query='',activeUtterance=null,speechEpoch=0,speechConversation=null,speechListenersInstalled=false;
 const $=s=>document.querySelector(s), statuses=['pendiente','en curso','bloqueado','preparado','probado','publicado','completado','sin verificar'];
 const labels={project:'Proyecto',instruction:'Instrucción original',decision:'Decisión',task:'Tarea',checkpoint:'Checkpoint',blocker:'Bloqueo',source:'Fuente original'};
 function node(tag,text,cls){const e=document.createElement(tag);if(text!==undefined)e.textContent=text;if(cls)e.className=cls;return e;}
 function notify(msg,error=false){const notice=$('#notice');notice.textContent=msg;notice.className=error?'error':'';notice.setAttribute('role',error?'alert':'status');}
 function attemptKey(kind,projectId){return `cerebro.${kind}Attempt.v1:${projectId}`;}
 function readAttempt(kind,projectId){const key=attemptKey(kind,projectId);try{const value=JSON.parse(localStorage.getItem(key)||'null');if(value&&value.projectId===projectId&&value.actionId&&value.idempotencyKey)return value;localStorage.removeItem(key);}catch{}return null;}
+function stopSpeech(reason='Lectura detenida.'){
+ if(!activeUtterance)return;
+ speechEpoch++;activeUtterance=null;
+ try{window.speechSynthesis?.cancel();}catch{}
+ const status=speechConversation?.querySelector('.speech-output-status');if(status){status.textContent=reason;status.dataset.state='stopped';}
+ const stop=speechConversation?.querySelector('[data-speech-stop]');if(stop)stop.disabled=true;
+ const read=speechConversation?.querySelector('[data-speech-read]');if(read)read.disabled=!selectedLocalText(speechConversation);
+ notify(reason);
+}
+function selectedLocalText(conversation){
+ const selection=window.getSelection();if(!selection||selection.isCollapsed||!selection.rangeCount)return '';
+ const list=conversation?.querySelector('.message-list'),anchor=selection.anchorNode?.nodeType===1?selection.anchorNode:selection.anchorNode?.parentElement,focus=selection.focusNode?.nodeType===1?selection.focusNode:selection.focusNode?.parentElement;
+ if(!list||!list.contains(selection.anchorNode)||!list.contains(selection.focusNode))return '';
+ const anchorMessage=anchor?.closest('.user-message'),focusMessage=focus?.closest('.user-message');if(!anchorMessage||anchorMessage!==focusMessage)return '';
+ const text=selection.toString().trim();return text.length<=6000?text:'';
+}
+function localSpeechVoices(){
+ try{return window.speechSynthesis?.getVoices().filter(voice=>voice.localService===true)||[];}catch{return [];}
+}
+function refreshSpeechControls(conversation){
+ if(!conversation?.isConnected)return;
+ const select=conversation.querySelector('[data-speech-voice]'),read=conversation.querySelector('[data-speech-read]'),status=conversation.querySelector('.speech-output-status');
+ if(!select||!read)return;
+ const voices=localSpeechVoices(),prior=select.value;select.replaceChildren();
+ for(const voice of voices){const option=node('option',voice.name+' · '+(voice.lang||'idioma desconocido'));option.value=voice.voiceURI||voice.name;select.append(option);}
+ if(voices.some(voice=>(voice.voiceURI||voice.name)===prior))select.value=prior;
+ const supported=typeof window.SpeechSynthesisUtterance==='function'&&Boolean(window.speechSynthesis);
+ const selection=window.getSelection(),selected=selectedLocalText(conversation),tooLong=Boolean(selection&&!selection.isCollapsed&&conversation.querySelector('.message-list')?.contains(selection.anchorNode)&&selection.toString().trim().length>6000);
+ select.disabled=!supported||!voices.length;
+ read.disabled=!supported||!voices.length||!selected||Boolean(activeUtterance);
+ if(!supported)status.textContent='No disponible: este navegador no ofrece lectura SpeechSynthesis.';
+ else if(!voices.length)status.textContent='Bloqueado: no hay voces que el navegador reporte con localService=true.';
+ else if(tooLong)status.textContent='Bloqueado: la selección supera el límite de 6.000 caracteres.';
+ else if(!activeUtterance&&!['ended','error','stopped'].includes(status.dataset.state))status.textContent='Selecciona texto dentro de un mensaje guardado; solo se leerá esa selección.';
+}
+function installSpeechSelectionControls(conversation){
+ speechConversation=conversation;
+ const voiceSelect=node('select'),voiceLabel=node('label','Voz local disponible');voiceSelect.setAttribute('aria-label','Voz local disponible');voiceSelect.dataset.speechVoice='true';voiceLabel.append(voiceSelect);
+ const read=node('button','Leer selección','primary'),stop=node('button','Detener lectura');read.type='button';stop.type='button';read.dataset.speechRead='true';stop.dataset.speechStop='true';
+ const status=node('p','Comprobando voces locales del dispositivo…','speech-output-status');status.setAttribute('role','status');status.setAttribute('aria-live','polite');
+ const panel=node('section',undefined,'speech-output');panel.setAttribute('aria-labelledby','speech-output-title');const heading=node('h4','Lectura de selección · voz declarada local');heading.id='speech-output-title';status.id='speech-output-status';read.setAttribute('aria-describedby',status.id);stop.setAttribute('aria-describedby',status.id);panel.append(heading,node('p','Solo lee texto que selecciones dentro de un mensaje guardado y cuando pulses Leer. No accede a otras partes de la memoria. Solo se ofrecen voces que el navegador declara localService=true; esa declaración no es una auditoría independiente del tráfico del sistema.','speech-output-note'),voiceLabel,read,stop,status);
+ stop.disabled=true;read.disabled=true;conversation.append(panel);
+ read.addEventListener('click',()=>{
+  const text=selectedLocalText(conversation),voices=localSpeechVoices(),voice=voices.find(item=>(item.voiceURI||item.name)===voiceSelect.value);
+  if(!text||!voice||typeof window.SpeechSynthesisUtterance!=='function'||!window.speechSynthesis){refreshSpeechControls(conversation);return;}
+  try{const epoch=++speechEpoch,utterance=new window.SpeechSynthesisUtterance(text);utterance.voice=voice;utterance.lang=voice.lang||'es';activeUtterance=utterance;read.disabled=true;stop.disabled=false;status.textContent='Preparando lectura con voz reportada local por el navegador…';status.dataset.state='queued';
+   utterance.onstart=()=>{if(epoch===speechEpoch&&activeUtterance===utterance){status.textContent='Leyendo selección con voz reportada local: '+voice.name+'.';status.dataset.state='speaking';}};
+   utterance.onend=()=>{if(epoch!==speechEpoch||activeUtterance!==utterance)return;activeUtterance=null;stop.disabled=true;status.textContent='Lectura finalizada.';status.dataset.state='ended';refreshSpeechControls(conversation);};
+   utterance.onerror=event=>{if(epoch!==speechEpoch||activeUtterance!==utterance)return;activeUtterance=null;stop.disabled=true;status.textContent='La lectura terminó con un error del sintetizador ('+(['canceled','interrupted','audio-busy','audio-hardware','network','synthesis-failed','synthesis-unavailable','language-unavailable','voice-unavailable','text-too-long','invalid-argument','not-allowed'].includes(event.error)?event.error:'error')+').';status.dataset.state='error';refreshSpeechControls(conversation);};
+   window.speechSynthesis.speak(utterance);
+  }catch{activeUtterance=null;stop.disabled=true;status.textContent='No se pudo iniciar la lectura en el dispositivo.';refreshSpeechControls(conversation);}
+ });
+ stop.addEventListener('click',()=>stopSpeech('Lectura detenida por la persona.'));
+ if(!speechListenersInstalled){document.addEventListener('selectionchange',()=>refreshSpeechControls(speechConversation));window.speechSynthesis?.addEventListener?.('voiceschanged',()=>refreshSpeechControls(speechConversation));speechListenersInstalled=true;}
+ queueMicrotask(()=>refreshSpeechControls(conversation));
+}
 async function load(){const r=await fetch('/api/state');if(!r.ok)throw Error('No se pudo leer el almacenamiento');state=await r.json();render();if(state.storageWarning)notify(state.storageWarning,true);}
 async function act(body){const r=await fetch('/api/action',{method:'POST',headers:{'Content-Type':'application/json','X-Cerebro-Token':state.token},body:JSON.stringify({...body,revision:state.revision})});const d=await r.json();if(!r.ok)throw Error(d.error);await load();return d;}
 function action(label,fn,cls){const b=node('button',label,cls);b.type='button';b.onclick=()=>Promise.resolve().then(fn).catch(e=>notify(e.message,true));return b;}
 function matches(x){return JSON.stringify(x).toLocaleLowerCase().includes(query.toLocaleLowerCase());}
-function selectProject(id){selected=id;view='project';query='';$('#search').value='';render();}
-function render(){const projects=state.entities.filter(e=>e.kind==='project');$('#count').textContent=projects.length;const projectNav=$('#projects');projectNav.replaceChildren();for(const p of projects){const button=action(p.title,()=>selectProject(p.id),selected===p.id&&view==='project'?'selected':'');button.classList.add('nav-button','project-button');if(selected===p.id&&view==='project')button.setAttribute('aria-current','page');projectNav.append(button);}for(const [id,route]of [['show-network','network'],['show-shared','shared'],['show-sources','sources'],['show-queue','queue'],['show-tools','tools'],['show-providers','providers'],['show-history','history'],['show-config','config'],['show-transcripts','transcripts']]){const button=$('#'+id),active=view===route;button.classList.toggle('selected',active);if(active)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');}const c=$('#content');c.replaceChildren();
+function selectProject(id){stopSpeech('Lectura detenida al cambiar de proyecto.');selected=id;view='project';query='';$('#search').value='';render();}
+function render(){if(activeUtterance)stopSpeech('Lectura detenida al cambiar de vista.');const projects=state.entities.filter(e=>e.kind==='project');$('#count').textContent=projects.length;const projectNav=$('#projects');projectNav.replaceChildren();for(const p of projects){const button=action(p.title,()=>selectProject(p.id),selected===p.id&&view==='project'?'selected':'');button.classList.add('nav-button','project-button');if(selected===p.id&&view==='project')button.setAttribute('aria-current','page');projectNav.append(button);}for(const [id,route]of [['show-network','network'],['show-shared','shared'],['show-sources','sources'],['show-queue','queue'],['show-tools','tools'],['show-providers','providers'],['show-history','history'],['show-config','config'],['show-transcripts','transcripts']]){const button=$('#'+id),active=view===route;button.classList.toggle('selected',active);if(active)button.setAttribute('aria-current','page');else button.removeAttribute('aria-current');}const c=$('#content');c.replaceChildren();
 if(query){c.append(node('h2','Resultados de búsqueda'));for(const e of state.entities.filter(matches))c.append(card(e));for(const t of state.document.transcripts.filter(matches))c.append(transcriptCard(t));for(const m of (state.document.messages||[]).filter(matches))c.append(messageCard(m));if(c.children.length===1)c.append(node('p','Sin coincidencias.'));return;}
 if(view==='network'){renderNetwork(c);return;}
 if(view==='shared'){c.append(node('h2','Instrucciones compartidas · originales inmutables'));for(const e of state.entities.filter(x=>x.kind==='instruction'&&!x.projectId))c.append(card(e));return;}
@@ -67,7 +123,7 @@ function renderConversationPanel(p,messages){
  const modelState=node('span','Sin modelo conectado','connection-state');header.append(orb,title,modelState);conversation.append(header,node('p','Los mensajes que escribas se conservan vinculados a este proyecto. El cerebro aún no genera respuestas ni ejecuta tareas.','conversation-boundary'));
  const form=node('form',undefined,'message-form'),textarea=node('textarea'),messageKey=attemptKey('message',p.id),messageAttempt=readAttempt('message',p.id),messageAlreadySaved=messageAttempt&&messages.some(m=>m.id===messageAttempt.actionId);textarea.name='message';textarea.rows=3;textarea.maxLength=12000;textarea.required=true;textarea.placeholder='Escribe una nota o una instrucción para guardar en la memoria local…';textarea.setAttribute('aria-label','Mensaje de texto para este proyecto');if(messageAttempt)textarea.value=messageAttempt.text||'';const send=node('button',messageAlreadySaved?'Verificar mensaje ya guardado':messageAttempt?'Reintentar el mismo mensaje':'Guardar en memoria local','primary');send.type='submit';form.append(textarea,send);let messageEdited=false;form.addEventListener('input',()=>{messageEdited=true;if(messageAttempt)send.textContent='Guardar como mensaje nuevo';});if(messageAttempt)form.append(node('p',messageAlreadySaved?'El almacenamiento ya contiene este intento. Comprueba su estado antes de reenviarlo.':'Intento recuperado. Al reintentar se conserva su identidad.','muted'));form.onsubmit=async ev=>{ev.preventDefault();if(form.dataset.busy==='true'||!textarea.value.trim())return;const existing=messageAttempt&&!messageEdited&&messages.find(m=>m.id===messageAttempt.actionId);if(existing){localStorage.removeItem(messageKey);render();notify('El almacenamiento ya contiene este mensaje; se verificó sin reenviarlo.');return;}form.dataset.busy='true';send.disabled=true;const sameAttempt=messageAttempt&&!messageEdited,attempt=sameAttempt?messageAttempt:{actionId:crypto.randomUUID(),idempotencyKey:crypto.randomUUID(),projectId:p.id,text:textarea.value};attempt.text=textarea.value;try{localStorage.setItem(messageKey,JSON.stringify(attempt));const result=await act({action:'message',message:{id:attempt.actionId,projectId:p.id,text:attempt.text}});localStorage.removeItem(messageKey);render();notify(result.duplicate?'Ese mensaje ya estaba guardado; no se duplicó.':'Mensaje guardado en la memoria local de este proyecto.');}catch(e){notify(e.message,true);form.dataset.busy='false';send.disabled=false;}};
  const formFooter=node('p','Sin respuesta generada. Elige un proveedor desde Herramientas cuando exista una conexión real, revisada y activada.','muted');conversation.append(form,formFooter);
- const messageList=node('div',undefined,'message-list');for(const m of [...messages].reverse())messageList.append(messageCard(m));if(!messages.length)messageList.append(node('p','Todavía no hay mensajes guardados para este proyecto.','muted'));conversation.append(messageList,renderVoicePreparation(p.title));return conversation;
+ const messageList=node('div',undefined,'message-list');for(const m of [...messages].reverse())messageList.append(messageCard(m));if(!messages.length)messageList.append(node('p','Todavía no hay mensajes guardados para este proyecto.','muted'));conversation.append(messageList);installSpeechSelectionControls(conversation);conversation.append(renderVoicePreparation(p.title));return conversation;
 }
 function projectMemorySearch(project){
  const section=node('section',undefined,'local-memory-search');section.setAttribute('aria-labelledby','memory-search-title');section.append(node('h3','Consulta estructurada de memoria'));section.querySelector('h3').id='memory-search-title';section.append(node('p','Busca en historial, instrucciones, tareas, evidencia y mensajes vinculados solo a este proyecto. La consulta se procesa en el almacén local: sin IA, embeddings ni llamadas externas.','muted'));
@@ -93,6 +149,7 @@ $('#show-network').onclick=()=>{view='network';query='';$('#search').value='';re
 $('#backup').onclick=()=>act({action:'backup'}).then(d=>notify('Respaldo local creado: '+d.backup)).catch(e=>notify(e.message,true));
 for(const ext of ['json','md'])$('#export-'+ext).onclick=async()=>{try{const r=await fetch('/api/export.'+ext);if(!r.ok)throw Error('Exportación fallida');const url=URL.createObjectURL(await r.blob());const a=node('a');a.href=url;a.download='cerebro-'+new Date().toISOString().slice(0,10)+'.'+ext;a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}catch(e){notify(e.message,true);}};
 $('#import').onchange=async ev=>{const file=ev.target.files[0];if(!file)return;try{if(file.size>8*1024*1024)throw Error('Máximo 8 MiB');let text=await file.text();if(file.name.endsWith('.md')){const m=text.match(/<!-- CEREBRO_JSON_BASE64:([A-Za-z0-9+/=]+) -->/);if(!m)throw Error('Markdown sin carga canónica de Cerebro');text=new TextDecoder().decode(Uint8Array.from(atob(m[1]),c=>c.charCodeAt(0)));}const result=await act({action:'import',document:JSON.parse(text)});notify(`Importación validada: ${result.imported} eventos y ${result.transcriptsImported} fragmentos nuevos.`);}catch(e){notify(e.message,true);}finally{ev.target.value='';}};
+window.addEventListener('pagehide',()=>{speechEpoch++;activeUtterance=null;try{window.speechSynthesis?.cancel();}catch{}});
 load().catch(e=>notify(e.message,true));
 
 const providerCards=[
