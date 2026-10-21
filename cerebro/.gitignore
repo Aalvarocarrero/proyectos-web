@@ -1,17 +1,11 @@
-data/
-*.jsonl
-backups/
-__pycache__/
-*.pyc
-artifacts/
-.env*
-docs/captura-fixture.png
 /data/
 /backups/
 *.jsonl
 *.bin
-docs/captura-fixture.png
+__pycache__/
+*.pyc
+artifacts/
 .env*
-
-# Capturas de verificacion: se entregan en el ZIP/Library, no en el repositorio.
 docs/captura*-fixture.png
+jarvis-ui-preview/node_modules/
+jarvis-ui-preview/dist/
