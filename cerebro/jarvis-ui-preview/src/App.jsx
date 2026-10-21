@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react'
+import LocalChat from './LocalChat.jsx'
 import { Scene } from './scene/Scene.tsx'
 import { createLocalSpeechOutput, getSelectedProjectText, getSpanishLocalVoices } from './localSpeech.js'
 
@@ -187,8 +188,8 @@ function LocalSpeechPanel({ projectId }) {
     <section className="speech-panel" aria-labelledby="speech-title">
       <div className="panel-heading"><div><p className="eyebrow">SALIDA TTS · SELECCIÓN EXPLÍCITA</p><h3 id="speech-title">Lectura en voz alta</h3></div><span className="quiet-indicator">NO GENERA RESPUESTAS</span></div>
       <div className="voice-state-grid" aria-label="Estados independientes de voz y modelo">
-        <p><strong>Entrada STT</strong><span>No disponible · micrófono apagado; no se llama reconocimiento.</span></p>
-        <p><strong>Modelo</strong><span>Desconectado · no hay respuesta de Jarvis que leer.</span></p>
+        <p><strong>Entrada STT</strong><span>Captura puntual en Hablar, si el proyecto tiene permiso. Sin escucha permanente.</span></p>
+        <p><strong>Modelo</strong><span>Qwen3 local · estado y respuestas en el panel de IA del proyecto.</span></p>
         <p><strong>Interrupción</strong><span>Sin escucha activa · Detener cancela solo la lectura.</span></p>
       </div>
       <p className="speech-note">Solo leerá el fragmento que selecciones dentro de un registro de este proyecto. Se listan voces españolas que el navegador declara locales (`localService=true`); esa etiqueta no verifica por sí sola el procesamiento sin conexión.</p>
@@ -202,7 +203,7 @@ function LocalSpeechPanel({ projectId }) {
         <button type="button" disabled={!outputRef.current?.active()} onClick={() => outputRef.current?.stop('Lectura detenida por la persona.')}>Detener lectura</button>
       </div>
       <p className="speech-output-status" data-state={state.state} role="status" aria-live="polite">{!voices.length && supported ? 'Bloqueado: el navegador no ofrece voces españolas con localService=true.' : state.message}</p>
-      <p className="speech-note">La entrada por voz requiere autorización del micrófono y una ruta STT local comprobada. No se solicita permiso ni se captura audio en esta versión.</p>
+      <p className="speech-note">El panel Hablar permite una captura puntual con Whisper local. Se requiere permiso por proyecto y revisar la transcripción.</p>
     </section>
   )
 }
@@ -210,8 +211,8 @@ function LocalSpeechPanel({ projectId }) {
 function ConversationPanel({ project, messages, attempts, busy, onSend, onRetry, messageText, setMessageText, notice }) {
   return (
     <section className="conversation-panel" aria-labelledby="conversation-title">
-      <div className="panel-heading"><div><p className="eyebrow">CONVERSACIÓN LOCAL · TEXTO</p><h2 id="conversation-title">{project.title}</h2></div><span className="quiet-indicator">SIN MODELO</span></div>
-      <p>Los mensajes se guardan en el almacén local y quedan vinculados al ID de este proyecto. Jarvis todavía no genera respuestas.</p>
+      <div className="panel-heading"><div><p className="eyebrow">CONVERSACIÓN LOCAL · TEXTO</p><h2 id="conversation-title">{project.title}</h2></div><span className="quiet-indicator">NOTAS LOCALES</span></div>
+      <p>Los mensajes se guardan en el almacén local y quedan vinculados al ID de este proyecto. Estas son notas; las respuestas de IA se muestran en el panel de conversación Qwen3.</p>
       <ol className="message-list" aria-label={`Mensajes guardados de ${project.title}`} aria-live="polite">
         {messages.map(message => <li key={message.recordId} className="stored-message" data-project-id={project.id}><span className="message-meta">Tú · {new Date(message.at).toLocaleString()}</span><p>{message.content}</p></li>)}
         {!messages.length && <li className="message-empty">Aún no hay mensajes guardados en este proyecto.</li>}
@@ -373,14 +374,14 @@ export default function App() {
         <span className="preview-label"><i aria-hidden="true" />ALMACÉN LOCAL · {projects.length} PROYECTOS</span>
       </header>
       <section className="intro" aria-labelledby="page-title">
-        <div className="reactor-card"><Scene /><span className="reactor-caption">NÚCLEO VISUAL · SIN INFERENCIA</span></div>
+        <div className="reactor-card"><Scene /><span className="reactor-caption">NÚCLEO VISUAL · IA LOCAL OPCIONAL</span></div>
         <div className="intro-copy">
           <p className="eyebrow">CONTINUIDAD POR IDENTIDAD DE PROYECTO</p>
           <h1 id="page-title">Jarvis, en el centro.<br /><span>La memoria, local y conectada.</span></h1>
           <p className="lede">El mapa y cada panel leen los proyectos guardados en el servidor local. Escribir una nota requiere pulsar Guardar; su intento queda identificable para recuperar un corte.</p>
           <div className="capability-row" aria-label="Capacidades reales de esta vista">
-            <span className="status-pill">Memoria local conectada</span><span className="status-pill">Sin modelo conectado</span>
-            <span className="status-pill">Micrófono apagado</span><span className="status-pill">Ejecución no integrada</span>
+            <span className="status-pill">Memoria local conectada</span><span className="status-pill">Qwen3 local · permiso por proyecto</span>
+            <span className="status-pill">Micrófono solo al pulsar Hablar</span><span className="status-pill">Ejecución no integrada</span>
           </div>
         </div>
       </section>
@@ -394,11 +395,12 @@ export default function App() {
           <Network projects={projects} selectedId={selectedId} onSelect={selectProject} />
         </section>
         <div className="detail-stack">
+          <LocalChat key={project.id} project={project} />
           <MemoryPanel project={project} memory={memory?.projectId === project.id ? memory : null} loading={loadingMemory} query={searchText} setQuery={setSearchText} type={type} setType={setType} onSearch={onSearch} />
           <ConversationPanel project={project} messages={messages} attempts={attempts} busy={busy} onSend={onSend} onRetry={onRetry} messageText={messageText} setMessageText={setMessageText} notice={messageNotice} />
         </div>
       </section>}
-      <footer className="footer-note">Jarvis visual conectado a Cerebro · memoria local filtrada por ID · sin proveedores ni ejecución automática.</footer>
+      <footer className="footer-note">Jarvis visual conectado a Cerebro · memoria local filtrada por ID · IA local opcional · sin ejecución automática.</footer>
     </main>
   )
 }

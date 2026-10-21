@@ -170,7 +170,7 @@ class Store:
             entities=validate_document(self.doc); project=entities.get(project_id)
             if not project or project['kind']!='project': raise KeyError('Proyecto inexistente')
             rows=[]; transcript_ids=set()
-            related_events=[event for event in self.doc['events'] if event['entity']['id']==project_id or event['entity']['projectId']==project_id]
+            related_events=[event for event in self.doc['events'] if event['entity']['id']==project_id or event['entity']['projectId']==project_id or (project_id=='cerebro-contexto-general' and not event['entity']['projectId'] and event['entity']['kind']=='instruction')]
             for event in related_events:
                 entity=event['entity']
                 rows.append({'id':event['id'],'recordId':entity['id'],'type':entity['kind'],'source':'historial append-only','at':event['at'],'title':entity['title'],'content':entity['body'],'status':entity['status'],'priority':entity['priority'],'nextAction':entity['nextAction'],'operation':event['op'],'evidence':list(event['evidence'])})
@@ -317,7 +317,7 @@ def markdown(doc):
     lines += ['', '<!-- CEREBRO_JSON_BASE64:'+base64.b64encode(json.dumps(doc,ensure_ascii=False).encode()).decode()+' -->']
     return '\n'.join(lines)
 
-def handler(store,token):
+def handler(store,token,local_chat=None):
     class Handler(BaseHTTPRequestHandler):
         def log_message(self,*args): pass
         def send(self,status,data,ctype='application/json; charset=utf-8'):
@@ -331,6 +331,11 @@ def handler(store,token):
             if not self.permitted(): return self.send(403,{'error':'Host no permitido'})
             from urllib.parse import parse_qs,unquote,urlsplit
             parsed=urlsplit(self.path); path=parsed.path
+            chat_route=re.fullmatch(r'/api/local-chat/([^/]+)',path)
+            if chat_route:
+                if local_chat is None:return self.send(503,{'error':'Modelo local no habilitado en este servidor'})
+                try:return self.send(200,local_chat.view(unquote(chat_route.group(1))))
+                except ValueError as e:return self.send(400,{'error':str(e)})
             if path=='/api/session':
                 return self.send(200,{'token':token})
             if path=='/api/projects':
@@ -368,6 +373,34 @@ def handler(store,token):
             filename,ctype=files[path]; return self.send(200,(ROOT/filename).read_bytes(),ctype+'; charset=utf-8')
         def do_POST(self):
             if not self.permitted() or self.headers.get('X-Cerebro-Token')!=token:return self.send(403,{'error':'Origen o token no permitido'})
+            from urllib.parse import urlsplit,unquote
+            voice_route=re.fullmatch(r'/api/local-chat/([^/]+)/transcribe',urlsplit(self.path).path)
+            if voice_route:
+                if local_chat is None:return self.send(503,{'error':'Asistente local no habilitado'})
+                try:
+                    from local_transcription import MAX_AUDIO_BYTES
+                    require(self.headers.get('X-Cerebro-Audio-Consent')=='one-shot','Se requiere captura puntual autorizada')
+                    require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='audio/wav','Se requiere WAV')
+                    require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
+                    size=int(self.headers.get('Content-Length','0'));require(44<=size<=MAX_AUDIO_BYTES,'Audio demasiado grande o vacío')
+                    return self.send(200,local_chat.transcribe(unquote(voice_route.group(1)),self.rfile.read(size)))
+                except (ValueError,TypeError,KeyError) as e:return self.send(400,{'error':str(e)})
+            if self.path in ['/api/local-chat/permission','/api/local-chat/voice-permission','/api/local-chat/send']:
+                if local_chat is None:return self.send(503,{'error':'Modelo local no habilitado en este servidor'})
+                try:
+                    require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','JSON requerido')
+                    require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
+                    size=int(self.headers.get('Content-Length','0'));require(0<size<=32768,'Carga inválida')
+                    body=json.loads(self.rfile.read(size))
+                    if self.path.endswith('/permission') or self.path.endswith('/voice-permission'):
+                        require(isinstance(body,dict) and set(body)=={'projectId','enabled'},'Campos incorrectos')
+                        result=(local_chat.voice_permission if self.path.endswith('/voice-permission') else local_chat.permission)(body['projectId'],body['enabled'])
+                    else:
+                        require(isinstance(body,dict) and {'projectId','id','text'}<=set(body) and set(body)<={'projectId','id','text','useMemory','source','transcriptConfirmed'},'Campos incorrectos')
+                        result=local_chat.send(body['projectId'],body['id'],body['text'],body.get('useMemory',False),body.get('source','typed_text'),body.get('transcriptConfirmed',False))
+                    return self.send(200,result)
+                except (ValueError,TypeError,KeyError) as e:return self.send(400,{'error':str(e)})
+                except OSError:return self.send(500,{'error':'Escritura incierta. Revise el diario antes de reintentar.'})
             if self.path=='/api/messages':
                 try:
                     require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','Content-Type application/json requerido')
@@ -401,7 +434,7 @@ def handler(store,token):
     return Handler
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); args=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); p.add_argument('--local-model',action='store_true'); p.add_argument('--whisper-cli'); p.add_argument('--whisper-model'); args=p.parse_args()
     data_path=Path(args.data_dir); data_path.mkdir(parents=True,exist_ok=True,mode=0o700)
     # A process lock prevents two independent writers sharing this data directory.
     import fcntl
@@ -409,7 +442,15 @@ def main():
     try: fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
     except BlockingIOError: raise SystemExit('Otro servidor ya usa este directorio de datos.')
     store=Store(args.data_dir)
-    server=ThreadingHTTPServer(('127.0.0.1',args.port),handler(store,secrets.token_urlsafe(32)))
+    local_chat=None
+    if args.local_model:
+        from ollama_runtime import LocalChat
+        transcriber=None
+        if args.whisper_cli and args.whisper_model:
+            from local_transcription import LocalTranscriber
+            transcriber=LocalTranscriber(args.whisper_cli,args.whisper_model)
+        local_chat=LocalChat(store,transcriber=transcriber)
+    server=ThreadingHTTPServer(('127.0.0.1',args.port),handler(store,secrets.token_urlsafe(32),local_chat))
     print(f'Cerebro disponible en http://127.0.0.1:{server.server_port} · datos: {store.path}',flush=True)
     try: server.serve_forever()
     except KeyboardInterrupt: pass

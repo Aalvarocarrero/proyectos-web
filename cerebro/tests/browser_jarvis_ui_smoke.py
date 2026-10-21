@@ -67,10 +67,10 @@ with tempfile.TemporaryDirectory() as data:
             assert "Secreto ficticio de aislamiento Boreal." not in page.locator(".memory-records").inner_text()
             assert page.locator(".network-project").count()==2
             assert page.get_by_text("ALMACÉN REAL",exact=True).count()==1
-            assert page.get_by_text("Sin modelo conectado",exact=True).count()==1
+            assert page.get_by_text("Qwen3 local · permiso por proyecto",exact=True).count()==1
             assert page.get_by_text("Entrada STT",exact=True).count()==1
             assert "Sin escucha activa" in page.locator(".speech-panel").inner_text()
-            assert "no hay respuesta de Jarvis que leer" in page.locator(".speech-panel").inner_text()
+            assert "estado y respuestas en el panel de IA" in page.locator(".speech-panel").inner_text()
             assert page.locator("#jarvis-local-voice option").count()==1
             assert "Voz remota excluida" not in page.locator("#jarvis-local-voice").inner_text()
             assert "English local excluded" not in page.locator("#jarvis-local-voice").inner_text()

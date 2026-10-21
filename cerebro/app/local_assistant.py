@@ -24,6 +24,7 @@ class LocalModelConfig:
     enabled: bool = False
     endpoint: str | None = None
     credential_env: str | None = None
+    voice_runtime_enabled: bool = False
 
 
 def default_local_model_config() -> LocalModelConfig:
@@ -190,6 +191,7 @@ class AssistantGateway:
         text: str,
         locale: str = VOICE_LOCALE,
         source: str = "typed_text",
+        transcript_confirmed: bool = False,
     ) -> ModelReply:
         if not self.config.enabled:
             raise AssistantError("model_disconnected", "El modelo local está desactivado.")
@@ -200,7 +202,8 @@ class AssistantGateway:
         permission = resolve_project_permissions(project_id, self.grants)
         if not permission.local_model or permission.external_provider:
             raise AssistantError("model_forbidden", "El uso del modelo no está autorizado en este proyecto.")
-        if source != "typed_text" or locale != VOICE_LOCALE:
+        voice_ready = (source == "confirmed_transcript" and self.config.voice_runtime_enabled and permission.voice_input and transcript_confirmed is True)
+        if (source != "typed_text" and not voice_ready) or locale != VOICE_LOCALE:
             if source == "confirmed_transcript":
                 raise AssistantError("voice_not_integrated", "La entrada de voz aún no está conectada al modelo.")
             raise AssistantError("invalid_request", "La solicitud debe ser texto del proyecto en español es-ES.")
