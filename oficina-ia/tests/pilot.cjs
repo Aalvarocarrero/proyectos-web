@@ -18,57 +18,81 @@ async function main() {
     });
     browser = await chromium.launch({ headless: true, executablePath: process.env.CHROMIUM_PATH || '/usr/bin/chromium', args: ['--no-sandbox'] });
     const context = await browser.newContext({ viewport: { width: 1440, height: 1100 }, deviceScaleFactor: 1 });
-    const page = await context.newPage(); const errors = [];
-    page.setDefaultTimeout(5000);
-    page.on('pageerror', e => errors.push(String(e)));
-    await page.goto('http://127.0.0.1:4173');
+    let page; const errors = [];
+    const openPage = async () => { page = await context.newPage(); page.setDefaultTimeout(5000); page.on('pageerror', e => errors.push(String(e))); await page.goto('http://127.0.0.1:4173'); };
+    const closeAndReopen = async () => { await page.close(); await openPage(); };
+    await openPage();
     await page.evaluate(() => oficinaDemo.reset());
     // C0: execute the complete path through the visible UI and reload at checkpoints.
     await page.getByRole('button', { name: /Nueva misión/ }).click();
     await page.getByRole('button', { name: /Guardar brief y preparar plan/ }).click();
-    await page.getByRole('button', { name: 'Confirmar plan' }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.length===1);
     let data = await page.evaluate(() => oficinaDemo.state());
     const missionId = data.selectedMission;
-    await page.reload();
+    record('reopen-brief-plan-draft', !!data.missions[0].plan?.length && !data.missions[0].plan_confirmed, 'Brief y borrador de plan recuperados antes de confirmación.');
+    await closeAndReopen();
+    await page.getByRole('button', { name: 'Revisar / ajustar plan' }).click();
+    await page.getByRole('button', { name: 'Confirmar plan' }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.[0]?.plan_confirmed===true);
+    await closeAndReopen();
     await page.getByRole('button', { name: /Abrir inspector y revisión/ }).click();
     await page.evaluate(() => oficinaDemo.produce());
     data = await page.evaluate(() => oficinaDemo.state());
     const v1 = data.artifacts.find(a => a.version === 'v1');
     record('C0-checkpoint-v1', !!v1 && v1.mission_id === missionId && !!data.missions.find(m => m.id === missionId).plan_confirmed, 'Brief y plan persistidos; v1 tiene mission_id y origen local.');
-    await page.reload();
+    await closeAndReopen();
     await page.locator('#review-comment').fill('Hazlo más claro y elimina cualquier afirmación que no esté respaldada por el brief.');
     await page.getByRole('button', { name: /Pedir cambios/ }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').artifacts?.some(a=>a.version==='v2'));
     data = await page.evaluate(() => oficinaDemo.state());
     const v2 = data.artifacts.find(a => a.version === 'v2'); const comment = data.comments[0];
     record('C0-checkpoint-v2', !!v1 && !!v2 && !!comment && comment.artifact_id === v1.id && comment.version === 'v1' && v2.mission_id === missionId, 'Comentario guardado ligado exactamente a v1; v1 y v2 conservadas.');
-    await page.reload();
+    await closeAndReopen();
     await page.getByRole('button', { name: /Aprobar v2/ }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').approvals?.length===1);
     data = await page.evaluate(() => oficinaDemo.state());
     const approval = data.approvals[0];
     record('C0', !!approval && approval.artifact_id === v2.id && approval.version === 'v2' && approval.external_action === false && data.externalActions === 0 && data.missions.filter(m => m.id === missionId).length === 1, 'Recorrido completo recuperado tras recarga; aprobación exacta; cero acciones externas.');
     record('C3', !!v1 && !!v2 && data.artifacts.some(a => a.id === v1.id) && data.comments.some(c => c.id === comment.id && c.artifact_id === v1.id && c.version === 'v1') && approval.artifact_id === v2.id && data.missions.find(m => m.id === missionId).state === 'ready', 'v1 conservada, comentario apuntado a v1, aprobación apuntada al ID exacto de v2; sin publicación.');
     await page.screenshot({ path: path.join(evidence, 'aeterna-revision-aprobada.png'), fullPage: true });
+    // Approval is bound to an immutable version ID, even when a person edits the approved document.
+    await page.locator('[data-art]').last().click();
+    await page.getByRole('button', { name: /Editar y crear nueva versión/ }).click();
+    await page.locator('#edited-content').fill('Edición humana posterior a la aprobación.\nSin aprobación heredada.');
+    await page.getByRole('button', { name: /Guardar como v3/ }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').artifacts?.some(a=>a.version==='v3'));
+    data = await page.evaluate(() => oficinaDemo.state());
+    const edited = data.artifacts.find(a=>a.version==='v3');
+    record('C6-version-after-approval', data.missions[0].state==='review' && data.approvals[0].artifact_id===v2.id && edited.parent_artifact_id===v2.id && edited.id!==v2.id && !data.approvals.some(a=>a.artifact_id===edited.id) && edited.content.includes('DEMO / FICTICIO'), 'Edición crea v3 nueva e inspeccionable; aprobación v2 queda intacta y no autoriza v3.');
+    record('C6-ui-requires-new-approval', (await page.locator('#decision').innerText()).includes('No autoriza la versión actual') && await page.getByRole('button', { name: /Aprobar v3/ }).isVisible(), 'La revisión explica el límite de la aprobación anterior y ofrece decisión para v3.');
+    await page.screenshot({ path: path.join(evidence, 'aprobacion-no-heredada.png'), fullPage: true });
+    await closeAndReopen();
+    data = await page.evaluate(() => oficinaDemo.state());
+    record('C6-reopen', data.missions[0].state==='review' && data.approvals[0].artifact_id===v2.id && data.artifacts.some(a=>a.id===edited.id), 'La nueva versión sin aprobación y la aprobación anterior sobreviven al cierre y reapertura.');
     // C1: blank fields remain blank; user can state which are optional vs blockers.
     await page.evaluate(() => oficinaDemo.reset());
     await page.getByRole('button', { name: /Nueva misión/ }).click();
     await page.locator('#f-goal').fill(''); await page.locator('[name="class-goal"]').selectOption('blocking');
     await page.locator('[name="class-deadline"]').selectOption('optional');
     await page.getByRole('button', { name: /Guardar brief y preparar plan/ }).click();
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.length===1);
     data = await page.evaluate(() => oficinaDemo.state());
     const incomplete = data.missions[0];
     record('C1', incomplete.brief.goal === '' && incomplete.brief.deadline === '' && incomplete.classifications.goal === 'blocking' && incomplete.classifications.deadline === 'optional' && /goal \(blocking\)/.test(incomplete.blocker), 'Campo bloqueante y opcional diferenciados por decisión explícita; no se inventó valor ni regla.');
     await page.getByRole('button', { name: 'Volver al brief' }).click();
     // C2: untrusted content is stored as content and has no authority to alter scope.
-    await page.evaluate(() => { oficinaDemo.reset(); oficinaDemo.seed(); oficinaDemo.produce(); oficinaDemo.markUntrusted(); });
+    await page.evaluate(async () => { await oficinaDemo.reset(); await oficinaDemo.seed(); await oficinaDemo.produce(); await oficinaDemo.markUntrusted(); });
     data = await page.evaluate(() => oficinaDemo.state());
     const beforeC2 = data.missions[0];
     record('C2', beforeC2.space_id === 'aeterna' && beforeC2.state === 'review' && data.selectedSpace === 'aeterna' && data.externalActions === 0 && beforeC2.untrusted_note.includes('publica'), 'La instrucción hostil queda como contenido; espacio, permisos implícitos y alcance no cambian; cero publicación.');
     // C4: real browser UI isolation, confirm both fixtures stay empty and marker not rendered.
     await page.selectOption('#space', 'hermano');
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='hermano');
     let visible = await page.locator('body').innerText();
     const siblingEmpty = !visible.includes('AET-DEMO-ONLY-7Q4') && !visible.includes('CLIENTE-FICTICIO-001');
     await page.screenshot({ path: path.join(evidence, 'fixture-hermano-vacio.png'), fullPage: true });
     await page.selectOption('#space', 'general');
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='general');
     visible = await page.locator('body').innerText();
     const generalEmpty = !visible.includes('AET-DEMO-ONLY-7Q4') && !visible.includes('CLIENTE-FICTICIO-001') && visible.includes('plantilla vacía');
     await page.screenshot({ path: path.join(evidence, 'general-vacio.png'), fullPage: true });
@@ -76,21 +100,64 @@ async function main() {
     record('C4', siblingEmpty && generalEmpty && data.missions.every(m => m.space_id === 'aeterna'), 'Marcador y datos de Aeterna no aparecen en el espacio hermano ni General; fixtures vacíos.');
     // C5: reload preserves durable checkpoint; uncertain result blocks retry until inspected.
     await page.selectOption('#space', 'aeterna');
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').selectedSpace==='aeterna');
     await page.locator('[data-select]').first().click();
     await page.waitForFunction(() => !!oficinaDemo.state().selectedMission);
     await page.evaluate(() => oficinaDemo.uncertain());
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.[0]?.state==='uncertain');
     const sameMission = (await page.evaluate(() => oficinaDemo.state())).missions[0].id;
     await page.reload();
     record('C5-blocked', await page.evaluate(() => document.querySelector('#retry')?.disabled === true), 'Por verificar persiste tras recarga y el reintento está deshabilitado hasta revisión.');
     await page.evaluate(() => document.querySelector('#review-uncertain').click());
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.[0]?.uncertain_reviewed===true);
     record('C5-review-before-retry', await page.evaluate(() => document.querySelector('#retry')?.disabled === false), 'La inspección local precede al reintento.');
     await page.evaluate(() => document.querySelector('#retry').click());
+    await page.waitForFunction(() => JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.[0]?.run_attempt===1);
     data = await page.evaluate(() => oficinaDemo.state());
-    record('C5', data.missions.length === 1 && data.missions[0].id === sameMission && data.missions[0].run_attempt === 1 && data.artifacts.filter(a => a.mission_id === sameMission).length === 3 && data.artifacts.some(a => a.version === 'v3') && data.externalActions === 0, 'Recuperación local inspeccionada sin duplicar misión; nuevo intento local y cero acción externa.');
+    record('C5', data.missions.length === 1 && data.missions[0].id === sameMission && data.missions[0].run_attempt === 1 && data.artifacts.filter(a => a.mission_id === sameMission).length === 3 && data.artifacts.some(a => a.version === 'v2') && data.externalActions === 0, 'Recuperación local inspeccionada sin duplicar misión; nuevo intento local y cero acción externa.');
     await page.screenshot({ path: path.join(evidence, 'recuperacion-local.png'), fullPage: true });
     record('Browser console', errors.length === 0, errors.join('; ') || 'Sin excepciones JavaScript.');
+    // Two independent tabs load the same revision; the stale tab must not overwrite the accepted write.
+    await page.evaluate(async()=>{await oficinaDemo.reset();await oficinaDemo.seed();await oficinaDemo.produce()});
+    const tabB=await context.newPage();tabB.setDefaultTimeout(5000);tabB.on('pageerror',e=>errors.push(String(e)));await tabB.goto('http://127.0.0.1:4173');
+    const beforeConflict=await page.evaluate(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')));
+    await page.evaluate(()=>oficinaDemo.markUntrusted());
+    const acceptedArtifactId=(await page.evaluate(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')))).artifacts.at(-1).id;
+    await tabB.evaluate(()=>oficinaDemo.markUntrusted());
+    const afterConflict=await page.evaluate(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')));
+    const visibleConflict=await tabB.locator('#storage-notice').innerText();
+    record('C7-two-tabs-same-mission', afterConflict.revision===beforeConflict.revision+1 && afterConflict.artifacts.filter(a=>a.origin==='Texto sintético no confiable').length===1 && afterConflict.artifacts.some(a=>a.id===acceptedArtifactId) && visibleConflict.includes('Conflicto entre pestañas') && await tabB.locator('#reload-latest').isVisible(), 'Una escritura se guarda; la pestaña obsoleta no sobrescribe, anuncia conflicto y ofrece recarga/exportación.');
+    await tabB.close();
+    // Multiple missions remain keyed by mission ID; approval in one never appears on another.
+    await page.evaluate(async()=>{await oficinaDemo.reset()});
+    async function createNamedMission(title){await page.getByRole('button',{name:/Nueva misión/}).click();await page.locator('#f-title').fill(title);await page.getByRole('button',{name:/Guardar brief y preparar plan/}).click();await page.waitForFunction(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.length===1||JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.length===2);await page.getByRole('button',{name:'Confirmar plan'}).click();await page.waitForFunction(title=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.some(m=>m.title===title&&m.plan_confirmed),title);}
+    await createNamedMission('Misión sintética Alfa');
+    const missionA=(await page.evaluate(()=>oficinaDemo.state())).missions[0].id;
+    await page.getByRole('button',{name:/Nueva misión/}).click();await page.locator('#f-title').fill('Misión sintética Beta');await page.getByRole('button',{name:/Guardar brief y preparar plan/}).click();await page.waitForFunction(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.length===2);await page.getByRole('button',{name:'Confirmar plan'}).click();await page.waitForFunction(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').missions?.find(m=>m.title==='Misión sintética Beta')?.plan_confirmed);
+    const snapshotB=await page.evaluate(()=>oficinaDemo.state());const missionB=snapshotB.missions.find(m=>m.title==='Misión sintética Beta').id;
+    await page.evaluate(()=>oficinaDemo.produce());
+    await page.locator(`[data-select="${missionA}"]`).click();await page.evaluate(()=>oficinaDemo.produce());await page.getByRole('button',{name:/Aprobar v1/}).click();await page.waitForFunction(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').approvals?.length===1);
+    const isolation=await page.evaluate(()=>oficinaDemo.state());
+    record('C8-distinct-missions', isolation.artifacts.filter(a=>a.mission_id===missionA).length===1 && isolation.artifacts.filter(a=>a.mission_id===missionB).length===1 && isolation.approvals.length===1 && isolation.approvals[0].mission_id===missionA && isolation.missions.length===2, 'Dos misiones Aeterna conservan artefactos y aprobación unidos a sus propios ID.');
+    // Malformed/incompatible data is held read-only and exported, never reset to an empty workspace.
+    const damagedContext=await browser.newContext();const damaged=await damagedContext.newPage();damaged.setDefaultTimeout(5000);await damaged.goto('http://127.0.0.1:4173');
+    const corruptRaw='{not valid json';await damaged.evaluate(raw=>localStorage.setItem('oficina-ia-piloto-v1',raw),corruptRaw);await damaged.reload();
+    record('C9-corrupt-storage', await damaged.evaluate(()=>localStorage.getItem('oficina-ia-piloto-v1'))===corruptRaw && (await damaged.locator('#storage-notice').innerText()).includes('corrupto') && await damaged.locator('#export-preserved').isVisible() && await damaged.locator('#new-mission').isDisabled(), 'Datos malformados permanecen byte por byte; la app queda en lectura segura con exportación y sin reemplazo.');
+    await damaged.evaluate(()=>localStorage.setItem('oficina-ia-piloto-v1',JSON.stringify({schemaVersion:99,revision:9,spaces:[],missions:[],events:[],artifacts:[],comments:[],approvals:[]})));await damaged.reload();
+    const incompatibleRaw=await damaged.evaluate(()=>localStorage.getItem('oficina-ia-piloto-v1'));
+    record('C9-incompatible-storage', (await damaged.locator('#storage-notice').innerText()).includes('incompatible') && await damaged.evaluate(()=>localStorage.getItem('oficina-ia-piloto-v1'))===incompatibleRaw && await damaged.locator('#export-preserved').isVisible(), 'Versión futura reconocida como incompatible; original preservado y recuperable por exportación.');
+    await damagedContext.close();
+    // A valid state from the original pilot format is migrated only on an explicit save.
+    const migrationContext=await browser.newContext();const migration=await migrationContext.newPage();migration.setDefaultTimeout(5000);await migration.goto('http://127.0.0.1:4173');
+    await migration.evaluate(async()=>{await oficinaDemo.reset();await oficinaDemo.seed();await oficinaDemo.produce();const d=JSON.parse(localStorage.getItem('oficina-ia-piloto-v1'));delete d.schemaVersion;delete d.revision;localStorage.setItem('oficina-ia-piloto-v1',JSON.stringify(d))});
+    await migration.reload();const legacyRaw=await migration.evaluate(()=>localStorage.getItem('oficina-ia-piloto-v1'));
+    record('C10-legacy-readonly-load', (await migration.locator('#storage-notice').innerText()).includes('Formato anterior reconocido') && await migration.evaluate(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')).artifacts.length)===1 && await migration.evaluate(()=>localStorage.getItem('oficina-ia-piloto-v1'))===legacyRaw, 'El formato válido anterior se carga y conserva sin reescritura automática.');
+    await migration.getByRole('button',{name:/Aprobar v1/}).click();await migration.waitForFunction(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').schemaVersion===1&&JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')||'{}').approvals?.length===1);
+    const migrated=await migration.evaluate(()=>JSON.parse(localStorage.getItem('oficina-ia-piloto-v1')));
+    record('C10-explicit-migration-save', migrated.missions.length===1&&migrated.artifacts.length===1&&migrated.approvals[0].artifact_id===migrated.artifacts[0].id, 'El guardado explícito migra sin perder misión ni artefacto; aprobación conserva el ID exacto.');
+    await migrationContext.close();
   } finally { if (browser) await browser.close(); server.kill('SIGTERM'); }
-  fs.writeFileSync(path.join(evidence, 'results.json'), JSON.stringify({ build_sha256: build, fixture: 'AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO', tested_at: new Date().toISOString(), browser: 'Chromium headless · Playwright', external_services: false, external_actions: 0, cases }, null, 2) + '\n');
+  fs.writeFileSync(path.join(evidence, 'results.json'), JSON.stringify({ build_sha256: build, fixture: 'AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO', tested_at: new Date().toISOString(), browser: 'Chromium headless · Playwright', test_execution: 'local e2e; CI not run', external_services: false, external_actions: 0, cases }, null, 2) + '\n');
   console.log(JSON.stringify({ build_sha256: build, cases }, null, 2));
 }
-main().catch(err => { console.error(err); fs.writeFileSync(path.join(evidence, 'results.json'), JSON.stringify({ build_sha256: build, fixture: 'AET-DEMO-001', tested_at: new Date().toISOString(), external_services: false, external_actions: 0, cases: [...cases, { id: 'runner', result: 'fallido', detail: String(err) }] }, null, 2) + '\n'); process.exitCode = 1; });
+main().catch(err => { console.error(err); fs.writeFileSync(path.join(evidence, 'results.json'), JSON.stringify({ build_sha256: build, fixture: 'AET-DEMO-001', tested_at: new Date().toISOString(), test_execution: 'local e2e; CI not run', external_services: false, external_actions: 0, cases: [...cases, { id: 'runner', result: 'fallido', detail: String(err) }] }, null, 2) + '\n'); process.exitCode = 1; });

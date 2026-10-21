@@ -1,11 +1,17 @@
 {
-  "build_sha256": "88c88c2fe440c2c19f80a2b70977c8e52321f8822a58c8f663dadaf487f336e2",
+  "build_sha256": "6b2d1dec49d9e58164b1d5f7dc584a600eb2bf2d569ae12f2d9bde4487bab0c0",
   "fixture": "AET-DEMO-001 · CLIENTE-FICTICIO-001 · PRODUCTO-DEMO-001 · AUDIENCIA-FICTICIA-001 · CANAL-SIMULADO",
-  "tested_at": "2026-10-20T21:27:13.060Z",
+  "tested_at": "2026-10-21T00:08:49.771Z",
   "browser": "Chromium headless · Playwright",
+  "test_execution": "local e2e; CI not run",
   "external_services": false,
   "external_actions": 0,
   "cases": [
+    {
+      "id": "reopen-brief-plan-draft",
+      "result": "aprobado",
+      "detail": "Brief y borrador de plan recuperados antes de confirmación."
+    },
     {
       "id": "C0-checkpoint-v1",
       "result": "aprobado",
@@ -25,6 +31,21 @@
       "id": "C3",
       "result": "aprobado",
       "detail": "v1 conservada, comentario apuntado a v1, aprobación apuntada al ID exacto de v2; sin publicación."
+    },
+    {
+      "id": "C6-version-after-approval",
+      "result": "aprobado",
+      "detail": "Edición crea v3 nueva e inspeccionable; aprobación v2 queda intacta y no autoriza v3."
+    },
+    {
+      "id": "C6-ui-requires-new-approval",
+      "result": "aprobado",
+      "detail": "La revisión explica el límite de la aprobación anterior y ofrece decisión para v3."
+    },
+    {
+      "id": "C6-reopen",
+      "result": "aprobado",
+      "detail": "La nueva versión sin aprobación y la aprobación anterior sobreviven al cierre y reapertura."
     },
     {
       "id": "C1",
@@ -60,6 +81,36 @@
       "id": "Browser console",
       "result": "aprobado",
       "detail": "Sin excepciones JavaScript."
+    },
+    {
+      "id": "C7-two-tabs-same-mission",
+      "result": "aprobado",
+      "detail": "Una escritura se guarda; la pestaña obsoleta no sobrescribe, anuncia conflicto y ofrece recarga/exportación."
+    },
+    {
+      "id": "C8-distinct-missions",
+      "result": "aprobado",
+      "detail": "Dos misiones Aeterna conservan artefactos y aprobación unidos a sus propios ID."
+    },
+    {
+      "id": "C9-corrupt-storage",
+      "result": "aprobado",
+      "detail": "Datos malformados permanecen byte por byte; la app queda en lectura segura con exportación y sin reemplazo."
+    },
+    {
+      "id": "C9-incompatible-storage",
+      "result": "aprobado",
+      "detail": "Versión futura reconocida como incompatible; original preservado y recuperable por exportación."
+    },
+    {
+      "id": "C10-legacy-readonly-load",
+      "result": "aprobado",
+      "detail": "El formato válido anterior se carga y conserva sin reescritura automática."
+    },
+    {
+      "id": "C10-explicit-migration-save",
+      "result": "aprobado",
+      "detail": "El guardado explícito migra sin perder misión ni artefacto; aprobación conserva el ID exacto."
     }
   ]
 }
