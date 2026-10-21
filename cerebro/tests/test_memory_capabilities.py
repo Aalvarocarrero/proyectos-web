@@ -69,8 +69,11 @@ class CapabilityRegistryTests(unittest.TestCase):
     def test_catalog_states_are_truthful_and_do_not_claim_live_voice_or_execution(self):
         result = catalog()
         states = {tool['id']: tool['state'] for tool in result['tools']}
+        self.assertEqual(states['jarvis-local-interface'], 'probado_localmente')
         self.assertEqual(states['project-memory'], 'probado_localmente')
         self.assertEqual(states['provider-adapters'], 'preparado_sin_configurar')
+        self.assertEqual(states['local-assistant-port'], 'preparado_sin_configurar')
+        self.assertIn('desconectado', next(t for t in result['tools'] if t['id']=='local-assistant-port')['label'].lower())
         self.assertEqual(states['provider-simulation'], 'simulado')
         self.assertEqual(states['provider-live'], 'desactivado')
         self.assertEqual(states['voice'], 'pendiente')

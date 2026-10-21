@@ -1,25 +1,34 @@
-# Vista aislada Jarvis
+# Interfaz Jarvis conectada al cerebro local
 
-`jarvis-ui-preview/` es una exploración visual local, separada de la aplicación principal y del almacén de usuario. Combina un orbe de partículas, mapa radial de proyectos ficticios, lista accesible y panel de memoria sintética. Seleccionar un nodo solo cambia el fixture en memoria del navegador. La vista no lee ni escribe el diario de Cerebro, no guarda en `localStorage`, no llama APIs, no conecta un proveedor y no ejecuta tareas.
+La vista Jarvis ya consulta el almacén local del proyecto por medio de la misma aplicación Cerebro. Desde el menú **Interfaz Jarvis** o en `http://127.0.0.1:8765/jarvis/`, muestra el catálogo reducido de proyectos, abre la memoria del ID elegido, permite buscar dentro de ese proyecto y representa registros originales, decisiones, tareas, bloqueos, checkpoints, evidencia y mensajes.
 
-## Arranque local
+La lista no descarga todos los cuerpos: `/api/projects` devuelve solo ID, título, estado, prioridad y siguiente acción; `/api/projects/{id}/memory` devuelve los registros del único ID indicado. La conversación ofrece guardado de notas de texto mediante una acción explícita del usuario. El servidor valida el token local, estado del proyecto y esquema; los mensajes se anexan al diario y sobreviven reinicios. La UI registra cada intento en el navegador antes del POST, conserva su ID tras error y, si se recarga, compara el ID con el almacén antes de permitir un reintento manual. No genera respuestas, no habla con modelos y no ejecuta tareas.
 
-Requiere Node.js 22.19 o posterior y npm. Desde la carpeta del Cerebro:
+## Arranque en Mac o entorno local
+
+El ZIP portable incluye los assets compilados bajo `jarvis-ui-preview/dist`; inicia Cerebro con:
 
 ```sh
-cd jarvis-ui-preview
-npm install
-npm run dev
+python3 app/server.py
 ```
 
-Abre la dirección local que muestra Vite, normalmente `http://127.0.0.1:5173`. La primera instalación obtiene las dependencias del registro npm; después puede iniciarse sin contactar servicios de IA. Para validar una build estática usa `npm run build`. La prueba de navegador está en `tests/browser_jarvis_ui_smoke.py` y usa el Chromium/Playwright ya disponible en el entorno de desarrollo.
+Abre `http://127.0.0.1:8765` y entra por **Interfaz Jarvis**, o visita directamente `http://127.0.0.1:8765/jarvis/`. En una clonación de código que no contenga `dist`, prepara los assets desde la carpeta `jarvis-ui-preview` con Node.js 22.19 o posterior:
 
-## Alcance técnico
+```sh
+npm install
+npm run build
+```
 
-La vista conserva la aplicación local existente sin reemplazarla. Se extrajeron los componentes visuales `Core.tsx` y `Particles.tsx` del repositorio MIT `adewaskar/jarvis`, fijado al commit `1c4016afdf86f7043efc6882ceffef84ad0d8783`; la licencia está en `jarvis-ui-preview/vendor/JARVIS-LICENSE-MIT.txt` y el inventario en `jarvis-ui-preview/UPSTREAM-NOTICE.md`. No se importaron su puente de Claude, MCP, cámara, manos, acceso a ficheros, archivos de audio CC BY ni scripts de setup. El chat, micrófono y botones de voz aparecen desconectados; la lectura TTS por selección disponible en la app principal no se presenta como voz bidireccional en esta vista.
+Después inicia el servidor Python. Para desarrollo, inicia Python en otra terminal y luego ejecuta `npm run dev`; Vite reenvía únicamente `/api` a `127.0.0.1:8765`. No se instala nada en macOS en el proceso de desarrollo actual.
 
-La imagen `captura-jarvis-ui-fixture.png` es una captura real de Chromium con fixtures sintéticos y se excluye de Git por las reglas de capturas del repositorio. La verificación comprobó selección por teclado y lista, cambio de memoria de fixture, vista móvil sin desbordamiento, movimiento reducido y ausencia de almacenamiento, llamadas externas, petición de micrófono y errores de consola. La build funciona; Vite advierte que el paquete del orbe excede 500 kB minificado, lo que conviene optimizar antes de servirlo como parte integrada de la aplicación.
+## Contrato local y seguridad
 
-## Próximo paso de integración
+`GET /api/session` entrega una revisión y un token efímero para escrituras locales; no es una clave de proveedor. `POST /api/messages` exige token y origen local, y acepta únicamente `{id, projectId, text}`. Un envío nuevo siempre recibe un UUID nuevo, incluso si el texto coincide con uno anterior. Un reintento conserva el ID anterior y el servidor responde idempotentemente si ya lo guardó. La UI no reintenta en segundo plano. Las lecturas usan el ID exacto y se comprueba el aislamiento entre proyectos con fixtures sintéticos.
 
-Para convertir esta capa visual en la vista principal, el paso siguiente es adaptarla al contrato local de lectura del estado real y a los IDs de proyecto existentes, con pruebas de separación entre proyectos y reinicio. Eso aún no está hecho en esta vista. No hay enlace web publicado; se ejecuta localmente.
+La captura `captura-jarvis-ui-fixture.png` es una captura real de Chromium con almacenamiento temporal de prueba y proyectos ficticios; se excluye de Git. Las pruebas de navegador cubren búsqueda, selección por teclado, móvil, movimiento reducido, guardado explícito, ACK perdido después de persistir, recarga, fallo previo al guardado, reanudación con el mismo ID, mensajes idénticos intencionales y reinicio del servidor. No hay llamadas externas, micrófono ni datos reales en esas pruebas.
+
+## Límites
+
+Los componentes visuales `Core.tsx` y `Particles.tsx` proceden del repositorio MIT `adewaskar/jarvis`, fijado al commit `1c4016afdf86f7043efc6882ceffef84ad0d8783`; la licencia está en `jarvis-ui-preview/vendor/JARVIS-LICENSE-MIT.txt` y el aviso de origen en `jarvis-ui-preview/UPSTREAM-NOTICE.md`. El resto de la interfaz y la conexión al almacén son código propio. No se importaron sus puentes de agente, MCP, cámara, manos ni audios CC BY.
+
+Micrófono, transcripción, voz conversacional y modelos siguen desconectados. La esfera es una visualización, no señal de inferencia. La ejecución de agentes no está integrada: el runtime de tareas actual depende de activaciones verificadas de dot. La pantalla y el almacén funcionan localmente; no hay previsualización alojada ni sincronización web.

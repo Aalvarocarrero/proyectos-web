@@ -153,6 +153,12 @@ class Store:
     def revision(self): return hashlib.sha256(json.dumps(self.doc,sort_keys=True).encode()).hexdigest()
     def snapshot(self):
         with self.lock: return {'document':json.loads(json.dumps(self.doc)), 'revision':self.revision(), 'entities':list(validate_document(self.doc).values()), 'storageWarning':'Escritura anterior incierta. Reinicie y revise el diario antes de reintentar.' if self.write_uncertain else ''}
+    def project_catalog(self):
+        """Return only project selectors; detailed memory is read by exact project ID."""
+        with self.lock:
+            projects=[entity for entity in validate_document(self.doc).values() if entity['kind']=='project']
+            projects.sort(key=lambda project:(project['title'].casefold(),project['id']))
+            return [{'id':p['id'],'title':p['title'],'status':p['status'],'priority':p['priority'],'nextAction':p['nextAction']} for p in projects]
     def project_memory(self,project_id,query='',kind='all',limit=100):
         """Search the append-only memory tied to exactly one project, without AI or remote access."""
         with self.lock:
@@ -188,6 +194,14 @@ class Store:
                 if not query_norm or query_norm in haystack: filtered.append(row)
             filtered.sort(key=lambda row:timestamp(row['at']),reverse=True)
             return {'projectId':project_id,'query':query,'type':kind,'total':len(filtered),'limit':limit,'hasMore':len(filtered)>limit,'records':filtered[:limit]}
+    def append_project_message(self,project_id,message_id,message_text):
+        """Append one explicit user message under the exact project scope; IDs are idempotent."""
+        require(text(project_id,100) and bool(project_id),'ID de proyecto inválido')
+        require(text(message_id,100) and bool(message_id),'ID de mensaje inválido')
+        require(text(message_text,12000) and bool(message_text.strip()),'El mensaje está vacío o supera el límite')
+        with self.lock:
+            body={'revision':self.revision(),'action':'message','message':{'id':message_id,'projectId':project_id,'text':message_text}}
+            return self.mutate(body)
     def commit(self,events,config=None,transcripts=None,actions=None,messages=None):
         candidate={'schemaVersion':1,'config':config if config is not None else self.doc['config'],'events':self.doc['events']+events,'transcripts':self.doc['transcripts']+(transcripts or []),'actions':self.doc['actions']+(actions or []),'messages':self.doc.get('messages',[])+(messages or [])}
         validate_document(candidate)
@@ -317,6 +331,11 @@ def handler(store,token):
             if not self.permitted(): return self.send(403,{'error':'Host no permitido'})
             from urllib.parse import parse_qs,unquote,urlsplit
             parsed=urlsplit(self.path); path=parsed.path
+            if path=='/api/session':
+                return self.send(200,{'token':token})
+            if path=='/api/projects':
+                projects=store.project_catalog()
+                return self.send(200,{'count':len(projects),'projects':projects})
             if path=='/api/state':
                 from sync_local import status
                 with store.lock: return self.send(200,{**store.snapshot(),'token':token,'sync':status(store)})
@@ -336,11 +355,30 @@ def handler(store,token):
                 except (ValueError,TypeError) as e:return self.send(400,{'error':str(e)})
             if path=='/api/export.json': return self.send(200,store.snapshot()['document'])
             if path=='/api/export.md': return self.send(200,markdown(store.snapshot()['document']),'text/markdown; charset=utf-8')
+            if path=='/jarvis' or path.startswith('/jarvis/'):
+                import mimetypes
+                dist=(ROOT.parent/'jarvis-ui-preview'/'dist').resolve()
+                relative=unquote(path[len('/jarvis/'):]) if path.startswith('/jarvis/') else ''
+                candidate=(dist/(relative or 'index.html')).resolve()
+                if candidate!=dist/'index.html' and dist not in candidate.parents:return self.send(404,{'error':'No encontrado'})
+                if not candidate.is_file():return self.send(404,{'error':'Interfaz Jarvis no construida. Ejecute npm install y npm run build en jarvis-ui-preview.'})
+                return self.send(200,candidate.read_bytes(),(mimetypes.guess_type(candidate.name)[0] or 'application/octet-stream')+'; charset=utf-8')
             files={'/':('index.html','text/html'),'/app.js':('app.js','application/javascript'),'/style.css':('style.css','text/css')}
             if path not in files:return self.send(404,{'error':'No encontrado'})
             filename,ctype=files[path]; return self.send(200,(ROOT/filename).read_bytes(),ctype+'; charset=utf-8')
         def do_POST(self):
             if not self.permitted() or self.headers.get('X-Cerebro-Token')!=token:return self.send(403,{'error':'Origen o token no permitido'})
+            if self.path=='/api/messages':
+                try:
+                    require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','Content-Type application/json requerido')
+                    require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
+                    size=int(self.headers.get('Content-Length','0')); require(0<size<=128*1024,'Carga vacía o superior a 128 KiB')
+                    body=json.loads(self.rfile.read(size))
+                    require(isinstance(body,dict) and set(body)=={'id','projectId','text'},'Solo se admite ID, proyecto y texto del mensaje')
+                    result=store.append_project_message(body['projectId'],body['id'],body['text'])
+                    return self.send(200,result)
+                except (ValueError,KeyError,TypeError) as e:return self.send(400,{'error':str(e)})
+                except OSError:return self.send(500,{'error':'No se pudo escribir en disco. Revise el diario antes de volver a intentar.'})
             if self.path=='/api/providers/simulate':
                 from providers import ProviderError, simulate_provider
                 try:

@@ -1,4 +1,4 @@
-# Capacidades verificables de la build v11
+# Capacidades verificables de la build v13 candidata
 
 El panel **Herramientas y capacidades** lee el inventario local de `GET /api/capabilities`. Los estados describen exactamente esta build, no promesas de capacidad general.
 
@@ -18,7 +18,8 @@ El panel **Herramientas y capacidades** lee el inventario local de `GET /api/cap
 - JSON, Markdown y copias de respaldo siguen siendo operaciones locales manuales. No hay sincronización automática con Notion, GitHub u otros servicios.
 - La cola conserva intención previa, estados, evidencia, bloqueos y reanudación. No ejecuta agentes o tareas. El runtime actual depende de activaciones verificadas de dot.
 - Los adaptadores de Ollama, Cloudflare Workers AI y Groq no están conectados a la conversación y no se llaman desde este panel. La simulación de proveedor solo prueba el flujo local con datos sintéticos. Cloudflare exige confirmar plan y cuota antes de cualquier uso real; la confirmación sigue pendiente.
-- Voz: entrada y salida siguen pendientes. La app no activa micrófono, no transcribe audio ni habla respuestas. Consulte [Estado de voz](VOZ.md).
+- El puerto `app/local_assistant.py` está preparado, desconectado y denegado por defecto. Solo las pruebas inyectan un proveedor falso rotulado sintético. Las concesiones son por ID exacto de proyecto y aún no tienen editor ni persistencia; no se consulta memoria ni se guarda respuesta.
+- Voz: entrada bidireccional y transcripción siguen pendientes; el micrófono está apagado. La salida permite leer texto seleccionado dentro de un mensaje guardado usando solo voces que el navegador declare `localService=true`. La prueba es simulada, no se ha comprobado audio real ni se audita el tráfico del sistema. Consulte [Estado de voz](VOZ.md).
 
 ## Referencia de investigación de proveedores
 

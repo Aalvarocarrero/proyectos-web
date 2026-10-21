@@ -1,6 +1,6 @@
 """Public, local-only inventory of features in the portable Cerebro build."""
 
-BUILD_LABEL = "v11 · candidato local"
+BUILD_LABEL = "v14 · memoria local conectada"
 
 _AREAS = [
     {"id": "programacion", "label": "Programación e ingeniería", "supports": ["instrucciones originales", "tareas y checkpoints", "bloqueos, evidencia y cronología"], "limit": "No ejecuta comandos, tests ni agentes."},
@@ -11,13 +11,15 @@ _AREAS = [
 ]
 
 _TOOLS = [
+    {"id": "jarvis-local-interface", "name": "Interfaz Jarvis conectada al almacén", "state": "probado_localmente", "label": "Probado localmente", "scope": "Lectura y escritura local por ID de proyecto", "evidence": "Catálogo reducido, memoria exacta por proyecto, búsqueda y notas de texto explícitas; IDs idempotentes con comprobación tras reinicio. Verificado con almacenes temporales sintéticos."},
     {"id": "project-memory", "name": "Consulta de memoria local por proyecto", "state": "probado_localmente", "label": "Probado localmente", "scope": "Solo almacén local", "evidence": "Endpoint filtrado por projectId; búsqueda por texto y categoría, con historial, acciones, mensajes y transcripciones vinculadas explícitamente."},
     {"id": "json-markdown-backup", "name": "JSON/Markdown y respaldos", "state": "probado_localmente", "label": "Probado localmente", "scope": "Solo almacén local", "evidence": "Intercambio manual y respaldo local; no es sincronización automática."},
     {"id": "work-queue", "name": "Cola, recuperación y checkpoints", "state": "probado_localmente", "label": "Probado localmente", "scope": "Registro local", "evidence": "Intención, estado incierto, evidencia y reanudación; no lanza agentes ni tareas."},
     {"id": "provider-adapters", "name": "Adaptadores Ollama / Workers AI / Groq", "state": "preparado_sin_configurar", "label": "Preparado · código desacoplado", "scope": "No conectado a conversación", "evidence": "Adaptadores estándar con llamadas reales deshabilitadas en la app; el panel actual solo admite transporte simulado."},
+    {"id": "local-assistant-port", "name": "Puerto para modelo local", "state": "preparado_sin_configurar", "label": "Preparado · desconectado", "scope": "Local · permisos por proyecto · sin endpoint ni credenciales", "evidence": "Contrato inyectable y pruebas con proveedor sintético; config apagada por defecto. No está conectado a conversación, voz, memoria ni ejecución."},
     {"id": "provider-simulation", "name": "Comprobación de proveedores", "state": "simulado", "label": "Simulado · no verificado", "scope": "Fixture local sintético", "evidence": "No comprueba conexión, disponibilidad, modelo, plan ni cuota."},
     {"id": "provider-live", "name": "Conexiones reales de modelos", "state": "desactivado", "label": "Desactivado", "scope": "Sin llamadas externas", "evidence": "No hay credenciales ni modelos verificados; Cloudflare requiere confirmar plan/cuota antes de cualquier conexión."},
-    {"id": "voice", "name": "Entrada/salida de voz", "state": "pendiente", "label": "Pendiente de prueba real", "scope": "Micrófono apagado", "evidence": "No captura audio, no transcribe y no reproduce respuestas. La evaluación de opciones queda en docs/VOZ.md."},
+    {"id": "voice", "name": "Voz conversacional y lectura seleccionada", "state": "pendiente", "label": "Entrada pendiente · salida condicional sin audio verificado", "scope": "Micrófono apagado · texto seleccionado · voces localService=true reportadas", "evidence": "La UI ofrece lectura explícita de selección con estados start/end/error y cancelación; prueba automatizada usa sintetizador falso. No se comprobó audio real, no se audita de forma independiente el tráfico, no hay micrófono, STT ni respuestas de IA."},
     {"id": "task-execution", "name": "Ejecución de agentes y acciones", "state": "no_integrado", "label": "No integrado", "scope": "Fuera del runner", "evidence": "Cerebro registra el trabajo; el runtime de ejecución depende de activaciones verificadas de dot."},
 ]
 

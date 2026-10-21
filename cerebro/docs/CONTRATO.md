@@ -13,3 +13,14 @@ La exportación JSON usa la raíz `{schemaVersion, config, events, transcripts, 
 El importador añade IDs nuevos, es idempotente y valida el resultado combinado antes de escribir. Una modificación sobre una versión ya conocida crea conflicto, nunca sobrescritura silenciosa. Markdown contiene la narrativa legible y un bloque canónico codificado que permite round-trip exacto del JSON; no debe eliminarse ese bloque si se quiere reimportar.
 
 El intercambio local `sync_local.py` compara almacenes en disco con servidores detenidos. Primero simula ambas fusiones; conflictos bloquean ambas escrituras. Sincroniza el ledger, nunca reejecuta acciones. Guarda `sync.json` con fecha/peer/IDs reconocidos y muestra IDs en outbox. Es un protocolo para rutas locales compartidas o medios que el usuario transporte, no sincronización automática en internet.
+
+## API local para Jarvis
+
+La vista Jarvis usa el mismo proceso de Cerebro y no carga el documento JSON completo para construir la red:
+
+- `GET /api/projects` devuelve `{count, projects}` con únicamente `id`, `title`, `status`, `priority` y `nextAction` de los proyectos existentes.
+- `GET /api/projects/{projectId}/memory?q=&type=&limit=` devuelve `{projectId, query, type, total, limit, hasMore, records}` y filtra todo el historial por el ID exacto del proyecto. Los tipos válidos son `all`, los tipos de entidad y `action`, `message` o `transcript`.
+- `GET /api/session` devuelve `{token}` para operaciones locales de esta sesión; el token es efímero y no es una credencial de proveedor.
+- `POST /api/messages` acepta exactamente `{id, projectId, text}` en JSON y requiere el token en `X-Cerebro-Token` y un origen local autorizado. La operación anexa un mensaje `role=user`, `channel=text`, `persistence=persistido` al diario. El mismo ID y contenido son idempotentes; el mismo ID con otro contenido es un conflicto. El usuario inicia el envío explícitamente. La interfaz registra localmente el intento antes de enviar, verifica por ID tras reiniciar y no reintenta en segundo plano.
+
+Los endpoints funcionan solo contra el servidor local de loopback, aplican validación y el límite global del almacén. Las respuestas no habilitan acceso desde la red ni crean sincronización web.

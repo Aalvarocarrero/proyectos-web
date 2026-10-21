@@ -43,4 +43,37 @@ class HttpTests(unittest.TestCase):
   for path,code in [('/api/projects/missing/memory',404),('/api/projects/fixture-http-a/memory?type=invalid',400),('/api/projects/fixture-http-a/memory?limit=201',400)]:
    with self.assertRaises(urllib.error.HTTPError) as ctx:urllib.request.urlopen(self.url+path)
    self.assertEqual(ctx.exception.code,code)
+ def test_jarvis_project_catalog_session_and_explicit_idempotent_messages(self):
+  projects=[]
+  for pid,title,body in [('jarvis-fixture-a','Proyecto Alfa ficticio','Contenido A'),('jarvis-fixture-b','Proyecto Beta ficticio','Contenido B')]:
+   project={'id':pid,'kind':'project','projectId':'','title':title,'body':body,'status':'pendiente','priority':'media','nextAction':'Siguiente fixture'}
+   self.s.mutate({'revision':self.s.revision(),'action':'create','entity':project,'evidence':[]});projects.append(pid)
+  catalog=json.load(urllib.request.urlopen(self.url+'/api/projects'))
+  self.assertEqual({p['id'] for p in catalog['projects']},set(projects))
+  self.assertNotIn('body',catalog['projects'][0]);self.assertEqual(catalog['count'],2)
+  session=json.load(urllib.request.urlopen(self.url+'/api/session'))
+  self.assertEqual(set(session),{'token'});self.assertEqual(session['token'],'test-token')
+  def post(message,token='test-token',origin=None):
+   headers={'Content-Type':'application/json','X-Cerebro-Token':token}
+   if origin:headers['Origin']=origin
+   req=urllib.request.Request(self.url+'/api/messages',data=json.dumps(message).encode(),headers=headers)
+   return json.load(urllib.request.urlopen(req))
+  first={'id':'jarvis-message-a1','projectId':projects[0],'text':'Texto local ficticio repetible'}
+  self.assertFalse(post(first)['duplicate'])
+  self.assertTrue(post(first)['duplicate'])
+  second={**first,'id':'jarvis-message-a2'};self.assertFalse(post(second)['duplicate'])
+  self.assertEqual(len(self.s.doc['messages']),2)
+  scoped=json.load(urllib.request.urlopen(self.url+'/api/projects/'+projects[0]+'/memory?type=message'))
+  other=json.load(urllib.request.urlopen(self.url+'/api/projects/'+projects[1]+'/memory?type=message'))
+  self.assertEqual({r['recordId'] for r in scoped['records']},{first['id'],second['id']});self.assertEqual(other['records'],[])
+  with self.assertRaises(urllib.error.HTTPError) as ctx:post({**first,'id':'jarvis-message-a3'},token='')
+  self.assertEqual(ctx.exception.code,403)
+  with self.assertRaises(urllib.error.HTTPError) as ctx:post({**first,'id':'jarvis-message-a4'},origin='https://foreign.invalid')
+  self.assertEqual(ctx.exception.code,403)
+  with self.assertRaises(urllib.error.HTTPError) as ctx:post({'id':'bad-id','projectId':'unknown-project','text':'No write'})
+  self.assertEqual(ctx.exception.code,400)
+  oversized={'id':'oversized-id','projectId':projects[0],'text':'x'*(128*1024)}
+  with self.assertRaises(urllib.error.HTTPError) as ctx:post(oversized)
+  self.assertEqual(ctx.exception.code,400)
+  self.assertEqual(len(self.s.doc['messages']),2)
 if __name__=='__main__':unittest.main()
