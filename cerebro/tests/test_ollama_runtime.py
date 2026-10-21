@@ -107,3 +107,35 @@ class LocalChatTests(unittest.TestCase):
    with self.assertRaises(ValueError):complete_local(ModelRequest('a','es-ES','Hola'))
 
 if __name__=='__main__':unittest.main()
+
+class HistoryRegressionTests(unittest.TestCase):
+ setUp=LocalChatTests.setUp
+ tearDown=LocalChatTests.tearDown
+ def test_history_survives_restart_and_is_scoped(self):
+  self.chat.permission('a',True);self.chat.permission('b',True)
+  self.chat.send('a','first','dato '+('x'*260)+' ZAFIRO-731')
+  self.chat=LocalChat(self.store,self.chat.backend)
+  self.chat.send('a','second','Recuerda el dato')
+  self.assertIn('ZAFIRO-731',self.calls[-1].history[0]['content'])
+  self.assertEqual([m['role'] for m in self.calls[-1].history],['user','assistant'])
+  self.chat.send('b','third','Recuerda el dato')
+  self.assertEqual(self.calls[-1].history,())
+ def test_memory_off_excludes_memory_derived_history(self):
+  self.chat.permission('a',True)
+  self.chat.send('a','memory-first','Resume proyecto',True)
+  self.chat.send('a','plain','Hola',False)
+  self.assertEqual(self.calls[-1].history,())
+ def test_budget_uses_complete_pairs(self):
+  self.chat.permission('a',True)
+  for n in range(8):self.chat.send('a',str(n),'texto '+str(n))
+  self.assertEqual(len(self.calls[-1].history),12)
+  self.assertTrue(all(set(m)=={'role','content'} for m in self.calls[-1].history))
+
+ def test_voice_session_receives_same_project_typed_history(self):
+  from types import SimpleNamespace
+  self.chat.permission('a',True);self.chat.voice_permission('a',True)
+  self.chat.transcriber=SimpleNamespace()
+  self.chat.send('a','typed','Dato ficticio: ZAFIRO-731')
+  sid=self.chat.start_session('a')['sessionId']
+  self.chat.send('a','voice','Recuerda el dato',input_source='session_transcript',session_id=sid)
+  self.assertIn('ZAFIRO-731',self.calls[-1].history[0]['content'])

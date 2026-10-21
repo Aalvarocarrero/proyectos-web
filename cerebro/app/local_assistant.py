@@ -130,6 +130,7 @@ class ModelRequest:
     locale: str
     text: str
     source: str = "typed_text"
+    history: tuple = ()
 
 
 @dataclass(frozen=True)
