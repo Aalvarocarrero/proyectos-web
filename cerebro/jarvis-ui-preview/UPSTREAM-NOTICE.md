@@ -1,16 +1,28 @@
-# Aviso de origen de la interfaz Jarvis
+# Procedencia de Jarvis/Cerebro
 
-Esta vista aislada adapta los componentes visuales `Core.tsx` y `Particles.tsx`
-de `adewaskar/jarvis`, fijados al commit `1c4016afdf86f7043efc6882ceffef84ad0d8783`.
-La lectura TTS adapta su enfoque de selección explícita de motor y cancelación;
-la implementación de Cerebro es una capa pequeña propia sobre la voz del
-navegador, limitada a texto seleccionado y voces `es-*` que el navegador marca
-`localService=true`. Se conserva la licencia MIT en `vendor/JARVIS-LICENSE-MIT.txt`.
-El resto de la pantalla, el mapa de proyectos ficticios, los textos y los estilos
-se han creado para esta aplicación.
+Referencia upstream: `adewaskar/jarvis`, commit
+`1c4016afdf86f7043efc6882ceffef84ad0d8783`.
 
-No se incluyen los bucles `voice.ts`/`vad.ts` que abren el micrófono y graban,
-los servicios ElevenLabs/Kokoro, archivos de audio CC BY, puente de Claude, MCP,
-cámara, manos, acceso al sistema de archivos, servicios ni configuración del
-repositorio upstream. La esfera es solo una visualización; no representa
-inferencia ni actividad de un agente. STT permanece apagado.
+Core.tsx y Particles.tsx proceden de ese código MIT. La composición del HUD
+(header, rieles, señal, retículas, centro y panel lateral) adapta la estructura
+de Hud.tsx/index.css. El segmentador propio sessionVad.js utiliza el enfoque
+RMS, umbral adaptativo e histéresis documentado en lib/vad.ts, con PCM local,
+liberación de pistas y límites propios. Licencia preservada en
+vendor/JARVIS-LICENSE-MIT.txt, copyright 2026 Aditya Dewaskar.
+
+CommandCenter integra los proyectos reales de Cerebro mediante brazos curvos y
+subramas. El estado se alimenta del flujo real local: espera, escucha,
+transcripción, inferencia y reproducción. No mide actividad de agentes externos.
+La fuente Chakra Petch se distribuye localmente bajo OFL; licencia en
+public/fonts/OFL.txt. No se distribuye música del repositorio.
+
+No se ejecuta el App upstream, bridge de Claude, MCP, cámara, manos,
+SpeechRecognition remoto ni ElevenLabs. Los servicios son el servidor Python,
+Whisper.cpp y Ollama, todos locales. Conversar requiere un clic, permisos por
+proyecto y sesión explícita; cambiar proyecto, ocultar página o Detener libera
+el micrófono. Las referencias iCloud se usaron como guía visual de esfera y
+ramas; sus miniaturas no se incluyen en esta distribución.
+
+La salida actual usa la voz instalada Reed mediante macOS say y un reproductor
+HTMLAudioElement acotado. Reemplaza la cola SpeechSynthesis en esta adaptación
+para poder cancelar audio de forma unificada. No se clona ninguna persona.

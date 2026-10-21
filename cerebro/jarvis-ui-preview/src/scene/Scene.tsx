@@ -20,7 +20,7 @@ export type Drive = {
   }
 }
 
-function IdleReactor() {
+function IdleReactor({phase,level}:{phase:string,level:number}) {
   const drive = useMemo<Drive>(() => ({
     color: new THREE.Color('#27d8ec'),
     level: 0.018,
@@ -41,13 +41,18 @@ function IdleReactor() {
 
   useFrame((state) => {
     // Ambient motion only. No model, voice, tools, or task activity is inferred.
-    drive.level = reducedMotion ? 0.018 : 0.018 + (Math.sin(state.clock.elapsedTime * 0.55) + 1) * 0.003
+    drive.level = Math.max(level, reducedMotion ? 0.018 : 0.018 + (Math.sin(state.clock.elapsedTime * 0.55) + 1) * 0.003)
+    drive.spin = reducedMotion ? 0 : (phase === 'thinking' ? 1.8 : phase === 'speaking' ? 1.2 : .2)
+    drive.reactor.spin = drive.spin
+    drive.reactor.style = 1
+    drive.color.set(phase === 'thinking' ? '#a9d6ff' : '#00e5ff')
+    drive.reactor.color.copy(drive.color)
   })
 
   return <><Core drive={drive} /><Particles drive={drive} /></>
 }
 
-export function Scene() {
+export function Scene({phase='idle',level=0}:{phase?:string,level?:number}) {
   const reducedMotion = typeof window !== 'undefined' &&
     window.matchMedia('(prefers-reduced-motion: reduce)').matches
   return (
@@ -59,7 +64,7 @@ export function Scene() {
       dpr={[1, 1.5]}
       frameloop={reducedMotion ? 'demand' : 'always'}
     >
-      <IdleReactor />
+      <IdleReactor phase={phase} level={level} />
     </Canvas>
   )
 }

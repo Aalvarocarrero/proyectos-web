@@ -36,4 +36,19 @@ class LocalChatHttpTests(unittest.TestCase):
   self.post('/api/local-chat/permission',{'projectId':'a','enabled':False})
   with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/send',{'projectId':'a','id':'2','text':'Hola'})
 
+ def test_session_http_requires_grants_token_and_exact_project(self):
+  from types import SimpleNamespace
+  self.chat.transcriber=SimpleNamespace(transcribe=lambda raw:{'transcript':'Hola'})
+  with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/session-start',{'projectId':'a'})
+  self.post('/api/local-chat/permission',{'projectId':'a','enabled':True})
+  self.post('/api/local-chat/voice-permission',{'projectId':'a','enabled':True})
+  with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/session-start',{'projectId':'a'},token='')
+  sid=self.post('/api/local-chat/session-start',{'projectId':'a'})['sessionId']
+  with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/send',{'projectId':'b','id':'s1','text':'Hola','source':'session_transcript','sessionId':sid})
+  result=self.post('/api/local-chat/send',{'projectId':'a','id':'s1','text':'Hola','source':'session_transcript','sessionId':sid})
+  self.assertEqual(result['state'],'completed');self.assertEqual(result['user']['source'],'session_transcript')
+  with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/session-stop',{'projectId':'a','sessionId':None})
+  self.post('/api/local-chat/session-stop',{'projectId':'a','sessionId':sid})
+  with self.assertRaises(urllib.error.HTTPError):self.post('/api/local-chat/send',{'projectId':'a','id':'s2','text':'Hola','source':'session_transcript','sessionId':sid})
+
 if __name__=='__main__':unittest.main()

@@ -1,6 +1,6 @@
 # Cerebro de proyectos
 
-> Adaptación Mac local: esta rama añade Qwen3 4B mediante Ollama, optativo con `--local-model`, permisos persistidos por proyecto respuestas separadas de las notas y entrada de voz puntual con Whisper local. Consulta [instalación y límites de esta adaptación](docs/INSTALACION-MAC-LOCAL.md). Las descripciones de v15 que siguen documentan la base portable sin el adaptador habilitado.
+> Adaptación Mac local: esta rama añade Qwen3 4B mediante Ollama, optativo con `--local-model`, permisos persistidos por proyecto respuestas separadas de las notas y entrada de voz puntual o sesión conversacional con Whisper local, HUD central y ramas de proyectos. Consulta [instalación y límites de esta adaptación](docs/INSTALACION-MAC-LOCAL.md). Las descripciones de v15 que siguen documentan la base portable sin el adaptador habilitado.
 
 Aplicación local con interfaz española, red interactiva de proyectos basada en el almacén local, memoria por proyecto, mensajes de texto durables, historial, diario de transcripciones, cola de acciones, búsqueda e intercambio JSON/Markdown. El backend requiere Python 3.10 o posterior y usa biblioteca estándar. Escucha exclusivamente en `127.0.0.1`. El ZIP incluye los assets Jarvis ya compilados; Node.js solo hace falta para reconstruirlos desde el código fuente.
 

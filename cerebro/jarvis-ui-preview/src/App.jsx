@@ -1,5 +1,8 @@
 import React, { useEffect, useRef, useState } from 'react'
 import LocalChat from './LocalChat.jsx'
+import CommandCenter from './CommandCenter.jsx'
+import './hud.css'
+import {createNativeSpeech} from './nativeSpeech.js'
 import { Scene } from './scene/Scene.tsx'
 import { createLocalSpeechOutput, getSelectedProjectText, getSpanishLocalVoices } from './localSpeech.js'
 
@@ -143,69 +146,11 @@ function MemoryPanel({ project, memory, loading, query, setQuery, type, setType,
   )
 }
 
-function LocalSpeechPanel({ projectId }) {
-  const [voices, setVoices] = useState([])
-  const [voiceId, setVoiceId] = useState('')
-  const [selection, setSelection] = useState('')
-  const [state, setState] = useState({ state: 'idle', message: 'Selecciona texto de un mensaje o registro y pulsa Leer selección.' })
-  const outputRef = useRef(null)
-  const voiceKey = voice => voice.voiceURI || `${voice.name}:${voice.lang}`
-  const selectedVoice = voices.find(voice => voiceKey(voice) === voiceId) || voices[0] || null
-
-  useEffect(() => {
-    const synthesis = window.speechSynthesis
-    const Utterance = window.SpeechSynthesisUtterance
-    setState(synthesis && typeof Utterance === 'function'
-      ? { state: 'idle', message: 'Selecciona texto de un mensaje o registro y pulsa Leer selección.' }
-      : { state: 'unavailable', message: 'Este navegador no ofrece SpeechSynthesis.' })
-    const output = createLocalSpeechOutput({ synthesis, Utterance, onState: setState })
-    outputRef.current = output
-    const refreshVoices = () => {
-      const next = getSpanishLocalVoices(synthesis)
-      setVoices(next)
-      setVoiceId(current => next.some(voice => voiceKey(voice) === current) ? current : (next[0] ? voiceKey(next[0]) : ''))
-    }
-    const refreshSelection = () => setSelection(getSelectedProjectText(window.getSelection(), projectId))
-    const onPageHide = () => output.stop('Lectura cancelada al cerrar la vista.')
-    refreshVoices()
-    refreshSelection()
-    document.addEventListener('selectionchange', refreshSelection)
-    synthesis?.addEventListener?.('voiceschanged', refreshVoices)
-    window.addEventListener('pagehide', onPageHide)
-    return () => {
-      document.removeEventListener('selectionchange', refreshSelection)
-      synthesis?.removeEventListener?.('voiceschanged', refreshVoices)
-      window.removeEventListener('pagehide', onPageHide)
-      output.dispose()
-      if (outputRef.current === output) outputRef.current = null
-    }
-  }, [projectId])
-
-  const supported = typeof window !== 'undefined' && Boolean(window.speechSynthesis) && typeof window.SpeechSynthesisUtterance === 'function'
-  const canRead = supported && voices.length > 0 && Boolean(selection) && state.state !== 'queued' && state.state !== 'speaking'
-  const voiceIndex = selectedVoice ? voices.indexOf(selectedVoice) : -1
-  return (
-    <section className="speech-panel" aria-labelledby="speech-title">
-      <div className="panel-heading"><div><p className="eyebrow">SALIDA TTS · SELECCIÓN EXPLÍCITA</p><h3 id="speech-title">Lectura en voz alta</h3></div><span className="quiet-indicator">NO GENERA RESPUESTAS</span></div>
-      <div className="voice-state-grid" aria-label="Estados independientes de voz y modelo">
-        <p><strong>Entrada STT</strong><span>Captura puntual en Hablar, si el proyecto tiene permiso. Sin escucha permanente.</span></p>
-        <p><strong>Modelo</strong><span>Qwen3 local · estado y respuestas en el panel de IA del proyecto.</span></p>
-        <p><strong>Interrupción</strong><span>Sin escucha activa · Detener cancela solo la lectura.</span></p>
-      </div>
-      <p className="speech-note">Solo leerá el fragmento que selecciones dentro de un registro de este proyecto. Se listan voces españolas que el navegador declara locales (`localService=true`); esa etiqueta no verifica por sí sola el procesamiento sin conexión.</p>
-      <label className="speech-voice-label" htmlFor="jarvis-local-voice">Voz española reportada local por el navegador</label>
-      <select id="jarvis-local-voice" className="speech-voice-select" value={voiceIndex < 0 ? '' : String(voiceIndex)} onChange={event => setVoiceId(voices[Number(event.target.value)] ? voiceKey(voices[Number(event.target.value)]) : '')} disabled={!supported || !voices.length}>
-        {!voices.length && <option value="">No hay voz española local disponible</option>}
-        {voices.map((voice, index) => <option key={`${voiceKey(voice)}:${index}`} value={String(index)}>{voice.name} · {voice.lang}</option>)}
-      </select>
-      <div className="speech-actions">
-        <button type="button" className="primary" disabled={!canRead} onClick={() => outputRef.current?.speak(getSelectedProjectText(window.getSelection(), projectId), selectedVoice)}>Leer selección</button>
-        <button type="button" disabled={!outputRef.current?.active()} onClick={() => outputRef.current?.stop('Lectura detenida por la persona.')}>Detener lectura</button>
-      </div>
-      <p className="speech-output-status" data-state={state.state} role="status" aria-live="polite">{!voices.length && supported ? 'Bloqueado: el navegador no ofrece voces españolas con localService=true.' : state.message}</p>
-      <p className="speech-note">El panel Hablar permite una captura puntual con Whisper local. Se requiere permiso por proyecto y revisar la transcripción.</p>
-    </section>
-  )
+function LocalSpeechPanel({projectId}){
+ const [selection,setSelection]=useState(''),[notice,setNotice]=useState('Selecciona texto del proyecto para leer con Reed, español de España.')
+ const output=useRef(null)
+ useEffect(()=>{const voice=createNativeSpeech({projectId,onState:s=>setNotice(s.message||({preparing:'Preparando voz local…',speaking:'Leyendo con Reed.',ended:'Lectura finalizada.'}[s.state]||''))});output.current=voice;const select=()=>setSelection(getSelectedProjectText(window.getSelection(),projectId));const stop=()=>voice.stop();const hidden=()=>{if(document.hidden)stop()};document.addEventListener('selectionchange',select);window.addEventListener('cerebro-stop-audio',stop);document.addEventListener('visibilitychange',hidden);return()=>{voice.dispose();document.removeEventListener('selectionchange',select);window.removeEventListener('cerebro-stop-audio',stop);document.removeEventListener('visibilitychange',hidden)}},[projectId])
+ return <section className="speech-panel" aria-label="Lectura en voz alta"><h3>Leer selección · Reed</h3><p>Voz del Mac, español de España. Se lee únicamente el fragmento seleccionado, hasta 1200 caracteres.</p><button disabled={!selection||selection.length>1200} onClick={()=>{window.dispatchEvent(new Event('cerebro-stop-audio'));output.current?.speak(selection)}}>Leer selección</button><button onClick={()=>window.dispatchEvent(new Event('cerebro-stop-audio'))}>Detener toda voz y sesión</button><p role="status">{notice}</p></section>
 }
 
 function ConversationPanel({ project, messages, attempts, busy, onSend, onRetry, messageText, setMessageText, notice }) {
@@ -237,6 +182,8 @@ function ConversationPanel({ project, messages, attempts, busy, onSend, onRetry,
 }
 
 export default function App() {
+  const [panel,setPanel]=useState('chat')
+  const [runtime,setRuntime]=useState({phase:'idle',level:0})
   const [projects, setProjects] = useState([])
   const [selectedId, setSelectedId] = useState('')
   const [memory, setMemory] = useState(null)
@@ -366,41 +313,22 @@ export default function App() {
   const messages = memory?.projectId === selectedId ? memory.records.filter(record => record.type === 'message').slice().reverse() : []
 
   return (
-    <main className="app-shell">
-      <header className="topbar">
-        <a className="brand-lockup" href="/" aria-label="Volver a Cerebro local">
-          <span className="brand-mark" aria-hidden="true">J</span><span><span className="brand-name">J.A.R.V.I.S.</span><span className="brand-subtitle">CONECTADO AL CEREBRO LOCAL</span></span>
-        </a>
-        <span className="preview-label"><i aria-hidden="true" />ALMACÉN LOCAL · {projects.length} PROYECTOS</span>
-      </header>
-      <section className="intro" aria-labelledby="page-title">
-        <div className="reactor-card"><Scene /><span className="reactor-caption">NÚCLEO VISUAL · IA LOCAL OPCIONAL</span></div>
-        <div className="intro-copy">
-          <p className="eyebrow">CONTINUIDAD POR IDENTIDAD DE PROYECTO</p>
-          <h1 id="page-title">Jarvis, en el centro.<br /><span>La memoria, local y conectada.</span></h1>
-          <p className="lede">El mapa y cada panel leen los proyectos guardados en el servidor local. Escribir una nota requiere pulsar Guardar; su intento queda identificable para recuperar un corte.</p>
-          <div className="capability-row" aria-label="Capacidades reales de esta vista">
-            <span className="status-pill">Memoria local conectada</span><span className="status-pill">Qwen3 local · permiso por proyecto</span>
-            <span className="status-pill">Micrófono solo al pulsar Hablar</span><span className="status-pill">Ejecución no integrada</span>
-          </div>
-        </div>
-      </section>
-      <aside className="demo-banner connected-banner" role="note"><strong>CONEXIÓN LOCAL ACTIVA.</strong> El servidor entrega solo el catálogo de proyectos y la memoria del ID seleccionado. Las escrituras son notas de texto explícitas; no ejecutan agentes.</aside>
-      {error && <p className="error-banner" role="alert">{error}</p>}
-      {loadingProjects && <p role="status">Conectando con el almacén local…</p>}
-      {!loadingProjects && projects.length === 0 && <section className="demo-banner" role="status">Este almacén aún no contiene proyectos. Vuelve a Cerebro y crea o importa un proyecto.</section>}
-      {!loadingProjects && project && <section className="workspace" aria-label="Mapa, memoria y conversación del almacén local">
-        <section className="network-panel" aria-labelledby="network-title">
-          <div className="panel-heading"><div><p className="eyebrow">MAPA RADIAL · DATOS DEL ALMACÉN</p><h2 id="network-title">Proyectos</h2></div><span className="panel-count">{projects.length} · LOCALES</span></div>
-          <Network projects={projects} selectedId={selectedId} onSelect={selectProject} />
-        </section>
-        <div className="detail-stack">
-          <LocalChat key={project.id} project={project} />
-          <MemoryPanel project={project} memory={memory?.projectId === project.id ? memory : null} loading={loadingMemory} query={searchText} setQuery={setSearchText} type={type} setType={setType} onSearch={onSearch} />
-          <ConversationPanel project={project} messages={messages} attempts={attempts} busy={busy} onSend={onSend} onRetry={onRetry} messageText={messageText} setMessageText={setMessageText} notice={messageNotice} />
-        </div>
-      </section>}
-      <footer className="footer-note">Jarvis visual conectado a Cerebro · memoria local filtrada por ID · IA local opcional · sin ejecución automática.</footer>
+    <main className="app-shell immersive-shell">
+      <CommandCenter projects={projects} selectedId={selectedId} onSelect={selectProject} phase={runtime.phase} level={runtime.level} micActive={Boolean(runtime.micActive)} onPanel={setPanel}/>
+      <aside className="project-dock">
+        <div className="dock-head"><span>ESPACIO DE TRABAJO</span><a href="/">Cerebro ↗</a></div>
+        <label className="project-select-label">Proyecto activo<select aria-label="Proyecto activo" value={selectedId} onChange={e=>selectProject(e.target.value)}>{projects.map(p=><option key={p.id} value={p.id}>{p.title}</option>)}</select></label>
+        <nav className="dock-tabs" aria-label="Panel del proyecto">{[['chat','Conversar'],['memory','Memoria'],['notes','Notas'],['agents','Agentes']].map(([id,label])=><button key={id} aria-pressed={panel===id} onClick={()=>setPanel(id)}>{label}</button>)}</nav>
+        {error && <p className="error-banner" role="alert">{error}</p>}
+        {loadingProjects && <p role="status">Conectando con el almacén local…</p>}
+        {!loadingProjects && !project && <p>Este almacén aún no contiene proyectos.</p>}
+        {project && <div className="dock-content">
+          <div hidden={panel!=='chat'}><LocalChat key={project.id} project={project} onRuntime={setRuntime}/></div>
+          <div hidden={panel!=='memory'}><MemoryPanel project={project} memory={memory?.projectId===project.id?memory:null} loading={loadingMemory} query={searchText} setQuery={setSearchText} type={type} setType={setType} onSearch={onSearch}/></div>
+          <div hidden={panel!=='notes'}><ConversationPanel project={project} messages={messages} attempts={attempts} busy={busy} onSend={onSend} onRetry={onRetry} messageText={messageText} setMessageText={setMessageText} notice={messageNotice}/></div>
+          <section hidden={panel!=='agents'} className="agent-status"><p className="eyebrow">AGENTES / PROYECTO ACTIVO</p><h2>Ejecución no integrada</h2><p>Jarvis conversa y consulta la memoria que autorices. Las tareas y procedimientos se conservan en Memoria; no se ejecutan automáticamente ni conceden permisos por sí mismos.</p><button onClick={()=>{setType('task');setPanel('memory')}}>Ver tareas del proyecto</button></section>
+        </div>}
+      </aside>
     </main>
   )
 }

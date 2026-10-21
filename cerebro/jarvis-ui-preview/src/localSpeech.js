@@ -77,12 +77,12 @@ export function createLocalSpeechOutput({ synthesis, Utterance, onState }) {
   }
 
   function stop(message = 'Lectura detenida por la persona.', updateState = true) {
-    if (!active) return false
+    const wasActive=Boolean(active)
     sequence++
     active = null
     try { synthesis?.cancel?.() } catch { /* keep cancellation local and best effort */ }
     if (updateState) report('stopped', message)
-    return true
+    return wasActive
   }
 
   return { speak, stop, active: () => Boolean(active), dispose: () => stop('Lectura cancelada al salir de este proyecto.', false) }

@@ -322,7 +322,7 @@ def handler(store,token,local_chat=None):
         def log_message(self,*args): pass
         def send(self,status,data,ctype='application/json; charset=utf-8'):
             raw=data if isinstance(data,bytes) else (data.encode() if isinstance(data,str) else json.dumps(data,ensure_ascii=False).encode())
-            self.send_response(status); self.send_header('Content-Type',ctype); self.send_header('Content-Length',str(len(raw))); self.send_header('Cache-Control','no-store'); self.send_header('X-Content-Type-Options','nosniff'); self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'none'"); self.end_headers(); self.wfile.write(raw)
+            self.send_response(status); self.send_header('Content-Type',ctype); self.send_header('Content-Length',str(len(raw))); self.send_header('Cache-Control','no-store'); self.send_header('X-Content-Type-Options','nosniff'); self.send_header('Content-Security-Policy',"default-src 'self'; script-src 'self'; style-src 'self'; connect-src 'self'; media-src 'self' blob:; frame-ancestors 'none'; base-uri 'none'"); self.end_headers(); self.wfile.write(raw)
         def permitted(self):
             hosts=[f'127.0.0.1:{self.server.server_port}',f'localhost:{self.server.server_port}']
             origin=self.headers.get('Origin')
@@ -379,25 +379,38 @@ def handler(store,token,local_chat=None):
                 if local_chat is None:return self.send(503,{'error':'Asistente local no habilitado'})
                 try:
                     from local_transcription import MAX_AUDIO_BYTES
-                    require(self.headers.get('X-Cerebro-Audio-Consent')=='one-shot','Se requiere captura puntual autorizada')
+                    consent=self.headers.get('X-Cerebro-Audio-Consent')
+                    require(consent in ['one-shot','session'],'Se requiere captura autorizada')
+                    sid=self.headers.get('X-Cerebro-Voice-Session') if consent=='session' else None
+                    if consent=='session':local_chat.require_session(unquote(voice_route.group(1)),sid)
                     require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='audio/wav','Se requiere WAV')
                     require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
                     size=int(self.headers.get('Content-Length','0'));require(44<=size<=MAX_AUDIO_BYTES,'Audio demasiado grande o vacío')
-                    return self.send(200,local_chat.transcribe(unquote(voice_route.group(1)),self.rfile.read(size)))
+                    return self.send(200,local_chat.transcribe(unquote(voice_route.group(1)),self.rfile.read(size),sid))
                 except (ValueError,TypeError,KeyError) as e:return self.send(400,{'error':str(e)})
-            if self.path in ['/api/local-chat/permission','/api/local-chat/voice-permission','/api/local-chat/send']:
+            if self.path in ['/api/local-chat/permission','/api/local-chat/voice-permission','/api/local-chat/send','/api/local-chat/speak','/api/local-chat/session-start','/api/local-chat/session-stop','/api/local-chat/cancel']:
                 if local_chat is None:return self.send(503,{'error':'Modelo local no habilitado en este servidor'})
                 try:
                     require(self.headers.get('Content-Type','').split(';')[0].strip().lower()=='application/json','JSON requerido')
                     require(not self.headers.get('Transfer-Encoding'),'Transfer-Encoding no soportado')
                     size=int(self.headers.get('Content-Length','0'));require(0<size<=32768,'Carga inválida')
                     body=json.loads(self.rfile.read(size))
-                    if self.path.endswith('/permission') or self.path.endswith('/voice-permission'):
+                    if self.path.endswith('/speak'):
+                        require(isinstance(body,dict) and set(body)=={'projectId','text'},'Campos incorrectos')
+                        local_chat.project(body['projectId']);require(local_chat.speech is not None,'Voz local no configurada')
+                        return self.send(200,local_chat.speech.synthesize(body['text']),'audio/wav')
+                    elif self.path.endswith('/session-start'):
+                        require(isinstance(body,dict) and set(body)=={'projectId'},'Campos incorrectos');result=local_chat.start_session(body['projectId'])
+                    elif self.path.endswith('/session-stop'):
+                        require(isinstance(body,dict) and set(body)=={'projectId','sessionId'},'Campos incorrectos');result=local_chat.stop_session(body['projectId'],body['sessionId'])
+                    elif self.path.endswith('/cancel'):
+                        require(isinstance(body,dict) and set(body)=={'projectId','id'},'Campos incorrectos');result=local_chat.cancel_turn(body['projectId'],body['id'])
+                    elif self.path.endswith('/permission') or self.path.endswith('/voice-permission'):
                         require(isinstance(body,dict) and set(body)=={'projectId','enabled'},'Campos incorrectos')
                         result=(local_chat.voice_permission if self.path.endswith('/voice-permission') else local_chat.permission)(body['projectId'],body['enabled'])
                     else:
-                        require(isinstance(body,dict) and {'projectId','id','text'}<=set(body) and set(body)<={'projectId','id','text','useMemory','source','transcriptConfirmed'},'Campos incorrectos')
-                        result=local_chat.send(body['projectId'],body['id'],body['text'],body.get('useMemory',False),body.get('source','typed_text'),body.get('transcriptConfirmed',False))
+                        require(isinstance(body,dict) and {'projectId','id','text'}<=set(body) and set(body)<={'projectId','id','text','useMemory','source','transcriptConfirmed','sessionId'},'Campos incorrectos')
+                        result=local_chat.send(body['projectId'],body['id'],body['text'],body.get('useMemory',False),body.get('source','typed_text'),body.get('transcriptConfirmed',False),body.get('sessionId'))
                     return self.send(200,result)
                 except (ValueError,TypeError,KeyError) as e:return self.send(400,{'error':str(e)})
                 except OSError:return self.send(500,{'error':'Escritura incierta. Revise el diario antes de reintentar.'})
@@ -434,7 +447,7 @@ def handler(store,token,local_chat=None):
     return Handler
 
 def main():
-    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); p.add_argument('--local-model',action='store_true'); p.add_argument('--whisper-cli'); p.add_argument('--whisper-model'); args=p.parse_args()
+    p=argparse.ArgumentParser(); p.add_argument('--data-dir',default=str(Path.home()/'.cerebro-portable')); p.add_argument('--port',type=int,default=8765); p.add_argument('--local-model',action='store_true'); p.add_argument('--whisper-cli'); p.add_argument('--whisper-model'); p.add_argument('--tts-voice'); args=p.parse_args()
     data_path=Path(args.data_dir); data_path.mkdir(parents=True,exist_ok=True,mode=0o700)
     # A process lock prevents two independent writers sharing this data directory.
     import fcntl
@@ -449,7 +462,11 @@ def main():
         if args.whisper_cli and args.whisper_model:
             from local_transcription import LocalTranscriber
             transcriber=LocalTranscriber(args.whisper_cli,args.whisper_model)
-        local_chat=LocalChat(store,transcriber=transcriber)
+        speech=None
+        if args.tts_voice:
+            from local_speech import MacSpeech
+            speech=MacSpeech(args.tts_voice)
+        local_chat=LocalChat(store,transcriber=transcriber,speech=speech)
     server=ThreadingHTTPServer(('127.0.0.1',args.port),handler(store,secrets.token_urlsafe(32),local_chat))
     print(f'Cerebro disponible en http://127.0.0.1:{server.server_port} · datos: {store.path}',flush=True)
     try: server.serve_forever()

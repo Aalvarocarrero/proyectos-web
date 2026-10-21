@@ -67,13 +67,43 @@ class LocalChatTests(unittest.TestCase):
   self.assertFalse(any(r['recordId']=='general-note' for r in self.store.project_memory('a')['records']))
  def test_transport_persists_final_answer_only(self):
   response=MagicMock();response.__enter__.return_value=response
-  response.read.return_value=json.dumps({'done':True,'model':'qwen3:4b','message':{'role':'assistant','content':'reasoning preamble</think>Respuesta final.'}}).encode()
+  response.__iter__.return_value=iter([json.dumps({'done':False,'model':'qwen3:4b','message':{'thinking':'PRIVATE REASONING','content':'{"answer":"Respuesta '}}).encode(),json.dumps({'done':True,'done_reason':'stop','model':'qwen3:4b','message':{'content':'final."}'}}).encode()])
   opener=MagicMock();opener.open.return_value=response
   with patch('ollama_runtime.urllib.request.build_opener',return_value=opener):
    result=complete_local(ModelRequest('a','es-ES','Hola'))
   self.assertEqual(result.text,'Respuesta final.')
   request=opener.open.call_args.args[0]
   self.assertEqual(request.full_url,'http://127.0.0.1:11434/api/chat')
-  self.assertTrue(json.loads(request.data)['think'])
+  self.assertFalse(json.loads(request.data)['think'])
+  self.assertTrue(json.loads(request.data)['stream'])
+
+ def test_session_requires_grants_and_stops_inflight_result(self):
+  import threading
+  from types import SimpleNamespace
+  self.chat.transcriber=SimpleNamespace(transcribe=lambda raw:{'transcript':'Hola'})
+  with self.assertRaises(ValueError):self.chat.start_session('a')
+  self.chat.permission('a',True);self.chat.voice_permission('a',True)
+  sid=self.chat.start_session('a')['sessionId']
+  with self.assertRaises(ValueError):self.chat.send('b','wrong','Hola',input_source='session_transcript',session_id=sid)
+  entered=threading.Event();release=threading.Event()
+  def slow(req):entered.set();release.wait(3);return ModelReply('No debe publicarse',False,True)
+  self.chat.backend=slow
+  worker=threading.Thread(target=lambda:self.chat.send('a','cancel-me','Hola',input_source='session_transcript',session_id=sid));worker.start();self.assertTrue(entered.wait(2))
+  self.chat.stop_session('a',sid);release.set();worker.join()
+  turn=self.chat.view('a')['turns'][-1];self.assertEqual(turn['state'],'cancelled');self.assertIsNone(turn['reply'])
+  with self.assertRaises(ValueError):self.chat.require_session('a',sid)
+ def test_cancel_before_send_and_sessions_not_restored(self):
+  from types import SimpleNamespace
+  self.chat.transcriber=SimpleNamespace();self.chat.permission('a',True);self.chat.voice_permission('a',True)
+  sid=self.chat.start_session('a')['sessionId'];self.chat.cancel_turn('a','early')
+  with self.assertRaises(ValueError):self.chat.send('a','early','Hola',input_source='session_transcript',session_id=sid)
+  with self.assertRaises(ValueError):LocalChat(self.store).require_session('a',sid)
+ def test_stream_rejects_incomplete_and_cancels(self):
+  import threading
+  response=MagicMock();response.__enter__.return_value=response
+  response.__iter__.return_value=iter([json.dumps({'done':True,'done_reason':'length','model':'qwen3:4b','message':{'content':'{"answer":"incompleta'}}).encode()])
+  opener=MagicMock();opener.open.return_value=response
+  with patch('ollama_runtime.urllib.request.build_opener',return_value=opener):
+   with self.assertRaises(ValueError):complete_local(ModelRequest('a','es-ES','Hola'))
 
 if __name__=='__main__':unittest.main()
