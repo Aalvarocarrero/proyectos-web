@@ -46,3 +46,15 @@ test('compact activity mode buttons dispatch the shared preserving callback and 
  run();assert.equal(clicks,1);assert.equal(focus,1);assert.match(status.textContent,/avance se conserva/);
  const species=await read('learning/farm-learning-species.js');assert.match(species,/innerHTML=`\$\{playModeMarkup\(\)\}/);assert.match(ui,/mission.innerHTML = `\$\{playModeMarkup\(\)\}/);
 });
+
+test('progressive hints announce in place, update expanded state and retain focus',async()=>{
+ const ui=await read('learning/farm-learning-ui.js');assert.match(ui,/id="hint-copy" aria-live="polite"/);
+ const branch=ui.slice(ui.indexOf("  if (button.id === 'hint-button')"),ui.indexOf('  if (button.dataset.action)'));
+ const attrs={};const copy={hidden:true,textContent:''};
+ const button={id:'hint-button',lastChild:{textContent:''},setAttribute:(name,value)=>attrs[name]=String(value)};
+ const context={button,hintLevel:0,hints:[['Busca una pista.','Prueba otra idea.']],state:{stage:0},document:{activeElement:button},$:id=>id==='hint-copy'?copy:null};
+ const run=runInNewContext('(function(){'+branch+'})',context);
+ run();assert.equal(context.hintLevel,1);assert.equal(copy.hidden,false);assert.equal(copy.textContent,'Busca una pista.');assert.equal(attrs['aria-expanded'],'true');assert.equal(button.lastChild.textContent,'Dame otra pista');assert.equal(context.document.activeElement,button);
+ run();assert.equal(copy.textContent,'Busca una pista. Prueba otra idea.');assert.equal(button.lastChild.textContent,'Ocultar pistas');
+ run();assert.equal(copy.hidden,true);assert.equal(copy.textContent,'');assert.equal(attrs['aria-expanded'],'false');assert.equal(button.lastChild.textContent,'Necesito una pista');
+});
