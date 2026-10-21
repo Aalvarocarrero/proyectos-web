@@ -1,4 +1,4 @@
-# Capacidades verificables de la build v10
+# Capacidades verificables de la build v11
 
 El panel **Herramientas y capacidades** lee el inventario local de `GET /api/capabilities`. Los estados describen exactamente esta build, no promesas de capacidad general.
 

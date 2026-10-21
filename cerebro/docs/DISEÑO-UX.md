@@ -15,3 +15,9 @@ Criterios contrastados con estas guías oficiales de Apple:
 - [Typography](https://developer.apple.com/design/human-interface-guidelines/typography) y [Layout](https://developer.apple.com/design/human-interface-guidelines/layout): jerarquía, escala adaptable y espacio alrededor de controles.
 
 En web se implementan tamaños CSS y `prefers-reduced-motion`, sin afirmar equivalencia física exacta con puntos de UIKit ni una certificación formal de accesibilidad.
+
+## Herramientas auxiliares de observación
+
+El repositorio [REA: Reverse Engineer Anything](https://github.com/morluto/rea) es una posible referencia para inspección de DOM, árbol de accesibilidad, scripts y red en un navegador bajo control. Su guía de [observación web](https://github.com/morluto/rea/blob/main/docs/browser-observation.md) puede ayudar a comparar las pantallas propias de Cerebro con fixtures sintéticas. Se revisó su [aviso de seguridad](https://github.com/morluto/rea/blob/main/SECURITY.md), que advierte sobre ejecución fuera de un sandbox. No se instaló, ejecutó, configuró ni incorporó como dependencia; su integración queda fuera de esta build.
+
+La navegación radial de Cerebro mantiene los proyectos del usuario como primera capa. Al abrir uno se entra a su memoria local, instrucciones, decisiones, tareas, estados y cronología. Esta jerarquía se implementa aquí mismo y no depende de REA ni intenta copiar contenido o posts de terceros.

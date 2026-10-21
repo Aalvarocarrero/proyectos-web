@@ -1,6 +1,6 @@
 """Public, local-only inventory of features in the portable Cerebro build."""
 
-BUILD_LABEL = "v10 · candidato local"
+BUILD_LABEL = "v11 · candidato local"
 
 _AREAS = [
     {"id": "programacion", "label": "Programación e ingeniería", "supports": ["instrucciones originales", "tareas y checkpoints", "bloqueos, evidencia y cronología"], "limit": "No ejecuta comandos, tests ni agentes."},

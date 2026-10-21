@@ -50,13 +50,13 @@ with tempfile.TemporaryDirectory() as data:
 
    # Message ACK loss is verified from project state after reload; it is not reposted.
    select_project('Proyecto ficticio A');message='Mensaje de fixture tras ACK perdido.';page.get_by_label('Mensaje de texto para este proyecto').fill(message)
-   page.route('**/api/action',persist_then_drop);page.get_by_role('button',name='Guardar mensaje').click();page.locator('#notice.error').wait_for();page.unroute('**/api/action')
+   page.route('**/api/action',persist_then_drop);page.get_by_role('button',name='Guardar en memoria local').click();page.locator('#notice.error').wait_for();page.unroute('**/api/action')
    doc=state();assert len(doc['messages'])==1 and doc['messages'][0]['text']==message;message_id=doc['messages'][0]['id']
    page.reload();select_project('Proyecto ficticio A');field=page.get_by_label('Mensaje de texto para este proyecto');assert field.input_value()==message
    message_attempt=json.loads(page.evaluate("k=>localStorage.getItem(k)",'cerebro.messageAttempt.v1:'+page_id));assert message_attempt['actionId']==message_id
-   writes.clear();page.get_by_role('button',name='Verificar mensaje ya guardado').click();page.get_by_text('El servidor ya contiene este mensaje; se verificó su estado y no se volvió a enviar.',exact=True).wait_for();assert writes==[];assert len(state()['messages'])==1
+   writes.clear();page.get_by_role('button',name='Verificar mensaje ya guardado').click();page.get_by_text('El almacenamiento ya contiene este mensaje; se verificó sin reenviarlo.',exact=True).wait_for();assert writes==[];assert len(state()['messages'])==1
    # A fresh submission with identical text gets a new ID (no content-based deduplication).
-   page.get_by_label('Mensaje de texto para este proyecto').fill(message);page.get_by_role('button',name='Guardar mensaje').click();page.get_by_text('Mensaje guardado en la memoria local de este proyecto.',exact=True).wait_for();msgs=state()['messages'];assert len(msgs)==2 and msgs[0]['id']!=msgs[1]['id']
+   page.get_by_label('Mensaje de texto para este proyecto').fill(message);page.get_by_role('button',name='Guardar en memoria local').click();page.get_by_text('Mensaje guardado en la memoria local de este proyecto.',exact=True).wait_for();msgs=state()['messages'];assert len(msgs)==2 and msgs[0]['id']!=msgs[1]['id']
    assert not page.locator('#notice.error').count()
    browser.close()
   print('PASS: lost ACK + reload + verified retry, pre-save failure recovery, double submit, project-scoped task attempts, and distinct intentional duplicate tasks/messages.')
