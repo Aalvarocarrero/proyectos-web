@@ -21,7 +21,8 @@ const hints = [
   ['Las hojas ya se desarrollaron. Busca la herramienta de corte.','Toca “Cosechar con cuidado”. En la vida real, usa herramientas con preparación y supervisión adecuada.'],
   ['Cuenta lo que hay en la canasta. Un manojo no equivale a un kilo.','Escribe 3 y selecciona “Manojos”. Después guarda el registro.'],
 ];
-let hintLevel = 0;
+let hintLevel=0;try{hintLevel=Math.max(0,Math.min(2,+sessionStorage.fincaHint||0))}catch{}
+function persistHintLevel(){try{sessionStorage.fincaHint=hintLevel;}catch{}}
 let embedded = null;
 try { embedded = JSON.parse($('embedded-progress').textContent); } catch { /* A malformed embedded save starts clean. */ }
 const embeddedId = typeof embedded?.id === 'string' && /^[a-z0-9-]{1,60}$/.test(embedded.id) ? embedded.id : null;
@@ -58,7 +59,7 @@ function doAction(action, payload = {}) {
   if(action !== 'reset' && sessionIsWaiting('cilantro')) { focusSession('cilantro'); return; }
   const result = transition(state, action, payload);
   state = result.state;
-  if (result.ok) { hintLevel = 0; selectedTool = toolForStage(state.stage); save(); render(); $('mission-content').classList.remove('flash'); void $('mission-content').offsetWidth; $('mission-content').classList.add('flash'); }
+  if (result.ok) { hintLevel = 0; persistHintLevel(); selectedTool = toolForStage(state.stage); save(); render(); $('mission-content').classList.remove('flash'); void $('mission-content').offsetWidth; $('mission-content').classList.add('flash'); }
   if(result.ok) sceneResponse(document.querySelector('.scene'), result.message);
   showFeedback(result.message, !result.ok);
   if (result.ok) { $('mission').scrollTop=0; $('mission').focus({ preventScroll: true }); focusSession('cilantro'); }
@@ -174,6 +175,7 @@ document.addEventListener('click', (event) => {
   if (button.dataset.labAction) runChallenge(button.dataset.labAction, button.dataset);
   if (button.id === 'hint-button') {
     hintLevel = (hintLevel + 1) % 3;
+    persistHintLevel();
     const copy=$('hint-copy');copy.hidden=!hintLevel;copy.textContent=hints[state.stage].slice(0,hintLevel).join(' ');
     button.setAttribute('aria-expanded',hintLevel>0);button.lastChild.textContent=['Necesito una pista','Dame otra pista','Ocultar pistas'][hintLevel];
   }
@@ -259,5 +261,6 @@ function restoreModuleFormValues(values) { const form=$('module-record-form'); i
 function recordFormValues() { return state.stage === 6 ? {quantity:$('quantity')?.value,unit:$('unit')?.value,destination:$('destination')?.value} : null; }
 function restoreFormValues(values) { if(values) for(const [key,value] of Object.entries(values)) if($(key)) $(key).value = value ?? ''; }
 function focusMission() { navigate('huerto'); $('mission').scrollIntoView({behavior:'auto',block:'center'}); $('mission').focus({preventScroll:true}); }
+function restoreGameFocus(){if(activePage==='huerto')$(hintLevel?'hint-button':'mission').focus({preventScroll:true});}
 function renderRoad() { $('mission-road').innerHTML = stepNames.map((name,index) => `<li class="${index === state.stage ? 'current' : ''}"><span class="road-dot">${index < state.stage ? icon('check') : index+1}</span><span>${name}<small>${index < state.stage ? 'Explorado' : index === state.stage ? 'Estás aquí' : 'Próximo paso'}</small></span></li>`).join(''); }
-render(); save(); updateConnection(); navigate(location.hash.slice(1), false);
+render(); save(); updateConnection(); navigate(location.hash.slice(1), false); restoreGameFocus();

@@ -52,9 +52,21 @@ test('progressive hints announce in place, update expanded state and retain focu
  const branch=ui.slice(ui.indexOf("  if (button.id === 'hint-button')"),ui.indexOf('  if (button.dataset.action)'));
  const attrs={};const copy={hidden:true,textContent:''};
  const button={id:'hint-button',lastChild:{textContent:''},setAttribute:(name,value)=>attrs[name]=String(value)};
- const context={button,hintLevel:0,hints:[['Busca una pista.','Prueba otra idea.']],state:{stage:0},document:{activeElement:button},$:id=>id==='hint-copy'?copy:null};
+ const context={button,hintLevel:0,hints:[['Busca una pista.','Prueba otra idea.']],state:{stage:0},document:{activeElement:button},$:id=>id==='hint-copy'?copy:null,persistHintLevel(){}};
  const run=runInNewContext('(function(){'+branch+'})',context);
  run();assert.equal(context.hintLevel,1);assert.equal(copy.hidden,false);assert.equal(copy.textContent,'Busca una pista.');assert.equal(attrs['aria-expanded'],'true');assert.equal(button.lastChild.textContent,'Dame otra pista');assert.equal(context.document.activeElement,button);
  run();assert.equal(copy.textContent,'Busca una pista. Prueba otra idea.');assert.equal(button.lastChild.textContent,'Ocultar pistas');
  run();assert.equal(copy.hidden,true);assert.equal(copy.textContent,'');assert.equal(attrs['aria-expanded'],'false');assert.equal(button.lastChild.textContent,'Necesito una pista');
+});
+
+test('hint level and mission focus survive a same-tab reload',async()=>{
+ const ui=await read('learning/farm-learning-ui.js'),memory=ui.slice(ui.indexOf('let hintLevel=0;'),ui.indexOf('let embedded ='));
+ const values=new Map(),sessionStorage={get fincaHint(){return values.get('fincaHint')},set fincaHint(value){values.set('fincaHint',String(value))}};
+ assert.equal(runInNewContext(memory+'hintLevel=2;persistHintLevel();hintLevel',{sessionStorage}),2);
+ assert.equal(runInNewContext(memory+'hintLevel',{sessionStorage}),2);
+ const start=ui.indexOf('function restoreGameFocus(){'),restore=ui.slice(start,ui.indexOf('\n',start)),focused=[];
+ const nodes={mission:{focus:options=>focused.push(['mission',options.preventScroll])},'hint-button':{focus:options=>focused.push(['hint',options.preventScroll])}};
+ runInNewContext(restore+'restoreGameFocus()',{activePage:'huerto',hintLevel:2,$:id=>nodes[id]});
+ runInNewContext(restore+'restoreGameFocus()',{activePage:'huerto',hintLevel:0,$:id=>nodes[id]});
+ assert.deepEqual(focused,[['hint',true],['mission',true]]);
 });

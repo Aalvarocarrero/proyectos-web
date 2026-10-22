@@ -1,0 +1,15 @@
+{
+  "viewport": [
+    390,
+    844
+  ],
+  "mode_switch_focus": "deepen",
+  "reobserve_focus": "observation-note",
+  "reload_focus": "hint-button",
+  "hint_survived_same_tab_reload": true,
+  "mission_stage_preserved": "1 de 7",
+  "reobserve_preserved_saved_progress": true,
+  "next_mission_cleared_hint": true,
+  "javascript_errors": [],
+  "html_bytes": 209989
+}
