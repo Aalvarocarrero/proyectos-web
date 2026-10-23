@@ -2,7 +2,7 @@ const { chromium } = require('playwright');
 const assert = require('node:assert/strict');
 const fs = require('node:fs');
 const base = process.env.BASE_URL || 'http://127.0.0.1:4194';
-const evidence = 'docs/evidence-v36';
+const evidence = process.env.TEST_EVIDENCE_DIR || 'docs/evidence-v36';
 (async () => {
   const browser = await chromium.launch({ executablePath: '/usr/bin/chromium', args: ['--no-sandbox'] });
   const checks = [];
@@ -16,6 +16,7 @@ const evidence = 'docs/evidence-v36';
       page.setDefaultTimeout(6000);
       page.on('pageerror', error => errors.push(error.message));
       await page.goto(base);
+      await page.locator('#welcome-explore').click();
       await page.selectOption('#dashboard-band', '7y');
       await page.locator('[data-dashboard-route="7y:original"]').click();
       for (const id of ['water', 'map', 'fruit', 'notebook']) await page.locator(`input[value="${id}"]`).check();

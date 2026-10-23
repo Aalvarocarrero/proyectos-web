@@ -1,6 +1,6 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.27.0",
+  "version": "0.39.0",
   "private": true,
   "type": "module",
   "scripts": {
@@ -44,6 +44,11 @@
     "test:personal-preview": "node tests/personal-preview-browser.cjs",
     "test:plan-comparison": "node tests/plan-comparison-browser.cjs",
     "test:visual-v37": "node tests/visual-v37-browser.cjs",
-    "test:usability-v38": "node tests/usability-v38-browser.cjs"
+    "test:usability-v38": "node tests/usability-v38-browser.cjs",
+    "test:experience-v39": "node tests/experience-v39-browser.cjs"
+  },
+  "devDependencies": {
+    "jsdom": "30.1.2",
+    "playwright": "1.62.1"
   }
 }
