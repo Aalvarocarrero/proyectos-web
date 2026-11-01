@@ -14,7 +14,10 @@ function session(doc){
  doc.addEventListener('visibilitychange',()=>{if(doc.hidden)stopWithWarning(doc,engine);});win.addEventListener('pagehide',()=>stopWithWarning(doc,engine));win.addEventListener('hashchange',()=>stopWithWarning(doc,engine));
  return value;
 }
-export function stopLanguageAudio(doc){const active=sessions.get(doc);if(active){active.dispose?.();active.dispose=null;showStopResult(doc,active.engine,active.engine.reset());}}
+export function stopLanguageAudio(doc){const active=sessions.get(doc);if(active){active.dispose?.();active.dispose=null;const stopped=active.engine.reset();showStopResult(doc,active.engine,stopped);return stopped;}return true;}
+// All language modes share one synthesis queue and the same cancellation warnings.
+export function localSpeechSession(doc){return session(doc);}
+export function showSpeechStopResult(doc,engine,stopped){showStopResult(doc,engine,stopped);}
 export function mountLanguageAudio(root,id,indices){
  const doc=root.ownerDocument,{engine}=session(doc),language=languageFor(id),win=doc.defaultView;
  const panel=doc.createElement('section');panel.className='language-audio';panel.setAttribute('aria-label','Escuchar palabras · '+language.name);

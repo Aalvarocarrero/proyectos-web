@@ -18,7 +18,7 @@ const companion='education-facilitation-guide:companion';
    page.on('request',r=>{if(!r.url().startsWith(base))external.push(r.url())});
    await page.goto(base);await page.locator('#welcome-begin').waitFor();
    metrics[width]=await page.evaluate(()=>({visibleActions:[...document.querySelectorAll('#guided-home button')].filter(e=>e.getClientRects().length).length,pageHeight:document.documentElement.scrollHeight}));
-   check(metrics[width].visibleActions===5,'home exposes only five navigation/actions '+width);
+   check(metrics[width].visibleActions===7,'home includes navigation and two explicit adult pathway entries '+width);
    check(await page.locator('.welcome-introduction .primary').count()===1,'one main home action '+width);
    check(!await page.locator('#experience-library').isVisible(),'library is optional '+width);
    check(await page.evaluate(()=>localStorage.length===0),'no implicit writes '+width);

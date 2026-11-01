@@ -1,8 +1,10 @@
-# Aprendizaje y razonamiento · revisión v39
+# Aprendizaje y razonamiento · revisión v40
 
-Copia completa de la app estática para revisión local. Incluye todos los módulos anteriores, progreso compatible, inicio y biblioteca separados, rutas por edades, escenas vectoriales propias, ayuda opcional y navegación Atrás/Adelante. No es una publicación de Sites.
+Misma app estática, con todos los módulos v39 y progreso compatible. Añade una guía auditiva para adultos con seis idiomas, cuatro rutinas originales por idioma y etapas flexibles del primer año. El inicio permite entrar directamente a esta guía y consultar propuestas presenciales hasta 18+. La actividad existente de fichas tiene otra vista opcional, con profundidad y alternativa frontal, cargada solo a petición.
 
-## Abrir la app
+La carpeta de fuente conserva su nombre histórico `aprendizaje-razonamiento-v39`; la versión del contenido es v40 (package 0.40.0). No es otro proyecto ni un curso completo. El paquete portable se rotula v40. No incluye progreso, datos de familias, credenciales, capturas ni dependencias instaladas.
+
+## Abrir
 
 Desde esta carpeta, con Python 3:
 
@@ -10,20 +12,27 @@ Desde esta carpeta, con Python 3:
 python3 -m http.server 4186 --bind 127.0.0.1 --directory dist
 ```
 
-Abre `http://127.0.0.1:4186` en el mismo equipo. El servidor no requiere cuentas ni servicios externos. La app conserva progreso en ese navegador y origen; el ZIP no contiene progreso de usuarios.
+Abre `http://127.0.0.1:4186` en ese equipo. No hay servicios externos de ejecución. El progreso existente depende del navegador y origen: mover archivos a otro origen no traslada sus datos. No se necesita abrir una cuenta infantil.
 
-## Comprobar el código
+## Comprobar
 
-Las pruebas se verificaron en Linux con Node 24.19, Python 3 y Chromium instalado en `/usr/bin/chromium`. Las dependencias de desarrollo están fijadas; no hay dependencias de ejecución de la app.
+Verificado en Linux, Node 24.19, Python 3 y Chromium `/usr/bin/chromium`. Sin dependencias nuevas de ejecución ni SDK. No hay pasos de build ni lint configurados: el contenido de `dist` es la fuente ejecutable.
 
 ```sh
 PLAYWRIGHT_SKIP_BROWSER_DOWNLOAD=1 npm ci --ignore-scripts
 npm test
 npm run test:dom
 npm run test:static
-BASE_URL=http://127.0.0.1:4186 TEST_EVIDENCE_DIR=/tmp/education-v39 npm run test:experience-v39
+BASE_URL=http://127.0.0.1:4186 TEST_EVIDENCE_DIR=/tmp/education-v40 npm run test:experience-v40
+BASE_URL=http://127.0.0.1:4186 TEST_EVIDENCE_DIR=/tmp/education-v39-regression npm run test:experience-v39
 ```
 
-El servidor anterior debe seguir activo para las pruebas de navegador. En otros sistemas hay que proporcionar la ruta del ejecutable Chromium que usan los scripts. Las capturas de prueba van a una carpeta temporal, no forman parte del código publicado.
+El servidor debe seguir activo durante las pruebas de navegador. Otros sistemas necesitan adaptar la ruta del ejecutable en los scripts. Las capturas de pruebas van a una carpeta temporal y no al respaldo de código.
 
-Consulta `docs/EXPERIENCIA_V39.md` para alcance y límites. La revisión humana con niños y cuidadores sigue pendiente. No se ha desplegado v39.
+## Límites
+
+La pantalla del primer año es para el adulto: su presencia, voz y pausas conducen el juego. No se pide mirar, repetir ni completar nada. No hay reproducción automática. Se usan solo voces que el navegador declara locales y del idioma admitido; portugués se rotula Brasil y exige pt-BR; mandarín exige una variante explícita CN/TW. Sin voz compatible se explica la ausencia y se continúa en persona. El control del navegador no certifica la pronunciación ni garantiza la detención física del dispositivo; un fallo de cancelación deja una advertencia y bloquea nuevas solicitudes.
+
+La guía 18+ ofrece una práctica abierta y enlaza honestamente al taller existente rotulado 13–18: todavía no hay itinerario adulto completo. Este navegador compartido no equivale a una cuenta privada. No se añaden perfiles, puntuación infantil, diagnóstico, micrófono, cámara, grabaciones, proveedor de IA ni evaluación de preferencias.
+
+Consulta `docs/EXPERIENCIA_V40.md` para cambios, fuentes, pruebas y bloqueos. La revisión lingüística/pedagógica y las pruebas con familias siguen pendientes. v40 se ha probado localmente; no está desplegada.

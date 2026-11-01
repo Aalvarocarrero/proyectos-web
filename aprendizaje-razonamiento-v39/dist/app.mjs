@@ -1,3 +1,4 @@
+import {mountEarlyLanguage} from './early-language-ui.mjs';
 import {renderParts} from './number-parts.mjs';
 import {renderQuantity} from './quantity-workshop.mjs';
 import {renderAdultTurns} from './adult-turns.mjs';
@@ -34,7 +35,7 @@ import {renderComparisonUnit} from './comparison-unit-ui.mjs';
 import {getFacilitation} from './facilitation.mjs';
 import {extraActivities,checkActivityAnswer} from './activities.mjs';
 import {stages,shapes,checkGrouping,supplies,evaluatePlan,nextSessionPhase,storyCards,initialStoryOrder,moveStoryCard,checkStory,evidenceSources,evidenceQuestions,checkEvidence} from './logic.mjs';
-const companionRoot=document.querySelector('#companion'),companionHome=document.querySelector('#companion-home');let companionController;let welcomeController;
+const companionRoot=document.querySelector('#companion'),companionHome=document.querySelector('#companion-home');let companionController;let welcomeController;let earlyLanguageController;
 const stageButtons=document.querySelector('#stage-buttons');
 const panel=document.querySelector('#stage-panel');
 const states={};const selectedActivities={};let stage=null;let selectedArea='all';
@@ -218,9 +219,10 @@ document.defaultView.addEventListener('storage',event=>{if(event.key===PROGRESS_
 
 document.querySelector('a[href="#principios"]').addEventListener('click',()=>{if(stage)current().gardenFocus=false;document.body.classList.remove('garden-focus');});
 renderAreas();renderStages();renderPanel();renderProgress();
-for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home, .language-audio, .brand');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
+for(const type of ['click','change']){document.addEventListener(type,event=>{event.progressControl=!!event.target.closest('#local-progress, #companion, #guided-home, #back-home, .language-audio, [data-early-language], .depth-explorer, [data-depth-toggle], .brand');},true);document.addEventListener(type,event=>{if(!event.progressControl)persistProgress();});}
 
 function openRoute(key){
+ earlyLanguageController?.close(false);
  const entry=catalog.find(a=>a.key===key);if(!entry)return;
  stage=entry.stage;selectedArea='all';selectedActivities[stage]=entry.id;states[key]??=fresh();
  renderAreas();renderStages();renderPanel();focus('session-title');document.querySelector('#activity')?.scrollIntoView?.({block:'start'});
@@ -264,3 +266,6 @@ welcomeController=mountWelcome(document.querySelector('#guided-home'),{
 });
 // A restored game remains available through Continue; the initial view is the welcome.
 document.body.classList.remove('garden-focus');
+
+earlyLanguageController=mountEarlyLanguage(document.querySelector('#early-language-session'),{onExit:()=>welcomeController.home()});
+document.addEventListener('click',event=>{if(event.target.closest('[data-early-language]')){event.preventDefault();earlyLanguageController.open();}});

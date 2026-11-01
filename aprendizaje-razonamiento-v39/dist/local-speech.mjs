@@ -1,11 +1,12 @@
 import {languageFor as initialLanguageFor} from './languages.mjs';
 import {contextFor} from './language-context-data.mjs';
-const languageFor=id=>initialLanguageFor(id)||contextFor(id);
+import {earlyLanguageFor} from './early-language-data.mjs';
+const languageFor=id=>initialLanguageFor(id)||contextFor(id)||earlyLanguageFor(id);
 export function localVoice(voices,id){
  const language=languageFor(id);if(!language||!Array.isArray(voices))return null;
- return voices.find(voice=>{try{if(voice.localService!==true||typeof voice.lang!=='string')return false;const tag=Intl.getCanonicalLocales(voice.lang)[0];return language.id==='zh'?['zh-CN','zh-TW'].includes(tag):tag.split('-')[0]===language.id;}catch{return false;}})||null;
+ return voices.find(voice=>{try{if(voice.localService!==true||typeof voice.lang!=='string')return false;const tag=Intl.getCanonicalLocales(voice.lang)[0];if(language.voiceLocales)return language.voiceLocales.includes(tag);return language.id==='zh'?['zh-CN','zh-TW','zh-Hans-CN','zh-Hant-TW'].includes(tag):tag.split('-')[0]===language.id;}catch{return false;}})||null;
 }
-// Only fixed, reviewed vocabulary IDs enter this controller. Never accept arbitrary text.
+// Only fixed editorial vocabulary IDs enter this controller. Never accept arbitrary text.
 export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clearTimer=clearTimeout}={}){
  let current=null,serial=0,startTimer=null,endTimer=null,listener=()=>{},last=null,phase='idle',message='';
  const supported=()=>{try{return !!synthesis&&typeof synthesis.getVoices==='function'&&typeof synthesis.speak==='function'&&typeof synthesis.cancel==='function'&&typeof Utterance==='function';}catch{return false;}};
@@ -22,7 +23,7 @@ export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clear
   try{
    // cancel before every explicit request; never queue or use the browser's default voice.
    synthesis.cancel();if(synthesis.paused){phase='error';message='El motor de voz está en pausa. Puedes seguir sin audio.';emit();return false;}
-   const utterance=new Utterance(language.words[index]);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=1;utterance.pitch=1;utterance.volume=1;
+   const utterance=new Utterance(language.words[index]);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=language.audioRate??1;utterance.pitch=1;utterance.volume=language.audioVolume??1;
    if(utterance.voice!==voice||voice.localService!==true){phase='error';message='No se pudo fijar una voz local. Audio desactivado para este intento.';emit();return false;}
    current=utterance;last={id,index};phase='starting';message='Preparando la voz…';
    utterance.onstart=()=>{if(token!==serial)return;clearTimer(startTimer);phase='speaking';message='Reproduciendo la palabra.';emit();};
