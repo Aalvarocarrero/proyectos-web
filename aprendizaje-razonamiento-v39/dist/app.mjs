@@ -267,5 +267,5 @@ welcomeController=mountWelcome(document.querySelector('#guided-home'),{
 // A restored game remains available through Continue; the initial view is the welcome.
 document.body.classList.remove('garden-focus');
 
-earlyLanguageController=mountEarlyLanguage(document.querySelector('#early-language-session'),{onExit:()=>welcomeController.home()});
-document.addEventListener('click',event=>{if(event.target.closest('[data-early-language]')){event.preventDefault();earlyLanguageController.open();}});
+earlyLanguageController=mountEarlyLanguage(document.querySelector('#early-language-session'),{onExit:()=>welcomeController.home(),onSelection:value=>welcomeController.setDiscovery(value)});
+document.addEventListener('click',event=>{const trigger=event.target.closest('[data-early-language]');if(trigger){event.preventDefault();const selection={};if(trigger.dataset.earlyLanguage)selection.language=trigger.dataset.earlyLanguage;if(trigger.dataset.earlyStage)selection.stage=trigger.dataset.earlyStage;earlyLanguageController.open(selection);}});
