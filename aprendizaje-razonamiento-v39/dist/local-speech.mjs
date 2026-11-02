@@ -14,7 +14,7 @@ export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clear
  const emit=()=>listener({phase,message,last});
  const clear=()=>{clearTimer(startTimer);clearTimer(endTimer);startTimer=endTimer=null;};
  function stop(notify=true){serial++;clear();const had=!!current;let ok=true;try{const canStop=supported();if(had&&!canStop)ok=false;else if(canStop&&(had||synthesis.speaking||synthesis.pending))synthesis.cancel();}catch{ok=false;}if(ok)current=null;phase=ok?'idle':'error';message=ok?'Audio detenido.':'No se pudo confirmar la detención. Cierra esta página si el audio continúa.';if(notify)emit();return ok;}
- function availability(id){const voice=localVoice(voices(),id);return {voice,available:!!voice,reason:!supported()?'Este navegador no ofrece la síntesis necesaria. La actividad sigue disponible sin audio.':voice?'Voz local identificada por el navegador.':'No hay una voz local identificable para este idioma. Puedes completar la actividad sin audio.'};}
+ function availability(id){const voice=localVoice(voices(),id);return {voice,available:!!voice,status:!supported()?'api-unavailable':voice?'voice-detected':'not-detected',reason:!supported()?'Este navegador no ofrece la síntesis necesaria. La actividad sigue disponible sin audio.':voice?'Voz local identificada por el navegador.':'No hay una voz local identificable para este idioma. Puedes completar la actividad sin audio.'};}
  function play(id,index){
   if(!stop(false)){emit();return false;}
   const language=languageFor(id);if(!language||!Number.isInteger(index)||index<0||index>=language.words.length){phase='error';message='Palabra no disponible para audio.';emit();return false;}
@@ -26,7 +26,7 @@ export function createLocalSpeech({synthesis,Utterance,setTimer=setTimeout,clear
    const utterance=new Utterance(language.words[index]);utterance.voice=voice;utterance.lang=voice.lang;utterance.rate=language.audioRate??1;utterance.pitch=1;utterance.volume=language.audioVolume??1;
    if(utterance.voice!==voice||voice.localService!==true){phase='error';message='No se pudo fijar una voz local. Audio desactivado para este intento.';emit();return false;}
    current=utterance;last={id,index};phase='starting';message='Preparando la voz…';
-   utterance.onstart=()=>{if(token!==serial)return;clearTimer(startTimer);phase='speaking';message='Reproduciendo la palabra.';emit();};
+   utterance.onstart=()=>{if(token!==serial)return;clearTimer(startTimer);phase='speaking';message='Reproduciendo la referencia hablada.';emit();};
    utterance.onend=()=>{if(token!==serial)return;serial++;clear();current=null;phase='idle';message='Reproducción terminada. Puedes repetir si quieres.';emit();};
    utterance.onerror=()=>fail('No se pudo reproducir con esa voz local. No se ha buscado otra voz ni un servicio externo.');
    startTimer=setTimer(()=>fail('La voz no comenzó a tiempo. Puedes volver a pulsar Escuchar o continuar sin audio.'),4000);

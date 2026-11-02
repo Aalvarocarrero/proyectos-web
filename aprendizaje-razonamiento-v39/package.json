@@ -1,10 +1,10 @@
 {
   "name": "aprendizaje-razonamiento-prototipo",
-  "version": "0.41.0",
+  "version": "0.42.0",
   "private": true,
   "type": "module",
   "scripts": {
-    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/number-parts.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs tests/welcome.test.mjs tests/local-speech.test.mjs tests/construction.test.mjs tests/exploration.test.mjs tests/composition.test.mjs tests/arguments.test.mjs tests/language-context.test.mjs tests/balance.test.mjs tests/depth-v29.test.mjs tests/biology-lab.test.mjs tests/chemistry-lab.test.mjs tests/science-labs-integration.test.mjs tests/progress-summary.test.mjs tests/quantity-workshop.test.mjs tests/progress-prepare.test.mjs tests/early-language.test.mjs tests/discovery.test.mjs",
+    "test": "node --test tests/logic.test.mjs tests/activities.test.mjs tests/facilitation.test.mjs tests/comparison-unit.test.mjs tests/garden.test.mjs tests/local-progress.test.mjs tests/number-parts.test.mjs tests/word-game.test.mjs tests/progress-session.test.mjs tests/languages.test.mjs tests/science.test.mjs tests/language-order.test.mjs tests/guidance.test.mjs tests/welcome.test.mjs tests/local-speech.test.mjs tests/construction.test.mjs tests/exploration.test.mjs tests/composition.test.mjs tests/arguments.test.mjs tests/language-context.test.mjs tests/balance.test.mjs tests/depth-v29.test.mjs tests/biology-lab.test.mjs tests/chemistry-lab.test.mjs tests/science-labs-integration.test.mjs tests/progress-summary.test.mjs tests/quantity-workshop.test.mjs tests/progress-prepare.test.mjs tests/early-language.test.mjs tests/discovery.test.mjs tests/audio-guidance.test.mjs",
     "test:static": "python3 tests/static_a11y.py",
     "test:dom": "node --test tests/dom.test.cjs tests/early-language-dom.test.mjs tests/discovery-dom.test.mjs",
     "test:browser": "node tests/browser.cjs",
@@ -48,7 +48,8 @@
     "test:experience-v39": "node tests/experience-v39-browser.cjs",
     "test:experience-v40": "node tests/experience-v40-browser.cjs",
     "test:discovery-v41": "node tests/discovery-v41-browser.cjs",
-    "lint": "eslint dist/app.mjs dist/welcome.mjs dist/learning-pathways.mjs dist/early-language-ui.mjs dist/language-discovery.mjs tests/discovery.test.mjs tests/discovery-dom.test.mjs tests/discovery-v41-browser.cjs tests/early-language-dom.test.mjs tests/experience-v39-browser.cjs"
+    "lint": "eslint dist/app.mjs dist/welcome.mjs dist/learning-pathways.mjs dist/early-language-ui.mjs dist/language-discovery.mjs tests/discovery.test.mjs tests/discovery-dom.test.mjs tests/discovery-v41-browser.cjs tests/early-language-dom.test.mjs tests/experience-v39-browser.cjs dist/local-speech.mjs dist/audio-guidance.mjs tests/audio-guidance.test.mjs tests/audio-v42-browser.cjs",
+    "test:audio-v42": "node tests/audio-v42-browser.cjs"
   },
   "devDependencies": {
     "eslint": "10.14.0",
