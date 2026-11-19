@@ -145,5 +145,4 @@ function createInstallCountdown(options) {
 		}
 	};
 }
-//#endregion
 export { getInstallGuidance as a, isInstalledDisplayMode as c, dismissInstallOffer as i, scheduleInstallOffer as l, createInstallCountdown as n, isInstallOfferSuppressed as o, detectInstallEnvironment as r, isInstallPromptEvent as s, claimInstallOffer as t };

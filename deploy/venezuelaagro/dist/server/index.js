@@ -1,10 +1,9 @@
-globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/Icon-BJEC1M7G.js","assets/agro-catalog-B7qn02kT.js","assets/agro-category-icon-2GkMvB4D.js","assets/agro-network-B2DY_9wS.js","assets/arrow-right-B_rdtoO7.js","assets/arrow-up-right-KNzriIhG.js","assets/auth-fetch-B0Sz0Oie.js","assets/auth-paths-B-VxzyUX.js","assets/backup-import-DMcQ4Tha.js","assets/book-open-BlaCJr95.js","assets/brand-icons-CsW0tl2I.js","assets/building-2-CAaiUICq.js","assets/button-mbafAg5c.js","assets/check-BI6S8aTq.js","assets/chevron-down-CZShy5QM.js","assets/chevron-right-DjKClnEv.js","assets/circle-check-DuYusqjf.js","assets/clock-3-DKqnrPlt.js","assets/cloud-1iRIrr-q.js","assets/cloud-off-797ZMMNo.js","assets/community-forms-IV1DR7ED.js","assets/company-DLgxbf5i.js","assets/company-profile-view-CuPLtNhD.js","assets/compass-v5-GFXi4.js","assets/contextual-whatsapp-contact-Dz6sCQj6.js","assets/createLucideIcon-DsGqHFL7.js","assets/dialog-BTTQkP5A.js","assets/directory-filters-D19122j-.js","assets/directory-search-B-ZCGBiN.js","assets/dist-A6jz3xf3.js","assets/dist-BlCvuUeW.js","assets/dist-D02U1ZSF.js","assets/dist-Vu7OQT5_.js","assets/dist-o65Rxcqt.js","assets/download-CR7p2Qa1.js","assets/es2015-8qoacUFW.js","assets/exchange-rates-ClMnO-Lm.js","assets/farm-asset-pack-CfP7TV65.js","assets/farm-demo-fixture-CYCqO1KH.js","assets/farm-demo-navigation-DSXeI7M0.js","assets/farm-illustrated-scene-DzvRQcWz.js","assets/farm-plan-catalog-BGV3o0_C.js","assets/farm-showcase-B3Z833so.js","assets/form-feedback-BpwgOJzN.js","assets/formal-submission-notice-fYx6jLZX.js","assets/heart-DXOtA8dM.js","assets/illustrated-plan-adapter-DWiWY_gK.js","assets/image-CwgptN7L.js","assets/image-share-DQosnZTm.js","assets/info-BPpCl3Qb.js","assets/input-a45IPNCW.js","assets/install-action-sThTH7PN.js","assets/install-guidance-DGooOryk.js","assets/inventory-example-photos-Cf2xNpxi.js","assets/leaflet-DkBrfjv-.js","assets/lightbulb-G5uhCyn3.js","assets/link-BdfWHMt7.js","assets/listing-form-DXERaPgi.js","assets/loader-circle-Do5rLFtH.js","assets/mail--r88BnEM.js","assets/map-pin-B3wicebP.js","assets/marketplace-categories-4v0Z72Fj.js","assets/marketplace-details-0FGnqveL.js","assets/marketplace-location-BBK0v3S1.js","assets/marketplace-photo-UwABMphA.js","assets/message-circle-BYRevbtn.js","assets/official-links-Xt_E_7J4.js","assets/offline-account-boundary-DtwxSPaI.js","assets/offline-db-BBawtJ-7.js","assets/offline-download-size-D6kugFZY.js","assets/offline-preparation-EjII1FqQ.js","assets/orb-morph-BgrAM9xk.js","assets/phone-BojWTBlC.js","assets/plus-CC8MZoTY.js","assets/price-conversion-CxqFUFoC.js","assets/product-photos-CZIYhqSE.js","assets/professional-profile-DXc5Yrxu.js","assets/professional-profile-view-DuF9oQQz.js","assets/professional-tariffs-DtULU_eR.js","assets/profile-socials-CyKg7F6D.js","assets/public-form-errors-D78jWe1M.js","assets/public-image-content-CD6zV0II.js","assets/quote-conversion-D5wp7tDL.js","assets/refresh-cw-v23_x7f5.js","assets/rotate-ccw-DO2xn1nW.js","assets/search-C3Xmvdne.js","assets/security-center-CtaCESKJ.js","assets/share-2-B61k_0Gw.js","assets/sheet-BbviR2vk.js","assets/site-image-vNvjnZcC.js","assets/smartphone-DQ1_5Wm0.js","assets/sprout-LC288rtC.js","assets/textarea-CxAgNTaY.js","assets/tractor-CSLKxE7X.js","assets/types-BfTeLzKl.js","assets/use-directory-filters-BULADiGM.js","assets/use-offline-snapshot-CH85MaMW.js","assets/user-round-BnSsUPif.js","assets/utils-BHJHmrpA.js","assets/venezuela-BOnEjsqy.js","assets/venezuelaagro-logo-5AQUWEv0.js","assets/whatsapp-contact-MWnHfkf2.js","assets/wifi-off-AQ1QsWIl.js","assets/x-BMd_cQNi.js","assets/zoom-out-Bf_KkglM.js","assets/account-services-tlgC-HBZ.js","assets/admin-dashboard-C1DuHHfM.js","assets/company-directory-DL11Ejz_.js","assets/company-manager-BXHvQnAx.js","assets/connection-indicator-CKJl8otS.js","assets/connectivity-pill-CR_ibPbr.js","assets/design-form-example-DE-iHIYZ.js","assets/device-install-action-Cm-g2bn0.js","assets/directory-return-link-CSde0WTQ.js","assets/farm-aerial-proposal-COu2HDN0.js","assets/farm-dashboard-ALcddOXc.js","assets/farm-demo-workspace-CP8KPiCX.js","assets/farm-masterplan-scene-CpSQ89tT.js","assets/farm-masterplan-webgl-DlW4ahXO.js","assets/farm-showcase-YKac0SAe.js","assets/google-signin-t5pa7B-y.js","assets/home-content-editor-dlyiCnIW.js","assets/home-farm-preview-88G8Unn8.js","assets/home-farm-scene-OmlBhpgt.js","assets/install-app-banner-Cz95UaH7.js","assets/learning-catalog-BO7lseeO.js","assets/learning-form-preview-IbZs-yQt.js","assets/marketplace-browser-BA_14Ltt.js","assets/marketplace-detail-ComvLu2Z.js","assets/mobile-public-actions-zwndTLGv.js","assets/offline-library-DMBJLyNy.js","assets/offline-navigation-mAg61OQm.js","assets/offline-worker-registration-C37gX-Fq.js","assets/professional-directory-BXYz11H6.js","assets/professional-manager-D14xY31O.js","assets/project-example-1mCrSgQb.js","assets/public-workspace-controls-ByzBvOSf.js","assets/session-menu-CrG9sJ9u.js","assets/site-header-CvsM6Pk3.js","assets/social-links-DHRYQmLQ.js","assets/sticker-gallery-CMQ-aewM.js","assets/store-catalog-CYadw4kW.js","assets/sonner-C0-d5pkl.js","assets/leaflet-src-BDulQfl8.js","assets/dist-BTGf5tSh.js","assets/esm-CVQV7vd2.js","assets/layout-segment-context--zI2Yq1F.js","assets/router-hECHN2OF.js"];
+globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/leaflet-src-C2eznves.js","assets/dist-BkA-0_l7.js","assets/esm-Dtb_C8kn.js","assets/layout-segment-context-BsSz42ha.js","assets/router-CMoyOMC4.js","assets/Icon-BJEC1M7G.js","assets/agro-catalog-B7qn02kT.js","assets/agro-category-icon-DxhF_yzl.js","assets/agro-network-BynfNFIj.js","assets/arrow-right-B_rdtoO7.js","assets/arrow-up-right-KNzriIhG.js","assets/auth-fetch-B0Sz0Oie.js","assets/auth-paths-B-VxzyUX.js","assets/backup-import-Bb9SSFe3.js","assets/book-open-BlaCJr95.js","assets/brand-icons-C8vjqg-Z.js","assets/building-2-CAaiUICq.js","assets/button-mbafAg5c.js","assets/check-BI6S8aTq.js","assets/chevron-down-CZShy5QM.js","assets/chevron-right-DjKClnEv.js","assets/circle-check-DuYusqjf.js","assets/clock-3-DKqnrPlt.js","assets/cloud-1iRIrr-q.js","assets/cloud-off-797ZMMNo.js","assets/community-forms-Dl89KoNk.js","assets/company-D9JDIY04.js","assets/company-profile-view-BFWVETM1.js","assets/compass-v5-GFXi4.js","assets/contextual-whatsapp-contact-DRqp31Jq.js","assets/createLucideIcon-DsGqHFL7.js","assets/dialog-BTTQkP5A.js","assets/directory-filters-CiQhM1-q.js","assets/directory-search-DUmRbodj.js","assets/dist-A6jz3xf3.js","assets/dist-BlCvuUeW.js","assets/dist-D02U1ZSF.js","assets/dist-DLlwuU80.js","assets/dist-o65Rxcqt.js","assets/download-CR7p2Qa1.js","assets/es2015-8qoacUFW.js","assets/exchange-rates-ClMnO-Lm.js","assets/farm-asset-pack-B_4Tei58.js","assets/farm-demo-fixture-CqOmMBnL.js","assets/farm-demo-navigation-BneXV0P_.js","assets/farm-illustrated-scene-BrQaFdZT.js","assets/farm-plan-catalog-BGV3o0_C.js","assets/farm-showcase-B3WWPiqN.js","assets/form-feedback-BpwgOJzN.js","assets/formal-submission-notice-fYx6jLZX.js","assets/heart-DXOtA8dM.js","assets/illustrated-plan-adapter-Ch1Yvixo.js","assets/image-CwgptN7L.js","assets/image-share-CuHXbZKZ.js","assets/info-BPpCl3Qb.js","assets/input-B4z6nxBc.js","assets/install-action-DjS5z7bM.js","assets/install-guidance-DGooOryk.js","assets/inventory-example-photos-BOt8I6i2.js","assets/leaflet-BYoh0l0Z.js","assets/lightbulb-G5uhCyn3.js","assets/link-CRAU3u2e.js","assets/listing-form-CjAgKTBW.js","assets/loader-circle-Do5rLFtH.js","assets/mail--r88BnEM.js","assets/map-pin-B3wicebP.js","assets/marketplace-categories-CMJVL1Go.js","assets/marketplace-details-0FGnqveL.js","assets/marketplace-location-DqhQJK2K.js","assets/marketplace-photo-UwABMphA.js","assets/message-circle-BYRevbtn.js","assets/official-links-Cgd77z5b.js","assets/offline-account-boundary-DtwxSPaI.js","assets/offline-db-D4lQyBEy.js","assets/offline-download-size-TTwenPT9.js","assets/offline-preparation-BAVgyqwo.js","assets/orb-morph-BgrAM9xk.js","assets/phone-BojWTBlC.js","assets/plus-CC8MZoTY.js","assets/price-conversion-0cJIKi6_.js","assets/product-photos-CZIYhqSE.js","assets/professional-profile-BLdHoT6n.js","assets/professional-profile-view-DGsAumZ2.js","assets/professional-tariffs-Bs0evR6X.js","assets/profile-socials-epMMePCK.js","assets/project-publication-BrIN2Hzm.js","assets/public-form-errors-BPV9tNnP.js","assets/public-image-content-C-0s7ZJl.js","assets/quote-conversion-CotIEurp.js","assets/refresh-cw-v23_x7f5.js","assets/rotate-ccw-DO2xn1nW.js","assets/search-C3Xmvdne.js","assets/security-center-LIjkoaiW.js","assets/share-2-B61k_0Gw.js","assets/sheet-BbviR2vk.js","assets/site-image-vNvjnZcC.js","assets/smartphone-DQ1_5Wm0.js","assets/sprout-LC288rtC.js","assets/textarea-D31nqrvU.js","assets/tractor-CSLKxE7X.js","assets/types-BfTeLzKl.js","assets/use-directory-filters-DbDToca4.js","assets/use-offline-snapshot-CgQHOZf2.js","assets/user-round-BnSsUPif.js","assets/utils-BHJHmrpA.js","assets/venezuela-BOnEjsqy.js","assets/venezuelaagro-logo-Czx-XUy4.js","assets/whatsapp-contact-MWnHfkf2.js","assets/wifi-off-AQ1QsWIl.js","assets/x-BMd_cQNi.js","assets/zoom-out-Bf_KkglM.js","assets/account-services-fLiezRnQ.js","assets/admin-dashboard-oarBQtA-.js","assets/company-directory-C8xr_fje.js","assets/company-manager-DffWkqKu.js","assets/connection-indicator-Cy_AjrwQ.js","assets/connectivity-pill-C4Nz5wtq.js","assets/design-form-example-DI7Lt4Qz.js","assets/device-install-action-BauyORRs.js","assets/directory-return-link-DlqhwRbr.js","assets/farm-aerial-proposal-CFnIB72Y.js","assets/farm-dashboard-h2AuS0_W.js","assets/farm-demo-workspace-5hl8FbsY.js","assets/farm-masterplan-scene-BHLooFPB.js","assets/farm-masterplan-webgl-C8VbPo42.js","assets/farm-showcase-Cw8eLgt2.js","assets/google-signin-jjx2XyiQ.js","assets/home-content-editor-U3TivtLq.js","assets/home-farm-preview-B6v2eDpQ.js","assets/home-farm-scene-DU3J-A33.js","assets/home-history-video-v-Va9Ya6.js","assets/install-app-banner-CvC_AhqK.js","assets/learning-catalog-C6-ypWqi.js","assets/learning-form-preview-Bx7iNHkh.js","assets/marketplace-browser-BPuNBws8.js","assets/marketplace-detail-DFveR7C7.js","assets/mobile-public-actions-B3pK7HCj.js","assets/offline-library-0oX4RYCX.js","assets/offline-navigation-Dk7jFVCu.js","assets/offline-worker-registration-B8p7qg4t.js","assets/professional-directory-I-PdxrJ7.js","assets/professional-manager-Cem7f_vh.js","assets/project-example-D99LCt97.js","assets/public-workspace-controls-oUn8zXWH.js","assets/session-menu-2X_7WkOD.js","assets/site-header-CK4OqprB.js","assets/social-links-oQCfa87V.js","assets/sticker-gallery-B26tpuwV.js","assets/store-catalog-koUFxOR6.js","assets/sonner-CZ3P2M5y.js","assets/whatsapp-community-UojEoym5.js"];
 import * as __viteRscAsyncHooks from "node:async_hooks";
 import { AsyncLocalStorage as AsyncLocalStorage$1 } from "node:async_hooks";
 import assetsManifest from "./__vite_rsc_assets_manifest.js";
 import "node:fs";
 import "node:path";
-//#region \0rolldown/runtime.js
 var __create = Object.create;
 var __defProp$2 = Object.defineProperty;
 var __getOwnPropDesc = Object.getOwnPropertyDescriptor;
@@ -35,8 +34,6 @@ var __toESM = (mod, isNodeMode, target) => (target = mod != null ? __create(__ge
 	value: mod,
 	enumerable: true
 }) : target, mod));
-//#endregion
-//#region lib/auth/config.ts
 function deploymentTarget() {
 	return "standalone";
 }
@@ -86,8 +83,6 @@ async function getAuthConfig() {
 function isGoogleAccountAllowed(config, email) {
 	return config.accessPolicy === "public-production" || config.allowedEmails.includes(email.trim().toLowerCase());
 }
-//#endregion
-//#region lib/auth/route-policy.ts
 /** Standalone public access is allowlisted. Unknown routes and every data mutation require a session. */
 var PUBLIC_PAGES = new Set([
 	"/",
@@ -104,6 +99,7 @@ var PUBLIC_PAGES = new Set([
 	"/marketplace",
 	"/nosotros",
 	"/guia-institucional",
+	"/financiamiento",
 	"/legal/privacidad",
 	"/legal/terminos",
 	"/legal/comercio",
@@ -146,6 +142,7 @@ function isPublicProductionRequest(request) {
 }
 /** Audited offline documents never embed a server account. Session controls fetch separately, no-store. */
 var ACCOUNT_AGNOSTIC_PAGES = new Set([
+	"/financiamiento",
 	"/",
 	"/tienda",
 	"/plataforma",
@@ -169,8 +166,6 @@ var ACCOUNT_AGNOSTIC_PAGES = new Set([
 function isAccountAgnosticPage(path) {
 	return ACCOUNT_AGNOSTIC_PAGES.has(path) || /^\/aprende\/[A-Za-z0-9_-]+$/.test(path);
 }
-//#endregion
-//#region lib/auth/csrf.ts
 var COOKIE = "__Host-va_csrf";
 function encode$1(bytes) {
 	return btoa(String.fromCharCode(...bytes)).replace(/=/g, "").replace(/\+/g, "-").replace(/\//g, "_");
@@ -220,8 +215,6 @@ async function validToken(token, request, config) {
 	for (let i = 0; i < expected.length; i++) difference |= expected.charCodeAt(i) ^ pieces[2].charCodeAt(i);
 	return difference === 0;
 }
-//#endregion
-//#region lib/auth/crypto.ts
 /** Web Crypto only: compatible with Workers and modern Node, no runtime secrets in source. */
 function randomToken$1() {
 	const bytes = crypto.getRandomValues(new Uint8Array(32));
@@ -277,8 +270,6 @@ async function decryptVerifier(secret, stateHash, sealed) {
 	}, await transactionKey(secret), decode(parts[2]));
 	return new TextDecoder().decode(plaintext);
 }
-//#endregion
-//#region lib/auth/session.ts
 var SESSION_COOKIE_NAME = "__Host-va_session";
 var SESSION_IDLE_TIMEOUT = 720 * 60;
 var SESSION_MAX_AGE = 10080 * 60;
@@ -371,20 +362,18 @@ function agroAnalyticsPage(location) {
 		page_referrer: ""
 	});
 }
-//#endregion
-//#region lib/site-content-security.ts
+var HISTORY_REEL_EMBED = "https://www.instagram.com/reel/DXA0ynSk30U/embed/";
 /** Owner approved these exact hosts on 7 Oct2026. Private/preview routes keep self-only networking. */
 function siteContentSecurityPolicy(url) {
 	const turnstile = url.pathname === "/auth/signin" ? " https://challenges.cloudflare.com" : "";
+	const history = url.origin === "https://venezuelaagro.com" && url.pathname === "/" ? ` ${HISTORY_REEL_EMBED}` : "";
 	const googleForm = url.pathname === "/auth/signin" || url.pathname === "/api/auth/google/start" ? " https://accounts.google.com" : "";
 	const analytics = agroAnalyticsPage(url) !== null;
 	const tag = analytics ? " https://www.googletagmanager.com" : "";
 	const imagery = /^\/(?:app(?:-local)?|finca-demo)(?:\/|$)/.test(url.pathname) || /^\/assets\/satellite-zone-worker-[A-Za-z0-9_-]+\.js$/.test(url.pathname) ? " https://earth-search.aws.element84.com https://e84-earth-search-sentinel-data.s3.us-west-2.amazonaws.com" : "";
 	const collection = analytics ? " https://www.googletagmanager.com https://www.google-analytics.com https://region1.google-analytics.com" : "";
-	return `default-src 'self'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:${googleForm}; object-src 'none'; img-src 'self' data: blob:${collection}; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'${tag}${turnstile}; frame-src 'self'${turnstile}; connect-src 'self'${collection}${imagery}; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests`;
+	return `default-src 'self'; base-uri 'self'; frame-ancestors 'none'; form-action 'self' mailto:${googleForm}; object-src 'none'; img-src 'self' data: blob:${collection}; font-src 'self'; style-src 'self' 'unsafe-inline'; script-src 'self' 'unsafe-inline'${tag}${turnstile}; frame-src 'self'${turnstile}${history}; connect-src 'self'${collection}${imagery}; manifest-src 'self'; worker-src 'self' blob:; upgrade-insecure-requests`;
 }
-//#endregion
-//#region lib/site-identity.ts
 /** Keep the live origin until DNS, TLS and account callbacks have been verified. */
 var SITE_ORIGIN = "https://venezuelaagro.com";
 var PLATFORM_NAME = "VenezuelaAgro";
@@ -464,8 +453,6 @@ function decoratePublicMetadata(path, metadata) {
 		}
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/http-error-responses.js
 /**
 * Build a 400 Bad Request plain-text response.
 *
@@ -538,8 +525,6 @@ function internalServerErrorResponse(message, init) {
 		headers: init?.headers
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/server/image-optimization.js
 /**
 * Next.js default device sizes and image sizes.
 * These are the allowed widths for image optimization when no custom
@@ -713,8 +698,6 @@ async function handleImageOptimization(request, handlers, allowedWidths, imageCo
 		return createPassthroughImageResponse(refetchedSource, imageConfig);
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/internal/als-registry.js
 /**
 * Shared helper for registering AsyncLocalStorage instances on `globalThis`
 * via `Symbol.for(...)` so that they survive multiple module instances.
@@ -764,8 +747,6 @@ function getOrCreateAls(key) {
 	const sym = Symbol.for(key);
 	return _g$8[sym] ??= new AsyncLocalStorage$1();
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/unified-request-context.js
 var _REQUEST_CONTEXT_ALS_KEY = Symbol.for("vinext.requestContext.als");
 var _g$7 = globalThis;
 var _als$4 = getOrCreateAls("vinext.unifiedRequestContext.als");
@@ -841,8 +822,6 @@ function getRequestContext() {
 function isInsideUnifiedScope() {
 	return _als$4.getStore() != null;
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/request-context.js
 /**
 * Request ExecutionContext — AsyncLocalStorage-backed accessor.
 *
@@ -883,8 +862,6 @@ function getRequestExecutionContext() {
 	if (isInsideUnifiedScope()) return getRequestContext().executionContext;
 	return _als$3.getStore() ?? null;
 }
-//#endregion
-//#region node_modules/vinext/dist/utils/base-path.js
 /**
 * Shared basePath helpers.
 *
@@ -918,8 +895,6 @@ function removeTrailingSlash(pathname) {
 	while (end > 0 && pathname.charCodeAt(end - 1) === 47) end--;
 	return end === 0 ? "/" : pathname.slice(0, end);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/headers.js
 /**
 * Internal HTTP header name constants used throughout vinext.
 *
@@ -1004,8 +979,6 @@ var INTERNAL_HEADERS = [
 	"x-nextjs-data",
 	"x-next-resume-state-length"
 ];
-//#endregion
-//#region node_modules/vinext/dist/server/middleware-request-headers.js
 var CREDENTIAL_REQUEST_HEADERS = ["authorization", "cookie"];
 function getMiddlewareHeaderValue(source, key) {
 	if (source instanceof Headers) return source.get(key);
@@ -1067,8 +1040,6 @@ function buildRequestHeadersFromMiddlewareResponse(baseHeaders, middlewareHeader
 function shouldKeepMiddlewareHeader(key) {
 	return key === "x-middleware-override-headers" || key === "x-middleware-set-cookie" || key.startsWith("x-middleware-request-");
 }
-//#endregion
-//#region node_modules/vinext/dist/config/config-matchers.js
 /**
 * Cache for compiled regex patterns in matchConfigPattern.
 *
@@ -1825,8 +1796,6 @@ function matchHeaders(pathname, headers, ctx) {
 	}
 	return result;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/request-pipeline.js
 /**
 * Shared request pipeline utilities.
 *
@@ -2187,8 +2156,6 @@ function cloneRequestWithHeaders(request, headers) {
 	});
 	return cloned;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/worker-utils.js
 /**
 * Shared utilities for Cloudflare Worker entries.
 *
@@ -2285,8 +2252,6 @@ async function resolveStaticAssetSignal(signalResponse, options) {
 	const assetResponse = await options.fetchAsset(assetPath);
 	return mergeHeaders(assetResponse, extraHeaders, assetResponse.ok && signalResponse.status !== 200 ? signalResponse.status : void 0);
 }
-//#endregion
-//#region node_modules/@vitejs/plugin-rsc/dist/dist-rz-Bnebz.js
 function tinyassert(value, message) {
 	if (value) return;
 	if (message instanceof Error) throw message;
@@ -2313,8 +2278,6 @@ function memoize(f, options) {
 		return newValue;
 	});
 }
-//#endregion
-//#region node_modules/@vitejs/plugin-rsc/dist/shared-BViDMJTQ.js
 var SERVER_REFERENCE_PREFIX = "$$server:";
 var SERVER_DECODE_CLIENT_PREFIX = "$$decode-client:";
 function removeReferenceCacheTag(id) {
@@ -2329,8 +2292,6 @@ function setInternalRequire() {
 		return globalThis.__vite_rsc_client_require__(id);
 	};
 }
-//#endregion
-//#region node_modules/react/cjs/react.react-server.production.js
 /**
 * @license React
 * react.react-server.production.js
@@ -2603,13 +2564,9 @@ var require_react_react_server_production = /* @__PURE__ */ __commonJSMin(((expo
 	};
 	exports.version = "19.2.6";
 }));
-//#endregion
-//#region node_modules/react/react.react-server.js
 var require_react_react_server = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_react_server_production();
 }));
-//#endregion
-//#region node_modules/react-dom/cjs/react-dom.react-server.production.js
 /**
 * @license React
 * react-dom.react-server.production.js
@@ -2706,13 +2663,9 @@ var require_react_dom_react_server_production = /* @__PURE__ */ __commonJSMin(((
 	};
 	exports.version = "19.2.6";
 }));
-//#endregion
-//#region node_modules/react-dom/react-dom.react-server.js
 var require_react_dom_react_server = /* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_dom_react_server_production();
 }));
-//#endregion
-//#region node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-server.edge.production.js
 var require_react_server_dom_webpack_server_edge_production = /* @__PURE__ */ __commonJSMin(((exports) => {
 	globalThis.AsyncLocalStorage = __viteRscAsyncHooks.AsyncLocalStorage;
 	/**
@@ -4780,8 +4733,6 @@ var require_react_server_dom_webpack_server_edge_production = /* @__PURE__ */ __
 		}, { highWaterMark: 0 });
 	};
 }));
-//#endregion
-//#region node_modules/@vitejs/plugin-rsc/dist/core/rsc.js
 var import_server_edge = /* @__PURE__ */ __toESM((/* @__PURE__ */ __commonJSMin(((exports) => {
 	var s = require_react_server_dom_webpack_server_edge_production();
 	exports.renderToReadableStream = s.renderToReadableStream;
@@ -4860,8 +4811,6 @@ function createClientManifest(options) {
 		};
 	} });
 }
-//#endregion
-//#region node_modules/react-server-dom-webpack/cjs/react-server-dom-webpack-client.edge.production.js
 /**
 * @license React
 * react-server-dom-webpack-client.edge.production.js
@@ -5074,11 +5023,7 @@ function decodeFormState(actionResult, body) {
 	return import_server_edge.decodeFormState(actionResult, body, createServerManifest());
 }
 var createTemporaryReferenceSet = import_server_edge.createTemporaryReferenceSet;
-//#endregion
-//#region \0virtual:vite-rsc/server-references
 var server_references_default = {};
-//#endregion
-//#region node_modules/@vitejs/plugin-rsc/dist/rsc.js
 initialize();
 function initialize() {
 	setRequireModule({ load: async (id) => {
@@ -5102,8 +5047,6 @@ function renderToReadableStream$1(data, options, extraOptions) {
 		});
 	} });
 }
-//#endregion
-//#region node_modules/vinext/dist/server/rsc-stream-hints.js
 var REACT_FLIGHT_STYLESHEET_PRELOAD_HINT = /(\d*:HL\[.*?),"stylesheet"(\]|,)/g;
 /**
 * React Flight emits HL hints with "stylesheet" for CSS preloads, but the
@@ -5137,8 +5080,6 @@ function normalizeReactFlightPreloadHints(stream) {
 function createRscRenderer(render) {
 	return (model, options) => normalizeReactFlightPreloadHints(render(model, options));
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/readonly-url-search-params.js
 var import_react_react_server = /* @__PURE__ */ __toESM(require_react_react_server(), 1);
 var ReadonlyURLSearchParamsError = class extends Error {
 	constructor() {
@@ -5163,8 +5104,6 @@ var ReadonlyURLSearchParams = class extends URLSearchParams {
 		throw new ReadonlyURLSearchParamsError();
 	}
 };
-//#endregion
-//#region node_modules/vinext/dist/shims/url-safety.js
 /**
 * Shared URL safety utilities for Link, Form, and navigation shims.
 *
@@ -5205,8 +5144,6 @@ function isDangerousScheme(url) {
 function assertSafeNavigationUrl(url) {
 	if (isDangerousScheme(url)) throw new Error(DANGEROUS_URL_BLOCK_MESSAGE);
 }
-//#endregion
-//#region node_modules/vinext/dist/utils/hash.js
 /**
 * FNV-1a hash producing a 64-bit result (two 32-bit rounds with different seeds).
 * Used for deterministic key generation where collisions must be rare.
@@ -5224,8 +5161,6 @@ function fnv1a64(input) {
 	}
 	return h1.toString(36) + h2.toString(36);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/artifact-compatibility.js
 function createArtifactCompatibilityEnvelope(input = {}) {
 	return {
 		schemaVersion: 1,
@@ -5266,8 +5201,6 @@ function parseArtifactCompatibilityEnvelope(value) {
 		renderEpoch: value.renderEpoch
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-elements-wire.js
 var APP_INTERCEPTION_SEPARATOR = "\0";
 var APP_ARTIFACT_COMPATIBILITY_KEY = "__artifactCompatibility";
 var APP_INTERCEPTION_CONTEXT_KEY = "__interceptionContext";
@@ -5482,8 +5415,6 @@ var AppElementsWire = {
 	readMetadata: readAppElementsMetadata,
 	withLayoutFlags
 };
-//#endregion
-//#region node_modules/vinext/dist/server/app-mounted-slots-header.js
 /**
 * Normalize the `x-vinext-mounted-slots` header for request handling and cache keying.
 *
@@ -5500,8 +5431,6 @@ function normalizeMountedSlotsHeader(raw) {
 	if (!raw) return null;
 	return Array.from(new Set(raw.split(/\s+/).filter(Boolean))).sort().join(" ") || null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-render-mode.js
 var APP_RSC_RENDER_MODE_NAVIGATION = "navigation";
 var APP_RSC_RENDER_MODE_REFRESH_PRESERVE_UI = "refresh-preserve-ui";
 var APP_RSC_RENDER_MODE_ACTION_RERENDER_PRESERVE_UI = "action-rerender-preserve-ui";
@@ -5518,8 +5447,6 @@ function parseAppRscRenderMode(value) {
 		default: return APP_RSC_RENDER_MODE_NAVIGATION;
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-cache-busting.js
 /**
 * RSC cache-busting hashes cover the headers that make a `.rsc` payload vary.
 * Client-side variant headers must survive transit through CDNs and reverse
@@ -5658,8 +5585,6 @@ async function resolveInvalidRscCacheBustingRequest(options) {
 		headers: { Location: `${url.pathname}${url.search}` }
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/navigation.js
 var _SERVER_INSERTED_HTML_CTX_KEY = Symbol.for("vinext.serverInsertedHTMLContext");
 function getServerInsertedHTMLContext() {
 	if (typeof import_react_react_server.createContext !== "function") return null;
@@ -5890,8 +5815,6 @@ if (!isServer) {
 		};
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/client-hook-error.js
 /**
 * Shared error helper for client-only hooks called in Server Components.
 *
@@ -5903,8 +5826,6 @@ if (!isServer) {
 function buildClientHookErrorMessage(hookName) {
 	return `${hookName} only works in Client Components. Add the "use client" directive at the top of the file to use it. Read more: https://nextjs.org/docs/messages/react-client-hook-in-server-component`;
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/internal/cookie-serialize.js
 /**
 * RFC 6265 §4.1.1: cookie-name is a token (RFC 2616 §2.2).
 * Allowed: any visible ASCII (0x21-0x7E) except separators: ()<>@,;:\"/[]?={}
@@ -5951,8 +5872,6 @@ function serializeSetCookie(name, value, options) {
 	if (options?.sameSite) parts.push(`SameSite=${options.sameSite}`);
 	return parts.join("; ");
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/internal/parse-cookie-header.js
 /**
 * Port of the current Next.js/@edge-runtime request cookie parser semantics.
 *
@@ -5980,8 +5899,6 @@ function parseCookieHeader(cookieHeader) {
 	}
 	return cookies;
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/headers.js
 var _FALLBACK_KEY$4 = Symbol.for("vinext.nextHeadersShim.fallback");
 var _g$6 = globalThis;
 var _als$2 = getOrCreateAls("vinext.nextHeadersShim.als");
@@ -6371,7 +6288,7 @@ function headersContextFromRequest(request) {
 * Returns a Promise in Next.js 15+ style (but resolves synchronously since
 * the context is already available).
 */
-function headers$1() {
+function headers$3() {
 	try {
 		throwIfInsideCacheScope("headers()");
 	} catch (error) {
@@ -6413,7 +6330,7 @@ function getAndClearPendingCookies() {
 var DRAFT_MODE_COOKIE = "__prerender_bypass";
 (/* @__PURE__ */ new Date(0)).toUTCString();
 function getDraftSecret() {
-	return "d25a0a0b-969a-469d-bb2b-50773ce64c68";
+	return "f97e2c1a-44f9-4c9d-afac-4cae8f3ef83e";
 }
 /**
 * Get any Set-Cookie header generated by draftMode().enable()/disable().
@@ -6527,8 +6444,6 @@ var RequestCookies$1 = class {
 		return parts.join("; ");
 	}
 };
-//#endregion
-//#region node_modules/vinext/dist/shims/thenable-params.js
 function hasParamProperty(obj, prop) {
 	return Object.prototype.hasOwnProperty.call(obj, prop);
 }
@@ -6581,8 +6496,6 @@ function makeThenableParams(obj) {
 		}
 	});
 }
-//#endregion
-//#region node_modules/react/cjs/react-jsx-runtime.react-server.production.js
 /**
 * @license React
 * react-jsx-runtime.react-server.production.js
@@ -6616,8 +6529,6 @@ var require_react_jsx_runtime_react_server_production = /* @__PURE__ */ __common
 	exports.jsx = jsxProd;
 	exports.jsxs = jsxProd;
 }));
-//#endregion
-//#region node_modules/vinext/dist/shims/metadata.js
 var import_jsx_runtime_react_server = (/* @__PURE__ */ __commonJSMin(((exports, module) => {
 	module.exports = require_react_jsx_runtime_react_server_production();
 })))();
@@ -7278,8 +7189,6 @@ function MetadataHead({ metadata }) {
 	}
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(import_jsx_runtime_react_server.Fragment, { children: elements });
 }
-//#endregion
-//#region node_modules/vinext/dist/utils/encode-cache-tag.js
 /**
 * Cache-tag canonicalisation.
 *
@@ -7313,8 +7222,6 @@ function encodeCacheTag(tag) {
 function encodeCacheTags(tags) {
 	return tags.map(encodeCacheTag);
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/internal/work-unit-async-storage.js
 /**
 * Shim for next/dist/server/app-render/work-unit-async-storage.external
 * and next/dist/client/components/request-async-storage.external
@@ -7327,8 +7234,6 @@ function encodeCacheTags(tags) {
 * io() for hanging-promise behavior during prerendering.
 */
 var workUnitAsyncStorage = new AsyncLocalStorage$1();
-//#endregion
-//#region node_modules/vinext/dist/utils/cache-control-metadata.js
 function isUnknownRecord(value) {
 	return value !== null && typeof value === "object" && !Array.isArray(value);
 }
@@ -7340,8 +7245,6 @@ function readCacheControlNumberField(ctx, field) {
 	const value = readRecordField(ctx, "cacheControl")?.[field] ?? ctx?.[field];
 	return typeof value === "number" ? value : void 0;
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/cache.js
 function readStringArrayField(ctx, field) {
 	const value = ctx?.[field];
 	if (!Array.isArray(value)) return [];
@@ -7475,8 +7378,6 @@ function _consumeRequestScopedCacheLife() {
 	return config;
 }
 getOrCreateAls("vinext.unstableCache.als");
-//#endregion
-//#region node_modules/vinext/dist/shims/fetch-cache.js
 /**
 * Extended fetch() with Next.js caching semantics.
 *
@@ -8076,8 +7977,6 @@ function runWithFetchDedupe(fn) {
 function ensureFetchPatch() {
 	_ensurePatchInstalled();
 }
-//#endregion
-//#region node_modules/vinext/dist/server/csp.js
 var ESCAPE_REGEX = /[&><\u2028\u2029]/;
 function matchesDirectiveName(directive, name) {
 	return directive === name || directive.startsWith(`${name} `);
@@ -8102,8 +8001,6 @@ function getScriptNonceFromHeaderSources(...headersList) {
 		if (nonce) return nonce;
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/middleware-response-headers.js
 var ADDITIVE_RESPONSE_HEADER_NAMES = new Set(["set-cookie", "vary"]);
 function mergeVaryHeader(target, value) {
 	const existing = target.get("Vary");
@@ -8143,8 +8040,6 @@ function mergeMiddlewareResponseHeaders(target, middlewareHeaders) {
 		target.set(key, value);
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/routing/utils.js
 var PATH_DELIMITER_REGEX = /([/#?\\]|%(2f|23|3f|5c))/gi;
 function encodePathDelimiters(segment) {
 	return segment.replace(PATH_DELIMITER_REGEX, (char) => encodeURIComponent(char));
@@ -8200,8 +8095,6 @@ function decodeMatchedParams(params) {
 		else params[key] = decodeMatchedParam(value);
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/server.js
 var NextRequest = class extends Request {
 	_nextUrl;
 	_url;
@@ -8499,7 +8392,7 @@ var NextURL = class NextURL {
 	* Matches the Next.js API: `request.nextUrl.buildId`.
 	*/
 	get buildId() {
-		return "c4923dcf-d97e-42d1-8803-8508fab0ff84";
+		return "22758c2a-3ddc-496b-ba29-e977dd1eca3e";
 	}
 };
 var RequestCookies = class {
@@ -8753,8 +8646,6 @@ var NextFetchEvent = class {
 	}
 };
 globalThis.URLPattern;
-//#endregion
-//#region node_modules/vinext/dist/server/normalize-path.js
 /**
 * Path normalization utility for request handling.
 *
@@ -8786,8 +8677,6 @@ function normalizePath(pathname) {
 	}
 	return "/" + resolved.join("/");
 }
-//#endregion
-//#region node_modules/vinext/dist/server/middleware-matcher.js
 var EMPTY_MIDDLEWARE_REQUEST_CONTEXT = {
 	headers: new Headers(),
 	cookies: {},
@@ -8883,8 +8772,6 @@ function compileMatcherPattern(pattern) {
 	else regexStr += tok[0];
 	return safeRegExp("^" + regexStr + "$");
 }
-//#endregion
-//#region node_modules/vinext/dist/server/middleware-runtime.js
 function isMiddlewareHandler(value) {
 	return typeof value === "function";
 }
@@ -9029,8 +8916,6 @@ async function executeMiddleware(options) {
 		waitUntilPromises
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-middleware.js
 var FLIGHT_HEADER_SET = new Set(FLIGHT_HEADERS);
 function requestWithoutFlightHeaders(request) {
 	let hasFlightHeader = false;
@@ -9154,8 +9039,6 @@ async function applyAppMiddleware(options) {
 		search
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/cache-control.js
 var NEVER_CACHE_CONTROL = "private, no-cache, no-store, max-age=0, must-revalidate";
 var STATIC_CACHE_CONTROL = "s-maxage=31536000, stale-while-revalidate";
 var STALE_REVALIDATE_CACHE_CONTROL = "s-maxage=0, stale-while-revalidate";
@@ -9185,8 +9068,6 @@ function buildCachedRevalidateCacheControl(cacheState, revalidateSeconds, expire
 	if (cacheState === "STALE" && expireSeconds === void 0) return STALE_REVALIDATE_CACHE_CONTROL;
 	return buildRevalidateCacheControl(revalidateSeconds, expireSeconds);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-response.js
 function applyTimingHeader(headers, timing) {
 	if (!timing) return;
 	const handlerStart = Math.round(timing.handlerStart);
@@ -9282,8 +9163,6 @@ function buildAppPageHtmlResponse(body, options) {
 		headers
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/server/implicit-tags.js
 var NEXT_CACHE_IMPLICIT_TAG_ID = "_N_T_";
 function appendUnique(tags, tag) {
 	if (!tags.includes(tag)) tags.push(tag);
@@ -9321,8 +9200,6 @@ function buildPageCacheTags(pathname, extraTags, routeSegments, leafKind) {
 	for (const tag of extraTags) appendUnique(tags, tag);
 	return tags.map(encodeCacheTag);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-post-middleware-context.js
 /**
 * Build a request context from the live ALS HeadersContext, which reflects
 * any x-middleware-request-* header mutations applied by middleware.
@@ -9344,8 +9221,6 @@ function buildPostMwRequestContext(request) {
 		host: normalizeHost(ctx.headers.get("host"), url.hostname)
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/root-params.js
 var _FALLBACK_KEY$1 = Symbol.for("vinext.rootParams.fallback");
 var _g$3 = globalThis;
 var _fallbackState$1 = _g$3[_FALLBACK_KEY$1] ??= { rootParams: null };
@@ -9361,8 +9236,6 @@ function pickRootParams(params, rootParamNames) {
 function setRootParams(params) {
 	getState().rootParams = params;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-prerender-static-params.js
 async function callAppPrerenderStaticParams(options) {
 	setRootParams(pickRootParams(options.params, options.rootParamNamesByPattern[options.pattern]));
 	try {
@@ -9371,8 +9244,6 @@ async function callAppPrerenderStaticParams(options) {
 		setRootParams(null);
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-prerender-endpoints.js
 var STATIC_PARAMS_ENDPOINT = "/__vinext/prerender/static-params";
 var PAGES_STATIC_PATHS_ENDPOINT = "/__vinext/prerender/pages-static-paths";
 var JSON_HEADERS = { "content-type": "application/json" };
@@ -9463,8 +9334,6 @@ function isPlainObject(value) {
 function isStringArray(value) {
 	return Array.isArray(value) && value.every((item) => typeof item === "string");
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-response-finalizer.js
 /**
 * Apply App Router response finalization that must happen outside individual
 * route dispatchers.
@@ -9496,8 +9365,6 @@ function finalizeAppRscResponse(response, request, options) {
 	});
 	return response;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-request-normalization.js
 /**
 * Normalize an App Router RSC request.
 *
@@ -9556,8 +9423,6 @@ function normalizeRscRequest(request, basePath) {
 		renderMode
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/routing/route-pattern.js
 function routePatternPart(segment) {
 	if (segment.startsWith("[[...") && segment.endsWith("]]")) return `:${segment.slice(5, -2)}*`;
 	if (segment.startsWith("[...") && segment.endsWith("]")) return `:${segment.slice(4, -1)}+`;
@@ -9645,8 +9510,6 @@ function matchRoutePattern(urlParts, patternParts) {
 	decodeMatchedParams(params);
 	return params;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/metadata-routes.js
 /** Escape the five XML special characters in text content and attribute values. */
 function escapeXml(s) {
 	return s.replace(/&/g, "&amp;").replace(/</g, "&lt;").replace(/>/g, "&gt;").replace(/"/g, "&quot;").replace(/'/g, "&apos;");
@@ -9766,8 +9629,6 @@ function isValidMetadataImageId(id) {
 function matchMetadataRoutePattern(urlParts, patternParts) {
 	return matchRoutePattern(urlParts, patternParts);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/metadata-route-response.js
 var routeFunctionCache = /* @__PURE__ */ new WeakMap();
 function isObject$1(value) {
 	return typeof value === "object" && value !== null;
@@ -9949,8 +9810,6 @@ async function handleMetadataRouteRequest(options) {
 	}
 	return null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/prerender-work-unit-setup.js
 /**
 * Sets up the work unit async storage for prerendering.
 *
@@ -9975,8 +9834,6 @@ function runWithPrerenderWorkUnit(fn, options) {
 	}
 	return fn();
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-handler.js
 function hasProperty(value, key) {
 	return key in value;
 }
@@ -10249,8 +10106,6 @@ function createAppRscHandler(options) {
 		}, { route: () => new URL(request.url).pathname }));
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/instrumentation.js
 /**
 * Get the registered onRequestError handler (if any).
 *
@@ -10280,8 +10135,6 @@ function reportRequestError(error, request, context) {
 	getRequestExecutionContext()?.waitUntil(promise);
 	return promise;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-runtime.js
 var ROUTE_HANDLER_HTTP_METHODS = [
 	"GET",
 	"HEAD",
@@ -10515,8 +10368,6 @@ function createTrackedAppRouteRequest(request, options = {}) {
 		}
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/next-error-digest.js
 /**
 * Pulls a stringified `digest` off an unknown thrown value, or returns null
 * when the value is not a digest-bearing error.
@@ -10554,8 +10405,6 @@ function parseNextHttpErrorDigest(digest) {
 	if (digest.startsWith("NEXT_HTTP_ERROR_FALLBACK;")) return { status: parseInt(digest.split(";")[1], 10) };
 	return null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-policy.js
 function isPossibleAppRouteActionRequest(request) {
 	if (request.method.toUpperCase() !== "POST") return false;
 	const contentType = request.headers.get("content-type");
@@ -10613,8 +10462,6 @@ function resolveAppRouteHandlerSpecialError(error, requestUrl, options) {
 	};
 	return null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-static-generation.js
 function getAppPageStaticGenerationErrorMessage() {
 	return "Page with `dynamic = \"error\"` used a dynamic API. This page was expected to be fully static, but headers(), cookies(), or searchParams was accessed. Remove the dynamic API usage or change the dynamic config to \"auto\" or \"force-dynamic\".";
 }
@@ -10630,8 +10477,6 @@ function createStaticGenerationHeadersContext(options) {
 	if (options.dynamicConfig === "error") context.accessError = new Error(options.routeKind === "route" ? getAppRouteStaticGenerationErrorMessage(options.routePattern) : getAppPageStaticGenerationErrorMessage());
 	return context;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-response.js
 var APP_ROUTE_REWRITE_ERROR = "NextResponse.rewrite() was used in a app route handler, this is not currently supported. Please remove the invocation to continue.";
 var APP_ROUTE_NEXT_ERROR = "NextResponse.next() was used in a app route handler, this is not supported. See here for more info: https://nextjs.org/docs/messages/next-response-next-in-app-route-handler";
 function hasMiddlewareHeader(headers) {
@@ -10733,8 +10578,6 @@ function finalizeRouteHandlerResponse(response, options) {
 		headers
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-execution.js
 function configureAppRouteStaticGenerationContext(options) {
 	if (options.dynamicConfig === "force-static" || options.dynamicConfig === "error") {
 		setHeadersContext(createStaticGenerationHeadersContext({
@@ -10852,8 +10695,6 @@ async function executeAppRouteHandler(options) {
 		options.setHeadersAccessPhase(previousHeadersPhase);
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-cache.js
 function getCachedAppRouteValue(entry) {
 	return entry?.value.value && entry.value.value.kind === "APP_ROUTE" ? entry.value.value : null;
 }
@@ -10923,8 +10764,6 @@ async function readAppRouteHandlerCacheResponse(options) {
 	}
 	return null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-route-handler-dispatch.js
 function isAppRouteHandlerFunction(value) {
 	return typeof value === "function";
 }
@@ -11058,8 +10897,6 @@ async function dispatchAppRouteHandler(options) {
 	options.clearRequestContext();
 	return applyRouteHandlerMiddlewareContext(new Response(null, { status: 405 }), options.middlewareContext);
 }
-//#endregion
-//#region node_modules/vinext/dist/utils/text-stream.js
 /**
 * Helpers for the repeated `new TextDecoder()` + `ReadableStream` chunk-loop
 * pattern used across the server. Each helper handles the streaming-decode
@@ -11121,8 +10958,6 @@ async function readStreamAsTextWithLimit(stream, maxBytes, onLimitExceeded) {
 		reader.releaseLock();
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/server-action-not-found.js
 var SERVER_ACTION_NOT_FOUND_DOCS = "https://nextjs.org/docs/messages/failed-to-find-server-action";
 var SERVER_ACTION_NOT_FOUND_BODY = "Server action not found.";
 function getServerActionNotFoundPrefix(actionId) {
@@ -11151,8 +10986,6 @@ function createServerActionNotFoundResponse() {
 		}
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-params.js
 function getAppPageSegmentParamName(segment) {
 	if (segment.startsWith("[[...") && segment.endsWith("]]") && segment.length > 7) return segment.slice(5, -2);
 	if (segment.startsWith("[...") && segment.endsWith("]") && segment.length > 5) return segment.slice(4, -1);
@@ -11176,8 +11009,6 @@ function resolveAppPageSegmentParams(routeSegments, treePosition, matchedParams)
 	}
 	return segmentParams;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-request.js
 function pickRouteParams(matchedParams, routeParamNames) {
 	const params = {};
 	for (const paramName of routeParamNames) {
@@ -11336,8 +11167,6 @@ async function buildAppPageElement(options) {
 		throw error;
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-server-action-execution.js
 /**
 * Matches Next.js' server action argument cap to prevent stack overflow in
 * Function.prototype.apply when decoding hostile action payloads.
@@ -11723,8 +11552,6 @@ async function handleServerActionRscRequest(options) {
 		});
 	}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-execution.js
 function isPromiseLike$1(value) {
 	return Boolean(value && (typeof value === "object" || typeof value === "function") && "then" in value && typeof value.then === "function");
 }
@@ -11892,8 +11719,6 @@ function buildAppPageFontLinkHeader(preloads) {
 	if (!preloads || preloads.length === 0) return "";
 	return preloads.map((preload) => `<${preload.href}>; rel=preload; as=font; type=${preload.type}; crossorigin`).join(", ");
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-errors.js
 function hasDigest(error) {
 	return Boolean(error && typeof error === "object" && "digest" in error);
 }
@@ -11930,8 +11755,6 @@ function createRscOnErrorHandler$1(options) {
 		if (nodeEnv === "production" && error) return errorDigest(getThrownValueMessage(error) + getThrownValueStack(error));
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-error-handler.js
 /**
 * Build a per-request RSC error handler that extracts request metadata from
 * the incoming Web `Request`, wires it into a `createRscOnErrorHandler` call,
@@ -11956,25 +11779,21 @@ function createAppRscOnErrorHandler(reportRequestError, request, pathname, route
 		requestInfo
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/error-boundary.js
 var ErrorBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ErrorBoundary' is called on server");
-}, "593f344dc510", "ErrorBoundary");
+}, "b85cd7c0e37a", "ErrorBoundary");
 var ForbiddenBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ForbiddenBoundary' is called on server");
-}, "593f344dc510", "ForbiddenBoundary");
+}, "b85cd7c0e37a", "ForbiddenBoundary");
 var NotFoundBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'NotFoundBoundary' is called on server");
-}, "593f344dc510", "NotFoundBoundary");
+}, "b85cd7c0e37a", "NotFoundBoundary");
 var RedirectBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'RedirectBoundary' is called on server");
-}, "593f344dc510", "RedirectBoundary");
+}, "b85cd7c0e37a", "RedirectBoundary");
 var UnauthorizedBoundary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'UnauthorizedBoundary' is called on server");
-}, "593f344dc510", "UnauthorizedBoundary");
-//#endregion
-//#region node_modules/vinext/dist/shims/layout-segment-context.js
+}, "b85cd7c0e37a", "UnauthorizedBoundary");
 /**
 * Layout segment context provider.
 *
@@ -12004,9 +11823,7 @@ var UnauthorizedBoundary = /* @__PURE__ */ registerClientReference(() => {
 */
 var LayoutSegmentProvider = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'LayoutSegmentProvider' is called on server");
-}, "15c18cfaeeff", "LayoutSegmentProvider");
-//#endregion
-//#region node_modules/vinext/dist/shims/slot.js
+}, "ae5a45c99642", "LayoutSegmentProvider");
 /**
 * Holds resolved AppElements (not a Promise). React 19's use(Promise) during
 * hydration triggers "async Client Component" for native Promises that lack
@@ -12014,15 +11831,13 @@ var LayoutSegmentProvider = /* @__PURE__ */ registerClientReference(() => {
 */
 var Children = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'Children' is called on server");
-}, "8c0f216c4604", "Children");
+}, "965abe9a5c3e", "Children");
 var ParallelSlot = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ParallelSlot' is called on server");
-}, "8c0f216c4604", "ParallelSlot");
+}, "965abe9a5c3e", "ParallelSlot");
 var Slot$1 = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'Slot' is called on server");
-}, "8c0f216c4604", "Slot");
-//#endregion
-//#region node_modules/vinext/dist/server/app-render-dependency.js
+}, "965abe9a5c3e", "Slot");
 function createAppRenderDependency() {
 	let released = false;
 	let resolve;
@@ -12052,8 +11867,6 @@ function renderWithAppDependencyBarrier(children, dependency) {
 	}
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(import_jsx_runtime_react_server.Fragment, { children: [children, /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ReleaseAppRenderDependency, {})] });
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-segment-state.js
 function isOptionalCatchAllSegment(segment) {
 	return segment.startsWith("[[...") && segment.endsWith("]]") && segment.length > 7;
 }
@@ -12129,8 +11942,6 @@ function resolveAppPageRouteStateKey(routeSegments, params) {
 	for (const segment of routeSegments) if (!isRouteGroupSegment(segment)) statePath.push(resolveSingleSegmentStateKey(segment, params));
 	return statePath.length > 0 ? JSON.stringify(statePath) : "";
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-route-wiring.js
 function getDefaultExport$1(module) {
 	return module?.default ?? null;
 }
@@ -12453,8 +12264,6 @@ function buildAppPageElements(options) {
 	elements[routeId] = /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(import_jsx_runtime_react_server.Fragment, { children: [createAppPageRouteHead(options.resolvedMetadata, options.resolvedViewport), routeChildren] });
 	return elements;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/file-based-metadata.js
 function routeApplies(routePath, routePrefix) {
 	if (!routePrefix) return true;
 	return routePath === routePrefix || routePath.startsWith(`${routePrefix}/`);
@@ -12803,8 +12612,6 @@ async function applyFileBasedMetadata(metadata, routePath, params, metadataRoute
 	if (manifestHeadData.length > 0 && manifestHeadData[0].kind === "manifest") nextMetadata.manifest = manifestHeadData[0].href;
 	return nextMetadata;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-head.js
 function resolveActiveParallelRouteHeadInputs(options) {
 	return Object.entries(options.slots ?? {}).map(([slotKey, slot]) => {
 		if (options.interceptSlotKey === slotKey && options.interceptPage) return {
@@ -12997,8 +12804,6 @@ async function resolveAppPageHeadInner(options) {
 		viewport: mergeViewport(viewportList)
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-boundary.js
 function resolveAppPageHttpAccessBoundaryComponent(options) {
 	let boundaryModule;
 	if (options.statusCode === 403) boundaryModule = options.routeForbiddenModule ?? options.rootForbiddenModule;
@@ -13073,8 +12878,6 @@ async function renderAppPageBoundaryResponse(options) {
 	}
 	return options.createHtmlResponse(rscStream, options.status);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-stream.js
 function createAppPageFontData(options) {
 	return {
 		links: options.getLinks(),
@@ -13185,8 +12988,6 @@ function createAppPageRscErrorTracker(baseOnError) {
 function shouldRerenderAppPageWithGlobalError(options) {
 	return Boolean(options.capturedError) && !options.hasLocalBoundary;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-boundary-render.js
 function getDefaultExport(module) {
 	return module?.default ?? null;
 }
@@ -13419,8 +13220,6 @@ function rewriteClientHookError(error) {
 	const match = error.message.match(_clientHookPattern);
 	if (match) error.message = buildClientHookErrorMessage(`${match[1]}()`);
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-fallback-renderer.js
 var EMPTY_MW_CTX = {
 	headers: null,
 	status: null
@@ -13494,8 +13293,6 @@ function createAppFallbackRenderer(options) {
 		}
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-element-builder.js
 /**
 * Build the App Router element tree for a matched route.
 *
@@ -13628,8 +13425,6 @@ function collectParamNameSet(params) {
 	if (params) for (const name of params) set.add(name);
 	return set;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/isr-cache.js
 /**
 * ISR (Incremental Static Regeneration) cache layer.
 *
@@ -13740,7 +13535,7 @@ function buildCacheKey(prefix, pathname, suffix) {
 * The suffix mirrors Next.js's separate on-disk app artifacts while keeping the
 * Cloudflare KV key under its 512-byte limit for long pathnames.
 */
-function appIsrCacheKey(pathname, suffix, buildId = "c4923dcf-d97e-42d1-8803-8508fab0ff84") {
+function appIsrCacheKey(pathname, suffix, buildId = "22758c2a-3ddc-496b-ba29-e977dd1eca3e") {
 	return buildCacheKey(buildId ? `app:${buildId}` : "app", pathname, suffix);
 }
 function appIsrHtmlKey(pathname) {
@@ -13764,8 +13559,6 @@ function appIsrRouteKey(pathname) {
 }
 var _REVALIDATE_KEY = Symbol.for("vinext.isrCache.revalidateDurations");
 _g$1[_REVALIDATE_KEY] ??= /* @__PURE__ */ new Map();
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-cache.js
 var NO_STORE_CACHE_CONTROL = "no-store, must-revalidate";
 function buildAppPageCacheControl(cacheState, revalidateSeconds, expireSeconds) {
 	return buildCachedRevalidateCacheControl(cacheState, revalidateSeconds, expireSeconds);
@@ -13967,8 +13760,6 @@ function scheduleAppPageRscCacheWrite(options) {
 	options.waitUntil?.(cachePromise);
 	return true;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-method.js
 function isNonGetOrHead(method) {
 	const normalizedMethod = method.toUpperCase();
 	return normalizedMethod !== "GET" && normalizedMethod !== "HEAD";
@@ -13988,8 +13779,6 @@ function resolveAppPageMethodResponse(options) {
 	mergeMiddlewareResponseHeaders(headers, options.middlewareHeaders ?? null);
 	return methodNotAllowedResponse("GET, HEAD", { headers });
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-probe.js
 async function probeAppPageBeforeRender(options) {
 	let layoutFlags = {};
 	if (options.layoutCount > 0) {
@@ -14032,8 +13821,6 @@ async function probeAppPageBeforeRender(options) {
 		layoutFlags
 	};
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-render.js
 function buildResponseTiming(options) {
 	if (options.isProduction) return;
 	return {
@@ -14069,7 +13856,7 @@ function createAppPageArtifactCompatibility(element, routePattern) {
 			routePattern,
 			rootBoundaryId
 		}),
-		deploymentVersion: "c4923dcf-d97e-42d1-8803-8508fab0ff84",
+		deploymentVersion: "22758c2a-3ddc-496b-ba29-e977dd1eca3e",
 		rootBoundaryId
 	});
 }
@@ -14348,8 +14135,6 @@ async function settleCapturedRscRenderForCacheMetadata(capturedRscDataPromise) {
 		await capturedRscDataPromise;
 	} catch {}
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-page-dispatch.js
 function shouldReadAppPageCache(options) {
 	return options.isProduction && !options.isProgressiveActionRender && !options.isDraftMode && !options.isForceDynamic && (options.isRscRequest || !options.scriptNonce) && (options.revalidateSeconds === null || options.revalidateSeconds > 0);
 }
@@ -14694,8 +14479,6 @@ async function renderPageSpecialError(options, specialError) {
 		specialError
 	});
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-segment-config.js
 var DYNAMIC_VALUES = new Set([
 	"auto",
 	"error",
@@ -14781,8 +14564,6 @@ function resolveAppPageSegmentConfig(options) {
 function resolveAppPageFetchCacheMode(options) {
 	return resolveAppPageSegmentConfig(options).fetchCache ?? null;
 }
-//#endregion
-//#region node_modules/vinext/dist/routing/route-trie.js
 function createNode() {
 	return {
 		staticChildren: /* @__PURE__ */ new Map(),
@@ -14927,8 +14708,6 @@ function match(node, urlParts, index) {
 	}
 	return null;
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-rsc-route-matching.js
 function createRouteParams() {
 	return Object.create(null);
 }
@@ -14991,8 +14770,6 @@ function matchAppRscRoutePattern(urlParts, patternParts) {
 function mergeMatchedParams(sourceParams, targetParams) {
 	return Object.assign(createRouteParams(), sourceParams, targetParams);
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/navigation-state.js
 /**
 * Server-only navigation state backed by AsyncLocalStorage.
 *
@@ -15032,8 +14809,6 @@ var _accessors = {
 };
 _registerStateAccessors(_accessors);
 globalThis[GLOBAL_ACCESSORS_KEY] = _accessors;
-//#endregion
-//#region node_modules/vinext/dist/build/google-fonts/sort-variants.js
 function sortFontsVariantValues(valA, valB) {
 	if (valA.includes(",") && valB.includes(",")) {
 		const [aPrefix, aSuffix] = valA.split(",", 2);
@@ -15043,8 +14818,6 @@ function sortFontsVariantValues(valA, valB) {
 	}
 	return parseInt(valA) - parseInt(valB);
 }
-//#endregion
-//#region node_modules/vinext/dist/build/google-fonts/build-url.js
 function buildGoogleFontsUrl$1(fontFamily, axes, display) {
 	const variants = [];
 	if (axes.wght) for (const wght of axes.wght) if (!axes.ital) variants.push([["wght", wght], ...axes.variableAxes ?? []]);
@@ -15069,8 +14842,6 @@ function buildGoogleFontsUrl$1(fontFamily, axes, display) {
 	}
 	return `${url}&display=${display}`;
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/font-google-base.js
 /**
 * next/font/google shim
 *
@@ -15412,8 +15183,6 @@ var googleFonts = new Proxy({}, { get(_target, prop) {
 	if (prop === "default") return googleFonts;
 	return createFontLoader(prop.replace(/_/g, " ").replace(/([a-z])([A-Z])/g, "$1 $2"));
 } });
-//#endregion
-//#region node_modules/vinext/dist/shims/font-local.js
 var ssrFontStyles = [];
 var ssrFontPreloads = [];
 /**
@@ -15432,16 +15201,12 @@ function getSSRFontStyles() {
 function getSSRFontPreloads() {
 	return [...ssrFontPreloads];
 }
-//#endregion
-//#region node_modules/vinext/dist/server/app-hook-warning-suppression.js
 var suppressHookWarningAls = new AsyncLocalStorage$1();
 var _origConsoleError = console.error;
 console.error = (...args) => {
 	if (suppressHookWarningAls.getStore() === true && typeof args[0] === "string" && args[0].includes("Invalid hook call")) return;
 	_origConsoleError.apply(console, args);
 };
-//#endregion
-//#region node_modules/vinext/dist/server/app-request-context.js
 /**
 * Set navigation context in the ALS-backed store. "use client" components
 * rendered during SSR need the pathname/searchParams/params but the SSR
@@ -15464,13 +15229,5175 @@ function clearAppRequestContext() {
 	setHeadersContext(null);
 	setAppNavigationContext(null);
 }
-//#endregion
-//#region node_modules/vinext/dist/shims/link.js
+var entityKind = Symbol.for("drizzle:entityKind");
+function is(value, type) {
+	if (!value || typeof value !== "object") return false;
+	if (value instanceof type) return true;
+	if (!Object.prototype.hasOwnProperty.call(type, entityKind)) throw new Error(`Class "${type.name ?? "<unknown>"}" doesn't look like a Drizzle entity. If this is incorrect and the class is provided by Drizzle, please report this as a bug.`);
+	let cls = Object.getPrototypeOf(value).constructor;
+	if (cls) while (cls) {
+		if (entityKind in cls && cls[entityKind] === type[entityKind]) return true;
+		cls = Object.getPrototypeOf(cls);
+	}
+	return false;
+}
+var Column = class {
+	constructor(table, config) {
+		this.table = table;
+		this.config = config;
+		this.name = config.name;
+		this.keyAsName = config.keyAsName;
+		this.notNull = config.notNull;
+		this.default = config.default;
+		this.defaultFn = config.defaultFn;
+		this.onUpdateFn = config.onUpdateFn;
+		this.hasDefault = config.hasDefault;
+		this.primary = config.primaryKey;
+		this.isUnique = config.isUnique;
+		this.uniqueName = config.uniqueName;
+		this.uniqueType = config.uniqueType;
+		this.dataType = config.dataType;
+		this.columnType = config.columnType;
+		this.generated = config.generated;
+		this.generatedIdentity = config.generatedIdentity;
+	}
+	static [entityKind] = "Column";
+	name;
+	keyAsName;
+	primary;
+	notNull;
+	default;
+	defaultFn;
+	onUpdateFn;
+	hasDefault;
+	isUnique;
+	uniqueName;
+	uniqueType;
+	dataType;
+	columnType;
+	enumValues = void 0;
+	generated = void 0;
+	generatedIdentity = void 0;
+	config;
+	mapFromDriverValue(value) {
+		return value;
+	}
+	mapToDriverValue(value) {
+		return value;
+	}
+	shouldDisableInsert() {
+		return this.config.generated !== void 0 && this.config.generated.type !== "byDefault";
+	}
+};
+var ColumnBuilder = class {
+	static [entityKind] = "ColumnBuilder";
+	config;
+	constructor(name, dataType, columnType) {
+		this.config = {
+			name,
+			keyAsName: name === "",
+			notNull: false,
+			default: void 0,
+			hasDefault: false,
+			primaryKey: false,
+			isUnique: false,
+			uniqueName: void 0,
+			uniqueType: void 0,
+			dataType,
+			columnType,
+			generated: void 0
+		};
+	}
+	/**
+	* Changes the data type of the column. Commonly used with `json` columns. Also, useful for branded types.
+	*
+	* @example
+	* ```ts
+	* const users = pgTable('users', {
+	* 	id: integer('id').$type<UserId>().primaryKey(),
+	* 	details: json('details').$type<UserDetails>().notNull(),
+	* });
+	* ```
+	*/
+	$type() {
+		return this;
+	}
+	/**
+	* Adds a `not null` clause to the column definition.
+	*
+	* Affects the `select` model of the table - columns *without* `not null` will be nullable on select.
+	*/
+	notNull() {
+		this.config.notNull = true;
+		return this;
+	}
+	/**
+	* Adds a `default <value>` clause to the column definition.
+	*
+	* Affects the `insert` model of the table - columns *with* `default` are optional on insert.
+	*
+	* If you need to set a dynamic default value, use {@link $defaultFn} instead.
+	*/
+	default(value) {
+		this.config.default = value;
+		this.config.hasDefault = true;
+		return this;
+	}
+	/**
+	* Adds a dynamic default value to the column.
+	* The function will be called when the row is inserted, and the returned value will be used as the column value.
+	*
+	* **Note:** This value does not affect the `drizzle-kit` behavior, it is only used at runtime in `drizzle-orm`.
+	*/
+	$defaultFn(fn) {
+		this.config.defaultFn = fn;
+		this.config.hasDefault = true;
+		return this;
+	}
+	/**
+	* Alias for {@link $defaultFn}.
+	*/
+	$default = this.$defaultFn;
+	/**
+	* Adds a dynamic update value to the column.
+	* The function will be called when the row is updated, and the returned value will be used as the column value if none is provided.
+	* If no `default` (or `$defaultFn`) value is provided, the function will be called when the row is inserted as well, and the returned value will be used as the column value.
+	*
+	* **Note:** This value does not affect the `drizzle-kit` behavior, it is only used at runtime in `drizzle-orm`.
+	*/
+	$onUpdateFn(fn) {
+		this.config.onUpdateFn = fn;
+		this.config.hasDefault = true;
+		return this;
+	}
+	/**
+	* Alias for {@link $onUpdateFn}.
+	*/
+	$onUpdate = this.$onUpdateFn;
+	/**
+	* Adds a `primary key` clause to the column definition. This implicitly makes the column `not null`.
+	*
+	* In SQLite, `integer primary key` implicitly makes the column auto-incrementing.
+	*/
+	primaryKey() {
+		this.config.primaryKey = true;
+		this.config.notNull = true;
+		return this;
+	}
+	/** @internal Sets the name of the column to the key within the table definition if a name was not given. */
+	setName(name) {
+		if (this.config.name !== "") return;
+		this.config.name = name;
+	}
+};
+var TableName = Symbol.for("drizzle:Name");
+var isPgEnumSym = Symbol.for("drizzle:isPgEnum");
+function isPgEnum(obj) {
+	return !!obj && typeof obj === "function" && isPgEnumSym in obj && obj[isPgEnumSym] === true;
+}
+var Subquery = class {
+	static [entityKind] = "Subquery";
+	constructor(sql, fields, alias, isWith = false, usedTables = []) {
+		this._ = {
+			brand: "Subquery",
+			sql,
+			selectedFields: fields,
+			alias,
+			isWith,
+			usedTables
+		};
+	}
+};
+var WithSubquery = class extends Subquery {
+	static [entityKind] = "WithSubquery";
+};
+var tracer = { startActiveSpan(name, fn) {
+	return fn();
+} };
+var ViewBaseConfig = Symbol.for("drizzle:ViewBaseConfig");
+var Schema = Symbol.for("drizzle:Schema");
+var Columns = Symbol.for("drizzle:Columns");
+var ExtraConfigColumns = Symbol.for("drizzle:ExtraConfigColumns");
+var OriginalName = Symbol.for("drizzle:OriginalName");
+var BaseName = Symbol.for("drizzle:BaseName");
+var IsAlias = Symbol.for("drizzle:IsAlias");
+var ExtraConfigBuilder = Symbol.for("drizzle:ExtraConfigBuilder");
+var IsDrizzleTable = Symbol.for("drizzle:IsDrizzleTable");
+var Table = class {
+	static [entityKind] = "Table";
+	/** @internal */
+	static Symbol = {
+		Name: TableName,
+		Schema,
+		OriginalName,
+		Columns,
+		ExtraConfigColumns,
+		BaseName,
+		IsAlias,
+		ExtraConfigBuilder
+	};
+	/**
+	* @internal
+	* Can be changed if the table is aliased.
+	*/
+	[TableName];
+	/**
+	* @internal
+	* Used to store the original name of the table, before any aliasing.
+	*/
+	[OriginalName];
+	/** @internal */
+	[Schema];
+	/** @internal */
+	[Columns];
+	/** @internal */
+	[ExtraConfigColumns];
+	/**
+	*  @internal
+	* Used to store the table name before the transformation via the `tableCreator` functions.
+	*/
+	[BaseName];
+	/** @internal */
+	[IsAlias] = false;
+	/** @internal */
+	[IsDrizzleTable] = true;
+	/** @internal */
+	[ExtraConfigBuilder] = void 0;
+	constructor(name, schema, baseName) {
+		this[TableName] = this[OriginalName] = name;
+		this[Schema] = schema;
+		this[BaseName] = baseName;
+	}
+};
+function getTableName(table) {
+	return table[TableName];
+}
+function getTableUniqueName(table) {
+	return `${table[Schema] ?? "public"}.${table[TableName]}`;
+}
+function isSQLWrapper(value) {
+	return value !== null && value !== void 0 && typeof value.getSQL === "function";
+}
+function mergeQueries(queries) {
+	const result = {
+		sql: "",
+		params: []
+	};
+	for (const query of queries) {
+		result.sql += query.sql;
+		result.params.push(...query.params);
+		if (query.typings?.length) {
+			if (!result.typings) result.typings = [];
+			result.typings.push(...query.typings);
+		}
+	}
+	return result;
+}
+var StringChunk = class {
+	static [entityKind] = "StringChunk";
+	value;
+	constructor(value) {
+		this.value = Array.isArray(value) ? value : [value];
+	}
+	getSQL() {
+		return new SQL([this]);
+	}
+};
+var SQL = class SQL {
+	constructor(queryChunks) {
+		this.queryChunks = queryChunks;
+		for (const chunk of queryChunks) if (is(chunk, Table)) {
+			const schemaName = chunk[Table.Symbol.Schema];
+			this.usedTables.push(schemaName === void 0 ? chunk[Table.Symbol.Name] : schemaName + "." + chunk[Table.Symbol.Name]);
+		}
+	}
+	static [entityKind] = "SQL";
+	/** @internal */
+	decoder = noopDecoder;
+	shouldInlineParams = false;
+	/** @internal */
+	usedTables = [];
+	append(query) {
+		this.queryChunks.push(...query.queryChunks);
+		return this;
+	}
+	toQuery(config) {
+		return tracer.startActiveSpan("drizzle.buildSQL", (span) => {
+			const query = this.buildQueryFromSourceParams(this.queryChunks, config);
+			span?.setAttributes({
+				"drizzle.query.text": query.sql,
+				"drizzle.query.params": JSON.stringify(query.params)
+			});
+			return query;
+		});
+	}
+	buildQueryFromSourceParams(chunks, _config) {
+		const config = Object.assign({}, _config, {
+			inlineParams: _config.inlineParams || this.shouldInlineParams,
+			paramStartIndex: _config.paramStartIndex || { value: 0 }
+		});
+		const { casing, escapeName, escapeParam, prepareTyping, inlineParams, paramStartIndex } = config;
+		return mergeQueries(chunks.map((chunk) => {
+			if (is(chunk, StringChunk)) return {
+				sql: chunk.value.join(""),
+				params: []
+			};
+			if (is(chunk, Name)) return {
+				sql: escapeName(chunk.value),
+				params: []
+			};
+			if (chunk === void 0) return {
+				sql: "",
+				params: []
+			};
+			if (Array.isArray(chunk)) {
+				const result = [new StringChunk("(")];
+				for (const [i, p] of chunk.entries()) {
+					result.push(p);
+					if (i < chunk.length - 1) result.push(new StringChunk(", "));
+				}
+				result.push(new StringChunk(")"));
+				return this.buildQueryFromSourceParams(result, config);
+			}
+			if (is(chunk, SQL)) return this.buildQueryFromSourceParams(chunk.queryChunks, {
+				...config,
+				inlineParams: inlineParams || chunk.shouldInlineParams
+			});
+			if (is(chunk, Table)) {
+				const schemaName = chunk[Table.Symbol.Schema];
+				const tableName = chunk[Table.Symbol.Name];
+				return {
+					sql: schemaName === void 0 || chunk[IsAlias] ? escapeName(tableName) : escapeName(schemaName) + "." + escapeName(tableName),
+					params: []
+				};
+			}
+			if (is(chunk, Column)) {
+				const columnName = casing.getColumnCasing(chunk);
+				if (_config.invokeSource === "indexes") return {
+					sql: escapeName(columnName),
+					params: []
+				};
+				const schemaName = chunk.table[Table.Symbol.Schema];
+				return {
+					sql: chunk.table[IsAlias] || schemaName === void 0 ? escapeName(chunk.table[Table.Symbol.Name]) + "." + escapeName(columnName) : escapeName(schemaName) + "." + escapeName(chunk.table[Table.Symbol.Name]) + "." + escapeName(columnName),
+					params: []
+				};
+			}
+			if (is(chunk, View)) {
+				const schemaName = chunk[ViewBaseConfig].schema;
+				const viewName = chunk[ViewBaseConfig].name;
+				return {
+					sql: schemaName === void 0 || chunk[ViewBaseConfig].isAlias ? escapeName(viewName) : escapeName(schemaName) + "." + escapeName(viewName),
+					params: []
+				};
+			}
+			if (is(chunk, Param)) {
+				if (is(chunk.value, Placeholder)) return {
+					sql: escapeParam(paramStartIndex.value++, chunk),
+					params: [chunk],
+					typings: ["none"]
+				};
+				const mappedValue = chunk.value === null ? null : chunk.encoder.mapToDriverValue(chunk.value);
+				if (is(mappedValue, SQL)) return this.buildQueryFromSourceParams([mappedValue], config);
+				if (inlineParams) return {
+					sql: this.mapInlineParam(mappedValue, config),
+					params: []
+				};
+				let typings = ["none"];
+				if (prepareTyping) typings = [prepareTyping(chunk.encoder)];
+				return {
+					sql: escapeParam(paramStartIndex.value++, mappedValue),
+					params: [mappedValue],
+					typings
+				};
+			}
+			if (is(chunk, Placeholder)) return {
+				sql: escapeParam(paramStartIndex.value++, chunk),
+				params: [chunk],
+				typings: ["none"]
+			};
+			if (is(chunk, SQL.Aliased) && chunk.fieldAlias !== void 0) return {
+				sql: escapeName(chunk.fieldAlias),
+				params: []
+			};
+			if (is(chunk, Subquery)) {
+				if (chunk._.isWith) return {
+					sql: escapeName(chunk._.alias),
+					params: []
+				};
+				return this.buildQueryFromSourceParams([
+					new StringChunk("("),
+					chunk._.sql,
+					new StringChunk(") "),
+					new Name(chunk._.alias)
+				], config);
+			}
+			if (isPgEnum(chunk)) {
+				if (chunk.schema) return {
+					sql: escapeName(chunk.schema) + "." + escapeName(chunk.enumName),
+					params: []
+				};
+				return {
+					sql: escapeName(chunk.enumName),
+					params: []
+				};
+			}
+			if (isSQLWrapper(chunk)) {
+				if (chunk.shouldOmitSQLParens?.()) return this.buildQueryFromSourceParams([chunk.getSQL()], config);
+				return this.buildQueryFromSourceParams([
+					new StringChunk("("),
+					chunk.getSQL(),
+					new StringChunk(")")
+				], config);
+			}
+			if (inlineParams) return {
+				sql: this.mapInlineParam(chunk, config),
+				params: []
+			};
+			return {
+				sql: escapeParam(paramStartIndex.value++, chunk),
+				params: [chunk],
+				typings: ["none"]
+			};
+		}));
+	}
+	mapInlineParam(chunk, { escapeString }) {
+		if (chunk === null) return "null";
+		if (typeof chunk === "number" || typeof chunk === "boolean") return chunk.toString();
+		if (typeof chunk === "string") return escapeString(chunk);
+		if (typeof chunk === "object") {
+			const mappedValueAsString = chunk.toString();
+			if (mappedValueAsString === "[object Object]") return escapeString(JSON.stringify(chunk));
+			return escapeString(mappedValueAsString);
+		}
+		throw new Error("Unexpected param value: " + chunk);
+	}
+	getSQL() {
+		return this;
+	}
+	as(alias) {
+		if (alias === void 0) return this;
+		return new SQL.Aliased(this, alias);
+	}
+	mapWith(decoder) {
+		this.decoder = typeof decoder === "function" ? { mapFromDriverValue: decoder } : decoder;
+		return this;
+	}
+	inlineParams() {
+		this.shouldInlineParams = true;
+		return this;
+	}
+	/**
+	* This method is used to conditionally include a part of the query.
+	*
+	* @param condition - Condition to check
+	* @returns itself if the condition is `true`, otherwise `undefined`
+	*/
+	if(condition) {
+		return condition ? this : void 0;
+	}
+};
+var Name = class {
+	constructor(value) {
+		this.value = value;
+	}
+	static [entityKind] = "Name";
+	brand;
+	getSQL() {
+		return new SQL([this]);
+	}
+};
+function isDriverValueEncoder(value) {
+	return typeof value === "object" && value !== null && "mapToDriverValue" in value && typeof value.mapToDriverValue === "function";
+}
+var noopDecoder = { mapFromDriverValue: (value) => value };
+var noopEncoder = { mapToDriverValue: (value) => value };
+({
+	...noopDecoder,
+	...noopEncoder
+});
+var Param = class {
+	/**
+	* @param value - Parameter value
+	* @param encoder - Encoder to convert the value to a driver parameter
+	*/
+	constructor(value, encoder = noopEncoder) {
+		this.value = value;
+		this.encoder = encoder;
+	}
+	static [entityKind] = "Param";
+	brand;
+	getSQL() {
+		return new SQL([this]);
+	}
+};
+function sql(strings, ...params) {
+	const queryChunks = [];
+	if (params.length > 0 || strings.length > 0 && strings[0] !== "") queryChunks.push(new StringChunk(strings[0]));
+	for (const [paramIndex, param2] of params.entries()) queryChunks.push(param2, new StringChunk(strings[paramIndex + 1]));
+	return new SQL(queryChunks);
+}
+((sql2) => {
+	function empty() {
+		return new SQL([]);
+	}
+	sql2.empty = empty;
+	function fromList(list) {
+		return new SQL(list);
+	}
+	sql2.fromList = fromList;
+	function raw(str) {
+		return new SQL([new StringChunk(str)]);
+	}
+	sql2.raw = raw;
+	function join(chunks, separator) {
+		const result = [];
+		for (const [i, chunk] of chunks.entries()) {
+			if (i > 0 && separator !== void 0) result.push(separator);
+			result.push(chunk);
+		}
+		return new SQL(result);
+	}
+	sql2.join = join;
+	function identifier(value) {
+		return new Name(value);
+	}
+	sql2.identifier = identifier;
+	function placeholder2(name2) {
+		return new Placeholder(name2);
+	}
+	sql2.placeholder = placeholder2;
+	function param2(value, encoder) {
+		return new Param(value, encoder);
+	}
+	sql2.param = param2;
+})(sql || (sql = {}));
+((SQL2) => {
+	class Aliased {
+		constructor(sql2, fieldAlias) {
+			this.sql = sql2;
+			this.fieldAlias = fieldAlias;
+		}
+		static [entityKind] = "SQL.Aliased";
+		/** @internal */
+		isSelectionField = false;
+		getSQL() {
+			return this.sql;
+		}
+		/** @internal */
+		clone() {
+			return new Aliased(this.sql, this.fieldAlias);
+		}
+	}
+	SQL2.Aliased = Aliased;
+})(SQL || (SQL = {}));
+var Placeholder = class {
+	constructor(name2) {
+		this.name = name2;
+	}
+	static [entityKind] = "Placeholder";
+	getSQL() {
+		return new SQL([this]);
+	}
+};
+function fillPlaceholders(params, values) {
+	return params.map((p) => {
+		if (is(p, Placeholder)) {
+			if (!(p.name in values)) throw new Error(`No value for placeholder "${p.name}" was provided`);
+			return values[p.name];
+		}
+		if (is(p, Param) && is(p.value, Placeholder)) {
+			if (!(p.value.name in values)) throw new Error(`No value for placeholder "${p.value.name}" was provided`);
+			return p.encoder.mapToDriverValue(values[p.value.name]);
+		}
+		return p;
+	});
+}
+var IsDrizzleView = Symbol.for("drizzle:IsDrizzleView");
+var View = class {
+	static [entityKind] = "View";
+	/** @internal */
+	[ViewBaseConfig];
+	/** @internal */
+	[IsDrizzleView] = true;
+	constructor({ name: name2, schema, selectedFields, query }) {
+		this[ViewBaseConfig] = {
+			name: name2,
+			originalName: name2,
+			schema,
+			selectedFields,
+			query,
+			isExisting: !query,
+			isAlias: false
+		};
+	}
+	getSQL() {
+		return new SQL([this]);
+	}
+};
+Column.prototype.getSQL = function() {
+	return new SQL([this]);
+};
+Table.prototype.getSQL = function() {
+	return new SQL([this]);
+};
+Subquery.prototype.getSQL = function() {
+	return new SQL([this]);
+};
+var ColumnAliasProxyHandler = class {
+	constructor(table) {
+		this.table = table;
+	}
+	static [entityKind] = "ColumnAliasProxyHandler";
+	get(columnObj, prop) {
+		if (prop === "table") return this.table;
+		return columnObj[prop];
+	}
+};
+var TableAliasProxyHandler = class {
+	constructor(alias, replaceOriginalName) {
+		this.alias = alias;
+		this.replaceOriginalName = replaceOriginalName;
+	}
+	static [entityKind] = "TableAliasProxyHandler";
+	get(target, prop) {
+		if (prop === Table.Symbol.IsAlias) return true;
+		if (prop === Table.Symbol.Name) return this.alias;
+		if (this.replaceOriginalName && prop === Table.Symbol.OriginalName) return this.alias;
+		if (prop === ViewBaseConfig) return {
+			...target[ViewBaseConfig],
+			name: this.alias,
+			isAlias: true
+		};
+		if (prop === Table.Symbol.Columns) {
+			const columns = target[Table.Symbol.Columns];
+			if (!columns) return columns;
+			const proxiedColumns = {};
+			Object.keys(columns).map((key) => {
+				proxiedColumns[key] = new Proxy(columns[key], new ColumnAliasProxyHandler(new Proxy(target, this)));
+			});
+			return proxiedColumns;
+		}
+		const value = target[prop];
+		if (is(value, Column)) return new Proxy(value, new ColumnAliasProxyHandler(new Proxy(target, this)));
+		return value;
+	}
+};
+function aliasedTable(table, tableAlias) {
+	return new Proxy(table, new TableAliasProxyHandler(tableAlias, false));
+}
+function aliasedTableColumn(column, tableAlias) {
+	return new Proxy(column, new ColumnAliasProxyHandler(new Proxy(column.table, new TableAliasProxyHandler(tableAlias, false))));
+}
+function mapColumnsInAliasedSQLToAlias(query, alias) {
+	return new SQL.Aliased(mapColumnsInSQLToAlias(query.sql, alias), query.fieldAlias);
+}
+function mapColumnsInSQLToAlias(query, alias) {
+	return sql.join(query.queryChunks.map((c) => {
+		if (is(c, Column)) return aliasedTableColumn(c, alias);
+		if (is(c, SQL)) return mapColumnsInSQLToAlias(c, alias);
+		if (is(c, SQL.Aliased)) return mapColumnsInAliasedSQLToAlias(c, alias);
+		return c;
+	}));
+}
+var DrizzleError = class extends Error {
+	static [entityKind] = "DrizzleError";
+	constructor({ message, cause }) {
+		super(message);
+		this.name = "DrizzleError";
+		this.cause = cause;
+	}
+};
+var DrizzleQueryError = class DrizzleQueryError extends Error {
+	constructor(query, params, cause) {
+		super(`Failed query: ${query}
+params: ${params}`);
+		this.query = query;
+		this.params = params;
+		this.cause = cause;
+		Error.captureStackTrace(this, DrizzleQueryError);
+		if (cause) this.cause = cause;
+	}
+};
+var TransactionRollbackError = class extends DrizzleError {
+	static [entityKind] = "TransactionRollbackError";
+	constructor() {
+		super({ message: "Rollback" });
+	}
+};
+var ConsoleLogWriter = class {
+	static [entityKind] = "ConsoleLogWriter";
+	write(message) {
+		console.log(message);
+	}
+};
+var DefaultLogger = class {
+	static [entityKind] = "DefaultLogger";
+	writer;
+	constructor(config) {
+		this.writer = config?.writer ?? new ConsoleLogWriter();
+	}
+	logQuery(query, params) {
+		const stringifiedParams = params.map((p) => {
+			try {
+				return JSON.stringify(p);
+			} catch {
+				return String(p);
+			}
+		});
+		const paramsStr = stringifiedParams.length ? ` -- params: [${stringifiedParams.join(", ")}]` : "";
+		this.writer.write(`Query: ${query}${paramsStr}`);
+	}
+};
+var NoopLogger = class {
+	static [entityKind] = "NoopLogger";
+	logQuery() {}
+};
+var QueryPromise = class {
+	static [entityKind] = "QueryPromise";
+	[Symbol.toStringTag] = "QueryPromise";
+	catch(onRejected) {
+		return this.then(void 0, onRejected);
+	}
+	finally(onFinally) {
+		return this.then((value) => {
+			onFinally?.();
+			return value;
+		}, (reason) => {
+			onFinally?.();
+			throw reason;
+		});
+	}
+	then(onFulfilled, onRejected) {
+		return this.execute().then(onFulfilled, onRejected);
+	}
+};
+function mapResultRow(columns, row, joinsNotNullableMap) {
+	const nullifyMap = {};
+	const result = columns.reduce((result2, { path, field }, columnIndex) => {
+		let decoder;
+		if (is(field, Column)) decoder = field;
+		else if (is(field, SQL)) decoder = field.decoder;
+		else if (is(field, Subquery)) decoder = field._.sql.decoder;
+		else decoder = field.sql.decoder;
+		let node = result2;
+		for (const [pathChunkIndex, pathChunk] of path.entries()) if (pathChunkIndex < path.length - 1) {
+			if (!(pathChunk in node)) node[pathChunk] = {};
+			node = node[pathChunk];
+		} else {
+			const rawValue = row[columnIndex];
+			const value = node[pathChunk] = rawValue === null ? null : decoder.mapFromDriverValue(rawValue);
+			if (joinsNotNullableMap && is(field, Column) && path.length === 2) {
+				const objectName = path[0];
+				if (!(objectName in nullifyMap)) nullifyMap[objectName] = value === null ? getTableName(field.table) : false;
+				else if (typeof nullifyMap[objectName] === "string" && nullifyMap[objectName] !== getTableName(field.table)) nullifyMap[objectName] = false;
+			}
+		}
+		return result2;
+	}, {});
+	if (joinsNotNullableMap && Object.keys(nullifyMap).length > 0) {
+		for (const [objectName, tableName] of Object.entries(nullifyMap)) if (typeof tableName === "string" && !joinsNotNullableMap[tableName]) result[objectName] = null;
+	}
+	return result;
+}
+function orderSelectedFields(fields, pathPrefix) {
+	return Object.entries(fields).reduce((result, [name, field]) => {
+		if (typeof name !== "string") return result;
+		const newPath = pathPrefix ? [...pathPrefix, name] : [name];
+		if (is(field, Column) || is(field, SQL) || is(field, SQL.Aliased) || is(field, Subquery)) result.push({
+			path: newPath,
+			field
+		});
+		else if (is(field, Table)) result.push(...orderSelectedFields(field[Table.Symbol.Columns], newPath));
+		else result.push(...orderSelectedFields(field, newPath));
+		return result;
+	}, []);
+}
+function haveSameKeys(left, right) {
+	const leftKeys = Object.keys(left);
+	const rightKeys = Object.keys(right);
+	if (leftKeys.length !== rightKeys.length) return false;
+	for (const [index, key] of leftKeys.entries()) if (key !== rightKeys[index]) return false;
+	return true;
+}
+function mapUpdateSet(table, values) {
+	const entries = Object.entries(values).filter(([, value]) => value !== void 0).map(([key, value]) => {
+		if (is(value, SQL) || is(value, Column)) return [key, value];
+		else return [key, new Param(value, table[Table.Symbol.Columns][key])];
+	});
+	if (entries.length === 0) throw new Error("No values to set");
+	return Object.fromEntries(entries);
+}
+function applyMixins(baseClass, extendedClasses) {
+	for (const extendedClass of extendedClasses) for (const name of Object.getOwnPropertyNames(extendedClass.prototype)) {
+		if (name === "constructor") continue;
+		Object.defineProperty(baseClass.prototype, name, Object.getOwnPropertyDescriptor(extendedClass.prototype, name) || /* @__PURE__ */ Object.create(null));
+	}
+}
+function getTableColumns(table) {
+	return table[Table.Symbol.Columns];
+}
+function getTableLikeName(table) {
+	return is(table, Subquery) ? table._.alias : is(table, View) ? table[ViewBaseConfig].name : is(table, SQL) ? void 0 : table[Table.Symbol.IsAlias] ? table[Table.Symbol.Name] : table[Table.Symbol.BaseName];
+}
+function getColumnNameAndConfig(a, b) {
+	return {
+		name: typeof a === "string" && a.length > 0 ? a : "",
+		config: typeof a === "object" ? a : b
+	};
+}
+var textDecoder = typeof TextDecoder === "undefined" ? null : new TextDecoder();
+var InlineForeignKeys$1 = Symbol.for("drizzle:PgInlineForeignKeys");
+var EnableRLS = Symbol.for("drizzle:EnableRLS");
+var PgTable = class extends Table {
+	static [entityKind] = "PgTable";
+	/** @internal */
+	static Symbol = Object.assign({}, Table.Symbol, {
+		InlineForeignKeys: InlineForeignKeys$1,
+		EnableRLS
+	});
+	/**@internal */
+	[InlineForeignKeys$1] = [];
+	/** @internal */
+	[EnableRLS] = false;
+	/** @internal */
+	[Table.Symbol.ExtraConfigBuilder] = void 0;
+	/** @internal */
+	[Table.Symbol.ExtraConfigColumns] = {};
+};
+var PrimaryKeyBuilder = class {
+	static [entityKind] = "PgPrimaryKeyBuilder";
+	/** @internal */
+	columns;
+	/** @internal */
+	name;
+	constructor(columns, name) {
+		this.columns = columns;
+		this.name = name;
+	}
+	/** @internal */
+	build(table) {
+		return new PrimaryKey(table, this.columns, this.name);
+	}
+};
+var PrimaryKey = class {
+	constructor(table, columns, name) {
+		this.table = table;
+		this.columns = columns;
+		this.name = name;
+	}
+	static [entityKind] = "PgPrimaryKey";
+	columns;
+	name;
+	getName() {
+		return this.name ?? `${this.table[PgTable.Symbol.Name]}_${this.columns.map((column) => column.name).join("_")}_pk`;
+	}
+};
+function bindIfParam(value, column) {
+	if (isDriverValueEncoder(column) && !isSQLWrapper(value) && !is(value, Param) && !is(value, Placeholder) && !is(value, Column) && !is(value, Table) && !is(value, View)) return new Param(value, column);
+	return value;
+}
+var eq = (left, right) => {
+	return sql`${left} = ${bindIfParam(right, left)}`;
+};
+var ne = (left, right) => {
+	return sql`${left} <> ${bindIfParam(right, left)}`;
+};
+function and(...unfilteredConditions) {
+	const conditions = unfilteredConditions.filter((c) => c !== void 0);
+	if (conditions.length === 0) return;
+	if (conditions.length === 1) return new SQL(conditions);
+	return new SQL([
+		new StringChunk("("),
+		sql.join(conditions, new StringChunk(" and ")),
+		new StringChunk(")")
+	]);
+}
+function or(...unfilteredConditions) {
+	const conditions = unfilteredConditions.filter((c) => c !== void 0);
+	if (conditions.length === 0) return;
+	if (conditions.length === 1) return new SQL(conditions);
+	return new SQL([
+		new StringChunk("("),
+		sql.join(conditions, new StringChunk(" or ")),
+		new StringChunk(")")
+	]);
+}
+function not(condition) {
+	return sql`not ${condition}`;
+}
+var gt = (left, right) => {
+	return sql`${left} > ${bindIfParam(right, left)}`;
+};
+var gte = (left, right) => {
+	return sql`${left} >= ${bindIfParam(right, left)}`;
+};
+var lt = (left, right) => {
+	return sql`${left} < ${bindIfParam(right, left)}`;
+};
+var lte = (left, right) => {
+	return sql`${left} <= ${bindIfParam(right, left)}`;
+};
+function inArray(column, values) {
+	if (Array.isArray(values)) {
+		if (values.length === 0) return sql`false`;
+		return sql`${column} in ${values.map((v) => bindIfParam(v, column))}`;
+	}
+	return sql`${column} in ${bindIfParam(values, column)}`;
+}
+function notInArray(column, values) {
+	if (Array.isArray(values)) {
+		if (values.length === 0) return sql`true`;
+		return sql`${column} not in ${values.map((v) => bindIfParam(v, column))}`;
+	}
+	return sql`${column} not in ${bindIfParam(values, column)}`;
+}
+function isNull(value) {
+	return sql`${value} is null`;
+}
+function isNotNull(value) {
+	return sql`${value} is not null`;
+}
+function exists(subquery) {
+	return sql`exists ${subquery}`;
+}
+function notExists(subquery) {
+	return sql`not exists ${subquery}`;
+}
+function between(column, min, max) {
+	return sql`${column} between ${bindIfParam(min, column)} and ${bindIfParam(max, column)}`;
+}
+function notBetween(column, min, max) {
+	return sql`${column} not between ${bindIfParam(min, column)} and ${bindIfParam(max, column)}`;
+}
+function like(column, value) {
+	return sql`${column} like ${value}`;
+}
+function notLike(column, value) {
+	return sql`${column} not like ${value}`;
+}
+function ilike(column, value) {
+	return sql`${column} ilike ${value}`;
+}
+function notIlike(column, value) {
+	return sql`${column} not ilike ${value}`;
+}
+function asc(column) {
+	return sql`${column} asc`;
+}
+function desc(column) {
+	return sql`${column} desc`;
+}
+var Relation = class {
+	constructor(sourceTable, referencedTable, relationName) {
+		this.sourceTable = sourceTable;
+		this.referencedTable = referencedTable;
+		this.relationName = relationName;
+		this.referencedTableName = referencedTable[Table.Symbol.Name];
+	}
+	static [entityKind] = "Relation";
+	referencedTableName;
+	fieldName;
+};
+var Relations = class {
+	constructor(table, config) {
+		this.table = table;
+		this.config = config;
+	}
+	static [entityKind] = "Relations";
+};
+var One = class One extends Relation {
+	constructor(sourceTable, referencedTable, config, isNullable) {
+		super(sourceTable, referencedTable, config?.relationName);
+		this.config = config;
+		this.isNullable = isNullable;
+	}
+	static [entityKind] = "One";
+	withFieldName(fieldName) {
+		const relation = new One(this.sourceTable, this.referencedTable, this.config, this.isNullable);
+		relation.fieldName = fieldName;
+		return relation;
+	}
+};
+var Many = class Many extends Relation {
+	constructor(sourceTable, referencedTable, config) {
+		super(sourceTable, referencedTable, config?.relationName);
+		this.config = config;
+	}
+	static [entityKind] = "Many";
+	withFieldName(fieldName) {
+		const relation = new Many(this.sourceTable, this.referencedTable, this.config);
+		relation.fieldName = fieldName;
+		return relation;
+	}
+};
+function getOperators() {
+	return {
+		and,
+		between,
+		eq,
+		exists,
+		gt,
+		gte,
+		ilike,
+		inArray,
+		isNull,
+		isNotNull,
+		like,
+		lt,
+		lte,
+		ne,
+		not,
+		notBetween,
+		notExists,
+		notLike,
+		notIlike,
+		notInArray,
+		or,
+		sql
+	};
+}
+function getOrderByOperators() {
+	return {
+		sql,
+		asc,
+		desc
+	};
+}
+function extractTablesRelationalConfig(schema, configHelpers) {
+	if (Object.keys(schema).length === 1 && "default" in schema && !is(schema["default"], Table)) schema = schema["default"];
+	const tableNamesMap = {};
+	const relationsBuffer = {};
+	const tablesConfig = {};
+	for (const [key, value] of Object.entries(schema)) if (is(value, Table)) {
+		const dbName = getTableUniqueName(value);
+		const bufferedRelations = relationsBuffer[dbName];
+		tableNamesMap[dbName] = key;
+		tablesConfig[key] = {
+			tsName: key,
+			dbName: value[Table.Symbol.Name],
+			schema: value[Table.Symbol.Schema],
+			columns: value[Table.Symbol.Columns],
+			relations: bufferedRelations?.relations ?? {},
+			primaryKey: bufferedRelations?.primaryKey ?? []
+		};
+		for (const column of Object.values(value[Table.Symbol.Columns])) if (column.primary) tablesConfig[key].primaryKey.push(column);
+		const extraConfig = value[Table.Symbol.ExtraConfigBuilder]?.(value[Table.Symbol.ExtraConfigColumns]);
+		if (extraConfig) {
+			for (const configEntry of Object.values(extraConfig)) if (is(configEntry, PrimaryKeyBuilder)) tablesConfig[key].primaryKey.push(...configEntry.columns);
+		}
+	} else if (is(value, Relations)) {
+		const dbName = getTableUniqueName(value.table);
+		const tableName = tableNamesMap[dbName];
+		const relations2 = value.config(configHelpers(value.table));
+		let primaryKey;
+		for (const [relationName, relation] of Object.entries(relations2)) if (tableName) {
+			const tableConfig = tablesConfig[tableName];
+			tableConfig.relations[relationName] = relation;
+		} else {
+			if (!(dbName in relationsBuffer)) relationsBuffer[dbName] = {
+				relations: {},
+				primaryKey
+			};
+			relationsBuffer[dbName].relations[relationName] = relation;
+		}
+	}
+	return {
+		tables: tablesConfig,
+		tableNamesMap
+	};
+}
+function createOne(sourceTable) {
+	return function one(table, config) {
+		return new One(sourceTable, table, config, config?.fields.reduce((res, f) => res && f.notNull, true) ?? false);
+	};
+}
+function createMany(sourceTable) {
+	return function many(referencedTable, config) {
+		return new Many(sourceTable, referencedTable, config);
+	};
+}
+function normalizeRelation(schema, tableNamesMap, relation) {
+	if (is(relation, One) && relation.config) return {
+		fields: relation.config.fields,
+		references: relation.config.references
+	};
+	const referencedTableTsName = tableNamesMap[getTableUniqueName(relation.referencedTable)];
+	if (!referencedTableTsName) throw new Error(`Table "${relation.referencedTable[Table.Symbol.Name]}" not found in schema`);
+	const referencedTableConfig = schema[referencedTableTsName];
+	if (!referencedTableConfig) throw new Error(`Table "${referencedTableTsName}" not found in schema`);
+	const sourceTable = relation.sourceTable;
+	const sourceTableTsName = tableNamesMap[getTableUniqueName(sourceTable)];
+	if (!sourceTableTsName) throw new Error(`Table "${sourceTable[Table.Symbol.Name]}" not found in schema`);
+	const reverseRelations = [];
+	for (const referencedTableRelation of Object.values(referencedTableConfig.relations)) if (relation.relationName && relation !== referencedTableRelation && referencedTableRelation.relationName === relation.relationName || !relation.relationName && referencedTableRelation.referencedTable === relation.sourceTable) reverseRelations.push(referencedTableRelation);
+	if (reverseRelations.length > 1) throw relation.relationName ? /* @__PURE__ */ new Error(`There are multiple relations with name "${relation.relationName}" in table "${referencedTableTsName}"`) : /* @__PURE__ */ new Error(`There are multiple relations between "${referencedTableTsName}" and "${relation.sourceTable[Table.Symbol.Name]}". Please specify relation name`);
+	if (reverseRelations[0] && is(reverseRelations[0], One) && reverseRelations[0].config) return {
+		fields: reverseRelations[0].config.references,
+		references: reverseRelations[0].config.fields
+	};
+	throw new Error(`There is not enough information to infer relation "${sourceTableTsName}.${relation.fieldName}"`);
+}
+function createTableRelationsHelpers(sourceTable) {
+	return {
+		one: createOne(sourceTable),
+		many: createMany(sourceTable)
+	};
+}
+function mapRelationalRow(tablesConfig, tableConfig, row, buildQueryResultSelection, mapColumnValue = (value) => value) {
+	const result = {};
+	for (const [selectionItemIndex, selectionItem] of buildQueryResultSelection.entries()) if (selectionItem.isJson) {
+		const relation = tableConfig.relations[selectionItem.tsKey];
+		const rawSubRows = row[selectionItemIndex];
+		const subRows = typeof rawSubRows === "string" ? JSON.parse(rawSubRows) : rawSubRows;
+		result[selectionItem.tsKey] = is(relation, One) ? subRows && mapRelationalRow(tablesConfig, tablesConfig[selectionItem.relationTableTsKey], subRows, selectionItem.selection, mapColumnValue) : subRows.map((subRow) => mapRelationalRow(tablesConfig, tablesConfig[selectionItem.relationTableTsKey], subRow, selectionItem.selection, mapColumnValue));
+	} else {
+		const value = mapColumnValue(row[selectionItemIndex]);
+		const field = selectionItem.field;
+		let decoder;
+		if (is(field, Column)) decoder = field;
+		else if (is(field, SQL)) decoder = field.decoder;
+		else decoder = field.sql.decoder;
+		result[selectionItem.tsKey] = value === null ? null : decoder.mapFromDriverValue(value);
+	}
+	return result;
+}
+function count(expression) {
+	return sql`count(${expression || sql.raw("*")})`.mapWith(Number);
+}
+var ForeignKeyBuilder = class {
+	static [entityKind] = "SQLiteForeignKeyBuilder";
+	/** @internal */
+	reference;
+	/** @internal */
+	_onUpdate;
+	/** @internal */
+	_onDelete;
+	constructor(config, actions) {
+		this.reference = () => {
+			const { name, columns, foreignColumns } = config();
+			return {
+				name,
+				columns,
+				foreignTable: foreignColumns[0].table,
+				foreignColumns
+			};
+		};
+		if (actions) {
+			this._onUpdate = actions.onUpdate;
+			this._onDelete = actions.onDelete;
+		}
+	}
+	onUpdate(action) {
+		this._onUpdate = action;
+		return this;
+	}
+	onDelete(action) {
+		this._onDelete = action;
+		return this;
+	}
+	/** @internal */
+	build(table) {
+		return new ForeignKey(table, this);
+	}
+};
+var ForeignKey = class {
+	constructor(table, builder) {
+		this.table = table;
+		this.reference = builder.reference;
+		this.onUpdate = builder._onUpdate;
+		this.onDelete = builder._onDelete;
+	}
+	static [entityKind] = "SQLiteForeignKey";
+	reference;
+	onUpdate;
+	onDelete;
+	getName() {
+		const { name, columns, foreignColumns } = this.reference();
+		const columnNames = columns.map((column) => column.name);
+		const foreignColumnNames = foreignColumns.map((column) => column.name);
+		const chunks = [
+			this.table[TableName],
+			...columnNames,
+			foreignColumns[0].table[TableName],
+			...foreignColumnNames
+		];
+		return name ?? `${chunks.join("_")}_fk`;
+	}
+};
+function uniqueKeyName(table, columns) {
+	return `${table[TableName]}_${columns.join("_")}_unique`;
+}
+var SQLiteColumnBuilder = class extends ColumnBuilder {
+	static [entityKind] = "SQLiteColumnBuilder";
+	foreignKeyConfigs = [];
+	references(ref, actions = {}) {
+		this.foreignKeyConfigs.push({
+			ref,
+			actions
+		});
+		return this;
+	}
+	unique(name) {
+		this.config.isUnique = true;
+		this.config.uniqueName = name;
+		return this;
+	}
+	generatedAlwaysAs(as, config) {
+		this.config.generated = {
+			as,
+			type: "always",
+			mode: config?.mode ?? "virtual"
+		};
+		return this;
+	}
+	/** @internal */
+	buildForeignKeys(column, table) {
+		return this.foreignKeyConfigs.map(({ ref, actions }) => {
+			return ((ref2, actions2) => {
+				const builder = new ForeignKeyBuilder(() => {
+					const foreignColumn = ref2();
+					return {
+						columns: [column],
+						foreignColumns: [foreignColumn]
+					};
+				});
+				if (actions2.onUpdate) builder.onUpdate(actions2.onUpdate);
+				if (actions2.onDelete) builder.onDelete(actions2.onDelete);
+				return builder.build(table);
+			})(ref, actions);
+		});
+	}
+};
+var SQLiteColumn = class extends Column {
+	constructor(table, config) {
+		if (!config.uniqueName) config.uniqueName = uniqueKeyName(table, [config.name]);
+		super(table, config);
+		this.table = table;
+	}
+	static [entityKind] = "SQLiteColumn";
+};
+var SQLiteBigIntBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteBigIntBuilder";
+	constructor(name) {
+		super(name, "bigint", "SQLiteBigInt");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteBigInt(table, this.config);
+	}
+};
+var SQLiteBigInt = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteBigInt";
+	getSQLType() {
+		return "blob";
+	}
+	mapFromDriverValue(value) {
+		if (typeof Buffer !== "undefined" && Buffer.from) {
+			const buf = Buffer.isBuffer(value) ? value : value instanceof ArrayBuffer ? Buffer.from(value) : value.buffer ? Buffer.from(value.buffer, value.byteOffset, value.byteLength) : Buffer.from(value);
+			return BigInt(buf.toString("utf8"));
+		}
+		return BigInt(textDecoder.decode(value));
+	}
+	mapToDriverValue(value) {
+		return Buffer.from(value.toString());
+	}
+};
+var SQLiteBlobJsonBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteBlobJsonBuilder";
+	constructor(name) {
+		super(name, "json", "SQLiteBlobJson");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteBlobJson(table, this.config);
+	}
+};
+var SQLiteBlobJson = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteBlobJson";
+	getSQLType() {
+		return "blob";
+	}
+	mapFromDriverValue(value) {
+		if (typeof Buffer !== "undefined" && Buffer.from) {
+			const buf = Buffer.isBuffer(value) ? value : value instanceof ArrayBuffer ? Buffer.from(value) : value.buffer ? Buffer.from(value.buffer, value.byteOffset, value.byteLength) : Buffer.from(value);
+			return JSON.parse(buf.toString("utf8"));
+		}
+		return JSON.parse(textDecoder.decode(value));
+	}
+	mapToDriverValue(value) {
+		return Buffer.from(JSON.stringify(value));
+	}
+};
+var SQLiteBlobBufferBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteBlobBufferBuilder";
+	constructor(name) {
+		super(name, "buffer", "SQLiteBlobBuffer");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteBlobBuffer(table, this.config);
+	}
+};
+var SQLiteBlobBuffer = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteBlobBuffer";
+	mapFromDriverValue(value) {
+		if (Buffer.isBuffer(value)) return value;
+		return Buffer.from(value);
+	}
+	getSQLType() {
+		return "blob";
+	}
+};
+function blob(a, b) {
+	const { name, config } = getColumnNameAndConfig(a, b);
+	if (config?.mode === "json") return new SQLiteBlobJsonBuilder(name);
+	if (config?.mode === "bigint") return new SQLiteBigIntBuilder(name);
+	return new SQLiteBlobBufferBuilder(name);
+}
+var SQLiteCustomColumnBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteCustomColumnBuilder";
+	constructor(name, fieldConfig, customTypeParams) {
+		super(name, "custom", "SQLiteCustomColumn");
+		this.config.fieldConfig = fieldConfig;
+		this.config.customTypeParams = customTypeParams;
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteCustomColumn(table, this.config);
+	}
+};
+var SQLiteCustomColumn = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteCustomColumn";
+	sqlName;
+	mapTo;
+	mapFrom;
+	constructor(table, config) {
+		super(table, config);
+		this.sqlName = config.customTypeParams.dataType(config.fieldConfig);
+		this.mapTo = config.customTypeParams.toDriver;
+		this.mapFrom = config.customTypeParams.fromDriver;
+	}
+	getSQLType() {
+		return this.sqlName;
+	}
+	mapFromDriverValue(value) {
+		return typeof this.mapFrom === "function" ? this.mapFrom(value) : value;
+	}
+	mapToDriverValue(value) {
+		return typeof this.mapTo === "function" ? this.mapTo(value) : value;
+	}
+};
+function customType(customTypeParams) {
+	return (a, b) => {
+		const { name, config } = getColumnNameAndConfig(a, b);
+		return new SQLiteCustomColumnBuilder(name, config, customTypeParams);
+	};
+}
+var SQLiteBaseIntegerBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteBaseIntegerBuilder";
+	constructor(name, dataType, columnType) {
+		super(name, dataType, columnType);
+		this.config.autoIncrement = false;
+	}
+	primaryKey(config) {
+		if (config?.autoIncrement) this.config.autoIncrement = true;
+		this.config.hasDefault = true;
+		return super.primaryKey();
+	}
+};
+var SQLiteBaseInteger = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteBaseInteger";
+	autoIncrement = this.config.autoIncrement;
+	getSQLType() {
+		return "integer";
+	}
+};
+var SQLiteIntegerBuilder = class extends SQLiteBaseIntegerBuilder {
+	static [entityKind] = "SQLiteIntegerBuilder";
+	constructor(name) {
+		super(name, "number", "SQLiteInteger");
+	}
+	build(table) {
+		return new SQLiteInteger(table, this.config);
+	}
+};
+var SQLiteInteger = class extends SQLiteBaseInteger {
+	static [entityKind] = "SQLiteInteger";
+};
+var SQLiteTimestampBuilder = class extends SQLiteBaseIntegerBuilder {
+	static [entityKind] = "SQLiteTimestampBuilder";
+	constructor(name, mode) {
+		super(name, "date", "SQLiteTimestamp");
+		this.config.mode = mode;
+	}
+	/**
+	* @deprecated Use `default()` with your own expression instead.
+	*
+	* Adds `DEFAULT (cast((julianday('now') - 2440587.5)*86400000 as integer))` to the column, which is the current epoch timestamp in milliseconds.
+	*/
+	defaultNow() {
+		return this.default(sql`(cast((julianday('now') - 2440587.5)*86400000 as integer))`);
+	}
+	build(table) {
+		return new SQLiteTimestamp(table, this.config);
+	}
+};
+var SQLiteTimestamp = class extends SQLiteBaseInteger {
+	static [entityKind] = "SQLiteTimestamp";
+	mode = this.config.mode;
+	mapFromDriverValue(value) {
+		if (this.config.mode === "timestamp") return /* @__PURE__ */ new Date(value * 1e3);
+		return new Date(value);
+	}
+	mapToDriverValue(value) {
+		const unix = value.getTime();
+		if (this.config.mode === "timestamp") return Math.floor(unix / 1e3);
+		return unix;
+	}
+};
+var SQLiteBooleanBuilder = class extends SQLiteBaseIntegerBuilder {
+	static [entityKind] = "SQLiteBooleanBuilder";
+	constructor(name, mode) {
+		super(name, "boolean", "SQLiteBoolean");
+		this.config.mode = mode;
+	}
+	build(table) {
+		return new SQLiteBoolean(table, this.config);
+	}
+};
+var SQLiteBoolean = class extends SQLiteBaseInteger {
+	static [entityKind] = "SQLiteBoolean";
+	mode = this.config.mode;
+	mapFromDriverValue(value) {
+		return Number(value) === 1;
+	}
+	mapToDriverValue(value) {
+		return value ? 1 : 0;
+	}
+};
+function integer(a, b) {
+	const { name, config } = getColumnNameAndConfig(a, b);
+	if (config?.mode === "timestamp" || config?.mode === "timestamp_ms") return new SQLiteTimestampBuilder(name, config.mode);
+	if (config?.mode === "boolean") return new SQLiteBooleanBuilder(name, config.mode);
+	return new SQLiteIntegerBuilder(name);
+}
+var SQLiteNumericBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteNumericBuilder";
+	constructor(name) {
+		super(name, "string", "SQLiteNumeric");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteNumeric(table, this.config);
+	}
+};
+var SQLiteNumeric = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteNumeric";
+	mapFromDriverValue(value) {
+		if (typeof value === "string") return value;
+		return String(value);
+	}
+	getSQLType() {
+		return "numeric";
+	}
+};
+var SQLiteNumericNumberBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteNumericNumberBuilder";
+	constructor(name) {
+		super(name, "number", "SQLiteNumericNumber");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteNumericNumber(table, this.config);
+	}
+};
+var SQLiteNumericNumber = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteNumericNumber";
+	mapFromDriverValue(value) {
+		if (typeof value === "number") return value;
+		return Number(value);
+	}
+	mapToDriverValue = String;
+	getSQLType() {
+		return "numeric";
+	}
+};
+var SQLiteNumericBigIntBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteNumericBigIntBuilder";
+	constructor(name) {
+		super(name, "bigint", "SQLiteNumericBigInt");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteNumericBigInt(table, this.config);
+	}
+};
+var SQLiteNumericBigInt = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteNumericBigInt";
+	mapFromDriverValue = BigInt;
+	mapToDriverValue = String;
+	getSQLType() {
+		return "numeric";
+	}
+};
+function numeric(a, b) {
+	const { name, config } = getColumnNameAndConfig(a, b);
+	const mode = config?.mode;
+	return mode === "number" ? new SQLiteNumericNumberBuilder(name) : mode === "bigint" ? new SQLiteNumericBigIntBuilder(name) : new SQLiteNumericBuilder(name);
+}
+var SQLiteRealBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteRealBuilder";
+	constructor(name) {
+		super(name, "number", "SQLiteReal");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteReal(table, this.config);
+	}
+};
+var SQLiteReal = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteReal";
+	getSQLType() {
+		return "real";
+	}
+};
+function real(name) {
+	return new SQLiteRealBuilder(name ?? "");
+}
+var SQLiteTextBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteTextBuilder";
+	constructor(name, config) {
+		super(name, "string", "SQLiteText");
+		this.config.enumValues = config.enum;
+		this.config.length = config.length;
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteText(table, this.config);
+	}
+};
+var SQLiteText = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteText";
+	enumValues = this.config.enumValues;
+	length = this.config.length;
+	constructor(table, config) {
+		super(table, config);
+	}
+	getSQLType() {
+		return `text${this.config.length ? `(${this.config.length})` : ""}`;
+	}
+};
+var SQLiteTextJsonBuilder = class extends SQLiteColumnBuilder {
+	static [entityKind] = "SQLiteTextJsonBuilder";
+	constructor(name) {
+		super(name, "json", "SQLiteTextJson");
+	}
+	/** @internal */
+	build(table) {
+		return new SQLiteTextJson(table, this.config);
+	}
+};
+var SQLiteTextJson = class extends SQLiteColumn {
+	static [entityKind] = "SQLiteTextJson";
+	getSQLType() {
+		return "text";
+	}
+	mapFromDriverValue(value) {
+		return JSON.parse(value);
+	}
+	mapToDriverValue(value) {
+		return JSON.stringify(value);
+	}
+};
+function text$1(a, b = {}) {
+	const { name, config } = getColumnNameAndConfig(a, b);
+	if (config.mode === "json") return new SQLiteTextJsonBuilder(name);
+	return new SQLiteTextBuilder(name, config);
+}
+var SelectionProxyHandler = class SelectionProxyHandler {
+	static [entityKind] = "SelectionProxyHandler";
+	config;
+	constructor(config) {
+		this.config = { ...config };
+	}
+	get(subquery, prop) {
+		if (prop === "_") return {
+			...subquery["_"],
+			selectedFields: new Proxy(subquery._.selectedFields, this)
+		};
+		if (prop === ViewBaseConfig) return {
+			...subquery[ViewBaseConfig],
+			selectedFields: new Proxy(subquery[ViewBaseConfig].selectedFields, this)
+		};
+		if (typeof prop === "symbol") return subquery[prop];
+		const value = (is(subquery, Subquery) ? subquery._.selectedFields : is(subquery, View) ? subquery[ViewBaseConfig].selectedFields : subquery)[prop];
+		if (is(value, SQL.Aliased)) {
+			if (this.config.sqlAliasedBehavior === "sql" && !value.isSelectionField) return value.sql;
+			const newValue = value.clone();
+			newValue.isSelectionField = true;
+			return newValue;
+		}
+		if (is(value, SQL)) {
+			if (this.config.sqlBehavior === "sql") return value;
+			throw new Error(`You tried to reference "${prop}" field from a subquery, which is a raw SQL field, but it doesn't have an alias declared. Please add an alias to the field using ".as('alias')" method.`);
+		}
+		if (is(value, Column)) {
+			if (this.config.alias) return new Proxy(value, new ColumnAliasProxyHandler(new Proxy(value.table, new TableAliasProxyHandler(this.config.alias, this.config.replaceOriginalName ?? false))));
+			return value;
+		}
+		if (typeof value !== "object" || value === null) return value;
+		return new Proxy(value, new SelectionProxyHandler(this.config));
+	}
+};
+function getSQLiteColumnBuilders() {
+	return {
+		blob,
+		customType,
+		integer,
+		numeric,
+		real,
+		text: text$1
+	};
+}
+var InlineForeignKeys = Symbol.for("drizzle:SQLiteInlineForeignKeys");
+var SQLiteTable = class extends Table {
+	static [entityKind] = "SQLiteTable";
+	/** @internal */
+	static Symbol = Object.assign({}, Table.Symbol, { InlineForeignKeys });
+	/** @internal */
+	[Table.Symbol.Columns];
+	/** @internal */
+	[InlineForeignKeys] = [];
+	/** @internal */
+	[Table.Symbol.ExtraConfigBuilder] = void 0;
+};
+function sqliteTableBase(name, columns, extraConfig, schema, baseName = name) {
+	const rawTable = new SQLiteTable(name, schema, baseName);
+	const parsedColumns = typeof columns === "function" ? columns(getSQLiteColumnBuilders()) : columns;
+	const builtColumns = Object.fromEntries(Object.entries(parsedColumns).map(([name2, colBuilderBase]) => {
+		const colBuilder = colBuilderBase;
+		colBuilder.setName(name2);
+		const column = colBuilder.build(rawTable);
+		rawTable[InlineForeignKeys].push(...colBuilder.buildForeignKeys(column, rawTable));
+		return [name2, column];
+	}));
+	const table = Object.assign(rawTable, builtColumns);
+	table[Table.Symbol.Columns] = builtColumns;
+	table[Table.Symbol.ExtraConfigColumns] = builtColumns;
+	if (extraConfig) table[SQLiteTable.Symbol.ExtraConfigBuilder] = extraConfig;
+	return table;
+}
+var sqliteTable = (name, columns, extraConfig) => {
+	return sqliteTableBase(name, columns, extraConfig);
+};
+var IndexBuilderOn = class {
+	constructor(name, unique) {
+		this.name = name;
+		this.unique = unique;
+	}
+	static [entityKind] = "SQLiteIndexBuilderOn";
+	on(...columns) {
+		return new IndexBuilder(this.name, columns, this.unique);
+	}
+};
+var IndexBuilder = class {
+	static [entityKind] = "SQLiteIndexBuilder";
+	/** @internal */
+	config;
+	constructor(name, columns, unique) {
+		this.config = {
+			name,
+			columns,
+			unique,
+			where: void 0
+		};
+	}
+	/**
+	* Condition for partial index.
+	*/
+	where(condition) {
+		this.config.where = condition;
+		return this;
+	}
+	/** @internal */
+	build(table) {
+		return new Index(this.config, table);
+	}
+};
+var Index = class {
+	static [entityKind] = "SQLiteIndex";
+	config;
+	constructor(config, table) {
+		this.config = {
+			...config,
+			table
+		};
+	}
+};
+function index(name) {
+	return new IndexBuilderOn(name, false);
+}
+function uniqueIndex(name) {
+	return new IndexBuilderOn(name, true);
+}
+function extractUsedTable(table) {
+	if (is(table, SQLiteTable)) return [`${table[Table.Symbol.BaseName]}`];
+	if (is(table, Subquery)) return table._.usedTables ?? [];
+	if (is(table, SQL)) return table.usedTables ?? [];
+	return [];
+}
+var SQLiteDeleteBase = class extends QueryPromise {
+	constructor(table, session, dialect, withList) {
+		super();
+		this.table = table;
+		this.session = session;
+		this.dialect = dialect;
+		this.config = {
+			table,
+			withList
+		};
+	}
+	static [entityKind] = "SQLiteDelete";
+	/** @internal */
+	config;
+	/**
+	* Adds a `where` clause to the query.
+	*
+	* Calling this method will delete only those rows that fulfill a specified condition.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/delete}
+	*
+	* @param where the `where` clause.
+	*
+	* @example
+	* You can use conditional operators and `sql function` to filter the rows to be deleted.
+	*
+	* ```ts
+	* // Delete all cars with green color
+	* db.delete(cars).where(eq(cars.color, 'green'));
+	* // or
+	* db.delete(cars).where(sql`${cars.color} = 'green'`)
+	* ```
+	*
+	* You can logically combine conditional operators with `and()` and `or()` operators:
+	*
+	* ```ts
+	* // Delete all BMW cars with a green color
+	* db.delete(cars).where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
+	*
+	* // Delete all cars with the green or blue color
+	* db.delete(cars).where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
+	* ```
+	*/
+	where(where) {
+		this.config.where = where;
+		return this;
+	}
+	orderBy(...columns) {
+		if (typeof columns[0] === "function") {
+			const orderBy = columns[0](new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "sql"
+			})));
+			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
+			this.config.orderBy = orderByArray;
+		} else {
+			const orderByArray = columns;
+			this.config.orderBy = orderByArray;
+		}
+		return this;
+	}
+	limit(limit) {
+		this.config.limit = limit;
+		return this;
+	}
+	returning(fields = this.table[SQLiteTable.Symbol.Columns]) {
+		this.config.returning = orderSelectedFields(fields);
+		return this;
+	}
+	/** @internal */
+	getSQL() {
+		return this.dialect.buildDeleteQuery(this.config);
+	}
+	toSQL() {
+		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
+		return rest;
+	}
+	/** @internal */
+	_prepare(isOneTimeQuery = true) {
+		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
+			type: "delete",
+			tables: extractUsedTable(this.config.table)
+		});
+	}
+	prepare() {
+		return this._prepare(false);
+	}
+	run = (placeholderValues) => {
+		return this._prepare().run(placeholderValues);
+	};
+	all = (placeholderValues) => {
+		return this._prepare().all(placeholderValues);
+	};
+	get = (placeholderValues) => {
+		return this._prepare().get(placeholderValues);
+	};
+	values = (placeholderValues) => {
+		return this._prepare().values(placeholderValues);
+	};
+	async execute(placeholderValues) {
+		return this._prepare().execute(placeholderValues);
+	}
+	$dynamic() {
+		return this;
+	}
+};
+function toSnakeCase(input) {
+	return (input.replace(/['\u2019]/g, "").match(/[\da-z]+|[A-Z]+(?![a-z])|[A-Z][\da-z]+/g) ?? []).map((word) => word.toLowerCase()).join("_");
+}
+function toCamelCase$1(input) {
+	return (input.replace(/['\u2019]/g, "").match(/[\da-z]+|[A-Z]+(?![a-z])|[A-Z][\da-z]+/g) ?? []).reduce((acc, word, i) => {
+		return acc + (i === 0 ? word.toLowerCase() : `${word[0].toUpperCase()}${word.slice(1)}`);
+	}, "");
+}
+function noopCase(input) {
+	return input;
+}
+var CasingCache = class {
+	static [entityKind] = "CasingCache";
+	/** @internal */
+	cache = {};
+	cachedTables = {};
+	convert;
+	constructor(casing) {
+		this.convert = casing === "snake_case" ? toSnakeCase : casing === "camelCase" ? toCamelCase$1 : noopCase;
+	}
+	getColumnCasing(column) {
+		if (!column.keyAsName) return column.name;
+		const key = `${column.table[Table.Symbol.Schema] ?? "public"}.${column.table[Table.Symbol.OriginalName]}.${column.name}`;
+		if (!this.cache[key]) this.cacheTable(column.table);
+		return this.cache[key];
+	}
+	cacheTable(table) {
+		const tableKey = `${table[Table.Symbol.Schema] ?? "public"}.${table[Table.Symbol.OriginalName]}`;
+		if (!this.cachedTables[tableKey]) {
+			for (const column of Object.values(table[Table.Symbol.Columns])) {
+				const columnKey = `${tableKey}.${column.name}`;
+				this.cache[columnKey] = this.convert(column.name);
+			}
+			this.cachedTables[tableKey] = true;
+		}
+	}
+	clearCache() {
+		this.cache = {};
+		this.cachedTables = {};
+	}
+};
+var SQLiteViewBase = class extends View {
+	static [entityKind] = "SQLiteViewBase";
+};
+var SQLiteDialect = class {
+	static [entityKind] = "SQLiteDialect";
+	/** @internal */
+	casing;
+	constructor(config) {
+		this.casing = new CasingCache(config?.casing);
+	}
+	escapeName(name) {
+		return `"${name.replace(/"/g, "\"\"")}"`;
+	}
+	escapeParam(_num) {
+		return "?";
+	}
+	escapeString(str) {
+		return `'${str.replace(/'/g, "''")}'`;
+	}
+	buildWithCTE(queries) {
+		if (!queries?.length) return void 0;
+		const withSqlChunks = [sql`with `];
+		for (const [i, w] of queries.entries()) {
+			withSqlChunks.push(sql`${sql.identifier(w._.alias)} as (${w._.sql})`);
+			if (i < queries.length - 1) withSqlChunks.push(sql`, `);
+		}
+		withSqlChunks.push(sql` `);
+		return sql.join(withSqlChunks);
+	}
+	buildDeleteQuery({ table, where, returning, withList, limit, orderBy }) {
+		const withSql = this.buildWithCTE(withList);
+		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
+		return sql`${withSql}delete from ${table}${where ? sql` where ${where}` : void 0}${returningSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}`;
+	}
+	buildUpdateSet(table, set) {
+		const tableColumns = table[Table.Symbol.Columns];
+		const columnNames = Object.keys(tableColumns).filter((colName) => set[colName] !== void 0 || tableColumns[colName]?.onUpdateFn !== void 0);
+		const setSize = columnNames.length;
+		return sql.join(columnNames.flatMap((colName, i) => {
+			const col = tableColumns[colName];
+			const onUpdateFnResult = col.onUpdateFn?.();
+			const value = set[colName] ?? (is(onUpdateFnResult, SQL) ? onUpdateFnResult : sql.param(onUpdateFnResult, col));
+			const res = sql`${sql.identifier(this.casing.getColumnCasing(col))} = ${value}`;
+			if (i < setSize - 1) return [res, sql.raw(", ")];
+			return [res];
+		}));
+	}
+	buildUpdateQuery({ table, set, where, returning, withList, joins, from, limit, orderBy }) {
+		const withSql = this.buildWithCTE(withList);
+		const setSql = this.buildUpdateSet(table, set);
+		const fromSql = from && sql.join([sql.raw(" from "), this.buildFromTable(from)]);
+		const joinsSql = this.buildJoins(joins);
+		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
+		return sql`${withSql}update ${table} set ${setSql}${fromSql}${joinsSql}${where ? sql` where ${where}` : void 0}${returningSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}`;
+	}
+	/**
+	* Builds selection SQL with provided fields/expressions
+	*
+	* Examples:
+	*
+	* `select <selection> from`
+	*
+	* `insert ... returning <selection>`
+	*
+	* If `isSingleTable` is true, then columns won't be prefixed with table name
+	*/
+	buildSelection(fields, { isSingleTable = false } = {}) {
+		const columnsLen = fields.length;
+		const chunks = fields.flatMap(({ field }, i) => {
+			const chunk = [];
+			if (is(field, SQL.Aliased) && field.isSelectionField) chunk.push(sql.identifier(field.fieldAlias));
+			else if (is(field, SQL.Aliased) || is(field, SQL)) {
+				const query = is(field, SQL.Aliased) ? field.sql : field;
+				if (isSingleTable) chunk.push(new SQL(query.queryChunks.map((c) => {
+					if (is(c, Column)) return sql.identifier(this.casing.getColumnCasing(c));
+					return c;
+				})));
+				else chunk.push(query);
+				if (is(field, SQL.Aliased)) chunk.push(sql` as ${sql.identifier(field.fieldAlias)}`);
+			} else if (is(field, Column)) {
+				const tableName = field.table[Table.Symbol.Name];
+				if (field.columnType === "SQLiteNumericBigInt") if (isSingleTable) chunk.push(sql`cast(${sql.identifier(this.casing.getColumnCasing(field))} as text)`);
+				else chunk.push(sql`cast(${sql.identifier(tableName)}.${sql.identifier(this.casing.getColumnCasing(field))} as text)`);
+				else if (isSingleTable) chunk.push(sql.identifier(this.casing.getColumnCasing(field)));
+				else chunk.push(sql`${sql.identifier(tableName)}.${sql.identifier(this.casing.getColumnCasing(field))}`);
+			} else if (is(field, Subquery)) {
+				const entries = Object.entries(field._.selectedFields);
+				if (entries.length === 1) {
+					const entry = entries[0][1];
+					const fieldDecoder = is(entry, SQL) ? entry.decoder : is(entry, Column) ? { mapFromDriverValue: (v) => entry.mapFromDriverValue(v) } : entry.sql.decoder;
+					if (fieldDecoder) field._.sql.decoder = fieldDecoder;
+				}
+				chunk.push(field);
+			}
+			if (i < columnsLen - 1) chunk.push(sql`, `);
+			return chunk;
+		});
+		return sql.join(chunks);
+	}
+	buildJoins(joins) {
+		if (!joins || joins.length === 0) return;
+		const joinsArray = [];
+		if (joins) for (const [index, joinMeta] of joins.entries()) {
+			if (index === 0) joinsArray.push(sql` `);
+			const table = joinMeta.table;
+			const onSql = joinMeta.on ? sql` on ${joinMeta.on}` : void 0;
+			if (is(table, SQLiteTable)) {
+				const tableName = table[SQLiteTable.Symbol.Name];
+				const tableSchema = table[SQLiteTable.Symbol.Schema];
+				const origTableName = table[SQLiteTable.Symbol.OriginalName];
+				const alias = tableName === origTableName ? void 0 : joinMeta.alias;
+				joinsArray.push(sql`${sql.raw(joinMeta.joinType)} join ${tableSchema ? sql`${sql.identifier(tableSchema)}.` : void 0}${sql.identifier(origTableName)}${alias && sql` ${sql.identifier(alias)}`}${onSql}`);
+			} else joinsArray.push(sql`${sql.raw(joinMeta.joinType)} join ${table}${onSql}`);
+			if (index < joins.length - 1) joinsArray.push(sql` `);
+		}
+		return sql.join(joinsArray);
+	}
+	buildLimit(limit) {
+		return typeof limit === "object" || typeof limit === "number" && limit >= 0 ? sql` limit ${limit}` : void 0;
+	}
+	buildOrderBy(orderBy) {
+		const orderByList = [];
+		if (orderBy) for (const [index, orderByValue] of orderBy.entries()) {
+			orderByList.push(orderByValue);
+			if (index < orderBy.length - 1) orderByList.push(sql`, `);
+		}
+		return orderByList.length > 0 ? sql` order by ${sql.join(orderByList)}` : void 0;
+	}
+	buildFromTable(table) {
+		if (is(table, Table) && table[Table.Symbol.IsAlias]) return sql`${sql`${sql.identifier(table[Table.Symbol.Schema] ?? "")}.`.if(table[Table.Symbol.Schema])}${sql.identifier(table[Table.Symbol.OriginalName])} ${sql.identifier(table[Table.Symbol.Name])}`;
+		return table;
+	}
+	buildSelectQuery({ withList, fields, fieldsFlat, where, having, table, joins, orderBy, groupBy, limit, offset, distinct, setOperators }) {
+		const fieldsList = fieldsFlat ?? orderSelectedFields(fields);
+		for (const f of fieldsList) if (is(f.field, Column) && getTableName(f.field.table) !== (is(table, Subquery) ? table._.alias : is(table, SQLiteViewBase) ? table[ViewBaseConfig].name : is(table, SQL) ? void 0 : getTableName(table)) && !((table2) => joins?.some(({ alias }) => alias === (table2[Table.Symbol.IsAlias] ? getTableName(table2) : table2[Table.Symbol.BaseName])))(f.field.table)) {
+			const tableName = getTableName(f.field.table);
+			throw new Error(`Your "${f.path.join("->")}" field references a column "${tableName}"."${f.field.name}", but the table "${tableName}" is not part of the query! Did you forget to join it?`);
+		}
+		const isSingleTable = !joins || joins.length === 0;
+		const withSql = this.buildWithCTE(withList);
+		const distinctSql = distinct ? sql` distinct` : void 0;
+		const selection = this.buildSelection(fieldsList, { isSingleTable });
+		const tableSql = this.buildFromTable(table);
+		const joinsSql = this.buildJoins(joins);
+		const whereSql = where ? sql` where ${where}` : void 0;
+		const havingSql = having ? sql` having ${having}` : void 0;
+		const groupByList = [];
+		if (groupBy) for (const [index, groupByValue] of groupBy.entries()) {
+			groupByList.push(groupByValue);
+			if (index < groupBy.length - 1) groupByList.push(sql`, `);
+		}
+		const finalQuery = sql`${withSql}select${distinctSql} ${selection} from ${tableSql}${joinsSql}${whereSql}${groupByList.length > 0 ? sql` group by ${sql.join(groupByList)}` : void 0}${havingSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}${offset ? sql` offset ${offset}` : void 0}`;
+		if (setOperators.length > 0) return this.buildSetOperations(finalQuery, setOperators);
+		return finalQuery;
+	}
+	buildSetOperations(leftSelect, setOperators) {
+		const [setOperator, ...rest] = setOperators;
+		if (!setOperator) throw new Error("Cannot pass undefined values to any set operator");
+		if (rest.length === 0) return this.buildSetOperationQuery({
+			leftSelect,
+			setOperator
+		});
+		return this.buildSetOperations(this.buildSetOperationQuery({
+			leftSelect,
+			setOperator
+		}), rest);
+	}
+	buildSetOperationQuery({ leftSelect, setOperator: { type, isAll, rightSelect, limit, orderBy, offset } }) {
+		const leftChunk = sql`${leftSelect.getSQL()} `;
+		const rightChunk = sql`${rightSelect.getSQL()}`;
+		let orderBySql;
+		if (orderBy && orderBy.length > 0) {
+			const orderByValues = [];
+			for (const singleOrderBy of orderBy) if (is(singleOrderBy, SQLiteColumn)) orderByValues.push(sql.identifier(singleOrderBy.name));
+			else if (is(singleOrderBy, SQL)) {
+				for (let i = 0; i < singleOrderBy.queryChunks.length; i++) {
+					const chunk = singleOrderBy.queryChunks[i];
+					if (is(chunk, SQLiteColumn)) singleOrderBy.queryChunks[i] = sql.identifier(this.casing.getColumnCasing(chunk));
+				}
+				orderByValues.push(sql`${singleOrderBy}`);
+			} else orderByValues.push(sql`${singleOrderBy}`);
+			orderBySql = sql` order by ${sql.join(orderByValues, sql`, `)}`;
+		}
+		const limitSql = typeof limit === "object" || typeof limit === "number" && limit >= 0 ? sql` limit ${limit}` : void 0;
+		const operatorChunk = sql.raw(`${type} ${isAll ? "all " : ""}`);
+		const offsetSql = offset ? sql` offset ${offset}` : void 0;
+		return sql`${leftChunk}${operatorChunk}${rightChunk}${orderBySql}${limitSql}${offsetSql}`;
+	}
+	buildInsertQuery({ table, values: valuesOrSelect, onConflict, returning, withList, select }) {
+		const valuesSqlList = [];
+		const columns = table[Table.Symbol.Columns];
+		const colEntries = Object.entries(columns).filter(([_, col]) => !col.shouldDisableInsert());
+		const insertOrder = colEntries.map(([, column]) => sql.identifier(this.casing.getColumnCasing(column)));
+		if (select) {
+			const select2 = valuesOrSelect;
+			if (is(select2, SQL)) valuesSqlList.push(select2);
+			else valuesSqlList.push(select2.getSQL());
+		} else {
+			const values = valuesOrSelect;
+			valuesSqlList.push(sql.raw("values "));
+			for (const [valueIndex, value] of values.entries()) {
+				const valueList = [];
+				for (const [fieldName, col] of colEntries) {
+					const colValue = value[fieldName];
+					if (colValue === void 0 || is(colValue, Param) && colValue.value === void 0) {
+						let defaultValue;
+						if (col.default !== null && col.default !== void 0) defaultValue = is(col.default, SQL) ? col.default : sql.param(col.default, col);
+						else if (col.defaultFn !== void 0) {
+							const defaultFnResult = col.defaultFn();
+							defaultValue = is(defaultFnResult, SQL) ? defaultFnResult : sql.param(defaultFnResult, col);
+						} else if (!col.default && col.onUpdateFn !== void 0) {
+							const onUpdateFnResult = col.onUpdateFn();
+							defaultValue = is(onUpdateFnResult, SQL) ? onUpdateFnResult : sql.param(onUpdateFnResult, col);
+						} else defaultValue = sql`null`;
+						valueList.push(defaultValue);
+					} else valueList.push(colValue);
+				}
+				valuesSqlList.push(valueList);
+				if (valueIndex < values.length - 1) valuesSqlList.push(sql`, `);
+			}
+		}
+		const withSql = this.buildWithCTE(withList);
+		const valuesSql = sql.join(valuesSqlList);
+		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
+		return sql`${withSql}insert into ${table} ${insertOrder} ${valuesSql}${onConflict?.length ? sql.join(onConflict) : void 0}${returningSql}`;
+	}
+	sqlToQuery(sql2, invokeSource) {
+		return sql2.toQuery({
+			casing: this.casing,
+			escapeName: this.escapeName,
+			escapeParam: this.escapeParam,
+			escapeString: this.escapeString,
+			invokeSource
+		});
+	}
+	buildRelationalQuery({ fullSchema, schema, tableNamesMap, table, tableConfig, queryConfig: config, tableAlias, nestedQueryRelation, joinOn }) {
+		let selection = [];
+		let limit, offset, orderBy = [], where;
+		const joins = [];
+		if (config === true) selection = Object.entries(tableConfig.columns).map(([key, value]) => ({
+			dbKey: value.name,
+			tsKey: key,
+			field: aliasedTableColumn(value, tableAlias),
+			relationTableTsKey: void 0,
+			isJson: false,
+			selection: []
+		}));
+		else {
+			const aliasedColumns = Object.fromEntries(Object.entries(tableConfig.columns).map(([key, value]) => [key, aliasedTableColumn(value, tableAlias)]));
+			if (config.where) {
+				const whereSql = typeof config.where === "function" ? config.where(aliasedColumns, getOperators()) : config.where;
+				where = whereSql && mapColumnsInSQLToAlias(whereSql, tableAlias);
+			}
+			const fieldsSelection = [];
+			let selectedColumns = [];
+			if (config.columns) {
+				let isIncludeMode = false;
+				for (const [field, value] of Object.entries(config.columns)) {
+					if (value === void 0) continue;
+					if (field in tableConfig.columns) {
+						if (!isIncludeMode && value === true) isIncludeMode = true;
+						selectedColumns.push(field);
+					}
+				}
+				if (selectedColumns.length > 0) selectedColumns = isIncludeMode ? selectedColumns.filter((c) => config.columns?.[c] === true) : Object.keys(tableConfig.columns).filter((key) => !selectedColumns.includes(key));
+			} else selectedColumns = Object.keys(tableConfig.columns);
+			for (const field of selectedColumns) {
+				const column = tableConfig.columns[field];
+				fieldsSelection.push({
+					tsKey: field,
+					value: column
+				});
+			}
+			let selectedRelations = [];
+			if (config.with) selectedRelations = Object.entries(config.with).filter((entry) => !!entry[1]).map(([tsKey, queryConfig]) => ({
+				tsKey,
+				queryConfig,
+				relation: tableConfig.relations[tsKey]
+			}));
+			let extras;
+			if (config.extras) {
+				extras = typeof config.extras === "function" ? config.extras(aliasedColumns, { sql }) : config.extras;
+				for (const [tsKey, value] of Object.entries(extras)) fieldsSelection.push({
+					tsKey,
+					value: mapColumnsInAliasedSQLToAlias(value, tableAlias)
+				});
+			}
+			for (const { tsKey, value } of fieldsSelection) selection.push({
+				dbKey: is(value, SQL.Aliased) ? value.fieldAlias : tableConfig.columns[tsKey].name,
+				tsKey,
+				field: is(value, Column) ? aliasedTableColumn(value, tableAlias) : value,
+				relationTableTsKey: void 0,
+				isJson: false,
+				selection: []
+			});
+			let orderByOrig = typeof config.orderBy === "function" ? config.orderBy(aliasedColumns, getOrderByOperators()) : config.orderBy ?? [];
+			if (!Array.isArray(orderByOrig)) orderByOrig = [orderByOrig];
+			orderBy = orderByOrig.map((orderByValue) => {
+				if (is(orderByValue, Column)) return aliasedTableColumn(orderByValue, tableAlias);
+				return mapColumnsInSQLToAlias(orderByValue, tableAlias);
+			});
+			limit = config.limit;
+			offset = config.offset;
+			for (const { tsKey: selectedRelationTsKey, queryConfig: selectedRelationConfigValue, relation } of selectedRelations) {
+				const normalizedRelation = normalizeRelation(schema, tableNamesMap, relation);
+				const relationTableTsName = tableNamesMap[getTableUniqueName(relation.referencedTable)];
+				const relationTableAlias = `${tableAlias}_${selectedRelationTsKey}`;
+				const joinOn2 = and(...normalizedRelation.fields.map((field2, i) => eq(aliasedTableColumn(normalizedRelation.references[i], relationTableAlias), aliasedTableColumn(field2, tableAlias))));
+				const builtRelation = this.buildRelationalQuery({
+					fullSchema,
+					schema,
+					tableNamesMap,
+					table: fullSchema[relationTableTsName],
+					tableConfig: schema[relationTableTsName],
+					queryConfig: is(relation, One) ? selectedRelationConfigValue === true ? { limit: 1 } : {
+						...selectedRelationConfigValue,
+						limit: 1
+					} : selectedRelationConfigValue,
+					tableAlias: relationTableAlias,
+					joinOn: joinOn2,
+					nestedQueryRelation: relation
+				});
+				const field = sql`(${builtRelation.sql})`.as(selectedRelationTsKey);
+				selection.push({
+					dbKey: selectedRelationTsKey,
+					tsKey: selectedRelationTsKey,
+					field,
+					relationTableTsKey: relationTableTsName,
+					isJson: true,
+					selection: builtRelation.selection
+				});
+			}
+		}
+		if (selection.length === 0) throw new DrizzleError({ message: `No fields selected for table "${tableConfig.tsName}" ("${tableAlias}"). You need to have at least one item in "columns", "with" or "extras". If you need to select all columns, omit the "columns" key or set it to undefined.` });
+		let result;
+		where = and(joinOn, where);
+		if (nestedQueryRelation) {
+			let field = sql`json_array(${sql.join(selection.map(({ field: field2 }) => is(field2, SQLiteColumn) ? sql.identifier(this.casing.getColumnCasing(field2)) : is(field2, SQL.Aliased) ? field2.sql : field2), sql`, `)})`;
+			if (is(nestedQueryRelation, Many)) field = sql`coalesce(json_group_array(${field}), json_array())`;
+			const nestedSelection = [{
+				dbKey: "data",
+				tsKey: "data",
+				field: field.as("data"),
+				isJson: true,
+				relationTableTsKey: tableConfig.tsName,
+				selection
+			}];
+			if (limit !== void 0 || offset !== void 0 || orderBy.length > 0) {
+				result = this.buildSelectQuery({
+					table: aliasedTable(table, tableAlias),
+					fields: {},
+					fieldsFlat: [{
+						path: [],
+						field: sql.raw("*")
+					}],
+					where,
+					limit,
+					offset,
+					orderBy,
+					setOperators: []
+				});
+				where = void 0;
+				limit = void 0;
+				offset = void 0;
+				orderBy = void 0;
+			} else result = aliasedTable(table, tableAlias);
+			result = this.buildSelectQuery({
+				table: is(result, SQLiteTable) ? result : new Subquery(result, {}, tableAlias),
+				fields: {},
+				fieldsFlat: nestedSelection.map(({ field: field2 }) => ({
+					path: [],
+					field: is(field2, Column) ? aliasedTableColumn(field2, tableAlias) : field2
+				})),
+				joins,
+				where,
+				limit,
+				offset,
+				orderBy,
+				setOperators: []
+			});
+		} else result = this.buildSelectQuery({
+			table: aliasedTable(table, tableAlias),
+			fields: {},
+			fieldsFlat: selection.map(({ field }) => ({
+				path: [],
+				field: is(field, Column) ? aliasedTableColumn(field, tableAlias) : field
+			})),
+			joins,
+			where,
+			limit,
+			offset,
+			orderBy,
+			setOperators: []
+		});
+		return {
+			tableTsKey: tableConfig.tsName,
+			sql: result,
+			selection
+		};
+	}
+};
+var SQLiteSyncDialect = class extends SQLiteDialect {
+	static [entityKind] = "SQLiteSyncDialect";
+	migrate(migrations, session, config) {
+		const migrationsTable = config === void 0 ? "__drizzle_migrations" : typeof config === "string" ? "__drizzle_migrations" : config.migrationsTable ?? "__drizzle_migrations";
+		const migrationTableCreate = sql`
+			CREATE TABLE IF NOT EXISTS ${sql.identifier(migrationsTable)} (
+				id SERIAL PRIMARY KEY,
+				hash text NOT NULL,
+				created_at numeric
+			)
+		`;
+		session.run(migrationTableCreate);
+		const lastDbMigration = session.values(sql`SELECT id, hash, created_at FROM ${sql.identifier(migrationsTable)} ORDER BY created_at DESC LIMIT 1`)[0] ?? void 0;
+		session.run(sql`BEGIN`);
+		try {
+			for (const migration of migrations) if (!lastDbMigration || Number(lastDbMigration[2]) < migration.folderMillis) {
+				for (const stmt of migration.sql) session.run(sql.raw(stmt));
+				session.run(sql`INSERT INTO ${sql.identifier(migrationsTable)} ("hash", "created_at") VALUES(${migration.hash}, ${migration.folderMillis})`);
+			}
+			session.run(sql`COMMIT`);
+		} catch (e) {
+			session.run(sql`ROLLBACK`);
+			throw e;
+		}
+	}
+};
+var SQLiteAsyncDialect = class extends SQLiteDialect {
+	static [entityKind] = "SQLiteAsyncDialect";
+	async migrate(migrations, session, config) {
+		const migrationsTable = config === void 0 ? "__drizzle_migrations" : typeof config === "string" ? "__drizzle_migrations" : config.migrationsTable ?? "__drizzle_migrations";
+		const migrationTableCreate = sql`
+			CREATE TABLE IF NOT EXISTS ${sql.identifier(migrationsTable)} (
+				id SERIAL PRIMARY KEY,
+				hash text NOT NULL,
+				created_at numeric
+			)
+		`;
+		await session.run(migrationTableCreate);
+		const lastDbMigration = (await session.values(sql`SELECT id, hash, created_at FROM ${sql.identifier(migrationsTable)} ORDER BY created_at DESC LIMIT 1`))[0] ?? void 0;
+		await session.transaction(async (tx) => {
+			for (const migration of migrations) if (!lastDbMigration || Number(lastDbMigration[2]) < migration.folderMillis) {
+				for (const stmt of migration.sql) await tx.run(sql.raw(stmt));
+				await tx.run(sql`INSERT INTO ${sql.identifier(migrationsTable)} ("hash", "created_at") VALUES(${migration.hash}, ${migration.folderMillis})`);
+			}
+		});
+	}
+};
+var TypedQueryBuilder = class {
+	static [entityKind] = "TypedQueryBuilder";
+	/** @internal */
+	getSelectedFields() {
+		return this._.selectedFields;
+	}
+};
+var SQLiteSelectBuilder = class {
+	static [entityKind] = "SQLiteSelectBuilder";
+	fields;
+	session;
+	dialect;
+	withList;
+	distinct;
+	constructor(config) {
+		this.fields = config.fields;
+		this.session = config.session;
+		this.dialect = config.dialect;
+		this.withList = config.withList;
+		this.distinct = config.distinct;
+	}
+	from(source) {
+		const isPartialSelect = !!this.fields;
+		let fields;
+		if (this.fields) fields = this.fields;
+		else if (is(source, Subquery)) fields = Object.fromEntries(Object.keys(source._.selectedFields).map((key) => [key, source[key]]));
+		else if (is(source, SQLiteViewBase)) fields = source[ViewBaseConfig].selectedFields;
+		else if (is(source, SQL)) fields = {};
+		else fields = getTableColumns(source);
+		return new SQLiteSelectBase({
+			table: source,
+			fields,
+			isPartialSelect,
+			session: this.session,
+			dialect: this.dialect,
+			withList: this.withList,
+			distinct: this.distinct
+		});
+	}
+};
+var SQLiteSelectQueryBuilderBase = class extends TypedQueryBuilder {
+	static [entityKind] = "SQLiteSelectQueryBuilder";
+	_;
+	/** @internal */
+	config;
+	joinsNotNullableMap;
+	tableName;
+	isPartialSelect;
+	session;
+	dialect;
+	cacheConfig = void 0;
+	usedTables = /* @__PURE__ */ new Set();
+	constructor({ table, fields, isPartialSelect, session, dialect, withList, distinct }) {
+		super();
+		this.config = {
+			withList,
+			table,
+			fields: { ...fields },
+			distinct,
+			setOperators: []
+		};
+		this.isPartialSelect = isPartialSelect;
+		this.session = session;
+		this.dialect = dialect;
+		this._ = {
+			selectedFields: fields,
+			config: this.config
+		};
+		this.tableName = getTableLikeName(table);
+		this.joinsNotNullableMap = typeof this.tableName === "string" ? { [this.tableName]: true } : {};
+		for (const item of extractUsedTable(table)) this.usedTables.add(item);
+	}
+	/** @internal */
+	getUsedTables() {
+		return [...this.usedTables];
+	}
+	createJoin(joinType) {
+		return (table, on) => {
+			const baseTableName = this.tableName;
+			const tableName = getTableLikeName(table);
+			for (const item of extractUsedTable(table)) this.usedTables.add(item);
+			if (typeof tableName === "string" && this.config.joins?.some((join) => join.alias === tableName)) throw new Error(`Alias "${tableName}" is already used in this query`);
+			if (!this.isPartialSelect) {
+				if (Object.keys(this.joinsNotNullableMap).length === 1 && typeof baseTableName === "string") this.config.fields = { [baseTableName]: this.config.fields };
+				if (typeof tableName === "string" && !is(table, SQL)) {
+					const selection = is(table, Subquery) ? table._.selectedFields : is(table, View) ? table[ViewBaseConfig].selectedFields : table[Table.Symbol.Columns];
+					this.config.fields[tableName] = selection;
+				}
+			}
+			if (typeof on === "function") on = on(new Proxy(this.config.fields, new SelectionProxyHandler({
+				sqlAliasedBehavior: "sql",
+				sqlBehavior: "sql"
+			})));
+			if (!this.config.joins) this.config.joins = [];
+			this.config.joins.push({
+				on,
+				table,
+				joinType,
+				alias: tableName
+			});
+			if (typeof tableName === "string") switch (joinType) {
+				case "left":
+					this.joinsNotNullableMap[tableName] = false;
+					break;
+				case "right":
+					this.joinsNotNullableMap = Object.fromEntries(Object.entries(this.joinsNotNullableMap).map(([key]) => [key, false]));
+					this.joinsNotNullableMap[tableName] = true;
+					break;
+				case "cross":
+				case "inner":
+					this.joinsNotNullableMap[tableName] = true;
+					break;
+				case "full":
+					this.joinsNotNullableMap = Object.fromEntries(Object.entries(this.joinsNotNullableMap).map(([key]) => [key, false]));
+					this.joinsNotNullableMap[tableName] = false;
+					break;
+			}
+			return this;
+		};
+	}
+	/**
+	* Executes a `left join` operation by adding another table to the current query.
+	*
+	* Calling this method associates each row of the table with the corresponding row from the joined table, if a match is found. If no matching row exists, it sets all columns of the joined table to null.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/joins#left-join}
+	*
+	* @param table the table to join.
+	* @param on the `on` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all users and their pets
+	* const usersWithPets: { user: User; pets: Pet | null; }[] = await db.select()
+	*   .from(users)
+	*   .leftJoin(pets, eq(users.id, pets.ownerId))
+	*
+	* // Select userId and petId
+	* const usersIdsAndPetIds: { userId: number; petId: number | null; }[] = await db.select({
+	*   userId: users.id,
+	*   petId: pets.id,
+	* })
+	*   .from(users)
+	*   .leftJoin(pets, eq(users.id, pets.ownerId))
+	* ```
+	*/
+	leftJoin = this.createJoin("left");
+	/**
+	* Executes a `right join` operation by adding another table to the current query.
+	*
+	* Calling this method associates each row of the joined table with the corresponding row from the main table, if a match is found. If no matching row exists, it sets all columns of the main table to null.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/joins#right-join}
+	*
+	* @param table the table to join.
+	* @param on the `on` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all users and their pets
+	* const usersWithPets: { user: User | null; pets: Pet; }[] = await db.select()
+	*   .from(users)
+	*   .rightJoin(pets, eq(users.id, pets.ownerId))
+	*
+	* // Select userId and petId
+	* const usersIdsAndPetIds: { userId: number | null; petId: number; }[] = await db.select({
+	*   userId: users.id,
+	*   petId: pets.id,
+	* })
+	*   .from(users)
+	*   .rightJoin(pets, eq(users.id, pets.ownerId))
+	* ```
+	*/
+	rightJoin = this.createJoin("right");
+	/**
+	* Executes an `inner join` operation, creating a new table by combining rows from two tables that have matching values.
+	*
+	* Calling this method retrieves rows that have corresponding entries in both joined tables. Rows without matching entries in either table are excluded, resulting in a table that includes only matching pairs.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/joins#inner-join}
+	*
+	* @param table the table to join.
+	* @param on the `on` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all users and their pets
+	* const usersWithPets: { user: User; pets: Pet; }[] = await db.select()
+	*   .from(users)
+	*   .innerJoin(pets, eq(users.id, pets.ownerId))
+	*
+	* // Select userId and petId
+	* const usersIdsAndPetIds: { userId: number; petId: number; }[] = await db.select({
+	*   userId: users.id,
+	*   petId: pets.id,
+	* })
+	*   .from(users)
+	*   .innerJoin(pets, eq(users.id, pets.ownerId))
+	* ```
+	*/
+	innerJoin = this.createJoin("inner");
+	/**
+	* Executes a `full join` operation by combining rows from two tables into a new table.
+	*
+	* Calling this method retrieves all rows from both main and joined tables, merging rows with matching values and filling in `null` for non-matching columns.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/joins#full-join}
+	*
+	* @param table the table to join.
+	* @param on the `on` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all users and their pets
+	* const usersWithPets: { user: User | null; pets: Pet | null; }[] = await db.select()
+	*   .from(users)
+	*   .fullJoin(pets, eq(users.id, pets.ownerId))
+	*
+	* // Select userId and petId
+	* const usersIdsAndPetIds: { userId: number | null; petId: number | null; }[] = await db.select({
+	*   userId: users.id,
+	*   petId: pets.id,
+	* })
+	*   .from(users)
+	*   .fullJoin(pets, eq(users.id, pets.ownerId))
+	* ```
+	*/
+	fullJoin = this.createJoin("full");
+	/**
+	* Executes a `cross join` operation by combining rows from two tables into a new table.
+	*
+	* Calling this method retrieves all rows from both main and joined tables, merging all rows from each table.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/joins#cross-join}
+	*
+	* @param table the table to join.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all users, each user with every pet
+	* const usersWithPets: { user: User; pets: Pet; }[] = await db.select()
+	*   .from(users)
+	*   .crossJoin(pets)
+	*
+	* // Select userId and petId
+	* const usersIdsAndPetIds: { userId: number; petId: number; }[] = await db.select({
+	*   userId: users.id,
+	*   petId: pets.id,
+	* })
+	*   .from(users)
+	*   .crossJoin(pets)
+	* ```
+	*/
+	crossJoin = this.createJoin("cross");
+	createSetOperator(type, isAll) {
+		return (rightSelection) => {
+			const rightSelect = typeof rightSelection === "function" ? rightSelection(getSQLiteSetOperators()) : rightSelection;
+			if (!haveSameKeys(this.getSelectedFields(), rightSelect.getSelectedFields())) throw new Error("Set operator error (union / intersect / except): selected fields are not the same or are in a different order");
+			this.config.setOperators.push({
+				type,
+				isAll,
+				rightSelect
+			});
+			return this;
+		};
+	}
+	/**
+	* Adds `union` set operator to the query.
+	*
+	* Calling this method will combine the result sets of the `select` statements and remove any duplicate rows that appear across them.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/set-operations#union}
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all unique names from customers and users tables
+	* await db.select({ name: users.name })
+	*   .from(users)
+	*   .union(
+	*     db.select({ name: customers.name }).from(customers)
+	*   );
+	* // or
+	* import { union } from 'drizzle-orm/sqlite-core'
+	*
+	* await union(
+	*   db.select({ name: users.name }).from(users),
+	*   db.select({ name: customers.name }).from(customers)
+	* );
+	* ```
+	*/
+	union = this.createSetOperator("union", false);
+	/**
+	* Adds `union all` set operator to the query.
+	*
+	* Calling this method will combine the result-set of the `select` statements and keep all duplicate rows that appear across them.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/set-operations#union-all}
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all transaction ids from both online and in-store sales
+	* await db.select({ transaction: onlineSales.transactionId })
+	*   .from(onlineSales)
+	*   .unionAll(
+	*     db.select({ transaction: inStoreSales.transactionId }).from(inStoreSales)
+	*   );
+	* // or
+	* import { unionAll } from 'drizzle-orm/sqlite-core'
+	*
+	* await unionAll(
+	*   db.select({ transaction: onlineSales.transactionId }).from(onlineSales),
+	*   db.select({ transaction: inStoreSales.transactionId }).from(inStoreSales)
+	* );
+	* ```
+	*/
+	unionAll = this.createSetOperator("union", true);
+	/**
+	* Adds `intersect` set operator to the query.
+	*
+	* Calling this method will retain only the rows that are present in both result sets and eliminate duplicates.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/set-operations#intersect}
+	*
+	* @example
+	*
+	* ```ts
+	* // Select course names that are offered in both departments A and B
+	* await db.select({ courseName: depA.courseName })
+	*   .from(depA)
+	*   .intersect(
+	*     db.select({ courseName: depB.courseName }).from(depB)
+	*   );
+	* // or
+	* import { intersect } from 'drizzle-orm/sqlite-core'
+	*
+	* await intersect(
+	*   db.select({ courseName: depA.courseName }).from(depA),
+	*   db.select({ courseName: depB.courseName }).from(depB)
+	* );
+	* ```
+	*/
+	intersect = this.createSetOperator("intersect", false);
+	/**
+	* Adds `except` set operator to the query.
+	*
+	* Calling this method will retrieve all unique rows from the left query, except for the rows that are present in the result set of the right query.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/set-operations#except}
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all courses offered in department A but not in department B
+	* await db.select({ courseName: depA.courseName })
+	*   .from(depA)
+	*   .except(
+	*     db.select({ courseName: depB.courseName }).from(depB)
+	*   );
+	* // or
+	* import { except } from 'drizzle-orm/sqlite-core'
+	*
+	* await except(
+	*   db.select({ courseName: depA.courseName }).from(depA),
+	*   db.select({ courseName: depB.courseName }).from(depB)
+	* );
+	* ```
+	*/
+	except = this.createSetOperator("except", false);
+	/** @internal */
+	addSetOperators(setOperators) {
+		this.config.setOperators.push(...setOperators);
+		return this;
+	}
+	/**
+	* Adds a `where` clause to the query.
+	*
+	* Calling this method will select only those rows that fulfill a specified condition.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#filtering}
+	*
+	* @param where the `where` clause.
+	*
+	* @example
+	* You can use conditional operators and `sql function` to filter the rows to be selected.
+	*
+	* ```ts
+	* // Select all cars with green color
+	* await db.select().from(cars).where(eq(cars.color, 'green'));
+	* // or
+	* await db.select().from(cars).where(sql`${cars.color} = 'green'`)
+	* ```
+	*
+	* You can logically combine conditional operators with `and()` and `or()` operators:
+	*
+	* ```ts
+	* // Select all BMW cars with a green color
+	* await db.select().from(cars).where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
+	*
+	* // Select all cars with the green or blue color
+	* await db.select().from(cars).where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
+	* ```
+	*/
+	where(where) {
+		if (typeof where === "function") where = where(new Proxy(this.config.fields, new SelectionProxyHandler({
+			sqlAliasedBehavior: "sql",
+			sqlBehavior: "sql"
+		})));
+		this.config.where = where;
+		return this;
+	}
+	/**
+	* Adds a `having` clause to the query.
+	*
+	* Calling this method will select only those rows that fulfill a specified condition. It is typically used with aggregate functions to filter the aggregated data based on a specified condition.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#aggregations}
+	*
+	* @param having the `having` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Select all brands with more than one car
+	* await db.select({
+	* 	brand: cars.brand,
+	* 	count: sql<number>`cast(count(${cars.id}) as int)`,
+	* })
+	*   .from(cars)
+	*   .groupBy(cars.brand)
+	*   .having(({ count }) => gt(count, 1));
+	* ```
+	*/
+	having(having) {
+		if (typeof having === "function") having = having(new Proxy(this.config.fields, new SelectionProxyHandler({
+			sqlAliasedBehavior: "sql",
+			sqlBehavior: "sql"
+		})));
+		this.config.having = having;
+		return this;
+	}
+	groupBy(...columns) {
+		if (typeof columns[0] === "function") {
+			const groupBy = columns[0](new Proxy(this.config.fields, new SelectionProxyHandler({
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "sql"
+			})));
+			this.config.groupBy = Array.isArray(groupBy) ? groupBy : [groupBy];
+		} else this.config.groupBy = columns;
+		return this;
+	}
+	orderBy(...columns) {
+		if (typeof columns[0] === "function") {
+			const orderBy = columns[0](new Proxy(this.config.fields, new SelectionProxyHandler({
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "sql"
+			})));
+			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
+			if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).orderBy = orderByArray;
+			else this.config.orderBy = orderByArray;
+		} else {
+			const orderByArray = columns;
+			if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).orderBy = orderByArray;
+			else this.config.orderBy = orderByArray;
+		}
+		return this;
+	}
+	/**
+	* Adds a `limit` clause to the query.
+	*
+	* Calling this method will set the maximum number of rows that will be returned by this query.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#limit--offset}
+	*
+	* @param limit the `limit` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Get the first 10 people from this query.
+	* await db.select().from(people).limit(10);
+	* ```
+	*/
+	limit(limit) {
+		if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).limit = limit;
+		else this.config.limit = limit;
+		return this;
+	}
+	/**
+	* Adds an `offset` clause to the query.
+	*
+	* Calling this method will skip a number of rows when returning results from this query.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#limit--offset}
+	*
+	* @param offset the `offset` clause.
+	*
+	* @example
+	*
+	* ```ts
+	* // Get the 10th-20th people from this query.
+	* await db.select().from(people).offset(10).limit(10);
+	* ```
+	*/
+	offset(offset) {
+		if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).offset = offset;
+		else this.config.offset = offset;
+		return this;
+	}
+	/** @internal */
+	getSQL() {
+		return this.dialect.buildSelectQuery(this.config);
+	}
+	toSQL() {
+		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
+		return rest;
+	}
+	as(alias) {
+		const usedTables = [];
+		usedTables.push(...extractUsedTable(this.config.table));
+		if (this.config.joins) for (const it of this.config.joins) usedTables.push(...extractUsedTable(it.table));
+		return new Proxy(new Subquery(this.getSQL(), this.config.fields, alias, false, [...new Set(usedTables)]), new SelectionProxyHandler({
+			alias,
+			sqlAliasedBehavior: "alias",
+			sqlBehavior: "error"
+		}));
+	}
+	/** @internal */
+	getSelectedFields() {
+		return new Proxy(this.config.fields, new SelectionProxyHandler({
+			alias: this.tableName,
+			sqlAliasedBehavior: "alias",
+			sqlBehavior: "error"
+		}));
+	}
+	$dynamic() {
+		return this;
+	}
+};
+var SQLiteSelectBase = class extends SQLiteSelectQueryBuilderBase {
+	static [entityKind] = "SQLiteSelect";
+	/** @internal */
+	_prepare(isOneTimeQuery = true) {
+		if (!this.session) throw new Error("Cannot execute a query on a query builder. Please use a database instance instead.");
+		const fieldsList = orderSelectedFields(this.config.fields);
+		const query = this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), fieldsList, "all", true, void 0, {
+			type: "select",
+			tables: [...this.usedTables]
+		}, this.cacheConfig);
+		query.joinsNotNullableMap = this.joinsNotNullableMap;
+		return query;
+	}
+	$withCache(config) {
+		this.cacheConfig = config === void 0 ? {
+			config: {},
+			enable: true,
+			autoInvalidate: true
+		} : config === false ? { enable: false } : {
+			enable: true,
+			autoInvalidate: true,
+			...config
+		};
+		return this;
+	}
+	prepare() {
+		return this._prepare(false);
+	}
+	run = (placeholderValues) => {
+		return this._prepare().run(placeholderValues);
+	};
+	all = (placeholderValues) => {
+		return this._prepare().all(placeholderValues);
+	};
+	get = (placeholderValues) => {
+		return this._prepare().get(placeholderValues);
+	};
+	values = (placeholderValues) => {
+		return this._prepare().values(placeholderValues);
+	};
+	async execute() {
+		return this.all();
+	}
+};
+applyMixins(SQLiteSelectBase, [QueryPromise]);
+function createSetOperator(type, isAll) {
+	return (leftSelect, rightSelect, ...restSelects) => {
+		const setOperators = [rightSelect, ...restSelects].map((select) => ({
+			type,
+			isAll,
+			rightSelect: select
+		}));
+		for (const setOperator of setOperators) if (!haveSameKeys(leftSelect.getSelectedFields(), setOperator.rightSelect.getSelectedFields())) throw new Error("Set operator error (union / intersect / except): selected fields are not the same or are in a different order");
+		return leftSelect.addSetOperators(setOperators);
+	};
+}
+var getSQLiteSetOperators = () => ({
+	union,
+	unionAll,
+	intersect,
+	except
+});
+var union = createSetOperator("union", false);
+var unionAll = createSetOperator("union", true);
+var intersect = createSetOperator("intersect", false);
+var except = createSetOperator("except", false);
+var QueryBuilder = class {
+	static [entityKind] = "SQLiteQueryBuilder";
+	dialect;
+	dialectConfig;
+	constructor(dialect) {
+		this.dialect = is(dialect, SQLiteDialect) ? dialect : void 0;
+		this.dialectConfig = is(dialect, SQLiteDialect) ? void 0 : dialect;
+	}
+	$with = (alias, selection) => {
+		const queryBuilder = this;
+		const as = (qb) => {
+			if (typeof qb === "function") qb = qb(queryBuilder);
+			return new Proxy(new WithSubquery(qb.getSQL(), selection ?? ("getSelectedFields" in qb ? qb.getSelectedFields() ?? {} : {}), alias, true), new SelectionProxyHandler({
+				alias,
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "error"
+			}));
+		};
+		return { as };
+	};
+	with(...queries) {
+		const self = this;
+		function select(fields) {
+			return new SQLiteSelectBuilder({
+				fields: fields ?? void 0,
+				session: void 0,
+				dialect: self.getDialect(),
+				withList: queries
+			});
+		}
+		function selectDistinct(fields) {
+			return new SQLiteSelectBuilder({
+				fields: fields ?? void 0,
+				session: void 0,
+				dialect: self.getDialect(),
+				withList: queries,
+				distinct: true
+			});
+		}
+		return {
+			select,
+			selectDistinct
+		};
+	}
+	select(fields) {
+		return new SQLiteSelectBuilder({
+			fields: fields ?? void 0,
+			session: void 0,
+			dialect: this.getDialect()
+		});
+	}
+	selectDistinct(fields) {
+		return new SQLiteSelectBuilder({
+			fields: fields ?? void 0,
+			session: void 0,
+			dialect: this.getDialect(),
+			distinct: true
+		});
+	}
+	getDialect() {
+		if (!this.dialect) this.dialect = new SQLiteSyncDialect(this.dialectConfig);
+		return this.dialect;
+	}
+};
+var SQLiteInsertBuilder = class {
+	constructor(table, session, dialect, withList) {
+		this.table = table;
+		this.session = session;
+		this.dialect = dialect;
+		this.withList = withList;
+	}
+	static [entityKind] = "SQLiteInsertBuilder";
+	values(values) {
+		values = Array.isArray(values) ? values : [values];
+		if (values.length === 0) throw new Error("values() must be called with at least one value");
+		const mappedValues = values.map((entry) => {
+			const result = {};
+			const cols = this.table[Table.Symbol.Columns];
+			for (const colKey of Object.keys(entry)) {
+				const colValue = entry[colKey];
+				result[colKey] = is(colValue, SQL) ? colValue : new Param(colValue, cols[colKey]);
+			}
+			return result;
+		});
+		return new SQLiteInsertBase(this.table, mappedValues, this.session, this.dialect, this.withList);
+	}
+	select(selectQuery) {
+		const select = typeof selectQuery === "function" ? selectQuery(new QueryBuilder()) : selectQuery;
+		if (!is(select, SQL) && !haveSameKeys(this.table[Columns], select._.selectedFields)) throw new Error("Insert select error: selected fields are not the same or are in a different order compared to the table definition");
+		return new SQLiteInsertBase(this.table, select, this.session, this.dialect, this.withList, true);
+	}
+};
+var SQLiteInsertBase = class extends QueryPromise {
+	constructor(table, values, session, dialect, withList, select) {
+		super();
+		this.session = session;
+		this.dialect = dialect;
+		this.config = {
+			table,
+			values,
+			withList,
+			select
+		};
+	}
+	static [entityKind] = "SQLiteInsert";
+	/** @internal */
+	config;
+	returning(fields = this.config.table[SQLiteTable.Symbol.Columns]) {
+		this.config.returning = orderSelectedFields(fields);
+		return this;
+	}
+	/**
+	* Adds an `on conflict do nothing` clause to the query.
+	*
+	* Calling this method simply avoids inserting a row as its alternative action.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/insert#on-conflict-do-nothing}
+	*
+	* @param config The `target` and `where` clauses.
+	*
+	* @example
+	* ```ts
+	* // Insert one row and cancel the insert if there's a conflict
+	* await db.insert(cars)
+	*   .values({ id: 1, brand: 'BMW' })
+	*   .onConflictDoNothing();
+	*
+	* // Explicitly specify conflict target
+	* await db.insert(cars)
+	*   .values({ id: 1, brand: 'BMW' })
+	*   .onConflictDoNothing({ target: cars.id });
+	* ```
+	*/
+	onConflictDoNothing(config = {}) {
+		if (!this.config.onConflict) this.config.onConflict = [];
+		if (config.target === void 0) this.config.onConflict.push(sql` on conflict do nothing`);
+		else {
+			const targetSql = Array.isArray(config.target) ? sql`${config.target}` : sql`${[config.target]}`;
+			const whereSql = config.where ? sql` where ${config.where}` : sql``;
+			this.config.onConflict.push(sql` on conflict ${targetSql} do nothing${whereSql}`);
+		}
+		return this;
+	}
+	/**
+	* Adds an `on conflict do update` clause to the query.
+	*
+	* Calling this method will update the existing row that conflicts with the row proposed for insertion as its alternative action.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/insert#upserts-and-conflicts}
+	*
+	* @param config The `target`, `set` and `where` clauses.
+	*
+	* @example
+	* ```ts
+	* // Update the row if there's a conflict
+	* await db.insert(cars)
+	*   .values({ id: 1, brand: 'BMW' })
+	*   .onConflictDoUpdate({
+	*     target: cars.id,
+	*     set: { brand: 'Porsche' }
+	*   });
+	*
+	* // Upsert with 'where' clause
+	* await db.insert(cars)
+	*   .values({ id: 1, brand: 'BMW' })
+	*   .onConflictDoUpdate({
+	*     target: cars.id,
+	*     set: { brand: 'newBMW' },
+	*     where: sql`${cars.createdAt} > '2023-01-01'::date`,
+	*   });
+	* ```
+	*/
+	onConflictDoUpdate(config) {
+		if (config.where && (config.targetWhere || config.setWhere)) throw new Error("You cannot use both \"where\" and \"targetWhere\"/\"setWhere\" at the same time - \"where\" is deprecated, use \"targetWhere\" or \"setWhere\" instead.");
+		if (!this.config.onConflict) this.config.onConflict = [];
+		const whereSql = config.where ? sql` where ${config.where}` : void 0;
+		const targetWhereSql = config.targetWhere ? sql` where ${config.targetWhere}` : void 0;
+		const setWhereSql = config.setWhere ? sql` where ${config.setWhere}` : void 0;
+		const targetSql = Array.isArray(config.target) ? sql`${config.target}` : sql`${[config.target]}`;
+		const setSql = this.dialect.buildUpdateSet(this.config.table, mapUpdateSet(this.config.table, config.set));
+		this.config.onConflict.push(sql` on conflict ${targetSql}${targetWhereSql} do update set ${setSql}${whereSql}${setWhereSql}`);
+		return this;
+	}
+	/** @internal */
+	getSQL() {
+		return this.dialect.buildInsertQuery(this.config);
+	}
+	toSQL() {
+		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
+		return rest;
+	}
+	/** @internal */
+	_prepare(isOneTimeQuery = true) {
+		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
+			type: "insert",
+			tables: extractUsedTable(this.config.table)
+		});
+	}
+	prepare() {
+		return this._prepare(false);
+	}
+	run = (placeholderValues) => {
+		return this._prepare().run(placeholderValues);
+	};
+	all = (placeholderValues) => {
+		return this._prepare().all(placeholderValues);
+	};
+	get = (placeholderValues) => {
+		return this._prepare().get(placeholderValues);
+	};
+	values = (placeholderValues) => {
+		return this._prepare().values(placeholderValues);
+	};
+	async execute() {
+		return this.config.returning ? this.all() : this.run();
+	}
+	$dynamic() {
+		return this;
+	}
+};
+var SQLiteUpdateBuilder = class {
+	constructor(table, session, dialect, withList) {
+		this.table = table;
+		this.session = session;
+		this.dialect = dialect;
+		this.withList = withList;
+	}
+	static [entityKind] = "SQLiteUpdateBuilder";
+	set(values) {
+		return new SQLiteUpdateBase(this.table, mapUpdateSet(this.table, values), this.session, this.dialect, this.withList);
+	}
+};
+var SQLiteUpdateBase = class extends QueryPromise {
+	constructor(table, set, session, dialect, withList) {
+		super();
+		this.session = session;
+		this.dialect = dialect;
+		this.config = {
+			set,
+			table,
+			withList,
+			joins: []
+		};
+	}
+	static [entityKind] = "SQLiteUpdate";
+	/** @internal */
+	config;
+	from(source) {
+		this.config.from = source;
+		return this;
+	}
+	createJoin(joinType) {
+		return (table, on) => {
+			const tableName = getTableLikeName(table);
+			if (typeof tableName === "string" && this.config.joins.some((join) => join.alias === tableName)) throw new Error(`Alias "${tableName}" is already used in this query`);
+			if (typeof on === "function") {
+				const from = this.config.from ? is(table, SQLiteTable) ? table[Table.Symbol.Columns] : is(table, Subquery) ? table._.selectedFields : is(table, SQLiteViewBase) ? table[ViewBaseConfig].selectedFields : void 0 : void 0;
+				on = on(new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
+					sqlAliasedBehavior: "sql",
+					sqlBehavior: "sql"
+				})), from && new Proxy(from, new SelectionProxyHandler({
+					sqlAliasedBehavior: "sql",
+					sqlBehavior: "sql"
+				})));
+			}
+			this.config.joins.push({
+				on,
+				table,
+				joinType,
+				alias: tableName
+			});
+			return this;
+		};
+	}
+	leftJoin = this.createJoin("left");
+	rightJoin = this.createJoin("right");
+	innerJoin = this.createJoin("inner");
+	fullJoin = this.createJoin("full");
+	/**
+	* Adds a 'where' clause to the query.
+	*
+	* Calling this method will update only those rows that fulfill a specified condition.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/update}
+	*
+	* @param where the 'where' clause.
+	*
+	* @example
+	* You can use conditional operators and `sql function` to filter the rows to be updated.
+	*
+	* ```ts
+	* // Update all cars with green color
+	* db.update(cars).set({ color: 'red' })
+	*   .where(eq(cars.color, 'green'));
+	* // or
+	* db.update(cars).set({ color: 'red' })
+	*   .where(sql`${cars.color} = 'green'`)
+	* ```
+	*
+	* You can logically combine conditional operators with `and()` and `or()` operators:
+	*
+	* ```ts
+	* // Update all BMW cars with a green color
+	* db.update(cars).set({ color: 'red' })
+	*   .where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
+	*
+	* // Update all cars with the green or blue color
+	* db.update(cars).set({ color: 'red' })
+	*   .where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
+	* ```
+	*/
+	where(where) {
+		this.config.where = where;
+		return this;
+	}
+	orderBy(...columns) {
+		if (typeof columns[0] === "function") {
+			const orderBy = columns[0](new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "sql"
+			})));
+			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
+			this.config.orderBy = orderByArray;
+		} else {
+			const orderByArray = columns;
+			this.config.orderBy = orderByArray;
+		}
+		return this;
+	}
+	limit(limit) {
+		this.config.limit = limit;
+		return this;
+	}
+	returning(fields = this.config.table[SQLiteTable.Symbol.Columns]) {
+		this.config.returning = orderSelectedFields(fields);
+		return this;
+	}
+	/** @internal */
+	getSQL() {
+		return this.dialect.buildUpdateQuery(this.config);
+	}
+	toSQL() {
+		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
+		return rest;
+	}
+	/** @internal */
+	_prepare(isOneTimeQuery = true) {
+		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
+			type: "insert",
+			tables: extractUsedTable(this.config.table)
+		});
+	}
+	prepare() {
+		return this._prepare(false);
+	}
+	run = (placeholderValues) => {
+		return this._prepare().run(placeholderValues);
+	};
+	all = (placeholderValues) => {
+		return this._prepare().all(placeholderValues);
+	};
+	get = (placeholderValues) => {
+		return this._prepare().get(placeholderValues);
+	};
+	values = (placeholderValues) => {
+		return this._prepare().values(placeholderValues);
+	};
+	async execute() {
+		return this.config.returning ? this.all() : this.run();
+	}
+	$dynamic() {
+		return this;
+	}
+};
+var SQLiteCountBuilder = class SQLiteCountBuilder extends SQL {
+	constructor(params) {
+		super(SQLiteCountBuilder.buildEmbeddedCount(params.source, params.filters).queryChunks);
+		this.params = params;
+		this.session = params.session;
+		this.sql = SQLiteCountBuilder.buildCount(params.source, params.filters);
+	}
+	sql;
+	static [entityKind] = "SQLiteCountBuilderAsync";
+	[Symbol.toStringTag] = "SQLiteCountBuilderAsync";
+	session;
+	static buildEmbeddedCount(source, filters) {
+		return sql`(select count(*) from ${source}${sql.raw(" where ").if(filters)}${filters})`;
+	}
+	static buildCount(source, filters) {
+		return sql`select count(*) from ${source}${sql.raw(" where ").if(filters)}${filters}`;
+	}
+	then(onfulfilled, onrejected) {
+		return Promise.resolve(this.session.count(this.sql)).then(onfulfilled, onrejected);
+	}
+	catch(onRejected) {
+		return this.then(void 0, onRejected);
+	}
+	finally(onFinally) {
+		return this.then((value) => {
+			onFinally?.();
+			return value;
+		}, (reason) => {
+			onFinally?.();
+			throw reason;
+		});
+	}
+};
+var RelationalQueryBuilder = class {
+	constructor(mode, fullSchema, schema, tableNamesMap, table, tableConfig, dialect, session) {
+		this.mode = mode;
+		this.fullSchema = fullSchema;
+		this.schema = schema;
+		this.tableNamesMap = tableNamesMap;
+		this.table = table;
+		this.tableConfig = tableConfig;
+		this.dialect = dialect;
+		this.session = session;
+	}
+	static [entityKind] = "SQLiteAsyncRelationalQueryBuilder";
+	findMany(config) {
+		return this.mode === "sync" ? new SQLiteSyncRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? config : {}, "many") : new SQLiteRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? config : {}, "many");
+	}
+	findFirst(config) {
+		return this.mode === "sync" ? new SQLiteSyncRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? {
+			...config,
+			limit: 1
+		} : { limit: 1 }, "first") : new SQLiteRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? {
+			...config,
+			limit: 1
+		} : { limit: 1 }, "first");
+	}
+};
+var SQLiteRelationalQuery = class extends QueryPromise {
+	constructor(fullSchema, schema, tableNamesMap, table, tableConfig, dialect, session, config, mode) {
+		super();
+		this.fullSchema = fullSchema;
+		this.schema = schema;
+		this.tableNamesMap = tableNamesMap;
+		this.table = table;
+		this.tableConfig = tableConfig;
+		this.dialect = dialect;
+		this.session = session;
+		this.config = config;
+		this.mode = mode;
+	}
+	static [entityKind] = "SQLiteAsyncRelationalQuery";
+	/** @internal */
+	mode;
+	/** @internal */
+	getSQL() {
+		return this.dialect.buildRelationalQuery({
+			fullSchema: this.fullSchema,
+			schema: this.schema,
+			tableNamesMap: this.tableNamesMap,
+			table: this.table,
+			tableConfig: this.tableConfig,
+			queryConfig: this.config,
+			tableAlias: this.tableConfig.tsName
+		}).sql;
+	}
+	/** @internal */
+	_prepare(isOneTimeQuery = false) {
+		const { query, builtQuery } = this._toSQL();
+		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](builtQuery, void 0, this.mode === "first" ? "get" : "all", true, (rawRows, mapColumnValue) => {
+			const rows = rawRows.map((row) => mapRelationalRow(this.schema, this.tableConfig, row, query.selection, mapColumnValue));
+			if (this.mode === "first") return rows[0];
+			return rows;
+		});
+	}
+	prepare() {
+		return this._prepare(false);
+	}
+	_toSQL() {
+		const query = this.dialect.buildRelationalQuery({
+			fullSchema: this.fullSchema,
+			schema: this.schema,
+			tableNamesMap: this.tableNamesMap,
+			table: this.table,
+			tableConfig: this.tableConfig,
+			queryConfig: this.config,
+			tableAlias: this.tableConfig.tsName
+		});
+		return {
+			query,
+			builtQuery: this.dialect.sqlToQuery(query.sql)
+		};
+	}
+	toSQL() {
+		return this._toSQL().builtQuery;
+	}
+	/** @internal */
+	executeRaw() {
+		if (this.mode === "first") return this._prepare(false).get();
+		return this._prepare(false).all();
+	}
+	async execute() {
+		return this.executeRaw();
+	}
+};
+var SQLiteSyncRelationalQuery = class extends SQLiteRelationalQuery {
+	static [entityKind] = "SQLiteSyncRelationalQuery";
+	sync() {
+		return this.executeRaw();
+	}
+};
+var SQLiteRaw = class extends QueryPromise {
+	constructor(execute, getSQL, action, dialect, mapBatchResult) {
+		super();
+		this.execute = execute;
+		this.getSQL = getSQL;
+		this.dialect = dialect;
+		this.mapBatchResult = mapBatchResult;
+		this.config = { action };
+	}
+	static [entityKind] = "SQLiteRaw";
+	/** @internal */
+	config;
+	getQuery() {
+		return {
+			...this.dialect.sqlToQuery(this.getSQL()),
+			method: this.config.action
+		};
+	}
+	mapResult(result, isFromBatch) {
+		return isFromBatch ? this.mapBatchResult(result) : result;
+	}
+	_prepare() {
+		return this;
+	}
+	/** @internal */
+	isResponseInArrayMode() {
+		return false;
+	}
+};
+var BaseSQLiteDatabase = class {
+	constructor(resultKind, dialect, session, schema) {
+		this.resultKind = resultKind;
+		this.dialect = dialect;
+		this.session = session;
+		this._ = schema ? {
+			schema: schema.schema,
+			fullSchema: schema.fullSchema,
+			tableNamesMap: schema.tableNamesMap
+		} : {
+			schema: void 0,
+			fullSchema: {},
+			tableNamesMap: {}
+		};
+		this.query = {};
+		const query = this.query;
+		if (this._.schema) for (const [tableName, columns] of Object.entries(this._.schema)) query[tableName] = new RelationalQueryBuilder(resultKind, schema.fullSchema, this._.schema, this._.tableNamesMap, schema.fullSchema[tableName], columns, dialect, session);
+		this.$cache = { invalidate: async (_params) => {} };
+	}
+	static [entityKind] = "BaseSQLiteDatabase";
+	query;
+	/**
+	* Creates a subquery that defines a temporary named result set as a CTE.
+	*
+	* It is useful for breaking down complex queries into simpler parts and for reusing the result set in subsequent parts of the query.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#with-clause}
+	*
+	* @param alias The alias for the subquery.
+	*
+	* Failure to provide an alias will result in a DrizzleTypeError, preventing the subquery from being referenced in other queries.
+	*
+	* @example
+	*
+	* ```ts
+	* // Create a subquery with alias 'sq' and use it in the select query
+	* const sq = db.$with('sq').as(db.select().from(users).where(eq(users.id, 42)));
+	*
+	* const result = await db.with(sq).select().from(sq);
+	* ```
+	*
+	* To select arbitrary SQL values as fields in a CTE and reference them in other CTEs or in the main query, you need to add aliases to them:
+	*
+	* ```ts
+	* // Select an arbitrary SQL value as a field in a CTE and reference it in the main query
+	* const sq = db.$with('sq').as(db.select({
+	*   name: sql<string>`upper(${users.name})`.as('name'),
+	* })
+	* .from(users));
+	*
+	* const result = await db.with(sq).select({ name: sq.name }).from(sq);
+	* ```
+	*/
+	$with = (alias, selection) => {
+		const self = this;
+		const as = (qb) => {
+			if (typeof qb === "function") qb = qb(new QueryBuilder(self.dialect));
+			return new Proxy(new WithSubquery(qb.getSQL(), selection ?? ("getSelectedFields" in qb ? qb.getSelectedFields() ?? {} : {}), alias, true), new SelectionProxyHandler({
+				alias,
+				sqlAliasedBehavior: "alias",
+				sqlBehavior: "error"
+			}));
+		};
+		return { as };
+	};
+	$count(source, filters) {
+		return new SQLiteCountBuilder({
+			source,
+			filters,
+			session: this.session
+		});
+	}
+	/**
+	* Incorporates a previously defined CTE (using `$with`) into the main query.
+	*
+	* This method allows the main query to reference a temporary named result set.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/select#with-clause}
+	*
+	* @param queries The CTEs to incorporate into the main query.
+	*
+	* @example
+	*
+	* ```ts
+	* // Define a subquery 'sq' as a CTE using $with
+	* const sq = db.$with('sq').as(db.select().from(users).where(eq(users.id, 42)));
+	*
+	* // Incorporate the CTE 'sq' into the main query and select from it
+	* const result = await db.with(sq).select().from(sq);
+	* ```
+	*/
+	with(...queries) {
+		const self = this;
+		function select(fields) {
+			return new SQLiteSelectBuilder({
+				fields: fields ?? void 0,
+				session: self.session,
+				dialect: self.dialect,
+				withList: queries
+			});
+		}
+		function selectDistinct(fields) {
+			return new SQLiteSelectBuilder({
+				fields: fields ?? void 0,
+				session: self.session,
+				dialect: self.dialect,
+				withList: queries,
+				distinct: true
+			});
+		}
+		function update(table) {
+			return new SQLiteUpdateBuilder(table, self.session, self.dialect, queries);
+		}
+		function insert(into) {
+			return new SQLiteInsertBuilder(into, self.session, self.dialect, queries);
+		}
+		function delete_(from) {
+			return new SQLiteDeleteBase(from, self.session, self.dialect, queries);
+		}
+		return {
+			select,
+			selectDistinct,
+			update,
+			insert,
+			delete: delete_
+		};
+	}
+	select(fields) {
+		return new SQLiteSelectBuilder({
+			fields: fields ?? void 0,
+			session: this.session,
+			dialect: this.dialect
+		});
+	}
+	selectDistinct(fields) {
+		return new SQLiteSelectBuilder({
+			fields: fields ?? void 0,
+			session: this.session,
+			dialect: this.dialect,
+			distinct: true
+		});
+	}
+	/**
+	* Creates an update query.
+	*
+	* Calling this method without `.where()` clause will update all rows in a table. The `.where()` clause specifies which rows should be updated.
+	*
+	* Use `.set()` method to specify which values to update.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/update}
+	*
+	* @param table The table to update.
+	*
+	* @example
+	*
+	* ```ts
+	* // Update all rows in the 'cars' table
+	* await db.update(cars).set({ color: 'red' });
+	*
+	* // Update rows with filters and conditions
+	* await db.update(cars).set({ color: 'red' }).where(eq(cars.brand, 'BMW'));
+	*
+	* // Update with returning clause
+	* const updatedCar: Car[] = await db.update(cars)
+	*   .set({ color: 'red' })
+	*   .where(eq(cars.id, 1))
+	*   .returning();
+	* ```
+	*/
+	update(table) {
+		return new SQLiteUpdateBuilder(table, this.session, this.dialect);
+	}
+	$cache;
+	/**
+	* Creates an insert query.
+	*
+	* Calling this method will create new rows in a table. Use `.values()` method to specify which values to insert.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/insert}
+	*
+	* @param table The table to insert into.
+	*
+	* @example
+	*
+	* ```ts
+	* // Insert one row
+	* await db.insert(cars).values({ brand: 'BMW' });
+	*
+	* // Insert multiple rows
+	* await db.insert(cars).values([{ brand: 'BMW' }, { brand: 'Porsche' }]);
+	*
+	* // Insert with returning clause
+	* const insertedCar: Car[] = await db.insert(cars)
+	*   .values({ brand: 'BMW' })
+	*   .returning();
+	* ```
+	*/
+	insert(into) {
+		return new SQLiteInsertBuilder(into, this.session, this.dialect);
+	}
+	/**
+	* Creates a delete query.
+	*
+	* Calling this method without `.where()` clause will delete all rows in a table. The `.where()` clause specifies which rows should be deleted.
+	*
+	* See docs: {@link https://orm.drizzle.team/docs/delete}
+	*
+	* @param table The table to delete from.
+	*
+	* @example
+	*
+	* ```ts
+	* // Delete all rows in the 'cars' table
+	* await db.delete(cars);
+	*
+	* // Delete rows with filters and conditions
+	* await db.delete(cars).where(eq(cars.color, 'green'));
+	*
+	* // Delete with returning clause
+	* const deletedCar: Car[] = await db.delete(cars)
+	*   .where(eq(cars.id, 1))
+	*   .returning();
+	* ```
+	*/
+	delete(from) {
+		return new SQLiteDeleteBase(from, this.session, this.dialect);
+	}
+	run(query) {
+		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
+		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.run(sequel), () => sequel, "run", this.dialect, this.session.extractRawRunValueFromBatchResult.bind(this.session));
+		return this.session.run(sequel);
+	}
+	all(query) {
+		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
+		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.all(sequel), () => sequel, "all", this.dialect, this.session.extractRawAllValueFromBatchResult.bind(this.session));
+		return this.session.all(sequel);
+	}
+	get(query) {
+		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
+		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.get(sequel), () => sequel, "get", this.dialect, this.session.extractRawGetValueFromBatchResult.bind(this.session));
+		return this.session.get(sequel);
+	}
+	values(query) {
+		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
+		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.values(sequel), () => sequel, "values", this.dialect, this.session.extractRawValuesValueFromBatchResult.bind(this.session));
+		return this.session.values(sequel);
+	}
+	transaction(transaction, config) {
+		return this.session.transaction(transaction, config);
+	}
+};
+var Cache = class {
+	static [entityKind] = "Cache";
+};
+var NoopCache = class extends Cache {
+	strategy() {
+		return "all";
+	}
+	static [entityKind] = "NoopCache";
+	async get(_key) {}
+	async put(_hashedQuery, _response, _tables, _config) {}
+	async onMutate(_params) {}
+};
+async function hashQuery(sql, params) {
+	const dataToHash = `${sql}-${JSON.stringify(params)}`;
+	const data = new TextEncoder().encode(dataToHash);
+	const hashBuffer = await crypto.subtle.digest("SHA-256", data);
+	return [...new Uint8Array(hashBuffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
+}
+var ExecuteResultSync = class extends QueryPromise {
+	constructor(resultCb) {
+		super();
+		this.resultCb = resultCb;
+	}
+	static [entityKind] = "ExecuteResultSync";
+	async execute() {
+		return this.resultCb();
+	}
+	sync() {
+		return this.resultCb();
+	}
+};
+var SQLitePreparedQuery = class {
+	constructor(mode, executeMethod, query, cache, queryMetadata, cacheConfig) {
+		this.mode = mode;
+		this.executeMethod = executeMethod;
+		this.query = query;
+		this.cache = cache;
+		this.queryMetadata = queryMetadata;
+		this.cacheConfig = cacheConfig;
+		if (cache && cache.strategy() === "all" && cacheConfig === void 0) this.cacheConfig = {
+			enable: true,
+			autoInvalidate: true
+		};
+		if (!this.cacheConfig?.enable) this.cacheConfig = void 0;
+	}
+	static [entityKind] = "PreparedQuery";
+	/** @internal */
+	joinsNotNullableMap;
+	/** @internal */
+	async queryWithCache(queryString, params, query) {
+		if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) try {
+			return await query();
+		} catch (e) {
+			throw new DrizzleQueryError(queryString, params, e);
+		}
+		if (this.cacheConfig && !this.cacheConfig.enable) try {
+			return await query();
+		} catch (e) {
+			throw new DrizzleQueryError(queryString, params, e);
+		}
+		if ((this.queryMetadata.type === "insert" || this.queryMetadata.type === "update" || this.queryMetadata.type === "delete") && this.queryMetadata.tables.length > 0) try {
+			const [res] = await Promise.all([query(), this.cache.onMutate({ tables: this.queryMetadata.tables })]);
+			return res;
+		} catch (e) {
+			throw new DrizzleQueryError(queryString, params, e);
+		}
+		if (!this.cacheConfig) try {
+			return await query();
+		} catch (e) {
+			throw new DrizzleQueryError(queryString, params, e);
+		}
+		if (this.queryMetadata.type === "select") {
+			const fromCache = await this.cache.get(this.cacheConfig.tag ?? await hashQuery(queryString, params), this.queryMetadata.tables, this.cacheConfig.tag !== void 0, this.cacheConfig.autoInvalidate);
+			if (fromCache === void 0) {
+				let result;
+				try {
+					result = await query();
+				} catch (e) {
+					throw new DrizzleQueryError(queryString, params, e);
+				}
+				await this.cache.put(this.cacheConfig.tag ?? await hashQuery(queryString, params), result, this.cacheConfig.autoInvalidate ? this.queryMetadata.tables : [], this.cacheConfig.tag !== void 0, this.cacheConfig.config);
+				return result;
+			}
+			return fromCache;
+		}
+		try {
+			return await query();
+		} catch (e) {
+			throw new DrizzleQueryError(queryString, params, e);
+		}
+	}
+	getQuery() {
+		return this.query;
+	}
+	mapRunResult(result, _isFromBatch) {
+		return result;
+	}
+	mapAllResult(_result, _isFromBatch) {
+		throw new Error("Not implemented");
+	}
+	mapGetResult(_result, _isFromBatch) {
+		throw new Error("Not implemented");
+	}
+	execute(placeholderValues) {
+		if (this.mode === "async") return this[this.executeMethod](placeholderValues);
+		return new ExecuteResultSync(() => this[this.executeMethod](placeholderValues));
+	}
+	mapResult(response, isFromBatch) {
+		switch (this.executeMethod) {
+			case "run": return this.mapRunResult(response, isFromBatch);
+			case "all": return this.mapAllResult(response, isFromBatch);
+			case "get": return this.mapGetResult(response, isFromBatch);
+		}
+	}
+};
+var SQLiteSession = class {
+	constructor(dialect) {
+		this.dialect = dialect;
+	}
+	static [entityKind] = "SQLiteSession";
+	prepareOneTimeQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig) {
+		return this.prepareQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig);
+	}
+	run(query) {
+		const staticQuery = this.dialect.sqlToQuery(query);
+		try {
+			return this.prepareOneTimeQuery(staticQuery, void 0, "run", false).run();
+		} catch (err) {
+			throw new DrizzleError({
+				cause: err,
+				message: `Failed to run the query '${staticQuery.sql}'`
+			});
+		}
+	}
+	/** @internal */
+	extractRawRunValueFromBatchResult(result) {
+		return result;
+	}
+	all(query) {
+		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).all();
+	}
+	/** @internal */
+	extractRawAllValueFromBatchResult(_result) {
+		throw new Error("Not implemented");
+	}
+	get(query) {
+		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).get();
+	}
+	/** @internal */
+	extractRawGetValueFromBatchResult(_result) {
+		throw new Error("Not implemented");
+	}
+	values(query) {
+		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).values();
+	}
+	async count(sql) {
+		return (await this.values(sql))[0][0];
+	}
+	/** @internal */
+	extractRawValuesValueFromBatchResult(_result) {
+		throw new Error("Not implemented");
+	}
+};
+var SQLiteTransaction = class extends BaseSQLiteDatabase {
+	constructor(resultType, dialect, session, schema, nestedIndex = 0) {
+		super(resultType, dialect, session, schema);
+		this.schema = schema;
+		this.nestedIndex = nestedIndex;
+	}
+	static [entityKind] = "SQLiteTransaction";
+	rollback() {
+		throw new TransactionRollbackError();
+	}
+};
+var schema_exports = /* @__PURE__ */ __exportAll({
+	authIdentities: () => authIdentities,
+	authSessions: () => authSessions,
+	authTransactions: () => authTransactions,
+	communityComments: () => communityComments,
+	communityPosts: () => communityPosts,
+	communityReactions: () => communityReactions,
+	companies: () => companies,
+	farmRecords: () => farmRecords,
+	farms: () => farms,
+	feedbackSubmissions: () => feedbackSubmissions,
+	knowledgeArticles: () => knowledgeArticles,
+	marketplaceListings: () => marketplaceListings,
+	orderRequests: () => orderRequests,
+	passkeyCredentials: () => passkeyCredentials,
+	professionals: () => professionals,
+	projectProposals: () => projectProposals,
+	publicFarmProfiles: () => publicFarmProfiles,
+	securityChallenges: () => securityChallenges,
+	syncReceipts: () => syncReceipts,
+	trustedDevices: () => trustedDevices,
+	userConsents: () => userConsents,
+	users: () => users,
+	websiteContent: () => websiteContent
+});
+var users = sqliteTable("users", {
+	id: text$1("id").primaryKey(),
+	email: text$1("email").notNull(),
+	displayName: text$1("display_name"),
+	phoneE164: text$1("phone_e164"),
+	phoneVerifiedAt: text$1("phone_verified_at"),
+	lastSeenAt: text$1("last_seen_at"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [uniqueIndex("idx_users_email").on(table.email)]);
+var farms = sqliteTable("farms", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull().references(() => users.id),
+	name: text$1("name").notNull(),
+	location: text$1("location"),
+	areaSqM: integer("area_sq_m"),
+	boundaryShape: text$1("boundary_shape").notNull().default("Irregular / polígono"),
+	boundaryJson: text$1("boundary_json").notNull().default("{}"),
+	objective: text$1("objective"),
+	clientUpdatedAt: text$1("client_updated_at").notNull(),
+	serverUpdatedAt: text$1("server_updated_at").notNull(),
+	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
+}, (table) => [index("idx_farms_owner").on(table.ownerId)]);
+var farmRecords = sqliteTable("farm_records", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull().references(() => users.id),
+	farmId: text$1("farm_id").notNull().references(() => farms.id),
+	recordType: text$1("record_type").notNull(),
+	category: text$1("category"),
+	title: text$1("title").notNull(),
+	dataJson: text$1("data_json").notNull(),
+	clientUpdatedAt: text$1("client_updated_at").notNull(),
+	serverUpdatedAt: text$1("server_updated_at").notNull(),
+	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
+}, (table) => [
+	index("idx_farm_records_owner_type").on(table.ownerId, table.recordType),
+	index("idx_farm_records_farm_type").on(table.farmId, table.recordType),
+	index("idx_farm_records_category").on(table.category)
+]);
+var marketplaceListings = sqliteTable("marketplace_listings", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id"),
+	sellerName: text$1("seller_name").notNull(),
+	title: text$1("title").notNull(),
+	description: text$1("description").notNull(),
+	category: text$1("category").notNull(),
+	priceCents: integer("price_cents"),
+	currency: text$1("currency").notNull().default("USD"),
+	location: text$1("location").notNull(),
+	state: text$1("state").notNull().default(""),
+	municipality: text$1("municipality").notNull().default(""),
+	shortIntro: text$1("short_intro").notNull().default(""),
+	photoContext: text$1("photo_context").notNull().default(""),
+	saleFormat: text$1("sale_format").notNull().default("A convenir"),
+	supplyUnit: text$1("supply_unit").notNull().default("unidad"),
+	minimumOrder: text$1("minimum_order").notNull().default(""),
+	buyerType: text$1("buyer_type").notNull().default("Personas y empresas"),
+	seoTitle: text$1("seo_title").notNull().default(""),
+	seoDescription: text$1("seo_description").notNull().default(""),
+	imageAlt: text$1("image_alt").notNull().default(""),
+	contact: text$1("contact"),
+	imageKey: text$1("image_key"),
+	status: text$1("status").notNull().default("pending"),
+	clientUpdatedAt: text$1("client_updated_at").notNull(),
+	serverUpdatedAt: text$1("server_updated_at").notNull(),
+	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
+}, (table) => [
+	index("idx_listings_status_category").on(table.status, table.category),
+	index("idx_listings_owner").on(table.ownerId),
+	index("idx_listings_updated").on(table.serverUpdatedAt)
+]);
+var userConsents = sqliteTable("user_consents", {
+	id: text$1("id").primaryKey(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	policyVersion: text$1("policy_version").notNull(),
+	essentialAccepted: integer("essential_accepted", { mode: "boolean" }).notNull().default(false),
+	publicContentAccepted: integer("public_content_accepted", { mode: "boolean" }).notNull().default(false),
+	securitySignalsAccepted: integer("security_signals_accepted", { mode: "boolean" }).notNull().default(false),
+	acceptedAt: text$1("accepted_at").notNull(),
+	revokedAt: text$1("revoked_at")
+}, (table) => [index("idx_user_consents_user").on(table.userId), uniqueIndex("idx_user_consents_user_version").on(table.userId, table.policyVersion)]);
+var trustedDevices = sqliteTable("trusted_devices", {
+	id: text$1("id").primaryKey(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	tokenHash: text$1("token_hash").notNull(),
+	label: text$1("label").notNull(),
+	platform: text$1("platform"),
+	timezone: text$1("timezone"),
+	connectionClass: text$1("connection_class"),
+	networkHintHash: text$1("network_hint_hash"),
+	countryCode: text$1("country_code"),
+	lastVerifiedAt: text$1("last_verified_at"),
+	createdAt: text$1("created_at").notNull(),
+	expiresAt: text$1("expires_at").notNull(),
+	revokedAt: text$1("revoked_at")
+}, (table) => [index("idx_trusted_devices_user").on(table.userId), uniqueIndex("idx_trusted_devices_token").on(table.tokenHash)]);
+var passkeyCredentials = sqliteTable("passkey_credentials", {
+	id: text$1("id").primaryKey(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	webauthnUserId: text$1("webauthn_user_id").notNull(),
+	publicKey: text$1("public_key").notNull(),
+	counter: integer("counter").notNull().default(0),
+	deviceType: text$1("device_type").notNull(),
+	backedUp: integer("backed_up", { mode: "boolean" }).notNull().default(false),
+	transports: text$1("transports").notNull().default("[]"),
+	createdAt: text$1("created_at").notNull(),
+	lastUsedAt: text$1("last_used_at")
+}, (table) => [index("idx_passkeys_user").on(table.userId)]);
+var securityChallenges = sqliteTable("security_challenges", {
+	id: text$1("id").primaryKey(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	purpose: text$1("purpose").notNull(),
+	challenge: text$1("challenge").notNull(),
+	webauthnUserId: text$1("webauthn_user_id"),
+	createdAt: text$1("created_at").notNull(),
+	expiresAt: text$1("expires_at").notNull(),
+	consumedAt: text$1("consumed_at")
+}, (table) => [index("idx_security_challenges_user_purpose").on(table.userId, table.purpose)]);
+var professionals = sqliteTable("professionals", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull().references(() => users.id),
+	name: text$1("name").notNull(),
+	profession: text$1("profession").notNull(),
+	specialties: text$1("specialties").notNull(),
+	state: text$1("state").notNull(),
+	municipality: text$1("municipality").notNull().default(""),
+	serviceMode: text$1("service_mode").notNull(),
+	introduction: text$1("introduction").notNull(),
+	contact: text$1("contact").notNull(),
+	credentialNote: text$1("credential_note").notNull().default(""),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [index("idx_professionals_status_state").on(table.status, table.state)]);
+var projectProposals = sqliteTable("project_proposals", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull().references(() => users.id),
+	title: text$1("title").notNull(),
+	sector: text$1("sector").notNull(),
+	state: text$1("state").notNull(),
+	summary: text$1("summary").notNull(),
+	hasJson: text$1("has_json").notNull(),
+	needsJson: text$1("needs_json").notNull(),
+	impact: text$1("impact").notNull(),
+	requestedSupport: text$1("requested_support").notNull(),
+	contact: text$1("contact").notNull(),
+	publicationAuthorized: integer("publication_authorized", { mode: "boolean" }).notNull().default(false),
+	publicationAuthorizedAt: text$1("publication_authorized_at"),
+	publicationConsentVersion: text$1("publication_consent_version"),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [index("idx_projects_status_sector").on(table.status, table.sector)]);
+var feedbackSubmissions = sqliteTable("feedback_submissions", {
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id"),
+	area: text$1("area").notNull(),
+	role: text$1("role").notNull(),
+	message: text$1("message").notNull(),
+	contact: text$1("contact"),
+	status: text$1("status").notNull().default("new"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [index("idx_feedback_status_area").on(table.status, table.area)]);
+var orderRequests = sqliteTable("order_requests", {
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id"),
+	customerName: text$1("customer_name").notNull(),
+	email: text$1("email"),
+	phone: text$1("phone"),
+	itemsJson: text$1("items_json").notNull(),
+	note: text$1("note"),
+	status: text$1("status").notNull().default("new"),
+	clientUpdatedAt: text$1("client_updated_at").notNull(),
+	serverUpdatedAt: text$1("server_updated_at").notNull()
+}, (table) => [index("idx_order_requests_status").on(table.status), index("idx_order_requests_owner").on(table.ownerId)]);
+var knowledgeArticles = sqliteTable("knowledge_articles", {
+	slug: text$1("slug").primaryKey(),
+	category: text$1("category").notNull(),
+	emoji: text$1("emoji").notNull().default("🌿"),
+	title: text$1("title").notNull(),
+	description: text$1("description").notNull(),
+	bodyJson: text$1("body_json").notNull(),
+	keywords: text$1("keywords").notNull().default(""),
+	readMinutes: integer("read_minutes").notNull().default(5),
+	status: text$1("status").notNull().default("draft"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [index("idx_knowledge_articles_status_updated").on(table.status, table.updatedAt)]);
+var syncReceipts = sqliteTable("sync_receipts", {
+	receiptStatus: text$1("receipt_status").notNull().default("accepted"),
+	serverRevision: text$1("server_revision"),
+	operationHash: text$1("operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerKey: text$1("owner_key").notNull(),
+	entityType: text$1("entity_type").notNull(),
+	entityId: text$1("entity_id").notNull(),
+	createdAt: text$1("created_at").notNull()
+}, (table) => [index("idx_sync_receipts_owner").on(table.ownerKey), index("idx_sync_receipts_entity").on(table.entityType, table.entityId)]);
+var publicFarmProfiles = sqliteTable("public_farm_profiles", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull(),
+	name: text$1("name").notNull(),
+	state: text$1("state").notNull(),
+	profileJson: text$1("profile_json").notNull(),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (t) => [index("idx_public_farms_status_state").on(t.status, t.state), index("idx_public_farms_owner").on(t.ownerId)]);
+var communityPosts = sqliteTable("community_posts", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull(),
+	farmId: text$1("farm_id").notNull(),
+	body: text$1("body").notNull(),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (t) => [index("idx_community_posts_status_date").on(t.status, t.createdAt), index("idx_community_posts_farm").on(t.farmId)]);
+var communityComments = sqliteTable("community_comments", {
+	revision: text$1("revision").notNull().default(""),
+	lastOperationId: text$1("last_operation_id"),
+	lastOperationHash: text$1("last_operation_hash"),
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull(),
+	postId: text$1("post_id").notNull(),
+	authorName: text$1("author_name").notNull(),
+	body: text$1("body").notNull(),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (t) => [index("idx_community_comments_post_status").on(t.postId, t.status)]);
+var communityReactions = sqliteTable("community_reactions", {
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull(),
+	postId: text$1("post_id").notNull(),
+	liked: integer("liked", { mode: "boolean" }).notNull().default(true),
+	updatedAt: text$1("updated_at").notNull()
+}, (t) => [index("idx_community_reactions_post").on(t.postId)]);
+/** Moderated business directory. The owner identity is never a public field. */
+var companies = sqliteTable("companies", {
+	id: text$1("id").primaryKey(),
+	ownerId: text$1("owner_id").notNull().references(() => users.id),
+	revision: text$1("revision").notNull(),
+	name: text$1("name").notNull(),
+	category: text$1("category").notNull(),
+	state: text$1("state").notNull(),
+	municipality: text$1("municipality").notNull().default(""),
+	description: text$1("description").notNull(),
+	profileJson: text$1("profile_json").notNull(),
+	status: text$1("status").notNull().default("pending"),
+	createdAt: text$1("created_at").notNull(),
+	updatedAt: text$1("updated_at").notNull()
+}, (table) => [
+	index("idx_companies_status_category").on(table.status, table.category),
+	index("idx_companies_status_state").on(table.status, table.state),
+	index("idx_companies_owner").on(table.ownerId),
+	index("idx_companies_updated").on(table.updatedAt)
+]);
+var websiteContent = sqliteTable("website_content", {
+	id: text$1("id").primaryKey(),
+	draftJson: text$1("draft_json").notNull(),
+	publishedJson: text$1("published_json"),
+	revision: text$1("revision").notNull(),
+	updatedAt: text$1("updated_at").notNull(),
+	publishedAt: text$1("published_at")
+});
+var authIdentities = sqliteTable("auth_identities", {
+	provider: text$1("provider").notNull(),
+	subject: text$1("subject").notNull(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	createdAt: text$1("created_at").notNull()
+}, (table) => [uniqueIndex("idx_auth_identity_subject").on(table.provider, table.subject), uniqueIndex("idx_auth_identity_user").on(table.provider, table.userId)]);
+var authSessions = sqliteTable("auth_sessions", {
+	tokenHash: text$1("token_hash").primaryKey(),
+	userId: text$1("user_id").notNull().references(() => users.id),
+	createdAt: integer("created_at").notNull(),
+	lastSeenAt: integer("last_seen_at").notNull(),
+	expiresAt: integer("expires_at").notNull()
+}, (table) => [index("idx_auth_sessions_user").on(table.userId), index("idx_auth_sessions_expiry").on(table.expiresAt)]);
+var authTransactions = sqliteTable("auth_transactions", {
+	stateHash: text$1("state_hash").primaryKey(),
+	browserHash: text$1("browser_hash").notNull(),
+	nonce: text$1("nonce").notNull(),
+	verifier: text$1("verifier").notNull(),
+	returnTo: text$1("return_to").notNull(),
+	expiresAt: integer("expires_at").notNull()
+}, (table) => [index("idx_auth_transactions_expiry").on(table.expiresAt)]);
+var DEMO_PEOPLE = Array.from({ length: 10 }, (_, i) => ({
+	id: `DEMO-${i + 1}`,
+	displayName: `Persona ficticia ${i + 1}`,
+	email: `persona${i + 1}@example.invalid`,
+	phoneE164: i < 9 ? `DEMO · teléfono ${String(i + 1).padStart(2, "0")}` : null,
+	createdAt: "2026-01-01T00:00:00.000Z"
+}));
+function demoPeoplePage(page) {
+	const size = 5;
+	return {
+		users: DEMO_PEOPLE.slice(page * size, (page + 1) * size),
+		total: 10,
+		page,
+		pageSize: size,
+		hasMore: (page + 1) * size < 10,
+		demo: true
+	};
+}
+async function readPeoplePage(db, page) {
+	const [rows, totals] = await Promise.all([db.select({
+		id: users.id,
+		email: users.email,
+		phoneE164: users.phoneE164,
+		displayName: users.displayName,
+		createdAt: users.createdAt,
+		lastSeenAt: users.lastSeenAt
+	}).from(users).orderBy(asc(users.createdAt), asc(users.id)).limit(50).offset(page * 50), db.select({ total: count() }).from(users)]);
+	const total = totals[0]?.total ?? 0;
+	return {
+		users: rows,
+		total,
+		page,
+		pageSize: 50,
+		hasMore: (page + 1) * 50 < total,
+		demo: false
+	};
+}
+/** Public routing only: safe for browser bundles, with no environment secrets. */
+function isStandaloneAuth() {
+	return true;
+}
+function safeRelativeReturnPath(value) {
+	if (!value.startsWith("/") || value.startsWith("//") || /[\\\u0000-\u0020\u007f]/.test(value)) return "/";
+	try {
+		const url = new URL(value, "https://app.local");
+		if (url.origin !== "https://app.local") return "/";
+		const pathname = decodeURIComponent(url.pathname).replace(/\/+$/, "") || "/";
+		if (pathname.startsWith("//") || /[\\\u0000-\u0020\u007f]/.test(pathname) || [
+			"/signin-with-chatgpt",
+			"/signout-with-chatgpt",
+			"/callback",
+			"/auth",
+			"/api/auth"
+		].some((path) => pathname === path || pathname.startsWith(`${path}/`))) return "/";
+		return `${url.pathname}${url.search}${url.hash}`;
+	} catch {
+		return "/";
+	}
+}
+function chatGPTSignInPath(returnTo) {
+	return `${isStandaloneAuth() ? "/auth/signin" : "/signin-with-chatgpt"}?return_to=${encodeURIComponent(safeRelativeReturnPath(returnTo))}`;
+}
+/** Standalone logout is a CSRF-protected POST, never a navigation link. */
+function chatGPTSignOutPath(returnTo = "/") {
+	return isStandaloneAuth() ? "/api/auth/logout" : `/signout-with-chatgpt?return_to=${encodeURIComponent(safeRelativeReturnPath(returnTo))}`;
+}
+var USER_ID_HEADER = "oai-authenticated-user-id";
+var USER_EMAIL_HEADER = "oai-authenticated-user-email";
+var USER_FULL_NAME_HEADER = "oai-authenticated-user-full-name";
+var USER_FULL_NAME_ENCODING_HEADER = "oai-authenticated-user-full-name-encoding";
+var PERCENT_ENCODED_UTF8 = "percent-encoded-utf-8";
+async function getChatGPTUser() {
+	if (deploymentTarget() === "standalone") {
+		const config = await getAuthConfig();
+		const sessionCookies = (await cookies()).getAll("__Host-va_session");
+		const token = sessionCookies.length === 1 ? sessionCookies[0].value : void 0;
+		if (!token) return null;
+		const { env } = await import("cloudflare:workers");
+		return getSession(env.DB, config, token);
+	}
+	const requestHeaders = await headers$3();
+	const id = requestHeaders.get(USER_ID_HEADER);
+	const email = requestHeaders.get(USER_EMAIL_HEADER);
+	if (!id || !email) return null;
+	const encodedFullName = requestHeaders.get(USER_FULL_NAME_HEADER);
+	const fullName = encodedFullName && requestHeaders.get(USER_FULL_NAME_ENCODING_HEADER) === PERCENT_ENCODED_UTF8 ? safeDecodeURIComponent(encodedFullName) : null;
+	return {
+		id,
+		displayName: fullName ?? email,
+		email,
+		fullName
+	};
+}
+function safeDecodeURIComponent(value) {
+	try {
+		return decodeURIComponent(value);
+	} catch {
+		return null;
+	}
+}
+/** Approved administrators. Call only with getChatGPTUser(), never request JSON or forwarded headers. */
+var ADMIN_EMAILS = new Set((process.env.SITES_OWNER_ADMIN_EMAIL ?? "").split(",").map((value) => value.trim().toLowerCase()).filter(Boolean));
+function isAdminIdentity(user) {
+	if (isStandaloneAuth()) return !!user?.id && user.googleOwnerAdmin === true;
+	return !!user?.id && ADMIN_EMAILS.has(user.email.trim().toLowerCase());
+}
+var SQLiteD1Session = class extends SQLiteSession {
+	constructor(client, dialect, schema, options = {}) {
+		super(dialect);
+		this.client = client;
+		this.schema = schema;
+		this.options = options;
+		this.logger = options.logger ?? new NoopLogger();
+		this.cache = options.cache ?? new NoopCache();
+	}
+	static [entityKind] = "SQLiteD1Session";
+	logger;
+	cache;
+	prepareQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig) {
+		return new D1PreparedQuery(this.client.prepare(query.sql), query, this.logger, this.cache, queryMetadata, cacheConfig, fields, executeMethod, isResponseInArrayMode, customResultMapper);
+	}
+	async batch(queries) {
+		const preparedQueries = [];
+		const builtQueries = [];
+		for (const query of queries) {
+			const preparedQuery = query._prepare();
+			const builtQuery = preparedQuery.getQuery();
+			preparedQueries.push(preparedQuery);
+			if (builtQuery.params.length > 0) builtQueries.push(preparedQuery.stmt.bind(...builtQuery.params));
+			else {
+				const builtQuery2 = preparedQuery.getQuery();
+				builtQueries.push(this.client.prepare(builtQuery2.sql).bind(...builtQuery2.params));
+			}
+		}
+		return (await this.client.batch(builtQueries)).map((result, i) => preparedQueries[i].mapResult(result, true));
+	}
+	extractRawAllValueFromBatchResult(result) {
+		return result.results;
+	}
+	extractRawGetValueFromBatchResult(result) {
+		return result.results[0];
+	}
+	extractRawValuesValueFromBatchResult(result) {
+		return d1ToRawMapping(result.results);
+	}
+	async transaction(transaction, config) {
+		const tx = new D1Transaction("async", this.dialect, this, this.schema);
+		await this.run(sql.raw(`begin${config?.behavior ? " " + config.behavior : ""}`));
+		try {
+			const result = await transaction(tx);
+			await this.run(sql`commit`);
+			return result;
+		} catch (err) {
+			await this.run(sql`rollback`);
+			throw err;
+		}
+	}
+};
+var D1Transaction = class D1Transaction extends SQLiteTransaction {
+	static [entityKind] = "D1Transaction";
+	async transaction(transaction) {
+		const savepointName = `sp${this.nestedIndex}`;
+		const tx = new D1Transaction("async", this.dialect, this.session, this.schema, this.nestedIndex + 1);
+		await this.session.run(sql.raw(`savepoint ${savepointName}`));
+		try {
+			const result = await transaction(tx);
+			await this.session.run(sql.raw(`release savepoint ${savepointName}`));
+			return result;
+		} catch (err) {
+			await this.session.run(sql.raw(`rollback to savepoint ${savepointName}`));
+			throw err;
+		}
+	}
+};
+function d1ToRawMapping(results) {
+	const rows = [];
+	for (const row of results) {
+		const entry = Object.keys(row).map((k) => row[k]);
+		rows.push(entry);
+	}
+	return rows;
+}
+var D1PreparedQuery = class extends SQLitePreparedQuery {
+	constructor(stmt, query, logger, cache, queryMetadata, cacheConfig, fields, executeMethod, _isResponseInArrayMode, customResultMapper) {
+		super("async", executeMethod, query, cache, queryMetadata, cacheConfig);
+		this.logger = logger;
+		this._isResponseInArrayMode = _isResponseInArrayMode;
+		this.customResultMapper = customResultMapper;
+		this.fields = fields;
+		this.stmt = stmt;
+	}
+	static [entityKind] = "D1PreparedQuery";
+	/** @internal */
+	customResultMapper;
+	/** @internal */
+	fields;
+	/** @internal */
+	stmt;
+	async run(placeholderValues) {
+		const params = fillPlaceholders(this.query.params, placeholderValues ?? {});
+		this.logger.logQuery(this.query.sql, params);
+		return await this.queryWithCache(this.query.sql, params, async () => {
+			return this.stmt.bind(...params).run();
+		});
+	}
+	async all(placeholderValues) {
+		const { fields, query, logger, stmt, customResultMapper } = this;
+		if (!fields && !customResultMapper) {
+			const params = fillPlaceholders(query.params, placeholderValues ?? {});
+			logger.logQuery(query.sql, params);
+			return await this.queryWithCache(query.sql, params, async () => {
+				return stmt.bind(...params).all().then(({ results }) => this.mapAllResult(results));
+			});
+		}
+		const rows = await this.values(placeholderValues);
+		return this.mapAllResult(rows);
+	}
+	mapAllResult(rows, isFromBatch) {
+		if (isFromBatch) rows = d1ToRawMapping(rows.results);
+		if (!this.fields && !this.customResultMapper) return rows;
+		if (this.customResultMapper) return this.customResultMapper(rows);
+		return rows.map((row) => mapResultRow(this.fields, row, this.joinsNotNullableMap));
+	}
+	async get(placeholderValues) {
+		const { fields, joinsNotNullableMap, query, logger, stmt, customResultMapper } = this;
+		if (!fields && !customResultMapper) {
+			const params = fillPlaceholders(query.params, placeholderValues ?? {});
+			logger.logQuery(query.sql, params);
+			return await this.queryWithCache(query.sql, params, async () => {
+				return stmt.bind(...params).all().then(({ results }) => results[0]);
+			});
+		}
+		const rows = await this.values(placeholderValues);
+		if (!rows[0]) return;
+		if (customResultMapper) return customResultMapper(rows);
+		return mapResultRow(fields, rows[0], joinsNotNullableMap);
+	}
+	mapGetResult(result, isFromBatch) {
+		if (isFromBatch) result = d1ToRawMapping(result.results)[0];
+		if (!this.fields && !this.customResultMapper) return result;
+		if (this.customResultMapper) return this.customResultMapper([result]);
+		return mapResultRow(this.fields, result, this.joinsNotNullableMap);
+	}
+	async values(placeholderValues) {
+		const params = fillPlaceholders(this.query.params, placeholderValues ?? {});
+		this.logger.logQuery(this.query.sql, params);
+		return await this.queryWithCache(this.query.sql, params, async () => {
+			return this.stmt.bind(...params).raw();
+		});
+	}
+	/** @internal */
+	isResponseInArrayMode() {
+		return this._isResponseInArrayMode;
+	}
+};
+var DrizzleD1Database = class extends BaseSQLiteDatabase {
+	static [entityKind] = "D1Database";
+	async batch(batch) {
+		return this.session.batch(batch);
+	}
+};
+function drizzle(client, config = {}) {
+	const dialect = new SQLiteAsyncDialect({ casing: config.casing });
+	let logger;
+	if (config.logger === true) logger = new DefaultLogger();
+	else if (config.logger !== false) logger = config.logger;
+	let schema;
+	if (config.schema) {
+		const tablesConfig = extractTablesRelationalConfig(config.schema, createTableRelationsHelpers);
+		schema = {
+			fullSchema: config.schema,
+			schema: tablesConfig.tables,
+			tableNamesMap: tablesConfig.tableNamesMap
+		};
+	}
+	const db = new DrizzleD1Database("async", dialect, new SQLiteD1Session(client, dialect, schema, {
+		logger,
+		cache: config.cache
+	}), schema);
+	db.$client = client;
+	db.$cache = config.cache;
+	if (db.$cache) db.$cache["invalidate"] = config.cache?.onMutate;
+	return db;
+}
+async function getDb() {
+	const { env } = await import("cloudflare:workers");
+	if (!env.DB) throw new Error("Cloudflare D1 binding `DB` is unavailable. Set the `d1` field in .openai/hosting.json to `DB` or let your control plane inject the real binding values before using the database.");
+	return drizzle(env.DB, { schema: schema_exports });
+}
+/** Technical safety ceiling, not a short editorial limit: admits many pages. */
+var LONG_FORM_TEXT_MAX = 64e3;
+function object(value) {
+	return value && typeof value === "object" && !Array.isArray(value) ? value : {};
+}
+function parse(value) {
+	try {
+		return JSON.parse(value);
+	} catch {
+		return null;
+	}
+}
+function pick(value, keys) {
+	const raw = object(value), out = {};
+	for (const key of keys) {
+		const v = raw[key];
+		if (typeof v === "string") out[key] = v.slice(0, [
+			"description",
+			"productionProcess",
+			"saleOptions",
+			"visitConditions"
+		].includes(key) ? LONG_FORM_TEXT_MAX : 5e3);
+		else if (typeof v === "boolean" || typeof v === "number" && Number.isFinite(v)) out[key] = v;
+	}
+	return out;
+}
+function strings(value, maxCharacters = 1e3) {
+	return Array.isArray(value) ? value.filter((x) => typeof x === "string").slice(0, 100).map((x) => x.slice(0, maxCharacters)) : [];
+}
+var socials = [
+	"instagram",
+	"facebook",
+	"tiktok",
+	"youtube",
+	"linkedin",
+	"threads",
+	"x",
+	"pinterest",
+	"telegram",
+	"website"
+];
+function businessProfileFields(kind, json) {
+	const raw = object(parse(json));
+	if (kind === "company") return {
+		...pick(raw, [
+			"legalName",
+			"productsSummary",
+			"address",
+			"contactName",
+			"phone",
+			"email",
+			"website",
+			"instagram",
+			"facebook",
+			"whatsapp",
+			"serviceMode",
+			"hours",
+			"delivery"
+		]),
+		coverageStates: strings(raw.coverageStates),
+		products: Array.isArray(raw.products) ? raw.products.slice(0, 12).map((p) => pick(p, [
+			"id",
+			"name",
+			"description",
+			"category",
+			"priceCents",
+			"currency",
+			"unit",
+			"availability",
+			"marketplaceId"
+		])) : []
+	};
+	if (kind === "publicFarm") return {
+		...pick(raw, [
+			"responsibleName",
+			"phone",
+			"municipality",
+			"description",
+			"rubrics",
+			"productionProcess",
+			"saleOptions",
+			"farmType",
+			"visitConditions",
+			"whatsapp"
+		]),
+		purposes: strings(raw.purposes),
+		socials: pick(raw.socials, socials)
+	};
+	if (parse(json) === null) return { credentialNote: json.slice(0, 5e3) };
+	const d = object(raw.details);
+	return {
+		...pick(raw, ["credentialNote"]),
+		details: {
+			...pick(d, [
+				"profileType",
+				"corporateName",
+				"tradeName",
+				"registrationBody",
+				"responsibleName",
+				"bookingProcess",
+				"availability",
+				"yearsExperience",
+				"careerStage",
+				"university",
+				"degree",
+				"graduationYear",
+				"training",
+				"trajectory",
+				"projects",
+				"services",
+				"email",
+				"whatsapp",
+				"website",
+				"linkedin",
+				"instagram"
+			]),
+			coverageStates: strings(d.coverageStates),
+			sectors: strings(d.sectors),
+			socials: pick(d.socials, socials),
+			tariffs: Array.isArray(d.tariffs) ? d.tariffs.slice(0, 10).map((t) => pick(t, [
+				"mode",
+				"amount",
+				"currency",
+				"unit"
+			])) : []
+		}
+	};
+}
+function projectResourceFields(has, needs) {
+	return {
+		has: strings(parse(has), LONG_FORM_TEXT_MAX),
+		needs: strings(parse(needs), LONG_FORM_TEXT_MAX)
+	};
+}
+function orderBusinessFields(json) {
+	const parsed = parse(json);
+	const raw = object(parsed);
+	const items = Array.isArray(parsed) ? parsed : raw.items;
+	return {
+		channel: raw.channel === "business" ? "business" : "personal",
+		items: Array.isArray(items) ? items.slice(0, 100).map((i) => pick(i, [
+			"name",
+			"quantity",
+			"presentation",
+			"measure",
+			"preparation",
+			"specifications"
+		])) : [],
+		business: pick(raw.business, [
+			"companyName",
+			"companyType",
+			"deliveryLocation",
+			"frequency",
+			"requiredDate",
+			"deliveryMode"
+		])
+	};
+}
+/** Read-only display allowlist: unknown/nested data and credential-like keys never leave the server. */
+var fields = {
+	animal: [
+		"animalId",
+		"areaId",
+		"species",
+		"breed",
+		"sex",
+		"birthDate",
+		"tag",
+		"weight",
+		"status"
+	],
+	weight: [
+		"animalId",
+		"date",
+		"weight",
+		"unit"
+	],
+	area: [
+		"areaId",
+		"areaSqM",
+		"purpose"
+	],
+	crop: [
+		"areaId",
+		"crop",
+		"variety",
+		"sowingDate",
+		"harvestDate",
+		"quantity",
+		"unit"
+	],
+	inventory: [
+		"quantity",
+		"unit",
+		"minimum",
+		"location"
+	],
+	task: [
+		"date",
+		"dueDate",
+		"status",
+		"priority"
+	],
+	"production-cycle": [
+		"startDate",
+		"endDate",
+		"status",
+		"quantity",
+		"unit"
+	],
+	finance: [
+		"date",
+		"amount",
+		"currency",
+		"type",
+		"category"
+	],
+	health: [
+		"animalId",
+		"date",
+		"nextDate",
+		"eventType",
+		"outcome"
+	],
+	reproduction: [
+		"animalId",
+		"date",
+		"nextDate",
+		"eventType",
+		"outcome"
+	],
+	plan: [
+		"areaId",
+		"quantity",
+		"unit",
+		"costPerUnit",
+		"expectedRevenue",
+		"currency"
+	],
+	document: [
+		"title",
+		"date",
+		"category"
+	]
+};
+function safeRecordFields(recordType, json) {
+	let value;
+	try {
+		value = JSON.parse(json);
+	} catch {
+		return {};
+	}
+	if (!value || typeof value !== "object" || Array.isArray(value)) return {};
+	const data = value;
+	const out = {};
+	for (const key of fields[recordType] ?? []) {
+		const v = data[key];
+		if (typeof v === "string") out[key] = v.slice(0, 1e3);
+		else if (typeof v === "boolean" || typeof v === "number" && Number.isFinite(v)) out[key] = v;
+	}
+	return out;
+}
+var PERSON_MODULES = [
+	"farms",
+	"records",
+	"marketplace",
+	"professionals",
+	"projects",
+	"companies",
+	"publicFarms",
+	"posts",
+	"comments",
+	"reactions",
+	"orders",
+	"feedback"
+];
+/** Explicit columns only. Never include arbitrary stored JSON, authentication or security tables. */
+async function readPersonModule(db, id, module, offset) {
+	const rows = await {
+		farms: () => db.select({
+			id: farms.id,
+			name: farms.name,
+			location: farms.location,
+			areaSqM: farms.areaSqM,
+			objective: farms.objective,
+			boundaryShape: farms.boundaryShape,
+			deleted: farms.deleted
+		}).from(farms).where(eq(farms.ownerId, id)).orderBy(desc(farms.id)),
+		records: () => db.select({
+			dataJson: farmRecords.dataJson,
+			id: farmRecords.id,
+			farmId: farmRecords.farmId,
+			title: farmRecords.title,
+			recordType: farmRecords.recordType,
+			category: farmRecords.category,
+			deleted: farmRecords.deleted
+		}).from(farmRecords).where(eq(farmRecords.ownerId, id)).orderBy(desc(farmRecords.id)),
+		marketplace: () => db.select({
+			id: marketplaceListings.id,
+			title: marketplaceListings.title,
+			description: marketplaceListings.description,
+			category: marketplaceListings.category,
+			priceCents: marketplaceListings.priceCents,
+			currency: marketplaceListings.currency,
+			contact: marketplaceListings.contact,
+			sellerName: marketplaceListings.sellerName,
+			location: marketplaceListings.location,
+			state: marketplaceListings.state,
+			municipality: marketplaceListings.municipality,
+			shortIntro: marketplaceListings.shortIntro,
+			saleFormat: marketplaceListings.saleFormat,
+			supplyUnit: marketplaceListings.supplyUnit,
+			minimumOrder: marketplaceListings.minimumOrder,
+			buyerType: marketplaceListings.buyerType,
+			status: marketplaceListings.status,
+			deleted: marketplaceListings.deleted
+		}).from(marketplaceListings).where(eq(marketplaceListings.ownerId, id)).orderBy(desc(marketplaceListings.id)),
+		professionals: () => db.select({
+			id: professionals.id,
+			name: professionals.name,
+			profession: professionals.profession,
+			specialties: professionals.specialties,
+			state: professionals.state,
+			municipality: professionals.municipality,
+			serviceMode: professionals.serviceMode,
+			credentialNote: professionals.credentialNote,
+			introduction: professionals.introduction,
+			contact: professionals.contact,
+			status: professionals.status
+		}).from(professionals).where(eq(professionals.ownerId, id)).orderBy(desc(professionals.id)),
+		projects: () => db.select({
+			id: projectProposals.id,
+			title: projectProposals.title,
+			sector: projectProposals.sector,
+			state: projectProposals.state,
+			summary: projectProposals.summary,
+			hasJson: projectProposals.hasJson,
+			needsJson: projectProposals.needsJson,
+			impact: projectProposals.impact,
+			requestedSupport: projectProposals.requestedSupport,
+			contact: projectProposals.contact,
+			status: projectProposals.status,
+			publicationAuthorizedAt: projectProposals.publicationAuthorizedAt,
+			publicationConsentVersion: projectProposals.publicationConsentVersion,
+			publicationAuthorized: projectProposals.publicationAuthorized
+		}).from(projectProposals).where(eq(projectProposals.ownerId, id)).orderBy(desc(projectProposals.id)),
+		companies: () => db.select({
+			id: companies.id,
+			name: companies.name,
+			category: companies.category,
+			state: companies.state,
+			description: companies.description,
+			municipality: companies.municipality,
+			profileJson: companies.profileJson,
+			status: companies.status
+		}).from(companies).where(eq(companies.ownerId, id)).orderBy(desc(companies.id)),
+		publicFarms: () => db.select({
+			id: publicFarmProfiles.id,
+			name: publicFarmProfiles.name,
+			state: publicFarmProfiles.state,
+			profileJson: publicFarmProfiles.profileJson,
+			status: publicFarmProfiles.status
+		}).from(publicFarmProfiles).where(eq(publicFarmProfiles.ownerId, id)).orderBy(desc(publicFarmProfiles.id)),
+		posts: () => db.select({
+			id: communityPosts.id,
+			farmId: communityPosts.farmId,
+			body: communityPosts.body,
+			status: communityPosts.status
+		}).from(communityPosts).where(eq(communityPosts.ownerId, id)).orderBy(desc(communityPosts.id)),
+		comments: () => db.select({
+			id: communityComments.id,
+			postId: communityComments.postId,
+			body: communityComments.body,
+			status: communityComments.status
+		}).from(communityComments).where(eq(communityComments.ownerId, id)).orderBy(desc(communityComments.id)),
+		reactions: () => db.select({
+			id: communityReactions.id,
+			postId: communityReactions.postId,
+			liked: communityReactions.liked
+		}).from(communityReactions).where(eq(communityReactions.ownerId, id)).orderBy(desc(communityReactions.id)),
+		orders: () => db.select({
+			id: orderRequests.id,
+			customerName: orderRequests.customerName,
+			email: orderRequests.email,
+			phone: orderRequests.phone,
+			note: orderRequests.note,
+			itemsJson: orderRequests.itemsJson,
+			status: orderRequests.status
+		}).from(orderRequests).where(eq(orderRequests.ownerId, id)).orderBy(desc(orderRequests.id)),
+		feedback: () => db.select({
+			id: feedbackSubmissions.id,
+			area: feedbackSubmissions.area,
+			role: feedbackSubmissions.role,
+			message: feedbackSubmissions.message,
+			contact: feedbackSubmissions.contact,
+			status: feedbackSubmissions.status
+		}).from(feedbackSubmissions).where(eq(feedbackSubmissions.ownerId, id)).orderBy(desc(feedbackSubmissions.id))
+	}[module]().limit(51).offset(offset);
+	return {
+		rows: rows.slice(0, 50).map((row) => {
+			if ("dataJson" in row) {
+				const { dataJson, ...safe } = row;
+				return {
+					...safe,
+					fields: safeRecordFields(row.recordType, dataJson)
+				};
+			}
+			if ("credentialNote" in row) {
+				const { credentialNote, ...safe } = row;
+				return {
+					...safe,
+					profile: businessProfileFields("professional", credentialNote)
+				};
+			}
+			if ("profileJson" in row) {
+				const { profileJson, ...safe } = row;
+				return {
+					...safe,
+					profile: businessProfileFields(module === "companies" ? "company" : "publicFarm", profileJson)
+				};
+			}
+			if ("hasJson" in row) {
+				const { hasJson, needsJson, ...safe } = row;
+				return {
+					...safe,
+					...projectResourceFields(hasJson, needsJson)
+				};
+			}
+			if ("itemsJson" in row) {
+				const { itemsJson, ...safe } = row;
+				return {
+					...safe,
+					...orderBusinessFields(itemsJson)
+				};
+			}
+			return row;
+		}),
+		hasMore: rows.length > 50
+	};
+}
+async function readPersonIdentity(db, id) {
+	return (await db.select({
+		id: users.id,
+		email: users.email,
+		displayName: users.displayName,
+		phoneE164: users.phoneE164,
+		createdAt: users.createdAt
+	}).from(users).where(eq(users.id, id)).limit(1))[0] ?? null;
+}
+var route_exports$28 = /* @__PURE__ */ __exportAll({
+	GET: () => GET$21,
+	dynamic: () => dynamic$41
+});
+var dynamic$41 = "force-dynamic";
+var headers$2 = {
+	"cache-control": "private, no-store",
+	"vary": "Cookie",
+	"x-content-type-options": "nosniff"
+};
+async function GET$21(request, context) {
+	if (!isAdminIdentity(await getChatGPTUser())) return NextResponse.json({ error: "forbidden" }, {
+		status: 403,
+		headers: headers$2
+	});
+	const { id } = await context.params;
+	const module = request.nextUrl.searchParams.get("module") ?? "farms";
+	const pageText = request.nextUrl.searchParams.get("page") ?? "0";
+	if (!id || id.length > 200 || !PERSON_MODULES.includes(module) || !/^\d{1,5}$/.test(pageText)) return NextResponse.json({ error: "invalid_request" }, {
+		status: 400,
+		headers: headers$2
+	});
+	if (id === "DEMO" || id.startsWith("DEMO-")) {
+		if (deploymentTarget() !== "sites") return NextResponse.json({ error: "not_found" }, {
+			status: 404,
+			headers: headers$2
+		});
+		const person = DEMO_PEOPLE.find((p) => p.id === id);
+		if (!person) return NextResponse.json({ error: "not_found" }, {
+			status: 404,
+			headers: headers$2
+		});
+		const rows = id === "DEMO-1" && module === "farms" && Number(pageText) === 0 ? [{
+			id: "DEMO-FARM-1",
+			name: "Finca ficticia de demostración",
+			location: "Ubicación ficticia",
+			areaSqM: 1e4,
+			objective: "Ejemplo sin datos reales",
+			deleted: false
+		}] : [];
+		return NextResponse.json({
+			demo: true,
+			person,
+			module,
+			page: Number(pageText),
+			rows,
+			hasMore: false
+		}, { headers: headers$2 });
+	}
+	const db = await getDb();
+	const person = await readPersonIdentity(db, id);
+	if (!person) return NextResponse.json({ error: "not_found" }, {
+		status: 404,
+		headers: headers$2
+	});
+	const result = await readPersonModule(db, id, module, Number(pageText) * 50);
+	return NextResponse.json({
+		person,
+		module,
+		page: Number(pageText),
+		...result
+	}, { headers: headers$2 });
+}
+var Resources = ((React, deps, RemoveDuplicateServerCss, precedence) => {
+	return function Resources() {
+		return React.createElement(React.Fragment, null, [...deps.css.map((href) => React.createElement("link", {
+			key: "css:" + href,
+			rel: "stylesheet",
+			...precedence ? { precedence } : {},
+			href,
+			"data-rsc-css-href": href
+		})), RemoveDuplicateServerCss && React.createElement(RemoveDuplicateServerCss, { key: "remove-duplicate-css" })]);
+	};
+})(import_react_react_server.default, assetsManifest.serverResources["app/layout.tsx"], void 0, "vite-rsc/importer-resources");
+/** Shared responsive entry points; existing dialogs and submission handlers own all work. */
+var MobilePublicActions = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'MobilePublicActions' is called on server");
+}, "3af98a1f25b8", "MobilePublicActions");
+/** Keep invitations out of focused workspaces and the isolated learning preview. */
+var PublicWorkspaceControls = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'PublicWorkspaceControls' is called on server");
+}, "25e567f13cfb", "PublicWorkspaceControls");
+/** Public app resources only. Never mounts account selection or synchronization. */
+var OfflineWorkerRegistration = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'OfflineWorkerRegistration' is called on server");
+}, "a63b07b9e880", "OfflineWorkerRegistration");
+var InstallAppBanner = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'InstallAppBanner' is called on server");
+}, "279d0f991188", "InstallAppBanner");
+/** Practice mode never mounts services which can read or write a real workspace. */
+var AccountServices = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'AccountServices' is called on server");
+}, "e884762df39d", "AccountServices");
+var SocialFloatingMenu = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'SocialFloatingMenu' is called on server");
+}, "b67c45c8de33", "SocialFloatingMenu");
+/** Document navigation keeps offline fallback reliable even when navigator.onLine incorrectly remains true. Never cache RSC/private API responses. */
+var OfflineNavigation = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'OfflineNavigation' is called on server");
+}, "f5d8aff2c7d9", "OfflineNavigation");
+var Toaster = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'Toaster' is called on server");
+}, "f101c4e63a93", "Toaster");
+var layout_exports = /* @__PURE__ */ __exportAll({
+	default: () => $$wrap_RootLayout,
+	metadata: () => metadata$32,
+	viewport: () => viewport
+});
+var metadata$32 = {
+	metadataBase: new URL(SITE_ORIGIN),
+	robots: robotsPolicy(),
+	title: {
+		default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",
+		template: "%s | VenezuelaAgro"
+	},
+	description: "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",
+	applicationName: "Venezuela Agro",
+	appleWebApp: {
+		capable: true,
+		statusBarStyle: "black-translucent",
+		title: "Venezuela Agro"
+	},
+	formatDetection: { telephone: false },
+	manifest: "/manifest.webmanifest",
+	alternates: { canonical: "/" },
+	keywords: [
+		"finca Venezuela",
+		"agropecuaria Apure",
+		"ganadería Venezuela",
+		"Venezuela Agro",
+		"comprar y vender cosechas Venezuela",
+		"marketplace agropecuario",
+		"gestión de fincas",
+		"producción animal"
+	],
+	icons: {
+		icon: [{
+			url: "/favicon.ico",
+			sizes: "any"
+		}, {
+			url: "/favicon.png",
+			type: "image/png"
+		}],
+		shortcut: "/favicon.ico",
+		apple: "/apple-touch-icon.png"
+	},
+	openGraph: {
+		type: "website",
+		locale: "es_VE",
+		siteName: "VenezuelaAgro",
+		title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",
+		description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",
+		images: [{
+			url: "/hero-apure.webp",
+			width: 1536,
+			height: 1024,
+			alt: "Campo venezolano al amanecer"
+		}]
+	},
+	twitter: {
+		card: "summary_large_image",
+		title: "Venezuela Agro",
+		description: "Campo, familia y tecnología para el productor venezolano.",
+		images: ["/hero-apure.webp"]
+	}
+};
+var viewport = {
+	themeColor: "#211d1a",
+	colorScheme: "light",
+	width: "device-width",
+	initialScale: 1,
+	viewportFit: "cover"
+};
+function RootLayout({ children }) {
+	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("html", {
+		lang: "es-VE",
+		children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("body", {
+			className: "min-w-0 overflow-x-clip antialiased",
+			children: [
+				children,
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(OfflineWorkerRegistration, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(AccountServices, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(PublicWorkspaceControls, { children: [
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(InstallAppBanner, {}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(SocialFloatingMenu, {}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MobilePublicActions, {})
+				] }),
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(OfflineNavigation, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Toaster, {
+					theme: "light",
+					position: "top-center",
+					offset: "6rem",
+					mobileOffset: "6rem",
+					closeButton: true,
+					visibleToasts: 2
+				})
+			]
+		})
+	});
+}
+var $$wrap_RootLayout = /* @__PURE__ */ __vite_rsc_wrap_css__(RootLayout, "default");
+function __vite_rsc_wrap_css__(value, name) {
+	if (typeof value !== "function") return value;
+	function __wrapper(props) {
+		return import_react_react_server.createElement(import_react_react_server.Fragment, null, import_react_react_server.createElement(Resources), import_react_react_server.createElement(value, props));
+	}
+	Object.defineProperty(__wrapper, "name", { value: name });
+	return __wrapper;
+}
+var HomeHistoryVideo = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'HomeHistoryVideo' is called on server");
+}, "c017c3564b1d", "HomeHistoryVideo");
 var link_default = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'default' is called on server");
 }, "c2747888630f", "default");
-//#endregion
-//#region node_modules/lucide-react/dist/esm/shared/src/utils/mergeClasses.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15480,8 +20407,6 @@ var link_default = /* @__PURE__ */ registerClientReference(() => {
 var mergeClasses = (...classes) => classes.filter((className, index, array) => {
 	return Boolean(className) && className.trim() !== "" && array.indexOf(className) === index;
 }).join(" ").trim();
-//#endregion
-//#region node_modules/lucide-react/dist/esm/shared/src/utils/toKebabCase.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15489,17 +20414,13 @@ var mergeClasses = (...classes) => classes.filter((className, index, array) => {
 * See the LICENSE file in the root directory of this source tree.
 */
 var toKebabCase = (string) => string.replace(/([a-z0-9])([A-Z])/g, "$1-$2").toLowerCase();
-//#endregion
-//#region node_modules/lucide-react/dist/esm/shared/src/utils/toCamelCase.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var toCamelCase$1 = (string) => string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) => p2 ? p2.toUpperCase() : p1.toLowerCase());
-//#endregion
-//#region node_modules/lucide-react/dist/esm/shared/src/utils/toPascalCase.mjs
+var toCamelCase = (string) => string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, p1, p2) => p2 ? p2.toUpperCase() : p1.toLowerCase());
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15507,11 +20428,9 @@ var toCamelCase$1 = (string) => string.replace(/^([A-Z])|[\s-_]+(\w)/g, (match, 
 * See the LICENSE file in the root directory of this source tree.
 */
 var toPascalCase = (string) => {
-	const camelCase = toCamelCase$1(string);
+	const camelCase = toCamelCase(string);
 	return camelCase.charAt(0).toUpperCase() + camelCase.slice(1);
 };
-//#endregion
-//#region node_modules/lucide-react/dist/esm/Icon.mjs
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15520,9 +20439,7 @@ var toPascalCase = (string) => {
 */
 var Icon_default = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'default' is called on server");
-}, "339f946bc456", "default");
-//#endregion
-//#region node_modules/lucide-react/dist/esm/createLucideIcon.mjs
+}, "277283e3ee11", "default");
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -15552,8 +20469,6 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 	d: "m12 5 7 7-7 7",
 	key: "xquz4c"
 }]]);
-//#endregion
-//#region node_modules/vinext/dist/shims/image.js
 /**
 * next/image shim
 *
@@ -15657,8 +20572,6 @@ var ArrowRight = createLucideIcon("arrow-right", [["path", {
 var image_default = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'default' is called on server");
 }, "9fb86276be8f", "default");
-//#endregion
-//#region components/site-image.tsx
 /** Serve pre-compressed assets directly so they also work from the offline cache. */
 function SiteImage({ alt, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(image_default, {
@@ -18021,8 +22934,6 @@ var sticker_assets_default = {
 		]
 	}]
 };
-//#endregion
-//#region lib/sticker-catalog.ts
 var approvedLabels = {
 	"agricultores-cosecha-agricultor-con-zanahoria--mujer": {
 		"name": "Cosechadora de zanahoria",
@@ -18157,8 +23068,6 @@ var stickers = sticker_assets_default.items.map((item) => {
 	};
 });
 sticker_assets_default.packs;
-//#endregion
-//#region components/home-sticker-banner.tsx
 var previews = [
 	"agricultores-animales-agricultor-con-vaca--mujer",
 	"animales-vaca",
@@ -18221,14 +23130,10 @@ function HomeStickerBanner() {
 		})
 	});
 }
-//#endregion
-//#region components/home-farm-preview.tsx
 /** Stable, lightweight shell. The 2D poster is an alternative, never a 3D loading placeholder. */
 var HomeFarmPreview = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'HomeFarmPreview' is called on server");
 }, "199f4d77cada", "HomeFarmPreview");
-//#endregion
-//#region components/section-guide.tsx
 /** Compact, crawlable next steps for real product areas, never fake workflow progress. */
 function SectionGuide({ title, steps, action, href, help = "/aprende" }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("section", {
@@ -18274,8 +23179,6 @@ function SectionGuide({ title, steps, action, href, help = "/aprende" }) {
 		})
 	});
 }
-//#endregion
-//#region lib/site-photos.ts
 /** Real contextual photographs. They do not depict or certify Parcela stock. */
 var sitePhotos = [
 	{
@@ -18461,8 +23364,6 @@ var sitePhotos = [
 		"changes": "Reducción de tamaño y compresión WebP; el encuadre se adapta en pantalla. No se añadieron ni eliminaron elementos de la escena."
 	}
 ];
-//#endregion
-//#region components/photo-credit.tsx
 function PhotoCredit({ id, dark = true }) {
 	const photo = sitePhotos.find((item) => item.id === id);
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(link_default, {
@@ -18477,8 +23378,6 @@ function PhotoCredit({ id, dark = true }) {
 		]
 	});
 }
-//#endregion
-//#region lib/official-links.ts
 var OFFICIAL_SOCIAL_LINKS = [
 	{
 		label: "Instagram",
@@ -18542,6 +23441,38 @@ var Building2 = createLucideIcon("building-2", [
 	["path", {
 		d: "M6 21V5a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v16",
 		key: "16ra0t"
+	}]
+]);
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var Landmark = createLucideIcon("landmark", [
+	["path", {
+		d: "M10 18v-7",
+		key: "wt116b"
+	}],
+	["path", {
+		d: "M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z",
+		key: "yxxwt6"
+	}],
+	["path", {
+		d: "M14 18v-7",
+		key: "vav6t3"
+	}],
+	["path", {
+		d: "M18 18v-7",
+		key: "aexdmj"
+	}],
+	["path", {
+		d: "M3 22h18",
+		key: "8prr45"
+	}],
+	["path", {
+		d: "M6 18v-7",
+		key: "1ivflk"
 	}]
 ]);
 /**
@@ -18870,13 +23801,12 @@ var WifiOff = createLucideIcon("wifi-off", [
 		key: "1ooewy"
 	}]
 ]);
-//#endregion
-//#region components/connectivity-pill.tsx
 var ConnectivityPill = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ConnectivityPill' is called on server");
 }, "3f1ea4e38412", "ConnectivityPill");
-//#endregion
-//#region components/venezuelaagro-logo.tsx
+var WhatsAppCommunity = /* @__PURE__ */ registerClientReference(() => {
+	throw new Error("Unexpectedly client reference export 'WhatsAppCommunity' is called on server");
+}, "08ca73c49eef", "WhatsAppCommunity");
 /** Shared, resolution-independent brand lockup for every screen size. */
 function VenezuelaAgroLogo({ compact = false, tone = "light" }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("span", {
@@ -18933,8 +23863,6 @@ var MapPinned = createLucideIcon("map-pinned", [
 		key: "q8zwxj"
 	}]
 ]);
-//#endregion
-//#region components/brand-icons.tsx
 function BrandIcon({ title, children, ...props }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("svg", {
 		viewBox: "0 0 24 24",
@@ -19020,8 +23948,6 @@ function ThreadsIcon(props) {
 		})
 	});
 }
-//#endregion
-//#region components/public-footer.tsx
 var icons$1 = {
 	Instagram: InstagramIcon,
 	TikTok: TikTokIcon,
@@ -19036,156 +23962,156 @@ var socialLinks = OFFICIAL_SOCIAL_LINKS.map((link) => ({
 function PublicFooter({ storeRequest = false }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("footer", {
 		className: "bg-[#171512] text-white",
-		children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-			className: "mx-auto grid max-w-[1440px] gap-10 px-5 py-14 sm:px-8 md:grid-cols-2 lg:grid-cols-4 lg:px-12",
-			children: [
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-					className: "md:col-span-2",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-							className: "flex items-center gap-4",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(SiteImage, {
-								src: "/logo-morochos.webp",
-								alt: "Logo oficial de Parcela Los Morochos",
-								width: 78,
-								height: 78,
-								className: "h-[78px] w-[78px] rounded-full border-2 border-[#b9946b] bg-[#f3ebdd] object-contain"
-							}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-								className: "max-w-[230px] text-base font-bold leading-5",
-								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(VenezuelaAgroLogo, {}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
-									className: "mt-2 block text-xs font-normal text-white/60",
-									children: "Hecho por Parcela Los Morochos"
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(WhatsAppCommunity, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+				className: "mx-auto grid max-w-[1440px] gap-10 px-5 py-14 sm:px-8 md:grid-cols-2 lg:grid-cols-4 lg:px-12",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+						className: "md:col-span-2",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+								className: "flex items-center gap-4",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(SiteImage, {
+									src: "/logo-morochos.webp",
+									alt: "Logo oficial de Parcela Los Morochos",
+									width: 78,
+									height: 78,
+									className: "h-[78px] w-[78px] rounded-full border-2 border-[#b9946b] bg-[#f3ebdd] object-contain"
+								}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+									className: "max-w-[230px] text-base font-bold leading-5",
+									children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(VenezuelaAgroLogo, {}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
+										className: "mt-2 block text-xs font-normal text-white/60",
+										children: "Hecho por Parcela Los Morochos"
+									})]
 								})]
-							})]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
-							className: "mt-5 max-w-md text-sm leading-7 text-white/55",
-							children: "Tecnología para la producción, el comercio y la colaboración del agro venezolano. Raíces en El Nula, Apure. Alcance nacional y visión internacional."
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("a", {
-							href: GOOGLE_BUSINESS_URL,
-							target: "_blank",
-							rel: "noreferrer",
-							className: "mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-white/15 px-4 text-sm font-semibold text-white/80 transition hover:bg-white/8 hover:text-white",
-							children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MapPinned, { size: 17 }), " Ver ubicación y reseñas en Google"]
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
-							className: "mt-5 flex gap-2",
-							"aria-label": "Redes sociales oficiales",
-							children: socialLinks.map(({ label, href, icon: Icon }) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("a", {
-								href,
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+								className: "mt-5 max-w-md text-sm leading-7 text-white/55",
+								children: "Tecnología para la producción, el comercio y la colaboración del agro venezolano. Raíces en El Nula, Apure. Alcance nacional y visión internacional."
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("a", {
+								href: GOOGLE_BUSINESS_URL,
 								target: "_blank",
 								rel: "noreferrer",
-								"aria-label": label,
-								className: "flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white/70 transition hover:bg-white/10 hover:text-white",
-								children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Icon, { className: "h-[19px] w-[19px]" })
-							}, label))
-						})
-					]
-				}),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
-					className: "footer-title",
-					children: "Explora"
-				}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-					className: "footer-links",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/tienda",
-							children: "Tienda"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/marketplace",
-							children: "Mercado Agro"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/fincas",
-							children: "Fincas de Venezuela"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/red",
-							children: "Comunidad del agro"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/stickers",
-							children: "Stickers del agro"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/aprende",
-							children: "Aprende a usar la plataforma"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/rubros",
-							children: "Rubros del agro"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/guia-institucional",
-							children: "Guía institucional"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/app",
-							children: "Mi Finca"
-						})
-					]
-				})] }),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
-					className: "footer-title",
-					children: "Información"
-				}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-					className: "footer-links",
-					children: [
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/nosotros",
-							children: "Nuestra historia"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/profesionales",
-							children: "Profesionales"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/empresas",
-							children: "Empresas y proveedores"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/proyectos",
-							children: "Proyectos y alianzas"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/legal/privacidad",
-							children: "Privacidad"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/legal/terminos",
-							children: "Términos"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/legal/comercio",
-							children: "Política comercial"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/creditos-fotograficos",
-							children: "Créditos de fotografías reales"
-						}),
-						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("a", {
-							href: "mailto:alimentosparcelalosmorochos@gmail.com",
-							children: "Contacto"
-						})
-					]
-				})] })
-			]
-		}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-			style: { paddingBottom: `calc(${storeRequest ? "13rem" : "7rem"} + env(safe-area-inset-bottom))` },
-			className: "mx-auto flex max-w-[1440px] flex-col gap-3 border-t border-white/10 px-5 pt-6 text-xs text-white/40 sm:px-8 md:flex-row md:justify-between lg:px-12",
-			children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", { children: "© 2026 Venezuela Agro · Parcela Los Morochos." }), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", { children: "Finca impulsora: RIF V056414890 · Plataforma: @venezuelaagro" })]
-		})]
+								className: "mt-5 inline-flex min-h-11 items-center gap-2 rounded-full border border-white/15 px-4 text-sm font-semibold text-white/80 transition hover:bg-white/8 hover:text-white",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MapPinned, { size: 17 }), " Ver ubicación y reseñas en Google"]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
+								className: "mt-5 flex gap-2",
+								"aria-label": "Redes sociales oficiales",
+								children: socialLinks.map(({ label, href, icon: Icon }) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("a", {
+									href,
+									target: "_blank",
+									rel: "noreferrer",
+									"aria-label": label,
+									className: "flex h-11 w-11 items-center justify-center rounded-full border border-white/15 text-white/70 transition hover:bg-white/10 hover:text-white",
+									children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Icon, { className: "h-[19px] w-[19px]" })
+								}, label))
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+						className: "footer-title",
+						children: "Explora"
+					}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+						className: "footer-links",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/tienda",
+								children: "Tienda"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/marketplace",
+								children: "Mercado Agro"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/fincas",
+								children: "Fincas de Venezuela"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/red",
+								children: "Comunidad del agro"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/stickers",
+								children: "Stickers del agro"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/aprende",
+								children: "Aprende a usar la plataforma"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/rubros",
+								children: "Rubros del agro"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/guia-institucional",
+								children: "Guía institucional"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/app",
+								children: "Mi Finca"
+							})
+						]
+					})] }),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+						className: "footer-title",
+						children: "Información"
+					}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+						className: "footer-links",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/nosotros",
+								children: "Nuestra historia"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/profesionales",
+								children: "Profesionales"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/empresas",
+								children: "Empresas y proveedores"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/proyectos",
+								children: "Proyectos y alianzas"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/legal/privacidad",
+								children: "Privacidad"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/legal/terminos",
+								children: "Términos"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/legal/comercio",
+								children: "Política comercial"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+								href: "/creditos-fotograficos",
+								children: "Créditos de fotografías reales"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("a", {
+								href: "mailto:alimentosparcelalosmorochos@gmail.com",
+								children: "Contacto"
+							})
+						]
+					})] })
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+				style: { paddingBottom: `calc(${storeRequest ? "13rem" : "7rem"} + env(safe-area-inset-bottom))` },
+				className: "mx-auto flex max-w-[1440px] flex-col gap-3 border-t border-white/10 px-5 pt-6 text-xs text-white/40 sm:px-8 md:flex-row md:justify-between lg:px-12",
+				children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", { children: "© 2026 Venezuela Agro · Parcela Los Morochos." }), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", { children: "Finca impulsora: RIF V056414890 · Plataforma: @venezuelaagro" })]
+			})
+		]
 	});
 }
-//#endregion
-//#region components/site-header.tsx
 var SiteHeader = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'SiteHeader' is called on server");
 }, "91ead71c14ab", "SiteHeader");
-//#endregion
-//#region components/home-page-content.tsx
 var productionAreas = [
 	{
 		emoji: "🐄",
@@ -19345,6 +24271,21 @@ function HomePageContent({ content }) {
 						children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
 							className: "home-hero-copy",
 							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(link_default, {
+									href: "/financiamiento",
+									className: "home-financing-banner",
+									children: [
+										/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Landmark, {
+											size: 24,
+											"aria-hidden": "true"
+										}),
+										/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("span", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("strong", { children: "FINANCIAMIENTO PARA EL AGRO" }), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", { children: "Prepara tu proyecto y consulta opciones oficiales." })] }),
+										/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
+											className: "home-financing-banner-action",
+											children: "Explorar"
+										})
+									]
+								}),
 								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 									className: "home-eyebrow",
 									children: content.heroEyebrow
@@ -19407,6 +24348,7 @@ function HomePageContent({ content }) {
 					})
 				]
 			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(HomeHistoryVideo, {}),
 			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("section", {
 				id: "mi-finca",
 				"aria-labelledby": "mi-finca-preview-title",
@@ -19517,6 +24459,12 @@ function HomePageContent({ content }) {
 								title: "Mercado Agro",
 								text: "Comprar o publicar",
 								Icon: Store
+							},
+							{
+								href: "/financiamiento",
+								title: "Financiamiento",
+								text: "Preparar tu proyecto y consultar opciones",
+								Icon: Landmark
 							},
 							{
 								href: "/red",
@@ -19695,7 +24643,7 @@ function HomePageContent({ content }) {
 						})
 					]
 				}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-					className: "mt-14 grid gap-5 lg:grid-cols-3",
+					className: "mt-14 grid gap-5 md:grid-cols-2 xl:grid-cols-4",
 					children: [
 						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(link_default, {
 							href: "/tienda",
@@ -19744,6 +24692,37 @@ function HomePageContent({ content }) {
 								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("span", {
 									className: "gateway-link",
 									children: ["Abrir mercado ", /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ArrowRight, { size: 18 })]
+								})
+							]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(link_default, {
+							href: "/financiamiento",
+							className: "gateway-card group bg-[#536044] text-white",
+							children: [
+								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
+									className: "gateway-icon bg-white/10",
+									children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Landmark, {
+										size: 26,
+										"aria-hidden": "true"
+									})
+								}),
+								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+										className: "gateway-label text-white/55",
+										children: "FINANCIAMIENTO"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", { children: "Un siguiente paso para tu producción." }),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+										className: "text-white/75",
+										children: "Prepara tu proyecto y consulta requisitos de entidades y programas oficiales. Sin promesas de aprobación."
+									})
+								] }),
+								/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("span", {
+									className: "gateway-link",
+									children: ["Explorar opciones ", /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ArrowRight, {
+										size: 18,
+										"aria-hidden": "true"
+									})]
 								})
 							]
 						}),
@@ -20329,4507 +25308,6 @@ function HomePageContent({ content }) {
 		]
 	});
 }
-//#endregion
-//#region node_modules/drizzle-orm/entity.js
-var entityKind = Symbol.for("drizzle:entityKind");
-function is(value, type) {
-	if (!value || typeof value !== "object") return false;
-	if (value instanceof type) return true;
-	if (!Object.prototype.hasOwnProperty.call(type, entityKind)) throw new Error(`Class "${type.name ?? "<unknown>"}" doesn't look like a Drizzle entity. If this is incorrect and the class is provided by Drizzle, please report this as a bug.`);
-	let cls = Object.getPrototypeOf(value).constructor;
-	if (cls) while (cls) {
-		if (entityKind in cls && cls[entityKind] === type[entityKind]) return true;
-		cls = Object.getPrototypeOf(cls);
-	}
-	return false;
-}
-//#endregion
-//#region node_modules/drizzle-orm/column.js
-var Column = class {
-	constructor(table, config) {
-		this.table = table;
-		this.config = config;
-		this.name = config.name;
-		this.keyAsName = config.keyAsName;
-		this.notNull = config.notNull;
-		this.default = config.default;
-		this.defaultFn = config.defaultFn;
-		this.onUpdateFn = config.onUpdateFn;
-		this.hasDefault = config.hasDefault;
-		this.primary = config.primaryKey;
-		this.isUnique = config.isUnique;
-		this.uniqueName = config.uniqueName;
-		this.uniqueType = config.uniqueType;
-		this.dataType = config.dataType;
-		this.columnType = config.columnType;
-		this.generated = config.generated;
-		this.generatedIdentity = config.generatedIdentity;
-	}
-	static [entityKind] = "Column";
-	name;
-	keyAsName;
-	primary;
-	notNull;
-	default;
-	defaultFn;
-	onUpdateFn;
-	hasDefault;
-	isUnique;
-	uniqueName;
-	uniqueType;
-	dataType;
-	columnType;
-	enumValues = void 0;
-	generated = void 0;
-	generatedIdentity = void 0;
-	config;
-	mapFromDriverValue(value) {
-		return value;
-	}
-	mapToDriverValue(value) {
-		return value;
-	}
-	shouldDisableInsert() {
-		return this.config.generated !== void 0 && this.config.generated.type !== "byDefault";
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/column-builder.js
-var ColumnBuilder = class {
-	static [entityKind] = "ColumnBuilder";
-	config;
-	constructor(name, dataType, columnType) {
-		this.config = {
-			name,
-			keyAsName: name === "",
-			notNull: false,
-			default: void 0,
-			hasDefault: false,
-			primaryKey: false,
-			isUnique: false,
-			uniqueName: void 0,
-			uniqueType: void 0,
-			dataType,
-			columnType,
-			generated: void 0
-		};
-	}
-	/**
-	* Changes the data type of the column. Commonly used with `json` columns. Also, useful for branded types.
-	*
-	* @example
-	* ```ts
-	* const users = pgTable('users', {
-	* 	id: integer('id').$type<UserId>().primaryKey(),
-	* 	details: json('details').$type<UserDetails>().notNull(),
-	* });
-	* ```
-	*/
-	$type() {
-		return this;
-	}
-	/**
-	* Adds a `not null` clause to the column definition.
-	*
-	* Affects the `select` model of the table - columns *without* `not null` will be nullable on select.
-	*/
-	notNull() {
-		this.config.notNull = true;
-		return this;
-	}
-	/**
-	* Adds a `default <value>` clause to the column definition.
-	*
-	* Affects the `insert` model of the table - columns *with* `default` are optional on insert.
-	*
-	* If you need to set a dynamic default value, use {@link $defaultFn} instead.
-	*/
-	default(value) {
-		this.config.default = value;
-		this.config.hasDefault = true;
-		return this;
-	}
-	/**
-	* Adds a dynamic default value to the column.
-	* The function will be called when the row is inserted, and the returned value will be used as the column value.
-	*
-	* **Note:** This value does not affect the `drizzle-kit` behavior, it is only used at runtime in `drizzle-orm`.
-	*/
-	$defaultFn(fn) {
-		this.config.defaultFn = fn;
-		this.config.hasDefault = true;
-		return this;
-	}
-	/**
-	* Alias for {@link $defaultFn}.
-	*/
-	$default = this.$defaultFn;
-	/**
-	* Adds a dynamic update value to the column.
-	* The function will be called when the row is updated, and the returned value will be used as the column value if none is provided.
-	* If no `default` (or `$defaultFn`) value is provided, the function will be called when the row is inserted as well, and the returned value will be used as the column value.
-	*
-	* **Note:** This value does not affect the `drizzle-kit` behavior, it is only used at runtime in `drizzle-orm`.
-	*/
-	$onUpdateFn(fn) {
-		this.config.onUpdateFn = fn;
-		this.config.hasDefault = true;
-		return this;
-	}
-	/**
-	* Alias for {@link $onUpdateFn}.
-	*/
-	$onUpdate = this.$onUpdateFn;
-	/**
-	* Adds a `primary key` clause to the column definition. This implicitly makes the column `not null`.
-	*
-	* In SQLite, `integer primary key` implicitly makes the column auto-incrementing.
-	*/
-	primaryKey() {
-		this.config.primaryKey = true;
-		this.config.notNull = true;
-		return this;
-	}
-	/** @internal Sets the name of the column to the key within the table definition if a name was not given. */
-	setName(name) {
-		if (this.config.name !== "") return;
-		this.config.name = name;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/table.utils.js
-var TableName = Symbol.for("drizzle:Name");
-//#endregion
-//#region node_modules/drizzle-orm/pg-core/columns/enum.js
-var isPgEnumSym = Symbol.for("drizzle:isPgEnum");
-function isPgEnum(obj) {
-	return !!obj && typeof obj === "function" && isPgEnumSym in obj && obj[isPgEnumSym] === true;
-}
-//#endregion
-//#region node_modules/drizzle-orm/subquery.js
-var Subquery = class {
-	static [entityKind] = "Subquery";
-	constructor(sql, fields, alias, isWith = false, usedTables = []) {
-		this._ = {
-			brand: "Subquery",
-			sql,
-			selectedFields: fields,
-			alias,
-			isWith,
-			usedTables
-		};
-	}
-};
-var WithSubquery = class extends Subquery {
-	static [entityKind] = "WithSubquery";
-};
-//#endregion
-//#region node_modules/drizzle-orm/tracing.js
-var tracer = { startActiveSpan(name, fn) {
-	return fn();
-} };
-//#endregion
-//#region node_modules/drizzle-orm/view-common.js
-var ViewBaseConfig = Symbol.for("drizzle:ViewBaseConfig");
-//#endregion
-//#region node_modules/drizzle-orm/table.js
-var Schema = Symbol.for("drizzle:Schema");
-var Columns = Symbol.for("drizzle:Columns");
-var ExtraConfigColumns = Symbol.for("drizzle:ExtraConfigColumns");
-var OriginalName = Symbol.for("drizzle:OriginalName");
-var BaseName = Symbol.for("drizzle:BaseName");
-var IsAlias = Symbol.for("drizzle:IsAlias");
-var ExtraConfigBuilder = Symbol.for("drizzle:ExtraConfigBuilder");
-var IsDrizzleTable = Symbol.for("drizzle:IsDrizzleTable");
-var Table = class {
-	static [entityKind] = "Table";
-	/** @internal */
-	static Symbol = {
-		Name: TableName,
-		Schema,
-		OriginalName,
-		Columns,
-		ExtraConfigColumns,
-		BaseName,
-		IsAlias,
-		ExtraConfigBuilder
-	};
-	/**
-	* @internal
-	* Can be changed if the table is aliased.
-	*/
-	[TableName];
-	/**
-	* @internal
-	* Used to store the original name of the table, before any aliasing.
-	*/
-	[OriginalName];
-	/** @internal */
-	[Schema];
-	/** @internal */
-	[Columns];
-	/** @internal */
-	[ExtraConfigColumns];
-	/**
-	*  @internal
-	* Used to store the table name before the transformation via the `tableCreator` functions.
-	*/
-	[BaseName];
-	/** @internal */
-	[IsAlias] = false;
-	/** @internal */
-	[IsDrizzleTable] = true;
-	/** @internal */
-	[ExtraConfigBuilder] = void 0;
-	constructor(name, schema, baseName) {
-		this[TableName] = this[OriginalName] = name;
-		this[Schema] = schema;
-		this[BaseName] = baseName;
-	}
-};
-function getTableName(table) {
-	return table[TableName];
-}
-function getTableUniqueName(table) {
-	return `${table[Schema] ?? "public"}.${table[TableName]}`;
-}
-//#endregion
-//#region node_modules/drizzle-orm/sql/sql.js
-function isSQLWrapper(value) {
-	return value !== null && value !== void 0 && typeof value.getSQL === "function";
-}
-function mergeQueries(queries) {
-	const result = {
-		sql: "",
-		params: []
-	};
-	for (const query of queries) {
-		result.sql += query.sql;
-		result.params.push(...query.params);
-		if (query.typings?.length) {
-			if (!result.typings) result.typings = [];
-			result.typings.push(...query.typings);
-		}
-	}
-	return result;
-}
-var StringChunk = class {
-	static [entityKind] = "StringChunk";
-	value;
-	constructor(value) {
-		this.value = Array.isArray(value) ? value : [value];
-	}
-	getSQL() {
-		return new SQL([this]);
-	}
-};
-var SQL = class SQL {
-	constructor(queryChunks) {
-		this.queryChunks = queryChunks;
-		for (const chunk of queryChunks) if (is(chunk, Table)) {
-			const schemaName = chunk[Table.Symbol.Schema];
-			this.usedTables.push(schemaName === void 0 ? chunk[Table.Symbol.Name] : schemaName + "." + chunk[Table.Symbol.Name]);
-		}
-	}
-	static [entityKind] = "SQL";
-	/** @internal */
-	decoder = noopDecoder;
-	shouldInlineParams = false;
-	/** @internal */
-	usedTables = [];
-	append(query) {
-		this.queryChunks.push(...query.queryChunks);
-		return this;
-	}
-	toQuery(config) {
-		return tracer.startActiveSpan("drizzle.buildSQL", (span) => {
-			const query = this.buildQueryFromSourceParams(this.queryChunks, config);
-			span?.setAttributes({
-				"drizzle.query.text": query.sql,
-				"drizzle.query.params": JSON.stringify(query.params)
-			});
-			return query;
-		});
-	}
-	buildQueryFromSourceParams(chunks, _config) {
-		const config = Object.assign({}, _config, {
-			inlineParams: _config.inlineParams || this.shouldInlineParams,
-			paramStartIndex: _config.paramStartIndex || { value: 0 }
-		});
-		const { casing, escapeName, escapeParam, prepareTyping, inlineParams, paramStartIndex } = config;
-		return mergeQueries(chunks.map((chunk) => {
-			if (is(chunk, StringChunk)) return {
-				sql: chunk.value.join(""),
-				params: []
-			};
-			if (is(chunk, Name)) return {
-				sql: escapeName(chunk.value),
-				params: []
-			};
-			if (chunk === void 0) return {
-				sql: "",
-				params: []
-			};
-			if (Array.isArray(chunk)) {
-				const result = [new StringChunk("(")];
-				for (const [i, p] of chunk.entries()) {
-					result.push(p);
-					if (i < chunk.length - 1) result.push(new StringChunk(", "));
-				}
-				result.push(new StringChunk(")"));
-				return this.buildQueryFromSourceParams(result, config);
-			}
-			if (is(chunk, SQL)) return this.buildQueryFromSourceParams(chunk.queryChunks, {
-				...config,
-				inlineParams: inlineParams || chunk.shouldInlineParams
-			});
-			if (is(chunk, Table)) {
-				const schemaName = chunk[Table.Symbol.Schema];
-				const tableName = chunk[Table.Symbol.Name];
-				return {
-					sql: schemaName === void 0 || chunk[IsAlias] ? escapeName(tableName) : escapeName(schemaName) + "." + escapeName(tableName),
-					params: []
-				};
-			}
-			if (is(chunk, Column)) {
-				const columnName = casing.getColumnCasing(chunk);
-				if (_config.invokeSource === "indexes") return {
-					sql: escapeName(columnName),
-					params: []
-				};
-				const schemaName = chunk.table[Table.Symbol.Schema];
-				return {
-					sql: chunk.table[IsAlias] || schemaName === void 0 ? escapeName(chunk.table[Table.Symbol.Name]) + "." + escapeName(columnName) : escapeName(schemaName) + "." + escapeName(chunk.table[Table.Symbol.Name]) + "." + escapeName(columnName),
-					params: []
-				};
-			}
-			if (is(chunk, View)) {
-				const schemaName = chunk[ViewBaseConfig].schema;
-				const viewName = chunk[ViewBaseConfig].name;
-				return {
-					sql: schemaName === void 0 || chunk[ViewBaseConfig].isAlias ? escapeName(viewName) : escapeName(schemaName) + "." + escapeName(viewName),
-					params: []
-				};
-			}
-			if (is(chunk, Param)) {
-				if (is(chunk.value, Placeholder)) return {
-					sql: escapeParam(paramStartIndex.value++, chunk),
-					params: [chunk],
-					typings: ["none"]
-				};
-				const mappedValue = chunk.value === null ? null : chunk.encoder.mapToDriverValue(chunk.value);
-				if (is(mappedValue, SQL)) return this.buildQueryFromSourceParams([mappedValue], config);
-				if (inlineParams) return {
-					sql: this.mapInlineParam(mappedValue, config),
-					params: []
-				};
-				let typings = ["none"];
-				if (prepareTyping) typings = [prepareTyping(chunk.encoder)];
-				return {
-					sql: escapeParam(paramStartIndex.value++, mappedValue),
-					params: [mappedValue],
-					typings
-				};
-			}
-			if (is(chunk, Placeholder)) return {
-				sql: escapeParam(paramStartIndex.value++, chunk),
-				params: [chunk],
-				typings: ["none"]
-			};
-			if (is(chunk, SQL.Aliased) && chunk.fieldAlias !== void 0) return {
-				sql: escapeName(chunk.fieldAlias),
-				params: []
-			};
-			if (is(chunk, Subquery)) {
-				if (chunk._.isWith) return {
-					sql: escapeName(chunk._.alias),
-					params: []
-				};
-				return this.buildQueryFromSourceParams([
-					new StringChunk("("),
-					chunk._.sql,
-					new StringChunk(") "),
-					new Name(chunk._.alias)
-				], config);
-			}
-			if (isPgEnum(chunk)) {
-				if (chunk.schema) return {
-					sql: escapeName(chunk.schema) + "." + escapeName(chunk.enumName),
-					params: []
-				};
-				return {
-					sql: escapeName(chunk.enumName),
-					params: []
-				};
-			}
-			if (isSQLWrapper(chunk)) {
-				if (chunk.shouldOmitSQLParens?.()) return this.buildQueryFromSourceParams([chunk.getSQL()], config);
-				return this.buildQueryFromSourceParams([
-					new StringChunk("("),
-					chunk.getSQL(),
-					new StringChunk(")")
-				], config);
-			}
-			if (inlineParams) return {
-				sql: this.mapInlineParam(chunk, config),
-				params: []
-			};
-			return {
-				sql: escapeParam(paramStartIndex.value++, chunk),
-				params: [chunk],
-				typings: ["none"]
-			};
-		}));
-	}
-	mapInlineParam(chunk, { escapeString }) {
-		if (chunk === null) return "null";
-		if (typeof chunk === "number" || typeof chunk === "boolean") return chunk.toString();
-		if (typeof chunk === "string") return escapeString(chunk);
-		if (typeof chunk === "object") {
-			const mappedValueAsString = chunk.toString();
-			if (mappedValueAsString === "[object Object]") return escapeString(JSON.stringify(chunk));
-			return escapeString(mappedValueAsString);
-		}
-		throw new Error("Unexpected param value: " + chunk);
-	}
-	getSQL() {
-		return this;
-	}
-	as(alias) {
-		if (alias === void 0) return this;
-		return new SQL.Aliased(this, alias);
-	}
-	mapWith(decoder) {
-		this.decoder = typeof decoder === "function" ? { mapFromDriverValue: decoder } : decoder;
-		return this;
-	}
-	inlineParams() {
-		this.shouldInlineParams = true;
-		return this;
-	}
-	/**
-	* This method is used to conditionally include a part of the query.
-	*
-	* @param condition - Condition to check
-	* @returns itself if the condition is `true`, otherwise `undefined`
-	*/
-	if(condition) {
-		return condition ? this : void 0;
-	}
-};
-var Name = class {
-	constructor(value) {
-		this.value = value;
-	}
-	static [entityKind] = "Name";
-	brand;
-	getSQL() {
-		return new SQL([this]);
-	}
-};
-function isDriverValueEncoder(value) {
-	return typeof value === "object" && value !== null && "mapToDriverValue" in value && typeof value.mapToDriverValue === "function";
-}
-var noopDecoder = { mapFromDriverValue: (value) => value };
-var noopEncoder = { mapToDriverValue: (value) => value };
-({
-	...noopDecoder,
-	...noopEncoder
-});
-var Param = class {
-	/**
-	* @param value - Parameter value
-	* @param encoder - Encoder to convert the value to a driver parameter
-	*/
-	constructor(value, encoder = noopEncoder) {
-		this.value = value;
-		this.encoder = encoder;
-	}
-	static [entityKind] = "Param";
-	brand;
-	getSQL() {
-		return new SQL([this]);
-	}
-};
-function sql(strings, ...params) {
-	const queryChunks = [];
-	if (params.length > 0 || strings.length > 0 && strings[0] !== "") queryChunks.push(new StringChunk(strings[0]));
-	for (const [paramIndex, param2] of params.entries()) queryChunks.push(param2, new StringChunk(strings[paramIndex + 1]));
-	return new SQL(queryChunks);
-}
-((sql2) => {
-	function empty() {
-		return new SQL([]);
-	}
-	sql2.empty = empty;
-	function fromList(list) {
-		return new SQL(list);
-	}
-	sql2.fromList = fromList;
-	function raw(str) {
-		return new SQL([new StringChunk(str)]);
-	}
-	sql2.raw = raw;
-	function join(chunks, separator) {
-		const result = [];
-		for (const [i, chunk] of chunks.entries()) {
-			if (i > 0 && separator !== void 0) result.push(separator);
-			result.push(chunk);
-		}
-		return new SQL(result);
-	}
-	sql2.join = join;
-	function identifier(value) {
-		return new Name(value);
-	}
-	sql2.identifier = identifier;
-	function placeholder2(name2) {
-		return new Placeholder(name2);
-	}
-	sql2.placeholder = placeholder2;
-	function param2(value, encoder) {
-		return new Param(value, encoder);
-	}
-	sql2.param = param2;
-})(sql || (sql = {}));
-((SQL2) => {
-	class Aliased {
-		constructor(sql2, fieldAlias) {
-			this.sql = sql2;
-			this.fieldAlias = fieldAlias;
-		}
-		static [entityKind] = "SQL.Aliased";
-		/** @internal */
-		isSelectionField = false;
-		getSQL() {
-			return this.sql;
-		}
-		/** @internal */
-		clone() {
-			return new Aliased(this.sql, this.fieldAlias);
-		}
-	}
-	SQL2.Aliased = Aliased;
-})(SQL || (SQL = {}));
-var Placeholder = class {
-	constructor(name2) {
-		this.name = name2;
-	}
-	static [entityKind] = "Placeholder";
-	getSQL() {
-		return new SQL([this]);
-	}
-};
-function fillPlaceholders(params, values) {
-	return params.map((p) => {
-		if (is(p, Placeholder)) {
-			if (!(p.name in values)) throw new Error(`No value for placeholder "${p.name}" was provided`);
-			return values[p.name];
-		}
-		if (is(p, Param) && is(p.value, Placeholder)) {
-			if (!(p.value.name in values)) throw new Error(`No value for placeholder "${p.value.name}" was provided`);
-			return p.encoder.mapToDriverValue(values[p.value.name]);
-		}
-		return p;
-	});
-}
-var IsDrizzleView = Symbol.for("drizzle:IsDrizzleView");
-var View = class {
-	static [entityKind] = "View";
-	/** @internal */
-	[ViewBaseConfig];
-	/** @internal */
-	[IsDrizzleView] = true;
-	constructor({ name: name2, schema, selectedFields, query }) {
-		this[ViewBaseConfig] = {
-			name: name2,
-			originalName: name2,
-			schema,
-			selectedFields,
-			query,
-			isExisting: !query,
-			isAlias: false
-		};
-	}
-	getSQL() {
-		return new SQL([this]);
-	}
-};
-Column.prototype.getSQL = function() {
-	return new SQL([this]);
-};
-Table.prototype.getSQL = function() {
-	return new SQL([this]);
-};
-Subquery.prototype.getSQL = function() {
-	return new SQL([this]);
-};
-//#endregion
-//#region node_modules/drizzle-orm/alias.js
-var ColumnAliasProxyHandler = class {
-	constructor(table) {
-		this.table = table;
-	}
-	static [entityKind] = "ColumnAliasProxyHandler";
-	get(columnObj, prop) {
-		if (prop === "table") return this.table;
-		return columnObj[prop];
-	}
-};
-var TableAliasProxyHandler = class {
-	constructor(alias, replaceOriginalName) {
-		this.alias = alias;
-		this.replaceOriginalName = replaceOriginalName;
-	}
-	static [entityKind] = "TableAliasProxyHandler";
-	get(target, prop) {
-		if (prop === Table.Symbol.IsAlias) return true;
-		if (prop === Table.Symbol.Name) return this.alias;
-		if (this.replaceOriginalName && prop === Table.Symbol.OriginalName) return this.alias;
-		if (prop === ViewBaseConfig) return {
-			...target[ViewBaseConfig],
-			name: this.alias,
-			isAlias: true
-		};
-		if (prop === Table.Symbol.Columns) {
-			const columns = target[Table.Symbol.Columns];
-			if (!columns) return columns;
-			const proxiedColumns = {};
-			Object.keys(columns).map((key) => {
-				proxiedColumns[key] = new Proxy(columns[key], new ColumnAliasProxyHandler(new Proxy(target, this)));
-			});
-			return proxiedColumns;
-		}
-		const value = target[prop];
-		if (is(value, Column)) return new Proxy(value, new ColumnAliasProxyHandler(new Proxy(target, this)));
-		return value;
-	}
-};
-function aliasedTable(table, tableAlias) {
-	return new Proxy(table, new TableAliasProxyHandler(tableAlias, false));
-}
-function aliasedTableColumn(column, tableAlias) {
-	return new Proxy(column, new ColumnAliasProxyHandler(new Proxy(column.table, new TableAliasProxyHandler(tableAlias, false))));
-}
-function mapColumnsInAliasedSQLToAlias(query, alias) {
-	return new SQL.Aliased(mapColumnsInSQLToAlias(query.sql, alias), query.fieldAlias);
-}
-function mapColumnsInSQLToAlias(query, alias) {
-	return sql.join(query.queryChunks.map((c) => {
-		if (is(c, Column)) return aliasedTableColumn(c, alias);
-		if (is(c, SQL)) return mapColumnsInSQLToAlias(c, alias);
-		if (is(c, SQL.Aliased)) return mapColumnsInAliasedSQLToAlias(c, alias);
-		return c;
-	}));
-}
-//#endregion
-//#region node_modules/drizzle-orm/errors.js
-var DrizzleError = class extends Error {
-	static [entityKind] = "DrizzleError";
-	constructor({ message, cause }) {
-		super(message);
-		this.name = "DrizzleError";
-		this.cause = cause;
-	}
-};
-var DrizzleQueryError = class DrizzleQueryError extends Error {
-	constructor(query, params, cause) {
-		super(`Failed query: ${query}
-params: ${params}`);
-		this.query = query;
-		this.params = params;
-		this.cause = cause;
-		Error.captureStackTrace(this, DrizzleQueryError);
-		if (cause) this.cause = cause;
-	}
-};
-var TransactionRollbackError = class extends DrizzleError {
-	static [entityKind] = "TransactionRollbackError";
-	constructor() {
-		super({ message: "Rollback" });
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/logger.js
-var ConsoleLogWriter = class {
-	static [entityKind] = "ConsoleLogWriter";
-	write(message) {
-		console.log(message);
-	}
-};
-var DefaultLogger = class {
-	static [entityKind] = "DefaultLogger";
-	writer;
-	constructor(config) {
-		this.writer = config?.writer ?? new ConsoleLogWriter();
-	}
-	logQuery(query, params) {
-		const stringifiedParams = params.map((p) => {
-			try {
-				return JSON.stringify(p);
-			} catch {
-				return String(p);
-			}
-		});
-		const paramsStr = stringifiedParams.length ? ` -- params: [${stringifiedParams.join(", ")}]` : "";
-		this.writer.write(`Query: ${query}${paramsStr}`);
-	}
-};
-var NoopLogger = class {
-	static [entityKind] = "NoopLogger";
-	logQuery() {}
-};
-//#endregion
-//#region node_modules/drizzle-orm/query-promise.js
-var QueryPromise = class {
-	static [entityKind] = "QueryPromise";
-	[Symbol.toStringTag] = "QueryPromise";
-	catch(onRejected) {
-		return this.then(void 0, onRejected);
-	}
-	finally(onFinally) {
-		return this.then((value) => {
-			onFinally?.();
-			return value;
-		}, (reason) => {
-			onFinally?.();
-			throw reason;
-		});
-	}
-	then(onFulfilled, onRejected) {
-		return this.execute().then(onFulfilled, onRejected);
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/utils.js
-function mapResultRow(columns, row, joinsNotNullableMap) {
-	const nullifyMap = {};
-	const result = columns.reduce((result2, { path, field }, columnIndex) => {
-		let decoder;
-		if (is(field, Column)) decoder = field;
-		else if (is(field, SQL)) decoder = field.decoder;
-		else if (is(field, Subquery)) decoder = field._.sql.decoder;
-		else decoder = field.sql.decoder;
-		let node = result2;
-		for (const [pathChunkIndex, pathChunk] of path.entries()) if (pathChunkIndex < path.length - 1) {
-			if (!(pathChunk in node)) node[pathChunk] = {};
-			node = node[pathChunk];
-		} else {
-			const rawValue = row[columnIndex];
-			const value = node[pathChunk] = rawValue === null ? null : decoder.mapFromDriverValue(rawValue);
-			if (joinsNotNullableMap && is(field, Column) && path.length === 2) {
-				const objectName = path[0];
-				if (!(objectName in nullifyMap)) nullifyMap[objectName] = value === null ? getTableName(field.table) : false;
-				else if (typeof nullifyMap[objectName] === "string" && nullifyMap[objectName] !== getTableName(field.table)) nullifyMap[objectName] = false;
-			}
-		}
-		return result2;
-	}, {});
-	if (joinsNotNullableMap && Object.keys(nullifyMap).length > 0) {
-		for (const [objectName, tableName] of Object.entries(nullifyMap)) if (typeof tableName === "string" && !joinsNotNullableMap[tableName]) result[objectName] = null;
-	}
-	return result;
-}
-function orderSelectedFields(fields, pathPrefix) {
-	return Object.entries(fields).reduce((result, [name, field]) => {
-		if (typeof name !== "string") return result;
-		const newPath = pathPrefix ? [...pathPrefix, name] : [name];
-		if (is(field, Column) || is(field, SQL) || is(field, SQL.Aliased) || is(field, Subquery)) result.push({
-			path: newPath,
-			field
-		});
-		else if (is(field, Table)) result.push(...orderSelectedFields(field[Table.Symbol.Columns], newPath));
-		else result.push(...orderSelectedFields(field, newPath));
-		return result;
-	}, []);
-}
-function haveSameKeys(left, right) {
-	const leftKeys = Object.keys(left);
-	const rightKeys = Object.keys(right);
-	if (leftKeys.length !== rightKeys.length) return false;
-	for (const [index, key] of leftKeys.entries()) if (key !== rightKeys[index]) return false;
-	return true;
-}
-function mapUpdateSet(table, values) {
-	const entries = Object.entries(values).filter(([, value]) => value !== void 0).map(([key, value]) => {
-		if (is(value, SQL) || is(value, Column)) return [key, value];
-		else return [key, new Param(value, table[Table.Symbol.Columns][key])];
-	});
-	if (entries.length === 0) throw new Error("No values to set");
-	return Object.fromEntries(entries);
-}
-function applyMixins(baseClass, extendedClasses) {
-	for (const extendedClass of extendedClasses) for (const name of Object.getOwnPropertyNames(extendedClass.prototype)) {
-		if (name === "constructor") continue;
-		Object.defineProperty(baseClass.prototype, name, Object.getOwnPropertyDescriptor(extendedClass.prototype, name) || /* @__PURE__ */ Object.create(null));
-	}
-}
-function getTableColumns(table) {
-	return table[Table.Symbol.Columns];
-}
-function getTableLikeName(table) {
-	return is(table, Subquery) ? table._.alias : is(table, View) ? table[ViewBaseConfig].name : is(table, SQL) ? void 0 : table[Table.Symbol.IsAlias] ? table[Table.Symbol.Name] : table[Table.Symbol.BaseName];
-}
-function getColumnNameAndConfig(a, b) {
-	return {
-		name: typeof a === "string" && a.length > 0 ? a : "",
-		config: typeof a === "object" ? a : b
-	};
-}
-var textDecoder = typeof TextDecoder === "undefined" ? null : new TextDecoder();
-//#endregion
-//#region node_modules/drizzle-orm/pg-core/table.js
-var InlineForeignKeys$1 = Symbol.for("drizzle:PgInlineForeignKeys");
-var EnableRLS = Symbol.for("drizzle:EnableRLS");
-var PgTable = class extends Table {
-	static [entityKind] = "PgTable";
-	/** @internal */
-	static Symbol = Object.assign({}, Table.Symbol, {
-		InlineForeignKeys: InlineForeignKeys$1,
-		EnableRLS
-	});
-	/**@internal */
-	[InlineForeignKeys$1] = [];
-	/** @internal */
-	[EnableRLS] = false;
-	/** @internal */
-	[Table.Symbol.ExtraConfigBuilder] = void 0;
-	/** @internal */
-	[Table.Symbol.ExtraConfigColumns] = {};
-};
-//#endregion
-//#region node_modules/drizzle-orm/pg-core/primary-keys.js
-var PrimaryKeyBuilder = class {
-	static [entityKind] = "PgPrimaryKeyBuilder";
-	/** @internal */
-	columns;
-	/** @internal */
-	name;
-	constructor(columns, name) {
-		this.columns = columns;
-		this.name = name;
-	}
-	/** @internal */
-	build(table) {
-		return new PrimaryKey(table, this.columns, this.name);
-	}
-};
-var PrimaryKey = class {
-	constructor(table, columns, name) {
-		this.table = table;
-		this.columns = columns;
-		this.name = name;
-	}
-	static [entityKind] = "PgPrimaryKey";
-	columns;
-	name;
-	getName() {
-		return this.name ?? `${this.table[PgTable.Symbol.Name]}_${this.columns.map((column) => column.name).join("_")}_pk`;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sql/expressions/conditions.js
-function bindIfParam(value, column) {
-	if (isDriverValueEncoder(column) && !isSQLWrapper(value) && !is(value, Param) && !is(value, Placeholder) && !is(value, Column) && !is(value, Table) && !is(value, View)) return new Param(value, column);
-	return value;
-}
-var eq = (left, right) => {
-	return sql`${left} = ${bindIfParam(right, left)}`;
-};
-var ne = (left, right) => {
-	return sql`${left} <> ${bindIfParam(right, left)}`;
-};
-function and(...unfilteredConditions) {
-	const conditions = unfilteredConditions.filter((c) => c !== void 0);
-	if (conditions.length === 0) return;
-	if (conditions.length === 1) return new SQL(conditions);
-	return new SQL([
-		new StringChunk("("),
-		sql.join(conditions, new StringChunk(" and ")),
-		new StringChunk(")")
-	]);
-}
-function or(...unfilteredConditions) {
-	const conditions = unfilteredConditions.filter((c) => c !== void 0);
-	if (conditions.length === 0) return;
-	if (conditions.length === 1) return new SQL(conditions);
-	return new SQL([
-		new StringChunk("("),
-		sql.join(conditions, new StringChunk(" or ")),
-		new StringChunk(")")
-	]);
-}
-function not(condition) {
-	return sql`not ${condition}`;
-}
-var gt = (left, right) => {
-	return sql`${left} > ${bindIfParam(right, left)}`;
-};
-var gte = (left, right) => {
-	return sql`${left} >= ${bindIfParam(right, left)}`;
-};
-var lt = (left, right) => {
-	return sql`${left} < ${bindIfParam(right, left)}`;
-};
-var lte = (left, right) => {
-	return sql`${left} <= ${bindIfParam(right, left)}`;
-};
-function inArray(column, values) {
-	if (Array.isArray(values)) {
-		if (values.length === 0) return sql`false`;
-		return sql`${column} in ${values.map((v) => bindIfParam(v, column))}`;
-	}
-	return sql`${column} in ${bindIfParam(values, column)}`;
-}
-function notInArray(column, values) {
-	if (Array.isArray(values)) {
-		if (values.length === 0) return sql`true`;
-		return sql`${column} not in ${values.map((v) => bindIfParam(v, column))}`;
-	}
-	return sql`${column} not in ${bindIfParam(values, column)}`;
-}
-function isNull(value) {
-	return sql`${value} is null`;
-}
-function isNotNull(value) {
-	return sql`${value} is not null`;
-}
-function exists(subquery) {
-	return sql`exists ${subquery}`;
-}
-function notExists(subquery) {
-	return sql`not exists ${subquery}`;
-}
-function between(column, min, max) {
-	return sql`${column} between ${bindIfParam(min, column)} and ${bindIfParam(max, column)}`;
-}
-function notBetween(column, min, max) {
-	return sql`${column} not between ${bindIfParam(min, column)} and ${bindIfParam(max, column)}`;
-}
-function like(column, value) {
-	return sql`${column} like ${value}`;
-}
-function notLike(column, value) {
-	return sql`${column} not like ${value}`;
-}
-function ilike(column, value) {
-	return sql`${column} ilike ${value}`;
-}
-function notIlike(column, value) {
-	return sql`${column} not ilike ${value}`;
-}
-//#endregion
-//#region node_modules/drizzle-orm/sql/expressions/select.js
-function asc(column) {
-	return sql`${column} asc`;
-}
-function desc(column) {
-	return sql`${column} desc`;
-}
-//#endregion
-//#region node_modules/drizzle-orm/relations.js
-var Relation = class {
-	constructor(sourceTable, referencedTable, relationName) {
-		this.sourceTable = sourceTable;
-		this.referencedTable = referencedTable;
-		this.relationName = relationName;
-		this.referencedTableName = referencedTable[Table.Symbol.Name];
-	}
-	static [entityKind] = "Relation";
-	referencedTableName;
-	fieldName;
-};
-var Relations = class {
-	constructor(table, config) {
-		this.table = table;
-		this.config = config;
-	}
-	static [entityKind] = "Relations";
-};
-var One = class One extends Relation {
-	constructor(sourceTable, referencedTable, config, isNullable) {
-		super(sourceTable, referencedTable, config?.relationName);
-		this.config = config;
-		this.isNullable = isNullable;
-	}
-	static [entityKind] = "One";
-	withFieldName(fieldName) {
-		const relation = new One(this.sourceTable, this.referencedTable, this.config, this.isNullable);
-		relation.fieldName = fieldName;
-		return relation;
-	}
-};
-var Many = class Many extends Relation {
-	constructor(sourceTable, referencedTable, config) {
-		super(sourceTable, referencedTable, config?.relationName);
-		this.config = config;
-	}
-	static [entityKind] = "Many";
-	withFieldName(fieldName) {
-		const relation = new Many(this.sourceTable, this.referencedTable, this.config);
-		relation.fieldName = fieldName;
-		return relation;
-	}
-};
-function getOperators() {
-	return {
-		and,
-		between,
-		eq,
-		exists,
-		gt,
-		gte,
-		ilike,
-		inArray,
-		isNull,
-		isNotNull,
-		like,
-		lt,
-		lte,
-		ne,
-		not,
-		notBetween,
-		notExists,
-		notLike,
-		notIlike,
-		notInArray,
-		or,
-		sql
-	};
-}
-function getOrderByOperators() {
-	return {
-		sql,
-		asc,
-		desc
-	};
-}
-function extractTablesRelationalConfig(schema, configHelpers) {
-	if (Object.keys(schema).length === 1 && "default" in schema && !is(schema["default"], Table)) schema = schema["default"];
-	const tableNamesMap = {};
-	const relationsBuffer = {};
-	const tablesConfig = {};
-	for (const [key, value] of Object.entries(schema)) if (is(value, Table)) {
-		const dbName = getTableUniqueName(value);
-		const bufferedRelations = relationsBuffer[dbName];
-		tableNamesMap[dbName] = key;
-		tablesConfig[key] = {
-			tsName: key,
-			dbName: value[Table.Symbol.Name],
-			schema: value[Table.Symbol.Schema],
-			columns: value[Table.Symbol.Columns],
-			relations: bufferedRelations?.relations ?? {},
-			primaryKey: bufferedRelations?.primaryKey ?? []
-		};
-		for (const column of Object.values(value[Table.Symbol.Columns])) if (column.primary) tablesConfig[key].primaryKey.push(column);
-		const extraConfig = value[Table.Symbol.ExtraConfigBuilder]?.(value[Table.Symbol.ExtraConfigColumns]);
-		if (extraConfig) {
-			for (const configEntry of Object.values(extraConfig)) if (is(configEntry, PrimaryKeyBuilder)) tablesConfig[key].primaryKey.push(...configEntry.columns);
-		}
-	} else if (is(value, Relations)) {
-		const dbName = getTableUniqueName(value.table);
-		const tableName = tableNamesMap[dbName];
-		const relations2 = value.config(configHelpers(value.table));
-		let primaryKey;
-		for (const [relationName, relation] of Object.entries(relations2)) if (tableName) {
-			const tableConfig = tablesConfig[tableName];
-			tableConfig.relations[relationName] = relation;
-		} else {
-			if (!(dbName in relationsBuffer)) relationsBuffer[dbName] = {
-				relations: {},
-				primaryKey
-			};
-			relationsBuffer[dbName].relations[relationName] = relation;
-		}
-	}
-	return {
-		tables: tablesConfig,
-		tableNamesMap
-	};
-}
-function createOne(sourceTable) {
-	return function one(table, config) {
-		return new One(sourceTable, table, config, config?.fields.reduce((res, f) => res && f.notNull, true) ?? false);
-	};
-}
-function createMany(sourceTable) {
-	return function many(referencedTable, config) {
-		return new Many(sourceTable, referencedTable, config);
-	};
-}
-function normalizeRelation(schema, tableNamesMap, relation) {
-	if (is(relation, One) && relation.config) return {
-		fields: relation.config.fields,
-		references: relation.config.references
-	};
-	const referencedTableTsName = tableNamesMap[getTableUniqueName(relation.referencedTable)];
-	if (!referencedTableTsName) throw new Error(`Table "${relation.referencedTable[Table.Symbol.Name]}" not found in schema`);
-	const referencedTableConfig = schema[referencedTableTsName];
-	if (!referencedTableConfig) throw new Error(`Table "${referencedTableTsName}" not found in schema`);
-	const sourceTable = relation.sourceTable;
-	const sourceTableTsName = tableNamesMap[getTableUniqueName(sourceTable)];
-	if (!sourceTableTsName) throw new Error(`Table "${sourceTable[Table.Symbol.Name]}" not found in schema`);
-	const reverseRelations = [];
-	for (const referencedTableRelation of Object.values(referencedTableConfig.relations)) if (relation.relationName && relation !== referencedTableRelation && referencedTableRelation.relationName === relation.relationName || !relation.relationName && referencedTableRelation.referencedTable === relation.sourceTable) reverseRelations.push(referencedTableRelation);
-	if (reverseRelations.length > 1) throw relation.relationName ? /* @__PURE__ */ new Error(`There are multiple relations with name "${relation.relationName}" in table "${referencedTableTsName}"`) : /* @__PURE__ */ new Error(`There are multiple relations between "${referencedTableTsName}" and "${relation.sourceTable[Table.Symbol.Name]}". Please specify relation name`);
-	if (reverseRelations[0] && is(reverseRelations[0], One) && reverseRelations[0].config) return {
-		fields: reverseRelations[0].config.references,
-		references: reverseRelations[0].config.fields
-	};
-	throw new Error(`There is not enough information to infer relation "${sourceTableTsName}.${relation.fieldName}"`);
-}
-function createTableRelationsHelpers(sourceTable) {
-	return {
-		one: createOne(sourceTable),
-		many: createMany(sourceTable)
-	};
-}
-function mapRelationalRow(tablesConfig, tableConfig, row, buildQueryResultSelection, mapColumnValue = (value) => value) {
-	const result = {};
-	for (const [selectionItemIndex, selectionItem] of buildQueryResultSelection.entries()) if (selectionItem.isJson) {
-		const relation = tableConfig.relations[selectionItem.tsKey];
-		const rawSubRows = row[selectionItemIndex];
-		const subRows = typeof rawSubRows === "string" ? JSON.parse(rawSubRows) : rawSubRows;
-		result[selectionItem.tsKey] = is(relation, One) ? subRows && mapRelationalRow(tablesConfig, tablesConfig[selectionItem.relationTableTsKey], subRows, selectionItem.selection, mapColumnValue) : subRows.map((subRow) => mapRelationalRow(tablesConfig, tablesConfig[selectionItem.relationTableTsKey], subRow, selectionItem.selection, mapColumnValue));
-	} else {
-		const value = mapColumnValue(row[selectionItemIndex]);
-		const field = selectionItem.field;
-		let decoder;
-		if (is(field, Column)) decoder = field;
-		else if (is(field, SQL)) decoder = field.decoder;
-		else decoder = field.sql.decoder;
-		result[selectionItem.tsKey] = value === null ? null : decoder.mapFromDriverValue(value);
-	}
-	return result;
-}
-//#endregion
-//#region node_modules/drizzle-orm/selection-proxy.js
-var SelectionProxyHandler = class SelectionProxyHandler {
-	static [entityKind] = "SelectionProxyHandler";
-	config;
-	constructor(config) {
-		this.config = { ...config };
-	}
-	get(subquery, prop) {
-		if (prop === "_") return {
-			...subquery["_"],
-			selectedFields: new Proxy(subquery._.selectedFields, this)
-		};
-		if (prop === ViewBaseConfig) return {
-			...subquery[ViewBaseConfig],
-			selectedFields: new Proxy(subquery[ViewBaseConfig].selectedFields, this)
-		};
-		if (typeof prop === "symbol") return subquery[prop];
-		const value = (is(subquery, Subquery) ? subquery._.selectedFields : is(subquery, View) ? subquery[ViewBaseConfig].selectedFields : subquery)[prop];
-		if (is(value, SQL.Aliased)) {
-			if (this.config.sqlAliasedBehavior === "sql" && !value.isSelectionField) return value.sql;
-			const newValue = value.clone();
-			newValue.isSelectionField = true;
-			return newValue;
-		}
-		if (is(value, SQL)) {
-			if (this.config.sqlBehavior === "sql") return value;
-			throw new Error(`You tried to reference "${prop}" field from a subquery, which is a raw SQL field, but it doesn't have an alias declared. Please add an alias to the field using ".as('alias')" method.`);
-		}
-		if (is(value, Column)) {
-			if (this.config.alias) return new Proxy(value, new ColumnAliasProxyHandler(new Proxy(value.table, new TableAliasProxyHandler(this.config.alias, this.config.replaceOriginalName ?? false))));
-			return value;
-		}
-		if (typeof value !== "object" || value === null) return value;
-		return new Proxy(value, new SelectionProxyHandler(this.config));
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/foreign-keys.js
-var ForeignKeyBuilder = class {
-	static [entityKind] = "SQLiteForeignKeyBuilder";
-	/** @internal */
-	reference;
-	/** @internal */
-	_onUpdate;
-	/** @internal */
-	_onDelete;
-	constructor(config, actions) {
-		this.reference = () => {
-			const { name, columns, foreignColumns } = config();
-			return {
-				name,
-				columns,
-				foreignTable: foreignColumns[0].table,
-				foreignColumns
-			};
-		};
-		if (actions) {
-			this._onUpdate = actions.onUpdate;
-			this._onDelete = actions.onDelete;
-		}
-	}
-	onUpdate(action) {
-		this._onUpdate = action;
-		return this;
-	}
-	onDelete(action) {
-		this._onDelete = action;
-		return this;
-	}
-	/** @internal */
-	build(table) {
-		return new ForeignKey(table, this);
-	}
-};
-var ForeignKey = class {
-	constructor(table, builder) {
-		this.table = table;
-		this.reference = builder.reference;
-		this.onUpdate = builder._onUpdate;
-		this.onDelete = builder._onDelete;
-	}
-	static [entityKind] = "SQLiteForeignKey";
-	reference;
-	onUpdate;
-	onDelete;
-	getName() {
-		const { name, columns, foreignColumns } = this.reference();
-		const columnNames = columns.map((column) => column.name);
-		const foreignColumnNames = foreignColumns.map((column) => column.name);
-		const chunks = [
-			this.table[TableName],
-			...columnNames,
-			foreignColumns[0].table[TableName],
-			...foreignColumnNames
-		];
-		return name ?? `${chunks.join("_")}_fk`;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/unique-constraint.js
-function uniqueKeyName(table, columns) {
-	return `${table[TableName]}_${columns.join("_")}_unique`;
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/common.js
-var SQLiteColumnBuilder = class extends ColumnBuilder {
-	static [entityKind] = "SQLiteColumnBuilder";
-	foreignKeyConfigs = [];
-	references(ref, actions = {}) {
-		this.foreignKeyConfigs.push({
-			ref,
-			actions
-		});
-		return this;
-	}
-	unique(name) {
-		this.config.isUnique = true;
-		this.config.uniqueName = name;
-		return this;
-	}
-	generatedAlwaysAs(as, config) {
-		this.config.generated = {
-			as,
-			type: "always",
-			mode: config?.mode ?? "virtual"
-		};
-		return this;
-	}
-	/** @internal */
-	buildForeignKeys(column, table) {
-		return this.foreignKeyConfigs.map(({ ref, actions }) => {
-			return ((ref2, actions2) => {
-				const builder = new ForeignKeyBuilder(() => {
-					const foreignColumn = ref2();
-					return {
-						columns: [column],
-						foreignColumns: [foreignColumn]
-					};
-				});
-				if (actions2.onUpdate) builder.onUpdate(actions2.onUpdate);
-				if (actions2.onDelete) builder.onDelete(actions2.onDelete);
-				return builder.build(table);
-			})(ref, actions);
-		});
-	}
-};
-var SQLiteColumn = class extends Column {
-	constructor(table, config) {
-		if (!config.uniqueName) config.uniqueName = uniqueKeyName(table, [config.name]);
-		super(table, config);
-		this.table = table;
-	}
-	static [entityKind] = "SQLiteColumn";
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/blob.js
-var SQLiteBigIntBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteBigIntBuilder";
-	constructor(name) {
-		super(name, "bigint", "SQLiteBigInt");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteBigInt(table, this.config);
-	}
-};
-var SQLiteBigInt = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteBigInt";
-	getSQLType() {
-		return "blob";
-	}
-	mapFromDriverValue(value) {
-		if (typeof Buffer !== "undefined" && Buffer.from) {
-			const buf = Buffer.isBuffer(value) ? value : value instanceof ArrayBuffer ? Buffer.from(value) : value.buffer ? Buffer.from(value.buffer, value.byteOffset, value.byteLength) : Buffer.from(value);
-			return BigInt(buf.toString("utf8"));
-		}
-		return BigInt(textDecoder.decode(value));
-	}
-	mapToDriverValue(value) {
-		return Buffer.from(value.toString());
-	}
-};
-var SQLiteBlobJsonBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteBlobJsonBuilder";
-	constructor(name) {
-		super(name, "json", "SQLiteBlobJson");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteBlobJson(table, this.config);
-	}
-};
-var SQLiteBlobJson = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteBlobJson";
-	getSQLType() {
-		return "blob";
-	}
-	mapFromDriverValue(value) {
-		if (typeof Buffer !== "undefined" && Buffer.from) {
-			const buf = Buffer.isBuffer(value) ? value : value instanceof ArrayBuffer ? Buffer.from(value) : value.buffer ? Buffer.from(value.buffer, value.byteOffset, value.byteLength) : Buffer.from(value);
-			return JSON.parse(buf.toString("utf8"));
-		}
-		return JSON.parse(textDecoder.decode(value));
-	}
-	mapToDriverValue(value) {
-		return Buffer.from(JSON.stringify(value));
-	}
-};
-var SQLiteBlobBufferBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteBlobBufferBuilder";
-	constructor(name) {
-		super(name, "buffer", "SQLiteBlobBuffer");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteBlobBuffer(table, this.config);
-	}
-};
-var SQLiteBlobBuffer = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteBlobBuffer";
-	mapFromDriverValue(value) {
-		if (Buffer.isBuffer(value)) return value;
-		return Buffer.from(value);
-	}
-	getSQLType() {
-		return "blob";
-	}
-};
-function blob(a, b) {
-	const { name, config } = getColumnNameAndConfig(a, b);
-	if (config?.mode === "json") return new SQLiteBlobJsonBuilder(name);
-	if (config?.mode === "bigint") return new SQLiteBigIntBuilder(name);
-	return new SQLiteBlobBufferBuilder(name);
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/custom.js
-var SQLiteCustomColumnBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteCustomColumnBuilder";
-	constructor(name, fieldConfig, customTypeParams) {
-		super(name, "custom", "SQLiteCustomColumn");
-		this.config.fieldConfig = fieldConfig;
-		this.config.customTypeParams = customTypeParams;
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteCustomColumn(table, this.config);
-	}
-};
-var SQLiteCustomColumn = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteCustomColumn";
-	sqlName;
-	mapTo;
-	mapFrom;
-	constructor(table, config) {
-		super(table, config);
-		this.sqlName = config.customTypeParams.dataType(config.fieldConfig);
-		this.mapTo = config.customTypeParams.toDriver;
-		this.mapFrom = config.customTypeParams.fromDriver;
-	}
-	getSQLType() {
-		return this.sqlName;
-	}
-	mapFromDriverValue(value) {
-		return typeof this.mapFrom === "function" ? this.mapFrom(value) : value;
-	}
-	mapToDriverValue(value) {
-		return typeof this.mapTo === "function" ? this.mapTo(value) : value;
-	}
-};
-function customType(customTypeParams) {
-	return (a, b) => {
-		const { name, config } = getColumnNameAndConfig(a, b);
-		return new SQLiteCustomColumnBuilder(name, config, customTypeParams);
-	};
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/integer.js
-var SQLiteBaseIntegerBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteBaseIntegerBuilder";
-	constructor(name, dataType, columnType) {
-		super(name, dataType, columnType);
-		this.config.autoIncrement = false;
-	}
-	primaryKey(config) {
-		if (config?.autoIncrement) this.config.autoIncrement = true;
-		this.config.hasDefault = true;
-		return super.primaryKey();
-	}
-};
-var SQLiteBaseInteger = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteBaseInteger";
-	autoIncrement = this.config.autoIncrement;
-	getSQLType() {
-		return "integer";
-	}
-};
-var SQLiteIntegerBuilder = class extends SQLiteBaseIntegerBuilder {
-	static [entityKind] = "SQLiteIntegerBuilder";
-	constructor(name) {
-		super(name, "number", "SQLiteInteger");
-	}
-	build(table) {
-		return new SQLiteInteger(table, this.config);
-	}
-};
-var SQLiteInteger = class extends SQLiteBaseInteger {
-	static [entityKind] = "SQLiteInteger";
-};
-var SQLiteTimestampBuilder = class extends SQLiteBaseIntegerBuilder {
-	static [entityKind] = "SQLiteTimestampBuilder";
-	constructor(name, mode) {
-		super(name, "date", "SQLiteTimestamp");
-		this.config.mode = mode;
-	}
-	/**
-	* @deprecated Use `default()` with your own expression instead.
-	*
-	* Adds `DEFAULT (cast((julianday('now') - 2440587.5)*86400000 as integer))` to the column, which is the current epoch timestamp in milliseconds.
-	*/
-	defaultNow() {
-		return this.default(sql`(cast((julianday('now') - 2440587.5)*86400000 as integer))`);
-	}
-	build(table) {
-		return new SQLiteTimestamp(table, this.config);
-	}
-};
-var SQLiteTimestamp = class extends SQLiteBaseInteger {
-	static [entityKind] = "SQLiteTimestamp";
-	mode = this.config.mode;
-	mapFromDriverValue(value) {
-		if (this.config.mode === "timestamp") return /* @__PURE__ */ new Date(value * 1e3);
-		return new Date(value);
-	}
-	mapToDriverValue(value) {
-		const unix = value.getTime();
-		if (this.config.mode === "timestamp") return Math.floor(unix / 1e3);
-		return unix;
-	}
-};
-var SQLiteBooleanBuilder = class extends SQLiteBaseIntegerBuilder {
-	static [entityKind] = "SQLiteBooleanBuilder";
-	constructor(name, mode) {
-		super(name, "boolean", "SQLiteBoolean");
-		this.config.mode = mode;
-	}
-	build(table) {
-		return new SQLiteBoolean(table, this.config);
-	}
-};
-var SQLiteBoolean = class extends SQLiteBaseInteger {
-	static [entityKind] = "SQLiteBoolean";
-	mode = this.config.mode;
-	mapFromDriverValue(value) {
-		return Number(value) === 1;
-	}
-	mapToDriverValue(value) {
-		return value ? 1 : 0;
-	}
-};
-function integer(a, b) {
-	const { name, config } = getColumnNameAndConfig(a, b);
-	if (config?.mode === "timestamp" || config?.mode === "timestamp_ms") return new SQLiteTimestampBuilder(name, config.mode);
-	if (config?.mode === "boolean") return new SQLiteBooleanBuilder(name, config.mode);
-	return new SQLiteIntegerBuilder(name);
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/numeric.js
-var SQLiteNumericBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteNumericBuilder";
-	constructor(name) {
-		super(name, "string", "SQLiteNumeric");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteNumeric(table, this.config);
-	}
-};
-var SQLiteNumeric = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteNumeric";
-	mapFromDriverValue(value) {
-		if (typeof value === "string") return value;
-		return String(value);
-	}
-	getSQLType() {
-		return "numeric";
-	}
-};
-var SQLiteNumericNumberBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteNumericNumberBuilder";
-	constructor(name) {
-		super(name, "number", "SQLiteNumericNumber");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteNumericNumber(table, this.config);
-	}
-};
-var SQLiteNumericNumber = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteNumericNumber";
-	mapFromDriverValue(value) {
-		if (typeof value === "number") return value;
-		return Number(value);
-	}
-	mapToDriverValue = String;
-	getSQLType() {
-		return "numeric";
-	}
-};
-var SQLiteNumericBigIntBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteNumericBigIntBuilder";
-	constructor(name) {
-		super(name, "bigint", "SQLiteNumericBigInt");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteNumericBigInt(table, this.config);
-	}
-};
-var SQLiteNumericBigInt = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteNumericBigInt";
-	mapFromDriverValue = BigInt;
-	mapToDriverValue = String;
-	getSQLType() {
-		return "numeric";
-	}
-};
-function numeric(a, b) {
-	const { name, config } = getColumnNameAndConfig(a, b);
-	const mode = config?.mode;
-	return mode === "number" ? new SQLiteNumericNumberBuilder(name) : mode === "bigint" ? new SQLiteNumericBigIntBuilder(name) : new SQLiteNumericBuilder(name);
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/real.js
-var SQLiteRealBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteRealBuilder";
-	constructor(name) {
-		super(name, "number", "SQLiteReal");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteReal(table, this.config);
-	}
-};
-var SQLiteReal = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteReal";
-	getSQLType() {
-		return "real";
-	}
-};
-function real(name) {
-	return new SQLiteRealBuilder(name ?? "");
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/text.js
-var SQLiteTextBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteTextBuilder";
-	constructor(name, config) {
-		super(name, "string", "SQLiteText");
-		this.config.enumValues = config.enum;
-		this.config.length = config.length;
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteText(table, this.config);
-	}
-};
-var SQLiteText = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteText";
-	enumValues = this.config.enumValues;
-	length = this.config.length;
-	constructor(table, config) {
-		super(table, config);
-	}
-	getSQLType() {
-		return `text${this.config.length ? `(${this.config.length})` : ""}`;
-	}
-};
-var SQLiteTextJsonBuilder = class extends SQLiteColumnBuilder {
-	static [entityKind] = "SQLiteTextJsonBuilder";
-	constructor(name) {
-		super(name, "json", "SQLiteTextJson");
-	}
-	/** @internal */
-	build(table) {
-		return new SQLiteTextJson(table, this.config);
-	}
-};
-var SQLiteTextJson = class extends SQLiteColumn {
-	static [entityKind] = "SQLiteTextJson";
-	getSQLType() {
-		return "text";
-	}
-	mapFromDriverValue(value) {
-		return JSON.parse(value);
-	}
-	mapToDriverValue(value) {
-		return JSON.stringify(value);
-	}
-};
-function text$1(a, b = {}) {
-	const { name, config } = getColumnNameAndConfig(a, b);
-	if (config.mode === "json") return new SQLiteTextJsonBuilder(name);
-	return new SQLiteTextBuilder(name, config);
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/columns/all.js
-function getSQLiteColumnBuilders() {
-	return {
-		blob,
-		customType,
-		integer,
-		numeric,
-		real,
-		text: text$1
-	};
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/table.js
-var InlineForeignKeys = Symbol.for("drizzle:SQLiteInlineForeignKeys");
-var SQLiteTable = class extends Table {
-	static [entityKind] = "SQLiteTable";
-	/** @internal */
-	static Symbol = Object.assign({}, Table.Symbol, { InlineForeignKeys });
-	/** @internal */
-	[Table.Symbol.Columns];
-	/** @internal */
-	[InlineForeignKeys] = [];
-	/** @internal */
-	[Table.Symbol.ExtraConfigBuilder] = void 0;
-};
-function sqliteTableBase(name, columns, extraConfig, schema, baseName = name) {
-	const rawTable = new SQLiteTable(name, schema, baseName);
-	const parsedColumns = typeof columns === "function" ? columns(getSQLiteColumnBuilders()) : columns;
-	const builtColumns = Object.fromEntries(Object.entries(parsedColumns).map(([name2, colBuilderBase]) => {
-		const colBuilder = colBuilderBase;
-		colBuilder.setName(name2);
-		const column = colBuilder.build(rawTable);
-		rawTable[InlineForeignKeys].push(...colBuilder.buildForeignKeys(column, rawTable));
-		return [name2, column];
-	}));
-	const table = Object.assign(rawTable, builtColumns);
-	table[Table.Symbol.Columns] = builtColumns;
-	table[Table.Symbol.ExtraConfigColumns] = builtColumns;
-	if (extraConfig) table[SQLiteTable.Symbol.ExtraConfigBuilder] = extraConfig;
-	return table;
-}
-var sqliteTable = (name, columns, extraConfig) => {
-	return sqliteTableBase(name, columns, extraConfig);
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/indexes.js
-var IndexBuilderOn = class {
-	constructor(name, unique) {
-		this.name = name;
-		this.unique = unique;
-	}
-	static [entityKind] = "SQLiteIndexBuilderOn";
-	on(...columns) {
-		return new IndexBuilder(this.name, columns, this.unique);
-	}
-};
-var IndexBuilder = class {
-	static [entityKind] = "SQLiteIndexBuilder";
-	/** @internal */
-	config;
-	constructor(name, columns, unique) {
-		this.config = {
-			name,
-			columns,
-			unique,
-			where: void 0
-		};
-	}
-	/**
-	* Condition for partial index.
-	*/
-	where(condition) {
-		this.config.where = condition;
-		return this;
-	}
-	/** @internal */
-	build(table) {
-		return new Index(this.config, table);
-	}
-};
-var Index = class {
-	static [entityKind] = "SQLiteIndex";
-	config;
-	constructor(config, table) {
-		this.config = {
-			...config,
-			table
-		};
-	}
-};
-function index(name) {
-	return new IndexBuilderOn(name, false);
-}
-function uniqueIndex(name) {
-	return new IndexBuilderOn(name, true);
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/utils.js
-function extractUsedTable(table) {
-	if (is(table, SQLiteTable)) return [`${table[Table.Symbol.BaseName]}`];
-	if (is(table, Subquery)) return table._.usedTables ?? [];
-	if (is(table, SQL)) return table.usedTables ?? [];
-	return [];
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/delete.js
-var SQLiteDeleteBase = class extends QueryPromise {
-	constructor(table, session, dialect, withList) {
-		super();
-		this.table = table;
-		this.session = session;
-		this.dialect = dialect;
-		this.config = {
-			table,
-			withList
-		};
-	}
-	static [entityKind] = "SQLiteDelete";
-	/** @internal */
-	config;
-	/**
-	* Adds a `where` clause to the query.
-	*
-	* Calling this method will delete only those rows that fulfill a specified condition.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/delete}
-	*
-	* @param where the `where` clause.
-	*
-	* @example
-	* You can use conditional operators and `sql function` to filter the rows to be deleted.
-	*
-	* ```ts
-	* // Delete all cars with green color
-	* db.delete(cars).where(eq(cars.color, 'green'));
-	* // or
-	* db.delete(cars).where(sql`${cars.color} = 'green'`)
-	* ```
-	*
-	* You can logically combine conditional operators with `and()` and `or()` operators:
-	*
-	* ```ts
-	* // Delete all BMW cars with a green color
-	* db.delete(cars).where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
-	*
-	* // Delete all cars with the green or blue color
-	* db.delete(cars).where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
-	* ```
-	*/
-	where(where) {
-		this.config.where = where;
-		return this;
-	}
-	orderBy(...columns) {
-		if (typeof columns[0] === "function") {
-			const orderBy = columns[0](new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "sql"
-			})));
-			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
-			this.config.orderBy = orderByArray;
-		} else {
-			const orderByArray = columns;
-			this.config.orderBy = orderByArray;
-		}
-		return this;
-	}
-	limit(limit) {
-		this.config.limit = limit;
-		return this;
-	}
-	returning(fields = this.table[SQLiteTable.Symbol.Columns]) {
-		this.config.returning = orderSelectedFields(fields);
-		return this;
-	}
-	/** @internal */
-	getSQL() {
-		return this.dialect.buildDeleteQuery(this.config);
-	}
-	toSQL() {
-		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
-		return rest;
-	}
-	/** @internal */
-	_prepare(isOneTimeQuery = true) {
-		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
-			type: "delete",
-			tables: extractUsedTable(this.config.table)
-		});
-	}
-	prepare() {
-		return this._prepare(false);
-	}
-	run = (placeholderValues) => {
-		return this._prepare().run(placeholderValues);
-	};
-	all = (placeholderValues) => {
-		return this._prepare().all(placeholderValues);
-	};
-	get = (placeholderValues) => {
-		return this._prepare().get(placeholderValues);
-	};
-	values = (placeholderValues) => {
-		return this._prepare().values(placeholderValues);
-	};
-	async execute(placeholderValues) {
-		return this._prepare().execute(placeholderValues);
-	}
-	$dynamic() {
-		return this;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/casing.js
-function toSnakeCase(input) {
-	return (input.replace(/['\u2019]/g, "").match(/[\da-z]+|[A-Z]+(?![a-z])|[A-Z][\da-z]+/g) ?? []).map((word) => word.toLowerCase()).join("_");
-}
-function toCamelCase(input) {
-	return (input.replace(/['\u2019]/g, "").match(/[\da-z]+|[A-Z]+(?![a-z])|[A-Z][\da-z]+/g) ?? []).reduce((acc, word, i) => {
-		return acc + (i === 0 ? word.toLowerCase() : `${word[0].toUpperCase()}${word.slice(1)}`);
-	}, "");
-}
-function noopCase(input) {
-	return input;
-}
-var CasingCache = class {
-	static [entityKind] = "CasingCache";
-	/** @internal */
-	cache = {};
-	cachedTables = {};
-	convert;
-	constructor(casing) {
-		this.convert = casing === "snake_case" ? toSnakeCase : casing === "camelCase" ? toCamelCase : noopCase;
-	}
-	getColumnCasing(column) {
-		if (!column.keyAsName) return column.name;
-		const key = `${column.table[Table.Symbol.Schema] ?? "public"}.${column.table[Table.Symbol.OriginalName]}.${column.name}`;
-		if (!this.cache[key]) this.cacheTable(column.table);
-		return this.cache[key];
-	}
-	cacheTable(table) {
-		const tableKey = `${table[Table.Symbol.Schema] ?? "public"}.${table[Table.Symbol.OriginalName]}`;
-		if (!this.cachedTables[tableKey]) {
-			for (const column of Object.values(table[Table.Symbol.Columns])) {
-				const columnKey = `${tableKey}.${column.name}`;
-				this.cache[columnKey] = this.convert(column.name);
-			}
-			this.cachedTables[tableKey] = true;
-		}
-	}
-	clearCache() {
-		this.cache = {};
-		this.cachedTables = {};
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/view-base.js
-var SQLiteViewBase = class extends View {
-	static [entityKind] = "SQLiteViewBase";
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/dialect.js
-var SQLiteDialect = class {
-	static [entityKind] = "SQLiteDialect";
-	/** @internal */
-	casing;
-	constructor(config) {
-		this.casing = new CasingCache(config?.casing);
-	}
-	escapeName(name) {
-		return `"${name.replace(/"/g, "\"\"")}"`;
-	}
-	escapeParam(_num) {
-		return "?";
-	}
-	escapeString(str) {
-		return `'${str.replace(/'/g, "''")}'`;
-	}
-	buildWithCTE(queries) {
-		if (!queries?.length) return void 0;
-		const withSqlChunks = [sql`with `];
-		for (const [i, w] of queries.entries()) {
-			withSqlChunks.push(sql`${sql.identifier(w._.alias)} as (${w._.sql})`);
-			if (i < queries.length - 1) withSqlChunks.push(sql`, `);
-		}
-		withSqlChunks.push(sql` `);
-		return sql.join(withSqlChunks);
-	}
-	buildDeleteQuery({ table, where, returning, withList, limit, orderBy }) {
-		const withSql = this.buildWithCTE(withList);
-		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
-		return sql`${withSql}delete from ${table}${where ? sql` where ${where}` : void 0}${returningSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}`;
-	}
-	buildUpdateSet(table, set) {
-		const tableColumns = table[Table.Symbol.Columns];
-		const columnNames = Object.keys(tableColumns).filter((colName) => set[colName] !== void 0 || tableColumns[colName]?.onUpdateFn !== void 0);
-		const setSize = columnNames.length;
-		return sql.join(columnNames.flatMap((colName, i) => {
-			const col = tableColumns[colName];
-			const onUpdateFnResult = col.onUpdateFn?.();
-			const value = set[colName] ?? (is(onUpdateFnResult, SQL) ? onUpdateFnResult : sql.param(onUpdateFnResult, col));
-			const res = sql`${sql.identifier(this.casing.getColumnCasing(col))} = ${value}`;
-			if (i < setSize - 1) return [res, sql.raw(", ")];
-			return [res];
-		}));
-	}
-	buildUpdateQuery({ table, set, where, returning, withList, joins, from, limit, orderBy }) {
-		const withSql = this.buildWithCTE(withList);
-		const setSql = this.buildUpdateSet(table, set);
-		const fromSql = from && sql.join([sql.raw(" from "), this.buildFromTable(from)]);
-		const joinsSql = this.buildJoins(joins);
-		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
-		return sql`${withSql}update ${table} set ${setSql}${fromSql}${joinsSql}${where ? sql` where ${where}` : void 0}${returningSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}`;
-	}
-	/**
-	* Builds selection SQL with provided fields/expressions
-	*
-	* Examples:
-	*
-	* `select <selection> from`
-	*
-	* `insert ... returning <selection>`
-	*
-	* If `isSingleTable` is true, then columns won't be prefixed with table name
-	*/
-	buildSelection(fields, { isSingleTable = false } = {}) {
-		const columnsLen = fields.length;
-		const chunks = fields.flatMap(({ field }, i) => {
-			const chunk = [];
-			if (is(field, SQL.Aliased) && field.isSelectionField) chunk.push(sql.identifier(field.fieldAlias));
-			else if (is(field, SQL.Aliased) || is(field, SQL)) {
-				const query = is(field, SQL.Aliased) ? field.sql : field;
-				if (isSingleTable) chunk.push(new SQL(query.queryChunks.map((c) => {
-					if (is(c, Column)) return sql.identifier(this.casing.getColumnCasing(c));
-					return c;
-				})));
-				else chunk.push(query);
-				if (is(field, SQL.Aliased)) chunk.push(sql` as ${sql.identifier(field.fieldAlias)}`);
-			} else if (is(field, Column)) {
-				const tableName = field.table[Table.Symbol.Name];
-				if (field.columnType === "SQLiteNumericBigInt") if (isSingleTable) chunk.push(sql`cast(${sql.identifier(this.casing.getColumnCasing(field))} as text)`);
-				else chunk.push(sql`cast(${sql.identifier(tableName)}.${sql.identifier(this.casing.getColumnCasing(field))} as text)`);
-				else if (isSingleTable) chunk.push(sql.identifier(this.casing.getColumnCasing(field)));
-				else chunk.push(sql`${sql.identifier(tableName)}.${sql.identifier(this.casing.getColumnCasing(field))}`);
-			} else if (is(field, Subquery)) {
-				const entries = Object.entries(field._.selectedFields);
-				if (entries.length === 1) {
-					const entry = entries[0][1];
-					const fieldDecoder = is(entry, SQL) ? entry.decoder : is(entry, Column) ? { mapFromDriverValue: (v) => entry.mapFromDriverValue(v) } : entry.sql.decoder;
-					if (fieldDecoder) field._.sql.decoder = fieldDecoder;
-				}
-				chunk.push(field);
-			}
-			if (i < columnsLen - 1) chunk.push(sql`, `);
-			return chunk;
-		});
-		return sql.join(chunks);
-	}
-	buildJoins(joins) {
-		if (!joins || joins.length === 0) return;
-		const joinsArray = [];
-		if (joins) for (const [index, joinMeta] of joins.entries()) {
-			if (index === 0) joinsArray.push(sql` `);
-			const table = joinMeta.table;
-			const onSql = joinMeta.on ? sql` on ${joinMeta.on}` : void 0;
-			if (is(table, SQLiteTable)) {
-				const tableName = table[SQLiteTable.Symbol.Name];
-				const tableSchema = table[SQLiteTable.Symbol.Schema];
-				const origTableName = table[SQLiteTable.Symbol.OriginalName];
-				const alias = tableName === origTableName ? void 0 : joinMeta.alias;
-				joinsArray.push(sql`${sql.raw(joinMeta.joinType)} join ${tableSchema ? sql`${sql.identifier(tableSchema)}.` : void 0}${sql.identifier(origTableName)}${alias && sql` ${sql.identifier(alias)}`}${onSql}`);
-			} else joinsArray.push(sql`${sql.raw(joinMeta.joinType)} join ${table}${onSql}`);
-			if (index < joins.length - 1) joinsArray.push(sql` `);
-		}
-		return sql.join(joinsArray);
-	}
-	buildLimit(limit) {
-		return typeof limit === "object" || typeof limit === "number" && limit >= 0 ? sql` limit ${limit}` : void 0;
-	}
-	buildOrderBy(orderBy) {
-		const orderByList = [];
-		if (orderBy) for (const [index, orderByValue] of orderBy.entries()) {
-			orderByList.push(orderByValue);
-			if (index < orderBy.length - 1) orderByList.push(sql`, `);
-		}
-		return orderByList.length > 0 ? sql` order by ${sql.join(orderByList)}` : void 0;
-	}
-	buildFromTable(table) {
-		if (is(table, Table) && table[Table.Symbol.IsAlias]) return sql`${sql`${sql.identifier(table[Table.Symbol.Schema] ?? "")}.`.if(table[Table.Symbol.Schema])}${sql.identifier(table[Table.Symbol.OriginalName])} ${sql.identifier(table[Table.Symbol.Name])}`;
-		return table;
-	}
-	buildSelectQuery({ withList, fields, fieldsFlat, where, having, table, joins, orderBy, groupBy, limit, offset, distinct, setOperators }) {
-		const fieldsList = fieldsFlat ?? orderSelectedFields(fields);
-		for (const f of fieldsList) if (is(f.field, Column) && getTableName(f.field.table) !== (is(table, Subquery) ? table._.alias : is(table, SQLiteViewBase) ? table[ViewBaseConfig].name : is(table, SQL) ? void 0 : getTableName(table)) && !((table2) => joins?.some(({ alias }) => alias === (table2[Table.Symbol.IsAlias] ? getTableName(table2) : table2[Table.Symbol.BaseName])))(f.field.table)) {
-			const tableName = getTableName(f.field.table);
-			throw new Error(`Your "${f.path.join("->")}" field references a column "${tableName}"."${f.field.name}", but the table "${tableName}" is not part of the query! Did you forget to join it?`);
-		}
-		const isSingleTable = !joins || joins.length === 0;
-		const withSql = this.buildWithCTE(withList);
-		const distinctSql = distinct ? sql` distinct` : void 0;
-		const selection = this.buildSelection(fieldsList, { isSingleTable });
-		const tableSql = this.buildFromTable(table);
-		const joinsSql = this.buildJoins(joins);
-		const whereSql = where ? sql` where ${where}` : void 0;
-		const havingSql = having ? sql` having ${having}` : void 0;
-		const groupByList = [];
-		if (groupBy) for (const [index, groupByValue] of groupBy.entries()) {
-			groupByList.push(groupByValue);
-			if (index < groupBy.length - 1) groupByList.push(sql`, `);
-		}
-		const finalQuery = sql`${withSql}select${distinctSql} ${selection} from ${tableSql}${joinsSql}${whereSql}${groupByList.length > 0 ? sql` group by ${sql.join(groupByList)}` : void 0}${havingSql}${this.buildOrderBy(orderBy)}${this.buildLimit(limit)}${offset ? sql` offset ${offset}` : void 0}`;
-		if (setOperators.length > 0) return this.buildSetOperations(finalQuery, setOperators);
-		return finalQuery;
-	}
-	buildSetOperations(leftSelect, setOperators) {
-		const [setOperator, ...rest] = setOperators;
-		if (!setOperator) throw new Error("Cannot pass undefined values to any set operator");
-		if (rest.length === 0) return this.buildSetOperationQuery({
-			leftSelect,
-			setOperator
-		});
-		return this.buildSetOperations(this.buildSetOperationQuery({
-			leftSelect,
-			setOperator
-		}), rest);
-	}
-	buildSetOperationQuery({ leftSelect, setOperator: { type, isAll, rightSelect, limit, orderBy, offset } }) {
-		const leftChunk = sql`${leftSelect.getSQL()} `;
-		const rightChunk = sql`${rightSelect.getSQL()}`;
-		let orderBySql;
-		if (orderBy && orderBy.length > 0) {
-			const orderByValues = [];
-			for (const singleOrderBy of orderBy) if (is(singleOrderBy, SQLiteColumn)) orderByValues.push(sql.identifier(singleOrderBy.name));
-			else if (is(singleOrderBy, SQL)) {
-				for (let i = 0; i < singleOrderBy.queryChunks.length; i++) {
-					const chunk = singleOrderBy.queryChunks[i];
-					if (is(chunk, SQLiteColumn)) singleOrderBy.queryChunks[i] = sql.identifier(this.casing.getColumnCasing(chunk));
-				}
-				orderByValues.push(sql`${singleOrderBy}`);
-			} else orderByValues.push(sql`${singleOrderBy}`);
-			orderBySql = sql` order by ${sql.join(orderByValues, sql`, `)}`;
-		}
-		const limitSql = typeof limit === "object" || typeof limit === "number" && limit >= 0 ? sql` limit ${limit}` : void 0;
-		const operatorChunk = sql.raw(`${type} ${isAll ? "all " : ""}`);
-		const offsetSql = offset ? sql` offset ${offset}` : void 0;
-		return sql`${leftChunk}${operatorChunk}${rightChunk}${orderBySql}${limitSql}${offsetSql}`;
-	}
-	buildInsertQuery({ table, values: valuesOrSelect, onConflict, returning, withList, select }) {
-		const valuesSqlList = [];
-		const columns = table[Table.Symbol.Columns];
-		const colEntries = Object.entries(columns).filter(([_, col]) => !col.shouldDisableInsert());
-		const insertOrder = colEntries.map(([, column]) => sql.identifier(this.casing.getColumnCasing(column)));
-		if (select) {
-			const select2 = valuesOrSelect;
-			if (is(select2, SQL)) valuesSqlList.push(select2);
-			else valuesSqlList.push(select2.getSQL());
-		} else {
-			const values = valuesOrSelect;
-			valuesSqlList.push(sql.raw("values "));
-			for (const [valueIndex, value] of values.entries()) {
-				const valueList = [];
-				for (const [fieldName, col] of colEntries) {
-					const colValue = value[fieldName];
-					if (colValue === void 0 || is(colValue, Param) && colValue.value === void 0) {
-						let defaultValue;
-						if (col.default !== null && col.default !== void 0) defaultValue = is(col.default, SQL) ? col.default : sql.param(col.default, col);
-						else if (col.defaultFn !== void 0) {
-							const defaultFnResult = col.defaultFn();
-							defaultValue = is(defaultFnResult, SQL) ? defaultFnResult : sql.param(defaultFnResult, col);
-						} else if (!col.default && col.onUpdateFn !== void 0) {
-							const onUpdateFnResult = col.onUpdateFn();
-							defaultValue = is(onUpdateFnResult, SQL) ? onUpdateFnResult : sql.param(onUpdateFnResult, col);
-						} else defaultValue = sql`null`;
-						valueList.push(defaultValue);
-					} else valueList.push(colValue);
-				}
-				valuesSqlList.push(valueList);
-				if (valueIndex < values.length - 1) valuesSqlList.push(sql`, `);
-			}
-		}
-		const withSql = this.buildWithCTE(withList);
-		const valuesSql = sql.join(valuesSqlList);
-		const returningSql = returning ? sql` returning ${this.buildSelection(returning, { isSingleTable: true })}` : void 0;
-		return sql`${withSql}insert into ${table} ${insertOrder} ${valuesSql}${onConflict?.length ? sql.join(onConflict) : void 0}${returningSql}`;
-	}
-	sqlToQuery(sql2, invokeSource) {
-		return sql2.toQuery({
-			casing: this.casing,
-			escapeName: this.escapeName,
-			escapeParam: this.escapeParam,
-			escapeString: this.escapeString,
-			invokeSource
-		});
-	}
-	buildRelationalQuery({ fullSchema, schema, tableNamesMap, table, tableConfig, queryConfig: config, tableAlias, nestedQueryRelation, joinOn }) {
-		let selection = [];
-		let limit, offset, orderBy = [], where;
-		const joins = [];
-		if (config === true) selection = Object.entries(tableConfig.columns).map(([key, value]) => ({
-			dbKey: value.name,
-			tsKey: key,
-			field: aliasedTableColumn(value, tableAlias),
-			relationTableTsKey: void 0,
-			isJson: false,
-			selection: []
-		}));
-		else {
-			const aliasedColumns = Object.fromEntries(Object.entries(tableConfig.columns).map(([key, value]) => [key, aliasedTableColumn(value, tableAlias)]));
-			if (config.where) {
-				const whereSql = typeof config.where === "function" ? config.where(aliasedColumns, getOperators()) : config.where;
-				where = whereSql && mapColumnsInSQLToAlias(whereSql, tableAlias);
-			}
-			const fieldsSelection = [];
-			let selectedColumns = [];
-			if (config.columns) {
-				let isIncludeMode = false;
-				for (const [field, value] of Object.entries(config.columns)) {
-					if (value === void 0) continue;
-					if (field in tableConfig.columns) {
-						if (!isIncludeMode && value === true) isIncludeMode = true;
-						selectedColumns.push(field);
-					}
-				}
-				if (selectedColumns.length > 0) selectedColumns = isIncludeMode ? selectedColumns.filter((c) => config.columns?.[c] === true) : Object.keys(tableConfig.columns).filter((key) => !selectedColumns.includes(key));
-			} else selectedColumns = Object.keys(tableConfig.columns);
-			for (const field of selectedColumns) {
-				const column = tableConfig.columns[field];
-				fieldsSelection.push({
-					tsKey: field,
-					value: column
-				});
-			}
-			let selectedRelations = [];
-			if (config.with) selectedRelations = Object.entries(config.with).filter((entry) => !!entry[1]).map(([tsKey, queryConfig]) => ({
-				tsKey,
-				queryConfig,
-				relation: tableConfig.relations[tsKey]
-			}));
-			let extras;
-			if (config.extras) {
-				extras = typeof config.extras === "function" ? config.extras(aliasedColumns, { sql }) : config.extras;
-				for (const [tsKey, value] of Object.entries(extras)) fieldsSelection.push({
-					tsKey,
-					value: mapColumnsInAliasedSQLToAlias(value, tableAlias)
-				});
-			}
-			for (const { tsKey, value } of fieldsSelection) selection.push({
-				dbKey: is(value, SQL.Aliased) ? value.fieldAlias : tableConfig.columns[tsKey].name,
-				tsKey,
-				field: is(value, Column) ? aliasedTableColumn(value, tableAlias) : value,
-				relationTableTsKey: void 0,
-				isJson: false,
-				selection: []
-			});
-			let orderByOrig = typeof config.orderBy === "function" ? config.orderBy(aliasedColumns, getOrderByOperators()) : config.orderBy ?? [];
-			if (!Array.isArray(orderByOrig)) orderByOrig = [orderByOrig];
-			orderBy = orderByOrig.map((orderByValue) => {
-				if (is(orderByValue, Column)) return aliasedTableColumn(orderByValue, tableAlias);
-				return mapColumnsInSQLToAlias(orderByValue, tableAlias);
-			});
-			limit = config.limit;
-			offset = config.offset;
-			for (const { tsKey: selectedRelationTsKey, queryConfig: selectedRelationConfigValue, relation } of selectedRelations) {
-				const normalizedRelation = normalizeRelation(schema, tableNamesMap, relation);
-				const relationTableTsName = tableNamesMap[getTableUniqueName(relation.referencedTable)];
-				const relationTableAlias = `${tableAlias}_${selectedRelationTsKey}`;
-				const joinOn2 = and(...normalizedRelation.fields.map((field2, i) => eq(aliasedTableColumn(normalizedRelation.references[i], relationTableAlias), aliasedTableColumn(field2, tableAlias))));
-				const builtRelation = this.buildRelationalQuery({
-					fullSchema,
-					schema,
-					tableNamesMap,
-					table: fullSchema[relationTableTsName],
-					tableConfig: schema[relationTableTsName],
-					queryConfig: is(relation, One) ? selectedRelationConfigValue === true ? { limit: 1 } : {
-						...selectedRelationConfigValue,
-						limit: 1
-					} : selectedRelationConfigValue,
-					tableAlias: relationTableAlias,
-					joinOn: joinOn2,
-					nestedQueryRelation: relation
-				});
-				const field = sql`(${builtRelation.sql})`.as(selectedRelationTsKey);
-				selection.push({
-					dbKey: selectedRelationTsKey,
-					tsKey: selectedRelationTsKey,
-					field,
-					relationTableTsKey: relationTableTsName,
-					isJson: true,
-					selection: builtRelation.selection
-				});
-			}
-		}
-		if (selection.length === 0) throw new DrizzleError({ message: `No fields selected for table "${tableConfig.tsName}" ("${tableAlias}"). You need to have at least one item in "columns", "with" or "extras". If you need to select all columns, omit the "columns" key or set it to undefined.` });
-		let result;
-		where = and(joinOn, where);
-		if (nestedQueryRelation) {
-			let field = sql`json_array(${sql.join(selection.map(({ field: field2 }) => is(field2, SQLiteColumn) ? sql.identifier(this.casing.getColumnCasing(field2)) : is(field2, SQL.Aliased) ? field2.sql : field2), sql`, `)})`;
-			if (is(nestedQueryRelation, Many)) field = sql`coalesce(json_group_array(${field}), json_array())`;
-			const nestedSelection = [{
-				dbKey: "data",
-				tsKey: "data",
-				field: field.as("data"),
-				isJson: true,
-				relationTableTsKey: tableConfig.tsName,
-				selection
-			}];
-			if (limit !== void 0 || offset !== void 0 || orderBy.length > 0) {
-				result = this.buildSelectQuery({
-					table: aliasedTable(table, tableAlias),
-					fields: {},
-					fieldsFlat: [{
-						path: [],
-						field: sql.raw("*")
-					}],
-					where,
-					limit,
-					offset,
-					orderBy,
-					setOperators: []
-				});
-				where = void 0;
-				limit = void 0;
-				offset = void 0;
-				orderBy = void 0;
-			} else result = aliasedTable(table, tableAlias);
-			result = this.buildSelectQuery({
-				table: is(result, SQLiteTable) ? result : new Subquery(result, {}, tableAlias),
-				fields: {},
-				fieldsFlat: nestedSelection.map(({ field: field2 }) => ({
-					path: [],
-					field: is(field2, Column) ? aliasedTableColumn(field2, tableAlias) : field2
-				})),
-				joins,
-				where,
-				limit,
-				offset,
-				orderBy,
-				setOperators: []
-			});
-		} else result = this.buildSelectQuery({
-			table: aliasedTable(table, tableAlias),
-			fields: {},
-			fieldsFlat: selection.map(({ field }) => ({
-				path: [],
-				field: is(field, Column) ? aliasedTableColumn(field, tableAlias) : field
-			})),
-			joins,
-			where,
-			limit,
-			offset,
-			orderBy,
-			setOperators: []
-		});
-		return {
-			tableTsKey: tableConfig.tsName,
-			sql: result,
-			selection
-		};
-	}
-};
-var SQLiteSyncDialect = class extends SQLiteDialect {
-	static [entityKind] = "SQLiteSyncDialect";
-	migrate(migrations, session, config) {
-		const migrationsTable = config === void 0 ? "__drizzle_migrations" : typeof config === "string" ? "__drizzle_migrations" : config.migrationsTable ?? "__drizzle_migrations";
-		const migrationTableCreate = sql`
-			CREATE TABLE IF NOT EXISTS ${sql.identifier(migrationsTable)} (
-				id SERIAL PRIMARY KEY,
-				hash text NOT NULL,
-				created_at numeric
-			)
-		`;
-		session.run(migrationTableCreate);
-		const lastDbMigration = session.values(sql`SELECT id, hash, created_at FROM ${sql.identifier(migrationsTable)} ORDER BY created_at DESC LIMIT 1`)[0] ?? void 0;
-		session.run(sql`BEGIN`);
-		try {
-			for (const migration of migrations) if (!lastDbMigration || Number(lastDbMigration[2]) < migration.folderMillis) {
-				for (const stmt of migration.sql) session.run(sql.raw(stmt));
-				session.run(sql`INSERT INTO ${sql.identifier(migrationsTable)} ("hash", "created_at") VALUES(${migration.hash}, ${migration.folderMillis})`);
-			}
-			session.run(sql`COMMIT`);
-		} catch (e) {
-			session.run(sql`ROLLBACK`);
-			throw e;
-		}
-	}
-};
-var SQLiteAsyncDialect = class extends SQLiteDialect {
-	static [entityKind] = "SQLiteAsyncDialect";
-	async migrate(migrations, session, config) {
-		const migrationsTable = config === void 0 ? "__drizzle_migrations" : typeof config === "string" ? "__drizzle_migrations" : config.migrationsTable ?? "__drizzle_migrations";
-		const migrationTableCreate = sql`
-			CREATE TABLE IF NOT EXISTS ${sql.identifier(migrationsTable)} (
-				id SERIAL PRIMARY KEY,
-				hash text NOT NULL,
-				created_at numeric
-			)
-		`;
-		await session.run(migrationTableCreate);
-		const lastDbMigration = (await session.values(sql`SELECT id, hash, created_at FROM ${sql.identifier(migrationsTable)} ORDER BY created_at DESC LIMIT 1`))[0] ?? void 0;
-		await session.transaction(async (tx) => {
-			for (const migration of migrations) if (!lastDbMigration || Number(lastDbMigration[2]) < migration.folderMillis) {
-				for (const stmt of migration.sql) await tx.run(sql.raw(stmt));
-				await tx.run(sql`INSERT INTO ${sql.identifier(migrationsTable)} ("hash", "created_at") VALUES(${migration.hash}, ${migration.folderMillis})`);
-			}
-		});
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/query-builders/query-builder.js
-var TypedQueryBuilder = class {
-	static [entityKind] = "TypedQueryBuilder";
-	/** @internal */
-	getSelectedFields() {
-		return this._.selectedFields;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/select.js
-var SQLiteSelectBuilder = class {
-	static [entityKind] = "SQLiteSelectBuilder";
-	fields;
-	session;
-	dialect;
-	withList;
-	distinct;
-	constructor(config) {
-		this.fields = config.fields;
-		this.session = config.session;
-		this.dialect = config.dialect;
-		this.withList = config.withList;
-		this.distinct = config.distinct;
-	}
-	from(source) {
-		const isPartialSelect = !!this.fields;
-		let fields;
-		if (this.fields) fields = this.fields;
-		else if (is(source, Subquery)) fields = Object.fromEntries(Object.keys(source._.selectedFields).map((key) => [key, source[key]]));
-		else if (is(source, SQLiteViewBase)) fields = source[ViewBaseConfig].selectedFields;
-		else if (is(source, SQL)) fields = {};
-		else fields = getTableColumns(source);
-		return new SQLiteSelectBase({
-			table: source,
-			fields,
-			isPartialSelect,
-			session: this.session,
-			dialect: this.dialect,
-			withList: this.withList,
-			distinct: this.distinct
-		});
-	}
-};
-var SQLiteSelectQueryBuilderBase = class extends TypedQueryBuilder {
-	static [entityKind] = "SQLiteSelectQueryBuilder";
-	_;
-	/** @internal */
-	config;
-	joinsNotNullableMap;
-	tableName;
-	isPartialSelect;
-	session;
-	dialect;
-	cacheConfig = void 0;
-	usedTables = /* @__PURE__ */ new Set();
-	constructor({ table, fields, isPartialSelect, session, dialect, withList, distinct }) {
-		super();
-		this.config = {
-			withList,
-			table,
-			fields: { ...fields },
-			distinct,
-			setOperators: []
-		};
-		this.isPartialSelect = isPartialSelect;
-		this.session = session;
-		this.dialect = dialect;
-		this._ = {
-			selectedFields: fields,
-			config: this.config
-		};
-		this.tableName = getTableLikeName(table);
-		this.joinsNotNullableMap = typeof this.tableName === "string" ? { [this.tableName]: true } : {};
-		for (const item of extractUsedTable(table)) this.usedTables.add(item);
-	}
-	/** @internal */
-	getUsedTables() {
-		return [...this.usedTables];
-	}
-	createJoin(joinType) {
-		return (table, on) => {
-			const baseTableName = this.tableName;
-			const tableName = getTableLikeName(table);
-			for (const item of extractUsedTable(table)) this.usedTables.add(item);
-			if (typeof tableName === "string" && this.config.joins?.some((join) => join.alias === tableName)) throw new Error(`Alias "${tableName}" is already used in this query`);
-			if (!this.isPartialSelect) {
-				if (Object.keys(this.joinsNotNullableMap).length === 1 && typeof baseTableName === "string") this.config.fields = { [baseTableName]: this.config.fields };
-				if (typeof tableName === "string" && !is(table, SQL)) {
-					const selection = is(table, Subquery) ? table._.selectedFields : is(table, View) ? table[ViewBaseConfig].selectedFields : table[Table.Symbol.Columns];
-					this.config.fields[tableName] = selection;
-				}
-			}
-			if (typeof on === "function") on = on(new Proxy(this.config.fields, new SelectionProxyHandler({
-				sqlAliasedBehavior: "sql",
-				sqlBehavior: "sql"
-			})));
-			if (!this.config.joins) this.config.joins = [];
-			this.config.joins.push({
-				on,
-				table,
-				joinType,
-				alias: tableName
-			});
-			if (typeof tableName === "string") switch (joinType) {
-				case "left":
-					this.joinsNotNullableMap[tableName] = false;
-					break;
-				case "right":
-					this.joinsNotNullableMap = Object.fromEntries(Object.entries(this.joinsNotNullableMap).map(([key]) => [key, false]));
-					this.joinsNotNullableMap[tableName] = true;
-					break;
-				case "cross":
-				case "inner":
-					this.joinsNotNullableMap[tableName] = true;
-					break;
-				case "full":
-					this.joinsNotNullableMap = Object.fromEntries(Object.entries(this.joinsNotNullableMap).map(([key]) => [key, false]));
-					this.joinsNotNullableMap[tableName] = false;
-					break;
-			}
-			return this;
-		};
-	}
-	/**
-	* Executes a `left join` operation by adding another table to the current query.
-	*
-	* Calling this method associates each row of the table with the corresponding row from the joined table, if a match is found. If no matching row exists, it sets all columns of the joined table to null.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/joins#left-join}
-	*
-	* @param table the table to join.
-	* @param on the `on` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all users and their pets
-	* const usersWithPets: { user: User; pets: Pet | null; }[] = await db.select()
-	*   .from(users)
-	*   .leftJoin(pets, eq(users.id, pets.ownerId))
-	*
-	* // Select userId and petId
-	* const usersIdsAndPetIds: { userId: number; petId: number | null; }[] = await db.select({
-	*   userId: users.id,
-	*   petId: pets.id,
-	* })
-	*   .from(users)
-	*   .leftJoin(pets, eq(users.id, pets.ownerId))
-	* ```
-	*/
-	leftJoin = this.createJoin("left");
-	/**
-	* Executes a `right join` operation by adding another table to the current query.
-	*
-	* Calling this method associates each row of the joined table with the corresponding row from the main table, if a match is found. If no matching row exists, it sets all columns of the main table to null.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/joins#right-join}
-	*
-	* @param table the table to join.
-	* @param on the `on` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all users and their pets
-	* const usersWithPets: { user: User | null; pets: Pet; }[] = await db.select()
-	*   .from(users)
-	*   .rightJoin(pets, eq(users.id, pets.ownerId))
-	*
-	* // Select userId and petId
-	* const usersIdsAndPetIds: { userId: number | null; petId: number; }[] = await db.select({
-	*   userId: users.id,
-	*   petId: pets.id,
-	* })
-	*   .from(users)
-	*   .rightJoin(pets, eq(users.id, pets.ownerId))
-	* ```
-	*/
-	rightJoin = this.createJoin("right");
-	/**
-	* Executes an `inner join` operation, creating a new table by combining rows from two tables that have matching values.
-	*
-	* Calling this method retrieves rows that have corresponding entries in both joined tables. Rows without matching entries in either table are excluded, resulting in a table that includes only matching pairs.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/joins#inner-join}
-	*
-	* @param table the table to join.
-	* @param on the `on` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all users and their pets
-	* const usersWithPets: { user: User; pets: Pet; }[] = await db.select()
-	*   .from(users)
-	*   .innerJoin(pets, eq(users.id, pets.ownerId))
-	*
-	* // Select userId and petId
-	* const usersIdsAndPetIds: { userId: number; petId: number; }[] = await db.select({
-	*   userId: users.id,
-	*   petId: pets.id,
-	* })
-	*   .from(users)
-	*   .innerJoin(pets, eq(users.id, pets.ownerId))
-	* ```
-	*/
-	innerJoin = this.createJoin("inner");
-	/**
-	* Executes a `full join` operation by combining rows from two tables into a new table.
-	*
-	* Calling this method retrieves all rows from both main and joined tables, merging rows with matching values and filling in `null` for non-matching columns.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/joins#full-join}
-	*
-	* @param table the table to join.
-	* @param on the `on` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all users and their pets
-	* const usersWithPets: { user: User | null; pets: Pet | null; }[] = await db.select()
-	*   .from(users)
-	*   .fullJoin(pets, eq(users.id, pets.ownerId))
-	*
-	* // Select userId and petId
-	* const usersIdsAndPetIds: { userId: number | null; petId: number | null; }[] = await db.select({
-	*   userId: users.id,
-	*   petId: pets.id,
-	* })
-	*   .from(users)
-	*   .fullJoin(pets, eq(users.id, pets.ownerId))
-	* ```
-	*/
-	fullJoin = this.createJoin("full");
-	/**
-	* Executes a `cross join` operation by combining rows from two tables into a new table.
-	*
-	* Calling this method retrieves all rows from both main and joined tables, merging all rows from each table.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/joins#cross-join}
-	*
-	* @param table the table to join.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all users, each user with every pet
-	* const usersWithPets: { user: User; pets: Pet; }[] = await db.select()
-	*   .from(users)
-	*   .crossJoin(pets)
-	*
-	* // Select userId and petId
-	* const usersIdsAndPetIds: { userId: number; petId: number; }[] = await db.select({
-	*   userId: users.id,
-	*   petId: pets.id,
-	* })
-	*   .from(users)
-	*   .crossJoin(pets)
-	* ```
-	*/
-	crossJoin = this.createJoin("cross");
-	createSetOperator(type, isAll) {
-		return (rightSelection) => {
-			const rightSelect = typeof rightSelection === "function" ? rightSelection(getSQLiteSetOperators()) : rightSelection;
-			if (!haveSameKeys(this.getSelectedFields(), rightSelect.getSelectedFields())) throw new Error("Set operator error (union / intersect / except): selected fields are not the same or are in a different order");
-			this.config.setOperators.push({
-				type,
-				isAll,
-				rightSelect
-			});
-			return this;
-		};
-	}
-	/**
-	* Adds `union` set operator to the query.
-	*
-	* Calling this method will combine the result sets of the `select` statements and remove any duplicate rows that appear across them.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/set-operations#union}
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all unique names from customers and users tables
-	* await db.select({ name: users.name })
-	*   .from(users)
-	*   .union(
-	*     db.select({ name: customers.name }).from(customers)
-	*   );
-	* // or
-	* import { union } from 'drizzle-orm/sqlite-core'
-	*
-	* await union(
-	*   db.select({ name: users.name }).from(users),
-	*   db.select({ name: customers.name }).from(customers)
-	* );
-	* ```
-	*/
-	union = this.createSetOperator("union", false);
-	/**
-	* Adds `union all` set operator to the query.
-	*
-	* Calling this method will combine the result-set of the `select` statements and keep all duplicate rows that appear across them.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/set-operations#union-all}
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all transaction ids from both online and in-store sales
-	* await db.select({ transaction: onlineSales.transactionId })
-	*   .from(onlineSales)
-	*   .unionAll(
-	*     db.select({ transaction: inStoreSales.transactionId }).from(inStoreSales)
-	*   );
-	* // or
-	* import { unionAll } from 'drizzle-orm/sqlite-core'
-	*
-	* await unionAll(
-	*   db.select({ transaction: onlineSales.transactionId }).from(onlineSales),
-	*   db.select({ transaction: inStoreSales.transactionId }).from(inStoreSales)
-	* );
-	* ```
-	*/
-	unionAll = this.createSetOperator("union", true);
-	/**
-	* Adds `intersect` set operator to the query.
-	*
-	* Calling this method will retain only the rows that are present in both result sets and eliminate duplicates.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/set-operations#intersect}
-	*
-	* @example
-	*
-	* ```ts
-	* // Select course names that are offered in both departments A and B
-	* await db.select({ courseName: depA.courseName })
-	*   .from(depA)
-	*   .intersect(
-	*     db.select({ courseName: depB.courseName }).from(depB)
-	*   );
-	* // or
-	* import { intersect } from 'drizzle-orm/sqlite-core'
-	*
-	* await intersect(
-	*   db.select({ courseName: depA.courseName }).from(depA),
-	*   db.select({ courseName: depB.courseName }).from(depB)
-	* );
-	* ```
-	*/
-	intersect = this.createSetOperator("intersect", false);
-	/**
-	* Adds `except` set operator to the query.
-	*
-	* Calling this method will retrieve all unique rows from the left query, except for the rows that are present in the result set of the right query.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/set-operations#except}
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all courses offered in department A but not in department B
-	* await db.select({ courseName: depA.courseName })
-	*   .from(depA)
-	*   .except(
-	*     db.select({ courseName: depB.courseName }).from(depB)
-	*   );
-	* // or
-	* import { except } from 'drizzle-orm/sqlite-core'
-	*
-	* await except(
-	*   db.select({ courseName: depA.courseName }).from(depA),
-	*   db.select({ courseName: depB.courseName }).from(depB)
-	* );
-	* ```
-	*/
-	except = this.createSetOperator("except", false);
-	/** @internal */
-	addSetOperators(setOperators) {
-		this.config.setOperators.push(...setOperators);
-		return this;
-	}
-	/**
-	* Adds a `where` clause to the query.
-	*
-	* Calling this method will select only those rows that fulfill a specified condition.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#filtering}
-	*
-	* @param where the `where` clause.
-	*
-	* @example
-	* You can use conditional operators and `sql function` to filter the rows to be selected.
-	*
-	* ```ts
-	* // Select all cars with green color
-	* await db.select().from(cars).where(eq(cars.color, 'green'));
-	* // or
-	* await db.select().from(cars).where(sql`${cars.color} = 'green'`)
-	* ```
-	*
-	* You can logically combine conditional operators with `and()` and `or()` operators:
-	*
-	* ```ts
-	* // Select all BMW cars with a green color
-	* await db.select().from(cars).where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
-	*
-	* // Select all cars with the green or blue color
-	* await db.select().from(cars).where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
-	* ```
-	*/
-	where(where) {
-		if (typeof where === "function") where = where(new Proxy(this.config.fields, new SelectionProxyHandler({
-			sqlAliasedBehavior: "sql",
-			sqlBehavior: "sql"
-		})));
-		this.config.where = where;
-		return this;
-	}
-	/**
-	* Adds a `having` clause to the query.
-	*
-	* Calling this method will select only those rows that fulfill a specified condition. It is typically used with aggregate functions to filter the aggregated data based on a specified condition.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#aggregations}
-	*
-	* @param having the `having` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Select all brands with more than one car
-	* await db.select({
-	* 	brand: cars.brand,
-	* 	count: sql<number>`cast(count(${cars.id}) as int)`,
-	* })
-	*   .from(cars)
-	*   .groupBy(cars.brand)
-	*   .having(({ count }) => gt(count, 1));
-	* ```
-	*/
-	having(having) {
-		if (typeof having === "function") having = having(new Proxy(this.config.fields, new SelectionProxyHandler({
-			sqlAliasedBehavior: "sql",
-			sqlBehavior: "sql"
-		})));
-		this.config.having = having;
-		return this;
-	}
-	groupBy(...columns) {
-		if (typeof columns[0] === "function") {
-			const groupBy = columns[0](new Proxy(this.config.fields, new SelectionProxyHandler({
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "sql"
-			})));
-			this.config.groupBy = Array.isArray(groupBy) ? groupBy : [groupBy];
-		} else this.config.groupBy = columns;
-		return this;
-	}
-	orderBy(...columns) {
-		if (typeof columns[0] === "function") {
-			const orderBy = columns[0](new Proxy(this.config.fields, new SelectionProxyHandler({
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "sql"
-			})));
-			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
-			if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).orderBy = orderByArray;
-			else this.config.orderBy = orderByArray;
-		} else {
-			const orderByArray = columns;
-			if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).orderBy = orderByArray;
-			else this.config.orderBy = orderByArray;
-		}
-		return this;
-	}
-	/**
-	* Adds a `limit` clause to the query.
-	*
-	* Calling this method will set the maximum number of rows that will be returned by this query.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#limit--offset}
-	*
-	* @param limit the `limit` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Get the first 10 people from this query.
-	* await db.select().from(people).limit(10);
-	* ```
-	*/
-	limit(limit) {
-		if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).limit = limit;
-		else this.config.limit = limit;
-		return this;
-	}
-	/**
-	* Adds an `offset` clause to the query.
-	*
-	* Calling this method will skip a number of rows when returning results from this query.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#limit--offset}
-	*
-	* @param offset the `offset` clause.
-	*
-	* @example
-	*
-	* ```ts
-	* // Get the 10th-20th people from this query.
-	* await db.select().from(people).offset(10).limit(10);
-	* ```
-	*/
-	offset(offset) {
-		if (this.config.setOperators.length > 0) this.config.setOperators.at(-1).offset = offset;
-		else this.config.offset = offset;
-		return this;
-	}
-	/** @internal */
-	getSQL() {
-		return this.dialect.buildSelectQuery(this.config);
-	}
-	toSQL() {
-		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
-		return rest;
-	}
-	as(alias) {
-		const usedTables = [];
-		usedTables.push(...extractUsedTable(this.config.table));
-		if (this.config.joins) for (const it of this.config.joins) usedTables.push(...extractUsedTable(it.table));
-		return new Proxy(new Subquery(this.getSQL(), this.config.fields, alias, false, [...new Set(usedTables)]), new SelectionProxyHandler({
-			alias,
-			sqlAliasedBehavior: "alias",
-			sqlBehavior: "error"
-		}));
-	}
-	/** @internal */
-	getSelectedFields() {
-		return new Proxy(this.config.fields, new SelectionProxyHandler({
-			alias: this.tableName,
-			sqlAliasedBehavior: "alias",
-			sqlBehavior: "error"
-		}));
-	}
-	$dynamic() {
-		return this;
-	}
-};
-var SQLiteSelectBase = class extends SQLiteSelectQueryBuilderBase {
-	static [entityKind] = "SQLiteSelect";
-	/** @internal */
-	_prepare(isOneTimeQuery = true) {
-		if (!this.session) throw new Error("Cannot execute a query on a query builder. Please use a database instance instead.");
-		const fieldsList = orderSelectedFields(this.config.fields);
-		const query = this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), fieldsList, "all", true, void 0, {
-			type: "select",
-			tables: [...this.usedTables]
-		}, this.cacheConfig);
-		query.joinsNotNullableMap = this.joinsNotNullableMap;
-		return query;
-	}
-	$withCache(config) {
-		this.cacheConfig = config === void 0 ? {
-			config: {},
-			enable: true,
-			autoInvalidate: true
-		} : config === false ? { enable: false } : {
-			enable: true,
-			autoInvalidate: true,
-			...config
-		};
-		return this;
-	}
-	prepare() {
-		return this._prepare(false);
-	}
-	run = (placeholderValues) => {
-		return this._prepare().run(placeholderValues);
-	};
-	all = (placeholderValues) => {
-		return this._prepare().all(placeholderValues);
-	};
-	get = (placeholderValues) => {
-		return this._prepare().get(placeholderValues);
-	};
-	values = (placeholderValues) => {
-		return this._prepare().values(placeholderValues);
-	};
-	async execute() {
-		return this.all();
-	}
-};
-applyMixins(SQLiteSelectBase, [QueryPromise]);
-function createSetOperator(type, isAll) {
-	return (leftSelect, rightSelect, ...restSelects) => {
-		const setOperators = [rightSelect, ...restSelects].map((select) => ({
-			type,
-			isAll,
-			rightSelect: select
-		}));
-		for (const setOperator of setOperators) if (!haveSameKeys(leftSelect.getSelectedFields(), setOperator.rightSelect.getSelectedFields())) throw new Error("Set operator error (union / intersect / except): selected fields are not the same or are in a different order");
-		return leftSelect.addSetOperators(setOperators);
-	};
-}
-var getSQLiteSetOperators = () => ({
-	union,
-	unionAll,
-	intersect,
-	except
-});
-var union = createSetOperator("union", false);
-var unionAll = createSetOperator("union", true);
-var intersect = createSetOperator("intersect", false);
-var except = createSetOperator("except", false);
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/query-builder.js
-var QueryBuilder = class {
-	static [entityKind] = "SQLiteQueryBuilder";
-	dialect;
-	dialectConfig;
-	constructor(dialect) {
-		this.dialect = is(dialect, SQLiteDialect) ? dialect : void 0;
-		this.dialectConfig = is(dialect, SQLiteDialect) ? void 0 : dialect;
-	}
-	$with = (alias, selection) => {
-		const queryBuilder = this;
-		const as = (qb) => {
-			if (typeof qb === "function") qb = qb(queryBuilder);
-			return new Proxy(new WithSubquery(qb.getSQL(), selection ?? ("getSelectedFields" in qb ? qb.getSelectedFields() ?? {} : {}), alias, true), new SelectionProxyHandler({
-				alias,
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "error"
-			}));
-		};
-		return { as };
-	};
-	with(...queries) {
-		const self = this;
-		function select(fields) {
-			return new SQLiteSelectBuilder({
-				fields: fields ?? void 0,
-				session: void 0,
-				dialect: self.getDialect(),
-				withList: queries
-			});
-		}
-		function selectDistinct(fields) {
-			return new SQLiteSelectBuilder({
-				fields: fields ?? void 0,
-				session: void 0,
-				dialect: self.getDialect(),
-				withList: queries,
-				distinct: true
-			});
-		}
-		return {
-			select,
-			selectDistinct
-		};
-	}
-	select(fields) {
-		return new SQLiteSelectBuilder({
-			fields: fields ?? void 0,
-			session: void 0,
-			dialect: this.getDialect()
-		});
-	}
-	selectDistinct(fields) {
-		return new SQLiteSelectBuilder({
-			fields: fields ?? void 0,
-			session: void 0,
-			dialect: this.getDialect(),
-			distinct: true
-		});
-	}
-	getDialect() {
-		if (!this.dialect) this.dialect = new SQLiteSyncDialect(this.dialectConfig);
-		return this.dialect;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/insert.js
-var SQLiteInsertBuilder = class {
-	constructor(table, session, dialect, withList) {
-		this.table = table;
-		this.session = session;
-		this.dialect = dialect;
-		this.withList = withList;
-	}
-	static [entityKind] = "SQLiteInsertBuilder";
-	values(values) {
-		values = Array.isArray(values) ? values : [values];
-		if (values.length === 0) throw new Error("values() must be called with at least one value");
-		const mappedValues = values.map((entry) => {
-			const result = {};
-			const cols = this.table[Table.Symbol.Columns];
-			for (const colKey of Object.keys(entry)) {
-				const colValue = entry[colKey];
-				result[colKey] = is(colValue, SQL) ? colValue : new Param(colValue, cols[colKey]);
-			}
-			return result;
-		});
-		return new SQLiteInsertBase(this.table, mappedValues, this.session, this.dialect, this.withList);
-	}
-	select(selectQuery) {
-		const select = typeof selectQuery === "function" ? selectQuery(new QueryBuilder()) : selectQuery;
-		if (!is(select, SQL) && !haveSameKeys(this.table[Columns], select._.selectedFields)) throw new Error("Insert select error: selected fields are not the same or are in a different order compared to the table definition");
-		return new SQLiteInsertBase(this.table, select, this.session, this.dialect, this.withList, true);
-	}
-};
-var SQLiteInsertBase = class extends QueryPromise {
-	constructor(table, values, session, dialect, withList, select) {
-		super();
-		this.session = session;
-		this.dialect = dialect;
-		this.config = {
-			table,
-			values,
-			withList,
-			select
-		};
-	}
-	static [entityKind] = "SQLiteInsert";
-	/** @internal */
-	config;
-	returning(fields = this.config.table[SQLiteTable.Symbol.Columns]) {
-		this.config.returning = orderSelectedFields(fields);
-		return this;
-	}
-	/**
-	* Adds an `on conflict do nothing` clause to the query.
-	*
-	* Calling this method simply avoids inserting a row as its alternative action.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/insert#on-conflict-do-nothing}
-	*
-	* @param config The `target` and `where` clauses.
-	*
-	* @example
-	* ```ts
-	* // Insert one row and cancel the insert if there's a conflict
-	* await db.insert(cars)
-	*   .values({ id: 1, brand: 'BMW' })
-	*   .onConflictDoNothing();
-	*
-	* // Explicitly specify conflict target
-	* await db.insert(cars)
-	*   .values({ id: 1, brand: 'BMW' })
-	*   .onConflictDoNothing({ target: cars.id });
-	* ```
-	*/
-	onConflictDoNothing(config = {}) {
-		if (!this.config.onConflict) this.config.onConflict = [];
-		if (config.target === void 0) this.config.onConflict.push(sql` on conflict do nothing`);
-		else {
-			const targetSql = Array.isArray(config.target) ? sql`${config.target}` : sql`${[config.target]}`;
-			const whereSql = config.where ? sql` where ${config.where}` : sql``;
-			this.config.onConflict.push(sql` on conflict ${targetSql} do nothing${whereSql}`);
-		}
-		return this;
-	}
-	/**
-	* Adds an `on conflict do update` clause to the query.
-	*
-	* Calling this method will update the existing row that conflicts with the row proposed for insertion as its alternative action.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/insert#upserts-and-conflicts}
-	*
-	* @param config The `target`, `set` and `where` clauses.
-	*
-	* @example
-	* ```ts
-	* // Update the row if there's a conflict
-	* await db.insert(cars)
-	*   .values({ id: 1, brand: 'BMW' })
-	*   .onConflictDoUpdate({
-	*     target: cars.id,
-	*     set: { brand: 'Porsche' }
-	*   });
-	*
-	* // Upsert with 'where' clause
-	* await db.insert(cars)
-	*   .values({ id: 1, brand: 'BMW' })
-	*   .onConflictDoUpdate({
-	*     target: cars.id,
-	*     set: { brand: 'newBMW' },
-	*     where: sql`${cars.createdAt} > '2023-01-01'::date`,
-	*   });
-	* ```
-	*/
-	onConflictDoUpdate(config) {
-		if (config.where && (config.targetWhere || config.setWhere)) throw new Error("You cannot use both \"where\" and \"targetWhere\"/\"setWhere\" at the same time - \"where\" is deprecated, use \"targetWhere\" or \"setWhere\" instead.");
-		if (!this.config.onConflict) this.config.onConflict = [];
-		const whereSql = config.where ? sql` where ${config.where}` : void 0;
-		const targetWhereSql = config.targetWhere ? sql` where ${config.targetWhere}` : void 0;
-		const setWhereSql = config.setWhere ? sql` where ${config.setWhere}` : void 0;
-		const targetSql = Array.isArray(config.target) ? sql`${config.target}` : sql`${[config.target]}`;
-		const setSql = this.dialect.buildUpdateSet(this.config.table, mapUpdateSet(this.config.table, config.set));
-		this.config.onConflict.push(sql` on conflict ${targetSql}${targetWhereSql} do update set ${setSql}${whereSql}${setWhereSql}`);
-		return this;
-	}
-	/** @internal */
-	getSQL() {
-		return this.dialect.buildInsertQuery(this.config);
-	}
-	toSQL() {
-		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
-		return rest;
-	}
-	/** @internal */
-	_prepare(isOneTimeQuery = true) {
-		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
-			type: "insert",
-			tables: extractUsedTable(this.config.table)
-		});
-	}
-	prepare() {
-		return this._prepare(false);
-	}
-	run = (placeholderValues) => {
-		return this._prepare().run(placeholderValues);
-	};
-	all = (placeholderValues) => {
-		return this._prepare().all(placeholderValues);
-	};
-	get = (placeholderValues) => {
-		return this._prepare().get(placeholderValues);
-	};
-	values = (placeholderValues) => {
-		return this._prepare().values(placeholderValues);
-	};
-	async execute() {
-		return this.config.returning ? this.all() : this.run();
-	}
-	$dynamic() {
-		return this;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/update.js
-var SQLiteUpdateBuilder = class {
-	constructor(table, session, dialect, withList) {
-		this.table = table;
-		this.session = session;
-		this.dialect = dialect;
-		this.withList = withList;
-	}
-	static [entityKind] = "SQLiteUpdateBuilder";
-	set(values) {
-		return new SQLiteUpdateBase(this.table, mapUpdateSet(this.table, values), this.session, this.dialect, this.withList);
-	}
-};
-var SQLiteUpdateBase = class extends QueryPromise {
-	constructor(table, set, session, dialect, withList) {
-		super();
-		this.session = session;
-		this.dialect = dialect;
-		this.config = {
-			set,
-			table,
-			withList,
-			joins: []
-		};
-	}
-	static [entityKind] = "SQLiteUpdate";
-	/** @internal */
-	config;
-	from(source) {
-		this.config.from = source;
-		return this;
-	}
-	createJoin(joinType) {
-		return (table, on) => {
-			const tableName = getTableLikeName(table);
-			if (typeof tableName === "string" && this.config.joins.some((join) => join.alias === tableName)) throw new Error(`Alias "${tableName}" is already used in this query`);
-			if (typeof on === "function") {
-				const from = this.config.from ? is(table, SQLiteTable) ? table[Table.Symbol.Columns] : is(table, Subquery) ? table._.selectedFields : is(table, SQLiteViewBase) ? table[ViewBaseConfig].selectedFields : void 0 : void 0;
-				on = on(new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
-					sqlAliasedBehavior: "sql",
-					sqlBehavior: "sql"
-				})), from && new Proxy(from, new SelectionProxyHandler({
-					sqlAliasedBehavior: "sql",
-					sqlBehavior: "sql"
-				})));
-			}
-			this.config.joins.push({
-				on,
-				table,
-				joinType,
-				alias: tableName
-			});
-			return this;
-		};
-	}
-	leftJoin = this.createJoin("left");
-	rightJoin = this.createJoin("right");
-	innerJoin = this.createJoin("inner");
-	fullJoin = this.createJoin("full");
-	/**
-	* Adds a 'where' clause to the query.
-	*
-	* Calling this method will update only those rows that fulfill a specified condition.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/update}
-	*
-	* @param where the 'where' clause.
-	*
-	* @example
-	* You can use conditional operators and `sql function` to filter the rows to be updated.
-	*
-	* ```ts
-	* // Update all cars with green color
-	* db.update(cars).set({ color: 'red' })
-	*   .where(eq(cars.color, 'green'));
-	* // or
-	* db.update(cars).set({ color: 'red' })
-	*   .where(sql`${cars.color} = 'green'`)
-	* ```
-	*
-	* You can logically combine conditional operators with `and()` and `or()` operators:
-	*
-	* ```ts
-	* // Update all BMW cars with a green color
-	* db.update(cars).set({ color: 'red' })
-	*   .where(and(eq(cars.color, 'green'), eq(cars.brand, 'BMW')));
-	*
-	* // Update all cars with the green or blue color
-	* db.update(cars).set({ color: 'red' })
-	*   .where(or(eq(cars.color, 'green'), eq(cars.color, 'blue')));
-	* ```
-	*/
-	where(where) {
-		this.config.where = where;
-		return this;
-	}
-	orderBy(...columns) {
-		if (typeof columns[0] === "function") {
-			const orderBy = columns[0](new Proxy(this.config.table[Table.Symbol.Columns], new SelectionProxyHandler({
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "sql"
-			})));
-			const orderByArray = Array.isArray(orderBy) ? orderBy : [orderBy];
-			this.config.orderBy = orderByArray;
-		} else {
-			const orderByArray = columns;
-			this.config.orderBy = orderByArray;
-		}
-		return this;
-	}
-	limit(limit) {
-		this.config.limit = limit;
-		return this;
-	}
-	returning(fields = this.config.table[SQLiteTable.Symbol.Columns]) {
-		this.config.returning = orderSelectedFields(fields);
-		return this;
-	}
-	/** @internal */
-	getSQL() {
-		return this.dialect.buildUpdateQuery(this.config);
-	}
-	toSQL() {
-		const { typings: _typings, ...rest } = this.dialect.sqlToQuery(this.getSQL());
-		return rest;
-	}
-	/** @internal */
-	_prepare(isOneTimeQuery = true) {
-		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](this.dialect.sqlToQuery(this.getSQL()), this.config.returning, this.config.returning ? "all" : "run", true, void 0, {
-			type: "insert",
-			tables: extractUsedTable(this.config.table)
-		});
-	}
-	prepare() {
-		return this._prepare(false);
-	}
-	run = (placeholderValues) => {
-		return this._prepare().run(placeholderValues);
-	};
-	all = (placeholderValues) => {
-		return this._prepare().all(placeholderValues);
-	};
-	get = (placeholderValues) => {
-		return this._prepare().get(placeholderValues);
-	};
-	values = (placeholderValues) => {
-		return this._prepare().values(placeholderValues);
-	};
-	async execute() {
-		return this.config.returning ? this.all() : this.run();
-	}
-	$dynamic() {
-		return this;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/count.js
-var SQLiteCountBuilder = class SQLiteCountBuilder extends SQL {
-	constructor(params) {
-		super(SQLiteCountBuilder.buildEmbeddedCount(params.source, params.filters).queryChunks);
-		this.params = params;
-		this.session = params.session;
-		this.sql = SQLiteCountBuilder.buildCount(params.source, params.filters);
-	}
-	sql;
-	static [entityKind] = "SQLiteCountBuilderAsync";
-	[Symbol.toStringTag] = "SQLiteCountBuilderAsync";
-	session;
-	static buildEmbeddedCount(source, filters) {
-		return sql`(select count(*) from ${source}${sql.raw(" where ").if(filters)}${filters})`;
-	}
-	static buildCount(source, filters) {
-		return sql`select count(*) from ${source}${sql.raw(" where ").if(filters)}${filters}`;
-	}
-	then(onfulfilled, onrejected) {
-		return Promise.resolve(this.session.count(this.sql)).then(onfulfilled, onrejected);
-	}
-	catch(onRejected) {
-		return this.then(void 0, onRejected);
-	}
-	finally(onFinally) {
-		return this.then((value) => {
-			onFinally?.();
-			return value;
-		}, (reason) => {
-			onFinally?.();
-			throw reason;
-		});
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/query.js
-var RelationalQueryBuilder = class {
-	constructor(mode, fullSchema, schema, tableNamesMap, table, tableConfig, dialect, session) {
-		this.mode = mode;
-		this.fullSchema = fullSchema;
-		this.schema = schema;
-		this.tableNamesMap = tableNamesMap;
-		this.table = table;
-		this.tableConfig = tableConfig;
-		this.dialect = dialect;
-		this.session = session;
-	}
-	static [entityKind] = "SQLiteAsyncRelationalQueryBuilder";
-	findMany(config) {
-		return this.mode === "sync" ? new SQLiteSyncRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? config : {}, "many") : new SQLiteRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? config : {}, "many");
-	}
-	findFirst(config) {
-		return this.mode === "sync" ? new SQLiteSyncRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? {
-			...config,
-			limit: 1
-		} : { limit: 1 }, "first") : new SQLiteRelationalQuery(this.fullSchema, this.schema, this.tableNamesMap, this.table, this.tableConfig, this.dialect, this.session, config ? {
-			...config,
-			limit: 1
-		} : { limit: 1 }, "first");
-	}
-};
-var SQLiteRelationalQuery = class extends QueryPromise {
-	constructor(fullSchema, schema, tableNamesMap, table, tableConfig, dialect, session, config, mode) {
-		super();
-		this.fullSchema = fullSchema;
-		this.schema = schema;
-		this.tableNamesMap = tableNamesMap;
-		this.table = table;
-		this.tableConfig = tableConfig;
-		this.dialect = dialect;
-		this.session = session;
-		this.config = config;
-		this.mode = mode;
-	}
-	static [entityKind] = "SQLiteAsyncRelationalQuery";
-	/** @internal */
-	mode;
-	/** @internal */
-	getSQL() {
-		return this.dialect.buildRelationalQuery({
-			fullSchema: this.fullSchema,
-			schema: this.schema,
-			tableNamesMap: this.tableNamesMap,
-			table: this.table,
-			tableConfig: this.tableConfig,
-			queryConfig: this.config,
-			tableAlias: this.tableConfig.tsName
-		}).sql;
-	}
-	/** @internal */
-	_prepare(isOneTimeQuery = false) {
-		const { query, builtQuery } = this._toSQL();
-		return this.session[isOneTimeQuery ? "prepareOneTimeQuery" : "prepareQuery"](builtQuery, void 0, this.mode === "first" ? "get" : "all", true, (rawRows, mapColumnValue) => {
-			const rows = rawRows.map((row) => mapRelationalRow(this.schema, this.tableConfig, row, query.selection, mapColumnValue));
-			if (this.mode === "first") return rows[0];
-			return rows;
-		});
-	}
-	prepare() {
-		return this._prepare(false);
-	}
-	_toSQL() {
-		const query = this.dialect.buildRelationalQuery({
-			fullSchema: this.fullSchema,
-			schema: this.schema,
-			tableNamesMap: this.tableNamesMap,
-			table: this.table,
-			tableConfig: this.tableConfig,
-			queryConfig: this.config,
-			tableAlias: this.tableConfig.tsName
-		});
-		return {
-			query,
-			builtQuery: this.dialect.sqlToQuery(query.sql)
-		};
-	}
-	toSQL() {
-		return this._toSQL().builtQuery;
-	}
-	/** @internal */
-	executeRaw() {
-		if (this.mode === "first") return this._prepare(false).get();
-		return this._prepare(false).all();
-	}
-	async execute() {
-		return this.executeRaw();
-	}
-};
-var SQLiteSyncRelationalQuery = class extends SQLiteRelationalQuery {
-	static [entityKind] = "SQLiteSyncRelationalQuery";
-	sync() {
-		return this.executeRaw();
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/query-builders/raw.js
-var SQLiteRaw = class extends QueryPromise {
-	constructor(execute, getSQL, action, dialect, mapBatchResult) {
-		super();
-		this.execute = execute;
-		this.getSQL = getSQL;
-		this.dialect = dialect;
-		this.mapBatchResult = mapBatchResult;
-		this.config = { action };
-	}
-	static [entityKind] = "SQLiteRaw";
-	/** @internal */
-	config;
-	getQuery() {
-		return {
-			...this.dialect.sqlToQuery(this.getSQL()),
-			method: this.config.action
-		};
-	}
-	mapResult(result, isFromBatch) {
-		return isFromBatch ? this.mapBatchResult(result) : result;
-	}
-	_prepare() {
-		return this;
-	}
-	/** @internal */
-	isResponseInArrayMode() {
-		return false;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/db.js
-var BaseSQLiteDatabase = class {
-	constructor(resultKind, dialect, session, schema) {
-		this.resultKind = resultKind;
-		this.dialect = dialect;
-		this.session = session;
-		this._ = schema ? {
-			schema: schema.schema,
-			fullSchema: schema.fullSchema,
-			tableNamesMap: schema.tableNamesMap
-		} : {
-			schema: void 0,
-			fullSchema: {},
-			tableNamesMap: {}
-		};
-		this.query = {};
-		const query = this.query;
-		if (this._.schema) for (const [tableName, columns] of Object.entries(this._.schema)) query[tableName] = new RelationalQueryBuilder(resultKind, schema.fullSchema, this._.schema, this._.tableNamesMap, schema.fullSchema[tableName], columns, dialect, session);
-		this.$cache = { invalidate: async (_params) => {} };
-	}
-	static [entityKind] = "BaseSQLiteDatabase";
-	query;
-	/**
-	* Creates a subquery that defines a temporary named result set as a CTE.
-	*
-	* It is useful for breaking down complex queries into simpler parts and for reusing the result set in subsequent parts of the query.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#with-clause}
-	*
-	* @param alias The alias for the subquery.
-	*
-	* Failure to provide an alias will result in a DrizzleTypeError, preventing the subquery from being referenced in other queries.
-	*
-	* @example
-	*
-	* ```ts
-	* // Create a subquery with alias 'sq' and use it in the select query
-	* const sq = db.$with('sq').as(db.select().from(users).where(eq(users.id, 42)));
-	*
-	* const result = await db.with(sq).select().from(sq);
-	* ```
-	*
-	* To select arbitrary SQL values as fields in a CTE and reference them in other CTEs or in the main query, you need to add aliases to them:
-	*
-	* ```ts
-	* // Select an arbitrary SQL value as a field in a CTE and reference it in the main query
-	* const sq = db.$with('sq').as(db.select({
-	*   name: sql<string>`upper(${users.name})`.as('name'),
-	* })
-	* .from(users));
-	*
-	* const result = await db.with(sq).select({ name: sq.name }).from(sq);
-	* ```
-	*/
-	$with = (alias, selection) => {
-		const self = this;
-		const as = (qb) => {
-			if (typeof qb === "function") qb = qb(new QueryBuilder(self.dialect));
-			return new Proxy(new WithSubquery(qb.getSQL(), selection ?? ("getSelectedFields" in qb ? qb.getSelectedFields() ?? {} : {}), alias, true), new SelectionProxyHandler({
-				alias,
-				sqlAliasedBehavior: "alias",
-				sqlBehavior: "error"
-			}));
-		};
-		return { as };
-	};
-	$count(source, filters) {
-		return new SQLiteCountBuilder({
-			source,
-			filters,
-			session: this.session
-		});
-	}
-	/**
-	* Incorporates a previously defined CTE (using `$with`) into the main query.
-	*
-	* This method allows the main query to reference a temporary named result set.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/select#with-clause}
-	*
-	* @param queries The CTEs to incorporate into the main query.
-	*
-	* @example
-	*
-	* ```ts
-	* // Define a subquery 'sq' as a CTE using $with
-	* const sq = db.$with('sq').as(db.select().from(users).where(eq(users.id, 42)));
-	*
-	* // Incorporate the CTE 'sq' into the main query and select from it
-	* const result = await db.with(sq).select().from(sq);
-	* ```
-	*/
-	with(...queries) {
-		const self = this;
-		function select(fields) {
-			return new SQLiteSelectBuilder({
-				fields: fields ?? void 0,
-				session: self.session,
-				dialect: self.dialect,
-				withList: queries
-			});
-		}
-		function selectDistinct(fields) {
-			return new SQLiteSelectBuilder({
-				fields: fields ?? void 0,
-				session: self.session,
-				dialect: self.dialect,
-				withList: queries,
-				distinct: true
-			});
-		}
-		function update(table) {
-			return new SQLiteUpdateBuilder(table, self.session, self.dialect, queries);
-		}
-		function insert(into) {
-			return new SQLiteInsertBuilder(into, self.session, self.dialect, queries);
-		}
-		function delete_(from) {
-			return new SQLiteDeleteBase(from, self.session, self.dialect, queries);
-		}
-		return {
-			select,
-			selectDistinct,
-			update,
-			insert,
-			delete: delete_
-		};
-	}
-	select(fields) {
-		return new SQLiteSelectBuilder({
-			fields: fields ?? void 0,
-			session: this.session,
-			dialect: this.dialect
-		});
-	}
-	selectDistinct(fields) {
-		return new SQLiteSelectBuilder({
-			fields: fields ?? void 0,
-			session: this.session,
-			dialect: this.dialect,
-			distinct: true
-		});
-	}
-	/**
-	* Creates an update query.
-	*
-	* Calling this method without `.where()` clause will update all rows in a table. The `.where()` clause specifies which rows should be updated.
-	*
-	* Use `.set()` method to specify which values to update.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/update}
-	*
-	* @param table The table to update.
-	*
-	* @example
-	*
-	* ```ts
-	* // Update all rows in the 'cars' table
-	* await db.update(cars).set({ color: 'red' });
-	*
-	* // Update rows with filters and conditions
-	* await db.update(cars).set({ color: 'red' }).where(eq(cars.brand, 'BMW'));
-	*
-	* // Update with returning clause
-	* const updatedCar: Car[] = await db.update(cars)
-	*   .set({ color: 'red' })
-	*   .where(eq(cars.id, 1))
-	*   .returning();
-	* ```
-	*/
-	update(table) {
-		return new SQLiteUpdateBuilder(table, this.session, this.dialect);
-	}
-	$cache;
-	/**
-	* Creates an insert query.
-	*
-	* Calling this method will create new rows in a table. Use `.values()` method to specify which values to insert.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/insert}
-	*
-	* @param table The table to insert into.
-	*
-	* @example
-	*
-	* ```ts
-	* // Insert one row
-	* await db.insert(cars).values({ brand: 'BMW' });
-	*
-	* // Insert multiple rows
-	* await db.insert(cars).values([{ brand: 'BMW' }, { brand: 'Porsche' }]);
-	*
-	* // Insert with returning clause
-	* const insertedCar: Car[] = await db.insert(cars)
-	*   .values({ brand: 'BMW' })
-	*   .returning();
-	* ```
-	*/
-	insert(into) {
-		return new SQLiteInsertBuilder(into, this.session, this.dialect);
-	}
-	/**
-	* Creates a delete query.
-	*
-	* Calling this method without `.where()` clause will delete all rows in a table. The `.where()` clause specifies which rows should be deleted.
-	*
-	* See docs: {@link https://orm.drizzle.team/docs/delete}
-	*
-	* @param table The table to delete from.
-	*
-	* @example
-	*
-	* ```ts
-	* // Delete all rows in the 'cars' table
-	* await db.delete(cars);
-	*
-	* // Delete rows with filters and conditions
-	* await db.delete(cars).where(eq(cars.color, 'green'));
-	*
-	* // Delete with returning clause
-	* const deletedCar: Car[] = await db.delete(cars)
-	*   .where(eq(cars.id, 1))
-	*   .returning();
-	* ```
-	*/
-	delete(from) {
-		return new SQLiteDeleteBase(from, this.session, this.dialect);
-	}
-	run(query) {
-		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
-		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.run(sequel), () => sequel, "run", this.dialect, this.session.extractRawRunValueFromBatchResult.bind(this.session));
-		return this.session.run(sequel);
-	}
-	all(query) {
-		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
-		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.all(sequel), () => sequel, "all", this.dialect, this.session.extractRawAllValueFromBatchResult.bind(this.session));
-		return this.session.all(sequel);
-	}
-	get(query) {
-		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
-		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.get(sequel), () => sequel, "get", this.dialect, this.session.extractRawGetValueFromBatchResult.bind(this.session));
-		return this.session.get(sequel);
-	}
-	values(query) {
-		const sequel = typeof query === "string" ? sql.raw(query) : query.getSQL();
-		if (this.resultKind === "async") return new SQLiteRaw(async () => this.session.values(sequel), () => sequel, "values", this.dialect, this.session.extractRawValuesValueFromBatchResult.bind(this.session));
-		return this.session.values(sequel);
-	}
-	transaction(transaction, config) {
-		return this.session.transaction(transaction, config);
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/cache/core/cache.js
-var Cache = class {
-	static [entityKind] = "Cache";
-};
-var NoopCache = class extends Cache {
-	strategy() {
-		return "all";
-	}
-	static [entityKind] = "NoopCache";
-	async get(_key) {}
-	async put(_hashedQuery, _response, _tables, _config) {}
-	async onMutate(_params) {}
-};
-async function hashQuery(sql, params) {
-	const dataToHash = `${sql}-${JSON.stringify(params)}`;
-	const data = new TextEncoder().encode(dataToHash);
-	const hashBuffer = await crypto.subtle.digest("SHA-256", data);
-	return [...new Uint8Array(hashBuffer)].map((b) => b.toString(16).padStart(2, "0")).join("");
-}
-//#endregion
-//#region node_modules/drizzle-orm/sqlite-core/session.js
-var ExecuteResultSync = class extends QueryPromise {
-	constructor(resultCb) {
-		super();
-		this.resultCb = resultCb;
-	}
-	static [entityKind] = "ExecuteResultSync";
-	async execute() {
-		return this.resultCb();
-	}
-	sync() {
-		return this.resultCb();
-	}
-};
-var SQLitePreparedQuery = class {
-	constructor(mode, executeMethod, query, cache, queryMetadata, cacheConfig) {
-		this.mode = mode;
-		this.executeMethod = executeMethod;
-		this.query = query;
-		this.cache = cache;
-		this.queryMetadata = queryMetadata;
-		this.cacheConfig = cacheConfig;
-		if (cache && cache.strategy() === "all" && cacheConfig === void 0) this.cacheConfig = {
-			enable: true,
-			autoInvalidate: true
-		};
-		if (!this.cacheConfig?.enable) this.cacheConfig = void 0;
-	}
-	static [entityKind] = "PreparedQuery";
-	/** @internal */
-	joinsNotNullableMap;
-	/** @internal */
-	async queryWithCache(queryString, params, query) {
-		if (this.cache === void 0 || is(this.cache, NoopCache) || this.queryMetadata === void 0) try {
-			return await query();
-		} catch (e) {
-			throw new DrizzleQueryError(queryString, params, e);
-		}
-		if (this.cacheConfig && !this.cacheConfig.enable) try {
-			return await query();
-		} catch (e) {
-			throw new DrizzleQueryError(queryString, params, e);
-		}
-		if ((this.queryMetadata.type === "insert" || this.queryMetadata.type === "update" || this.queryMetadata.type === "delete") && this.queryMetadata.tables.length > 0) try {
-			const [res] = await Promise.all([query(), this.cache.onMutate({ tables: this.queryMetadata.tables })]);
-			return res;
-		} catch (e) {
-			throw new DrizzleQueryError(queryString, params, e);
-		}
-		if (!this.cacheConfig) try {
-			return await query();
-		} catch (e) {
-			throw new DrizzleQueryError(queryString, params, e);
-		}
-		if (this.queryMetadata.type === "select") {
-			const fromCache = await this.cache.get(this.cacheConfig.tag ?? await hashQuery(queryString, params), this.queryMetadata.tables, this.cacheConfig.tag !== void 0, this.cacheConfig.autoInvalidate);
-			if (fromCache === void 0) {
-				let result;
-				try {
-					result = await query();
-				} catch (e) {
-					throw new DrizzleQueryError(queryString, params, e);
-				}
-				await this.cache.put(this.cacheConfig.tag ?? await hashQuery(queryString, params), result, this.cacheConfig.autoInvalidate ? this.queryMetadata.tables : [], this.cacheConfig.tag !== void 0, this.cacheConfig.config);
-				return result;
-			}
-			return fromCache;
-		}
-		try {
-			return await query();
-		} catch (e) {
-			throw new DrizzleQueryError(queryString, params, e);
-		}
-	}
-	getQuery() {
-		return this.query;
-	}
-	mapRunResult(result, _isFromBatch) {
-		return result;
-	}
-	mapAllResult(_result, _isFromBatch) {
-		throw new Error("Not implemented");
-	}
-	mapGetResult(_result, _isFromBatch) {
-		throw new Error("Not implemented");
-	}
-	execute(placeholderValues) {
-		if (this.mode === "async") return this[this.executeMethod](placeholderValues);
-		return new ExecuteResultSync(() => this[this.executeMethod](placeholderValues));
-	}
-	mapResult(response, isFromBatch) {
-		switch (this.executeMethod) {
-			case "run": return this.mapRunResult(response, isFromBatch);
-			case "all": return this.mapAllResult(response, isFromBatch);
-			case "get": return this.mapGetResult(response, isFromBatch);
-		}
-	}
-};
-var SQLiteSession = class {
-	constructor(dialect) {
-		this.dialect = dialect;
-	}
-	static [entityKind] = "SQLiteSession";
-	prepareOneTimeQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig) {
-		return this.prepareQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig);
-	}
-	run(query) {
-		const staticQuery = this.dialect.sqlToQuery(query);
-		try {
-			return this.prepareOneTimeQuery(staticQuery, void 0, "run", false).run();
-		} catch (err) {
-			throw new DrizzleError({
-				cause: err,
-				message: `Failed to run the query '${staticQuery.sql}'`
-			});
-		}
-	}
-	/** @internal */
-	extractRawRunValueFromBatchResult(result) {
-		return result;
-	}
-	all(query) {
-		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).all();
-	}
-	/** @internal */
-	extractRawAllValueFromBatchResult(_result) {
-		throw new Error("Not implemented");
-	}
-	get(query) {
-		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).get();
-	}
-	/** @internal */
-	extractRawGetValueFromBatchResult(_result) {
-		throw new Error("Not implemented");
-	}
-	values(query) {
-		return this.prepareOneTimeQuery(this.dialect.sqlToQuery(query), void 0, "run", false).values();
-	}
-	async count(sql) {
-		return (await this.values(sql))[0][0];
-	}
-	/** @internal */
-	extractRawValuesValueFromBatchResult(_result) {
-		throw new Error("Not implemented");
-	}
-};
-var SQLiteTransaction = class extends BaseSQLiteDatabase {
-	constructor(resultType, dialect, session, schema, nestedIndex = 0) {
-		super(resultType, dialect, session, schema);
-		this.schema = schema;
-		this.nestedIndex = nestedIndex;
-	}
-	static [entityKind] = "SQLiteTransaction";
-	rollback() {
-		throw new TransactionRollbackError();
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/d1/session.js
-var SQLiteD1Session = class extends SQLiteSession {
-	constructor(client, dialect, schema, options = {}) {
-		super(dialect);
-		this.client = client;
-		this.schema = schema;
-		this.options = options;
-		this.logger = options.logger ?? new NoopLogger();
-		this.cache = options.cache ?? new NoopCache();
-	}
-	static [entityKind] = "SQLiteD1Session";
-	logger;
-	cache;
-	prepareQuery(query, fields, executeMethod, isResponseInArrayMode, customResultMapper, queryMetadata, cacheConfig) {
-		return new D1PreparedQuery(this.client.prepare(query.sql), query, this.logger, this.cache, queryMetadata, cacheConfig, fields, executeMethod, isResponseInArrayMode, customResultMapper);
-	}
-	async batch(queries) {
-		const preparedQueries = [];
-		const builtQueries = [];
-		for (const query of queries) {
-			const preparedQuery = query._prepare();
-			const builtQuery = preparedQuery.getQuery();
-			preparedQueries.push(preparedQuery);
-			if (builtQuery.params.length > 0) builtQueries.push(preparedQuery.stmt.bind(...builtQuery.params));
-			else {
-				const builtQuery2 = preparedQuery.getQuery();
-				builtQueries.push(this.client.prepare(builtQuery2.sql).bind(...builtQuery2.params));
-			}
-		}
-		return (await this.client.batch(builtQueries)).map((result, i) => preparedQueries[i].mapResult(result, true));
-	}
-	extractRawAllValueFromBatchResult(result) {
-		return result.results;
-	}
-	extractRawGetValueFromBatchResult(result) {
-		return result.results[0];
-	}
-	extractRawValuesValueFromBatchResult(result) {
-		return d1ToRawMapping(result.results);
-	}
-	async transaction(transaction, config) {
-		const tx = new D1Transaction("async", this.dialect, this, this.schema);
-		await this.run(sql.raw(`begin${config?.behavior ? " " + config.behavior : ""}`));
-		try {
-			const result = await transaction(tx);
-			await this.run(sql`commit`);
-			return result;
-		} catch (err) {
-			await this.run(sql`rollback`);
-			throw err;
-		}
-	}
-};
-var D1Transaction = class D1Transaction extends SQLiteTransaction {
-	static [entityKind] = "D1Transaction";
-	async transaction(transaction) {
-		const savepointName = `sp${this.nestedIndex}`;
-		const tx = new D1Transaction("async", this.dialect, this.session, this.schema, this.nestedIndex + 1);
-		await this.session.run(sql.raw(`savepoint ${savepointName}`));
-		try {
-			const result = await transaction(tx);
-			await this.session.run(sql.raw(`release savepoint ${savepointName}`));
-			return result;
-		} catch (err) {
-			await this.session.run(sql.raw(`rollback to savepoint ${savepointName}`));
-			throw err;
-		}
-	}
-};
-function d1ToRawMapping(results) {
-	const rows = [];
-	for (const row of results) {
-		const entry = Object.keys(row).map((k) => row[k]);
-		rows.push(entry);
-	}
-	return rows;
-}
-var D1PreparedQuery = class extends SQLitePreparedQuery {
-	constructor(stmt, query, logger, cache, queryMetadata, cacheConfig, fields, executeMethod, _isResponseInArrayMode, customResultMapper) {
-		super("async", executeMethod, query, cache, queryMetadata, cacheConfig);
-		this.logger = logger;
-		this._isResponseInArrayMode = _isResponseInArrayMode;
-		this.customResultMapper = customResultMapper;
-		this.fields = fields;
-		this.stmt = stmt;
-	}
-	static [entityKind] = "D1PreparedQuery";
-	/** @internal */
-	customResultMapper;
-	/** @internal */
-	fields;
-	/** @internal */
-	stmt;
-	async run(placeholderValues) {
-		const params = fillPlaceholders(this.query.params, placeholderValues ?? {});
-		this.logger.logQuery(this.query.sql, params);
-		return await this.queryWithCache(this.query.sql, params, async () => {
-			return this.stmt.bind(...params).run();
-		});
-	}
-	async all(placeholderValues) {
-		const { fields, query, logger, stmt, customResultMapper } = this;
-		if (!fields && !customResultMapper) {
-			const params = fillPlaceholders(query.params, placeholderValues ?? {});
-			logger.logQuery(query.sql, params);
-			return await this.queryWithCache(query.sql, params, async () => {
-				return stmt.bind(...params).all().then(({ results }) => this.mapAllResult(results));
-			});
-		}
-		const rows = await this.values(placeholderValues);
-		return this.mapAllResult(rows);
-	}
-	mapAllResult(rows, isFromBatch) {
-		if (isFromBatch) rows = d1ToRawMapping(rows.results);
-		if (!this.fields && !this.customResultMapper) return rows;
-		if (this.customResultMapper) return this.customResultMapper(rows);
-		return rows.map((row) => mapResultRow(this.fields, row, this.joinsNotNullableMap));
-	}
-	async get(placeholderValues) {
-		const { fields, joinsNotNullableMap, query, logger, stmt, customResultMapper } = this;
-		if (!fields && !customResultMapper) {
-			const params = fillPlaceholders(query.params, placeholderValues ?? {});
-			logger.logQuery(query.sql, params);
-			return await this.queryWithCache(query.sql, params, async () => {
-				return stmt.bind(...params).all().then(({ results }) => results[0]);
-			});
-		}
-		const rows = await this.values(placeholderValues);
-		if (!rows[0]) return;
-		if (customResultMapper) return customResultMapper(rows);
-		return mapResultRow(fields, rows[0], joinsNotNullableMap);
-	}
-	mapGetResult(result, isFromBatch) {
-		if (isFromBatch) result = d1ToRawMapping(result.results)[0];
-		if (!this.fields && !this.customResultMapper) return result;
-		if (this.customResultMapper) return this.customResultMapper([result]);
-		return mapResultRow(this.fields, result, this.joinsNotNullableMap);
-	}
-	async values(placeholderValues) {
-		const params = fillPlaceholders(this.query.params, placeholderValues ?? {});
-		this.logger.logQuery(this.query.sql, params);
-		return await this.queryWithCache(this.query.sql, params, async () => {
-			return this.stmt.bind(...params).raw();
-		});
-	}
-	/** @internal */
-	isResponseInArrayMode() {
-		return this._isResponseInArrayMode;
-	}
-};
-//#endregion
-//#region node_modules/drizzle-orm/d1/driver.js
-var DrizzleD1Database = class extends BaseSQLiteDatabase {
-	static [entityKind] = "D1Database";
-	async batch(batch) {
-		return this.session.batch(batch);
-	}
-};
-function drizzle(client, config = {}) {
-	const dialect = new SQLiteAsyncDialect({ casing: config.casing });
-	let logger;
-	if (config.logger === true) logger = new DefaultLogger();
-	else if (config.logger !== false) logger = config.logger;
-	let schema;
-	if (config.schema) {
-		const tablesConfig = extractTablesRelationalConfig(config.schema, createTableRelationsHelpers);
-		schema = {
-			fullSchema: config.schema,
-			schema: tablesConfig.tables,
-			tableNamesMap: tablesConfig.tableNamesMap
-		};
-	}
-	const db = new DrizzleD1Database("async", dialect, new SQLiteD1Session(client, dialect, schema, {
-		logger,
-		cache: config.cache
-	}), schema);
-	db.$client = client;
-	db.$cache = config.cache;
-	if (db.$cache) db.$cache["invalidate"] = config.cache?.onMutate;
-	return db;
-}
-//#endregion
-//#region db/schema.ts
-var schema_exports = /* @__PURE__ */ __exportAll({
-	authIdentities: () => authIdentities,
-	authSessions: () => authSessions,
-	authTransactions: () => authTransactions,
-	communityComments: () => communityComments,
-	communityPosts: () => communityPosts,
-	communityReactions: () => communityReactions,
-	companies: () => companies,
-	farmRecords: () => farmRecords,
-	farms: () => farms,
-	feedbackSubmissions: () => feedbackSubmissions,
-	knowledgeArticles: () => knowledgeArticles,
-	marketplaceListings: () => marketplaceListings,
-	orderRequests: () => orderRequests,
-	passkeyCredentials: () => passkeyCredentials,
-	professionals: () => professionals,
-	projectProposals: () => projectProposals,
-	publicFarmProfiles: () => publicFarmProfiles,
-	securityChallenges: () => securityChallenges,
-	syncReceipts: () => syncReceipts,
-	trustedDevices: () => trustedDevices,
-	userConsents: () => userConsents,
-	users: () => users,
-	websiteContent: () => websiteContent
-});
-var users = sqliteTable("users", {
-	id: text$1("id").primaryKey(),
-	email: text$1("email").notNull(),
-	displayName: text$1("display_name"),
-	phoneE164: text$1("phone_e164"),
-	phoneVerifiedAt: text$1("phone_verified_at"),
-	lastSeenAt: text$1("last_seen_at"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [uniqueIndex("idx_users_email").on(table.email)]);
-var farms = sqliteTable("farms", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull().references(() => users.id),
-	name: text$1("name").notNull(),
-	location: text$1("location"),
-	areaSqM: integer("area_sq_m"),
-	boundaryShape: text$1("boundary_shape").notNull().default("Irregular / polígono"),
-	boundaryJson: text$1("boundary_json").notNull().default("{}"),
-	objective: text$1("objective"),
-	clientUpdatedAt: text$1("client_updated_at").notNull(),
-	serverUpdatedAt: text$1("server_updated_at").notNull(),
-	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
-}, (table) => [index("idx_farms_owner").on(table.ownerId)]);
-var farmRecords = sqliteTable("farm_records", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull().references(() => users.id),
-	farmId: text$1("farm_id").notNull().references(() => farms.id),
-	recordType: text$1("record_type").notNull(),
-	category: text$1("category"),
-	title: text$1("title").notNull(),
-	dataJson: text$1("data_json").notNull(),
-	clientUpdatedAt: text$1("client_updated_at").notNull(),
-	serverUpdatedAt: text$1("server_updated_at").notNull(),
-	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
-}, (table) => [
-	index("idx_farm_records_owner_type").on(table.ownerId, table.recordType),
-	index("idx_farm_records_farm_type").on(table.farmId, table.recordType),
-	index("idx_farm_records_category").on(table.category)
-]);
-var marketplaceListings = sqliteTable("marketplace_listings", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id"),
-	sellerName: text$1("seller_name").notNull(),
-	title: text$1("title").notNull(),
-	description: text$1("description").notNull(),
-	category: text$1("category").notNull(),
-	priceCents: integer("price_cents"),
-	currency: text$1("currency").notNull().default("USD"),
-	location: text$1("location").notNull(),
-	state: text$1("state").notNull().default(""),
-	municipality: text$1("municipality").notNull().default(""),
-	shortIntro: text$1("short_intro").notNull().default(""),
-	photoContext: text$1("photo_context").notNull().default(""),
-	saleFormat: text$1("sale_format").notNull().default("A convenir"),
-	supplyUnit: text$1("supply_unit").notNull().default("unidad"),
-	minimumOrder: text$1("minimum_order").notNull().default(""),
-	buyerType: text$1("buyer_type").notNull().default("Personas y empresas"),
-	seoTitle: text$1("seo_title").notNull().default(""),
-	seoDescription: text$1("seo_description").notNull().default(""),
-	imageAlt: text$1("image_alt").notNull().default(""),
-	contact: text$1("contact"),
-	imageKey: text$1("image_key"),
-	status: text$1("status").notNull().default("pending"),
-	clientUpdatedAt: text$1("client_updated_at").notNull(),
-	serverUpdatedAt: text$1("server_updated_at").notNull(),
-	deleted: integer("deleted", { mode: "boolean" }).notNull().default(false)
-}, (table) => [
-	index("idx_listings_status_category").on(table.status, table.category),
-	index("idx_listings_owner").on(table.ownerId),
-	index("idx_listings_updated").on(table.serverUpdatedAt)
-]);
-var userConsents = sqliteTable("user_consents", {
-	id: text$1("id").primaryKey(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	policyVersion: text$1("policy_version").notNull(),
-	essentialAccepted: integer("essential_accepted", { mode: "boolean" }).notNull().default(false),
-	publicContentAccepted: integer("public_content_accepted", { mode: "boolean" }).notNull().default(false),
-	securitySignalsAccepted: integer("security_signals_accepted", { mode: "boolean" }).notNull().default(false),
-	acceptedAt: text$1("accepted_at").notNull(),
-	revokedAt: text$1("revoked_at")
-}, (table) => [index("idx_user_consents_user").on(table.userId), uniqueIndex("idx_user_consents_user_version").on(table.userId, table.policyVersion)]);
-var trustedDevices = sqliteTable("trusted_devices", {
-	id: text$1("id").primaryKey(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	tokenHash: text$1("token_hash").notNull(),
-	label: text$1("label").notNull(),
-	platform: text$1("platform"),
-	timezone: text$1("timezone"),
-	connectionClass: text$1("connection_class"),
-	networkHintHash: text$1("network_hint_hash"),
-	countryCode: text$1("country_code"),
-	lastVerifiedAt: text$1("last_verified_at"),
-	createdAt: text$1("created_at").notNull(),
-	expiresAt: text$1("expires_at").notNull(),
-	revokedAt: text$1("revoked_at")
-}, (table) => [index("idx_trusted_devices_user").on(table.userId), uniqueIndex("idx_trusted_devices_token").on(table.tokenHash)]);
-var passkeyCredentials = sqliteTable("passkey_credentials", {
-	id: text$1("id").primaryKey(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	webauthnUserId: text$1("webauthn_user_id").notNull(),
-	publicKey: text$1("public_key").notNull(),
-	counter: integer("counter").notNull().default(0),
-	deviceType: text$1("device_type").notNull(),
-	backedUp: integer("backed_up", { mode: "boolean" }).notNull().default(false),
-	transports: text$1("transports").notNull().default("[]"),
-	createdAt: text$1("created_at").notNull(),
-	lastUsedAt: text$1("last_used_at")
-}, (table) => [index("idx_passkeys_user").on(table.userId)]);
-var securityChallenges = sqliteTable("security_challenges", {
-	id: text$1("id").primaryKey(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	purpose: text$1("purpose").notNull(),
-	challenge: text$1("challenge").notNull(),
-	webauthnUserId: text$1("webauthn_user_id"),
-	createdAt: text$1("created_at").notNull(),
-	expiresAt: text$1("expires_at").notNull(),
-	consumedAt: text$1("consumed_at")
-}, (table) => [index("idx_security_challenges_user_purpose").on(table.userId, table.purpose)]);
-var professionals = sqliteTable("professionals", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull().references(() => users.id),
-	name: text$1("name").notNull(),
-	profession: text$1("profession").notNull(),
-	specialties: text$1("specialties").notNull(),
-	state: text$1("state").notNull(),
-	municipality: text$1("municipality").notNull().default(""),
-	serviceMode: text$1("service_mode").notNull(),
-	introduction: text$1("introduction").notNull(),
-	contact: text$1("contact").notNull(),
-	credentialNote: text$1("credential_note").notNull().default(""),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [index("idx_professionals_status_state").on(table.status, table.state)]);
-var projectProposals = sqliteTable("project_proposals", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull().references(() => users.id),
-	title: text$1("title").notNull(),
-	sector: text$1("sector").notNull(),
-	state: text$1("state").notNull(),
-	summary: text$1("summary").notNull(),
-	hasJson: text$1("has_json").notNull(),
-	needsJson: text$1("needs_json").notNull(),
-	impact: text$1("impact").notNull(),
-	requestedSupport: text$1("requested_support").notNull(),
-	contact: text$1("contact").notNull(),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [index("idx_projects_status_sector").on(table.status, table.sector)]);
-var feedbackSubmissions = sqliteTable("feedback_submissions", {
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id"),
-	area: text$1("area").notNull(),
-	role: text$1("role").notNull(),
-	message: text$1("message").notNull(),
-	contact: text$1("contact"),
-	status: text$1("status").notNull().default("new"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [index("idx_feedback_status_area").on(table.status, table.area)]);
-var orderRequests = sqliteTable("order_requests", {
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id"),
-	customerName: text$1("customer_name").notNull(),
-	email: text$1("email"),
-	phone: text$1("phone"),
-	itemsJson: text$1("items_json").notNull(),
-	note: text$1("note"),
-	status: text$1("status").notNull().default("new"),
-	clientUpdatedAt: text$1("client_updated_at").notNull(),
-	serverUpdatedAt: text$1("server_updated_at").notNull()
-}, (table) => [index("idx_order_requests_status").on(table.status), index("idx_order_requests_owner").on(table.ownerId)]);
-var knowledgeArticles = sqliteTable("knowledge_articles", {
-	slug: text$1("slug").primaryKey(),
-	category: text$1("category").notNull(),
-	emoji: text$1("emoji").notNull().default("🌿"),
-	title: text$1("title").notNull(),
-	description: text$1("description").notNull(),
-	bodyJson: text$1("body_json").notNull(),
-	keywords: text$1("keywords").notNull().default(""),
-	readMinutes: integer("read_minutes").notNull().default(5),
-	status: text$1("status").notNull().default("draft"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [index("idx_knowledge_articles_status_updated").on(table.status, table.updatedAt)]);
-var syncReceipts = sqliteTable("sync_receipts", {
-	receiptStatus: text$1("receipt_status").notNull().default("accepted"),
-	serverRevision: text$1("server_revision"),
-	operationHash: text$1("operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerKey: text$1("owner_key").notNull(),
-	entityType: text$1("entity_type").notNull(),
-	entityId: text$1("entity_id").notNull(),
-	createdAt: text$1("created_at").notNull()
-}, (table) => [index("idx_sync_receipts_owner").on(table.ownerKey), index("idx_sync_receipts_entity").on(table.entityType, table.entityId)]);
-var publicFarmProfiles = sqliteTable("public_farm_profiles", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull(),
-	name: text$1("name").notNull(),
-	state: text$1("state").notNull(),
-	profileJson: text$1("profile_json").notNull(),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (t) => [index("idx_public_farms_status_state").on(t.status, t.state), index("idx_public_farms_owner").on(t.ownerId)]);
-var communityPosts = sqliteTable("community_posts", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull(),
-	farmId: text$1("farm_id").notNull(),
-	body: text$1("body").notNull(),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (t) => [index("idx_community_posts_status_date").on(t.status, t.createdAt), index("idx_community_posts_farm").on(t.farmId)]);
-var communityComments = sqliteTable("community_comments", {
-	revision: text$1("revision").notNull().default(""),
-	lastOperationId: text$1("last_operation_id"),
-	lastOperationHash: text$1("last_operation_hash"),
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull(),
-	postId: text$1("post_id").notNull(),
-	authorName: text$1("author_name").notNull(),
-	body: text$1("body").notNull(),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (t) => [index("idx_community_comments_post_status").on(t.postId, t.status)]);
-var communityReactions = sqliteTable("community_reactions", {
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull(),
-	postId: text$1("post_id").notNull(),
-	liked: integer("liked", { mode: "boolean" }).notNull().default(true),
-	updatedAt: text$1("updated_at").notNull()
-}, (t) => [index("idx_community_reactions_post").on(t.postId)]);
-/** Moderated business directory. The owner identity is never a public field. */
-var companies = sqliteTable("companies", {
-	id: text$1("id").primaryKey(),
-	ownerId: text$1("owner_id").notNull().references(() => users.id),
-	revision: text$1("revision").notNull(),
-	name: text$1("name").notNull(),
-	category: text$1("category").notNull(),
-	state: text$1("state").notNull(),
-	municipality: text$1("municipality").notNull().default(""),
-	description: text$1("description").notNull(),
-	profileJson: text$1("profile_json").notNull(),
-	status: text$1("status").notNull().default("pending"),
-	createdAt: text$1("created_at").notNull(),
-	updatedAt: text$1("updated_at").notNull()
-}, (table) => [
-	index("idx_companies_status_category").on(table.status, table.category),
-	index("idx_companies_status_state").on(table.status, table.state),
-	index("idx_companies_owner").on(table.ownerId),
-	index("idx_companies_updated").on(table.updatedAt)
-]);
-var websiteContent = sqliteTable("website_content", {
-	id: text$1("id").primaryKey(),
-	draftJson: text$1("draft_json").notNull(),
-	publishedJson: text$1("published_json"),
-	revision: text$1("revision").notNull(),
-	updatedAt: text$1("updated_at").notNull(),
-	publishedAt: text$1("published_at")
-});
-var authIdentities = sqliteTable("auth_identities", {
-	provider: text$1("provider").notNull(),
-	subject: text$1("subject").notNull(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	createdAt: text$1("created_at").notNull()
-}, (table) => [uniqueIndex("idx_auth_identity_subject").on(table.provider, table.subject), uniqueIndex("idx_auth_identity_user").on(table.provider, table.userId)]);
-var authSessions = sqliteTable("auth_sessions", {
-	tokenHash: text$1("token_hash").primaryKey(),
-	userId: text$1("user_id").notNull().references(() => users.id),
-	createdAt: integer("created_at").notNull(),
-	lastSeenAt: integer("last_seen_at").notNull(),
-	expiresAt: integer("expires_at").notNull()
-}, (table) => [index("idx_auth_sessions_user").on(table.userId), index("idx_auth_sessions_expiry").on(table.expiresAt)]);
-var authTransactions = sqliteTable("auth_transactions", {
-	stateHash: text$1("state_hash").primaryKey(),
-	browserHash: text$1("browser_hash").notNull(),
-	nonce: text$1("nonce").notNull(),
-	verifier: text$1("verifier").notNull(),
-	returnTo: text$1("return_to").notNull(),
-	expiresAt: integer("expires_at").notNull()
-}, (table) => [index("idx_auth_transactions_expiry").on(table.expiresAt)]);
-//#endregion
-//#region db/index.ts
-async function getDb() {
-	const { env } = await import("cloudflare:workers");
-	if (!env.DB) throw new Error("Cloudflare D1 binding `DB` is unavailable. Set the `d1` field in .openai/hosting.json to `DB` or let your control plane inject the real binding values before using the database.");
-	return drizzle(env.DB, { schema: schema_exports });
-}
-//#endregion
-//#region node_modules/zod/v3/helpers/util.js
 var util;
 (function(util) {
 	util.assertEqual = (_) => {};
@@ -24924,8 +25402,6 @@ var getParsedType = (data) => {
 		default: return ZodParsedType.unknown;
 	}
 };
-//#endregion
-//#region node_modules/zod/v3/ZodError.js
 var ZodIssueCode = util.arrayToEnum([
 	"invalid_type",
 	"invalid_literal",
@@ -25023,8 +25499,6 @@ var ZodError = class ZodError extends Error {
 ZodError.create = (issues) => {
 	return new ZodError(issues);
 };
-//#endregion
-//#region node_modules/zod/v3/locales/en.js
 var errorMap = (issue, _ctx) => {
 	let message;
 	switch (issue.code) {
@@ -25100,14 +25574,10 @@ var errorMap = (issue, _ctx) => {
 	}
 	return { message };
 };
-//#endregion
-//#region node_modules/zod/v3/errors.js
 var overrideErrorMap = errorMap;
 function getErrorMap() {
 	return overrideErrorMap;
 }
-//#endregion
-//#region node_modules/zod/v3/helpers/parseUtil.js
 var makeIssue = (params) => {
 	const { data, path, errorMaps, issueData } = params;
 	const fullPath = [...path, ...issueData.path || []];
@@ -25210,15 +25680,11 @@ var isAborted = (x) => x.status === "aborted";
 var isDirty = (x) => x.status === "dirty";
 var isValid = (x) => x.status === "valid";
 var isAsync = (x) => typeof Promise !== "undefined" && x instanceof Promise;
-//#endregion
-//#region node_modules/zod/v3/helpers/errorUtil.js
 var errorUtil;
 (function(errorUtil) {
 	errorUtil.errToObj = (message) => typeof message === "string" ? { message } : message || {};
 	errorUtil.toString = (message) => typeof message === "string" ? message : message?.message;
 })(errorUtil || (errorUtil = {}));
-//#endregion
-//#region node_modules/zod/v3/types.js
 var ParseInputLazyPath = class {
 	constructor(parent, value, path, key) {
 		this._cachedPath = [];
@@ -28392,8 +28858,6 @@ var coerce = {
 	}))
 };
 var NEVER = INVALID;
-//#endregion
-//#region lib/home-content.ts
 var copy = (max) => stringType().trim().min(1, "Escribe un texto.").max(max).refine((value) => !/[<>\u0000-\u0008\u000b\u000c\u000e-\u001f]/.test(value), "Usa texto sin etiquetas HTML.");
 var homeImagePath = stringType().regex(/^(?:\/hero-apure-1200\.webp|\/api\/home-media\/[a-f0-9-]{36}\.(?:webp|jpg|png))$/);
 var homeContentSchema = objectType({
@@ -28444,8 +28908,6 @@ var homeMutationSchema = discriminatedUnionType("action", [objectType({
 	action: literalType("publish"),
 	expectedRevision: stringType().uuid()
 }).strict()]);
-//#endregion
-//#region lib/home-content-db.ts
 async function readHomeDocument() {
 	const [row] = await (await getDb()).select().from(websiteContent).where(eq(websiteContent.id, "home")).limit(1);
 	return row ?? null;
@@ -28457,14 +28919,12 @@ var readPublishedHome = (0, import_react_react_server.cache)(async () => {
 		return HOME_DEFAULTS;
 	}
 });
-//#endregion
-//#region app/page.tsx
-var page_exports$37 = /* @__PURE__ */ __exportAll({
+var page_exports$38 = /* @__PURE__ */ __exportAll({
 	default: () => Home,
-	dynamic: () => dynamic$39,
+	dynamic: () => dynamic$40,
 	generateMetadata: () => generateMetadata$6
 });
-var dynamic$39 = "force-dynamic";
+var dynamic$40 = "force-dynamic";
 async function generateMetadata$6() {
 	const content = await readPublishedHome();
 	return {
@@ -28494,177 +28954,9 @@ async function generateMetadata$6() {
 async function Home() {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(HomePageContent, { content: await readPublishedHome() });
 }
-var Resources = ((React, deps, RemoveDuplicateServerCss, precedence) => {
-	return function Resources() {
-		return React.createElement(React.Fragment, null, [...deps.css.map((href) => React.createElement("link", {
-			key: "css:" + href,
-			rel: "stylesheet",
-			...precedence ? { precedence } : {},
-			href,
-			"data-rsc-css-href": href
-		})), RemoveDuplicateServerCss && React.createElement(RemoveDuplicateServerCss, { key: "remove-duplicate-css" })]);
-	};
-})(import_react_react_server.default, assetsManifest.serverResources["app/layout.tsx"], void 0, "vite-rsc/importer-resources");
-//#endregion
-//#region components/mobile-public-actions.tsx
-/** Shared responsive entry points; existing dialogs and submission handlers own all work. */
-var MobilePublicActions = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'MobilePublicActions' is called on server");
-}, "3af98a1f25b8", "MobilePublicActions");
-//#endregion
-//#region components/public-workspace-controls.tsx
-/** Keep invitations out of focused workspaces and the isolated learning preview. */
-var PublicWorkspaceControls = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'PublicWorkspaceControls' is called on server");
-}, "25e567f13cfb", "PublicWorkspaceControls");
-//#endregion
-//#region components/offline-worker-registration.tsx
-/** Public app resources only. Never mounts account selection or synchronization. */
-var OfflineWorkerRegistration = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'OfflineWorkerRegistration' is called on server");
-}, "a63b07b9e880", "OfflineWorkerRegistration");
-//#endregion
-//#region components/install-app-banner.tsx
-var InstallAppBanner = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'InstallAppBanner' is called on server");
-}, "279d0f991188", "InstallAppBanner");
-//#endregion
-//#region components/account-services.tsx
-/** Practice mode never mounts services which can read or write a real workspace. */
-var AccountServices = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'AccountServices' is called on server");
-}, "e884762df39d", "AccountServices");
-//#endregion
-//#region components/social-links.tsx
-var SocialFloatingMenu = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'SocialFloatingMenu' is called on server");
-}, "b67c45c8de33", "SocialFloatingMenu");
-//#endregion
-//#region components/offline-navigation.tsx
-/** Document navigation keeps offline fallback reliable even when navigator.onLine incorrectly remains true. Never cache RSC/private API responses. */
-var OfflineNavigation = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'OfflineNavigation' is called on server");
-}, "f5d8aff2c7d9", "OfflineNavigation");
-//#endregion
-//#region components/ui/sonner.tsx
-var Toaster = /* @__PURE__ */ registerClientReference(() => {
-	throw new Error("Unexpectedly client reference export 'Toaster' is called on server");
-}, "f101c4e63a93", "Toaster");
-//#endregion
-//#region app/layout.tsx
-var layout_exports = /* @__PURE__ */ __exportAll({
-	default: () => $$wrap_RootLayout,
-	metadata: () => metadata$31,
-	viewport: () => viewport
-});
-var metadata$31 = {
-	metadataBase: new URL(SITE_ORIGIN),
-	robots: robotsPolicy(),
-	title: {
-		default: "VenezuelaAgro | Gestión de fincas y mercado agropecuario en Venezuela",
-		template: "%s | VenezuelaAgro"
-	},
-	description: "VenezuelaAgro conecta productores, profesionales y empresas de Venezuela. Gestión local de fincas sin señal, mercado agropecuario y comunidad. Hecho por Parcela Los Morochos.",
-	applicationName: "Venezuela Agro",
-	appleWebApp: {
-		capable: true,
-		statusBarStyle: "black-translucent",
-		title: "Venezuela Agro"
-	},
-	formatDetection: { telephone: false },
-	manifest: "/manifest.webmanifest",
-	alternates: { canonical: "/" },
-	keywords: [
-		"finca Venezuela",
-		"agropecuaria Apure",
-		"ganadería Venezuela",
-		"Venezuela Agro",
-		"comprar y vender cosechas Venezuela",
-		"marketplace agropecuario",
-		"gestión de fincas",
-		"producción animal"
-	],
-	icons: {
-		icon: [{
-			url: "/favicon.ico",
-			sizes: "any"
-		}, {
-			url: "/favicon.png",
-			type: "image/png"
-		}],
-		shortcut: "/favicon.ico",
-		apple: "/apple-touch-icon.png"
-	},
-	openGraph: {
-		type: "website",
-		locale: "es_VE",
-		siteName: "VenezuelaAgro",
-		title: "VenezuelaAgro | Raíces venezolanas. Visión internacional.",
-		description: "Producción, conocimiento, mercado agropecuario y tecnología para administrar tu finca aun sin conexión.",
-		images: [{
-			url: "/hero-apure.webp",
-			width: 1536,
-			height: 1024,
-			alt: "Campo venezolano al amanecer"
-		}]
-	},
-	twitter: {
-		card: "summary_large_image",
-		title: "Venezuela Agro",
-		description: "Campo, familia y tecnología para el productor venezolano.",
-		images: ["/hero-apure.webp"]
-	}
-};
-var viewport = {
-	themeColor: "#211d1a",
-	colorScheme: "light",
-	width: "device-width",
-	initialScale: 1,
-	viewportFit: "cover"
-};
-function RootLayout({ children }) {
-	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("html", {
-		lang: "es-VE",
-		children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("body", {
-			className: "min-w-0 overflow-x-clip antialiased",
-			children: [
-				children,
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(OfflineWorkerRegistration, {}),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(AccountServices, {}),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(PublicWorkspaceControls, { children: [
-					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(InstallAppBanner, {}),
-					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(SocialFloatingMenu, {}),
-					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MobilePublicActions, {})
-				] }),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(OfflineNavigation, {}),
-				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Toaster, {
-					theme: "light",
-					position: "top-center",
-					offset: "6rem",
-					mobileOffset: "6rem",
-					closeButton: true,
-					visibleToasts: 2
-				})
-			]
-		})
-	});
-}
-var $$wrap_RootLayout = /* @__PURE__ */ __vite_rsc_wrap_css__(RootLayout, "default");
-function __vite_rsc_wrap_css__(value, name) {
-	if (typeof value !== "function") return value;
-	function __wrapper(props) {
-		return import_react_react_server.createElement(import_react_react_server.Fragment, null, import_react_react_server.createElement(Resources), import_react_react_server.createElement(value, props));
-	}
-	Object.defineProperty(__wrapper, "name", { value: name });
-	return __wrapper;
-}
-//#endregion
-//#region components/home-content-editor.tsx
 var HomeContentEditor = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'HomeContentEditor' is called on server");
 }, "843e0ed398b5", "HomeContentEditor");
-//#endregion
-//#region components/connection-indicator.tsx
 /** In-flow header control. The learning game never reads real workspace state. */
 var ConnectionIndicator = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ConnectionIndicator' is called on server");
@@ -28682,14 +28974,10 @@ var ArrowLeft = createLucideIcon("arrow-left", [["path", {
 	d: "M19 12H5",
 	key: "x3x0zl"
 }]]);
-//#endregion
-//#region components/session-menu.tsx
 /** The server decides menu visibility; /admin and its API still authorize each request. */
 var SessionMenu = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'SessionMenu' is called on server");
 }, "8dfb0fa01780", "SessionMenu");
-//#endregion
-//#region components/admin-navigation.tsx
 var adminSections = [
 	["resumen", "Resumen"],
 	["contenido", "Inicio y SEO"],
@@ -28765,45 +29053,6 @@ function AdminNavigation({ email, session }) {
 		})]
 	});
 }
-//#endregion
-//#region lib/auth-paths.ts
-/** Public routing only: safe for browser bundles, with no environment secrets. */
-function isStandaloneAuth() {
-	return true;
-}
-function safeRelativeReturnPath(value) {
-	if (!value.startsWith("/") || value.startsWith("//") || /[\\\u0000-\u0020\u007f]/.test(value)) return "/";
-	try {
-		const url = new URL(value, "https://app.local");
-		if (url.origin !== "https://app.local") return "/";
-		const pathname = decodeURIComponent(url.pathname).replace(/\/+$/, "") || "/";
-		if (pathname.startsWith("//") || /[\\\u0000-\u0020\u007f]/.test(pathname) || [
-			"/signin-with-chatgpt",
-			"/signout-with-chatgpt",
-			"/callback",
-			"/auth",
-			"/api/auth"
-		].some((path) => pathname === path || pathname.startsWith(`${path}/`))) return "/";
-		return `${url.pathname}${url.search}${url.hash}`;
-	} catch {
-		return "/";
-	}
-}
-function chatGPTSignInPath(returnTo) {
-	return `${isStandaloneAuth() ? "/auth/signin" : "/signin-with-chatgpt"}?return_to=${encodeURIComponent(safeRelativeReturnPath(returnTo))}`;
-}
-/** Standalone logout is a CSRF-protected POST, never a navigation link. */
-function chatGPTSignOutPath(returnTo = "/") {
-	return isStandaloneAuth() ? "/api/auth/logout" : `/signout-with-chatgpt?return_to=${encodeURIComponent(safeRelativeReturnPath(returnTo))}`;
-}
-//#endregion
-//#region lib/admin-access.ts
-/** Approved administrators. Call only with getChatGPTUser(), never request JSON or forwarded headers. */
-var ADMIN_EMAILS = new Set(["alvarojuniorcarrerovasquez@gmail.com"]);
-function isAdminIdentity(user) {
-	if (isStandaloneAuth()) return !!user?.id && user.googleOwnerAdmin === true;
-	return !!user?.id && ADMIN_EMAILS.has(user.email.trim().toLowerCase());
-}
 /**
 * @license lucide-react v1.31.0 - ISC
 *
@@ -28830,56 +29079,16 @@ var LockKeyhole = createLucideIcon("lock-keyhole", [
 		key: "1pqi11"
 	}]
 ]);
-//#endregion
-//#region app/chatgpt-auth.ts
-var USER_ID_HEADER = "oai-authenticated-user-id";
-var USER_EMAIL_HEADER = "oai-authenticated-user-email";
-var USER_FULL_NAME_HEADER = "oai-authenticated-user-full-name";
-var USER_FULL_NAME_ENCODING_HEADER = "oai-authenticated-user-full-name-encoding";
-var PERCENT_ENCODED_UTF8 = "percent-encoded-utf-8";
-async function getChatGPTUser() {
-	if (deploymentTarget() === "standalone") {
-		const config = await getAuthConfig();
-		const sessionCookies = (await cookies()).getAll("__Host-va_session");
-		const token = sessionCookies.length === 1 ? sessionCookies[0].value : void 0;
-		if (!token) return null;
-		const { env } = await import("cloudflare:workers");
-		return getSession(env.DB, config, token);
-	}
-	const requestHeaders = await headers$1();
-	const id = requestHeaders.get(USER_ID_HEADER);
-	const email = requestHeaders.get(USER_EMAIL_HEADER);
-	if (!id || !email) return null;
-	const encodedFullName = requestHeaders.get(USER_FULL_NAME_HEADER);
-	const fullName = encodedFullName && requestHeaders.get(USER_FULL_NAME_ENCODING_HEADER) === PERCENT_ENCODED_UTF8 ? safeDecodeURIComponent(encodedFullName) : null;
-	return {
-		id,
-		displayName: fullName ?? email,
-		email,
-		fullName
-	};
-}
-function safeDecodeURIComponent(value) {
-	try {
-		return decodeURIComponent(value);
-	} catch {
-		return null;
-	}
-}
-//#endregion
-//#region components/admin-dashboard.tsx
 var AdminDashboard = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'AdminDashboard' is called on server");
 }, "db2f0ab6401a", "AdminDashboard");
-//#endregion
-//#region app/admin/page.tsx
-var page_exports$36 = /* @__PURE__ */ __exportAll({
+var page_exports$37 = /* @__PURE__ */ __exportAll({
 	default: () => AdminPage,
-	dynamic: () => dynamic$38,
-	metadata: () => metadata$30
+	dynamic: () => dynamic$39,
+	metadata: () => metadata$31
 });
-var dynamic$38 = "force-dynamic";
-var metadata$30 = {
+var dynamic$39 = "force-dynamic";
+var metadata$31 = {
 	title: "Administración",
 	robots: {
 		index: false,
@@ -28979,15 +29188,13 @@ function Access({ title, copy, href, action }) {
 		})
 	});
 }
-//#endregion
-//#region app/admin/home-preview/page.tsx
-var page_exports$35 = /* @__PURE__ */ __exportAll({
+var page_exports$36 = /* @__PURE__ */ __exportAll({
 	default: () => HomePreview,
-	dynamic: () => dynamic$37,
-	metadata: () => metadata$29
+	dynamic: () => dynamic$38,
+	metadata: () => metadata$30
 });
-var dynamic$37 = "force-dynamic";
-var metadata$29 = {
+var dynamic$38 = "force-dynamic";
+var metadata$30 = {
 	title: "Vista previa del inicio",
 	robots: {
 		index: false,
@@ -29014,14 +29221,12 @@ async function HomePreview() {
 		})]
 	}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(HomePageContent, { content: parseHomeContent(row?.draftJson) ?? HOME_DEFAULTS })] });
 }
-//#endregion
-//#region app/api/account-menu/route.ts
-var route_exports$26 = /* @__PURE__ */ __exportAll({
-	GET: () => GET$19,
-	dynamic: () => dynamic$36
+var route_exports$27 = /* @__PURE__ */ __exportAll({
+	GET: () => GET$20,
+	dynamic: () => dynamic$37
 });
-var dynamic$36 = "force-dynamic";
-async function GET$19() {
+var dynamic$37 = "force-dynamic";
+async function GET$20() {
 	const user = await getChatGPTUser();
 	return NextResponse.json(user ? {
 		owner: user.id,
@@ -29029,8 +29234,15 @@ async function GET$19() {
 		signOutPath: chatGPTSignOutPath("/")
 	} : null, { headers: { "cache-control": "private, no-store" } });
 }
-//#endregion
-//#region lib/uploaded-image.ts
+var PROJECT_PUBLICATION_CONSENT_VERSION = "project-publication-2026-11-19";
+function projectPublicationValues(authorized, serverTime) {
+	return {
+		publicationAuthorized: authorized === true,
+		publicationAuthorizedAt: authorized === true ? serverTime : null,
+		publicationConsentVersion: authorized === true ? PROJECT_PUBLICATION_CONSENT_VERSION : null,
+		status: authorized === true ? "pending" : "private"
+	};
+}
 /** Validate raster uploads before storage; never trust the client MIME label alone. */
 var UploadedImageError = class extends Error {
 	constructor(code) {
@@ -29190,8 +29402,6 @@ function sourceDay(currency, now = /* @__PURE__ */ new Date()) {
 		"day"
 	].map((type) => parts.find((part) => part.type === type).value).join("-");
 }
-//#endregion
-//#region lib/venezuela.ts
 var venezuelanStates = [
 	"Amazonas",
 	"Anzoátegui",
@@ -29218,8 +29428,6 @@ var venezuelanStates = [
 	"Yaracuy",
 	"Zulia"
 ];
-//#endregion
-//#region lib/company.ts
 var companyCategories = [
 	"Agrotienda e insumos",
 	"Maquinaria y repuestos",
@@ -29362,8 +29570,6 @@ function companyMediaKeys(company) {
 		...company.products.map((product) => product.imageKey)
 	].filter((key) => typeof key === "string" && !!key))];
 }
-//#endregion
-//#region lib/company-db.ts
 var CompanyWriteError = class extends Error {
 	constructor(code, status = 400) {
 		super(code);
@@ -29551,8 +29757,6 @@ function decodeCompanyImage(dataUrl) {
 		throw new CompanyWriteError(error instanceof UploadedImageError && error.code === "invalid_image_dimensions" ? "company_invalid_image_dimensions" : "company_invalid_image");
 	}
 }
-//#endregion
-//#region lib/listing-photo.ts
 /** Presence checks only. Upload decoding remains owned by the existing upload pipeline. */
 function hasStoredListingPhoto(key) {
 	return typeof key === "string" && key.trim().length > 0;
@@ -29560,8 +29764,6 @@ function hasStoredListingPhoto(key) {
 function listingPhotoUrl(key) {
 	return hasStoredListingPhoto(key) ? `/api/media/${key.split("/").map(encodeURIComponent).join("/")}` : null;
 }
-//#endregion
-//#region lib/order-details.ts
 function readOrderDetails(value) {
 	try {
 		const raw = JSON.parse(value);
@@ -29581,8 +29783,6 @@ function readOrderDetails(value) {
 		};
 	}
 }
-//#endregion
-//#region lib/security.ts
 function rejectCrossSiteMutation(request) {
 	const fetchSite = request.headers.get("sec-fetch-site");
 	const origin = request.headers.get("origin");
@@ -29611,34 +29811,26 @@ function coarseNetworkHint(request) {
 	if (raw.includes(":")) return raw.split(":").slice(0, 4).join(":");
 	return "unknown";
 }
-//#endregion
-//#region app/api/admin/route.ts
-var route_exports$25 = /* @__PURE__ */ __exportAll({
-	GET: () => GET$18,
+var route_exports$26 = /* @__PURE__ */ __exportAll({
+	GET: () => GET$19,
 	PATCH: () => PATCH$1,
 	POST: () => POST$13,
-	dynamic: () => dynamic$35
+	dynamic: () => dynamic$36
 });
-var dynamic$35 = "force-dynamic";
+var dynamic$36 = "force-dynamic";
 async function isAdmin() {
 	return isAdminIdentity(await getChatGPTUser());
 }
-async function GET$18() {
+async function GET$19() {
 	if (!await isAdmin()) return NextResponse.json({ error: "forbidden" }, { status: 403 });
 	const db = await getDb();
-	const [listings, orders, professionalRows, projects, feedback, userRows, articleRows, publicFarms, socialPosts, socialComments, companyRows] = await Promise.all([
+	const [listings, orders, professionalRows, projects, feedback, peoplePage, articleRows, publicFarms, socialPosts, socialComments, companyRows] = await Promise.all([
 		db.select().from(marketplaceListings).where(eq(marketplaceListings.deleted, false)).orderBy(desc(marketplaceListings.serverUpdatedAt)).limit(200),
 		db.select().from(orderRequests).orderBy(desc(orderRequests.serverUpdatedAt)).limit(200),
 		db.select().from(professionals).orderBy(desc(professionals.updatedAt)).limit(200),
 		db.select().from(projectProposals).orderBy(desc(projectProposals.updatedAt)).limit(200),
 		db.select().from(feedbackSubmissions).orderBy(desc(feedbackSubmissions.updatedAt)).limit(200),
-		db.select({
-			id: users.id,
-			email: users.email,
-			displayName: users.displayName,
-			createdAt: users.createdAt,
-			lastSeenAt: users.lastSeenAt
-		}).from(users).orderBy(desc(users.updatedAt)).limit(500),
+		deploymentTarget() === "sites" ? Promise.resolve(demoPeoplePage(0)) : readPeoplePage(db, 0),
 		db.select().from(knowledgeArticles).orderBy(desc(knowledgeArticles.updatedAt)).limit(200),
 		db.select().from(publicFarmProfiles).where(sqlNotDeleted(publicFarmProfiles.status)).orderBy(desc(publicFarmProfiles.updatedAt)).limit(200),
 		db.select().from(communityPosts).where(sqlNotDeleted(communityPosts.status)).orderBy(desc(communityPosts.updatedAt)).limit(200),
@@ -29646,12 +29838,14 @@ async function GET$18() {
 		db.select().from(companies).where(sqlNotDeleted(companies.status)).orderBy(desc(companies.updatedAt)).limit(200)
 	]);
 	return NextResponse.json({
+		personDemoAvailable: deploymentTarget() === "sites",
 		companies: companyRows.map((row) => companyFromRow(row, true)),
 		listings,
 		professionals: professionalRows,
 		projects,
 		feedback,
-		users: userRows,
+		users: peoplePage.users,
+		peoplePage,
 		articles: articleRows,
 		publicFarms,
 		socialPosts,
@@ -29876,8 +30070,17 @@ async function PATCH$1(request) {
 		status,
 		updatedAt: now
 	}).where(and(eq(knowledgeArticles.slug, id), eq(knowledgeArticles.updatedAt, expectedVersion))).returning({ id: knowledgeArticles.slug });
-	else {
-		const table = entityType === "professional" ? professionals : entityType === "project" ? projectProposals : entityType === "public-farm" ? publicFarmProfiles : entityType === "social-post" ? communityPosts : communityComments;
+	else if (entityType === "project") {
+		const permission = status === "active" || status === "pending" ? and(eq(projectProposals.publicationAuthorized, true), isNotNull(projectProposals.publicationAuthorizedAt), eq(projectProposals.publicationConsentVersion, PROJECT_PUBLICATION_CONSENT_VERSION)) : void 0;
+		changed = await db.update(projectProposals).set({
+			status,
+			updatedAt: now,
+			revision: crypto.randomUUID(),
+			lastOperationId: null,
+			lastOperationHash: null
+		}).where(and(eq(projectProposals.id, id), ne(projectProposals.status, "deleted"), eq(projectProposals.revision, expectedVersion), permission)).returning({ id: projectProposals.id });
+	} else {
+		const table = entityType === "professional" ? professionals : entityType === "public-farm" ? publicFarmProfiles : entityType === "social-post" ? communityPosts : communityComments;
 		changed = await db.update(table).set({
 			status,
 			updatedAt: now,
@@ -29889,8 +30092,6 @@ async function PATCH$1(request) {
 	if (!changed.length) return NextResponse.json({ error: "review_changed_refresh_required" }, { status: 409 });
 	return NextResponse.json({ ok: true });
 }
-//#endregion
-//#region lib/request-body.ts
 /** Bounded JSON input. Limits apply while reading, including chunked requests. */
 var RequestBodyError = class extends Error {
 	constructor(code, status) {
@@ -29927,19 +30128,17 @@ async function readBoundedJson(request, maxBytes) {
 		reader.releaseLock();
 	}
 }
-//#endregion
-//#region app/api/admin/home-content/route.ts
-var route_exports$24 = /* @__PURE__ */ __exportAll({
-	GET: () => GET$17,
+var route_exports$25 = /* @__PURE__ */ __exportAll({
+	GET: () => GET$18,
 	POST: () => POST$12,
-	dynamic: () => dynamic$34
+	dynamic: () => dynamic$35
 });
-var dynamic$34 = "force-dynamic";
+var dynamic$35 = "force-dynamic";
 var respond = (data, status = 200) => NextResponse.json(data, {
 	status,
 	headers: { "cache-control": "private, no-store" }
 });
-async function GET$17() {
+async function GET$18() {
 	if (!isAdminIdentity(await getChatGPTUser())) return respond({ error: "forbidden" }, 403);
 	try {
 		const row = await readHomeDocument();
@@ -30008,13 +30207,11 @@ async function POST$12(request) {
 		return respond({ error: "content_storage_unavailable" }, 503);
 	}
 }
-//#endregion
-//#region app/api/admin/home-media/route.ts
-var route_exports$23 = /* @__PURE__ */ __exportAll({
+var route_exports$24 = /* @__PURE__ */ __exportAll({
 	POST: () => POST$11,
-	dynamic: () => dynamic$33
+	dynamic: () => dynamic$34
 });
-var dynamic$33 = "force-dynamic";
+var dynamic$34 = "force-dynamic";
 async function POST$11(request) {
 	const rejected = rejectCrossSiteMutation(request);
 	if (rejected) return rejected;
@@ -30041,8 +30238,34 @@ async function POST$11(request) {
 		return NextResponse.json({ error: error instanceof RequestBodyError || error instanceof UploadedImageError ? error.code : "storage_unavailable" }, { status });
 	}
 }
-//#endregion
-//#region app/api/auth/csrf/route.ts
+var route_exports$23 = /* @__PURE__ */ __exportAll({
+	GET: () => GET$17,
+	dynamic: () => dynamic$33
+});
+var dynamic$33 = "force-dynamic";
+var headers$1 = {
+	"cache-control": "private, no-store",
+	"vary": "Cookie"
+};
+async function GET$17(request) {
+	if (!isAdminIdentity(await getChatGPTUser())) return NextResponse.json({ error: "forbidden" }, {
+		status: 403,
+		headers: headers$1
+	});
+	const page = request.nextUrl.searchParams.get("page") ?? "0";
+	if (!/^\d{1,8}$/.test(page)) return NextResponse.json({ error: "invalid_page" }, {
+		status: 400,
+		headers: headers$1
+	});
+	if (request.nextUrl.searchParams.get("demo") === "1") {
+		if (deploymentTarget() !== "sites") return NextResponse.json({ error: "not_found" }, {
+			status: 404,
+			headers: headers$1
+		});
+		return NextResponse.json(demoPeoplePage(Number(page)), { headers: headers$1 });
+	}
+	return NextResponse.json(await readPeoplePage(await getDb(), Number(page)), { headers: headers$1 });
+}
 var route_exports$22 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$16,
 	dynamic: () => dynamic$32
@@ -30061,8 +30284,6 @@ async function GET$16(request) {
 		return Response.json({ error: "authentication_unavailable" }, { status: 503 });
 	}
 }
-//#endregion
-//#region node_modules/oauth4webapi/build/index.js
 var USER_AGENT;
 if (typeof navigator === "undefined" || !navigator.userAgent?.startsWith?.("Mozilla/5.0 ")) USER_AGENT = `oauth4webapi/v3.8.8`;
 function looseInstanceOf(input, expected) {
@@ -31084,8 +31305,6 @@ async function getResponseJsonBody(response, check = assertApplicationJson) {
 	return json;
 }
 var _expectedIssuer = Symbol();
-//#endregion
-//#region lib/auth/store.ts
 var AuthError = class extends Error {
 	constructor(code) {
 		super(code);
@@ -31122,8 +31341,6 @@ async function findOrCreateGoogleUser(db, subject, email, name) {
 		fullName: name
 	};
 }
-//#endregion
-//#region lib/auth/google.ts
 var TRANSACTION_COOKIE_NAME = "__Host-va_oauth";
 var GOOGLE_CALLBACK_PATH = "/api/auth/google/callback";
 var TRANSACTION_MAX_AGE = 600;
@@ -31197,8 +31414,6 @@ async function consumeGoogleCallback(db, config, callbackUrl, transactionCookie)
 		returnTo: transaction.return_to
 	};
 }
-//#endregion
-//#region app/api/auth/google/callback/route.ts
 var route_exports$21 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$15,
 	dynamic: () => dynamic$31
@@ -31235,8 +31450,6 @@ async function GET$15(request) {
 		});
 	}
 }
-//#endregion
-//#region lib/auth/body.ts
 /** Read bounded urlencoded login input before contacting either identity provider. */
 async function readLoginForm(request) {
 	if (request.headers.get("content-type")?.split(";")[0].trim() !== "application/x-www-form-urlencoded") throw new Error("form_required");
@@ -31266,8 +31479,6 @@ async function readLoginForm(request) {
 		reader.releaseLock();
 	}
 }
-//#endregion
-//#region lib/auth/turnstile.ts
 var TURNSTILE_FAILURE_REASONS = [
 	"token_missing",
 	"token_oversized",
@@ -31411,8 +31622,6 @@ async function verifyTurnstileDetailed(token, config, transport = fetch) {
 	};
 	return { ok: true };
 }
-//#endregion
-//#region app/api/auth/google/start/route.ts
 var route_exports$20 = /* @__PURE__ */ __exportAll({
 	POST: () => POST$10,
 	dynamic: () => dynamic$30
@@ -31468,8 +31677,6 @@ async function POST$10(request) {
 		return rejectLogin(request, "authentication_unavailable", 503, returnTo);
 	}
 }
-//#endregion
-//#region app/api/auth/logout/route.ts
 var route_exports$19 = /* @__PURE__ */ __exportAll({
 	POST: () => POST$9,
 	dynamic: () => dynamic$29
@@ -31490,8 +31697,6 @@ async function POST$9(request) {
 		return Response.json({ error: "authentication_unavailable" }, { status: 503 });
 	}
 }
-//#endregion
-//#region lib/community-listing-share.ts
 var PREFIX = "VENEZUELA_AGRO_POST_V1:";
 var bodySchema = objectType({
 	version: literalType(1),
@@ -31516,8 +31721,6 @@ function readCommunityListingShare(body) {
 	} catch {}
 	return { text: body };
 }
-//#endregion
-//#region lib/safe-json.ts
 function parseObjectJson(value) {
 	try {
 		const parsed = JSON.parse(value);
@@ -31535,8 +31738,6 @@ function parseStringListJson(value) {
 		return [];
 	}
 }
-//#endregion
-//#region app/api/bootstrap/route.ts
 var route_exports$18 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$14,
 	dynamic: () => dynamic$28
@@ -31671,8 +31872,6 @@ function parseFarmBoundary(value) {
 	};
 	return { measurements: Object.fromEntries(Object.entries(parsed).filter(([, measurement]) => typeof measurement === "number" && Number.isFinite(measurement))) };
 }
-//#endregion
-//#region lib/public-records.ts
 /** Explicit public projections also protect server-to-client component serialization. */
 function publicProfessionalRow(row) {
 	return {
@@ -31702,14 +31901,11 @@ function publicProjectRow(row) {
 		needs: parseStringListJson(row.needsJson),
 		impact: row.impact,
 		requestedSupport: row.requestedSupport,
-		contact: row.contact,
 		status: row.status,
 		createdAt: row.createdAt,
 		updatedAt: row.updatedAt
 	};
 }
-//#endregion
-//#region app/api/community/route.ts
 var route_exports$17 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$13,
 	dynamic: () => dynamic$27
@@ -31717,17 +31913,13 @@ var route_exports$17 = /* @__PURE__ */ __exportAll({
 var dynamic$27 = "force-dynamic";
 async function GET$13() {
 	const db = await getDb();
-	const [professionalRows, projectRows] = await Promise.all([db.select().from(professionals).where(eq(professionals.status, "active")).orderBy(desc(professionals.updatedAt)).limit(100), db.select().from(projectProposals).where(eq(projectProposals.status, "active")).orderBy(desc(projectProposals.updatedAt)).limit(100)]);
+	const [professionalRows, projectRows] = await Promise.all([db.select().from(professionals).where(eq(professionals.status, "active")).orderBy(desc(professionals.updatedAt)).limit(100), db.select().from(projectProposals).where(and(eq(projectProposals.status, "active"), eq(projectProposals.publicationAuthorized, true), isNotNull(projectProposals.publicationAuthorizedAt), eq(projectProposals.publicationConsentVersion, PROJECT_PUBLICATION_CONSENT_VERSION))).orderBy(desc(projectProposals.updatedAt)).limit(100)]);
 	return NextResponse.json({
 		professionals: professionalRows.map(publicProfessionalRow),
 		projects: projectRows.map(publicProjectRow)
 	});
 }
-//#endregion
-//#region lib/policy-version.ts
 var CURRENT_POLICY_VERSION = "2026-10-04.v3";
-//#endregion
-//#region app/api/companies/route.ts
 var route_exports$16 = /* @__PURE__ */ __exportAll({
 	DELETE: () => DELETE$2,
 	GET: () => GET$12,
@@ -31852,8 +32044,6 @@ async function PATCH(request) {
 async function DELETE$2(request) {
 	return mutate(request, "delete");
 }
-//#endregion
-//#region lib/exchange-rate-sources.ts
 var BCV_ENDPOINT = "https://www.bcv.org.ve/";
 var ECB_ENDPOINT = "https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml";
 var TRM_ENDPOINT = "https://www.datos.gov.co/resource/32sa-8pi3.json?$limit=15&$order=vigenciadesde%20DESC";
@@ -32027,8 +32217,6 @@ function createOfficialRateLoader(fetcher = (input, init) => globalThis.fetch(in
 		}
 	};
 }
-//#endregion
-//#region app/api/exchange-rates/route.ts
 var route_exports$15 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$11,
 	dynamic: () => dynamic$25
@@ -32235,8 +32423,6 @@ function validateSurveyVertices(input) {
 function hasCustomAreaOutline(data) {
 	return Object.prototype.hasOwnProperty.call(data, "typedAreaOutline") && data.typedAreaOutline !== void 0;
 }
-//#endregion
-//#region lib/farm-plan-catalog.ts
 var PLAN_CROP_CATALOG = [
 	{
 		kind: "tomato",
@@ -32299,8 +32485,6 @@ function exactPlanLayout(data) {
 		height
 	};
 }
-//#endregion
-//#region lib/area-split-payload.ts
 /** Pure layout operation; preserves the exact allocated area, including decimals. */
 function deriveAreaSplit(payload) {
 	if (hasCustomAreaOutline(payload.data)) throw new Error("custom_polygon_split_unsupported");
@@ -32358,8 +32542,6 @@ function deriveAreaSplit(payload) {
 		}
 	}];
 }
-//#endregion
-//#region lib/animal-records.ts
 /** Stable, explicitly selected event types. Labels are presentation only. */
 var HEALTH_EVENT_TYPES = [
 	{
@@ -32458,8 +32640,6 @@ function assertAnimalLinkTarget(target, farmId, owner, unchanged) {
 	if (target && (target.recordType !== "animal" || target.farmId !== farmId || typeof target.ownerId === "string" && owner !== void 0 && target.ownerId !== owner)) throw new Error("animal_not_available");
 	if ((!target || target.deleted === true) && !unchanged) throw new Error("animal_not_available");
 }
-//#endregion
-//#region lib/product-photos.ts
 var productPhotos = [
 	{
 		"id": "pollo",
@@ -32654,8 +32834,6 @@ var productPhotos = [
 		"sha256": "430475047ee655265b411f21a715e31e8f55d267aa7893d98762c2b3d8c45f6a"
 	}
 ];
-//#endregion
-//#region lib/store-products.ts
 var meatUnits = [
 	"kg",
 	"g",
@@ -33046,8 +33224,6 @@ function validStoreQuantity(quantity, unit) {
 	const r = unitRule(unit);
 	return Number.isFinite(quantity) && quantity >= r.min && quantity <= 1e6 && (r.step !== 1 || Number.isInteger(quantity));
 }
-//#endregion
-//#region lib/professional-demo-portraits.ts
 var professionalDemoPortraits = [
 	{
 		"id": "ejemplo-empresa",
@@ -33158,8 +33334,6 @@ var professionalDemoPortraits = [
 		"disclosure": "Imagen generada por IA · perfil 100 % ficticio"
 	}
 ];
-//#endregion
-//#region lib/agro-catalog.ts
 var agroFamilies = [
 	{
 		name: "Cereales",
@@ -33658,8 +33832,6 @@ var catalogSources = [
 		note: "Estimaciones gremiales de rubros seleccionados; no es un censo gubernamental."
 	}
 ];
-//#endregion
-//#region lib/network-profile.ts
 var url = stringType().trim().max(500).default("").refine((v) => {
 	if (!v) return true;
 	try {
@@ -33715,7 +33887,7 @@ var publicFarmSchema = objectType({
 	phone: stringType().trim().min(7).max(40).refine((v) => /^[+\d\s().-]+$/.test(v) && v.replace(/\D/g, "").length >= 7 && v.replace(/\D/g, "").length <= 15, "Introduce un teléfono válido"),
 	state: enumType(venezuelanStates),
 	municipality: stringType().trim().max(100).default(""),
-	description: stringType().trim().min(20).max(1200),
+	description: stringType().trim().min(20).max(LONG_FORM_TEXT_MAX),
 	rubrics: stringType().trim().min(3).max(500),
 	purposes: arrayType(enumType([
 		"Producción",
@@ -33725,8 +33897,8 @@ var publicFarmSchema = objectType({
 		"Capacitaciones",
 		"Venta de la propiedad"
 	])).min(1).max(6),
-	productionProcess: stringType().trim().max(2e3).optional(),
-	saleOptions: stringType().trim().max(1500).optional(),
+	productionProcess: stringType().trim().max(LONG_FORM_TEXT_MAX).optional(),
+	saleOptions: stringType().trim().max(LONG_FORM_TEXT_MAX).optional(),
 	farmType: enumType([
 		"Productora",
 		"Turística",
@@ -33735,7 +33907,7 @@ var publicFarmSchema = objectType({
 		"Transformación de alimentos",
 		"Propiedad en venta"
 	]).optional(),
-	visitConditions: stringType().trim().max(700).default(""),
+	visitConditions: stringType().trim().max(LONG_FORM_TEXT_MAX).default(""),
 	socials: socialSchema.default({}),
 	imageDataUrl: stringType().max(65e4).regex(/^data:image\/(webp|jpeg|png);base64,[A-Za-z0-9+/=]+$/).optional(),
 	imageKey: stringType().regex(/^marketplace\/public-farms\/(?:[a-zA-Z0-9_%.-]+\/){1,3}cover\.(webp|jpg|png)$/).optional(),
@@ -34014,8 +34186,6 @@ var demoPosts = [
 		"imageUrl": "/photos/faena-arrozal.webp"
 	}
 ];
-//#endregion
-//#region lib/professional-profile.ts
 var serviceModes = [
 	"Presencial",
 	"Remoto",
@@ -34141,8 +34311,6 @@ function professionalImage(row) {
 	const key = professionalDetails(row).imageKey;
 	return key ? `/api/media/${key}` : row.demo ? professionalDemoPortraits.find((photo) => photo.id === row.id)?.src ?? null : null;
 }
-//#endregion
-//#region lib/listing-contact.ts
 var publicLink = (hosts) => stringType().trim().max(500).default("").refine((value) => {
 	if (!value) return true;
 	try {
@@ -34205,8 +34373,6 @@ function phoneDigits(phone) {
 	const digits = phone.replace(/\D/g, "");
 	return digits.length === 11 && digits.startsWith("0") ? `58${digits.slice(1)}` : digits;
 }
-//#endregion
-//#region lib/marketplace-details.ts
 var publicProductLocationSchema = objectType({
 	latitude: numberType().finite().min(-90).max(90),
 	longitude: numberType().finite().min(-180).max(180),
@@ -34263,8 +34429,6 @@ function listingMediaKeys(contact) {
 	const d = readProductDetails(contact);
 	return [...d.galleryKeys, ...d.sellerImageKey ? [d.sellerImageKey] : []];
 }
-//#endregion
-//#region lib/sync-validation.ts
 var id = stringType().min(3).max(160).regex(/^[a-zA-Z0-9_-]+$/);
 var isoDate = stringType().datetime({ offset: true }).or(stringType().datetime());
 var syncBatchSchema = objectType({ operations: arrayType(objectType({
@@ -34378,7 +34542,7 @@ var farmPayloadSchema = objectType({
 	surveyPlan: surveyPlanSchema.optional(),
 	propertySketch: normalizedSketchPolygonSchema.nullable().optional(),
 	geographicReference: geographicReferenceSchema.nullable().optional(),
-	objective: stringType().trim().max(500).optional().default("")
+	objective: stringType().trim().max(LONG_FORM_TEXT_MAX).optional().default("")
 });
 var farmRecordPayloadSchema = objectType({
 	farmId: id,
@@ -34492,15 +34656,17 @@ var professionalPayloadSchema = objectType({
 		message: "Introduce un teléfono válido con código de país."
 	});
 });
+var projectResourceTextSchema = arrayType(stringType().trim().min(1).max(LONG_FORM_TEXT_MAX)).max(20).refine((values) => values.join("\n").length <= LONG_FORM_TEXT_MAX, { message: "El texto del campo supera la capacidad de un envío." });
 var projectPayloadSchema = objectType({
+	publicationAuthorized: booleanType().optional().default(false),
 	title: stringType().trim().min(4).max(160),
 	sector: stringType().trim().min(2).max(100),
 	state: stringType().trim().min(2).max(80),
-	summary: stringType().trim().min(30).max(2e3),
-	has: arrayType(stringType().trim().min(1).max(120)).max(20),
-	needs: arrayType(stringType().trim().min(1).max(120)).max(20),
-	impact: stringType().trim().min(20).max(1500),
-	requestedSupport: stringType().trim().min(10).max(1e3),
+	summary: stringType().trim().min(30).max(LONG_FORM_TEXT_MAX),
+	has: projectResourceTextSchema,
+	needs: projectResourceTextSchema,
+	impact: stringType().trim().min(20).max(LONG_FORM_TEXT_MAX),
+	requestedSupport: stringType().trim().min(10).max(LONG_FORM_TEXT_MAX),
 	contact: stringType().trim().min(5).max(180)
 });
 var feedbackPayloadSchema = objectType({
@@ -34513,7 +34679,7 @@ var feedbackPayloadSchema = objectType({
 		"Otro"
 	]),
 	role: stringType().trim().min(2).max(100),
-	message: stringType().trim().min(10).max(1500),
+	message: stringType().trim().min(10).max(LONG_FORM_TEXT_MAX),
 	contact: stringType().trim().max(180).optional().default("")
 });
 var orderPayloadSchema = objectType({
@@ -34567,8 +34733,6 @@ var orderPayloadSchema = objectType({
 		});
 	});
 });
-//#endregion
-//#region lib/atomic-area-split.ts
 var identifier = stringType().min(3).max(160).regex(/^[a-zA-Z0-9_-]+$/);
 var areaSplitRequestSchema = objectType({
 	sourceId: identifier,
@@ -34718,8 +34882,6 @@ async function atomicAreaSplit(db, ownerId, input) {
 		}]
 	};
 }
-//#endregion
-//#region app/api/farm/split/route.ts
 var route_exports$14 = /* @__PURE__ */ __exportAll({
 	POST: () => POST$7,
 	dynamic: () => dynamic$24
@@ -34771,8 +34933,6 @@ async function POST$7(request) {
 		});
 	}
 }
-//#endregion
-//#region lib/marketplace-db.ts
 function publicMarketplaceRow(row) {
 	return {
 		id: row.id,
@@ -34811,8 +34971,6 @@ async function getPublishedMarketplaceListing(id) {
 async function getMarketplaceSuggestions(id) {
 	return (await (await getDb()).select().from(marketplaceListings).where(and(ne(marketplaceListings.id, id), eq(marketplaceListings.status, "active"), eq(marketplaceListings.deleted, false), isNotNull(marketplaceListings.imageKey), ne(marketplaceListings.imageKey, ""))).orderBy(desc(marketplaceListings.serverUpdatedAt)).limit(100)).map(publicMarketplaceRow);
 }
-//#endregion
-//#region app/api/marketplace/route.ts
 var route_exports$13 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$10,
 	dynamic: () => dynamic$23
@@ -34836,8 +34994,6 @@ async function GET$10(request) {
 	const rows = await (await getDb()).select().from(marketplaceListings).where(and(...conditions)).orderBy(desc(marketplaceListings.serverUpdatedAt)).limit(100);
 	return NextResponse.json({ listings: rows.map(publicMarketplaceRow) });
 }
-//#endregion
-//#region lib/offline-public-types.ts
 var OFFLINE_PUBLIC_KINDS = [
 	"marketplace",
 	"professional",
@@ -34903,8 +35059,6 @@ var offlinePublicSnapshotSchema = objectType({
 function parseOfflinePublicSnapshot(input) {
 	return offlinePublicSnapshotSchema.parse(input);
 }
-//#endregion
-//#region app/api/offline-public/route.ts
 var route_exports$12 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$9,
 	dynamic: () => dynamic$22
@@ -34956,7 +35110,7 @@ async function GET$9() {
 				location: projectProposals.state,
 				category: projectProposals.sector,
 				updatedAt: projectProposals.updatedAt
-			}).from(projectProposals).where(eq(projectProposals.status, "active")).orderBy(desc(projectProposals.updatedAt), projectProposals.id).limit(fetchLimit),
+			}).from(projectProposals).where(and(eq(projectProposals.status, "active"), eq(projectProposals.publicationAuthorized, true), isNotNull(projectProposals.publicationAuthorizedAt), eq(projectProposals.publicationConsentVersion, PROJECT_PUBLICATION_CONSENT_VERSION))).orderBy(desc(projectProposals.updatedAt), projectProposals.id).limit(fetchLimit),
 			db.select({
 				id: publicFarmProfiles.id,
 				title: publicFarmProfiles.name,
@@ -34999,8 +35153,6 @@ async function GET$9() {
 		});
 	}
 }
-//#endregion
-//#region app/api/offline-session/route.ts
 var route_exports$11 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$8,
 	dynamic: () => dynamic$21
@@ -35010,8 +35162,6 @@ async function GET$8() {
 	const user = await getChatGPTUser();
 	return NextResponse.json({ owner: user?.id ?? "device-local" }, { headers: { "cache-control": "no-store" } });
 }
-//#endregion
-//#region lib/revision-write.ts
 var RevisionConflict = class extends Error {
 	constructor(serverRevision) {
 		super("version_conflict");
@@ -35072,8 +35222,6 @@ async function revisionWrite(table, op, ownerId, insert, update) {
 	}
 	return revision;
 }
-//#endregion
-//#region lib/community-network-db.ts
 function mapPublicFarm(row) {
 	const { imageDataUrl, actingUserId, ...publicData } = publicFarmSchema.parse(JSON.parse(row.profileJson));
 	return {
@@ -35267,8 +35415,6 @@ async function getPublicPost(id, viewerId) {
 		}
 	};
 }
-//#endregion
-//#region app/api/red/route.ts
 var route_exports$10 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$7,
 	dynamic: () => dynamic$20
@@ -35292,8 +35438,6 @@ async function GET$7(request) {
 		...await networkSnapshot(user?.id)
 	}, { headers: { "cache-control": "private, no-store" } });
 }
-//#endregion
-//#region lib/account-contact.ts
 var accountContactSchema = objectType({
 	publicContentAccepted: booleanType(),
 	securitySignalsAccepted: booleanType(),
@@ -35309,8 +35453,6 @@ function confirmsAccountEmail(submitted, account) {
 function normalizeContactPhone(phone) {
 	return "+" + phone.replace(/\D/g, "");
 }
-//#endregion
-//#region app/api/security/consent/route.ts
 var route_exports$9 = /* @__PURE__ */ __exportAll({
 	DELETE: () => DELETE$1,
 	POST: () => POST$6
@@ -35374,8 +35516,6 @@ async function DELETE$1(request) {
 	await (await getDb()).update(userConsents).set({ revokedAt: (/* @__PURE__ */ new Date()).toISOString() }).where(and(eq(userConsents.userId, user.id), isNull(userConsents.revokedAt)));
 	return NextResponse.json({ ok: true });
 }
-//#endregion
-//#region app/api/security/device/route.ts
 var route_exports$8 = /* @__PURE__ */ __exportAll({
 	DELETE: () => DELETE,
 	POST: () => POST$5
@@ -35449,8 +35589,6 @@ async function DELETE(request) {
 	});
 	return response;
 }
-//#endregion
-//#region app/api/security/passkey/authenticate/options/route.ts
 var route_exports$7 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$6,
 	POST: () => POST$4
@@ -35459,8 +35597,6 @@ function GET$6() {
 	return NextResponse.json({ error: "feature_disabled" }, { status: 410 });
 }
 var POST$4 = GET$6;
-//#endregion
-//#region app/api/security/passkey/authenticate/verify/route.ts
 var route_exports$6 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$5,
 	POST: () => POST$3
@@ -35469,8 +35605,6 @@ function GET$5() {
 	return NextResponse.json({ error: "feature_disabled" }, { status: 410 });
 }
 var POST$3 = GET$5;
-//#endregion
-//#region app/api/security/passkey/register/options/route.ts
 var route_exports$5 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$4,
 	POST: () => POST$2
@@ -35479,8 +35613,6 @@ function GET$4() {
 	return NextResponse.json({ error: "feature_disabled" }, { status: 410 });
 }
 var POST$2 = GET$4;
-//#endregion
-//#region app/api/security/passkey/register/verify/route.ts
 var route_exports$4 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$3,
 	POST: () => POST$1
@@ -35489,8 +35621,6 @@ function GET$3() {
 	return NextResponse.json({ error: "feature_disabled" }, { status: 410 });
 }
 var POST$1 = GET$3;
-//#endregion
-//#region app/api/security/status/route.ts
 var route_exports$3 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$2,
 	dynamic: () => dynamic$19
@@ -35533,8 +35663,6 @@ async function GET$2(request) {
 		} : null
 	});
 }
-//#endregion
-//#region lib/immutable-order.ts
 function canonicalOrder(payload) {
 	return JSON.stringify({
 		customerName: payload.customerName,
@@ -35560,8 +35688,6 @@ function matchesStoredOrder(row, payload) {
 	});
 	return parsed.success && canonicalOrder(parsed.data) === canonicalOrder(payload);
 }
-//#endregion
-//#region lib/sync-error.ts
 /** Only intentional protocol codes may leave a sync handler; database errors can contain private SQL values. */
 var PUBLIC_SYNC_ERRORS = new Set([
 	"version_conflict",
@@ -35591,8 +35717,6 @@ var PUBLIC_SYNC_ERRORS = new Set([
 function publicSyncError(error) {
 	return error instanceof Error && PUBLIC_SYNC_ERRORS.has(error.message) ? error.message : "sync_failed";
 }
-//#endregion
-//#region lib/seo-listing.ts
 var clean = (value) => value.replace(/\s+/g, " ").trim();
 function buildListingSeo(input) {
 	const place = clean([
@@ -35610,8 +35734,6 @@ function buildListingSeo(input) {
 		imageAlt: clean(`${input.photoContext}. ${title}, ${category}, en ${place}.`).slice(0, 300)
 	};
 }
-//#endregion
-//#region app/api/sync/route.ts
 var route_exports$2 = /* @__PURE__ */ __exportAll({
 	POST: () => POST,
 	dynamic: () => dynamic$18
@@ -35736,7 +35858,7 @@ async function POST(request) {
 				revision = await syncProfessional(operation, user.id, syncedAt);
 			} else if (operation.entityType === "project") {
 				if (!user) throw new Error("authentication_required");
-				if (operation.action !== "delete" && !publicConsentGranted) throw new Error("public_content_consent_required");
+				if (operation.action !== "delete" && projectPayloadSchema.parse(operation.payload).publicationAuthorized && !publicConsentGranted) throw new Error("public_content_consent_required");
 				revision = await syncProject(operation, user.id, syncedAt);
 			} else if (operation.entityType === "feedback") revision = await syncFeedback(operation, user?.id ?? null, syncedAt);
 			else revision = await syncOrder(operation, user?.id ?? null, syncedAt);
@@ -35972,7 +36094,7 @@ async function syncProject(operation, ownerId, syncedAt) {
 		impact: p.impact,
 		requestedSupport: p.requestedSupport,
 		contact: p.contact,
-		status: "pending",
+		...projectPublicationValues(p.publicationAuthorized, syncedAt),
 		updatedAt: syncedAt
 	};
 	return revisionWrite(projectProposals, operation, ownerId, {
@@ -36037,20 +36159,16 @@ async function persistListingImage(kind, ownerId, listingId, operationId, dataUr
 	} });
 	return key;
 }
-//#endregion
-//#region components/farm-dashboard.tsx
 var FarmDashboard = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'FarmDashboard' is called on server");
 }, "5e7c24cab2a8", "FarmDashboard");
-//#endregion
-//#region app/app/page.tsx
-var page_exports$34 = /* @__PURE__ */ __exportAll({
+var page_exports$35 = /* @__PURE__ */ __exportAll({
 	default: () => FarmAppPage,
 	dynamic: () => dynamic$17,
-	metadata: () => metadata$28
+	metadata: () => metadata$29
 });
 var dynamic$17 = "force-dynamic";
-var metadata$28 = {
+var metadata$29 = {
 	title: "Mi Finca",
 	description: "Sistema para crear planos poligonales, distribuir potreros, lagunas y cultivos, y gestionar animales, producción e inventario aun sin conexión.",
 	robots: {
@@ -36074,13 +36192,11 @@ async function FarmAppPage() {
 		email: user.email
 	} });
 }
-//#endregion
-//#region app/app-local/page.tsx
-var page_exports$33 = /* @__PURE__ */ __exportAll({
+var page_exports$34 = /* @__PURE__ */ __exportAll({
 	default: () => LocalFarmPage,
-	metadata: () => metadata$27
+	metadata: () => metadata$28
 });
-var metadata$27 = {
+var metadata$28 = {
 	title: "Mi Finca · copia local",
 	robots: {
 		index: false,
@@ -36097,8 +36213,6 @@ function LocalFarmPage() {
 		}
 	});
 }
-//#endregion
-//#region components/learning-catalog.tsx
 var LearningCatalog = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'LearningCatalog' is called on server");
 }, "4dab3d7211a4", "LearningCatalog");
@@ -36452,8 +36566,6 @@ var platformGuides = [
 		form: input.form
 	}
 }));
-//#endregion
-//#region lib/articles.ts
 var articles = [
 	...[
 		{
@@ -37035,8 +37147,6 @@ var articles = [
 		]
 	}
 ];
-//#endregion
-//#region lib/knowledge-db.ts
 function parseSections(value) {
 	try {
 		const parsed = JSON.parse(value);
@@ -37087,15 +37197,13 @@ async function publishedRows(slug) {
 		return [];
 	}
 }
-//#endregion
-//#region app/aprende/page.tsx
-var page_exports$32 = /* @__PURE__ */ __exportAll({
+var page_exports$33 = /* @__PURE__ */ __exportAll({
 	default: () => LearnPage,
 	dynamic: () => dynamic$16,
-	metadata: () => metadata$26
+	metadata: () => metadata$27
 });
 var dynamic$16 = "force-dynamic";
-var metadata$26 = decoratePublicMetadata("/aprende", {
+var metadata$27 = decoratePublicMetadata("/aprende", {
 	title: "Aprende a usar Venezuela Agro, paso a paso",
 	description: "Aprende a registrarte, crear el plano de tu finca, dividir potreros, publicar productos, ofrecer servicios e instalar la app para trabajar sin internet.",
 	alternates: { canonical: "/aprende" }
@@ -37227,20 +37335,16 @@ async function LearnPage() {
 		]
 	});
 }
-//#endregion
-//#region components/google-signin.tsx
 var GoogleSignIn = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'GoogleSignIn' is called on server");
 }, "11ecca98c33a", "GoogleSignIn");
-//#endregion
-//#region app/auth/signin/page.tsx
-var page_exports$31 = /* @__PURE__ */ __exportAll({
+var page_exports$32 = /* @__PURE__ */ __exportAll({
 	default: () => SignInPage,
 	dynamic: () => dynamic$15,
-	metadata: () => metadata$25
+	metadata: () => metadata$26
 });
 var dynamic$15 = "force-dynamic";
-var metadata$25 = {
+var metadata$26 = {
 	title: "Entrar con Google",
 	robots: {
 		index: false,
@@ -37304,18 +37408,14 @@ async function SignInPage({ searchParams }) {
 		})
 	});
 }
-//#endregion
-//#region components/offline-library.tsx
 var OfflineLibrary = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'OfflineLibrary' is called on server");
 }, "e89d6a3ac301", "OfflineLibrary");
-//#endregion
-//#region app/biblioteca-local/page.tsx
-var page_exports$30 = /* @__PURE__ */ __exportAll({
+var page_exports$31 = /* @__PURE__ */ __exportAll({
 	default: () => Page$4,
-	metadata: () => metadata$24
+	metadata: () => metadata$25
 });
-var metadata$24 = {
+var metadata$25 = {
 	title: "Biblioteca descargada · Venezuela Agro",
 	robots: {
 		index: false,
@@ -37543,11 +37643,7 @@ var manifest_default = {
 	],
 	notices: ["/licenses/ez-tree.txt", "/licenses/ez-tree-textures.md"]
 };
-//#endregion
-//#region lib/market-example-photos.json
 var market_example_photos_default = /* @__PURE__ */ JSON.parse("[{\"id\":\"demo-bovinos\",\"src\":\"/photos/market-examples/demo-bovinos.webp\",\"alt\":\"Bovinos Brahman en un pastizal de Australia; fotografía ilustrativa.\",\"author\":\"CSIRO\",\"license\":\"CC BY 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by/3.0/\",\"source\":\"https://www.scienceimage.csiro.au/image/10444\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":75824,\"sha256\":\"160eb425f593a754c9af7b632d79195ee03489d257ad4cabe1817a388f4f15a8\"},{\"id\":\"demo-porcinos-engorde\",\"src\":\"/photos/market-examples/demo-porcinos-engorde.webp\",\"alt\":\"Cerdos Yorkshire vivos en un espacio exterior de Maryland; fotografía ilustrativa.\",\"author\":\"Mark Peters\",\"license\":\"CC BY 2.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by/2.0/\",\"source\":\"https://www.flickr.com/photos/28267496@N00/5048353439\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":59168,\"sha256\":\"e0b1d393bc39077fef81942d27e4b49b16fde8e1165d820689088ae8ac3c716f\"},{\"id\":\"demo-aves-gallinas\",\"src\":\"/photos/market-examples/demo-aves-gallinas.webp\",\"alt\":\"Gallinas blancas vivas al aire libre; fotografía ilustrativa.\",\"author\":\"woodley wonderworks\",\"license\":\"CC BY 2.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by/2.0/\",\"source\":\"https://www.flickr.com/photos/wwworks/2606203797/\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":48654,\"sha256\":\"460e3f9fe03ebb4d18ca43bed1ad0438598e29764467a19229282eeac5831aae\"},{\"id\":\"demo-equinos-yegua\",\"src\":\"/photos/market-examples/demo-equinos-yegua.webp\",\"alt\":\"Yegua Connemara en Finlandia; foto ilustrativa de otro animal. No acredita edad ni alzada del ejemplo. Marcas del fondo no son patrocinadores.\",\"author\":\"Satu Pitkänen; retouche Gilbertus\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Connemara_mare.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":700,\"height\":525,\"bytes\":53532,\"sha256\":\"a494b0d4c57fb8b5653515b61a66a6425bb0cc7c1de3755ecfee19fa8be1e6fd\"},{\"id\":\"demo-ovinos-corderos\",\"src\":\"/photos/market-examples/demo-ovinos-corderos.webp\",\"alt\":\"Tres corderos vivos; foto ilustrativa. No representa los 12 animales ni pesos del lote ficticio.\",\"author\":\"Robek\",\"license\":\"CC BY 2.5\",\"licenseUrl\":\"https://creativecommons.org/licenses/by/2.5/\",\"source\":\"https://commons.wikimedia.org/wiki/File:3_little_lambs.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":551,\"bytes\":90030,\"sha256\":\"6450da22c95c94bdbf6d1e16a8a21f55b6cac18de3aaa05bd637f13ac9b90dae\"},{\"id\":\"demo-piscicultura-cachama\",\"src\":\"/photos/market-examples/demo-piscicultura-cachama.webp\",\"alt\":\"Alevín de trucha arcoíris (Oncorhynchus mykiss), fotografiado en Gavins Point, Estados Unidos. Foto ilustrativa: no muestra un lote de 500 peces ni certifica sus características.\",\"author\":\"Sam Stukel / USFWS Mountain Prairie\",\"license\":\"Public domain (USFWS)\",\"licenseUrl\":\"https://commons.wikimedia.org/wiki/File:Rainbow_Trout_(Oncorhynchus_mykiss)_(51373013565).jpg#Licensing\",\"source\":\"https://www.flickr.com/photos/51986662@N05/51373013565\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":480,\"bytes\":19518,\"sha256\":\"2ca5457e9af5f24bc9a76c1e30a21261b90957a88f1db2581f116a8a38b6b528\"},{\"id\":\"demo-apicultura-extractor\",\"src\":\"/photos/market-examples/demo-apicultura-extractor.webp\",\"alt\":\"Extractor de miel. Fotografía ilustrativa de un equipo, no de una oferta disponible.\",\"author\":\"Shyamal L.\",\"license\":\"CC BY 4.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by/4.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Honey_extractor.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":616,\"height\":720,\"bytes\":56210,\"sha256\":\"814b614b157a203e54add82c3d3b0abcddc01e12a436d48742ebc34096afbbe1\"},{\"id\":\"demo-carnicos-caja-bovina\",\"src\":\"/photos/market-examples/demo-carnicos-caja-bovina.webp\",\"alt\":\"Cortes de carne de res cruda sobre una tabla; fotografía ilustrativa.\",\"author\":\"FotoosVanRobin\",\"license\":\"CC BY-SA 2.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/2.0/\",\"source\":\"https://www.flickr.com/photos/fotoosvanrobin/2405397605/\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":52282,\"sha256\":\"90648ee613211e949063c6453ef9f2ce804eb8c98cab95254c4f816102d21475\"},{\"id\":\"demo-genetica-tanque\",\"src\":\"/photos/market-examples/demo-genetica-tanque.webp\",\"alt\":\"Recipientes criogénicos. Fotografía ilustrativa; características de una oferta real por verificar.\",\"author\":\"GOKLuLe 盧樂\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Liquid_nitrogen_tank.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":720,\"bytes\":65208,\"sha256\":\"6316a6251bf2f79be5b683f5e2b590d09c03a7026a5ca5351bfe0d55e1474bcc\"},{\"id\":\"demo-hortalizas-tomate\",\"src\":\"/photos/market-examples/demo-hortalizas-tomate.webp\",\"alt\":\"Tomates frescos; foto ilustrativa del producto, no de sus cajas ni peso.\",\"author\":\"Amtsga\",\"license\":\"CC0 1.0\",\"licenseUrl\":\"https://creativecommons.org/publicdomain/zero/1.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Ripe_tomatoes.JPG\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":720,\"bytes\":41224,\"sha256\":\"bdb03c9b168c66264da1539ce3b56d4e4a9639762c4282064fb4a326b12c4bc7\"},{\"id\":\"demo-frutas-pina\",\"src\":\"/photos/market-examples/demo-frutas-pina.webp\",\"alt\":\"Piñas enteras; foto ilustrativa del producto, no de sus cajas ni conteo.\",\"author\":\"ProjectManhattan\",\"license\":\"CC0 1.0\",\"licenseUrl\":\"https://creativecommons.org/publicdomain/zero/1.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Nice_Pineapples.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":442,\"height\":720,\"bytes\":102292,\"sha256\":\"3769a9724d3f0dae26806af4e739688ea3ba411eff25c99f7bed99e39d74204b\"},{\"id\":\"demo-granos-maiz\",\"src\":\"/photos/market-examples/demo-granos-maiz.webp\",\"alt\":\"Granos de maíz; fotografía ilustrativa de semillas, sin afirmar variedad, certificación o capacidad de germinación.\",\"author\":\"Rasbak\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Zea_mays_seeds_closeup.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":56200,\"sha256\":\"f27c0b3bc55c5fed7d79fd33def19ad88121f690fec7b5bbb2ddf867e8dcef0d\"},{\"id\":\"demo-semillas\",\"src\":\"/photos/market-examples/demo-semillas.webp\",\"alt\":\"Mazorcas de cacao abiertas con semillas visibles; fotografía ilustrativa.\",\"author\":\"Keith Weller / USDA ARS\",\"license\":\"Public domain (USDA ARS)\",\"licenseUrl\":\"https://commons.wikimedia.org/wiki/File:Cacao-pod-k4636-14.jpg#Licensing\",\"source\":\"https://commons.wikimedia.org/wiki/File:Cacao-pod-k4636-14.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":35812,\"sha256\":\"191e0ba3c6fa952ea484dba275507cca7cb2dd38db67f8ae5b93af4c621ac19f\"},{\"id\":\"demo-nutricion-alimento\",\"src\":\"/photos/market-examples/demo-nutricion-alimento.webp\",\"alt\":\"Alimento bovino peletizado; foto ilustrativa del tipo de producto. No representa sacos cerrados ni garantiza composición.\",\"author\":\"Thamizhpparithi Maari\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:A_view_of_cattle_feed.JPG\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":720,\"bytes\":166524,\"sha256\":\"5ee60899ebc4d43ea518b65589211187b375ac02e41cb3eba17ffa7c4b7abaaf\"},{\"id\":\"demo-veterinaria-envases\",\"src\":\"/photos/market-examples/demo-veterinaria-envases.webp\",\"alt\":\"Detalle de envases veterinarios con tapa; fotografía ilustrativa, sin indicaciones de uso ni recomendación de tratamiento.\",\"author\":\"Jheemstra\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Animal_medication_veterinary_pharmaceutical_bottles.JPG\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":5604,\"sha256\":\"b228fe878f68cd0c089dcd09612246aeb6d23b33b121a6ab2154e0111284e7c4\"},{\"id\":\"demo-fertilizantes-compost\",\"src\":\"/photos/market-examples/demo-fertilizantes-compost.webp\",\"alt\":\"Compost a granel en Kew Gardens; foto contextual. No representa los sacos del ejemplo ni certifica composición o maduración.\",\"author\":\"Gossipguy\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Compost_heap.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":356,\"bytes\":81728,\"sha256\":\"2bf16ac957f633c8673f605d00c9e8a2318f09c322974de4b5925f74d16caf60\"},{\"id\":\"demo-maquinaria-rastra\",\"src\":\"/photos/market-examples/demo-maquinaria-rastra.webp\",\"alt\":\"Rastra de discos. Fotografía ilustrativa de maquinaria agrícola, no de una oferta disponible.\",\"author\":\"N Chadwick\",\"license\":\"CC BY-SA 2.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/2.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Disc_harrow%2C_Iford_-_geograph.org.uk_-_6927324.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":641,\"bytes\":139480,\"sha256\":\"ee41daa0ef0b46181939e7e10e0576105f44c4f4369b0c85a8c8227e35f70fce\"},{\"id\":\"demo-drone\",\"src\":\"/photos/market-examples/demo-drone.webp\",\"alt\":\"Dron en vuelo en un proyecto de cuenca del Servicio Forestal de Estados Unidos; foto ilustrativa. No representa un dron pulverizador ni acredita capacidades, accesorios u horas de uso.\",\"author\":\"Jamie Balke / USDA Forest Service - Northern Region\",\"license\":\"Public domain (USDA Forest Service)\",\"licenseUrl\":\"https://commons.wikimedia.org/wiki/File:Photos_of_Drone,_CGNF_(53251252750).jpg#Licensing\",\"source\":\"https://www.flickr.com/photos/fsnorthernregion/53251252750\",\"changes\":\"Recorte central para mostrar el dron. Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":640,\"bytes\":20746,\"sha256\":\"594536a1931d7b1807438347dfddbefc4dd10b15e867e0cd906d1325a06c7d1b\"},{\"id\":\"demo-cercas-malla\",\"src\":\"/photos/market-examples/demo-cercas-malla.webp\",\"alt\":\"Palas, rastrillos y otros útiles junto a una carretilla; fotografía ilustrativa de herramientas.\",\"author\":\"Das Ant\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Gartengeraete.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":426,\"bytes\":43528,\"sha256\":\"73ee1d75c215f3b9192e8da0760b8d92026b3e430fafc10f4e24342dd8b21504\"},{\"id\":\"demo-finca-doce-hectareas\",\"src\":\"/photos/market-examples/demo-finca-doce-hectareas.webp\",\"alt\":\"Paisaje ganadero real de Guárico; fotografía contextual. No muestra una propiedad en venta ni acredita superficie, linderos, acceso o agua.\",\"author\":\"Christiane Pelda\",\"license\":\"CC BY-SA 3.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/3.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Ganado%2C_Los_Llanos%2C_Gu%C3%A1rico.JPG\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":960,\"height\":518,\"bytes\":58408,\"sha256\":\"3d8362ba3dadfb05152bc72d49231742e6ce95ebaa101086e4fdcce51969f6f4\"},{\"id\":\"demo-servicios-revision-cercas\",\"src\":\"/photos/market-examples/demo-servicios-revision-cercas.webp\",\"alt\":\"Cerca rural instalada; foto ilustrativa del objeto de revisión. No muestra personal ni trabajo realizado por Venezuela Agro.\",\"author\":\"Evelyn Simak\",\"license\":\"CC BY-SA 2.0\",\"licenseUrl\":\"https://creativecommons.org/licenses/by-sa/2.0/\",\"source\":\"https://commons.wikimedia.org/wiki/File:Stock_fence_separating_cattle_pasture_from_farm_road_-_geograph.org.uk_-_1348451.jpg\",\"changes\":\"Reducción y conversión a WebP; encuadre adaptable en la interfaz. La adaptación fotográfica conserva la licencia indicada.\",\"width\":640,\"height\":480,\"bytes\":67128,\"sha256\":\"6d33b1f6823c2169fdcb8e446512d17e89bea1fa6c8401907fe8dcbe3e7fca38\"}]");
-//#endregion
-//#region lib/institution-marks.ts
 var institutionMarks = [
 	{
 		"id": "inti",
@@ -37605,13 +37701,11 @@ var institutionMarks = [
 		"dark": false
 	}
 ];
-//#endregion
-//#region app/creditos-fotograficos/page.tsx
-var page_exports$29 = /* @__PURE__ */ __exportAll({
+var page_exports$30 = /* @__PURE__ */ __exportAll({
 	default: () => PhotoCreditsPage,
-	metadata: () => metadata$23
+	metadata: () => metadata$24
 });
-var metadata$23 = decoratePublicMetadata("/creditos-fotograficos", {
+var metadata$24 = decoratePublicMetadata("/creditos-fotograficos", {
 	title: "Créditos fotográficos",
 	description: "Fuentes, autorías, licencias y uso de las fotografías documentales del agro venezolano.",
 	alternates: { canonical: "/creditos-fotograficos" }
@@ -37988,14 +38082,10 @@ var BriefcaseBusiness = createLucideIcon("briefcase-business", [
 		key: "i6l2r4"
 	}]
 ]);
-//#endregion
-//#region components/design-form-example.tsx
 /** A deliberately memory-only example. No API, storage or queue operations. */
 var DesignFormExample = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'DesignFormExample' is called on server");
 }, "bc47afd51a73", "DesignFormExample");
-//#endregion
-//#region node_modules/clsx/dist/clsx.mjs
 function r(e) {
 	var t, f, n = "";
 	if ("string" == typeof e || "number" == typeof e) n += e;
@@ -38009,8 +38099,6 @@ function clsx() {
 	for (var e, t, f = 0, n = "", o = arguments.length; f < o; f++) (e = arguments[f]) && (t = r(e)) && (n && (n += " "), n += t);
 	return n;
 }
-//#endregion
-//#region node_modules/class-variance-authority/dist/index.mjs
 /**
 * Copyright 2022 Joe Bell. All rights reserved.
 *
@@ -38062,8 +38150,6 @@ var cva = (base, config) => (props) => {
 		] : acc;
 	}, []), props === null || props === void 0 ? void 0 : props.class, props === null || props === void 0 ? void 0 : props.className);
 };
-//#endregion
-//#region node_modules/radix-ui/node_modules/@radix-ui/react-compose-refs/dist/index.mjs
 var __defProp$1 = Object.defineProperty;
 var __name$1 = (target, value) => __defProp$1(target, "name", {
 	value,
@@ -38096,8 +38182,6 @@ function useComposedRefs(...refs) {
 	return import_react_react_server.useCallback(composeRefs(...refs), refs);
 }
 __name$1(useComposedRefs, "useComposedRefs");
-//#endregion
-//#region node_modules/radix-ui/node_modules/@radix-ui/react-slot/dist/index.mjs
 var __defProp = Object.defineProperty;
 var __name = (target, value) => __defProp(target, "name", {
 	value,
@@ -38209,8 +38293,6 @@ var createSlottableError = /* @__PURE__ */ __name((ownerName) => {
 	return `${ownerName} failed to slot onto its \`Slottable\`. Expected \`Slottable\` to receive a single React element child.`;
 }, "createSlottableError");
 var use = import_react_react_server[" use ".trim().toString()];
-//#endregion
-//#region node_modules/tailwind-merge/dist/bundle-mjs.mjs
 /**
 * Concatenates two arrays faster than the array spread operator.
 */
@@ -41588,13 +41670,9 @@ var getDefaultConfig = () => {
 	};
 };
 var twMerge = /* @__PURE__ */ createTailwindMerge(getDefaultConfig);
-//#endregion
-//#region lib/utils.ts
 function cn(...inputs) {
 	return twMerge(clsx(inputs));
 }
-//#endregion
-//#region components/ui/button.tsx
 var buttonVariants = cva("inline-flex shrink-0 items-center justify-center gap-2 rounded-md text-sm font-medium whitespace-nowrap transition-all outline-none focus-visible:border-ring focus-visible:ring-[3px] focus-visible:ring-ring/50 disabled:pointer-events-none disabled:opacity-50 aria-invalid:border-destructive aria-invalid:ring-destructive/20 dark:aria-invalid:ring-destructive/40 [&_svg]:pointer-events-none [&_svg]:shrink-0 [&_svg:not([class*='size-'])]:size-4", {
 	variants: {
 		variant: {
@@ -41634,13 +41712,11 @@ function Button({ className, variant = "default", size = "default", asChild = fa
 		...props
 	});
 }
-//#endregion
-//#region app/diseno/page.tsx
-var page_exports$28 = /* @__PURE__ */ __exportAll({
+var page_exports$29 = /* @__PURE__ */ __exportAll({
 	default: () => DesignPreviewPage,
-	metadata: () => metadata$22
+	metadata: () => metadata$23
 });
-var metadata$22 = {
+var metadata$23 = {
 	title: "Vista de diseño y componentes",
 	description: "Revisión visual de la identidad y los estados de interfaz de Venezuela Agro.",
 	robots: {
@@ -41986,20 +42062,16 @@ var MapPin = createLucideIcon("map-pin", [["path", {
 	r: "3",
 	key: "ilqhr7"
 }]]);
-//#endregion
-//#region components/company-directory.tsx
 var CompanyDirectory = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'CompanyDirectory' is called on server");
 }, "dcaf4a0c48d6", "CompanyDirectory");
-//#endregion
-//#region app/empresas/page.tsx
-var page_exports$27 = /* @__PURE__ */ __exportAll({
+var page_exports$28 = /* @__PURE__ */ __exportAll({
 	default: () => CompaniesPage,
 	dynamic: () => dynamic$14,
-	metadata: () => metadata$21
+	metadata: () => metadata$22
 });
 var dynamic$14 = "force-dynamic";
-var metadata$21 = pageMetadata("/empresas", "Empresas del agro venezolano", "Encuentra ferreterías, alimentos, insumos y proveedores que acompañan al productor venezolano. Registra tu empresa y su catálogo.");
+var metadata$22 = pageMetadata("/empresas", "Empresas del agro venezolano", "Encuentra ferreterías, alimentos, insumos y proveedores que acompañan al productor venezolano. Registra tu empresa y su catálogo.");
 async function CompaniesPage() {
 	let companies = [];
 	let unavailable = false;
@@ -42196,31 +42268,23 @@ async function CompaniesPage() {
 		]
 	});
 }
-//#endregion
-//#region components/directory-return-link.tsx
 /** A new visit gets the directory; a detail visit keeps this tab's public filters. */
 var DirectoryReturnLink = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'DirectoryReturnLink' is called on server");
 }, "bc2d6ca4e09c", "DirectoryReturnLink");
-//#endregion
-//#region components/security-center.tsx
 var SecurityCenter = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'SecurityCenter' is called on server");
 }, "ef0baee48737", "SecurityCenter");
-//#endregion
-//#region components/company-manager.tsx
 var CompanyManager = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'CompanyManager' is called on server");
 }, "4474f0bac7db", "CompanyManager");
-//#endregion
-//#region app/empresas/registro/page.tsx
-var page_exports$26 = /* @__PURE__ */ __exportAll({
+var page_exports$27 = /* @__PURE__ */ __exportAll({
 	default: () => CompanyRegistration,
 	dynamic: () => dynamic$13,
-	metadata: () => metadata$20
+	metadata: () => metadata$21
 });
 var dynamic$13 = "force-dynamic";
-var metadata$20 = {
+var metadata$21 = {
 	title: "Mi panel de empresa · Venezuela Agro",
 	robots: {
 		index: false,
@@ -42289,13 +42353,446 @@ async function CompanyRegistration() {
 		]
 	});
 }
-//#endregion
-//#region components/farm-demo-workspace.tsx
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var FolderPen = createLucideIcon("folder-pen", [["path", {
+	d: "M2 11.5V5a2 2 0 0 1 2-2h3.9c.7 0 1.3.3 1.7.9l.8 1.2c.4.6 1 .9 1.7.9H20a2 2 0 0 1 2 2v10a2 2 0 0 1-2 2h-9.5",
+	key: "a8xqs0"
+}], ["path", {
+	d: "M11.378 13.626a1 1 0 1 0-3.004-3.004l-5.01 5.012a2 2 0 0 0-.506.854l-.837 2.87a.5.5 0 0 0 .62.62l2.87-.837a2 2 0 0 0 .854-.506z",
+	key: "1saktj"
+}]]);
+/**
+* @license lucide-react v1.31.0 - ISC
+*
+* This source code is licensed under the ISC license.
+* See the LICENSE file in the root directory of this source tree.
+*/
+var ExternalLink = createLucideIcon("external-link", [
+	["path", {
+		d: "M15 3h6v6",
+		key: "1q9fwt"
+	}],
+	["path", {
+		d: "M10 14 21 3",
+		key: "gplh6r"
+	}],
+	["path", {
+		d: "M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6",
+		key: "a6xqqp"
+	}]
+]);
+var financingDirectory = {
+	"version": 1,
+	"title": "Financiamiento para tu producción",
+	"intro": "Explora opciones publicadas por entidades que atienden al sector agropecuario venezolano y consulta directamente sus requisitos.",
+	"verifiedAt": "2026-11-18",
+	"disclaimer": "Directorio informativo independiente. Venezuela Agro no otorga créditos ni garantiza su aprobación. La inclusión no implica alianza, representación o recomendación financiera. Requisitos, cupos, tasas y condiciones deben confirmarse directamente con cada entidad.",
+	"safetyNotice": "No envíes claves, códigos bancarios ni documentos financieros por canales no verificados. Un documento de tenencia no equivale automáticamente a una garantía hipotecaria admisible.",
+	"entries": [
+		{
+			"id": "banesco-agro-empresas",
+			"name": "Banesco",
+			"program": "Préstamo Agropecuario para Empresas",
+			"category": "credito_bancario",
+			"audience": ["Empresas agropecuarias", "Agroindustria"],
+			"summary": "Financiación para producción primaria y actividad agroindustrial.",
+			"conditions": ["Hasta 12 meses según la ficha publicada.", "Tasa variable y garantía a satisfacción del banco."],
+			"requirements": ["Consultar recaudos y planilla oficiales.", "Evaluación crediticia y garantías aceptadas por el banco."],
+			"url": "https://www.banesco.com/empresas/creditos/prestamo-agropecuario/",
+			"contactUrl": "https://www.banesco.com/atencion-al-cliente/contactanos/",
+			"contactLabel": "Canales oficiales de Banesco",
+			"phone": null,
+			"email": null,
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://www.banesco.com/empresas/creditos/prestamo-agropecuario/", "https://www.banesco.com/atencion-al-cliente/contactanos/"]
+		},
+		{
+			"id": "bdv-agro",
+			"name": "Banco de Venezuela",
+			"program": "Crédito Agropecuario",
+			"category": "credito_bancario",
+			"audience": ["Productores", "Agroindustriales"],
+			"summary": "Financiación agropecuaria cuyo plazo depende del ciclo económico y la evaluación del banco.",
+			"conditions": ["Monto sujeto a capacidad de pago y necesidades.", "Capital e intereses expresados en UVC, según ficha oficial."],
+			"requirements": ["Cuenta corriente en el BDV.", "Recaudos específicos y garantías evaluadas por el banco."],
+			"url": "https://www.bancodevenezuela.com/credito-agropecuario-personas/",
+			"contactUrl": "https://www.bancodevenezuela.com/credito-agropecuario-personas/",
+			"contactLabel": "Consultar con ejecutivo de negocio en oficinas",
+			"phone": "05006425283",
+			"email": null,
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://www.bancodevenezuela.com/credito-agropecuario-personas/"]
+		},
+		{
+			"id": "banplus-agro",
+			"name": "Banplus",
+			"program": "Créditos Agropecuarios",
+			"category": "credito_bancario",
+			"audience": ["Productores", "Empresas agroindustriales"],
+			"summary": "Financiación destinada al desarrollo y modernización del negocio agroindustrial.",
+			"conditions": ["Monto, plazo, coste y garantía deben confirmarse con el banco."],
+			"requirements": [
+				"Carta de solicitud y plan de inversión.",
+				"Identificación, RIF y documentos financieros según tipo de solicitante.",
+				"Documentación de tenencia, constancia de productor y registros aplicables."
+			],
+			"url": "https://www.banplus.com/financiamientos-empresas/",
+			"contactUrl": "https://www.banplus.com/financiamientos-empresas/",
+			"contactLabel": "Atención oficial de Banplus",
+			"phone": "05012267587",
+			"email": null,
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://www.banplus.com/financiamientos-empresas/"]
+		},
+		{
+			"id": "bfc-agro",
+			"name": "BFC Banco Fondo Común",
+			"program": "Crédito Agropecuario BFC",
+			"category": "credito_bancario",
+			"audience": [
+				"Productores agrícolas",
+				"Ganaderos",
+				"Sector forestal",
+				"Sector pesquero"
+			],
+			"summary": "Financiación de producción primaria, insumos y comercialización de productos finales.",
+			"conditions": ["Garantía definida por el banco según destino.", "Plazo sujeto a condiciones evaluadas por la entidad."],
+			"requirements": ["Revisar lista de recaudos y planilla en la página oficial.", "Confirmar requisitos de garantías."],
+			"url": "https://www.bfc.com.ve/personas-credito-agropecuario-bfc/",
+			"contactUrl": "https://www.bfc.com.ve/personas-credito-agropecuario-bfc/",
+			"contactLabel": "Consultar producto y recaudos oficiales",
+			"phone": null,
+			"email": null,
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://www.bfc.com.ve/personas-credito-agropecuario-bfc/"]
+		},
+		{
+			"id": "bolpriaven",
+			"name": "BOLPRIAVEN",
+			"program": "Mercado de financiación agropecuaria",
+			"category": "mercado_bursatil",
+			"audience": [
+				"Productores",
+				"Agroindustria",
+				"Comercializadores"
+			],
+			"summary": "Bolsa que facilita operaciones de comercialización y financiación del sector agropecuario venezolano.",
+			"conditions": ["No es un préstamo bancario ni un subsidio.", "La estructura, intermediación, costes y garantías dependen de la operación."],
+			"requirements": ["Consultar instrumentos y puesto de bolsa correspondiente.", "Preparar información productiva y financiera según el instrumento."],
+			"url": "https://www.bolpriaven.net/tipos-de-operaciones",
+			"contactUrl": "https://www.bolpriaven.net/contacto",
+			"contactLabel": "Consultar con BOLPRIAVEN",
+			"phone": "+582127508222",
+			"email": "info@bolpriaven.net",
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://www.bolpriaven.net/tipos-de-operaciones", "https://www.bolpriaven.net/contacto"]
+		},
+		{
+			"id": "fivenca-agricola",
+			"name": "Fivenca Agrícola",
+			"program": "Financiación bursátil agropecuaria",
+			"category": "intermediacion_bursatil",
+			"audience": ["Sector primario", "Agroindustria"],
+			"summary": "Casa de bolsa agrícola que ofrece orientación y estructuración para operaciones a través de BOLPRIAVEN.",
+			"conditions": ["No es subvención ni aprobación automática.", "Revisar estructura, comisiones, plazos y obligaciones antes de contratar."],
+			"requirements": ["Solicitar evaluación del proyecto y recaudos al equipo agrícola."],
+			"url": "https://agricola.fivenca.com/",
+			"contactUrl": "https://agricola.fivenca.com/",
+			"contactLabel": "Contactar al equipo agrícola",
+			"phone": "+582123075799",
+			"email": "atencionalcliente@grupofivenca.com",
+			"country": "VE",
+			"verifiedAt": "2026-11-18",
+			"verificationStatus": "official_product_page_verified",
+			"eligibilityStatus": "subject_to_institution_assessment",
+			"relationshipStatus": "independent_directory_no_partnership_claim",
+			"applicationStatus": "availability_not_confirmed",
+			"cta": "Consultar requisitos oficiales",
+			"sourceUrls": ["https://agricola.fivenca.com/"]
+		}
+	]
+};
+var page_exports$26 = /* @__PURE__ */ __exportAll({
+	default: () => FinancingPage,
+	metadata: () => metadata$20
+});
+var metadata$20 = pageMetadata("/financiamiento", "Financiamiento para el agro venezolano", "Prepara tu proyecto y consulta fuentes oficiales de financiación agropecuaria. Directorio independiente, sin garantía de aprobación.");
+function FinancingPage() {
+	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("main", {
+		className: "interior-page min-h-screen bg-[#f3ebdd]",
+		children: [
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(SiteHeader, {}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("header", {
+				className: "relative overflow-hidden bg-[#365026] px-5 pb-16 pt-32 text-white sm:px-8 lg:px-12 lg:pb-24 lg:pt-40",
+				children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+					className: "mx-auto max-w-[1344px]",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "section-kicker text-[#d7e8c3]",
+							children: "FINANCIAMIENTO · VENEZUELA AGRO"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h1", {
+							className: "font-display mt-4 max-w-5xl text-5xl leading-[1.02] sm:text-7xl",
+							children: "Un siguiente paso para tu producción."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "mt-6 max-w-2xl text-lg leading-8 text-white/80",
+							children: "Prepara tu proyecto. Conoce opciones oficiales. Consulta las condiciones con cada entidad antes de decidir."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+							className: "mt-8 flex flex-wrap gap-3",
+							children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)(link_default, {
+								href: "/proyectos#presentar-proyecto",
+								className: "button-light",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(FolderPen, {
+									size: 19,
+									"aria-hidden": "true"
+								}), "Presentar mi proyecto"]
+							}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("a", {
+								href: "#directorio",
+								className: "button-glass",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(Landmark, {
+									size: 19,
+									"aria-hidden": "true"
+								}), "Explorar entidades y programas"]
+							})]
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "mt-5 max-w-2xl text-sm leading-6 text-white/70",
+							children: "Venezuela Agro no otorga créditos. Registrar un proyecto no equivale a presentar una solicitud bancaria."
+						})
+					]
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("section", {
+				className: "mx-auto max-w-[1344px] px-5 py-12 sm:px-8 lg:px-12",
+				"aria-labelledby": "prepare-title",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+						className: "section-kicker",
+						children: "TU PROYECTO, CON CLARIDAD"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
+						id: "prepare-title",
+						className: "font-display mt-3 max-w-3xl text-3xl sm:text-4xl",
+						children: "Organiza lo que tienes y el apoyo que necesitas."
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+						className: "mt-7 grid gap-5 md:grid-cols-3",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("article", {
+								className: "rounded-2xl border border-[#4c6b3a]/15 bg-white p-6",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", {
+									className: "text-lg font-semibold",
+									children: "Describe tu propuesta"
+								}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+									className: "mt-3 text-sm leading-7 text-[#675f57]",
+									children: "Define objetivo, rubro, estado, recursos y necesidades. Utiliza el formulario existente de Tu proyecto."
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("article", {
+								className: "rounded-2xl border border-[#4c6b3a]/15 bg-white p-6",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", {
+									className: "text-lg font-semibold",
+									children: "Revisa antes de compartir"
+								}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+									className: "mt-3 text-sm leading-7 text-[#675f57]",
+									children: "Las propuestas enviadas pasan por revisión editorial. La galería solo muestra proyectos aprobados; no garantiza apoyo ni financiación."
+								})]
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("article", {
+								className: "rounded-2xl border border-[#4c6b3a]/15 bg-white p-6",
+								children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", {
+									className: "text-lg font-semibold",
+									children: "Consulta fuentes oficiales"
+								}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+									className: "mt-3 text-sm leading-7 text-[#675f57]",
+									children: "Cada entidad determina disponibilidad, garantías, plazos, costes y requisitos. Confirma qué opción corresponde a tu actividad."
+								})]
+							})
+						]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+						className: "mt-6 flex flex-wrap gap-3",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+							href: "/proyectos#presentar-proyecto",
+							className: "button-dark",
+							children: "Ir a Tu proyecto"
+						}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+							href: "/proyectos",
+							className: "button-light",
+							children: "Ver la galería de proyectos"
+						})]
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("aside", {
+						className: "mt-6 rounded-2xl border border-[#b9946b]/40 bg-[#eee5d6] p-5 text-sm leading-7",
+						children: [
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ShieldCheck, {
+								className: "mb-2",
+								size: 22,
+								"aria-hidden": "true"
+							}),
+							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("strong", { children: "Protege tus datos." }),
+							" No incluyas claves, documentos de identidad, estados bancarios, escrituras ni la ubicación exacta de tu finca en una propuesta pública. Presenta documentos sensibles únicamente ante la entidad, mediante sus canales oficiales verificados."
+						]
+					})
+				]
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("section", {
+				id: "directorio",
+				className: "scroll-mt-28 border-y border-[#4c6b3a]/15 bg-[#f8f3ea] px-5 py-12 sm:px-8 lg:px-12",
+				"aria-labelledby": "directory-title",
+				children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+					className: "mx-auto max-w-[1344px]",
+					children: [
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "section-kicker",
+							children: "DIRECTORIO INDEPENDIENTE"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
+							id: "directory-title",
+							className: "font-display mt-3 text-3xl sm:text-4xl",
+							children: "Opciones publicadas para el sector agropecuario."
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "mt-5 max-w-3xl text-base leading-7 text-[#675f57]",
+							children: financingDirectory.intro
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "mt-4 rounded-xl border border-[#4c6b3a]/20 bg-white p-4 text-sm leading-7",
+							children: financingDirectory.disclaimer
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
+							className: "mt-8 grid gap-6 md:grid-cols-2 xl:grid-cols-3",
+							children: financingDirectory.entries.map((entry) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("article", {
+								className: "flex min-w-0 flex-col rounded-2xl border border-[#4c6b3a]/20 bg-white p-6 shadow-sm",
+								children: [
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+										className: "text-xs font-bold uppercase tracking-wide text-[#4c6b3a]",
+										children: entry.category === "credito_bancario" ? "Crédito bancario" : "Mercado bursátil · no es crédito bancario"
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", {
+										className: "font-display mt-3 text-3xl",
+										children: entry.name
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+										className: "mt-2 text-base font-semibold",
+										children: entry.program
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+										className: "mt-4 text-sm leading-7 text-[#675f57]",
+										children: entry.summary
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("p", {
+										className: "mt-3 text-sm leading-6",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("strong", { children: "Dirigido a:" }),
+											" ",
+											entry.audience.join(", "),
+											"."
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("details", {
+										className: "mt-4 rounded-xl bg-[#f4f6ef] p-4",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("summary", {
+												className: "cursor-pointer text-sm font-semibold",
+												children: "Requisitos y condiciones publicados"
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("ul", {
+												className: "mt-3 list-disc space-y-2 pl-5 text-sm leading-6",
+												children: [...entry.requirements, ...entry.conditions].map((item) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("li", { children: item }, item))
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+												className: "mt-3 text-xs leading-6 text-[#675f57]",
+												children: "Información orientativa. Confirma términos y disponibilidad directamente con la entidad."
+											})
+										]
+									}),
+									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+										className: "mt-auto pt-6",
+										children: [
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("a", {
+												className: "button-dark w-full",
+												href: entry.url,
+												target: "_blank",
+												rel: "noopener noreferrer",
+												children: [
+													"Consultar requisitos oficiales",
+													/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ExternalLink, {
+														size: 15,
+														"aria-hidden": "true"
+													}),
+													/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
+														className: "sr-only",
+														children: " (abre otra pestaña)"
+													})
+												]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("a", {
+												className: "mt-3 inline-flex min-h-11 items-center text-sm font-semibold text-[#365026] underline",
+												href: entry.contactUrl,
+												target: "_blank",
+												rel: "noopener noreferrer",
+												children: [entry.contactLabel, /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
+													className: "sr-only",
+													children: " (abre otra pestaña)"
+												})]
+											}),
+											/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+												className: "mt-2 text-xs leading-6 text-[#675f57]",
+												children: "Fuente oficial consultada el 18 de noviembre de 2026. Sin alianza ni aprobación garantizada."
+											})
+										]
+									})
+								]
+							}, entry.id))
+						})
+					]
+				})
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(PublicFooter, {})
+		]
+	});
+}
 var FarmDemoWorkspace = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'FarmDemoWorkspace' is called on server");
 }, "3ba088f042c1", "FarmDemoWorkspace");
-//#endregion
-//#region app/finca-demo/page.tsx
 var page_exports$25 = /* @__PURE__ */ __exportAll({
 	default: () => DemoPage,
 	metadata: () => metadata$19
@@ -42310,14 +42807,10 @@ var metadata$19 = {
 function DemoPage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(FarmDemoWorkspace, {});
 }
-//#endregion
-//#region components/farm-showcase.tsx
 /** A presentation of the current fixture; interaction changes only React view state. */
 var FarmShowcase = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'FarmShowcase' is called on server");
 }, "c1353d7b3209", "FarmShowcase");
-//#endregion
-//#region app/finca-modelo/page.tsx
 var page_exports$24 = /* @__PURE__ */ __exportAll({
 	default: () => FarmShowcasePage,
 	metadata: () => metadata$18
@@ -42333,13 +42826,9 @@ var metadata$18 = {
 function FarmShowcasePage() {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(FarmShowcase, {});
 }
-//#endregion
-//#region components/agro-network.tsx
 var AgroNetwork = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'AgroNetwork' is called on server");
 }, "fb6c50751a9b", "AgroNetwork");
-//#endregion
-//#region app/fincas/page.tsx
 var page_exports$23 = /* @__PURE__ */ __exportAll({
 	default: () => Page$3,
 	dynamic: () => dynamic$12,
@@ -42493,38 +42982,6 @@ var Info = createLucideIcon("info", [
 * This source code is licensed under the ISC license.
 * See the LICENSE file in the root directory of this source tree.
 */
-var Landmark = createLucideIcon("landmark", [
-	["path", {
-		d: "M10 18v-7",
-		key: "wt116b"
-	}],
-	["path", {
-		d: "M11.119 2.205a2 2 0 0 1 1.762 0l7.84 3.846A.5.5 0 0 1 20.5 7h-17a.5.5 0 0 1-.22-.949z",
-		key: "yxxwt6"
-	}],
-	["path", {
-		d: "M14 18v-7",
-		key: "vav6t3"
-	}],
-	["path", {
-		d: "M18 18v-7",
-		key: "aexdmj"
-	}],
-	["path", {
-		d: "M3 22h18",
-		key: "8prr45"
-	}],
-	["path", {
-		d: "M6 18v-7",
-		key: "1ivflk"
-	}]
-]);
-/**
-* @license lucide-react v1.31.0 - ISC
-*
-* This source code is licensed under the ISC license.
-* See the LICENSE file in the root directory of this source tree.
-*/
 var Scale = createLucideIcon("scale", [
 	["path", {
 		d: "M12 3v18",
@@ -42547,8 +43004,6 @@ var Scale = createLucideIcon("scale", [
 		key: "1b0cd5"
 	}]
 ]);
-//#endregion
-//#region app/guia-institucional/page.tsx
 var page_exports$22 = /* @__PURE__ */ __exportAll({
 	default: () => InstitutionalGuidePage,
 	metadata: () => metadata$16
@@ -42762,8 +43217,6 @@ function InstitutionalGuidePage() {
 		]
 	});
 }
-//#endregion
-//#region app/juego-finca/page.tsx
 var page_exports$21 = /* @__PURE__ */ __exportAll({
 	default: () => FarmLearningPreview,
 	metadata: () => metadata$15
@@ -42803,8 +43256,6 @@ function FarmLearningPreview() {
 		] })]
 	});
 }
-//#endregion
-//#region components/legal-page.tsx
 function LegalPage({ kicker, title, summary, sections }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("main", {
 		className: "min-h-screen bg-[#f3ebdd]",
@@ -42903,8 +43354,6 @@ function LegalPage({ kicker, title, summary, sections }) {
 		]
 	});
 }
-//#endregion
-//#region app/legal/comercio/page.tsx
 var page_exports$20 = /* @__PURE__ */ __exportAll({
 	default: () => CommercePage,
 	metadata: () => metadata$14
@@ -42956,8 +43405,6 @@ function CommercePage() {
 		sections: sections$2
 	});
 }
-//#endregion
-//#region app/legal/privacidad/page.tsx
 var page_exports$19 = /* @__PURE__ */ __exportAll({
 	default: () => PrivacyPage,
 	metadata: () => metadata$13
@@ -43041,8 +43488,6 @@ function PrivacyPage() {
 		sections: sections$1
 	});
 }
-//#endregion
-//#region app/legal/terminos/page.tsx
 var page_exports$18 = /* @__PURE__ */ __exportAll({
 	default: () => TermsPage,
 	metadata: () => metadata$12
@@ -43109,13 +43554,9 @@ function TermsPage() {
 		sections
 	});
 }
-//#endregion
-//#region components/marketplace-browser.tsx
 var MarketplaceBrowser = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'MarketplaceBrowser' is called on server");
 }, "3c139a3f260e", "MarketplaceBrowser");
-//#endregion
-//#region app/marketplace/page.tsx
 var page_exports$17 = /* @__PURE__ */ __exportAll({
 	default: () => MarketplacePage,
 	metadata: () => metadata$11
@@ -43179,13 +43620,9 @@ async function MarketplacePage({ searchParams }) {
 		]
 	});
 }
-//#endregion
-//#region components/listing-form.tsx
 var ListingForm = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ListingForm' is called on server");
 }, "5efab927655b", "ListingForm");
-//#endregion
-//#region app/marketplace/publicar/page.tsx
 var page_exports$16 = /* @__PURE__ */ __exportAll({
 	default: () => PublishPage,
 	dynamic: () => dynamic$11,
@@ -43265,8 +43702,6 @@ async function PublishPage() {
 		]
 	});
 }
-//#endregion
-//#region lib/farm-animal-species.ts
 var FARM_ANIMAL_KINDS = [
 	"cattle",
 	"buffalo",
@@ -43311,8 +43746,6 @@ var animalModelLabels = {
 	hive: "Colmenas · esquema",
 	worm: "Lombrices · esquema"
 };
-//#endregion
-//#region app/modelos-finca/page.tsx
 var page_exports$15 = /* @__PURE__ */ __exportAll({
 	default: () => FarmModelsPage,
 	metadata: () => metadata$9
@@ -43449,8 +43882,6 @@ function FarmModelsPage() {
 		})
 	});
 }
-//#endregion
-//#region components/contextual-whatsapp-contact.tsx
 var ContextualWhatsAppContact = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ContextualWhatsAppContact' is called on server");
 }, "6b65d8a8f8a7", "ContextualWhatsAppContact");
@@ -43464,8 +43895,6 @@ var Heart = createLucideIcon("heart", [["path", {
 	d: "M2 9.5a5.5 5.5 0 0 1 9.591-3.676.56.56 0 0 0 .818 0A5.49 5.49 0 0 1 22 9.5c0 2.29-1.5 4-3 5.5l-5.492 5.313a2 2 0 0 1-3 .019L5 15c-1.5-1.5-3-3.2-3-5.5",
 	key: "mvr1a0"
 }]]);
-//#endregion
-//#region app/nosotros/page.tsx
 var page_exports$14 = /* @__PURE__ */ __exportAll({
 	default: () => AboutPage,
 	metadata: () => metadata$8
@@ -43672,6 +44101,7 @@ function AboutPage() {
 							context: "contacto y alianzas con Parcela Los Morochos",
 							phone: "+584264263601",
 							enabled: true,
+							label: "Contacto directo · WhatsApp",
 							className: "mt-6 max-w-xl"
 						}),
 						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
@@ -43732,8 +44162,6 @@ var RefreshCw = createLucideIcon("refresh-cw", [
 		key: "1cv678"
 	}]
 ]);
-//#endregion
-//#region app/offline/page.tsx
 var page_exports$13 = /* @__PURE__ */ __exportAll({
 	default: () => OfflinePage,
 	metadata: () => metadata$7
@@ -43792,8 +44220,6 @@ function OfflinePage() {
 		})
 	});
 }
-//#endregion
-//#region components/device-install-action.tsx
 var DeviceInstallAction = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'DeviceInstallAction' is called on server");
 }, "eb6a8c5f4ce0", "DeviceInstallAction");
@@ -43920,8 +44346,6 @@ var Smartphone = createLucideIcon("smartphone", [["rect", {
 	d: "M12 18h.01",
 	key: "mhygvu"
 }]]);
-//#endregion
-//#region app/plataforma/page.tsx
 var page_exports$12 = /* @__PURE__ */ __exportAll({
 	default: () => PlatformPage,
 	metadata: () => metadata$6
@@ -44243,16 +44667,10 @@ function PlatformPage() {
 		]
 	});
 }
-//#endregion
-//#region components/professional-directory.tsx
 var ProfessionalDirectory = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ProfessionalDirectory' is called on server");
 }, "3ca9f01c3cef", "ProfessionalDirectory");
-//#endregion
-//#region lib/professional-demo-data.json
 var professional_demo_data_default = /* @__PURE__ */ JSON.parse("[{\"id\":\"ejemplo-empresa\",\"name\":\"Servicios Campo Horizonte · ejemplo ficticio\",\"profession\":\"Servicios integrales para fincas\",\"specialties\":\"Maquinaria, lagunas, riego, mantenimiento rural\",\"state\":\"Barinas\",\"municipality\":\"Barinas\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Empresa ficticia que ilustra cómo presentar un equipo de maquinaria y mantenimiento para fincas, con alcance del trabajo, visitas y cotización por etapas. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Empresa\",\"corporateName\":\"Servicios Campo Horizonte · empresa ficticia de ejemplo\",\"tradeName\":\"Campo Horizonte · ejemplo ficticio\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Elena Prado · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: describir ubicación, área y trabajo → revisión del alcance → visita técnica simulada → presupuesto desglosado → programación acordada. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 7:00 a 16:00; visitas sujetas a evaluación de acceso y alcance. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":12,\"careerStage\":\"Consultor / trayectoria avanzada\",\"university\":\"Centro Técnico Horizonte Rural · institución ficticia de ejemplo\",\"degree\":\"Gestión de operaciones y mantenimiento rural · título ficticio de ejemplo\",\"graduationYear\":\"2014\",\"training\":\"Formación ficticia de ejemplo: Coordinación de cuadrillas; mantenimiento preventivo; seguridad en trabajos de campo y planificación de obras menores.\",\"trajectory\":\"Equipo de ejemplo con 12 años de experiencia simulada en preparación de terrenos, mantenimiento de lagunas y organización de equipos de campo. La coordinación ficticia está a cargo de Elena Prado.\",\"projects\":\"Finca ficticia Horizonte Verde: limpieza programada de una laguna y organización de sus registros de mantenimiento.\\nUnidad demostrativa El Sendero: adecuación de caminos internos y revisión de puntos de riego, sin obra ejecutada ni resultados reales.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nEvaluación inicial de labores de campo\\nCoordinación de maquinaria y operadores\\nLimpieza y mantenimiento de lagunas\\nMantenimiento de accesos e instalaciones rurales\\nApoyo en montaje y revisión de riego\",\"coverageStates\":[\"Barinas\",\"Portuguesa\",\"Apure\"],\"sectors\":[\"Maquinaria y drones\",\"Suelos y riego\",\"Piscicultura\"],\"email\":\"empresa@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-agronomia\",\"name\":\"Marina Rivas · ejemplo ficticio\",\"profession\":\"Ingeniería agronómica\",\"specialties\":\"Suelos, planificación de cultivos, riego y seguimiento\",\"state\":\"Portuguesa\",\"municipality\":\"Guanare\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticia que muestra una oferta de diagnóstico agronómico y acompañamiento de cultivos, desde el levantamiento de información hasta el seguimiento del plan de trabajo. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Marina Rivas · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar cultivo, superficie y objetivo → revisar información de la parcela → acordar visita simulada → presentar plan y cotización → definir seguimiento. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 8:00 a 17:00; jornadas de campo por cita. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":5,\"careerStage\":\"En ejercicio\",\"university\":\"Instituto Universitario Semilla del Llano · institución ficticia de ejemplo\",\"degree\":\"Ingeniería agronómica · título ficticio de ejemplo\",\"graduationYear\":\"2021\",\"training\":\"Formación ficticia de ejemplo: Muestreo de suelos; interpretación de registros de campo; planificación del riego y manejo integrado de cultivos.\",\"trajectory\":\"Cinco años de experiencia simulada en planificación de siembras y acompañamiento de pequeñas y medianas unidades agrícolas. El ejemplo prioriza registros, visitas de seguimiento y decisiones adaptadas al terreno.\",\"projects\":\"Parcela ficticia Semilla Clara: organización de un calendario de siembra y muestreo de suelos.\\nFinca demostrativa Los Surcos: revisión del uso del agua y diseño de una bitácora de seguimiento del cultivo.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nDiagnóstico agronómico inicial\\nPlanificación de siembra y rotación\\nMuestreo y lectura orientativa de análisis de suelo\\nRevisión del manejo del riego\\nSeguimiento técnico y capacitación de trabajadores\",\"coverageStates\":[\"Portuguesa\",\"Barinas\",\"Cojedes\"],\"sectors\":[\"Cereales\",\"Hortalizas\",\"Suelos y riego\"],\"email\":\"agronomia@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-veterinaria\",\"name\":\"Diego Salcedo · ejemplo ficticio\",\"profession\":\"Medicina veterinaria\",\"specialties\":\"Bovinos, bienestar animal, sanidad y registros del rebaño\",\"state\":\"Apure\",\"municipality\":\"San Fernando\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que ilustra servicios veterinarios de campo, organización de registros sanitarios y formación del personal de una unidad ganadera. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Diego Salcedo · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar especie, cantidad de animales y motivo → valorar el alcance → acordar visita simulada → definir presupuesto y seguimiento. Las urgencias requieren un servicio veterinario real. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a sábado, de 7:30 a 15:30, con cita previa. No es un canal de urgencias veterinarias. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":8,\"careerStage\":\"Especialista\",\"university\":\"Universidad Ficticia Bienestar del Llano · institución ficticia de ejemplo\",\"degree\":\"Medicina veterinaria · título ficticio de ejemplo\",\"graduationYear\":\"2018\",\"training\":\"Formación ficticia de ejemplo: Bienestar animal; bioseguridad de instalaciones; registros reproductivos y planificación de visitas veterinarias.\",\"trajectory\":\"Ocho años de experiencia simulada en visitas a unidades ganaderas y organización de planes de seguimiento. El perfil demuestra cómo explicar servicios sin publicar diagnósticos, recetas ni promesas sanitarias.\",\"projects\":\"Hato ficticio Agua Serena: diseño de una ficha sanitaria individual y calendario de revisiones.\\nUnidad demostrativa Los Esteros: taller de manejo tranquilo del rebaño y registro de observaciones reproductivas.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nEvaluación veterinaria programada en finca\\nRevisión de registros sanitarios\\nSeguimiento reproductivo\\nOrientación sobre bienestar y bioseguridad\\nCapacitación del personal de manejo\",\"coverageStates\":[\"Apure\",\"Barinas\",\"Guárico\"],\"sectors\":[\"Bovinos\",\"Porcinos\",\"Equinos\"],\"email\":\"veterinaria@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-drones\",\"name\":\"Valeria Cedeño · ejemplo ficticio\",\"profession\":\"Piloto de drones agrícolas\",\"specialties\":\"Cartografía, monitoreo visual y agricultura de precisión\",\"state\":\"Guárico\",\"municipality\":\"Leonardo Infante\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticia que presenta servicios de captura aérea y documentación de parcelas. Las autorizaciones de vuelo se comprobarían antes de cualquier operación real. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Valeria Cedeño · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: compartir ubicación y finalidad → revisar viabilidad y restricciones → definir entregables y cotización → acordar jornada simulada → revisar los archivos entregados. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: jornadas de campo por cita, condicionadas al clima, acceso y permisos aplicables. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":3,\"careerStage\":\"En ejercicio\",\"university\":\"Academia Ficticia Visión de Campo · institución ficticia de ejemplo\",\"degree\":\"Formación técnica en operación de drones y cartografía · título ficticio de ejemplo\",\"graduationYear\":\"2023\",\"training\":\"Formación ficticia de ejemplo: Planificación de capturas; procesamiento de imágenes; lectura de mapas y seguridad operacional. Formación ficticia, sin habilitación aeronáutica real.\",\"trajectory\":\"Tres años de experiencia simulada en documentación aérea de lotes y elaboración de entregables visuales para seguimiento agrícola. No se declara una licencia de vuelo real.\",\"projects\":\"Parcela ficticia Vista Llana: mosaico demostrativo para ubicar caminos, lotes y puntos de agua.\\nUnidad demostrativa Surco Abierto: comparación visual de dos etapas de un cultivo, sin datos de una explotación real.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nPlanificación de levantamientos visuales\\nCaptura aérea de parcelas\\nMapas y mosaicos de referencia\\nReportes de seguimiento visual\\nEntrega y explicación de archivos al productor\",\"coverageStates\":[\"Guárico\",\"Cojedes\",\"Portuguesa\"],\"sectors\":[\"Maquinaria y drones\",\"Cereales\",\"Suelos y riego\"],\"email\":\"drones@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-derecho\",\"name\":\"Gabriel Montes · ejemplo ficticio\",\"profession\":\"Derecho agrario\",\"specialties\":\"Contratos rurales, documentación y orientación en trámites\",\"state\":\"Lara\",\"municipality\":\"Iribarren\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que muestra una oferta de revisión documental y orientación en asuntos agrarios. Este perfil no presta asesoría jurídica ni representa a clientes. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Gabriel Montes · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: describir el asunto sin enviar datos sensibles → delimitar la consulta → acordar honorarios y cita simulada → revisar documentación autorizada → entregar observaciones. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 9:00 a 16:00; consultas remotas o presenciales por cita. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":7,\"careerStage\":\"En ejercicio\",\"university\":\"Universidad Ficticia Acuerdo Rural · institución ficticia de ejemplo\",\"degree\":\"Derecho con formación demostrativa en asuntos agrarios · título ficticio de ejemplo\",\"graduationYear\":\"2019\",\"training\":\"Formación ficticia de ejemplo: Redacción contractual; organización de expedientes; mediación y estudio de documentación rural. Ninguna colegiación real.\",\"trajectory\":\"Siete años de experiencia simulada en organización de documentación de unidades productivas y revisión de contratos de servicios rurales. Las actuaciones descritas son ejemplos editoriales.\",\"projects\":\"Asociación ficticia Campo en Acuerdo: modelo demostrativo de contratación de servicios de maquinaria.\\nFinca ficticia El Encuentro: inventario de documentos y lista de información pendiente para una consulta profesional.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nConsulta inicial sobre documentación rural\\nRevisión de contratos de servicios\\nOrganización de expedientes\\nOrientación sobre pasos y requisitos de trámites\\nTalleres de lectura de contratos para productores\",\"coverageStates\":[\"Lara\",\"Portuguesa\",\"Yaracuy\"],\"sectors\":[\"Gestión y comercialización\"],\"email\":\"derecho@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-topografia\",\"name\":\"Lucía Valera · ejemplo ficticio\",\"profession\":\"Topografía\",\"specialties\":\"Levantamientos, coordenadas y planos de referencia\",\"state\":\"Barinas\",\"municipality\":\"Obispos\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticia que ejemplifica levantamientos de campo y preparación de planos de referencia para organizar trabajos dentro de una finca. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Lucía Valera · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar área, finalidad y acceso → revisar documentos disponibles → definir precisión y entregables → cotizar → programar levantamiento simulado. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 7:00 a 15:00; levantamientos sujetos al clima y acceso. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":6,\"careerStage\":\"En ejercicio\",\"university\":\"Instituto Ficticio Medida y Terreno · institución ficticia de ejemplo\",\"degree\":\"Tecnología en topografía · título ficticio de ejemplo\",\"graduationYear\":\"2020\",\"training\":\"Formación ficticia de ejemplo: Manejo de equipos de medición; nivelación; dibujo de planos y organización de datos geoespaciales.\",\"trajectory\":\"Seis años de experiencia simulada en toma de puntos, nivelación y elaboración de planos de trabajo para proyectos rurales. Un levantamiento de ejemplo no acredita propiedad ni sustituye un deslinde legal.\",\"projects\":\"Finca ficticia Camino Claro: plano de referencia con accesos, instalaciones y puntos de agua.\\nParcela demostrativa La Cota: levantamiento altimétrico para estudiar una propuesta de drenaje.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nReconocimiento y toma de puntos\\nLevantamientos planimétricos y altimétricos\\nNivelación para obras rurales\\nPlanos de referencia\\nEntrega y explicación de archivos de medición\",\"coverageStates\":[\"Barinas\",\"Portuguesa\",\"Apure\"],\"sectors\":[\"Suelos y riego\",\"Gestión y comercialización\"],\"email\":\"topografia@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-acuicultura\",\"name\":\"Andrés Rivero · ejemplo ficticio\",\"profession\":\"Técnico en piscicultura\",\"specialties\":\"Lagunas, calidad del agua y registros productivos\",\"state\":\"Guárico\",\"municipality\":\"Francisco de Miranda\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que ilustra acompañamiento en el manejo de lagunas piscícolas, observación del agua y registro de alimentación y producción. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Andrés Rivero · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: describir especie cultivada, lagunas y objetivo → revisar registros disponibles → acordar visita simulada → presentar propuesta de seguimiento. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a sábado, de 7:00 a 15:00; acompañamiento remoto entre visitas. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":6,\"careerStage\":\"En ejercicio\",\"university\":\"Centro Ficticio Agua y Cultivo · institución ficticia de ejemplo\",\"degree\":\"Técnico en producción piscícola · título ficticio de ejemplo\",\"graduationYear\":\"2020\",\"training\":\"Formación ficticia de ejemplo: Registro de parámetros del agua; organización de alimentación; bioseguridad y mantenimiento básico de lagunas.\",\"trajectory\":\"Seis años de experiencia simulada en acompañamiento de unidades piscícolas y formación de sus responsables de operación. Los valores y resultados productivos no corresponden a instalaciones reales.\",\"projects\":\"Unidad ficticia Laguna Serena: bitácora demostrativa de agua, alimentación y observaciones.\\nFinca ficticia Agua de Campo: programación de limpieza y mantenimiento preventivo de bordes y entradas de agua.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nDiagnóstico operativo de lagunas\\nOrganización de registros de agua y alimentación\\nPlanificación de mantenimiento\\nSeguimiento de rutinas de manejo\\nCapacitación del personal de piscicultura\",\"coverageStates\":[\"Guárico\",\"Apure\",\"Barinas\"],\"sectors\":[\"Piscicultura\",\"Suelos y riego\"],\"email\":\"acuicultura@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-avicultura\",\"name\":\"Camila Figueroa · ejemplo ficticio\",\"profession\":\"Técnica avícola\",\"specialties\":\"Pollos, postura, bioseguridad e instalaciones\",\"state\":\"Aragua\",\"municipality\":\"Zamora\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticia que muestra servicios de revisión de rutinas avícolas, organización de registros y capacitación para el funcionamiento diario de galpones. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Camila Figueroa · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar tipo de producción y objetivo → revisar restricciones de bioseguridad → definir visita y alcance → cotizar acompañamiento simulado. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 8:00 a 16:00; visitas con protocolo de ingreso acordado. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":5,\"careerStage\":\"En ejercicio\",\"university\":\"Instituto Ficticio Aula Avícola · institución ficticia de ejemplo\",\"degree\":\"Tecnología en producción avícola · título ficticio de ejemplo\",\"graduationYear\":\"2021\",\"training\":\"Formación ficticia de ejemplo: Bioseguridad; lectura de registros de consumo y postura; ventilación y bienestar en instalaciones avícolas.\",\"trajectory\":\"Cinco años de experiencia simulada en revisión de rutinas de galpón y acompañamiento de equipos operativos. El perfil no incluye diagnósticos veterinarios ni recomendaciones de medicamentos.\",\"projects\":\"Granja ficticia Pluma Clara: lista de control demostrativa de entrada, limpieza y observación diaria.\\nUnidad ficticia Nido de Campo: tablero de registro de consumo, postura y mantenimiento de equipos.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nRevisión de rutinas operativas\\nOrganización de registros de producción\\nEvaluación de condiciones generales del galpón\\nPlanificación de limpieza y bioseguridad\\nCapacitación de operarios\",\"coverageStates\":[\"Aragua\",\"Carabobo\",\"Guárico\"],\"sectors\":[\"Aves\"],\"email\":\"avicultura@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-apicultura\",\"name\":\"Tomás Beltrán · ejemplo ficticio\",\"profession\":\"Especialista en apicultura\",\"specialties\":\"Colmenas, cosecha, manejo y trazabilidad\",\"state\":\"Lara\",\"municipality\":\"Torres\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que presenta acompañamiento de apiarios, planificación de revisiones y organización de registros para el manejo y la cosecha. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Tomás Beltrán · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar ubicación, número de colmenas y objetivo → revisar condiciones de seguridad → definir visita simulada → cotizar acompañamiento y capacitación. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: martes a sábado, con jornadas de campo sujetas al clima y condiciones del apiario. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":9,\"careerStage\":\"Especialista\",\"university\":\"Escuela Ficticia Apiario Abierto · institución ficticia de ejemplo\",\"degree\":\"Formación técnica en manejo apícola · título ficticio de ejemplo\",\"graduationYear\":\"2017\",\"training\":\"Formación ficticia de ejemplo: Revisión de colmenas; seguridad durante el manejo; higiene de cosecha y trazabilidad de lotes.\",\"trajectory\":\"Nueve años de experiencia simulada en organización de apiarios y capacitación práctica para manejo responsable de colmenas. Ninguna cosecha ni certificación descrita es real.\",\"projects\":\"Apiario ficticio Flor de Horizonte: fichas de inspección por colmena y planificación estacional de visitas.\\nUnidad ficticia Miel del Sendero: registro demostrativo de cosecha, recipientes y lotes.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nEvaluación inicial del apiario\\nPlanificación de revisiones de colmenas\\nOrientación de manejo y seguridad\\nOrganización de registros de cosecha\\nTalleres prácticos para productores\",\"coverageStates\":[\"Lara\",\"Yaracuy\",\"Portuguesa\"],\"sectors\":[\"Apicultura\"],\"email\":\"apicultura@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-mecanica\",\"name\":\"Rafael Suárez · ejemplo ficticio\",\"profession\":\"Mecánica agrícola\",\"specialties\":\"Tractores, bombas y mantenimiento preventivo\",\"state\":\"Portuguesa\",\"municipality\":\"Araure\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que ejemplifica servicios de diagnóstico mecánico, mantenimiento programado y revisión de equipos agrícolas con alcance y repuestos acordados. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Rafael Suárez · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: describir equipo, modelo y falla → acordar inspección simulada → presentar diagnóstico y presupuesto → autorizar repuestos y trabajos → revisar entrega. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a sábado, de 7:30 a 16:30; visitas y recepción de equipos por cita. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":11,\"careerStage\":\"Consultor / trayectoria avanzada\",\"university\":\"Centro Ficticio Taller del Llano · institución ficticia de ejemplo\",\"degree\":\"Técnico en mantenimiento de maquinaria agrícola · título ficticio de ejemplo\",\"graduationYear\":\"2015\",\"training\":\"Formación ficticia de ejemplo: Diagnóstico de fallas; sistemas de bombeo; mantenimiento preventivo y prácticas de seguridad en taller.\",\"trajectory\":\"Once años de experiencia simulada en revisión de equipos agrícolas y organización de planes de mantenimiento. No existe afiliación real con marcas ni garantía comercial activa.\",\"projects\":\"Finca ficticia Rueda de Campo: calendario de mantenimiento demostrativo para tractores y bombas.\\nUnidad ficticia Motor del Surco: ficha de inspección y registro de intervenciones en equipos.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nInspección y diagnóstico mecánico\\nMantenimiento preventivo de tractores\\nRevisión de bombas y equipos auxiliares\\nPlanificación de repuestos y labores\\nCapacitación básica de operadores\",\"coverageStates\":[\"Portuguesa\",\"Barinas\",\"Cojedes\"],\"sectors\":[\"Maquinaria y drones\",\"Suelos y riego\"],\"email\":\"mecanica@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-logistica\",\"name\":\"Sofía Méndez · ejemplo ficticio\",\"profession\":\"Logística agropecuaria\",\"specialties\":\"Rutas, coordinación de transporte y entregas\",\"state\":\"Carabobo\",\"municipality\":\"Valencia\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticia que muestra cómo presentar servicios de planificación de despachos, coordinación de rutas y organización de documentos de entrega. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Sofía Méndez · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: indicar origen, destino, producto y volumen → revisar condiciones de manejo → definir alcance y responsabilidades → cotizar coordinación simulada → preparar plan de despacho. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 8:00 a 17:00; coordinación especial únicamente bajo un acuerdo hipotético. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":7,\"careerStage\":\"En ejercicio\",\"university\":\"Instituto Ficticio Ruta y Abasto · institución ficticia de ejemplo\",\"degree\":\"Gestión logística y distribución agropecuaria · título ficticio de ejemplo\",\"graduationYear\":\"2019\",\"training\":\"Formación ficticia de ejemplo: Planificación de rutas; control de despachos; trazabilidad documental y coordinación de ventanas de recepción.\",\"trajectory\":\"Siete años de experiencia simulada en coordinación entre unidades productivas, transportistas y puntos de recepción. No dispone de flota real ni ofrece transporte activo.\",\"projects\":\"Red ficticia Cosecha a Tiempo: calendario demostrativo de despachos y confirmación de recepción.\\nCentro ficticio Abasto del Campo: lista de control para carga, documentos y seguimiento de incidencias.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nPlanificación de rutas y despachos\\nCoordinación de ventanas de entrega\\nOrganización de documentos de transporte\\nSeguimiento de entregas e incidencias\\nDiseño de registros de trazabilidad\",\"coverageStates\":[\"Carabobo\",\"Aragua\",\"Cojedes\",\"Yaracuy\"],\"sectors\":[\"Gestión y comercialización\"],\"email\":\"logistica@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}},{\"id\":\"ejemplo-riego\",\"name\":\"Mateo Paredes · ejemplo ficticio\",\"profession\":\"Ingeniería agrícola\",\"specialties\":\"Riego, bombeo, drenaje e infraestructura rural\",\"state\":\"Zulia\",\"municipality\":\"Colón\",\"serviceMode\":\"Presencial y remoto\",\"introduction\":\"Profesional ficticio que ilustra servicios de evaluación y planificación de sistemas de riego, bombeo y drenaje adaptados a las condiciones de una finca. Perfil 100 % ficticio de demostración. No representa a una persona o empresa real.\",\"contact\":\"Teléfono de ejemplo: no disponible\",\"credentialNote\":\"Datos, experiencia y formación 100 % ficticios. Sin credenciales verificadas. Fotografía generada por IA para demostración; no representa a una persona real. Redes sociales y sitio web: no disponibles en este ejemplo.\",\"demo\":true,\"details\":{\"profileType\":\"Persona natural\",\"corporateName\":\"\",\"tradeName\":\"\",\"registrationBody\":\"Registro demostrativo · sin organismo ni colegiación real\",\"registrationReference\":\"Ejemplo no válido\",\"taxId\":\"Ejemplo no válido\",\"responsibleName\":\"Mateo Paredes · identidad ficticia\",\"bookingProcess\":\"Flujo de ejemplo: describir cultivo, superficie y fuente de agua → revisar información y restricciones → acordar visita simulada → delimitar entregables → presentar propuesta y presupuesto. Este perfil no permite contactar, reservar ni contratar servicios reales.\",\"availability\":\"Horario simulado: lunes a viernes, de 8:00 a 16:00; visitas técnicas por cita y revisión remota de planos. No es disponibilidad real.\",\"socials\":{},\"yearsExperience\":10,\"careerStage\":\"Consultor / trayectoria avanzada\",\"university\":\"Universidad Ficticia Agua y Territorio · institución ficticia de ejemplo\",\"degree\":\"Ingeniería agrícola · título ficticio de ejemplo\",\"graduationYear\":\"2016\",\"training\":\"Formación ficticia de ejemplo: Diseño de redes de riego; evaluación de bombeo; drenaje superficial y lectura de planos de infraestructura rural.\",\"trajectory\":\"Diez años de experiencia simulada en evaluación de necesidades de agua y planificación de infraestructura agrícola. Las propuestas son demostrativas y no constituyen diseños ejecutivos reales.\",\"projects\":\"Finca ficticia Agua del Sur: esquema demostrativo de sectorización de riego y control de operación.\\nParcela ficticia Terreno Claro: diagnóstico de escorrentía y propuesta conceptual de drenaje superficial.\\nTodos los proyectos y sus organizaciones son ficticios; no hay clientes ni resultados reales.\",\"services\":\"Servicios ilustrativos, sin oferta ni contratación activa:\\nEvaluación de sistemas de riego existentes\\nPlanificación de redes y sectores\\nRevisión de bombeo y distribución\\nPropuestas de drenaje superficial\\nCapacitación en operación y mantenimiento\",\"coverageStates\":[\"Zulia\",\"Mérida\",\"Trujillo\"],\"sectors\":[\"Suelos y riego\",\"Pastos y forrajes\"],\"email\":\"riego@example.com\",\"whatsapp\":false,\"website\":\"\",\"linkedin\":\"\",\"instagram\":\"\"}}]");
-//#endregion
-//#region lib/professional-examples.ts
 var founder = {
 	id: "alvaro-carrero",
 	name: "Álvaro Carrero",
@@ -44285,13 +44703,9 @@ var professionalExamples = [
 	founder,
 	...demos.slice(1)
 ];
-//#endregion
-//#region components/professional-manager.tsx
 var ProfessionalManager = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ProfessionalManager' is called on server");
 }, "09fc9adaf05c", "ProfessionalManager");
-//#endregion
-//#region app/profesionales/page.tsx
 var page_exports$11 = /* @__PURE__ */ __exportAll({
 	default: () => ProfessionalsPage,
 	dynamic: () => dynamic$10,
@@ -44432,18 +44846,12 @@ var Lightbulb = createLucideIcon("lightbulb", [
 		key: "ceow96"
 	}]
 ]);
-//#endregion
-//#region components/community-forms.tsx
 var ProjectForm = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ProjectForm' is called on server");
 }, "2f85510e405b", "ProjectForm");
-//#endregion
-//#region components/project-example.tsx
 var ProjectExample = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ProjectExample' is called on server");
 }, "89729c0813f7", "ProjectExample");
-//#endregion
-//#region app/proyectos/page.tsx
 var page_exports$10 = /* @__PURE__ */ __exportAll({
 	default: () => ProjectsPage,
 	dynamic: () => dynamic$9,
@@ -44454,9 +44862,12 @@ var metadata$4 = pageMetadata("/proyectos", "Proyectos y alianzas del agro", "Pr
 async function ProjectsPage() {
 	const user = await getChatGPTUser();
 	let rows = [];
+	let ownerRows = [];
 	let unavailable = false;
 	try {
-		rows = await (await getDb()).select().from(projectProposals).where(eq(projectProposals.status, "active")).limit(100);
+		const db = await getDb();
+		rows = await db.select().from(projectProposals).where(and(eq(projectProposals.status, "active"), eq(projectProposals.publicationAuthorized, true), isNotNull(projectProposals.publicationAuthorizedAt), eq(projectProposals.publicationConsentVersion, PROJECT_PUBLICATION_CONSENT_VERSION))).limit(100);
+		if (user) ownerRows = await db.select().from(projectProposals).where(eq(projectProposals.ownerId, user.id)).limit(100);
 	} catch {
 		unavailable = true;
 		console.warn("Public proyectos records temporarily unavailable.");
@@ -44495,6 +44906,78 @@ async function ProjectsPage() {
 				action: "Presentar mi proyecto",
 				href: "#presentar-proyecto",
 				help: "/aprende"
+			}),
+			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("aside", {
+				className: "mx-auto max-w-[1344px] px-5 pt-8 sm:px-8 lg:px-12",
+				"aria-label": "Opciones de financiamiento",
+				children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
+					className: "rounded-2xl border border-[#4c6b3a]/20 bg-[#e9efdf] p-6 sm:flex sm:items-center sm:justify-between sm:gap-6",
+					children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "section-kicker",
+							children: "FINANCIAMIENTO"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
+							className: "mt-2 text-xl font-semibold",
+							children: "¿Tu proyecto necesita apoyo financiero?"
+						}),
+						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+							className: "mt-3 max-w-2xl text-sm leading-7",
+							children: "Consulta el directorio de entidades y requisitos oficiales. Presentar aquí tu propuesta no solicita un crédito ni garantiza inversión o publicación."
+						})
+					] }), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
+						href: "/financiamiento",
+						className: "button-dark mt-4 shrink-0 sm:mt-0",
+						children: "Ver opciones de financiamiento"
+					})]
+				})
+			}),
+			user && ownerRows.length > 0 && /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("section", {
+				className: "mx-auto max-w-[1344px] px-5 pt-8 sm:px-8 lg:px-12",
+				"aria-labelledby": "my-projects-title",
+				children: [
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
+						id: "my-projects-title",
+						className: "font-display text-3xl",
+						children: "Mis proyectos y autorización pública"
+					}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
+						className: "mt-3 text-sm leading-7",
+						children: "Solo tú y el equipo autorizado pueden ver esta sección. Para retirar una ficha pública, desmarca la autorización y guarda. El retiro se hace efectivo al confirmar la sincronización; no elimina copias que otros hayan descargado."
+					}),
+					ownerRows.filter((row) => row.status !== "deleted").map((row) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("details", {
+						className: "mt-4 rounded-xl border bg-white p-5",
+						children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("summary", {
+							className: "cursor-pointer font-semibold",
+							children: [
+								row.title,
+								" · ",
+								row.publicationAuthorized ? "Presentación pública autorizada" : "Privado"
+							]
+						}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
+							className: "mt-5",
+							children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ProjectForm, {
+								userId: user.id,
+								initial: {
+									id: row.id,
+									revision: row.revision,
+									payload: {
+										title: row.title,
+										sector: row.sector,
+										state: row.state,
+										summary: row.summary,
+										has: parseStringListJson(row.hasJson),
+										needs: parseStringListJson(row.needsJson),
+										impact: row.impact,
+										requestedSupport: row.requestedSupport,
+										contact: row.contact,
+										publicationAuthorized: row.publicationAuthorized
+									}
+								}
+							})
+						})]
+					}, row.id + row.revision))
+				]
 			}),
 			/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("section", {
 				className: "mx-auto max-w-[1344px] px-5 py-16 sm:px-8 lg:px-12 lg:py-24",
@@ -44629,8 +45112,6 @@ async function ProjectsPage() {
 		]
 	});
 }
-//#endregion
-//#region app/red/page.tsx
 var page_exports$9 = /* @__PURE__ */ __exportAll({
 	default: () => Page$2,
 	dynamic: () => dynamic$8,
@@ -44713,8 +45194,6 @@ async function Page$2({ searchParams }) {
 		]
 	});
 }
-//#endregion
-//#region app/rubros/page.tsx
 var page_exports$8 = /* @__PURE__ */ __exportAll({
 	default: () => RubricsPage,
 	metadata: () => metadata$2
@@ -44836,13 +45315,9 @@ function RubricsPage() {
 		]
 	});
 }
-//#endregion
-//#region components/sticker-gallery.tsx
 var StickerGallery = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'StickerGallery' is called on server");
 }, "2539b36d5ba8", "StickerGallery");
-//#endregion
-//#region app/stickers/page.tsx
 var page_exports$7 = /* @__PURE__ */ __exportAll({
 	default: () => StickersPage,
 	metadata: () => metadata$1
@@ -44878,13 +45353,9 @@ function StickersPage() {
 		]
 	});
 }
-//#endregion
-//#region components/store-catalog.tsx
 var StoreCatalog = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'StoreCatalog' is called on server");
 }, "538e5a29f7e3", "StoreCatalog");
-//#endregion
-//#region app/tienda/page.tsx
 var page_exports$6 = /* @__PURE__ */ __exportAll({
 	default: () => StorePage,
 	metadata: () => metadata
@@ -44956,8 +45427,6 @@ function StorePage() {
 		]
 	});
 }
-//#endregion
-//#region app/api/home-media/[file]/route.ts
 var route_exports$1 = /* @__PURE__ */ __exportAll({
 	GET: () => GET$1,
 	dynamic: () => dynamic$7
@@ -44984,8 +45453,6 @@ async function GET$1(_request, context) {
 		return new Response("Storage unavailable", { status: 503 });
 	}
 }
-//#endregion
-//#region components/article-sources.tsx
 function ArticleSources({ sources, offline = false }) {
 	if (!sources?.length) return null;
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("section", {
@@ -45020,8 +45487,6 @@ function ArticleSources({ sources, offline = false }) {
 		]
 	});
 }
-//#endregion
-//#region lib/learning-action.ts
 function learningAction(tutorial) {
 	if (tutorial?.targetHref === "/juego-finca") return {
 		kicker: "EXPLORA FINCA ESCUELA",
@@ -45039,8 +45504,6 @@ function learningAction(tutorial) {
 		description: "Configura tu finca y conserva los cambios en el dispositivo, incluso sin señal."
 	};
 }
-//#endregion
-//#region components/learning-form-preview.tsx
 var LearningFormPreview = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'LearningFormPreview' is called on server");
 }, "dad22f25fb46", "LearningFormPreview");
@@ -45111,8 +45574,6 @@ var Clock3 = createLucideIcon("clock-3", [["circle", {
 	d: "M12 6v6h4",
 	key: "135r8i"
 }]]);
-//#endregion
-//#region app/aprende/[slug]/page.tsx
 var page_exports$5 = /* @__PURE__ */ __exportAll({
 	default: () => ArticlePage,
 	dynamic: () => dynamic$6,
@@ -45419,14 +45880,10 @@ function formatDate(value) {
 		timeZone: "UTC"
 	}).format(/* @__PURE__ */ new Date(`${value}T00:00:00Z`));
 }
-//#endregion
-//#region components/quote-conversion.tsx
 /** No amount is inferred, saved as a price, or included in a quote request. */
 var QuoteConversion = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'QuoteConversion' is called on server");
 }, "41d92230403e", "QuoteConversion");
-//#endregion
-//#region components/price-conversion.tsx
 /** Optional and public: sends neither listing price nor account information to rate providers. */
 var PriceConversion = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'PriceConversion' is called on server");
@@ -45453,8 +45910,6 @@ var Globe = createLucideIcon("globe", [
 		key: "9i4pu4"
 	}]
 ]);
-//#endregion
-//#region components/profile-socials.tsx
 var icons = {
 	instagram: InstagramIcon,
 	tiktok: TikTokIcon,
@@ -45485,13 +45940,9 @@ function ProfileSocials({ socials, demo = false }) {
 		})
 	});
 }
-//#endregion
-//#region components/image-share.tsx
 var ImageShareButton = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ImageShareButton' is called on server");
 }, "7da621e2ac18", "ImageShareButton");
-//#endregion
-//#region lib/public-image-content.ts
 /** Only published-profile fields belong here; never infer contacts from accounts or owners. */
 function isPublicRecord(record) {
 	return !record.demo && (record.status === void 0 || record.status === "active");
@@ -45638,8 +46089,6 @@ var Truck = createLucideIcon("truck", [
 		key: "19iecd"
 	}]
 ]);
-//#endregion
-//#region components/company-profile-view.tsx
 function CompanyProfileView({ company: c }) {
 	return /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
 		className: "min-w-0 [overflow-wrap:anywhere]",
@@ -46001,8 +46450,6 @@ function CompanyProfileView({ company: c }) {
 		]
 	});
 }
-//#endregion
-//#region lib/company-demo.ts
 /** Editorial example only: never inserted into D1 or treated as a registered business. */
 var veterinaryCompanyDemo = {
 	id: "ejemplo-veterinaria",
@@ -46087,8 +46534,6 @@ var veterinaryCompanyDemo = {
 	createdAt: "2026-10-11T00:00:00.000Z",
 	updatedAt: "2026-10-11T00:00:00.000Z"
 };
-//#endregion
-//#region app/empresas/[id]/page.tsx
 var page_exports$4 = /* @__PURE__ */ __exportAll({
 	default: () => CompanyPage,
 	dynamic: () => dynamic$5,
@@ -46128,8 +46573,6 @@ async function CompanyPage({ params }) {
 		]
 	});
 }
-//#endregion
-//#region app/fincas/[id]/page.tsx
 var page_exports$3 = /* @__PURE__ */ __exportAll({
 	default: () => Page$1,
 	dynamic: () => dynamic$4,
@@ -46336,19 +46779,13 @@ async function Page$1({ params }) {
 		]
 	});
 }
-//#endregion
-//#region lib/json-ld.ts
 /** JSON embedded in an HTML script must not be able to close that script. */
 function serializeJsonLd(value) {
 	return JSON.stringify(value).replace(/</g, "\\u003c").replace(/\u2028/g, "\\u2028").replace(/\u2029/g, "\\u2029");
 }
-//#endregion
-//#region components/marketplace-detail.tsx
 var MarketplaceDetail = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'MarketplaceDetail' is called on server");
 }, "a0eaa9441d6c", "MarketplaceDetail");
-//#endregion
-//#region app/marketplace/[id]/page.tsx
 var page_exports$2 = /* @__PURE__ */ __exportAll({
 	default: () => ListingPage,
 	dynamic: () => dynamic$3,
@@ -46440,8 +46877,6 @@ async function ListingPage({ params }) {
 		]
 	});
 }
-//#endregion
-//#region lib/professional-db.ts
 async function findProfessional(id) {
 	const example = professionalExamples.find((p) => p.id === id);
 	if (example) return example;
@@ -46449,8 +46884,6 @@ async function findProfessional(id) {
 	const rows = await (await getDb()).select().from(professionals).where(and(eq(professionals.id, id), eq(professionals.status, "active"))).limit(1);
 	return rows[0] ? publicProfessionalRow(rows[0]) : null;
 }
-//#endregion
-//#region components/professional-tariffs.tsx
 var ProfessionalTariffs = /* @__PURE__ */ registerClientReference(() => {
 	throw new Error("Unexpectedly client reference export 'ProfessionalTariffs' is called on server");
 }, "b4dcde380ce3", "ProfessionalTariffs");
@@ -46474,8 +46907,6 @@ var GraduationCap = createLucideIcon("graduation-cap", [
 		key: "1r8lef"
 	}]
 ]);
-//#endregion
-//#region components/professional-profile-view.tsx
 function ProfessionalProfileView({ profile: p }) {
 	const d = professionalDetails(p), image = professionalImage(p);
 	const sections = [
@@ -46732,8 +47163,6 @@ function ProfessionalProfileView({ profile: p }) {
 		]
 	});
 }
-//#endregion
-//#region app/profesionales/[id]/page.tsx
 var page_exports$1 = /* @__PURE__ */ __exportAll({
 	default: () => ProfessionalPage,
 	dynamic: () => dynamic$2,
@@ -46837,8 +47266,6 @@ async function ProfessionalPage({ params }) {
 		]
 	});
 }
-//#endregion
-//#region app/red/[id]/page.tsx
 var page_exports = /* @__PURE__ */ __exportAll({
 	default: () => Page,
 	dynamic: () => dynamic$1,
@@ -46903,8 +47330,6 @@ async function Page({ params }) {
 		]
 	});
 }
-//#endregion
-//#region app/api/media/[...key]/route.ts
 var route_exports = /* @__PURE__ */ __exportAll({
 	GET: () => GET,
 	dynamic: () => dynamic
@@ -46988,8 +47413,6 @@ async function GET(_request, context) {
 	headers.set("cache-control", published ? "public, no-cache, must-revalidate" : "private, no-store");
 	return new Response(object.body, { headers });
 }
-//#endregion
-//#region app/robots.ts
 var robots_exports = /* @__PURE__ */ __exportAll({ default: () => robots });
 function robots() {
 	return {
@@ -47001,8 +47424,6 @@ function robots() {
 		sitemap: SITE_ORIGIN + "/sitemap.xml"
 	};
 }
-//#endregion
-//#region app/sitemap.ts
 var sitemap_exports = /* @__PURE__ */ __exportAll({
 	default: () => sitemap,
 	publicSitemapCandidates: () => publicSitemapCandidates
@@ -47169,8 +47590,6 @@ async function publicSitemapCandidates() {
 async function sitemap() {
 	return publicSitemapCandidates();
 }
-//#endregion
-//#region \0virtual:vinext-rsc-entry
 var renderToReadableStream = createRscRenderer(renderToReadableStream$1);
 function _getSSRFontStyles() {
 	return [...getSSRFontStyles$1(), ...getSSRFontStyles()];
@@ -47255,6 +47674,9 @@ function __VINEXT_CLASS(routeIdx) { return ((routeIdx) => {
       case 62: return new Map([[0, "static"]]);
       case 63: return new Map([[0, "static"]]);
       case 64: return new Map([[0, "static"]]);
+      case 65: return new Map([[0, "static"]]);
+      case 66: return new Map([[0, "static"]]);
+      case 67: return new Map([[0, "static"]]);
       default: return null;
     }
   })(routeIdx); }
@@ -47266,23 +47688,33 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(0),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(0) : null,
 		ids: {
-			"route": "route:/",
-			"page": "page:/",
-			"routeHandler": null,
+			"route": "route:/api/admin/people/:id",
+			"page": null,
+			"routeHandler": "route-handler:/api/admin/people/:id",
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/",
-		patternParts: [],
-		isDynamic: false,
-		params: [],
+		pattern: "/api/admin/people/:id",
+		patternParts: [
+			"api",
+			"admin",
+			"people",
+			":id"
+		],
+		isDynamic: true,
+		params: ["id"],
 		rootParamNames: [],
-		page: page_exports$37,
-		routeHandler: null,
+		page: null,
+		routeHandler: route_exports$28,
 		layouts: [layout_exports],
-		routeSegments: [],
+		routeSegments: [
+			"api",
+			"admin",
+			"people",
+			"[id]"
+		],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47303,23 +47735,23 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(1),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(1) : null,
 		ids: {
-			"route": "route:/admin",
-			"page": "page:/admin",
+			"route": "route:/",
+			"page": "page:/",
 			"routeHandler": null,
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/admin",
-		patternParts: ["admin"],
+		pattern: "/",
+		patternParts: [],
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$36,
+		page: page_exports$38,
 		routeHandler: null,
 		layouts: [layout_exports],
-		routeSegments: ["admin"],
+		routeSegments: [],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47340,23 +47772,23 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(2),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(2) : null,
 		ids: {
-			"route": "route:/admin/home-preview",
-			"page": "page:/admin/home-preview",
+			"route": "route:/admin",
+			"page": "page:/admin",
 			"routeHandler": null,
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/admin/home-preview",
-		patternParts: ["admin", "home-preview"],
+		pattern: "/admin",
+		patternParts: ["admin"],
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$35,
+		page: page_exports$37,
 		routeHandler: null,
 		layouts: [layout_exports],
-		routeSegments: ["admin", "home-preview"],
+		routeSegments: ["admin"],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47377,23 +47809,23 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(3),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(3) : null,
 		ids: {
-			"route": "route:/api/account-menu",
-			"page": null,
-			"routeHandler": "route-handler:/api/account-menu",
+			"route": "route:/admin/home-preview",
+			"page": "page:/admin/home-preview",
+			"routeHandler": null,
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/api/account-menu",
-		patternParts: ["api", "account-menu"],
+		pattern: "/admin/home-preview",
+		patternParts: ["admin", "home-preview"],
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: null,
-		routeHandler: route_exports$26,
+		page: page_exports$36,
+		routeHandler: null,
 		layouts: [layout_exports],
-		routeSegments: ["api", "account-menu"],
+		routeSegments: ["admin", "home-preview"],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47414,23 +47846,23 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(4),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(4) : null,
 		ids: {
-			"route": "route:/api/admin",
+			"route": "route:/api/account-menu",
 			"page": null,
-			"routeHandler": "route-handler:/api/admin",
+			"routeHandler": "route-handler:/api/account-menu",
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/api/admin",
-		patternParts: ["api", "admin"],
+		pattern: "/api/account-menu",
+		patternParts: ["api", "account-menu"],
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
 		page: null,
-		routeHandler: route_exports$25,
+		routeHandler: route_exports$27,
 		layouts: [layout_exports],
-		routeSegments: ["api", "admin"],
+		routeSegments: ["api", "account-menu"],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47451,31 +47883,23 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(5),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(5) : null,
 		ids: {
-			"route": "route:/api/admin/home-content",
+			"route": "route:/api/admin",
 			"page": null,
-			"routeHandler": "route-handler:/api/admin/home-content",
+			"routeHandler": "route-handler:/api/admin",
 			"rootBoundary": "root-boundary:/",
 			"layouts": ["layout:/"],
 			"templates": [],
 			"slots": {}
 		},
-		pattern: "/api/admin/home-content",
-		patternParts: [
-			"api",
-			"admin",
-			"home-content"
-		],
+		pattern: "/api/admin",
+		patternParts: ["api", "admin"],
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
 		page: null,
-		routeHandler: route_exports$24,
+		routeHandler: route_exports$26,
 		layouts: [layout_exports],
-		routeSegments: [
-			"api",
-			"admin",
-			"home-content"
-		],
+		routeSegments: ["api", "admin"],
 		templateTreePositions: [],
 		layoutTreePositions: [0],
 		templates: [],
@@ -47496,6 +47920,51 @@ var routes = [
 		__buildTimeClassifications: __VINEXT_CLASS(6),
 		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(6) : null,
 		ids: {
+			"route": "route:/api/admin/home-content",
+			"page": null,
+			"routeHandler": "route-handler:/api/admin/home-content",
+			"rootBoundary": "root-boundary:/",
+			"layouts": ["layout:/"],
+			"templates": [],
+			"slots": {}
+		},
+		pattern: "/api/admin/home-content",
+		patternParts: [
+			"api",
+			"admin",
+			"home-content"
+		],
+		isDynamic: false,
+		params: [],
+		rootParamNames: [],
+		page: null,
+		routeHandler: route_exports$25,
+		layouts: [layout_exports],
+		routeSegments: [
+			"api",
+			"admin",
+			"home-content"
+		],
+		templateTreePositions: [],
+		layoutTreePositions: [0],
+		templates: [],
+		errors: [null],
+		errorPaths: [],
+		errorTreePositions: [],
+		slots: {},
+		loading: null,
+		error: null,
+		notFound: null,
+		notFounds: [null],
+		forbidden: null,
+		forbiddens: [null],
+		unauthorized: null,
+		unauthorizeds: [null]
+	},
+	{
+		__buildTimeClassifications: __VINEXT_CLASS(7),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(7) : null,
+		ids: {
 			"route": "route:/api/admin/home-media",
 			"page": null,
 			"routeHandler": "route-handler:/api/admin/home-media",
@@ -47514,7 +47983,7 @@ var routes = [
 		params: [],
 		rootParamNames: [],
 		page: null,
-		routeHandler: route_exports$23,
+		routeHandler: route_exports$24,
 		layouts: [layout_exports],
 		routeSegments: [
 			"api",
@@ -47538,8 +48007,53 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(7),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(7) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(8),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(8) : null,
+		ids: {
+			"route": "route:/api/admin/people",
+			"page": null,
+			"routeHandler": "route-handler:/api/admin/people",
+			"rootBoundary": "root-boundary:/",
+			"layouts": ["layout:/"],
+			"templates": [],
+			"slots": {}
+		},
+		pattern: "/api/admin/people",
+		patternParts: [
+			"api",
+			"admin",
+			"people"
+		],
+		isDynamic: false,
+		params: [],
+		rootParamNames: [],
+		page: null,
+		routeHandler: route_exports$23,
+		layouts: [layout_exports],
+		routeSegments: [
+			"api",
+			"admin",
+			"people"
+		],
+		templateTreePositions: [],
+		layoutTreePositions: [0],
+		templates: [],
+		errors: [null],
+		errorPaths: [],
+		errorTreePositions: [],
+		slots: {},
+		loading: null,
+		error: null,
+		notFound: null,
+		notFounds: [null],
+		forbidden: null,
+		forbiddens: [null],
+		unauthorized: null,
+		unauthorizeds: [null]
+	},
+	{
+		__buildTimeClassifications: __VINEXT_CLASS(9),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(9) : null,
 		ids: {
 			"route": "route:/api/auth/csrf",
 			"page": null,
@@ -47583,8 +48097,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(8),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(8) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(10),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(10) : null,
 		ids: {
 			"route": "route:/api/auth/google/callback",
 			"page": null,
@@ -47630,8 +48144,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(9),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(9) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(11),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(11) : null,
 		ids: {
 			"route": "route:/api/auth/google/start",
 			"page": null,
@@ -47677,8 +48191,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(10),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(10) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(12),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(12) : null,
 		ids: {
 			"route": "route:/api/auth/logout",
 			"page": null,
@@ -47722,8 +48236,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(11),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(11) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(13),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(13) : null,
 		ids: {
 			"route": "route:/api/bootstrap",
 			"page": null,
@@ -47759,8 +48273,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(12),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(12) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(14),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(14) : null,
 		ids: {
 			"route": "route:/api/community",
 			"page": null,
@@ -47796,8 +48310,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(13),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(13) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(15),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(15) : null,
 		ids: {
 			"route": "route:/api/companies",
 			"page": null,
@@ -47833,8 +48347,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(14),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(14) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(16),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(16) : null,
 		ids: {
 			"route": "route:/api/exchange-rates",
 			"page": null,
@@ -47870,8 +48384,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(15),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(15) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(17),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(17) : null,
 		ids: {
 			"route": "route:/api/farm/split",
 			"page": null,
@@ -47915,8 +48429,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(16),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(16) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(18),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(18) : null,
 		ids: {
 			"route": "route:/api/marketplace",
 			"page": null,
@@ -47952,8 +48466,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(17),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(17) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(19),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(19) : null,
 		ids: {
 			"route": "route:/api/offline-public",
 			"page": null,
@@ -47989,8 +48503,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(18),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(18) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(20),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(20) : null,
 		ids: {
 			"route": "route:/api/offline-session",
 			"page": null,
@@ -48026,8 +48540,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(19),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(19) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(21),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(21) : null,
 		ids: {
 			"route": "route:/api/red",
 			"page": null,
@@ -48063,8 +48577,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(20),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(20) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(22),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(22) : null,
 		ids: {
 			"route": "route:/api/security/consent",
 			"page": null,
@@ -48108,8 +48622,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(21),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(21) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(23),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(23) : null,
 		ids: {
 			"route": "route:/api/security/device",
 			"page": null,
@@ -48153,8 +48667,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(22),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(22) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(24),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(24) : null,
 		ids: {
 			"route": "route:/api/security/passkey/authenticate/options",
 			"page": null,
@@ -48202,8 +48716,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(23),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(23) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(25),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(25) : null,
 		ids: {
 			"route": "route:/api/security/passkey/authenticate/verify",
 			"page": null,
@@ -48251,8 +48765,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(24),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(24) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(26),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(26) : null,
 		ids: {
 			"route": "route:/api/security/passkey/register/options",
 			"page": null,
@@ -48300,8 +48814,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(25),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(25) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(27),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(27) : null,
 		ids: {
 			"route": "route:/api/security/passkey/register/verify",
 			"page": null,
@@ -48349,8 +48863,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(26),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(26) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(28),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(28) : null,
 		ids: {
 			"route": "route:/api/security/status",
 			"page": null,
@@ -48394,8 +48908,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(27),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(27) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(29),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(29) : null,
 		ids: {
 			"route": "route:/api/sync",
 			"page": null,
@@ -48431,8 +48945,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(28),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(28) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(30),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(30) : null,
 		ids: {
 			"route": "route:/app",
 			"page": "page:/app",
@@ -48447,7 +48961,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$34,
+		page: page_exports$35,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["app"],
@@ -48468,8 +48982,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(29),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(29) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(31),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(31) : null,
 		ids: {
 			"route": "route:/app-local",
 			"page": "page:/app-local",
@@ -48484,7 +48998,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$33,
+		page: page_exports$34,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["app-local"],
@@ -48505,8 +49019,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(30),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(30) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(32),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(32) : null,
 		ids: {
 			"route": "route:/aprende",
 			"page": "page:/aprende",
@@ -48521,7 +49035,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$32,
+		page: page_exports$33,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["aprende"],
@@ -48542,8 +49056,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(31),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(31) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(33),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(33) : null,
 		ids: {
 			"route": "route:/auth/signin",
 			"page": "page:/auth/signin",
@@ -48558,7 +49072,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$31,
+		page: page_exports$32,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["auth", "signin"],
@@ -48579,8 +49093,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(32),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(32) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(34),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(34) : null,
 		ids: {
 			"route": "route:/biblioteca-local",
 			"page": "page:/biblioteca-local",
@@ -48595,7 +49109,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$30,
+		page: page_exports$31,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["biblioteca-local"],
@@ -48616,8 +49130,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(33),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(33) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(35),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(35) : null,
 		ids: {
 			"route": "route:/creditos-fotograficos",
 			"page": "page:/creditos-fotograficos",
@@ -48632,7 +49146,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$29,
+		page: page_exports$30,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["creditos-fotograficos"],
@@ -48653,8 +49167,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(34),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(34) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(36),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(36) : null,
 		ids: {
 			"route": "route:/diseno",
 			"page": "page:/diseno",
@@ -48669,7 +49183,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$28,
+		page: page_exports$29,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["diseno"],
@@ -48690,8 +49204,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(35),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(35) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(37),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(37) : null,
 		ids: {
 			"route": "route:/empresas",
 			"page": "page:/empresas",
@@ -48706,7 +49220,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$27,
+		page: page_exports$28,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["empresas"],
@@ -48727,8 +49241,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(36),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(36) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(38),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(38) : null,
 		ids: {
 			"route": "route:/empresas/registro",
 			"page": "page:/empresas/registro",
@@ -48743,7 +49257,7 @@ var routes = [
 		isDynamic: false,
 		params: [],
 		rootParamNames: [],
-		page: page_exports$26,
+		page: page_exports$27,
 		routeHandler: null,
 		layouts: [layout_exports],
 		routeSegments: ["empresas", "registro"],
@@ -48764,8 +49278,45 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(37),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(37) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(39),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(39) : null,
+		ids: {
+			"route": "route:/financiamiento",
+			"page": "page:/financiamiento",
+			"routeHandler": null,
+			"rootBoundary": "root-boundary:/",
+			"layouts": ["layout:/"],
+			"templates": [],
+			"slots": {}
+		},
+		pattern: "/financiamiento",
+		patternParts: ["financiamiento"],
+		isDynamic: false,
+		params: [],
+		rootParamNames: [],
+		page: page_exports$26,
+		routeHandler: null,
+		layouts: [layout_exports],
+		routeSegments: ["financiamiento"],
+		templateTreePositions: [],
+		layoutTreePositions: [0],
+		templates: [],
+		errors: [null],
+		errorPaths: [],
+		errorTreePositions: [],
+		slots: {},
+		loading: null,
+		error: null,
+		notFound: null,
+		notFounds: [null],
+		forbidden: null,
+		forbiddens: [null],
+		unauthorized: null,
+		unauthorizeds: [null]
+	},
+	{
+		__buildTimeClassifications: __VINEXT_CLASS(40),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(40) : null,
 		ids: {
 			"route": "route:/finca-demo",
 			"page": "page:/finca-demo",
@@ -48801,8 +49352,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(38),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(38) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(41),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(41) : null,
 		ids: {
 			"route": "route:/finca-modelo",
 			"page": "page:/finca-modelo",
@@ -48838,8 +49389,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(39),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(39) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(42),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(42) : null,
 		ids: {
 			"route": "route:/fincas",
 			"page": "page:/fincas",
@@ -48875,8 +49426,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(40),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(40) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(43),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(43) : null,
 		ids: {
 			"route": "route:/guia-institucional",
 			"page": "page:/guia-institucional",
@@ -48912,8 +49463,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(41),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(41) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(44),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(44) : null,
 		ids: {
 			"route": "route:/juego-finca",
 			"page": "page:/juego-finca",
@@ -48949,8 +49500,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(42),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(42) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(45),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(45) : null,
 		ids: {
 			"route": "route:/legal/comercio",
 			"page": "page:/legal/comercio",
@@ -48986,8 +49537,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(43),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(43) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(46),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(46) : null,
 		ids: {
 			"route": "route:/legal/privacidad",
 			"page": "page:/legal/privacidad",
@@ -49023,8 +49574,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(44),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(44) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(47),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(47) : null,
 		ids: {
 			"route": "route:/legal/terminos",
 			"page": "page:/legal/terminos",
@@ -49060,8 +49611,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(45),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(45) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(48),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(48) : null,
 		ids: {
 			"route": "route:/marketplace",
 			"page": "page:/marketplace",
@@ -49097,8 +49648,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(46),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(46) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(49),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(49) : null,
 		ids: {
 			"route": "route:/marketplace/publicar",
 			"page": "page:/marketplace/publicar",
@@ -49134,8 +49685,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(47),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(47) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(50),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(50) : null,
 		ids: {
 			"route": "route:/modelos-finca",
 			"page": "page:/modelos-finca",
@@ -49171,8 +49722,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(48),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(48) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(51),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(51) : null,
 		ids: {
 			"route": "route:/nosotros",
 			"page": "page:/nosotros",
@@ -49208,8 +49759,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(49),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(49) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(52),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(52) : null,
 		ids: {
 			"route": "route:/offline",
 			"page": "page:/offline",
@@ -49245,8 +49796,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(50),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(50) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(53),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(53) : null,
 		ids: {
 			"route": "route:/plataforma",
 			"page": "page:/plataforma",
@@ -49282,8 +49833,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(51),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(51) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(54),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(54) : null,
 		ids: {
 			"route": "route:/profesionales",
 			"page": "page:/profesionales",
@@ -49319,8 +49870,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(52),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(52) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(55),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(55) : null,
 		ids: {
 			"route": "route:/proyectos",
 			"page": "page:/proyectos",
@@ -49356,8 +49907,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(53),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(53) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(56),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(56) : null,
 		ids: {
 			"route": "route:/red",
 			"page": "page:/red",
@@ -49393,8 +49944,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(54),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(54) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(57),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(57) : null,
 		ids: {
 			"route": "route:/rubros",
 			"page": "page:/rubros",
@@ -49430,8 +49981,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(55),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(55) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(58),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(58) : null,
 		ids: {
 			"route": "route:/stickers",
 			"page": "page:/stickers",
@@ -49467,8 +50018,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(56),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(56) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(59),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(59) : null,
 		ids: {
 			"route": "route:/tienda",
 			"page": "page:/tienda",
@@ -49504,8 +50055,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(57),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(57) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(60),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(60) : null,
 		ids: {
 			"route": "route:/api/home-media/:file",
 			"page": null,
@@ -49549,8 +50100,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(58),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(58) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(61),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(61) : null,
 		ids: {
 			"route": "route:/aprende/:slug",
 			"page": "page:/aprende/:slug",
@@ -49586,8 +50137,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(59),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(59) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(62),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(62) : null,
 		ids: {
 			"route": "route:/empresas/:id",
 			"page": "page:/empresas/:id",
@@ -49623,8 +50174,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(60),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(60) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(63),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(63) : null,
 		ids: {
 			"route": "route:/fincas/:id",
 			"page": "page:/fincas/:id",
@@ -49660,8 +50211,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(61),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(61) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(64),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(64) : null,
 		ids: {
 			"route": "route:/marketplace/:id",
 			"page": "page:/marketplace/:id",
@@ -49697,8 +50248,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(62),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(62) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(65),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(65) : null,
 		ids: {
 			"route": "route:/profesionales/:id",
 			"page": "page:/profesionales/:id",
@@ -49734,8 +50285,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(63),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(63) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(66),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(66) : null,
 		ids: {
 			"route": "route:/red/:id",
 			"page": "page:/red/:id",
@@ -49771,8 +50322,8 @@ var routes = [
 		unauthorizeds: [null]
 	},
 	{
-		__buildTimeClassifications: __VINEXT_CLASS(64),
-		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(64) : null,
+		__buildTimeClassifications: __VINEXT_CLASS(67),
+		__buildTimeReasons: __classDebug ? __VINEXT_CLASS_REASONS(67) : null,
 		ids: {
 			"route": "route:/api/media/:key+",
 			"page": null,
@@ -50053,6 +50604,7 @@ var __publicFiles = new Set([
 	"/hero-apure-640.avif",
 	"/hero-apure-640.webp",
 	"/hero-apure.webp",
+	"/historia/playitas-betania-poster.webp",
 	"/icon-192.png",
 	"/icon-512.png",
 	"/icons/agro/animal.svg",
@@ -50796,8 +51348,6 @@ var _virtual_vinext_rsc_entry_default = createAppRscHandler({
 	trailingSlash: __trailingSlash,
 	validateDevRequestOrigin: __validateDevRequestOrigin
 });
-//#endregion
-//#region node_modules/vinext/dist/server/app-router-entry.js
 /**
 * Default Cloudflare Worker entry point for vinext App Router.
 *
@@ -50839,8 +51389,6 @@ async function handleRequest(request, env, ctx) {
 	if (result === null || result === void 0) return notFoundResponse();
 	return new Response(String(result), { status: 200 });
 }
-//#endregion
-//#region worker/index.ts
 /** Cloudflare Worker entry point for the vinext-starter template. */
 var worker = { async fetch(request, env, ctx) {
 	const url = new URL(request.url);
@@ -50938,8 +51486,5 @@ function secureResponse(source, url) {
 	if (responseMustRemainNoindex(url, response.status, response.headers.get("cache-control"))) response.headers.set("x-robots-tag", "noindex, nofollow");
 	return response;
 }
-//#endregion
-//#region \0virtual:cloudflare/worker-entry
 var worker_entry_default = worker ?? {};
-//#endregion
 export { worker_entry_default as default };

@@ -1,4 +1,3 @@
-//#region lib/orb-morph.ts
 var ORB_MORPH_EASING = "cubic-bezier(.22, 1, .36, 1)";
 function buildOrbMorphFrames(from, to, corner = 22) {
 	if (![
@@ -164,5 +163,4 @@ function startOrbMorph(options) {
 		}
 	};
 }
-//#endregion
 export { startOrbMorph as t };

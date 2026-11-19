@@ -1,4 +1,55 @@
 {
+  "node_modules/leaflet/dist/leaflet-src.js": {
+    "file": "assets/leaflet-src-C2eznves.js",
+    "name": "leaflet-src",
+    "src": "node_modules/leaflet/dist/leaflet-src.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js"
+    ]
+  },
+  "node_modules/pmtiles/dist/index.js": {
+    "file": "assets/dist-BkA-0_l7.js",
+    "name": "dist",
+    "src": "node_modules/pmtiles/dist/index.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/protomaps-leaflet/dist/esm/index.js": {
+    "file": "assets/esm-Dtb_C8kn.js",
+    "name": "esm",
+    "src": "node_modules/protomaps-leaflet/dist/esm/index.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "node_modules/pmtiles/dist/index.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/layout-segment-context.js": {
+    "file": "assets/layout-segment-context-BsSz42ha.js",
+    "name": "layout-segment-context",
+    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "node_modules/vinext/dist/shims/router.js": {
+    "file": "assets/router-CMoyOMC4.js",
+    "name": "router",
+    "src": "node_modules/vinext/dist/shims/router.js",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "virtual:vinext-app-browser-entry",
+      "_framework-CXnKph_e.js",
+      "_link-CRAU3u2e.js"
+    ],
+    "dynamicImports": [
+      "_framework-CXnKph_e.js"
+    ]
+  },
   "_Icon-BJEC1M7G.js": {
     "file": "assets/Icon-BJEC1M7G.js",
     "name": "Icon",
@@ -11,35 +62,35 @@
     "file": "assets/agro-catalog-B7qn02kT.js",
     "name": "agro-catalog"
   },
-  "_agro-category-icon-2GkMvB4D.js": {
-    "file": "assets/agro-category-icon-2GkMvB4D.js",
+  "_agro-category-icon-DxhF_yzl.js": {
+    "file": "assets/agro-category-icon-DxhF_yzl.js",
     "name": "agro-category-icon",
     "imports": [
       "_agro-catalog-B7qn02kT.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_agro-network-B2DY_9wS.js": {
-    "file": "assets/agro-network-B2DY_9wS.js",
+  "_agro-network-BynfNFIj.js": {
+    "file": "assets/agro-network-BynfNFIj.js",
     "name": "agro-network",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
       "_form-feedback-BpwgOJzN.js",
-      "_image-share-DQosnZTm.js",
+      "_image-share-CuHXbZKZ.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_security-center-CtaCESKJ.js",
+      "_security-center-LIjkoaiW.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
-      "_use-offline-snapshot-CH85MaMW.js",
-      "_offline-db-BBawtJ-7.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
+      "_use-offline-snapshot-CgQHOZf2.js",
+      "_offline-db-D4lQyBEy.js",
       "_auth-paths-B-VxzyUX.js",
       "_whatsapp-contact-MWnHfkf2.js",
       "_marketplace-details-0FGnqveL.js",
-      "_professional-profile-DXc5Yrxu.js",
-      "_public-form-errors-D78jWe1M.js",
-      "_public-image-content-CD6zV0II.js",
+      "_professional-profile-BLdHoT6n.js",
+      "_public-form-errors-BPV9tNnP.js",
+      "_public-image-content-C-0s7ZJl.js",
       "_venezuela-BOnEjsqy.js",
       "_arrow-up-right-KNzriIhG.js",
       "_heart-DXOtA8dM.js",
@@ -47,7 +98,7 @@
       "_refresh-cw-v23_x7f5.js",
       "_tractor-CSLKxE7X.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "_arrow-right-B_rdtoO7.js": {
@@ -72,13 +123,13 @@
     "file": "assets/auth-paths-B-VxzyUX.js",
     "name": "auth-paths"
   },
-  "_backup-import-DMcQ4Tha.js": {
-    "file": "assets/backup-import-DMcQ4Tha.js",
+  "_backup-import-Bb9SSFe3.js": {
+    "file": "assets/backup-import-Bb9SSFe3.js",
     "name": "backup-import",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_offline-db-BBawtJ-7.js",
-      "_professional-profile-DXc5Yrxu.js",
+      "_offline-db-D4lQyBEy.js",
+      "_professional-profile-BLdHoT6n.js",
       "_types-BfTeLzKl.js"
     ]
   },
@@ -89,8 +140,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_brand-icons-CsW0tl2I.js": {
-    "file": "assets/brand-icons-CsW0tl2I.js",
+  "_brand-icons-C8vjqg-Z.js": {
+    "file": "assets/brand-icons-C8vjqg-Z.js",
     "name": "brand-icons",
     "imports": [
       "_framework-CXnKph_e.js"
@@ -161,31 +212,32 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_community-forms-IV1DR7ED.js": {
-    "file": "assets/community-forms-IV1DR7ED.js",
+  "_community-forms-Dl89KoNk.js": {
+    "file": "assets/community-forms-Dl89KoNk.js",
     "name": "community-forms",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_form-feedback-BpwgOJzN.js",
       "_formal-submission-notice-fYx6jLZX.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_professional-tariffs-DtULU_eR.js",
-      "_security-center-CtaCESKJ.js",
+      "_professional-tariffs-Bs0evR6X.js",
+      "_security-center-LIjkoaiW.js",
       "_button-mbafAg5c.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
-      "_offline-db-BBawtJ-7.js",
-      "_professional-profile-DXc5Yrxu.js",
-      "_public-form-errors-D78jWe1M.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
+      "_offline-db-D4lQyBEy.js",
+      "_professional-profile-BLdHoT6n.js",
+      "_project-publication-BrIN2Hzm.js",
+      "_public-form-errors-BPV9tNnP.js",
       "_venezuela-BOnEjsqy.js",
       "_lightbulb-G5uhCyn3.js",
       "_loader-circle-Do5rLFtH.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_company-DLgxbf5i.js": {
-    "file": "assets/company-DLgxbf5i.js",
+  "_company-D9JDIY04.js": {
+    "file": "assets/company-D9JDIY04.js",
     "name": "company",
     "imports": [
       "_exchange-rates-ClMnO-Lm.js",
@@ -193,16 +245,16 @@
       "_types-BfTeLzKl.js"
     ]
   },
-  "_company-profile-view-CuPLtNhD.js": {
-    "file": "assets/company-profile-view-CuPLtNhD.js",
+  "_company-profile-view-BFWVETM1.js": {
+    "file": "assets/company-profile-view-BFWVETM1.js",
     "name": "company-profile-view",
     "imports": [
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
-      "_quote-conversion-D5wp7tDL.js",
-      "_image-share-DQosnZTm.js",
-      "_price-conversion-CxqFUFoC.js",
-      "_profile-socials-CyKg7F6D.js",
-      "_public-image-content-CD6zV0II.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
+      "_quote-conversion-CotIEurp.js",
+      "_image-share-CuHXbZKZ.js",
+      "_price-conversion-0cJIKi6_.js",
+      "_profile-socials-epMMePCK.js",
+      "_public-image-content-C-0s7ZJl.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_building-2-CAaiUICq.js",
       "_clock-3-DKqnrPlt.js",
@@ -210,7 +262,7 @@
       "_map-pin-B3wicebP.js",
       "_phone-BojWTBlC.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "_compass-v5-GFXi4.js": {
@@ -220,8 +272,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_contextual-whatsapp-contact-Dz6sCQj6.js": {
-    "file": "assets/contextual-whatsapp-contact-Dz6sCQj6.js",
+  "_contextual-whatsapp-contact-DRqp31Jq.js": {
+    "file": "assets/contextual-whatsapp-contact-DRqp31Jq.js",
     "name": "contextual-whatsapp-contact",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -253,12 +305,12 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_directory-filters-D19122j-.js": {
-    "file": "assets/directory-filters-D19122j-.js",
+  "_directory-filters-CiQhM1-q.js": {
+    "file": "assets/directory-filters-CiQhM1-q.js",
     "name": "directory-filters"
   },
-  "_directory-search-B-ZCGBiN.js": {
-    "file": "assets/directory-search-B-ZCGBiN.js",
+  "_directory-search-DUmRbodj.js": {
+    "file": "assets/directory-search-DUmRbodj.js",
     "name": "directory-search"
   },
   "_dist-A6jz3xf3.js": {
@@ -289,8 +341,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_dist-Vu7OQT5_.js": {
-    "file": "assets/dist-Vu7OQT5_.js",
+  "_dist-DLlwuU80.js": {
+    "file": "assets/dist-DLlwuU80.js",
     "name": "dist",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -329,36 +381,36 @@
       "_types-BfTeLzKl.js"
     ]
   },
-  "_farm-asset-pack-CfP7TV65.js": {
-    "file": "assets/farm-asset-pack-CfP7TV65.js",
+  "_farm-asset-pack-B_4Tei58.js": {
+    "file": "assets/farm-asset-pack-B_4Tei58.js",
     "name": "farm-asset-pack",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_offline-download-size-D6kugFZY.js",
+      "_offline-download-size-TTwenPT9.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_farm-demo-fixture-CYCqO1KH.js": {
-    "file": "assets/farm-demo-fixture-CYCqO1KH.js",
+  "_farm-demo-fixture-CqOmMBnL.js": {
+    "file": "assets/farm-demo-fixture-CqOmMBnL.js",
     "name": "farm-demo-fixture"
   },
-  "_farm-demo-navigation-DSXeI7M0.js": {
-    "file": "assets/farm-demo-navigation-DSXeI7M0.js",
+  "_farm-demo-navigation-BneXV0P_.js": {
+    "file": "assets/farm-demo-navigation-BneXV0P_.js",
     "name": "farm-demo-navigation",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_farm-illustrated-scene-DzvRQcWz.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_farm-illustrated-scene-BrQaFdZT.js",
       "_button-mbafAg5c.js",
       "_dialog-BTTQkP5A.js",
       "_sheet-BbviR2vk.js",
       "_agro-catalog-B7qn02kT.js",
-      "_offline-db-BBawtJ-7.js",
-      "_illustrated-plan-adapter-DWiWY_gK.js",
+      "_offline-db-D4lQyBEy.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_farm-plan-catalog-BGV3o0_C.js",
-      "_leaflet-DkBrfjv-.js",
+      "_leaflet-BYoh0l0Z.js",
       "_utils-BHJHmrpA.js",
       "_es2015-8qoacUFW.js",
       "_dist-A6jz3xf3.js",
@@ -377,19 +429,19 @@
       "components/farm-masterplan-scene.tsx"
     ]
   },
-  "_farm-illustrated-scene-DzvRQcWz.js": {
-    "file": "assets/farm-illustrated-scene-DzvRQcWz.js",
+  "_farm-illustrated-scene-BrQaFdZT.js": {
+    "file": "assets/farm-illustrated-scene-BrQaFdZT.js",
     "name": "farm-illustrated-scene",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_price-conversion-0cJIKi6_.js",
       "_button-mbafAg5c.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
-      "_offline-db-BBawtJ-7.js",
-      "_illustrated-plan-adapter-DWiWY_gK.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
+      "_offline-db-D4lQyBEy.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_farm-plan-catalog-BGV3o0_C.js",
       "_createLucideIcon-DsGqHFL7.js",
@@ -401,12 +453,12 @@
     "file": "assets/farm-plan-catalog-BGV3o0_C.js",
     "name": "farm-plan-catalog"
   },
-  "_farm-showcase-B3Z833so.js": {
-    "file": "assets/farm-showcase-B3Z833so.js",
+  "_farm-showcase-B3WWPiqN.js": {
+    "file": "assets/farm-showcase-B3WWPiqN.js",
     "name": "farm-showcase",
     "imports": [
-      "_illustrated-plan-adapter-DWiWY_gK.js",
-      "_farm-demo-fixture-CYCqO1KH.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
+      "_farm-demo-fixture-CqOmMBnL.js",
       "_farm-plan-catalog-BGV3o0_C.js"
     ]
   },
@@ -443,8 +495,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_illustrated-plan-adapter-DWiWY_gK.js": {
-    "file": "assets/illustrated-plan-adapter-DWiWY_gK.js",
+  "_illustrated-plan-adapter-Ch1Yvixo.js": {
+    "file": "assets/illustrated-plan-adapter-Ch1Yvixo.js",
     "name": "illustrated-plan-adapter",
     "imports": [
       "_farm-plan-catalog-BGV3o0_C.js"
@@ -458,13 +510,13 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_image-share-DQosnZTm.js": {
-    "file": "assets/image-share-DQosnZTm.js",
+  "_image-share-CuHXbZKZ.js": {
+    "file": "assets/image-share-CuHXbZKZ.js",
     "name": "image-share",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_dialog-BTTQkP5A.js",
-      "_inventory-example-photos-Cf2xNpxi.js",
+      "_inventory-example-photos-BOt8I6i2.js",
       "_product-photos-CZIYhqSE.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_download-CR7p2Qa1.js",
@@ -479,8 +531,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_input-a45IPNCW.js": {
-    "file": "assets/input-a45IPNCW.js",
+  "_input-B4z6nxBc.js": {
+    "file": "assets/input-B4z6nxBc.js",
     "name": "input",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -488,20 +540,20 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_install-action-sThTH7PN.js": {
-    "file": "assets/install-action-sThTH7PN.js",
+  "_install-action-DjS5z7bM.js": {
+    "file": "assets/install-action-DjS5z7bM.js",
     "name": "install-action"
   },
   "_install-guidance-DGooOryk.js": {
     "file": "assets/install-guidance-DGooOryk.js",
     "name": "install-guidance"
   },
-  "_inventory-example-photos-Cf2xNpxi.js": {
-    "file": "assets/inventory-example-photos-Cf2xNpxi.js",
+  "_inventory-example-photos-BOt8I6i2.js": {
+    "file": "assets/inventory-example-photos-BOt8I6i2.js",
     "name": "inventory-example-photos"
   },
-  "_leaflet-DkBrfjv-.js": {
-    "file": "assets/leaflet-DkBrfjv-.js",
+  "_leaflet-BYoh0l0Z.js": {
+    "file": "assets/leaflet-BYoh0l0Z.js",
     "name": "leaflet",
     "css": [
       "assets/leaflet-vh-t_kPv.css"
@@ -518,8 +570,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_link-BdfWHMt7.js": {
-    "file": "assets/link-BdfWHMt7.js",
+  "_link-CRAU3u2e.js": {
+    "file": "assets/link-CRAU3u2e.js",
     "name": "link",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -530,25 +582,25 @@
       "node_modules/vinext/dist/shims/router.js"
     ]
   },
-  "_listing-form-DXERaPgi.js": {
-    "file": "assets/listing-form-DXERaPgi.js",
+  "_listing-form-CjAgKTBW.js": {
+    "file": "assets/listing-form-CjAgKTBW.js",
     "name": "listing-form",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
+      "_agro-category-icon-DxhF_yzl.js",
       "_form-feedback-BpwgOJzN.js",
-      "_marketplace-location-BBK0v3S1.js",
+      "_marketplace-location-DqhQJK2K.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_price-conversion-0cJIKi6_.js",
       "_button-mbafAg5c.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
-      "_offline-db-BBawtJ-7.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
+      "_offline-db-D4lQyBEy.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_whatsapp-contact-MWnHfkf2.js",
       "_marketplace-details-0FGnqveL.js",
-      "_marketplace-categories-4v0Z72Fj.js",
-      "_public-form-errors-D78jWe1M.js",
+      "_marketplace-categories-CMJVL1Go.js",
+      "_public-form-errors-BPV9tNnP.js",
       "_utils-BHJHmrpA.js",
       "_venezuela-BOnEjsqy.js",
       "_dist-o65Rxcqt.js",
@@ -583,8 +635,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_marketplace-categories-4v0Z72Fj.js": {
-    "file": "assets/marketplace-categories-4v0Z72Fj.js",
+  "_marketplace-categories-CMJVL1Go.js": {
+    "file": "assets/marketplace-categories-CMJVL1Go.js",
     "name": "marketplace-categories",
     "imports": [
       "_agro-catalog-B7qn02kT.js"
@@ -598,14 +650,14 @@
       "_types-BfTeLzKl.js"
     ]
   },
-  "_marketplace-location-BBK0v3S1.js": {
-    "file": "assets/marketplace-location-BBK0v3S1.js",
+  "_marketplace-location-DqhQJK2K.js": {
+    "file": "assets/marketplace-location-DqhQJK2K.js",
     "name": "marketplace-location",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_dialog-BTTQkP5A.js",
-      "_leaflet-DkBrfjv-.js",
+      "_leaflet-BYoh0l0Z.js",
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
@@ -630,8 +682,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_official-links-Xt_E_7J4.js": {
-    "file": "assets/official-links-Xt_E_7J4.js",
+  "_official-links-Cgd77z5b.js": {
+    "file": "assets/official-links-Cgd77z5b.js",
     "name": "official-links"
   },
   "_offline-account-boundary-DtwxSPaI.js": {
@@ -643,8 +695,8 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_offline-db-BBawtJ-7.js": {
-    "file": "assets/offline-db-BBawtJ-7.js",
+  "_offline-db-D4lQyBEy.js": {
+    "file": "assets/offline-db-D4lQyBEy.js",
     "name": "offline-db",
     "imports": [
       "virtual:vinext-app-browser-entry",
@@ -654,28 +706,28 @@
       "_farm-plan-catalog-BGV3o0_C.js",
       "_whatsapp-contact-MWnHfkf2.js",
       "_marketplace-details-0FGnqveL.js",
-      "_professional-profile-DXc5Yrxu.js",
+      "_professional-profile-BLdHoT6n.js",
       "_product-photos-CZIYhqSE.js",
       "_types-BfTeLzKl.js"
     ],
     "dynamicImports": [
-      "_backup-import-DMcQ4Tha.js"
+      "_backup-import-Bb9SSFe3.js"
     ]
   },
-  "_offline-download-size-D6kugFZY.js": {
-    "file": "assets/offline-download-size-D6kugFZY.js",
+  "_offline-download-size-TTwenPT9.js": {
+    "file": "assets/offline-download-size-TTwenPT9.js",
     "name": "offline-download-size",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_offline-preparation-EjII1FqQ.js": {
-    "file": "assets/offline-preparation-EjII1FqQ.js",
+  "_offline-preparation-BAVgyqwo.js": {
+    "file": "assets/offline-preparation-BAVgyqwo.js",
     "name": "offline-preparation",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_offline-download-size-D6kugFZY.js",
+      "_offline-download-size-TTwenPT9.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_framework-CXnKph_e.js"
     ]
@@ -698,8 +750,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_price-conversion-CxqFUFoC.js": {
-    "file": "assets/price-conversion-CxqFUFoC.js",
+  "_price-conversion-0cJIKi6_.js": {
+    "file": "assets/price-conversion-0cJIKi6_.js",
     "name": "price-conversion",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -711,8 +763,8 @@
     "file": "assets/product-photos-CZIYhqSE.js",
     "name": "product-photos"
   },
-  "_professional-profile-DXc5Yrxu.js": {
-    "file": "assets/professional-profile-DXc5Yrxu.js",
+  "_professional-profile-BLdHoT6n.js": {
+    "file": "assets/professional-profile-BLdHoT6n.js",
     "name": "professional-profile",
     "imports": [
       "_agro-catalog-B7qn02kT.js",
@@ -721,17 +773,17 @@
       "_types-BfTeLzKl.js"
     ]
   },
-  "_professional-profile-view-DuF9oQQz.js": {
-    "file": "assets/professional-profile-view-DuF9oQQz.js",
+  "_professional-profile-view-DGsAumZ2.js": {
+    "file": "assets/professional-profile-view-DGsAumZ2.js",
     "name": "professional-profile-view",
     "imports": [
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
-      "_image-share-DQosnZTm.js",
-      "_professional-tariffs-DtULU_eR.js",
-      "_profile-socials-CyKg7F6D.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
+      "_image-share-CuHXbZKZ.js",
+      "_professional-tariffs-Bs0evR6X.js",
+      "_profile-socials-epMMePCK.js",
       "_whatsapp-contact-MWnHfkf2.js",
-      "_professional-profile-DXc5Yrxu.js",
-      "_public-image-content-CD6zV0II.js",
+      "_professional-profile-BLdHoT6n.js",
+      "_public-image-content-C-0s7ZJl.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_arrow-up-right-KNzriIhG.js",
       "_mail--r88BnEM.js",
@@ -740,47 +792,51 @@
       "_framework-CXnKph_e.js"
     ]
   },
-  "_professional-tariffs-DtULU_eR.js": {
-    "file": "assets/professional-tariffs-DtULU_eR.js",
+  "_professional-tariffs-Bs0evR6X.js": {
+    "file": "assets/professional-tariffs-Bs0evR6X.js",
     "name": "professional-tariffs",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_quote-conversion-D5wp7tDL.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_quote-conversion-CotIEurp.js",
+      "_price-conversion-0cJIKi6_.js",
       "_exchange-rates-ClMnO-Lm.js",
-      "_professional-profile-DXc5Yrxu.js",
+      "_professional-profile-BLdHoT6n.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_profile-socials-CyKg7F6D.js": {
-    "file": "assets/profile-socials-CyKg7F6D.js",
+  "_profile-socials-epMMePCK.js": {
+    "file": "assets/profile-socials-epMMePCK.js",
     "name": "profile-socials",
     "imports": [
-      "_brand-icons-CsW0tl2I.js",
-      "_professional-profile-DXc5Yrxu.js",
+      "_brand-icons-C8vjqg-Z.js",
+      "_professional-profile-BLdHoT6n.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_public-form-errors-D78jWe1M.js": {
-    "file": "assets/public-form-errors-D78jWe1M.js",
+  "_project-publication-BrIN2Hzm.js": {
+    "file": "assets/project-publication-BrIN2Hzm.js",
+    "name": "project-publication"
+  },
+  "_public-form-errors-BPV9tNnP.js": {
+    "file": "assets/public-form-errors-BPV9tNnP.js",
     "name": "public-form-errors"
   },
-  "_public-image-content-CD6zV0II.js": {
-    "file": "assets/public-image-content-CD6zV0II.js",
+  "_public-image-content-C-0s7ZJl.js": {
+    "file": "assets/public-image-content-C-0s7ZJl.js",
     "name": "public-image-content",
     "imports": [
       "_whatsapp-contact-MWnHfkf2.js",
       "_marketplace-details-0FGnqveL.js",
-      "_professional-profile-DXc5Yrxu.js"
+      "_professional-profile-BLdHoT6n.js"
     ]
   },
-  "_quote-conversion-D5wp7tDL.js": {
-    "file": "assets/quote-conversion-D5wp7tDL.js",
+  "_quote-conversion-CotIEurp.js": {
+    "file": "assets/quote-conversion-CotIEurp.js",
     "name": "quote-conversion",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_price-conversion-0cJIKi6_.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_framework-CXnKph_e.js"
     ]
@@ -810,8 +866,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_security-center-CtaCESKJ.js": {
-    "file": "assets/security-center-CtaCESKJ.js",
+  "_security-center-LIjkoaiW.js": {
+    "file": "assets/security-center-LIjkoaiW.js",
     "name": "security-center",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -871,8 +927,8 @@
       "_createLucideIcon-DsGqHFL7.js"
     ]
   },
-  "_textarea-CxAgNTaY.js": {
-    "file": "assets/textarea-CxAgNTaY.js",
+  "_textarea-D31nqrvU.js": {
+    "file": "assets/textarea-D31nqrvU.js",
     "name": "textarea",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -891,17 +947,17 @@
     "file": "assets/types-BfTeLzKl.js",
     "name": "types"
   },
-  "_use-directory-filters-BULADiGM.js": {
-    "file": "assets/use-directory-filters-BULADiGM.js",
+  "_use-directory-filters-DbDToca4.js": {
+    "file": "assets/use-directory-filters-DbDToca4.js",
     "name": "use-directory-filters",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_directory-filters-D19122j-.js",
+      "_directory-filters-CiQhM1-q.js",
       "_framework-CXnKph_e.js"
     ]
   },
-  "_use-offline-snapshot-CH85MaMW.js": {
-    "file": "assets/use-offline-snapshot-CH85MaMW.js",
+  "_use-offline-snapshot-CgQHOZf2.js": {
+    "file": "assets/use-offline-snapshot-CgQHOZf2.js",
     "name": "use-offline-snapshot",
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
@@ -923,8 +979,8 @@
     "file": "assets/venezuela-BOnEjsqy.js",
     "name": "venezuela"
   },
-  "_venezuelaagro-logo-5AQUWEv0.js": {
-    "file": "assets/venezuelaagro-logo-5AQUWEv0.js",
+  "_venezuelaagro-logo-Czx-XUy4.js": {
+    "file": "assets/venezuelaagro-logo-Czx-XUy4.js",
     "name": "venezuelaagro-logo",
     "imports": [
       "_framework-CXnKph_e.js"
@@ -959,7 +1015,7 @@
     ]
   },
   "components/account-services.tsx": {
-    "file": "assets/account-services-tlgC-HBZ.js",
+    "file": "assets/account-services-fLiezRnQ.js",
     "name": "account-services",
     "src": "components/account-services.tsx",
     "isDynamicEntry": true,
@@ -971,7 +1027,7 @@
       "components/public-workspace-controls.tsx",
       "_site-image-vNvjnZcC.js",
       "_dialog-BTTQkP5A.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_install-guidance-DGooOryk.js",
       "_orb-morph-BgrAM9xk.js",
       "_createLucideIcon-DsGqHFL7.js",
@@ -985,20 +1041,21 @@
     ]
   },
   "components/admin-dashboard.tsx": {
-    "file": "assets/admin-dashboard-C1DuHHfM.js",
+    "file": "assets/admin-dashboard-oarBQtA-.js",
     "name": "admin-dashboard",
     "src": "components/admin-dashboard.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_company-profile-view-CuPLtNhD.js",
+      "_company-profile-view-BFWVETM1.js",
       "_marketplace-photo-UwABMphA.js",
-      "_professional-profile-view-DuF9oQQz.js",
+      "_professional-profile-view-DGsAumZ2.js",
       "_button-mbafAg5c.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
       "_auth-fetch-B0Sz0Oie.js",
       "_marketplace-details-0FGnqveL.js",
+      "_project-publication-BrIN2Hzm.js",
       "_book-open-BlaCJr95.js",
       "_check-BI6S8aTq.js",
       "_loader-circle-Do5rLFtH.js",
@@ -1009,37 +1066,37 @@
     ]
   },
   "components/company-directory.tsx": {
-    "file": "assets/company-directory-DL11Ejz_.js",
+    "file": "assets/company-directory-C8xr_fje.js",
     "name": "company-directory",
     "src": "components/company-directory.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_use-directory-filters-BULADiGM.js",
-      "_company-DLgxbf5i.js",
-      "_directory-search-B-ZCGBiN.js",
+      "_use-directory-filters-DbDToca4.js",
+      "_company-D9JDIY04.js",
+      "_directory-search-DUmRbodj.js",
       "_venezuela-BOnEjsqy.js",
       "_arrow-up-right-KNzriIhG.js",
       "_building-2-CAaiUICq.js",
       "_map-pin-B3wicebP.js",
       "_search-C3Xmvdne.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/company-manager.tsx": {
-    "file": "assets/company-manager-BXHvQnAx.js",
+    "file": "assets/company-manager-DffWkqKu.js",
     "name": "company-manager",
     "src": "components/company-manager.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_company-profile-view-CuPLtNhD.js",
+      "_company-profile-view-BFWVETM1.js",
       "_form-feedback-BpwgOJzN.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_price-conversion-0cJIKi6_.js",
       "_dialog-BTTQkP5A.js",
       "_auth-fetch-B0Sz0Oie.js",
-      "_company-DLgxbf5i.js",
+      "_company-D9JDIY04.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_venezuela-BOnEjsqy.js",
       "_createLucideIcon-DsGqHFL7.js",
@@ -1048,11 +1105,11 @@
       "_plus-CC8MZoTY.js",
       "_refresh-cw-v23_x7f5.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/connection-indicator.tsx": {
-    "file": "assets/connection-indicator-CKJl8otS.js",
+    "file": "assets/connection-indicator-Cy_AjrwQ.js",
     "name": "connection-indicator",
     "src": "components/connection-indicator.tsx",
     "isDynamicEntry": true,
@@ -1060,17 +1117,17 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_utils-BHJHmrpA.js",
       "_dist-D02U1ZSF.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_wifi-off-AQ1QsWIl.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/connectivity-pill.tsx": {
-    "file": "assets/connectivity-pill-CR_ibPbr.js",
+    "file": "assets/connectivity-pill-C4Nz5wtq.js",
     "name": "connectivity-pill",
     "src": "components/connectivity-pill.tsx",
     "isDynamicEntry": true,
@@ -1082,85 +1139,85 @@
     ]
   },
   "components/design-form-example.tsx": {
-    "file": "assets/design-form-example-DE-iHIYZ.js",
+    "file": "assets/design-form-example-DI7Lt4Qz.js",
     "name": "design-form-example",
     "src": "components/design-form-example.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "_button-mbafAg5c.js",
-      "_input-a45IPNCW.js",
+      "_input-B4z6nxBc.js",
       "_circle-check-DuYusqjf.js",
       "_rotate-ccw-DO2xn1nW.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/device-install-action.tsx": {
-    "file": "assets/device-install-action-Cm-g2bn0.js",
+    "file": "assets/device-install-action-BauyORRs.js",
     "name": "device-install-action",
     "src": "components/device-install-action.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_install-action-sThTH7PN.js",
+      "_install-action-DjS5z7bM.js",
       "_install-guidance-DGooOryk.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/directory-return-link.tsx": {
-    "file": "assets/directory-return-link-CSde0WTQ.js",
+    "file": "assets/directory-return-link-DlqhwRbr.js",
     "name": "directory-return-link",
     "src": "components/directory-return-link.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_directory-filters-D19122j-.js",
+      "_directory-filters-CiQhM1-q.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/farm-aerial-proposal.tsx": {
-    "file": "assets/farm-aerial-proposal-COu2HDN0.js",
+    "file": "assets/farm-aerial-proposal-CFnIB72Y.js",
     "name": "farm-aerial-proposal",
     "src": "components/farm-aerial-proposal.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_farm-demo-navigation-DSXeI7M0.js",
+      "_farm-demo-navigation-BneXV0P_.js",
       "components/farm-masterplan-scene.tsx",
       "_farm-plan-catalog-BGV3o0_C.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/farm-dashboard.tsx": {
-    "file": "assets/farm-dashboard-ALcddOXc.js",
+    "file": "assets/farm-dashboard-h2AuS0_W.js",
     "name": "farm-dashboard",
     "src": "components/farm-dashboard.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_farm-illustrated-scene-DzvRQcWz.js",
-      "_farm-demo-navigation-DSXeI7M0.js",
-      "_farm-asset-pack-CfP7TV65.js",
-      "_listing-form-DXERaPgi.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_farm-illustrated-scene-BrQaFdZT.js",
+      "_farm-demo-navigation-BneXV0P_.js",
+      "_farm-asset-pack-B_4Tei58.js",
+      "_listing-form-CjAgKTBW.js",
       "_marketplace-photo-UwABMphA.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_offline-preparation-EjII1FqQ.js",
-      "_price-conversion-CxqFUFoC.js",
-      "_security-center-CtaCESKJ.js",
+      "_offline-preparation-BAVgyqwo.js",
+      "_price-conversion-0cJIKi6_.js",
+      "_security-center-LIjkoaiW.js",
       "_site-image-vNvjnZcC.js",
       "_button-mbafAg5c.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
+      "_input-B4z6nxBc.js",
       "_sheet-BbviR2vk.js",
-      "_textarea-CxAgNTaY.js",
-      "_venezuelaagro-logo-5AQUWEv0.js",
+      "_textarea-D31nqrvU.js",
+      "_venezuelaagro-logo-Czx-XUy4.js",
       "_agro-catalog-B7qn02kT.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_auth-fetch-B0Sz0Oie.js",
-      "_backup-import-DMcQ4Tha.js",
-      "_illustrated-plan-adapter-DWiWY_gK.js",
+      "_backup-import-Bb9SSFe3.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_farm-plan-catalog-BGV3o0_C.js",
       "_whatsapp-contact-MWnHfkf2.js",
@@ -1184,46 +1241,46 @@
       "_tractor-CSLKxE7X.js",
       "_wifi-off-AQ1QsWIl.js",
       "_framework-CXnKph_e.js",
-      "_dist-Vu7OQT5_.js",
-      "_link-BdfWHMt7.js"
+      "_dist-DLlwuU80.js",
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/farm-demo-workspace.tsx": {
-    "file": "assets/farm-demo-workspace-CP8KPiCX.js",
+    "file": "assets/farm-demo-workspace-5hl8FbsY.js",
     "name": "farm-demo-workspace",
     "src": "components/farm-demo-workspace.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_farm-illustrated-scene-DzvRQcWz.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_farm-illustrated-scene-BrQaFdZT.js",
       "components/connection-indicator.tsx",
-      "_farm-demo-navigation-DSXeI7M0.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_farm-demo-navigation-BneXV0P_.js",
+      "_price-conversion-0cJIKi6_.js",
       "_site-image-vNvjnZcC.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
-      "_textarea-CxAgNTaY.js",
-      "_venezuelaagro-logo-5AQUWEv0.js",
-      "_offline-db-BBawtJ-7.js",
-      "_directory-search-B-ZCGBiN.js",
+      "_input-B4z6nxBc.js",
+      "_textarea-D31nqrvU.js",
+      "_venezuelaagro-logo-Czx-XUy4.js",
+      "_offline-db-D4lQyBEy.js",
+      "_directory-search-DUmRbodj.js",
       "_exchange-rates-ClMnO-Lm.js",
-      "_farm-demo-fixture-CYCqO1KH.js",
+      "_farm-demo-fixture-CqOmMBnL.js",
       "_farm-plan-catalog-BGV3o0_C.js",
-      "_inventory-example-photos-Cf2xNpxi.js",
+      "_inventory-example-photos-BOt8I6i2.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/farm-masterplan-scene.tsx": {
-    "file": "assets/farm-masterplan-scene-CpSQ89tT.js",
+    "file": "assets/farm-masterplan-scene-BHLooFPB.js",
     "name": "farm-masterplan-scene",
     "src": "components/farm-masterplan-scene.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_farm-asset-pack-CfP7TV65.js",
-      "_illustrated-plan-adapter-DWiWY_gK.js",
+      "_farm-asset-pack-B_4Tei58.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
       "_farm-plan-catalog-BGV3o0_C.js",
       "_framework-CXnKph_e.js"
     ],
@@ -1232,42 +1289,42 @@
     ]
   },
   "components/farm-masterplan-webgl.tsx": {
-    "file": "assets/farm-masterplan-webgl-DlW4ahXO.js",
+    "file": "assets/farm-masterplan-webgl-C8VbPo42.js",
     "name": "farm-masterplan-webgl",
     "src": "components/farm-masterplan-webgl.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_illustrated-plan-adapter-DWiWY_gK.js",
+      "_illustrated-plan-adapter-Ch1Yvixo.js",
       "_farm-plan-catalog-BGV3o0_C.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/farm-showcase.tsx": {
-    "file": "assets/farm-showcase-YKac0SAe.js",
+    "file": "assets/farm-showcase-Cw8eLgt2.js",
     "name": "farm-showcase",
     "src": "components/farm-showcase.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_farm-illustrated-scene-DzvRQcWz.js",
+      "_farm-illustrated-scene-BrQaFdZT.js",
       "components/connection-indicator.tsx",
-      "_farm-asset-pack-CfP7TV65.js",
+      "_farm-asset-pack-B_4Tei58.js",
       "components/farm-masterplan-scene.tsx",
-      "_offline-preparation-EjII1FqQ.js",
+      "_offline-preparation-BAVgyqwo.js",
       "_dialog-BTTQkP5A.js",
-      "_offline-db-BBawtJ-7.js",
-      "_farm-showcase-B3Z833so.js",
+      "_offline-db-D4lQyBEy.js",
+      "_farm-showcase-B3WWPiqN.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_arrow-up-right-KNzriIhG.js",
       "_book-open-BlaCJr95.js",
       "_search-C3Xmvdne.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/google-signin.tsx": {
-    "file": "assets/google-signin-t5pa7B-y.js",
+    "file": "assets/google-signin-jjx2XyiQ.js",
     "name": "google-signin",
     "src": "components/google-signin.tsx",
     "isDynamicEntry": true,
@@ -1278,7 +1335,7 @@
     ]
   },
   "components/home-content-editor.tsx": {
-    "file": "assets/home-content-editor-dlyiCnIW.js",
+    "file": "assets/home-content-editor-U3TivtLq.js",
     "name": "home-content-editor",
     "src": "components/home-content-editor.tsx",
     "isDynamicEntry": true,
@@ -1289,7 +1346,7 @@
     ]
   },
   "components/home-farm-preview.tsx": {
-    "file": "assets/home-farm-preview-88G8Unn8.js",
+    "file": "assets/home-farm-preview-B6v2eDpQ.js",
     "name": "home-farm-preview",
     "src": "components/home-farm-preview.tsx",
     "isDynamicEntry": true,
@@ -1303,25 +1360,36 @@
     ]
   },
   "components/home-farm-scene.tsx": {
-    "file": "assets/home-farm-scene-OmlBhpgt.js",
+    "file": "assets/home-farm-scene-DU3J-A33.js",
     "name": "home-farm-scene",
     "src": "components/home-farm-scene.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "components/farm-masterplan-webgl.tsx",
-      "_farm-showcase-B3Z833so.js",
+      "_farm-showcase-B3WWPiqN.js",
+      "_framework-CXnKph_e.js"
+    ]
+  },
+  "components/home-history-video.tsx": {
+    "file": "assets/home-history-video-v-Va9Ya6.js",
+    "name": "home-history-video",
+    "src": "components/home-history-video.tsx",
+    "isDynamicEntry": true,
+    "imports": [
+      "_rolldown-runtime-S-ySWqyJ.js",
+      "_createLucideIcon-DsGqHFL7.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/install-app-banner.tsx": {
-    "file": "assets/install-app-banner-Cz95UaH7.js",
+    "file": "assets/install-app-banner-CvC_AhqK.js",
     "name": "install-app-banner",
     "src": "components/install-app-banner.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_install-action-sThTH7PN.js",
+      "_install-action-DjS5z7bM.js",
       "_install-guidance-DGooOryk.js",
       "_orb-morph-BgrAM9xk.js",
       "_createLucideIcon-DsGqHFL7.js",
@@ -1332,7 +1400,7 @@
     ]
   },
   "components/learning-catalog.tsx": {
-    "file": "assets/learning-catalog-BO7lseeO.js",
+    "file": "assets/learning-catalog-C6-ypWqi.js",
     "name": "learning-catalog",
     "src": "components/learning-catalog.tsx",
     "isDynamicEntry": true,
@@ -1341,11 +1409,11 @@
       "_arrow-right-B_rdtoO7.js",
       "_search-C3Xmvdne.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/learning-form-preview.tsx": {
-    "file": "assets/learning-form-preview-IbZs-yQt.js",
+    "file": "assets/learning-form-preview-Bx7iNHkh.js",
     "name": "learning-form-preview",
     "src": "components/learning-form-preview.tsx",
     "isDynamicEntry": true,
@@ -1355,56 +1423,56 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
-      "_listing-form-DXERaPgi.js",
-      "_community-forms-IV1DR7ED.js"
+      "_listing-form-CjAgKTBW.js",
+      "_community-forms-Dl89KoNk.js"
     ]
   },
   "components/marketplace-browser.tsx": {
-    "file": "assets/marketplace-browser-BA_14Ltt.js",
+    "file": "assets/marketplace-browser-BPuNBws8.js",
     "name": "marketplace-browser",
     "src": "components/marketplace-browser.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_image-share-DQosnZTm.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_image-share-CuHXbZKZ.js",
       "components/marketplace-detail.tsx",
       "_marketplace-photo-UwABMphA.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_price-conversion-0cJIKi6_.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
-      "_use-directory-filters-BULADiGM.js",
-      "_directory-search-B-ZCGBiN.js",
+      "_input-B4z6nxBc.js",
+      "_use-directory-filters-DbDToca4.js",
+      "_directory-search-DUmRbodj.js",
       "_marketplace-details-0FGnqveL.js",
-      "_marketplace-categories-4v0Z72Fj.js",
+      "_marketplace-categories-CMJVL1Go.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_clock-3-DKqnrPlt.js",
       "_map-pin-B3wicebP.js",
       "_search-C3Xmvdne.js",
       "_wifi-off-AQ1QsWIl.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/marketplace-detail.tsx": {
-    "file": "assets/marketplace-detail-ComvLu2Z.js",
+    "file": "assets/marketplace-detail-DFveR7C7.js",
     "name": "marketplace-detail",
     "src": "components/marketplace-detail.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_quote-conversion-D5wp7tDL.js",
-      "_image-share-DQosnZTm.js",
-      "_marketplace-location-BBK0v3S1.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_quote-conversion-CotIEurp.js",
+      "_image-share-CuHXbZKZ.js",
+      "_marketplace-location-DqhQJK2K.js",
       "_marketplace-photo-UwABMphA.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_price-conversion-CxqFUFoC.js",
+      "_price-conversion-0cJIKi6_.js",
       "_dialog-BTTQkP5A.js",
       "_exchange-rates-ClMnO-Lm.js",
       "_whatsapp-contact-MWnHfkf2.js",
       "_marketplace-details-0FGnqveL.js",
-      "_public-image-content-CD6zV0II.js",
+      "_public-image-content-C-0s7ZJl.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_arrow-right-B_rdtoO7.js",
       "_chevron-right-DjKClnEv.js",
@@ -1417,20 +1485,21 @@
       "_user-round-BnSsUPif.js",
       "_zoom-out-Bf_KkglM.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js",
+      "_link-CRAU3u2e.js",
       "_types-BfTeLzKl.js"
     ]
   },
   "components/mobile-public-actions.tsx": {
-    "file": "assets/mobile-public-actions-zwndTLGv.js",
+    "file": "assets/mobile-public-actions-B3pK7HCj.js",
     "name": "mobile-public-actions",
     "src": "components/mobile-public-actions.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_install-action-sThTH7PN.js",
-      "_official-links-Xt_E_7J4.js",
+      "components/whatsapp-community.tsx",
+      "_install-action-DjS5z7bM.js",
+      "_official-links-Cgd77z5b.js",
       "_dist-D02U1ZSF.js",
       "_arrow-up-right-KNzriIhG.js",
       "_compass-v5-GFXi4.js",
@@ -1443,28 +1512,28 @@
     ]
   },
   "components/offline-library.tsx": {
-    "file": "assets/offline-library-DMBJLyNy.js",
+    "file": "assets/offline-library-0oX4RYCX.js",
     "name": "offline-library",
     "src": "components/offline-library.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-network-B2DY_9wS.js",
-      "_community-forms-IV1DR7ED.js",
+      "_agro-network-BynfNFIj.js",
+      "_community-forms-Dl89KoNk.js",
       "components/connection-indicator.tsx",
-      "_listing-form-DXERaPgi.js",
+      "_listing-form-CjAgKTBW.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_offline-download-size-D6kugFZY.js",
+      "_offline-download-size-TTwenPT9.js",
       "components/store-catalog.tsx",
-      "_venezuelaagro-logo-5AQUWEv0.js",
+      "_venezuelaagro-logo-Czx-XUy4.js",
       "_agro-catalog-B7qn02kT.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_framework-CXnKph_e.js",
       "_types-BfTeLzKl.js"
     ]
   },
   "components/offline-navigation.tsx": {
-    "file": "assets/offline-navigation-mAg61OQm.js",
+    "file": "assets/offline-navigation-Dk7jFVCu.js",
     "name": "offline-navigation",
     "src": "components/offline-navigation.tsx",
     "isDynamicEntry": true,
@@ -1474,7 +1543,7 @@
     ]
   },
   "components/offline-worker-registration.tsx": {
-    "file": "assets/offline-worker-registration-C37gX-Fq.js",
+    "file": "assets/offline-worker-registration-B8p7qg4t.js",
     "name": "offline-worker-registration",
     "src": "components/offline-worker-registration.tsx",
     "isDynamicEntry": true,
@@ -1485,56 +1554,56 @@
     ]
   },
   "components/professional-directory.tsx": {
-    "file": "assets/professional-directory-BXYz11H6.js",
+    "file": "assets/professional-directory-I-PdxrJ7.js",
     "name": "professional-directory",
     "src": "components/professional-directory.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_professional-profile-view-DuF9oQQz.js",
-      "_professional-tariffs-DtULU_eR.js",
-      "_profile-socials-CyKg7F6D.js",
+      "_professional-profile-view-DGsAumZ2.js",
+      "_professional-tariffs-Bs0evR6X.js",
+      "_profile-socials-epMMePCK.js",
       "_dialog-BTTQkP5A.js",
-      "_use-directory-filters-BULADiGM.js",
-      "_use-offline-snapshot-CH85MaMW.js",
-      "_directory-search-B-ZCGBiN.js",
-      "_professional-profile-DXc5Yrxu.js",
+      "_use-directory-filters-DbDToca4.js",
+      "_use-offline-snapshot-CgQHOZf2.js",
+      "_directory-search-DUmRbodj.js",
+      "_professional-profile-BLdHoT6n.js",
       "_venezuela-BOnEjsqy.js",
       "_arrow-up-right-KNzriIhG.js",
       "_map-pin-B3wicebP.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/professional-manager.tsx": {
-    "file": "assets/professional-manager-D14xY31O.js",
+    "file": "assets/professional-manager-Cem7f_vh.js",
     "name": "professional-manager",
     "src": "components/professional-manager.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_community-forms-IV1DR7ED.js",
+      "_community-forms-Dl89KoNk.js",
       "_form-feedback-BpwgOJzN.js",
       "_offline-account-boundary-DtwxSPaI.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/project-example.tsx": {
-    "file": "assets/project-example-1mCrSgQb.js",
+    "file": "assets/project-example-D99LCt97.js",
     "name": "project-example",
     "src": "components/project-example.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_agro-category-icon-2GkMvB4D.js",
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
+      "_agro-category-icon-DxhF_yzl.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
       "_dialog-BTTQkP5A.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/public-workspace-controls.tsx": {
-    "file": "assets/public-workspace-controls-ByzBvOSf.js",
+    "file": "assets/public-workspace-controls-oUn8zXWH.js",
     "name": "public-workspace-controls",
     "src": "components/public-workspace-controls.tsx",
     "isDynamicEntry": true,
@@ -1543,7 +1612,7 @@
     ]
   },
   "components/session-menu.tsx": {
-    "file": "assets/session-menu-CrG9sJ9u.js",
+    "file": "assets/session-menu-2X_7WkOD.js",
     "name": "session-menu",
     "src": "components/session-menu.tsx",
     "isDynamicEntry": true,
@@ -1551,15 +1620,15 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "_offline-account-boundary-DtwxSPaI.js",
       "_dialog-BTTQkP5A.js",
-      "_offline-db-BBawtJ-7.js",
+      "_offline-db-D4lQyBEy.js",
       "_auth-paths-B-VxzyUX.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/site-header.tsx": {
-    "file": "assets/site-header-CvsM6Pk3.js",
+    "file": "assets/site-header-CK4OqprB.js",
     "name": "site-header",
     "src": "components/site-header.tsx",
     "isDynamicEntry": true,
@@ -1568,26 +1637,27 @@
       "virtual:vinext-app-browser-entry",
       "components/connection-indicator.tsx",
       "components/session-menu.tsx",
-      "_venezuelaagro-logo-5AQUWEv0.js",
-      "_official-links-Xt_E_7J4.js",
+      "_venezuelaagro-logo-Czx-XUy4.js",
+      "components/whatsapp-community.tsx",
+      "_official-links-Cgd77z5b.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_check-BI6S8aTq.js",
       "_chevron-down-CZShy5QM.js",
       "_user-round-BnSsUPif.js",
       "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
+      "_link-CRAU3u2e.js"
     ]
   },
   "components/social-links.tsx": {
-    "file": "assets/social-links-DHRYQmLQ.js",
+    "file": "assets/social-links-oQCfa87V.js",
     "name": "social-links",
     "src": "components/social-links.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_brand-icons-CsW0tl2I.js",
-      "_official-links-Xt_E_7J4.js",
+      "_brand-icons-C8vjqg-Z.js",
+      "_official-links-Cgd77z5b.js",
       "_dist-D02U1ZSF.js",
       "_arrow-up-right-KNzriIhG.js",
       "_share-2-B61k_0Gw.js",
@@ -1599,7 +1669,7 @@
     ]
   },
   "components/sticker-gallery.tsx": {
-    "file": "assets/sticker-gallery-CMQ-aewM.js",
+    "file": "assets/sticker-gallery-B26tpuwV.js",
     "name": "sticker-gallery",
     "src": "components/sticker-gallery.tsx",
     "isDynamicEntry": true,
@@ -1607,40 +1677,40 @@
       "_rolldown-runtime-S-ySWqyJ.js",
       "_site-image-vNvjnZcC.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
+      "_input-B4z6nxBc.js",
       "_download-CR7p2Qa1.js",
       "_search-C3Xmvdne.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "components/store-catalog.tsx": {
-    "file": "assets/store-catalog-CYadw4kW.js",
+    "file": "assets/store-catalog-koUFxOR6.js",
     "name": "store-catalog",
     "src": "components/store-catalog.tsx",
     "isDynamicEntry": true,
     "imports": [
       "_rolldown-runtime-S-ySWqyJ.js",
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
-      "_quote-conversion-D5wp7tDL.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
+      "_quote-conversion-CotIEurp.js",
       "_formal-submission-notice-fYx6jLZX.js",
-      "_image-share-DQosnZTm.js",
+      "_image-share-CuHXbZKZ.js",
       "_offline-account-boundary-DtwxSPaI.js",
       "_dialog-BTTQkP5A.js",
-      "_input-a45IPNCW.js",
+      "_input-B4z6nxBc.js",
       "_sheet-BbviR2vk.js",
-      "_textarea-CxAgNTaY.js",
-      "_offline-db-BBawtJ-7.js",
-      "_public-image-content-CD6zV0II.js",
+      "_textarea-D31nqrvU.js",
+      "_offline-db-D4lQyBEy.js",
+      "_public-image-content-C-0s7ZJl.js",
       "_createLucideIcon-DsGqHFL7.js",
       "_arrow-right-B_rdtoO7.js",
       "_building-2-CAaiUICq.js",
       "_wifi-off-AQ1QsWIl.js",
       "_framework-CXnKph_e.js",
-      "_dist-Vu7OQT5_.js"
+      "_dist-DLlwuU80.js"
     ]
   },
   "components/ui/sonner.tsx": {
-    "file": "assets/sonner-C0-d5pkl.js",
+    "file": "assets/sonner-CZ3P2M5y.js",
     "name": "sonner",
     "src": "components/ui/sonner.tsx",
     "isDynamicEntry": true,
@@ -1651,62 +1721,23 @@
       "_info-BPpCl3Qb.js",
       "_loader-circle-Do5rLFtH.js",
       "_framework-CXnKph_e.js",
-      "_dist-Vu7OQT5_.js"
+      "_dist-DLlwuU80.js"
     ]
   },
-  "node_modules/leaflet/dist/leaflet-src.js": {
-    "file": "assets/leaflet-src-BDulQfl8.js",
-    "name": "leaflet-src",
-    "src": "node_modules/leaflet/dist/leaflet-src.js",
+  "components/whatsapp-community.tsx": {
+    "file": "assets/whatsapp-community-UojEoym5.js",
+    "name": "whatsapp-community",
+    "src": "components/whatsapp-community.tsx",
     "isDynamicEntry": true,
     "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js"
-    ]
-  },
-  "node_modules/pmtiles/dist/index.js": {
-    "file": "assets/dist-BTGf5tSh.js",
-    "name": "dist",
-    "src": "node_modules/pmtiles/dist/index.js",
-    "isDynamicEntry": true
-  },
-  "node_modules/protomaps-leaflet/dist/esm/index.js": {
-    "file": "assets/esm-CVQV7vd2.js",
-    "name": "esm",
-    "src": "node_modules/protomaps-leaflet/dist/esm/index.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "node_modules/pmtiles/dist/index.js"
-    ]
-  },
-  "node_modules/vinext/dist/shims/layout-segment-context.js": {
-    "file": "assets/layout-segment-context--zI2Yq1F.js",
-    "name": "layout-segment-context",
-    "src": "node_modules/vinext/dist/shims/layout-segment-context.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
       "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js"
-    ]
-  },
-  "node_modules/vinext/dist/shims/router.js": {
-    "file": "assets/router-hECHN2OF.js",
-    "name": "router",
-    "src": "node_modules/vinext/dist/shims/router.js",
-    "isDynamicEntry": true,
-    "imports": [
-      "_rolldown-runtime-S-ySWqyJ.js",
-      "virtual:vinext-app-browser-entry",
-      "_framework-CXnKph_e.js",
-      "_link-BdfWHMt7.js"
-    ],
-    "dynamicImports": [
+      "_createLucideIcon-DsGqHFL7.js",
+      "_arrow-up-right-KNzriIhG.js",
       "_framework-CXnKph_e.js"
     ]
   },
   "virtual:vinext-app-browser-entry": {
-    "file": "assets/index-BLkX0tqb.js",
+    "file": "assets/index-tR2RK38H.js",
     "name": "index",
     "src": "virtual:vinext-app-browser-entry",
     "isEntry": true,
@@ -1715,54 +1746,56 @@
       "_framework-CXnKph_e.js"
     ],
     "dynamicImports": [
+      "components/whatsapp-community.tsx",
       "components/professional-manager.tsx",
       "components/google-signin.tsx",
-      "node_modules/vinext/dist/shims/layout-segment-context.js",
       "components/home-farm-preview.tsx",
       "components/sticker-gallery.tsx",
       "components/public-workspace-controls.tsx",
-      "components/install-app-banner.tsx",
-      "_price-conversion-CxqFUFoC.js",
-      "_community-forms-IV1DR7ED.js",
       "_Icon-BJEC1M7G.js",
+      "components/install-app-banner.tsx",
+      "_price-conversion-0cJIKi6_.js",
+      "_community-forms-Dl89KoNk.js",
       "components/mobile-public-actions.tsx",
       "components/farm-demo-workspace.tsx",
       "components/marketplace-browser.tsx",
       "components/professional-directory.tsx",
       "components/connectivity-pill.tsx",
-      "_quote-conversion-D5wp7tDL.js",
+      "_quote-conversion-CotIEurp.js",
       "components/company-manager.tsx",
       "components/learning-catalog.tsx",
       "components/store-catalog.tsx",
-      "virtual:vinext-app-browser-entry",
       "components/farm-dashboard.tsx",
-      "_listing-form-DXERaPgi.js",
-      "_contextual-whatsapp-contact-Dz6sCQj6.js",
-      "_image-share-DQosnZTm.js",
+      "_listing-form-CjAgKTBW.js",
+      "_contextual-whatsapp-contact-DRqp31Jq.js",
+      "_image-share-CuHXbZKZ.js",
       "components/home-content-editor.tsx",
       "components/project-example.tsx",
       "components/session-menu.tsx",
       "components/site-header.tsx",
+      "virtual:vinext-app-browser-entry",
       "_image-CwgptN7L.js",
       "components/marketplace-detail.tsx",
       "components/connection-indicator.tsx",
       "components/offline-worker-registration.tsx",
-      "_professional-tariffs-DtULU_eR.js",
+      "node_modules/vinext/dist/shims/layout-segment-context.js",
+      "_professional-tariffs-Bs0evR6X.js",
       "components/social-links.tsx",
       "components/directory-return-link.tsx",
       "components/design-form-example.tsx",
+      "components/home-history-video.tsx",
       "components/farm-showcase.tsx",
-      "_link-BdfWHMt7.js",
+      "_link-CRAU3u2e.js",
       "components/learning-form-preview.tsx",
       "components/admin-dashboard.tsx",
       "components/company-directory.tsx",
       "components/account-services.tsx",
       "components/offline-library.tsx",
       "components/device-install-action.tsx",
-      "_security-center-CtaCESKJ.js",
+      "_security-center-LIjkoaiW.js",
       "components/ui/sonner.tsx",
       "components/offline-navigation.tsx",
-      "_agro-network-B2DY_9wS.js"
+      "_agro-network-BynfNFIj.js"
     ]
   }
 }

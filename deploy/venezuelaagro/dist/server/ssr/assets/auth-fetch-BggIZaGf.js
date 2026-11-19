@@ -1,4 +1,3 @@
-//#region lib/auth-fetch.ts
 /** Adds standalone CSRF proof without changing hosted Sites requests or offline queues. */
 var CSRF_TIMEOUT_MS = 1e4;
 var csrfPending = null;
@@ -67,5 +66,4 @@ async function authFetch(input, init) {
 		credentials: "same-origin"
 	});
 }
-//#endregion
 export { authFetch as t };

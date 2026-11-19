@@ -1,6 +1,5 @@
 import { E as __toESM, b as require_react, n as require_jsx_runtime } from "../index.js";
 import { t as chatGPTSignInPath } from "./auth-paths-DyLjOkUj.js";
-//#region lib/offline-owner.ts
 var import_react = /* @__PURE__ */ __toESM(require_react(), 1);
 var KEY = "venezuela-agro-last-local-owner";
 var SIGN_OUT_KEY = "venezuela-agro-session-boundary";
@@ -177,8 +176,6 @@ function selectVerifiedDashboardOwner(owner) {
 		sessionStorage.setItem(KEY, owner);
 	} catch {}
 }
-//#endregion
-//#region components/offline-account-boundary.tsx
 var import_jsx_runtime = require_jsx_runtime();
 var BOUNDARY_KEY = "venezuela-agro-session-boundary";
 var OfflineAccountBlocked = (0, import_react.createContext)(null);
@@ -400,5 +397,4 @@ function OfflineAccountLockPanel({ withinModal = false }) {
 		]
 	});
 }
-//#endregion
 export { databaseNameForOwner as a, offlineChoiceRequired as c, selectVerifiedDashboardOwner as d, subscribeOfflineChoice as f, chooseOfflineWorkspace as i, prepareOfflineSignOut as l, OfflineAccountLockPanel as n, forgetOfflineWorkspace as o, verifySyncOwner as p, useOfflineAccountBlocked as r, localOwner as s, OfflineAccountBoundary as t, rememberOfflineWorkspace as u };

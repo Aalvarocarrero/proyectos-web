@@ -1,0 +1,1 @@
+var e=`project-publication-2026-11-19`,t=`Autorizo presentar públicamente la ficha de este proyecto en la galería de Venezuela Agro, después de revisión. Mi contacto no se publica. Esta autorización es opcional y no solicita financiación.`;export{e as n,t};

@@ -1,4 +1,3 @@
-//#region lib/agro-catalog.ts
 var agroFamilies = [
 	{
 		name: "Cereales",
@@ -478,5 +477,4 @@ var agroEntries = agroFamilies.flatMap((f) => f.items.map((name) => ({
 function findAgroEntry(name) {
 	return agroEntries.find((entry) => entry.name === name);
 }
-//#endregion
 export { findAgroEntry as a, cropNames as i, agroFamilies as n, productionRubrics as o, animalNames as r, agroEntries as t };

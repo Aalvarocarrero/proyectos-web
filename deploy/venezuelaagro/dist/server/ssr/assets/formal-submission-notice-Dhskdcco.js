@@ -82,8 +82,6 @@ function formalSubmissionReturnPath(kind, path) {
 function formalSubmissionLoginPath(kind, path) {
 	return chatGPTSignInPath(formalSubmissionReturnPath(kind, path));
 }
-//#endregion
-//#region components/formal-submission-notice.tsx
 var import_jsx_runtime = require_jsx_runtime();
 function FormalSubmissionNotice({ onLogin, loginNeeded = false }) {
 	if (!requiresFormalSession()) return null;
@@ -105,5 +103,4 @@ function FormalSubmissionNotice({ onLogin, loginNeeded = false }) {
 		]
 	});
 }
-//#endregion
 export { formalSubmissionLoginPath as a, loadFormalDraft as c, saveFormalDraft as d, formalSubmissionError as i, requireFormalSubmissionSession as l, FormalSubmissionAuthError as n, formalSubmissionNeedsLogin as o, clearFormalDraft as r, isFormalSubmissionAuthError as s, FormalSubmissionNotice as t, requiresFormalSession as u };

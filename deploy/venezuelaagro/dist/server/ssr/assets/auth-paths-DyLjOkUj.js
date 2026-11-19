@@ -1,4 +1,3 @@
-//#region lib/auth-paths.ts
 /** Public routing only: safe for browser bundles, with no environment secrets. */
 function isStandaloneAuth() {
 	return true;
@@ -28,5 +27,4 @@ function chatGPTSignInPath(returnTo) {
 function chatGPTSignOutPath(returnTo = "/") {
 	return isStandaloneAuth() ? "/api/auth/logout" : `/signout-with-chatgpt?return_to=${encodeURIComponent(safeRelativeReturnPath(returnTo))}`;
 }
-//#endregion
 export { safeRelativeReturnPath as i, chatGPTSignOutPath as n, isStandaloneAuth as r, chatGPTSignInPath as t };

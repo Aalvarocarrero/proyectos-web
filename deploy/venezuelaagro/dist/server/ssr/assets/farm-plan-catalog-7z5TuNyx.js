@@ -201,8 +201,6 @@ function getAreaOutline(data) {
 	const result = validateNormalizedSketchPolygon(data.typedAreaOutline);
 	return result.ok ? result.polygon : null;
 }
-//#endregion
-//#region lib/illustrated-geometry.ts
 var project = (p, c, z = 0) => ({
 	x: c.pan.x + c.scale * (c.origin.x + p.x + .18 * p.y),
 	y: c.pan.y + c.scale * (c.origin.y + .11 * p.x + .68 * p.y - z)
@@ -291,8 +289,6 @@ function outlineExceedsProperty(outline, property) {
 		});
 	});
 }
-//#endregion
-//#region lib/farm-plan-catalog.ts
 var PLAN_CROP_CATALOG = [
 	{
 		kind: "tomato",
@@ -441,5 +437,4 @@ function cropIllustrationSlots(outline, property, footprintRadius, limit = 48) {
 	if (accepted.length <= count) return accepted;
 	return Array.from({ length: count }, (_, index) => accepted[Math.floor((index + .5) * accepted.length / count)]);
 }
-//#endregion
 export { validateSurveyVertices as C, validateNormalizedSketchPolygon as S, project as _, cropModelKind as a, getAreaOutline as b, freshDemoAreaData as c, bounds as d, edgeClearance as f, outlineExceedsProperty as g, interiorSlots as h, cropIllustrationSlots as i, measuredAreaFromDimensions as l, interiorAnchor as m, catalogCropLabel as n, declaredPlanDimensions as o, inside as p, cropCatalogEntry as r, exactPlanLayout as s, PLAN_CROP_CATALOG as t, structureModelKind as u, unproject as v, hasCustomAreaOutline as x, canonicalizeNormalizedSketchPolygon as y };

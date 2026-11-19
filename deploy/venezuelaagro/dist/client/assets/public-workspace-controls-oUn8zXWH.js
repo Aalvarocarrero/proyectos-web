@@ -1,0 +1,1 @@
+import{c as e}from"./index-tR2RK38H.js";function t({children:t}){let n=e();return n===`/admin`||n.startsWith(`/admin/`)||n===`/juego-finca`||n.startsWith(`/juego-finca/`)?null:t}export{t as PublicWorkspaceControls};

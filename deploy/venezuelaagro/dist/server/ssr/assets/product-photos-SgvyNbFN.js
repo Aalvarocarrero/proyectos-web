@@ -1,4 +1,3 @@
-//#region lib/product-photos.ts
 var productPhotos = [
 	{
 		"id": "pollo",
@@ -193,5 +192,4 @@ var productPhotos = [
 		"sha256": "430475047ee655265b411f21a715e31e8f55d267aa7893d98762c2b3d8c45f6a"
 	}
 ];
-//#endregion
 export { productPhotos as t };

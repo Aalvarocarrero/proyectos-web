@@ -1,4 +1,3 @@
-//#region lib/venezuela.ts
 var venezuelanStates = [
 	"Amazonas",
 	"Anzoátegui",
@@ -25,5 +24,4 @@ var venezuelanStates = [
 	"Yaracuy",
 	"Zulia"
 ];
-//#endregion
 export { venezuelanStates as t };
