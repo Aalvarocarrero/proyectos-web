@@ -2,6 +2,7 @@ globalThis.__VINEXT_LAZY_CHUNKS__ = ["assets/leaflet-src-C2eznves.js","assets/di
 import * as __viteRscAsyncHooks from "node:async_hooks";
 import { AsyncLocalStorage as AsyncLocalStorage$1 } from "node:async_hooks";
 import assetsManifest from "./__vite_rsc_assets_manifest.js";
+import { listPublicIdeas, handleGalleryRequest, IDEA_FORM, MODERATION, GALLERY, supportHref, maskContact } from "./proposal-gallery.mjs";
 import "node:fs";
 import "node:path";
 var __create = Object.create;
@@ -24468,6 +24469,12 @@ function HomePageContent({ content }) {
 								Icon: Landmark
 							},
 							{
+								href: GALLERY,
+								title: "Propuestas de proyectos en todo el territorio venezolano",
+								text: "Explorar proyectos e ideas publicados",
+								Icon: Handshake
+							},
+							{
 								href: "/red",
 								title: "Comunidad",
 								text: "Conectar con productores",
@@ -25000,8 +25007,11 @@ function HomePageContent({ content }) {
 								children: "Propón mejoras o herramientas para la plataforma con “Compartir mi idea”. Si el navegador permite guardar datos, tu idea puede quedar pendiente en este dispositivo; al reconectar, revisa su confirmación de recepción."
 							})
 						] }), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
-							className: "rounded-full bg-[#e5927c] px-5 py-3 text-sm font-bold",
-							children: "Tu experiencia cuenta"
+							className: "flex flex-wrap gap-3",
+							children: [
+								galleryLink("/proyectos#ideas-publicas", "Ver ideas publicadas", "button-light"),
+								galleryLink(IDEA_FORM, "Presentar una idea pública", "button-dark")
+							]
 						})]
 					})
 				]
@@ -29137,7 +29147,7 @@ async function AdminPage() {
 						/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 							className: "mt-4 max-w-2xl text-sm leading-7 text-[#71685f]",
 							children: "Revisa la comunidad, gestiona publicaciones y atiende solicitudes. Usa las secciones de arriba para ir directamente a lo que necesitas."
-						})
+						}), galleryLink(MODERATION, "Revisar ideas para la vitrina pública", "button-dark mt-4")
 					]
 				}),
 				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
@@ -31894,14 +31904,14 @@ function publicProfessionalRow(row) {
 function publicProjectRow(row) {
 	return {
 		id: row.id,
-		title: row.title,
-		sector: row.sector,
-		state: row.state,
-		summary: row.summary,
-		has: parseStringListJson(row.hasJson),
-		needs: parseStringListJson(row.needsJson),
-		impact: row.impact,
-		requestedSupport: row.requestedSupport,
+		title: maskContact(row.title),
+		sector: maskContact(row.sector),
+		state: maskContact(row.state),
+		summary: maskContact(row.summary),
+		has: parseStringListJson(row.hasJson).map(maskContact),
+		needs: parseStringListJson(row.needsJson).map(maskContact),
+		impact: maskContact(row.impact),
+		requestedSupport: maskContact(row.requestedSupport),
 		status: row.status,
 		createdAt: row.createdAt,
 		updatedAt: row.updatedAt
@@ -42655,9 +42665,9 @@ function FinancingPage() {
 							className: "button-dark",
 							children: "Ir a Tu proyecto"
 						}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(link_default, {
-							href: "/proyectos",
-							className: "button-light",
-							children: "Ver la galería de proyectos"
+							href: GALLERY,
+								className: "button-light",
+								children: "Ver la galería de proyectos e ideas"
 						})]
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("aside", {
@@ -44860,6 +44870,32 @@ var page_exports$10 = /* @__PURE__ */ __exportAll({
 });
 var dynamic$9 = "force-dynamic";
 var metadata$4 = pageMetadata("/proyectos", "Proyectos y alianzas del agro", "Proyectos agropecuarios venezolanos que buscan alianzas, profesionales, logística, inversión o visibilidad.");
+function galleryLink(href, children, className = "button-light") {
+	return (0, import_jsx_runtime_react_server.jsx)("a", { href, className, children });
+}
+async function IdeaGallery() {
+	let rows = [], unavailable = false;
+	try {
+		const { env } = await import("cloudflare:workers");
+		rows = await listPublicIdeas(env.DB);
+	} catch { unavailable = true; }
+	const h = (tag, props, key) => (0, import_jsx_runtime_react_server.jsx)(tag, props, key);
+	return h("section", { id: "ideas-publicas", className: "mt-12 scroll-mt-28", "aria-labelledby": "ideas-publicas-title", children: [
+		h("p", { className: "section-kicker", children: "IDEAS PUBLICADAS" }, "kicker"),
+		h("h2", { id: "ideas-publicas-title", className: "font-display mt-3 text-4xl", children: "Ideas del agro venezolano" }, "title"),
+		h("p", { className: "mt-3 text-sm leading-7", children: "Ficha pública solo con autorización de su autor y revisión de Venezuela Agro. No mostramos los datos de contacto." }, "intro"),
+		h("div", { className: "mt-5 grid gap-4 md:grid-cols-2", children: rows.length ? rows.map(row => h("article", { id: "idea-" + row.id, className: "rounded-2xl border bg-white p-6", children: [
+			h("p", { className: "section-kicker", children: row.state }, "state"),
+			h("h3", { className: "font-display mt-2 text-3xl", children: row.title }, "title"),
+			h("p", { className: "mt-3 text-sm leading-7", style: {whiteSpace:"pre-wrap",overflowWrap:"anywhere"}, children: row.body }, "body"),
+			h("a", { className: "button-light mt-5", href: supportHref(row.id), rel: "noopener noreferrer", children: "Me interesa colaborar" }, "contact")
+		]}, row.id)) : h("p", { className: "rounded-2xl border border-dashed p-6", role: "status", children: unavailable ? "No pudimos cargar las ideas ahora. Intenta nuevamente más tarde." : "Todavía no hay ideas publicadas." }) }, "entries"),
+		h("div", { className: "mt-5 flex flex-wrap gap-3", children: [
+			h("a", { className: "button-dark", href: IDEA_FORM, children: "Presentar una idea pública" }, "submit"),
+			h("a", { className: "button-light", href: GALLERY, children: "Volver a proyectos" }, "projects")
+		]}, "actions")
+	] });
+}
 async function ProjectsPage() {
 	const user = await getChatGPTUser();
 	let rows = [];
@@ -45010,16 +45046,17 @@ async function ProjectsPage() {
 						}, title))
 					}),
 					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
-						className: "mt-16",
+						id: "vitrina-propuestas",
+						className: "mt-16 scroll-mt-28",
 						children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
-							className: "flex items-end justify-between",
+							className: "flex flex-wrap items-end justify-between gap-4",
 							children: /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", { children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 								className: "section-kicker",
 								children: "VITRINA DE PROPUESTAS"
 							}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
 								className: "font-display mt-3 text-4xl sm:text-6xl",
-								children: "Proyectos abiertos."
-							})] })
+								children: "Propuestas de proyectos en todo el territorio venezolano"
+							}), galleryLink("#ideas-publicas", "Ver ideas publicadas", "button-light mt-3")] })
 						}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("div", {
 							className: "mt-8 grid gap-4 md:grid-cols-2",
 							children: rows.length ? rows.map((project) => /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("article", {
@@ -45029,20 +45066,20 @@ async function ProjectsPage() {
 										className: "flex items-center justify-between",
 										children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("span", {
 											className: "rounded-full bg-[#e8f0df] px-3 py-1 text-xs font-bold text-[#365026]",
-											children: project.sector
+											children: maskContact(project.sector)
 										}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ArrowUpRight, { size: 18 })]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h3", {
 										className: "font-display mt-5 text-3xl",
-										children: project.title
+										children: maskContact(project.title)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 										className: "mt-3 text-sm leading-7 text-[#5f574f]",
-										children: project.summary
+										children: maskContact(project.summary)
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("p", {
 										className: "mt-5 flex items-center gap-2 text-xs font-semibold",
-										children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MapPin, { size: 14 }), project.state]
+										children: [/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(MapPin, { size: 14 }), maskContact(project.state)]
 									}),
 									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
 										className: "mt-5 rounded-xl bg-[#f3ebdd] p-4",
@@ -45051,14 +45088,10 @@ async function ProjectsPage() {
 											children: "Apoyo solicitado"
 										}), /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 											className: "mt-2 text-sm leading-6",
-											children: project.requestedSupport
+											children: maskContact(project.requestedSupport)
 										})]
 									}),
-									/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ContextualWhatsAppContact, {
-										context: `el proyecto ${project.title}`,
-										unavailableMessage: "Este proyecto todavía no tiene un teléfono público habilitado para WhatsApp.",
-										className: "mt-5"
-									})
+									galleryLink(supportHref(project.id), "Me interesa colaborar", "button-light mt-5")
 								]
 							}, project.id)) : /* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
 								className: "md:col-span-2 rounded-[1.7rem] border border-dashed border-[#3e2a19]/20 p-10 text-center",
@@ -45076,7 +45109,8 @@ async function ProjectsPage() {
 							})
 						})]
 					}),
-					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ProjectExample, {}),
+					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(IdeaGallery, {}),
+				/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)(ProjectExample, {}),
 					/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsxs)("div", {
 						id: "presentar-proyecto",
 						tabIndex: -1,
@@ -45085,7 +45119,7 @@ async function ProjectsPage() {
 							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("p", {
 								className: "section-kicker",
 								children: "CUÉNTANOS TU PROYECTO"
-							}),
+	}), galleryLink(GALLERY, "Ver propuestas publicadas", "button-light mt-4"),
 							/* @__PURE__ */ (0, import_jsx_runtime_react_server.jsx)("h2", {
 								className: "font-display mt-3 text-4xl",
 								children: "Presenta tu iniciativa y el apoyo que necesitas."
@@ -51406,6 +51440,13 @@ var worker = { async fetch(request, env, ctx) {
 		const sanitized = new Headers(request.headers);
 		for (const key of [...sanitized.keys()]) if (key.toLowerCase().startsWith("oai-authenticated-")) sanitized.delete(key);
 		request = new Request(request, { headers: sanitized });
+		if (config.accessPolicy === "public-production" && [IDEA_FORM, MODERATION].includes(url.pathname)) {
+			try {
+				return secureResponse(await handleGalleryRequest(request, env, config, { getSession, cookieValue, issueCsrf, verifyCsrf }), url);
+			} catch {
+				return secureResponse(new Response("No pudimos cargar esta página. Intenta de nuevo más tarde.", { status: 503, headers: { "cache-control": "private, no-store" } }), url);
+			}
+		}
 		const authPath = ["GET", "HEAD"].includes(request.method) && [
 			"/auth/signin",
 			"/api/auth/csrf",
