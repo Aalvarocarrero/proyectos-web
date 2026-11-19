@@ -116,6 +116,7 @@ var PUBLIC_PAGES = new Set([
 	"/manifest.webmanifest",
 	"/offline-assets.json",
 	"/offline-library-assets.json",
+	"/historia/playitas-betania-poster.webp",
 	"/sw.js"
 ]);
 var PUBLIC_READ_APIS = new Set([
